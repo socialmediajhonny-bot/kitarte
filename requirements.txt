@@ -1,0 +1,6 @@
+playwright==1.62.0
+picosvg==0.23.0
+fonttools==4.61.1
+Pillow==12.3.0
+pypdf==6.10.0
+PyMuPDF==1.26.6

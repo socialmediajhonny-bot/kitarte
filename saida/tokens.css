@@ -1,0 +1,64 @@
+/* Gerado de kit/design-system/tokens.json; não edite manualmente. */
+@font-face { font-family: "Cormorant Garamond"; src: url("/kit/fontes/CormorantGaramond-Medium.ttf") format('truetype'); font-weight: 500; font-style: normal; font-display: block; }
+@font-face { font-family: "Cormorant Garamond"; src: url("/kit/fontes/CormorantGaramond-SemiBold.ttf") format('truetype'); font-weight: 600; font-style: normal; font-display: block; }
+@font-face { font-family: "Cormorant Garamond"; src: url("/kit/fontes/CormorantGaramond-MediumItalic.ttf") format('truetype'); font-weight: 500; font-style: italic; font-display: block; }
+@font-face { font-family: "Cormorant Garamond"; src: url("/kit/fontes/CormorantGaramond-SemiBoldItalic.ttf") format('truetype'); font-weight: 600; font-style: italic; font-display: block; }
+@font-face { font-family: "Lato"; src: url("/kit/fontes/Lato-Regular.ttf") format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: "Lato"; src: url("/kit/fontes/Lato-Bold.ttf") format('truetype'); font-weight: 700; font-style: normal; font-display: block; }
+:root {
+  --font-serifa: "Cormorant Garamond", Garamond, Georgia, serif;
+  --font-sem-serifa: Lato, "Helvetica Neue", Arial, sans-serif;
+  --espaco-1: 8px;
+  --espaco-2: 16px;
+  --espaco-3: 32px;
+  --espaco-4: 48px;
+  --espaco-5: 80px;
+  --espaco-6: 240px;
+  --raio-reto: 0px;
+  --raio-arco: 9999px;
+  --post-largura: 1080px;
+  --post-altura: 1350px;
+  --story-altura: 1920px;
+  --recorte-grid: 34px;
+  --avatar-tamanho: 1080px;
+}
+[data-theme="pergaminho"] {
+  --fundo: #f2eadb;
+  --papel: #faf6ee;
+  --tinta: #241b14;
+  --tinta-suave: #665647;
+  --linha: #d3c3a9;
+  --ouro: #866420;
+  --liturgico-verde: #2e5b3b;
+  --liturgico-roxo: #5b2e70;
+  --liturgico-branco: var(--ouro);
+  --liturgico-vermelho: #8e2020;
+  --liturgico-rosa: #99476a;
+  --cor-do-dia: var(--liturgico-verde);
+  --sobre-cor: #faf6ee;
+}
+[data-theme="capela"] {
+  --fundo: #16110d;
+  --papel: #211a15;
+  --tinta: #f3eadb;
+  --tinta-suave: #bbad98;
+  --linha: #3d3229;
+  --ouro: #cfa956;
+  --liturgico-verde: #74aa82;
+  --liturgico-roxo: #ac8bc6;
+  --liturgico-branco: var(--ouro);
+  --liturgico-vermelho: #d86e60;
+  --liturgico-rosa: #de9eb5;
+  --cor-do-dia: var(--liturgico-verde);
+  --sobre-cor: #16110d;
+}
+.titulo-capa { font-family: var(--font-serifa); font-size: 92px; line-height: 96px; font-weight: 600; font-style: normal; letter-spacing: 0em; }
+.titulo { font-family: var(--font-serifa); font-size: 68px; line-height: 76px; font-weight: 600; font-style: normal; letter-spacing: 0em; }
+.citacao { font-family: var(--font-serifa); font-size: 54px; line-height: 68px; font-weight: 500; font-style: italic; letter-spacing: 0em; }
+.citacao-grande { font-family: var(--font-serifa); font-size: 80px; line-height: 88px; font-weight: 500; font-style: italic; letter-spacing: 0em; }
+.oracao { font-family: var(--font-serifa); font-size: 44px; line-height: 62px; font-weight: 500; font-style: normal; letter-spacing: 0em; }
+.selo { font-family: var(--font-sem-serifa); font-size: 32px; line-height: 40px; font-weight: 700; font-style: normal; letter-spacing: 0.01em; }
+.referencia { font-family: var(--font-sem-serifa); font-size: 32px; line-height: 40px; font-weight: 700; font-style: normal; letter-spacing: 0.02em; }
+.corpo { font-family: var(--font-sem-serifa); font-size: 34px; line-height: 50px; font-weight: 400; font-style: normal; letter-spacing: 0em; }
+.credito { font-family: var(--font-sem-serifa); font-size: 24px; line-height: 32px; font-weight: 400; font-style: normal; letter-spacing: 0em; }
+.assinatura { font-family: var(--font-sem-serifa); font-size: 26px; line-height: 32px; font-weight: 700; font-style: normal; letter-spacing: 0.02em; }
