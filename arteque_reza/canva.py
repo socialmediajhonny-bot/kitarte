@@ -280,7 +280,10 @@ def export_elements(output_dir: Path) -> dict:
     metadata["green_test_niche"] = str(green)
     logos = output_dir / "logos"
     logos.mkdir(exist_ok=True)
-    for source in sorted((KIT / "logos").glob("*.svg")):
+    logo_sources = sorted((KIT / "logos").glob("*.svg"))
+    if len(logo_sources) != 10 or not any(source.name == "logo-horizontal-sobre-cor.svg" for source in logo_sources):
+        raise ValueError("O kit v2 precisa conter dez logos SVG, incluindo o horizontal sobre cor.")
+    for source in logo_sources:
         metadata["logos"].append(_export_logo(source, logos / source.name))
     shutil.copy2(KIT / "logos/avatar-perfil.png", logos / "avatar-perfil.png")
     metadata["avatar_png"] = str(logos / "avatar-perfil.png")

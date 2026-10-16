@@ -1,0 +1,1400 @@
+{
+  "kit": {
+    "ok": true,
+    "version": 2,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 42,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "dias": {
+    "2026-11-29": {
+      "cards": [
+        {
+          "card": 1,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1105.390498
+              },
+              {
+                "campo": "credito",
+                "logo_px": 242.0
+              },
+              {
+                "campo": "titulo",
+                "logo_px": 42.0
+              }
+            ],
+            "selo_referencia_px": 242.90625,
+            "centralizacao_vertical": null,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/saida/evangelho/2026-11-29/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 340.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        216,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        201,
+                        512
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        180,
+                        913
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        300,
+                        252
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        296,
+                        248
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        779,
+                        252
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        783,
+                        248
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          }
+        },
+        {
+          "card": 2,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1105.390498
+              },
+              {
+                "campo": "trecho",
+                "logo_px": 489.0
+              },
+              {
+                "campo": "trecho_ref",
+                "logo_px": 433.0
+              }
+            ],
+            "selo_referencia_px": 242.90625,
+            "centralizacao_vertical": {
+              "respiro_superior_px": 433,
+              "respiro_inferior_px": 433,
+              "diferenca_px": 0
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          }
+        },
+        {
+          "card": 3,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1105.390498
+              },
+              {
+                "campo": "chamada_reflexao",
+                "logo_px": 758.5
+              },
+              {
+                "campo": "reflexao.titulo",
+                "logo_px": 666.5
+              },
+              {
+                "campo": "reflexao.texto",
+                "logo_px": 299.5
+              }
+            ],
+            "selo_referencia_px": 242.90625,
+            "centralizacao_vertical": {
+              "respiro_superior_px": 299.5,
+              "respiro_inferior_px": 299.5,
+              "diferenca_px": 0.0
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          }
+        },
+        {
+          "card": 4,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1105.390498
+              },
+              {
+                "campo": "chamada_oracao",
+                "logo_px": 688.5
+              },
+              {
+                "campo": "pergunta",
+                "logo_px": 536.5
+              },
+              {
+                "campo": "convite",
+                "logo_px": 369.5
+              }
+            ],
+            "selo_referencia_px": 242.90625,
+            "centralizacao_vertical": {
+              "respiro_superior_px": 369.5,
+              "respiro_inferior_px": 369.5,
+              "diferenca_px": 0.0
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#faf6ee",
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#5b2e70",
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          }
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 141
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 90
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 308
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 154
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11432
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 25572
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12452
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13572
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12888
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9656
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12604
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21904
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12692
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14944
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16828
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10080
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     84  0\n",
+        "titulo_extraivel": true,
+        "convite_extraivel": true,
+        "errors": []
+      }
+    },
+    "2026-12-13": {
+      "cards": [
+        {
+          "card": 1,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1102.73331
+              },
+              {
+                "campo": "credito",
+                "logo_px": 242.0
+              },
+              {
+                "campo": "titulo",
+                "logo_px": 42.0
+              }
+            ],
+            "selo_referencia_px": 220.140625,
+            "centralizacao_vertical": null,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#de9eb5",
+                "rgb": [
+                  222,
+                  158,
+                  181
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/saida/evangelho/2026-12-13/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 340.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        216,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "actual_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        201,
+                        512
+                      ],
+                      "expected_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "actual_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        180,
+                        913
+                      ],
+                      "expected_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "actual_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        300,
+                        252
+                      ],
+                      "expected_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "actual_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        296,
+                        248
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "actual_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        779,
+                        252
+                      ],
+                      "expected_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "actual_rgb": [
+                        222,
+                        158,
+                        181
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        783,
+                        248
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          }
+        },
+        {
+          "card": 2,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1102.73331
+              },
+              {
+                "campo": "trecho",
+                "logo_px": 489.0
+              },
+              {
+                "campo": "trecho_ref",
+                "logo_px": 433.0
+              }
+            ],
+            "selo_referencia_px": 220.140625,
+            "centralizacao_vertical": {
+              "respiro_superior_px": 433,
+              "respiro_inferior_px": 433,
+              "diferenca_px": 0
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#de9eb5",
+                "rgb": [
+                  222,
+                  158,
+                  181
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          }
+        },
+        {
+          "card": 3,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1102.73331
+              },
+              {
+                "campo": "chamada_reflexao",
+                "logo_px": 733.5
+              },
+              {
+                "campo": "reflexao.titulo",
+                "logo_px": 641.5
+              },
+              {
+                "campo": "reflexao.texto",
+                "logo_px": 324.5
+              }
+            ],
+            "selo_referencia_px": 220.140625,
+            "centralizacao_vertical": {
+              "respiro_superior_px": 324.5,
+              "respiro_inferior_px": 324.5,
+              "diferenca_px": 0.0
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#de9eb5",
+                "rgb": [
+                  222,
+                  158,
+                  181
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          }
+        },
+        {
+          "card": 4,
+          "layout": {
+            "ok": true,
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1099.355835
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "referencia",
+                "logo_px": 1102.73331
+              },
+              {
+                "campo": "chamada_oracao",
+                "logo_px": 688.5
+              },
+              {
+                "campo": "pergunta",
+                "logo_px": 536.5
+              },
+              {
+                "campo": "convite",
+                "logo_px": 369.5
+              }
+            ],
+            "selo_referencia_px": 220.140625,
+            "centralizacao_vertical": {
+              "respiro_superior_px": 369.5,
+              "respiro_inferior_px": 369.5,
+              "diferenca_px": 0.0
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#faf6ee",
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#99476a",
+                "rgb": [
+                  153,
+                  71,
+                  106
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          }
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 149
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 104
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 271
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 164
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11432
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 25948
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14860
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13364
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13824
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10356
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12604
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 22256
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12024
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17088
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17540
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11112
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     84  0\n",
+        "titulo_extraivel": true,
+        "convite_extraivel": true,
+        "errors": []
+      }
+    }
+  },
+  "pngs": {
+    "ok": true,
+    "count": 10,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-11-29/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-11-29/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-11-29/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-11-29/card-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-12-13/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-12-13/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-12-13/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-12-13/card-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/prancha.png",
+        "expected": [
+          1576,
+          1092
+        ],
+        "ok": true,
+        "actual": [
+          1576,
+          1092
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/prancha-cores.png",
+        "expected": [
+          808,
+          2682
+        ],
+        "ok": true,
+        "actual": [
+          808,
+          2682
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 2,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 42,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "ok": true,
+  "obras_pendentes": [
+    "2026-11-29",
+    "2026-12-13"
+  ]
+}

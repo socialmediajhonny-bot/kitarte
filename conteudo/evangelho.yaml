@@ -1,0 +1,47 @@
+# Evangelho do Dia · conteúdo dos carrosséis
+# Texto em bloco (|-) com mais de uma linha = quebra de linha manual.
+
+- data: 2026-11-29
+  celebracao: 1º Domingo do Advento
+  cor: roxo
+  referencia: Mc 13,33-37
+  titulo: |-
+    O Senhor vem.
+    Fique acordado.
+  obra:
+    arquivo: obras/2026-11-29.jpg
+    credito: James Tissot · A profecia da destruição do Templo · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4551
+    foco: 50% 50%
+  trecho: |-
+    O que vos digo, digo a todos:
+    Vigiai!
+  trecho_ref: Mc 13,37
+  reflexao:
+    titulo: A Igreja começa o ano esperando
+    texto: >-
+      O Advento prepara duas vindas de Jesus: a do Natal, que celebramos,
+      e a do fim dos tempos, que esperamos. Por isso o Evangelho de hoje
+      pede atenção, não medo. Na Missa, repare na coroa com a primeira
+      vela acesa.
+  pergunta: O que em mim está dormindo e precisa acordar neste Advento?
+
+- data: 2026-12-13
+  celebracao: 3º Domingo do Advento (Gaudete)
+  cor: rosa
+  referencia: Jo 1,6-8.19-28
+  titulo: Ele não era a luz, mas veio falar dela
+  obra:
+    arquivo: obras/2026-12-13.jpg
+    credito: James Tissot · São João Batista e os fariseus · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4449
+    foco: 50% 50%
+  trecho: No meio de vós está aquele que vós não conheceis.
+  trecho_ref: Jo 1,26
+  reflexao:
+    titulo: O domingo da alegria
+    texto: >-
+      Gaudete quer dizer “alegrai-vos”. O Natal está perto, e na coroa se
+      acende a vela rosa. João Batista mostra de onde vem essa alegria: ele
+      não aponta para si mesmo, aponta para Jesus.
+  pergunta: Onde Jesus já está no meio da minha vida, e eu ainda não percebi?

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
 import importlib.util
 import os
 from pathlib import Path
@@ -13,7 +14,7 @@ ROOT = Path(__file__).resolve().parent
 
 
 def dependencies() -> None:
-    required = {"playwright": "playwright", "picosvg": "picosvg", "fontTools": "fonttools", "PIL": "Pillow", "pypdf": "pypdf", "fitz": "PyMuPDF"}
+    required = {"playwright": "playwright", "picosvg": "picosvg", "fontTools": "fonttools", "PIL": "Pillow", "pypdf": "pypdf", "fitz": "PyMuPDF", "yaml": "PyYAML"}
     missing = [package for module, package in required.items() if importlib.util.find_spec(module) is None]
     if missing:
         local_python = ROOT / ".venv/bin/python"
@@ -31,6 +32,11 @@ def ensure_kit() -> None:
         names = [item.filename for item in entries]
         if len(set(names)) != len(names):
             raise RuntimeError("O ZIP contém caminhos repetidos.")
+        files = [item for item in entries if not item.is_dir()]
+        if len(files) != 42 or "kit/logos/logo-horizontal-sobre-cor.svg" not in names:
+            raise RuntimeError("É necessário o kit versão 2, com 42 arquivos e o logo sobre-cor.")
+        if "versão 2" not in archive.read("kit/LEIA-ME.md").decode("utf-8").splitlines()[0]:
+            raise RuntimeError("O LEIA-ME do kit não identifica a versão 2.")
         for item in entries:
             path = Path(item.filename)
             if path.is_absolute() or ".." in path.parts or path.parts[0] != "kit" or "\\" in item.filename or ((item.external_attr >> 16) & 0o170000) == 0o120000:
@@ -40,6 +46,9 @@ def ensure_kit() -> None:
                 raise RuntimeError(f"Link não permitido no kit: {item.filename}")
             if not item.is_dir() and target.exists() and target.read_bytes() != archive.read(item):
                 raise RuntimeError(f"O arquivo {item.filename} difere do ZIP. O gerador não sobrescreve o kit.")
+        extras = {p.relative_to(ROOT).as_posix() for p in (ROOT / "kit").rglob("*") if p.is_file()} - set(names)
+        if extras:
+            raise RuntimeError("Arquivos fora do kit versão 2: " + ", ".join(sorted(extras)))
         for item in entries:
             target = ROOT / item.filename
             if item.is_dir():
@@ -50,13 +59,30 @@ def ensure_kit() -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Gere componentes e elementos do Canva, preservando kit/.")
-    parser.add_argument("alvo", choices=["componentes"])
-    parser.parse_args()
+    parser = argparse.ArgumentParser(description="Gere componentes ou carrosséis do Evangelho, preservando kit/.")
+    parser.add_argument("alvo", choices=["componentes", "evangelho"])
+    parser.add_argument("--data", help="Gere só a data ISO informada, por exemplo 2026-11-29 (evangelho).")
+    args = parser.parse_args()
+    if args.data:
+        if args.alvo != "evangelho":
+            parser.error("--data só vale para evangelho.")
+        try:
+            if date.fromisoformat(args.data).isoformat() != args.data:
+                raise ValueError
+        except ValueError:
+            parser.error("--data deve estar no formato AAAA-MM-DD.")
     dependencies()
-    ensure_kit()
-    from arteque_reza.renderizacao import generate
     try:
+        ensure_kit()
+        if args.alvo == "evangelho":
+            from arteque_reza.evangelho import generate
+            result = generate(ROOT / "saida", ROOT / "conteudo/evangelho.yaml", args.data)
+            print(f"Pronto: {result['dias']} dia(s), {result['cards']} cards, {result['pdfs']} PDF(s) e {result['pngs']} PNGs.")
+            if result['obras_pendentes']:
+                print("Obras pendentes: " + ", ".join(result['obras_pendentes']))
+            print(f"Relatório: {ROOT / 'saida/evangelho/RELATORIO.md'}")
+            return
+        from arteque_reza.renderizacao import generate
         result = generate(ROOT / "saida")
     except Exception as error:
         raise SystemExit(f"Geração interrompida: {error}") from error

@@ -33,6 +33,7 @@ saida/
 │   │   │   ├── avatar-perfil.svg
 │   │   │   ├── logo-horizontal-capela.svg
 │   │   │   ├── logo-horizontal-pergaminho.svg
+│   │   │   ├── logo-horizontal-sobre-cor.svg
 │   │   │   ├── logo-vertical-capela.svg
 │   │   │   ├── logo-vertical-pergaminho.svg
 │   │   │   ├── simbolo-capela.svg
@@ -79,6 +80,9 @@ saida/
 │   │   ├── logo-horizontal-pergaminho-convertido.png
 │   │   ├── logo-horizontal-pergaminho-original.png
 │   │   ├── logo-horizontal-pergaminho.svg
+│   │   ├── logo-horizontal-sobre-cor-convertido.png
+│   │   ├── logo-horizontal-sobre-cor-original.png
+│   │   ├── logo-horizontal-sobre-cor.svg
 │   │   ├── logo-vertical-capela-convertido.png
 │   │   ├── logo-vertical-capela-original.png
 │   │   ├── logo-vertical-capela.svg
@@ -108,7 +112,7 @@ saida/
 - O gap entre cruz e texto do selo é espaco-2, 16 px, conforme bundle.css; a menção a espaco-1 no texto do token não altera o CSS.
 - Os nomes antigos fonts/*.woff2 do JSON são mapeados pelo basename para os seis TTF de kit/fontes. As seis variantes precisam carregar e passar em document.fonts.check antes de cada PNG e PDF; uma fonte substituta causa erro.
 - As assinaturas usam a altura final de 52 px solicitada, embora a vitrine do kit mostre 72 px. A curta usa 40 px e gap de 16 px; a assinatura horizontal com @ mantém 32 px.
-- O cartão inteiro na cor do dia usa o tema pergaminho, que contém os tons profundos; cruz e textos usam sobre-cor e o logo é a versão capela.
+- O cartão inteiro na cor do dia usa o tema pergaminho, que contém os tons profundos; cruz, textos e o novo logo-horizontal-sobre-cor.svg usam sobre-cor (#faf6ee), conforme o kit v2.
 - Os elementos de lançamento usam roxo por tema. O santinho mantém papel e ouro. Uma variante verde separada reproduz a capa do Evangelho solicitada no teste de importação.
 - A imagem provisória vem apenas do degradê aqr-obra--luz rasterizado em 1080 × 1350. Dentro dos nichos só há imagens, sem degradês CSS.
 - Na página Canva, a imagem continua retangular, nos limites internos de 648 × 744 px e offset de 16 px, para preservar o mesmo enquadramento da capa CSS. A máscara SVG fica em x − 48, com 776 × 763 px; nenhum clip CSS é usado nessa versão.
@@ -123,13 +127,13 @@ A travessa mede 26 unidades no símbolo, com escala 1.0517: 27.3442 unidades no 
 
 ## Validação
 
-- 41 arquivos do kit conferidos contra o ZIP do commit; nenhuma mudança na fonte da verdade.
-- 18 SVGs com tamanho menor que 3 MB e contagens zeradas para stroke, text, style, class, transform, degradês, Q e T.
+- Kit v2: 42 arquivos e 11 ativos de logo conferidos contra o ZIP do commit; nenhuma mudança na fonte da verdade.
+- 19 SVGs com tamanho menor que 3 MB e contagens zeradas para stroke, text, style, class, transform, degradês, Q e T.
 - PNGs conferidos contra as dimensões declaradas em verificacao/resultados.json, incluindo as pranchas, páginas e comparações de logos.
 - PDF com três páginas de 810 × 1012,5 pt, equivalentes a 1080 × 1350 px a 96 dpi. O selo e o título ou a pergunta de cada página continuam como texto extraível.
 - Fontes TrueType embutidas conferidas no próprio PDF: CormorantGaramond-SemiBold, CormorantGaramond-MediumItalic, Lato-Bold e Lato-Regular. As outras duas variantes estão nos TTF fornecidos e são verificadas no navegador, sem exigir que apareçam em páginas que não as usam.
 - Seis nichos conferidos por pixels no canto, topo, lateral, parapeito e três pontos do arco; tolerância de 3 níveis RGB para antialiasing.
-- Nove logos comparados em dois fundos; maior diferença média por canal: 0.237187/255, concentrada na rasterização das bordas. As imagens original/convertido e as métricas estão em verificacao/.
+- 10 logos SVG comparados em dois fundos; maior diferença média por canal: 0.237187/255, concentrada na rasterização das bordas. As imagens original/convertido e as métricas estão em verificacao/.
 - Navegador sem erros de console, execução ou HTTP durante a geração. A FICHA contém os valores de posição e tipografia medidos no DOM; os pseudoelementos são derivados dos estilos resolvidos e da caixa medida do nicho.
 
 ## Limites e verificações externas

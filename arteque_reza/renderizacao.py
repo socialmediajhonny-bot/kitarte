@@ -38,6 +38,13 @@ def url(path: Path) -> str:
 
 
 class LocalHandler(SimpleHTTPRequestHandler):
+    def end_headers(self) -> None:
+        # HTML may be rewritten twice in one second when the verse changes
+        # from citacao-grande to citacao. A cached Last-Modified response must
+        # never reuse the first layout during the second measurement.
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
+
     def log_message(self, *_: Any) -> None:
         pass
 
@@ -144,7 +151,7 @@ def galleries(page, output, css, artwork, base_url, expected):
         for label, handle, short in [("Horizontal", False, False), ("Horizontal com @", True, False), ("Curta com @", True, True)]:
             cases.append(case(f"{label} · {tema}", assinatura(tema, handle, short), "signature", tema))
     for name in COLORS:
-        cases.append(case(f"Cartão · {'ouro' if name == 'branco' else name}", assinatura("capela"), "signature", "pergaminho", name, True))
+        cases.append(case(f"Cartão · {'ouro' if name == 'branco' else name}", assinatura("pergaminho", sobre_cor=True), "signature", "pergaminho", name, True))
     page.set_viewport_size({"width": 2160, "height": 1320})
     load(page, html_document('<div class="gallery">' + ''.join(cases) + '</div>', css, GALLERY_CSS, "Assinaturas"), output / "html/assinaturas.html", base_url)
     snapshot(page, output / "previas/assinaturas.png", expected, full_page=True)
@@ -173,7 +180,7 @@ def prayer_card():
 <p class="citacao aqr-citacao" data-element="pergunta" data-cor-token="sobre-cor" style="max-width:860px">Se Deus conta até os cabelos da minha cabeça, do que eu ainda tenho medo?</p>
 <div class="aqr-ornamento" data-element="ornamento" data-cor-token="sobre-cor" style="color:var(--sobre-cor);margin-block:var(--espaco-3)"><svg data-element="ornamento-cruz" data-cor-token="sobre-cor" viewBox="0 0 18 30" aria-hidden="true"><path d="{CRUZ_PATH}" fill="currentColor"/></svg></div>
 <p class="corpo"><span data-element="convite-biblia" data-cor-token="sobre-cor">Abra sua Bíblia em </span><strong data-element="referencia-biblia" data-cor-token="sobre-cor">Lucas 12,1-7</strong></p></div>'''
-    return montar_arte(header + content + assinatura("capela"), "pergaminho", cartao_cor=True)
+    return montar_arte(header + content + assinatura("pergaminho", sobre_cor=True), "pergaminho", cartao_cor=True)
 
 
 def import_proof(page, output, css, artwork, base_url, expected):

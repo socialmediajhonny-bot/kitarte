@@ -191,10 +191,21 @@ def nicho(largura: int | float, altura: int | float, obra: str | Path) -> str:
     )
 
 
-def assinatura(tema: str, arroba: bool = False, curta: bool = False) -> str:
+def assinatura(
+    tema: str,
+    arroba: bool = False,
+    curta: bool = False,
+    *,
+    sobre_cor: bool = False,
+) -> str:
     """Assinatura horizontal ou reduzida, com dimensões do uso final."""
     _theme(tema)
-    filename = f"{'simbolo-reduzido' if curta else 'logo-horizontal'}-{tema}.svg"
+    if sobre_cor and curta:
+        raise ValueError("O kit não contém assinatura curta sobre cor.")
+    filename = (
+        "logo-horizontal-sobre-cor.svg"
+        if sobre_cor else f"{'simbolo-reduzido' if curta else 'logo-horizontal'}-{tema}.svg"
+    )
     source = resource_url(KIT / "logos" / filename)
     classes = "aqr-assinatura aqr-assinatura--curta" if curta else "aqr-assinatura"
     # A curta é sempre símbolo + @; os 40/16 px vêm do pedido e do preview.
@@ -202,7 +213,7 @@ def assinatura(tema: str, arroba: bool = False, curta: bool = False) -> str:
     wrapper_style = ' style="gap:var(--espaco-2)"' if curta else ""
     handle = (
         '<span class="assinatura aqr-arroba" data-element="assinatura-arroba" '
-        'data-cor-token="tinta-suave">@artequereza.oficial</span>'
+        f'data-cor-token="{"sobre-cor" if sobre_cor else "tinta-suave"}">@artequereza.oficial</span>'
         if arroba or curta else ""
     )
     return (
@@ -231,11 +242,14 @@ def montar_arte(
         classes.append("aqr-post--story")
     if cartao_cor:
         classes.append("aqr-post--cor")
-        # O cartão litúrgico usa a versão clara do logo, mesmo no pergaminho.
+        # O kit v2 usa o desenho inteiro em sobre-cor nos cartões litúrgicos.
         conteudo = re.sub(
-            r"((?:logo-horizontal|simbolo-reduzido)-)pergaminho(\.svg)",
-            r"\1capela\2",
+            r"logo-horizontal-(?:pergaminho|capela)(\.svg)",
+            r"logo-horizontal-sobre-cor\1",
             conteudo,
+        )
+        conteudo = re.sub(
+            r"(simbolo-reduzido-)pergaminho(\.svg)", r"\1capela\2", conteudo
         )
     return (
         f'<article class="{" ".join(classes)}" data-theme="{tema}" '

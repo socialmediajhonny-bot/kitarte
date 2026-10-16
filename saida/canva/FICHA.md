@@ -63,7 +63,7 @@
 | nicho-recorte | Raio top_right (rx, ry; px) | [324,324] |
 | nicho-recorte | Raio bottom_right (rx, ry; px) | [0,0] |
 | nicho-recorte | Raio bottom_left (rx, ry; px) | [0,0] |
-| nicho-obra | Origem | http://127.0.0.1:35717/saida/obra-provisoria.png |
+| nicho-obra | Origem | http://127.0.0.1:40743/saida/obra-provisoria.png |
 | nicho-obra | Imagem: largura original (px) | 1080 |
 | nicho-obra | Imagem: altura original (px) | 1350 |
 | nicho-obra | object-fit | cover |
@@ -99,7 +99,7 @@
 | Elemento | Propriedade | Valor |
 | --- | --- | --- |
 | arte-fundo | Fundo | #16110d |
-| nicho-obra-retangular | Origem | http://127.0.0.1:35717/saida/obra-provisoria.png |
+| nicho-obra-retangular | Origem | http://127.0.0.1:40743/saida/obra-provisoria.png |
 | nicho-obra-retangular | Imagem: largura original (px) | 1080 |
 | nicho-obra-retangular | Imagem: altura original (px) | 1350 |
 | nicho-obra-retangular | object-fit | cover |
@@ -138,7 +138,7 @@
 | convite-biblia | — | Abra sua Bíblia em | Lato / 400 / normal | 301.34375 | 802.5 | 284.8125 | 41 | 34 | 50 | 1.470588 | 0 | 0 | sobre-cor / #faf6ee |
 | referencia-biblia | — | Lucas 12,1-7 | Lato / 700 / normal | 586.15625 | 802.5 | 192.5 | 41 | 34 | 50 | 1.470588 | 0 | 0 | sobre-cor / #faf6ee |
 | assinatura | — | — | — | 394.328125 | 1218 | 291.328125 | 52 | — | — | — | — | — | — |
-| logo | kit/logos/logo-horizontal-capela.svg | — | — | 394.328125 | 1218 | 291.328125 | 52 | — | — | — | — | — | ouro [capela] / #cfa956; tinta [capela] / #f3eadb |
+| logo | kit/logos/logo-horizontal-sobre-cor.svg | — | — | 394.328125 | 1218 | 291.328125 | 52 | — | — | — | — | — | papel [pergaminho] / #faf6ee |
 
 | Elemento | Propriedade | Valor |
 | --- | --- | --- |
@@ -155,7 +155,7 @@
 | ornamento-filete-direito | Borda right (px) | 0 |
 | ornamento-filete-direito | Borda bottom (px) | 0 |
 | ornamento-filete-direito | Borda left (px) | 0 |
-| logo | Origem | kit/logos/logo-horizontal-capela.svg |
+| logo | Origem | kit/logos/logo-horizontal-sobre-cor.svg |
 | logo | Imagem: largura original (px) | 2510 |
 | logo | Imagem: altura original (px) | 448 |
 | logo | object-fit | fill |

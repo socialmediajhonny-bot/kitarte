@@ -2,8 +2,10 @@
   "checks": {
     "kit": {
       "ok": true,
+      "version": 2,
       "baseline": "git HEAD:kit-arte-que-reza.zip",
-      "count": 41,
+      "count": 42,
+      "logo_count": 11,
       "missing": [],
       "modified": [],
       "extra": [],
@@ -11,7 +13,7 @@
     },
     "svgs": {
       "ok": true,
-      "count": 18,
+      "count": 19,
       "forbidden_counts": {
         "stroke": 0,
         "text": 0,
@@ -208,6 +210,48 @@
           "colors": [
             "#241b14",
             "#866420"
+          ],
+          "path_commands": [
+            "C",
+            "L",
+            "M",
+            "Z"
+          ],
+          "drawing_bounds": [
+            -0.003000000026077032,
+            -85.93402862548828,
+            627.7381074219011,
+            109.37680053710938
+          ],
+          "ok": true,
+          "forbidden_counts": {
+            "stroke": 0,
+            "text": 0,
+            "style": 0,
+            "class": 0,
+            "transform": 0,
+            "gradient": 0,
+            "Q": 0,
+            "T": 0
+          },
+          "errors": []
+        },
+        {
+          "file": "logos/logo-horizontal-sobre-cor.svg",
+          "bytes": 24367,
+          "size": [
+            298.439719,
+            52.0
+          ],
+          "viewBox": [
+            -0.003,
+            -85.934029,
+            627.738107,
+            109.376801
+          ],
+          "shapes": 8,
+          "colors": [
+            "#faf6ee"
           ],
           "path_commands": [
             "C",
@@ -801,7 +845,7 @@
     },
     "pngs": {
       "ok": true,
-      "count": 26,
+      "count": 28,
       "files": [
         {
           "file": "/workspace/kitarte/saida/canva/elementos/logos/avatar-perfil.png",
@@ -974,6 +1018,32 @@
         },
         {
           "file": "/workspace/kitarte/saida/verificacao/logos/logo-horizontal-pergaminho-convertido.png",
+          "expected": [
+            1080,
+            188
+          ],
+          "ok": true,
+          "actual": [
+            1080,
+            188
+          ],
+          "format": "PNG"
+        },
+        {
+          "file": "/workspace/kitarte/saida/verificacao/logos/logo-horizontal-sobre-cor-original.png",
+          "expected": [
+            1080,
+            188
+          ],
+          "ok": true,
+          "actual": [
+            1080,
+            188
+          ],
+          "format": "PNG"
+        },
+        {
+          "file": "/workspace/kitarte/saida/verificacao/logos/logo-horizontal-sobre-cor-convertido.png",
           "expected": [
             1080,
             188
@@ -2491,8 +2561,10 @@
     },
     "kit_final": {
       "ok": true,
+      "version": 2,
       "baseline": "git HEAD:kit-arte-que-reza.zip",
-      "count": 41,
+      "count": 42,
+      "logo_count": 11,
       "missing": [],
       "modified": [],
       "extra": [],
@@ -2560,6 +2632,25 @@
               "background": "#16110d",
               "mean_channel_difference": 0.018528,
               "pixels_over_32_fraction": 1.5e-05
+            }
+          ]
+        },
+        {
+          "file": "logo-horizontal-sobre-cor.svg",
+          "comparison_size": [
+            1080,
+            188
+          ],
+          "metrics": [
+            {
+              "background": "#f2eadb",
+              "mean_channel_difference": 0.010344,
+              "pixels_over_32_fraction": 0.0
+            },
+            {
+              "background": "#16110d",
+              "mean_channel_difference": 0.154602,
+              "pixels_over_32_fraction": 0.000872
             }
           ]
         },
@@ -2734,6 +2825,14 @@
       188
     ],
     "verificacao/logos/logo-horizontal-pergaminho-convertido.png": [
+      1080,
+      188
+    ],
+    "verificacao/logos/logo-horizontal-sobre-cor-original.png": [
+      1080,
+      188
+    ],
+    "verificacao/logos/logo-horizontal-sobre-cor-convertido.png": [
       1080,
       188
     ],
@@ -3037,6 +3136,34 @@
         "comparison": "normalize original viewBox to drawing_bounds, then render both at equal dimensions"
       },
       {
+        "source": "kit/logos/logo-horizontal-sobre-cor.svg",
+        "file": "saida/canva/elementos/logos/logo-horizontal-sobre-cor.svg",
+        "source_view_box": [
+          0.0,
+          -85.94,
+          627.38,
+          111.94
+        ],
+        "source_width": 2510.0,
+        "source_height": 448.0,
+        "view_box": [
+          -0.003000000026077032,
+          -85.93402862548828,
+          627.7381074219011,
+          109.37680053710938
+        ],
+        "drawing_bounds": [
+          -0.003000000026077032,
+          -85.93402862548828,
+          627.7381074219011,
+          109.37680053710938
+        ],
+        "width": 298.43971871223226,
+        "height": 52.0,
+        "usage": "assinatura horizontal: desenho justo com 52 px de altura",
+        "comparison": "normalize original viewBox to drawing_bounds, then render both at equal dimensions"
+      },
+      {
         "source": "kit/logos/logo-vertical-capela.svg",
         "file": "saida/canva/elementos/logos/logo-vertical-capela.svg",
         "source_view_box": [
@@ -3265,6 +3392,13 @@
         "colors": [
           "#866420",
           "#241b14"
+        ]
+      },
+      {
+        "file": "/workspace/kitarte/saida/canva/elementos/logos/logo-horizontal-sobre-cor.svg",
+        "bytes": 24367,
+        "colors": [
+          "#faf6ee"
         ]
       },
       {
