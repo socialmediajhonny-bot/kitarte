@@ -33,10 +33,10 @@ def ensure_kit() -> None:
         if len(set(names)) != len(names):
             raise RuntimeError("O ZIP contém caminhos repetidos.")
         files = [item for item in entries if not item.is_dir()]
-        if len(files) != 42 or "kit/logos/logo-horizontal-sobre-cor.svg" not in names:
-            raise RuntimeError("É necessário o kit versão 2, com 42 arquivos e o logo sobre-cor.")
-        if "versão 2" not in archive.read("kit/LEIA-ME.md").decode("utf-8").splitlines()[0]:
-            raise RuntimeError("O LEIA-ME do kit não identifica a versão 2.")
+        if len(files) != 44 or not {"kit/logos/logo-horizontal-sobre-cor.svg", "kit/design-system/componentes/PostFesta/preview.html", "kit/design-system/componentes/PostFesta/README.md"}.issubset(names):
+            raise RuntimeError("É necessário o kit versão 3, com 44 arquivos e o modelo PostFesta.")
+        if "versão 3" not in archive.read("kit/LEIA-ME.md").decode("utf-8").splitlines()[0]:
+            raise RuntimeError("O LEIA-ME do kit não identifica a versão 3.")
         for item in entries:
             path = Path(item.filename)
             if path.is_absolute() or ".." in path.parts or path.parts[0] != "kit" or "\\" in item.filename or ((item.external_attr >> 16) & 0o170000) == 0o120000:
@@ -48,7 +48,7 @@ def ensure_kit() -> None:
                 raise RuntimeError(f"O arquivo {item.filename} difere do ZIP. O gerador não sobrescreve o kit.")
         extras = {p.relative_to(ROOT).as_posix() for p in (ROOT / "kit").rglob("*") if p.is_file()} - set(names)
         if extras:
-            raise RuntimeError("Arquivos fora do kit versão 2: " + ", ".join(sorted(extras)))
+            raise RuntimeError("Arquivos fora do kit versão 3: " + ", ".join(sorted(extras)))
         for item in entries:
             target = ROOT / item.filename
             if item.is_dir():
@@ -59,13 +59,13 @@ def ensure_kit() -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Gere componentes ou carrosséis do Evangelho, preservando kit/.")
-    parser.add_argument("alvo", choices=["componentes", "evangelho"])
-    parser.add_argument("--data", help="Gere só a data ISO informada, por exemplo 2026-11-29 (evangelho).")
+    parser = argparse.ArgumentParser(description="Gere componentes, Evangelho ou Santo do Dia, preservando kit/.")
+    parser.add_argument("alvo", choices=["componentes", "evangelho", "santo"])
+    parser.add_argument("--data", help="Gere só a data ISO informada (evangelho ou santo).")
     args = parser.parse_args()
     if args.data:
-        if args.alvo != "evangelho":
-            parser.error("--data só vale para evangelho.")
+        if args.alvo not in {"evangelho", "santo"}:
+            parser.error("--data só vale para evangelho ou santo.")
         try:
             if date.fromisoformat(args.data).isoformat() != args.data:
                 raise ValueError
@@ -74,13 +74,18 @@ def main() -> None:
     dependencies()
     try:
         ensure_kit()
-        if args.alvo == "evangelho":
-            from arteque_reza.evangelho import generate
-            result = generate(ROOT / "saida", ROOT / "conteudo/evangelho.yaml", args.data)
+        if args.alvo in {"evangelho", "santo"}:
+            if args.alvo == "evangelho":
+                from arteque_reza.evangelho import generate
+                content = "evangelho"
+            else:
+                from arteque_reza.santo import generate
+                content = "santo-do-dia"
+            result = generate(ROOT / "saida", ROOT / f"conteudo/{content}.yaml", args.data)
             print(f"Pronto: {result['dias']} dia(s), {result['cards']} cards, {result['pdfs']} PDF(s) e {result['pngs']} PNGs.")
             if result['obras_pendentes']:
                 print("Obras pendentes: " + ", ".join(result['obras_pendentes']))
-            print(f"Relatório: {ROOT / 'saida/evangelho/RELATORIO.md'}")
+            print(f"Relatório: {ROOT / f'saida/{content}/RELATORIO.md'}")
             return
         from arteque_reza.renderizacao import generate
         result = generate(ROOT / "saida")

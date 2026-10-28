@@ -65,7 +65,7 @@ def write_report(output: Path, manifest: dict) -> Path:
         '',
         '## Validação',
         '',
-        f"- Kit v2: {checks['kit']['count']} arquivos e {checks['kit']['logo_count']} ativos de logo conferidos contra o ZIP do commit; nenhuma mudança na fonte da verdade.",
+        f"- Kit v3: {checks['kit']['count']} arquivos e {checks['kit']['logo_count']} ativos de logo conferidos contra o ZIP do commit; nenhuma mudança na fonte da verdade.",
         f"- {checks['svgs']['count']} SVGs com tamanho menor que 3 MB e contagens zeradas para stroke, text, style, class, transform, degradês, Q e T.",
         '- PNGs conferidos contra as dimensões declaradas em verificacao/resultados.json, incluindo as pranchas, páginas e comparações de logos.',
         '- PDF com três páginas de 810 × 1012,5 pt, equivalentes a 1080 × 1350 px a 96 dpi. O selo e o título ou a pergunta de cada página continuam como texto extraível.',

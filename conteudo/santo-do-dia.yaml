@@ -1,0 +1,41 @@
+# Santo do Dia · santinhos e cards de festa
+# A frase vai sem aspas: o gerador põe “ ”.
+
+- data: 2026-11-30
+  tipo: santinho
+  cor: vermelho
+  grau: Festa
+  nome: Santo André
+  titulo: Apóstolo e mártir
+  frase: Encontramos o Messias.
+  fonte: Palavras de André a Pedro, Jo 1,41
+  obra:
+    arquivo: obras/santo-do-dia/2026-11-30.jpg
+    credito: Simone Martini · Santo André · Metropolitan Museum
+    pagina: https://www.metmuseum.org/art/collection/search/437675
+    foco: 50% 50%
+
+- data: 2026-12-03
+  tipo: santinho
+  cor: ouro
+  grau: Memória
+  nome: São Francisco Xavier
+  titulo: Presbítero, padroeiro das missões
+  frase: São muitíssimos aqueles que não se tornam cristãos, simplesmente por faltar quem os faça tais.
+  fonte: Das cartas a Santo Inácio
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-03.jpg
+    credito: Autor desconhecido · São Francisco Xavier · Museu Municipal de Kobe
+    pagina: https://commons.wikimedia.org/wiki/File:Franciscus_de_Xabier.jpg
+    foco: 50% 50%
+
+- data: 2026-12-08
+  tipo: festa
+  cor: ouro
+  grau: Solenidade
+  nome: Imaculada Conceição de Nossa Senhora
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 50% 50%

@@ -1,8 +1,8 @@
-# Arte que Reza — componentes e Evangelho do Dia
+# Arte que Reza — componentes, Evangelho e Santo do Dia
 
 Gera Selo, Nicho e Assinatura, prévias PNG, SVGs para Canva, PDF de prova e ficha técnica a partir do ZIP do kit. O conteúdo de `kit/` é extraído sem alterações e conferido contra o arquivo do commit. Nenhum recurso externo é carregado durante os renders.
 
-O kit versão 2 tem 42 arquivos, incluindo o logo horizontal inteiramente em `sobre-cor`. O comando `evangelho` reaproveita essa base para gerar carrosséis a partir de `conteudo/evangelho.yaml`.
+O kit versão 3 tem 44 arquivos, incluindo `PostFesta` e o balanceamento do corpo no próprio `bundle.css`. Os comandos `evangelho` e `santo` reaproveitam essa base e o leitor estrito de YAML. O ZIP duplicado antigo foi removido da `main`.
 
 ## Uso neste ambiente
 
@@ -10,6 +10,8 @@ O kit versão 2 tem 42 arquivos, incluindo o logo horizontal inteiramente em `so
 python gerar.py componentes
 python gerar.py evangelho
 python gerar.py evangelho --data 2026-11-29
+python gerar.py santo
+python gerar.py santo --data 2026-12-08
 ```
 
 O comando usa automaticamente `.venv` se uma dependência não estiver no Python atual. As saídas ficam em `saida/`, com as evidências em `saida/verificacao/resultados.json` e as decisões em `saida/RELATORIO.md`.
@@ -25,6 +27,14 @@ As cores aceitas são `verde`, `roxo`, `ouro` (ou `branco`), `vermelho` e `rosa`
 O PDF mantém texto e fontes embutidas para importar um carrossel como um design no Canva. A conferência no editor do Canva continua necessária para avaliar o resultado da importação.
 
 O filtro `--data` preserva os arquivos das outras datas. A prancha geral inclui todas as datas já geradas; a prancha de cores sempre usa o conteúdo de 29/11. As variantes de cor ficam em `work/`, sem substituir os cards finais.
+
+## Conteúdo do Santo do Dia
+
+`conteudo/santo-do-dia.yaml` escolhe entre `santinho` e `festa`, cada um com seus campos obrigatórios. Domingos, campos desconhecidos ou ausentes são erros. O santinho usa nome, título, frase sem aspas e fonte; o gerador acrescenta as aspas curvas. O card de festa usa o nome da celebração e a obra, com o grau no selo.
+
+`python gerar.py santo` gera um `card.png` de 1080 × 1350, um `santo-<data>.pdf` de uma página e `ficha.json` por data em `saida/santo-do-dia/`. Cada obra real recebe `recorte.png`, com a imagem inteira a 1080 px de largura e o contorno do que aparece no arco. A prancha mostra os cards lado a lado a 1/3 do tamanho; `--data` preserva as demais datas já geradas.
+
+As obras vêm exclusivamente dos caminhos locais do YAML. O crédito da obra do santinho fica na ficha e no relatório para uso na legenda. A moldura do santinho permanece ouro, inclusive para mártires; a cruz e o filete do nicho seguem a cor litúrgica. Limites de linhas, transbordamento, área interna da moldura e distância ao logo são conferidos no render. A ausência de uma imagem usa a provisória e marca a pendência.
 
 Os testes verificam o schema e os limites medidos no Chromium, incluindo linhas vazias, transbordamento e a troca do tamanho do versículo na mesma página:
 

@@ -62,9 +62,9 @@
 
 ## Obras e legendas
 
-- **2026-11-29 — 1º Domingo do Advento:** obra pendente; foi usada obra-provisoria.png.
+- **2026-11-29 — 1º Domingo do Advento:** obra local real; recorte.png gerado.
   James Tissot · A profecia da destruição do Templo · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4551
-- **2026-12-13 — 3º Domingo do Advento (Gaudete):** obra pendente; foi usada obra-provisoria.png.
+- **2026-12-13 — 3º Domingo do Advento (Gaudete):** obra local real; recorte.png gerado.
   James Tissot · São João Batista e os fariseus · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4449
 
 ## Conferência
@@ -73,7 +73,7 @@ PNG exatos; limites de linhas; palavras de uma letra; afastamento de 32 px; cent
 
 A importação dentro do editor do Canva não foi executada; a validação cobre o arquivo produzido (texto, fontes e dimensões), não o comportamento do editor.
 
-Obras pendentes: 2026-11-29, 2026-12-13. Não foi possível verificar seus focos nem gerar recortes reais; o lugar delas foi preservado com a obra provisória.
+Todas as obras selecionadas foram encontradas localmente e receberam prova de recorte.
 
 ## Árvore
 
@@ -85,13 +85,17 @@ saida/evangelho/
   2026-11-29/card-4.png
   2026-11-29/evangelho-2026-11-29.pdf
   2026-11-29/ficha.json
+  2026-11-29/recorte.png
   2026-12-13/card-1.png
   2026-12-13/card-2.png
   2026-12-13/card-3.png
   2026-12-13/card-4.png
   2026-12-13/evangelho-2026-12-13.pdf
   2026-12-13/ficha.json
+  2026-12-13/recorte.png
+  CONFERENCIA-KIT-V3.md
   RELATORIO.md
+  conferencia-kit-v3.json
   prancha-cores.png
   prancha.png
   verificacao.json

@@ -1,9 +1,9 @@
 {
   "kit": {
     "ok": true,
-    "version": 2,
+    "version": 3,
     "baseline": "git HEAD:kit-arte-que-reza.zip",
-    "count": 42,
+    "count": 44,
     "logo_count": 11,
     "missing": [],
     "modified": [],
@@ -1240,7 +1240,7 @@
   },
   "pngs": {
     "ok": true,
-    "count": 10,
+    "count": 12,
     "files": [
       {
         "file": "/workspace/kitarte/saida/evangelho/2026-11-29/card-1.png",
@@ -1291,6 +1291,19 @@
         "actual": [
           1080,
           1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/evangelho/2026-11-29/recorte.png",
+        "expected": [
+          1080,
+          738
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          738
         ],
         "format": "PNG"
       },
@@ -1347,6 +1360,19 @@
         "format": "PNG"
       },
       {
+        "file": "/workspace/kitarte/saida/evangelho/2026-12-13/recorte.png",
+        "expected": [
+          1080,
+          770
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          770
+        ],
+        "format": "PNG"
+      },
+      {
         "file": "/workspace/kitarte/saida/evangelho/prancha.png",
         "expected": [
           1576,
@@ -1377,9 +1403,9 @@
   },
   "kit_final": {
     "ok": true,
-    "version": 2,
+    "version": 3,
     "baseline": "git HEAD:kit-arte-que-reza.zip",
-    "count": 42,
+    "count": 44,
     "logo_count": 11,
     "missing": [],
     "modified": [],
@@ -1393,8 +1419,5 @@
     "recursos_externos": false
   },
   "ok": true,
-  "obras_pendentes": [
-    "2026-11-29",
-    "2026-12-13"
-  ]
+  "obras_pendentes": []
 }

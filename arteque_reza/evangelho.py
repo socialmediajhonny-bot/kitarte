@@ -33,7 +33,6 @@ from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 EXTRA_CSS = """
 @page { margin:0; }
 .aqr-post--cor .aqr-corpo {color:var(--sobre-cor);}
-.aqr-corpo {text-wrap:balance;}
 .aqr-credito {max-width:920px;}
 """
 REQUIRED_FONTS = {'CormorantGaramond-SemiBold', 'CormorantGaramond-MediumItalic',
@@ -296,12 +295,16 @@ def _pdf_check(path: Path, day: dict, count: int) -> dict:
     return result
 
 
-def _crop_proof(artwork: Path, output: Path, focus: str) -> None:
+def _crop_proof(artwork: Path, output: Path, focus: str, *,
+                niche_width: float = 680, niche_height: float = 760) -> None:
     """Map the real CSS cover crop back onto the full 1080 px artwork."""
     with Image.open(artwork) as raw:
         raw.load();source=raw.convert('RGB');w,h=source.size
         full=source.resize((1080,round(h*1080/w)),Image.Resampling.LANCZOS)
-    tw,th=648,744;scale=max(tw/w,th/h)
+    tw,th=niche_width-32,niche_height-16
+    if tw <= 0 or th <= 0:
+        raise ValueError('O nicho precisa comportar as margens internas de 16px.')
+    scale=max(tw/w,th/h)
     values=focus.split();keywords={'left':0,'top':0,'center':50,'right':100,'bottom':100}
     def percent(value):return float(value[:-1]) if value.endswith('%') else keywords[value]
     fx=percent(values[0])/100;fy=percent(values[1] if len(values)>1 else '50%')/100

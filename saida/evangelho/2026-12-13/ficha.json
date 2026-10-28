@@ -9,8 +9,8 @@
     "pagina": "https://www.brooklynmuseum.org/objects/4449",
     "foco": "50% 50%"
   },
-  "obra_pendente": true,
-  "obra_usada": "saida/obra-provisoria.png",
+  "obra_pendente": false,
+  "obra_usada": "obras/2026-12-13.jpg",
   "cards": [
     {
       "textos": [
@@ -615,8 +615,8 @@
           "width": 648,
           "height": 744,
           "text": null,
-          "arquivo": "saida/obra-provisoria.png",
-          "source": "http://127.0.0.1:40903/saida/obra-provisoria.png",
+          "arquivo": "obras/2026-12-13.jpg",
+          "source": "http://127.0.0.1:34907/obras/2026-12-13.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -648,8 +648,8 @@
               0
             ]
           },
-          "source_width_px": 1080,
-          "source_height_px": 1350,
+          "source_width_px": 1536,
+          "source_height_px": 1095,
           "object_fit": "cover",
           "object_position": "50% 50%"
         },

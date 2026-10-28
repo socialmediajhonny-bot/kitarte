@@ -1,0 +1,1309 @@
+{
+  "data": "2026-12-03",
+  "tipo": "santinho",
+  "cor": "ouro",
+  "grau": "Memória",
+  "nome": "São Francisco Xavier",
+  "obra": {
+    "arquivo": "obras/santo-do-dia/2026-12-03.jpg",
+    "credito": "Autor desconhecido · São Francisco Xavier · Museu Municipal de Kobe",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Franciscus_de_Xabier.jpg",
+    "foco": "50% 50%"
+  },
+  "obra_pendente": false,
+  "obra_usada": "obras/santo-do-dia/2026-12-03.jpg",
+  "cards": [
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Santo do Dia",
+          "linhas": [
+            "Santo do Dia"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 185.9375,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#241b14",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 185.9375,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qui, 3 dez",
+          "linhas": [
+            "· qui, 3 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 308.046875,
+              "y": 80,
+              "largura": 155.28125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#665647",
+          "caixa": {
+            "x": 308.046875,
+            "y": 80,
+            "largura": 155.28125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "grau",
+          "conteudo": "Memória",
+          "linhas": [
+            "Memória"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 871.9375,
+              "y": 80,
+              "largura": 128.0625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#665647",
+          "caixa": {
+            "x": 871.9375,
+            "y": 80,
+            "largura": 128.0625,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "nome",
+          "conteudo": "São Francisco Xavier",
+          "linhas": [
+            "São Francisco Xavier"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 262.078125,
+              "y": 671.5,
+              "largura": 555.84375,
+              "altura": 83
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo",
+          "cor": "#241b14",
+          "caixa": {
+            "x": 262.078125,
+            "y": 675.5,
+            "largura": 555.84375,
+            "altura": 76
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 68,
+          "entrelinha_px": 76,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "titulo",
+          "conteudo": "Presbítero, padroeiro das missões",
+          "linhas": [
+            "Presbítero, padroeiro das missões"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 291.140625,
+              "y": 763.5,
+              "largura": 497.703125,
+              "altura": 41
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "corpo",
+          "cor": "#665647",
+          "caixa": {
+            "x": 291.140625,
+            "y": 759.5,
+            "largura": 497.703125,
+            "altura": 50
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 34,
+          "entrelinha_px": 50,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "frase",
+          "conteudo": "“São muitíssimos aqueles que não se tornam cristãos, simplesmente por faltar quem os faça tais.”",
+          "linhas": [
+            "“São muitíssimos aqueles que não",
+            "se tornam cristãos, simplesmente",
+            "por faltar quem os faça tais.”"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 219.828125,
+              "y": 895.5,
+              "largura": 640.34375,
+              "altura": 65
+            },
+            {
+              "x": 227.625,
+              "y": 963.5,
+              "largura": 624.734375,
+              "altura": 65
+            },
+            {
+              "x": 264.625,
+              "y": 1031.5,
+              "largura": 550.75,
+              "altura": 65
+            }
+          ],
+          "quantidade_linhas": 3,
+          "estilo": "citacao",
+          "cor": "#241b14",
+          "caixa": {
+            "x": 190,
+            "y": 894.5,
+            "largura": 700,
+            "altura": 204
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "500",
+          "tamanho_px": 54,
+          "entrelinha_px": 68,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "fonte",
+          "conteudo": "Das cartas a Santo Inácio",
+          "linhas": [
+            "Das cartas a Santo Inácio"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 408.65625,
+              "y": 1115.5,
+              "largura": 262.671875,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#665647",
+          "caixa": {
+            "x": 408.65625,
+            "y": 1114.5,
+            "largura": 262.671875,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 370,
+          "y": 207.5,
+          "largura": 340,
+          "altura": 420
+        },
+        "obra": {
+          "x": 386,
+          "y": 223.5,
+          "largura": 308,
+          "altura": 404
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 383.328125,
+          "altura": 40
+        },
+        "referencia": {
+          "x": 871.9375,
+          "y": 80,
+          "largura": 128.0625,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": null,
+        "cartao": {
+          "x": 80,
+          "y": 152,
+          "largura": 920,
+          "altura": 1034
+        },
+        "cartao_area_interna": {
+          "x": 131,
+          "y": 203,
+          "largura": 818,
+          "altura": 948
+        },
+        "cartao_filete_interno": {
+          "x": 93,
+          "y": 165,
+          "largura": 894,
+          "altura": 1008
+        }
+      },
+      "card": 1,
+      "tipo": "santinho",
+      "modelo": "PostSanto",
+      "tema": "pergaminho",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#f2eadb",
+          "background_hex": "#f2eadb",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 185.9375,
+          "height": 39,
+          "text": "Santo do Dia",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#241b14",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 308.046875,
+          "y": 80,
+          "width": 155.28125,
+          "height": 39,
+          "text": "· qui, 3 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#665647",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 871.9375,
+          "y": 80,
+          "width": 128.0625,
+          "height": 40,
+          "text": "Memória",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#665647",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "cartao",
+          "kind": "container",
+          "x": 80,
+          "y": 152,
+          "width": 920,
+          "height": 1034,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#faf6ee",
+          "background_hex": "#faf6ee",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 370,
+          "y": 207.5,
+          "width": 340,
+          "height": 420,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "pseudo",
+          "pseudo": "::before",
+          "host": "nicho",
+          "x": 370,
+          "y": 207.5,
+          "width": 340,
+          "height": 420,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": null,
+          "border_top_px": 3,
+          "border_right_px": 3,
+          "border_bottom_px": 0,
+          "border_left_px": 3,
+          "border_radius_px": {
+            "top_left": [
+              170,
+              170
+            ],
+            "top_right": [
+              170,
+              170
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 322,
+          "y": 627.5,
+          "width": 436,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": "#866420",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 386,
+          "y": 223.5,
+          "width": 308,
+          "height": 404,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#faf6ee",
+          "background_hex": "#faf6ee",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              154,
+              154
+            ],
+            "top_right": [
+              154,
+              154
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 386,
+          "y": 223.5,
+          "width": 308,
+          "height": 404,
+          "text": null,
+          "arquivo": "obras/santo-do-dia/2026-12-03.jpg",
+          "source": "http://127.0.0.1:38773/obras/santo-do-dia/2026-12-03.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 1920,
+          "source_height_px": 2448,
+          "object_fit": "cover",
+          "object_position": "50% 50%"
+        },
+        {
+          "element": "nome",
+          "kind": "text",
+          "x": 262.078125,
+          "y": 675.5,
+          "width": 555.84375,
+          "height": 76,
+          "text": "São Francisco Xavier",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 68,
+          "line_height_px": 76,
+          "line_height_multiple": 1.117647,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#241b14",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "titulo",
+          "kind": "text",
+          "x": 291.140625,
+          "y": 759.5,
+          "width": 497.703125,
+          "height": 50,
+          "text": "Presbítero, padroeiro das missões",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 34,
+          "line_height_px": 50,
+          "line_height_multiple": 1.470588,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#665647",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento",
+          "kind": "container",
+          "x": 445,
+          "y": 841.5,
+          "width": 190,
+          "height": 21,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento-filete-esquerdo",
+          "kind": "pseudo",
+          "pseudo": "::before",
+          "host": "ornamento",
+          "x": 445,
+          "y": 851,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": "#866420",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
+        },
+        {
+          "element": "ornamento-filete-direito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "ornamento",
+          "x": 563,
+          "y": 851,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": "#866420",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "frase",
+          "kind": "text",
+          "x": 190,
+          "y": 894.5,
+          "width": 700,
+          "height": 204,
+          "text": "“São muitíssimos aqueles que não se tornam cristãos, simplesmente por faltar quem os faça tais.”",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "500",
+          "font_style": "italic",
+          "font_size_px": 54,
+          "line_height_px": 68,
+          "line_height_multiple": 1.259259,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#241b14",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "fonte",
+          "kind": "text",
+          "x": 408.65625,
+          "y": 1114.5,
+          "width": 262.671875,
+          "height": 32,
+          "text": "Das cartas a Santo Inácio",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#665647",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-pergaminho.svg",
+          "source": "kit/logos/logo-horizontal-pergaminho.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#241b14",
+              "token": "tinta",
+              "theme": "pergaminho"
+            },
+            {
+              "hex": "#866420",
+              "token": "ouro",
+              "theme": "pergaminho"
+            }
+          ]
+        },
+        {
+          "element": "cartao-area-interna",
+          "kind": "container",
+          "x": 131,
+          "y": 203,
+          "width": 818,
+          "height": 948,
+          "hex": null,
+          "measurement": "getComputedStyle + host.getBoundingClientRect"
+        },
+        {
+          "element": "cartao-filete-interno",
+          "kind": "pseudo",
+          "x": 93,
+          "y": 165,
+          "width": 894,
+          "height": 1008,
+          "hex": "#866420",
+          "measurement": "getComputedStyle + host.getBoundingClientRect"
+        }
+      ],
+      "cartao": {
+        "caixa": {
+          "x": 80,
+          "y": 152,
+          "largura": 920,
+          "altura": 1034
+        },
+        "area_interna": {
+          "x": 131,
+          "y": 203,
+          "largura": 818,
+          "altura": 948
+        },
+        "filete_interno": {
+          "x": 93,
+          "y": 165,
+          "largura": 894,
+          "altura": 1008
+        },
+        "padding_px": {
+          "top": 48,
+          "right": 48,
+          "bottom": 32,
+          "left": 48
+        },
+        "borda_px": {
+          "top": 3,
+          "right": 3,
+          "bottom": 3,
+          "left": 3
+        },
+        "cor_moldura": "rgb(134, 100, 32)",
+        "cor_filete_interno": "rgb(134, 100, 32)",
+        "filete_espessura_px": 1,
+        "fundo": "rgb(250, 246, 238)",
+        "scroll_width_px": 914,
+        "client_width_px": 914,
+        "scroll_height_px": 1028,
+        "client_height_px": 1028,
+        "elementos": [
+          {
+            "elemento": "nicho",
+            "caixa": {
+              "x": 370,
+              "y": 207.5,
+              "largura": 340,
+              "altura": 420
+            }
+          },
+          {
+            "elemento": "nicho-recorte",
+            "caixa": {
+              "x": 386,
+              "y": 223.5,
+              "largura": 308,
+              "altura": 404
+            }
+          },
+          {
+            "elemento": "nicho-obra",
+            "caixa": {
+              "x": 386,
+              "y": 223.5,
+              "largura": 308,
+              "altura": 404
+            }
+          },
+          {
+            "elemento": "nome",
+            "caixa": {
+              "x": 262.078125,
+              "y": 675.5,
+              "largura": 555.84375,
+              "altura": 76
+            }
+          },
+          {
+            "elemento": "titulo",
+            "caixa": {
+              "x": 291.140625,
+              "y": 759.5,
+              "largura": 497.703125,
+              "altura": 50
+            }
+          },
+          {
+            "elemento": "ornamento",
+            "caixa": {
+              "x": 445,
+              "y": 841.5,
+              "largura": 190,
+              "altura": 21
+            }
+          },
+          {
+            "elemento": "frase",
+            "caixa": {
+              "x": 190,
+              "y": 894.5,
+              "largura": 700,
+              "altura": 204
+            }
+          },
+          {
+            "elemento": "fonte",
+            "caixa": {
+              "x": 408.65625,
+              "y": 1114.5,
+              "largura": 262.671875,
+              "altura": 32
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

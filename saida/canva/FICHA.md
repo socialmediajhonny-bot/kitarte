@@ -63,7 +63,7 @@
 | nicho-recorte | Raio top_right (rx, ry; px) | [324,324] |
 | nicho-recorte | Raio bottom_right (rx, ry; px) | [0,0] |
 | nicho-recorte | Raio bottom_left (rx, ry; px) | [0,0] |
-| nicho-obra | Origem | http://127.0.0.1:40743/saida/obra-provisoria.png |
+| nicho-obra | Origem | http://127.0.0.1:35891/saida/obra-provisoria.png |
 | nicho-obra | Imagem: largura original (px) | 1080 |
 | nicho-obra | Imagem: altura original (px) | 1350 |
 | nicho-obra | object-fit | cover |
@@ -99,7 +99,7 @@
 | Elemento | Propriedade | Valor |
 | --- | --- | --- |
 | arte-fundo | Fundo | #16110d |
-| nicho-obra-retangular | Origem | http://127.0.0.1:40743/saida/obra-provisoria.png |
+| nicho-obra-retangular | Origem | http://127.0.0.1:35891/saida/obra-provisoria.png |
 | nicho-obra-retangular | Imagem: largura original (px) | 1080 |
 | nicho-obra-retangular | Imagem: altura original (px) | 1350 |
 | nicho-obra-retangular | object-fit | cover |
