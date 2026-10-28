@@ -56,6 +56,26 @@ saida/
 │   ├── pagina-2.png
 │   ├── pagina-3.png
 │   └── teste-importacao.pdf
+├── coragem/
+│   ├── 2026-12-14/
+│   │   ├── coragem-2026-12-14-feed.pdf
+│   │   ├── coragem-2026-12-14-status.pdf
+│   │   ├── feed.png
+│   │   ├── ficha.json
+│   │   ├── recorte-feed.png
+│   │   ├── recorte-status.png
+│   │   └── status.png
+│   ├── 2026-12-28/
+│   │   ├── coragem-2026-12-28-feed.pdf
+│   │   ├── coragem-2026-12-28-status.pdf
+│   │   ├── feed.png
+│   │   ├── ficha.json
+│   │   ├── recorte-feed.png
+│   │   ├── recorte-status.png
+│   │   └── status.png
+│   ├── RELATORIO.md
+│   ├── prancha.png
+│   └── verificacao.json
 ├── evangelho/
 │   ├── 2026-11-29/
 │   │   ├── card-1.png
@@ -63,15 +83,19 @@ saida/
 │   │   ├── card-3.png
 │   │   ├── card-4.png
 │   │   ├── evangelho-2026-11-29.pdf
-│   │   └── ficha.json
+│   │   ├── ficha.json
+│   │   └── recorte.png
 │   ├── 2026-12-13/
 │   │   ├── card-1.png
 │   │   ├── card-2.png
 │   │   ├── card-3.png
 │   │   ├── card-4.png
 │   │   ├── evangelho-2026-12-13.pdf
-│   │   └── ficha.json
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── CONFERENCIA-KIT-V3.md
 │   ├── RELATORIO.md
+│   ├── conferencia-kit-v3.json
 │   ├── prancha-cores.png
 │   ├── prancha.png
 │   └── verificacao.json
@@ -83,10 +107,42 @@ saida/
 │   ├── pagina-2.html
 │   ├── pagina-3.html
 │   └── selos.html
+├── para-rezar/
+│   ├── 2026-10-20/
+│   │   ├── card-1.png
+│   │   ├── ficha.json
+│   │   └── para-rezar-2026-10-20.pdf
+│   ├── 2026-12-15/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── ficha.json
+│   │   └── para-rezar-2026-12-15.pdf
+│   ├── RELATORIO.md
+│   ├── prancha.png
+│   └── verificacao.json
 ├── previas/
 │   ├── assinaturas.png
 │   ├── nichos.png
 │   └── selos.png
+├── santo-do-dia/
+│   ├── 2026-11-30/
+│   │   ├── card.png
+│   │   ├── ficha.json
+│   │   ├── recorte.png
+│   │   └── santo-2026-11-30.pdf
+│   ├── 2026-12-03/
+│   │   ├── card.png
+│   │   ├── ficha.json
+│   │   ├── recorte.png
+│   │   └── santo-2026-12-03.pdf
+│   ├── 2026-12-08/
+│   │   ├── card.png
+│   │   ├── ficha.json
+│   │   ├── recorte.png
+│   │   └── santo-2026-12-08.pdf
+│   ├── RELATORIO.md
+│   ├── prancha.png
+│   └── verificacao.json
 ├── verificacao/
 │   ├── logos/
 │   │   ├── avatar-perfil-convertido.png
@@ -146,7 +202,7 @@ A travessa mede 26 unidades no símbolo, com escala 1.0517: 27.3442 unidades no 
 
 ## Validação
 
-- Kit v3: 44 arquivos e 11 ativos de logo conferidos contra o ZIP do commit; nenhuma mudança na fonte da verdade.
+- Kit v4 final: 44 arquivos e 11 ativos de logo conferidos contra o ZIP do commit; o LEIA-ME cita o Nicho e não há mudança na fonte da verdade.
 - 19 SVGs com tamanho menor que 3 MB e contagens zeradas para stroke, text, style, class, transform, degradês, Q e T.
 - PNGs conferidos contra as dimensões declaradas em verificacao/resultados.json, incluindo as pranchas, páginas e comparações de logos.
 - PDF com três páginas de 810 × 1012,5 pt, equivalentes a 1080 × 1350 px a 96 dpi. O selo e o título ou a pergunta de cada página continuam como texto extraível.

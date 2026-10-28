@@ -7,7 +7,8 @@
     "arquivo": "obras/2026-12-13.jpg",
     "credito": "James Tissot · São João Batista e os fariseus · Brooklyn Museum",
     "pagina": "https://www.brooklynmuseum.org/objects/4449",
-    "foco": "50% 50%"
+    "foco": "50% 50%",
+    "zoom": 1.1
   },
   "obra_pendente": false,
   "obra_usada": "obras/2026-12-13.jpg",
@@ -610,13 +611,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 216,
-          "y": 168,
-          "width": 648,
-          "height": 744,
+          "x": 183.600006,
+          "y": 130.799988,
+          "width": 712.800049,
+          "height": 818.400024,
           "text": null,
           "arquivo": "obras/2026-12-13.jpg",
-          "source": "http://127.0.0.1:34907/obras/2026-12-13.jpg",
+          "source": "http://127.0.0.1:42283/obras/2026-12-13.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -837,7 +838,39 @@
             }
           ]
         }
-      ]
+      ],
+      "enquadramento": {
+        "foco": "50% 50%",
+        "zoom": 1.1,
+        "imagem_original": {
+          "largura": 1536,
+          "altura": 1095
+        },
+        "nicho": {
+          "largura": 680,
+          "altura": 760
+        },
+        "area_interna": {
+          "largura": 648,
+          "altura": 744
+        },
+        "escala_cover": 0.6794520547945205,
+        "escala_com_zoom": 0.7473972602739727,
+        "janela_original": {
+          "x": 334.4956011730206,
+          "y": 49.77272727272731,
+          "largura": 867.0087976539588,
+          "altura": 995.4545454545454
+        },
+        "margens_detectadas": {
+          "topo": 32,
+          "base": 31,
+          "esquerda": 9,
+          "direita": 17
+        },
+        "margens_visiveis": [],
+        "avisos": []
+      }
     },
     {
       "textos": [
@@ -3089,5 +3122,38 @@
         }
       ]
     }
-  ]
+  ],
+  "enquadramento": {
+    "foco": "50% 50%",
+    "zoom": 1.1,
+    "imagem_original": {
+      "largura": 1536,
+      "altura": 1095
+    },
+    "nicho": {
+      "largura": 680,
+      "altura": 760
+    },
+    "area_interna": {
+      "largura": 648,
+      "altura": 744
+    },
+    "escala_cover": 0.6794520547945205,
+    "escala_com_zoom": 0.7473972602739727,
+    "janela_original": {
+      "x": 334.4956011730206,
+      "y": 49.77272727272731,
+      "largura": 867.0087976539588,
+      "altura": 995.4545454545454
+    },
+    "margens_detectadas": {
+      "topo": 32,
+      "base": 31,
+      "esquerda": 9,
+      "direita": 17
+    },
+    "margens_visiveis": [],
+    "avisos": []
+  },
+  "avisos": []
 }

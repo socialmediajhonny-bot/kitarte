@@ -13,7 +13,8 @@
     arquivo: obras/santo-do-dia/2026-11-30.jpg
     credito: Simone Martini · Santo André · Metropolitan Museum
     pagina: https://www.metmuseum.org/art/collection/search/437675
-    foco: 50% 50%
+    foco: 45% 15%
+    zoom: 1.05
 
 - data: 2026-12-03
   tipo: santinho
@@ -27,7 +28,8 @@
     arquivo: obras/santo-do-dia/2026-12-03.jpg
     credito: Autor desconhecido · São Francisco Xavier · Museu Municipal de Kobe
     pagina: https://commons.wikimedia.org/wiki/File:Franciscus_de_Xabier.jpg
-    foco: 50% 50%
+    foco: 50% 0%
+    zoom: 1.3
 
 - data: 2026-12-08
   tipo: festa
@@ -38,4 +40,4 @@
     arquivo: obras/santo-do-dia/2026-12-08.jpg
     credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
     pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
-    foco: 50% 50%
+    foco: 50% 20%

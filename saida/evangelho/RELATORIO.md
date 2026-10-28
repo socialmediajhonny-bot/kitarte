@@ -11,6 +11,8 @@
 - A prancha de cores usa ouro como alias de liturgico-branco. As miniaturas medem exatamente 360 × 450 px; etiquetas ficam fora dos cards. A prancha principal indexa todas as datas já geradas, preservando as demais ao usar --data.
 - Só obras reais recebem recorte.png; nenhum recurso externo é acessado. Os HTML e PDFs de uma página usados na composição ficam em work/ e não são necessários para importar os PDFs finais.
 
+- O zoom amplia somente a imagem depois de object-fit:cover, com transform-origin no foco. O arco e a composição permanecem fixos. A ficha e o recorte registram a janela em pixels originais; margens uniformes visíveis geram aviso sem bloquear.
+
 ## Linhas medidas no render
 
 | Data | Card | Campo | Estilo | Linhas | Limite |
@@ -64,8 +66,11 @@
 
 - **2026-11-29 — 1º Domingo do Advento:** obra local real; recorte.png gerado.
   James Tissot · A profecia da destruição do Templo · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4551
+  Foco 45% 50%; zoom 1.1; janela original x=309.337, y=46.591, largura=811.584, altura=931.818px.
 - **2026-12-13 — 3º Domingo do Advento (Gaudete):** obra local real; recorte.png gerado.
   James Tissot · São João Batista e os fariseus · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4449
+  Foco 50% 50%; zoom 1.1; janela original x=334.496, y=49.773, largura=867.009, altura=995.455px.
+Nenhuma margem uniforme da foto está visível nos enquadramentos selecionados.
 
 ## Conferência
 

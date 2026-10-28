@@ -292,11 +292,12 @@ def validate_pngs(expected: dict[Path | str, tuple[int, int]]) -> dict:
 
 
 def validate_kit(project: Path) -> dict:
-    """Confere o contrato v3 e compara kit/ byte a byte com o ZIP do commit."""
+    """Confere o contrato v4 final e compara kit/ byte a byte com o ZIP do commit."""
     project = Path(project)
     errors: list[str] = []
     missing, modified, extra = [], [], []
     logo_count = 0
+    final_nicho = False
     archive_name = "kit-arte-que-reza.zip"
     try:
         result = subprocess.run(["git", "show", f"HEAD:{archive_name}"], cwd=project, capture_output=True, check=False)
@@ -314,15 +315,20 @@ def validate_kit(project: Path) -> dict:
         if not baseline:
             raise ValueError("o ZIP rastreado não contém kit/")
         if len(baseline) != 44:
-            errors.append(f"Kit tem {len(baseline)} arquivos; a versão 3 exige 44.")
+            errors.append(f"Kit tem {len(baseline)} arquivos; a versão 4 exige 44.")
         logo_names = [name for name in baseline if Path(name).parent == Path("logos") and Path(name).suffix.lower() in {".svg", ".png"}]
         logo_count = len(logo_names)
         if logo_count != 11:
-            errors.append(f"Kit tem {logo_count} ativos de logo; a versão 3 exige 11.")
+            errors.append(f"Kit tem {logo_count} ativos de logo; a versão 4 exige 11.")
         if "logos/logo-horizontal-sobre-cor.svg" not in baseline:
             errors.append("Logo horizontal sobre cor da versão 2 ausente.")
-        if not baseline.get("LEIA-ME.md", b"").decode("utf-8").startswith("# Kit Arte que Reza · versão 3"):
-            errors.append("LEIA-ME.md não identifica o kit como versão 3.")
+        readme = baseline.get("LEIA-ME.md", b"").decode("utf-8")
+        if not readme.startswith("# Kit Arte que Reza · versão 4"):
+            errors.append("LEIA-ME.md não identifica o kit como versão 4.")
+        section = readme.split("## O que mudou desde a versão 3", 1)
+        final_nicho = len(section) == 2 and "Nicho" in section[1].split("\n## ", 1)[0]
+        if not final_nicho:
+            errors.append("Kit v4 antigo: a seção O que mudou desde a versão 3 precisa citar o Nicho.")
         present = {str(path.relative_to(project / "kit")): path for path in (project / "kit").rglob("*") if path.is_file()}
         for name, data in baseline.items():
             if name not in present:
@@ -340,7 +346,7 @@ def validate_kit(project: Path) -> dict:
     except (OSError, ValueError, zipfile.BadZipFile) as exc:
         errors.append(f"Não foi possível conferir kit/: {exc}.")
         count = 0
-    return {"ok": not errors, "version": 3, "baseline": f"git HEAD:{archive_name}", "count": count, "logo_count": logo_count, "missing": sorted(missing), "modified": sorted(modified), "extra": extra, "errors": errors}
+    return {"ok": not errors, "version": 4, "final_nicho": final_nicho, "baseline": f"git HEAD:{archive_name}", "count": count, "logo_count": logo_count, "missing": sorted(missing), "modified": sorted(modified), "extra": extra, "errors": errors}
 
 
 def validate_niche_pixels(image: Path, boxes: list[dict]) -> dict:

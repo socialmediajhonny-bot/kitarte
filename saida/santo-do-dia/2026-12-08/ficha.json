@@ -8,7 +8,7 @@
     "arquivo": "obras/santo-do-dia/2026-12-08.jpg",
     "credito": "Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado",
     "pagina": "https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables",
-    "foco": "50% 50%"
+    "foco": "50% 20%"
   },
   "obra_pendente": false,
   "obra_usada": "obras/santo-do-dia/2026-12-08.jpg",
@@ -542,7 +542,7 @@
           "height": 664,
           "text": null,
           "arquivo": "obras/santo-do-dia/2026-12-08.jpg",
-          "source": "http://127.0.0.1:38773/obras/santo-do-dia/2026-12-08.jpg",
+          "source": "http://127.0.0.1:46881/obras/santo-do-dia/2026-12-08.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -577,7 +577,7 @@
           "source_width_px": 1756,
           "source_height_px": 2576,
           "object_fit": "cover",
-          "object_position": "50% 50%"
+          "object_position": "50% 20%"
         },
         {
           "element": "credito",
@@ -764,7 +764,72 @@
           ]
         }
       ],
-      "cartao": null
+      "cartao": null,
+      "enquadramento": {
+        "foco": "50% 20%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 1756,
+          "altura": 2576
+        },
+        "nicho": {
+          "largura": 600,
+          "altura": 680
+        },
+        "area_interna": {
+          "largura": 568,
+          "altura": 664
+        },
+        "escala_cover": 0.3234624145785877,
+        "escala_com_zoom": 0.3234624145785877,
+        "janela_original": {
+          "x": 0.0,
+          "y": 104.6422535211268,
+          "largura": 1756.0,
+          "altura": 2052.788732394366
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "margens_visiveis": [],
+        "avisos": []
+      }
     }
-  ]
+  ],
+  "enquadramento": {
+    "foco": "50% 20%",
+    "zoom": 1.0,
+    "imagem_original": {
+      "largura": 1756,
+      "altura": 2576
+    },
+    "nicho": {
+      "largura": 600,
+      "altura": 680
+    },
+    "area_interna": {
+      "largura": 568,
+      "altura": 664
+    },
+    "escala_cover": 0.3234624145785877,
+    "escala_com_zoom": 0.3234624145785877,
+    "janela_original": {
+      "x": 0.0,
+      "y": 104.6422535211268,
+      "largura": 1756.0,
+      "altura": 2052.788732394366
+    },
+    "margens_detectadas": {
+      "topo": 0,
+      "base": 0,
+      "esquerda": 0,
+      "direita": 0
+    },
+    "margens_visiveis": [],
+    "avisos": []
+  },
+  "avisos": []
 }

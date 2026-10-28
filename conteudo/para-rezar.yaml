@@ -1,0 +1,35 @@
+# Para Rezar · orações
+# Cada item de "partes" é um card. Uma parte = card único; duas ou mais = carrossel.
+# Em >- as quebras de linha do YAML não contam: o texto vira um parágrafo só.
+
+# Modelo do design system: é o card da prévia do kit e não vai ao ar.
+# Serve para conferir o card único (título, oração e origem no mesmo card).
+- data: 2026-10-20
+  cor: verde
+  titulo: Oração a São Miguel Arcanjo
+  intencao: para pedir proteção
+  origem: Papa Leão XIII, 1886
+  partes:
+    - >-
+      São Miguel Arcanjo, defendei-nos no combate; sede o nosso refúgio
+      contra as maldades e ciladas do demônio. Ordene-lhe Deus,
+      instantemente o pedimos; e vós, príncipe da milícia celeste, pela
+      virtude divina, precipitai no inferno a Satanás e aos outros
+      espíritos malignos que andam pelo mundo para perder as almas. Amém.
+
+- data: 2026-12-15
+  cor: roxo
+  titulo: Ato de Contrição
+  intencao: para a confissão
+  origem: Oração tradicional
+  partes:
+    - >-
+      Senhor meu Jesus Cristo, Deus e homem verdadeiro, Criador e Redentor
+      meu: por serdes vós quem sois, sumamente bom e digno de ser amado
+      sobre todas as coisas, e porque vos amo e estimo, pesa-me, Senhor,
+      de todo o meu coração, de vos ter ofendido;
+    - >-
+      pesa-me também de ter perdido o céu e merecido o inferno; e proponho
+      firmemente, ajudado com o auxílio de vossa divina graça, emendar-me
+      e nunca mais vos tornar a ofender. Espero alcançar o perdão de
+      minhas culpas pela vossa infinita misericórdia. Amém.

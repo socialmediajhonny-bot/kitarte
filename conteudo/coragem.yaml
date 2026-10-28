@@ -1,0 +1,25 @@
+# Coragem · a frase da semana, em feed e status
+# Em |- cada linha é uma quebra manual; sem ela, as linhas saem equilibradas.
+# O crédito da obra não vai na arte: fica na ficha e, depois, na legenda.
+
+- data: 2026-12-14
+  cor: ouro
+  frase: |-
+    Criai ânimo, não tenhais medo!
+    Vede, é vosso Deus.
+  referencia: Is 35,4
+  obra:
+    arquivo: obras/coragem/2026-12-14.jpg
+    credito: Michelangelo · O profeta Isaías · Capela Sistina
+    pagina: https://en.wikipedia.org/wiki/Prophet_Isaiah_(Michelangelo)
+    foco: 50% 50%
+
+- data: 2026-12-28
+  cor: vermelho
+  frase: Não tenhais medo! Eu vos anuncio uma grande alegria.
+  referencia: Lc 2,10
+  obra:
+    arquivo: obras/coragem/2026-12-28.jpg
+    credito: Jacopo Bassano · A Anunciação aos pastores · National Gallery of Art
+    pagina: https://www.nga.gov/artworks/267-annunciation-shepherds
+    foco: 50% 50%

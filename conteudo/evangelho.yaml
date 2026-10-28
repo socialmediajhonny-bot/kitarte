@@ -12,7 +12,8 @@
     arquivo: obras/2026-11-29.jpg
     credito: James Tissot · A profecia da destruição do Templo · Brooklyn Museum
     pagina: https://www.brooklynmuseum.org/objects/4551
-    foco: 50% 50%
+    foco: 45% 50%
+    zoom: 1.1
   trecho: |-
     O que vos digo, digo a todos:
     Vigiai!
@@ -36,6 +37,7 @@
     credito: James Tissot · São João Batista e os fariseus · Brooklyn Museum
     pagina: https://www.brooklynmuseum.org/objects/4449
     foco: 50% 50%
+    zoom: 1.1
   trecho: No meio de vós está aquele que vós não conheceis.
   trecho_ref: Jo 1,26
   reflexao:

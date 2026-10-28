@@ -8,7 +8,8 @@
     "arquivo": "obras/santo-do-dia/2026-11-30.jpg",
     "credito": "Simone Martini · Santo André · Metropolitan Museum",
     "pagina": "https://www.metmuseum.org/art/collection/search/437675",
-    "foco": "50% 50%"
+    "foco": "45% 15%",
+    "zoom": 1.05
   },
   "obra_pendente": false,
   "obra_usada": "obras/santo-do-dia/2026-11-30.jpg",
@@ -726,13 +727,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 386,
-          "y": 291.5,
-          "width": 308,
-          "height": 404,
+          "x": 379.070007,
+          "y": 288.470001,
+          "width": 323.399963,
+          "height": 424.199982,
           "text": null,
           "arquivo": "obras/santo-do-dia/2026-11-30.jpg",
-          "source": "http://127.0.0.1:38773/obras/santo-do-dia/2026-11-30.jpg",
+          "source": "http://127.0.0.1:46881/obras/santo-do-dia/2026-11-30.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -767,7 +768,7 @@
           "source_width_px": 1743,
           "source_height_px": 2576,
           "object_fit": "cover",
-          "object_position": "50% 50%"
+          "object_position": "45% 15%"
         },
         {
           "element": "nome",
@@ -1289,7 +1290,72 @@
             }
           }
         ]
+      },
+      "enquadramento": {
+        "foco": "45% 15%",
+        "zoom": 1.05,
+        "imagem_original": {
+          "largura": 1743,
+          "altura": 2576
+        },
+        "nicho": {
+          "largura": 340,
+          "altura": 420
+        },
+        "area_interna": {
+          "largura": 308,
+          "altura": 404
+        },
+        "escala_cover": 0.17670682730923695,
+        "escala_com_zoom": 0.1855421686746988,
+        "janela_original": {
+          "x": 37.35,
+          "y": 59.789610389610424,
+          "largura": 1660.0,
+          "altura": 2177.402597402597
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "margens_visiveis": [],
+        "avisos": []
       }
     }
-  ]
+  ],
+  "enquadramento": {
+    "foco": "45% 15%",
+    "zoom": 1.05,
+    "imagem_original": {
+      "largura": 1743,
+      "altura": 2576
+    },
+    "nicho": {
+      "largura": 340,
+      "altura": 420
+    },
+    "area_interna": {
+      "largura": 308,
+      "altura": 404
+    },
+    "escala_cover": 0.17670682730923695,
+    "escala_com_zoom": 0.1855421686746988,
+    "janela_original": {
+      "x": 37.35,
+      "y": 59.789610389610424,
+      "largura": 1660.0,
+      "altura": 2177.402597402597
+    },
+    "margens_detectadas": {
+      "topo": 0,
+      "base": 0,
+      "esquerda": 0,
+      "direita": 0
+    },
+    "margens_visiveis": [],
+    "avisos": []
+  },
+  "avisos": []
 }

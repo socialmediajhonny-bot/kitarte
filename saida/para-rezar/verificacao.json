@@ -1,0 +1,555 @@
+{
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "dias": {
+    "2026-10-20": {
+      "cards": [
+        {
+          "card": 1,
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 2,
+              "oracao": 10
+            },
+            "distancias": {
+              "selo_texto_px": 195.5,
+              "texto_assinatura_px": 195.5,
+              "diferenca_centralizacao_px": 0.0
+            },
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1106.31728653066
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "intencao",
+                "logo_px": 1098.5547079181185
+              },
+              {
+                "campo": "titulo",
+                "logo_px": 826.5
+              },
+              {
+                "campo": "oracao",
+                "logo_px": 275.5
+              },
+              {
+                "campo": "origem",
+                "logo_px": 195.5
+              }
+            ],
+            "selo_apoio_px": 277.609375,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#2e5b3b",
+                "rgb": [
+                  46,
+                  91,
+                  59
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#f2eadb",
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "ok": true
+              }
+            ],
+            "errors": []
+          }
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_sem_espacos": true,
+            "oracao_igual_yaml_sem_espacos": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 17772
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 13440
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 23620
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     24  0\n",
+        "pdftotext": "Para Rezar · ter, 20 out                      para pedir proteção\n\n\n\n\n  Oração a São Miguel Arcanjo\n\n São Miguel Arcanjo, defendei-nos no combate;\nsede o nosso refúgio contra as maldades e ciladas\n  do demônio. Ordene-lhe Deus, instantemente\no pedimos; e vós, príncipe da milícia celeste, pela\n  virtude divina, precipitai no inferno a Satanás\n e aos outros espíritos malignos que andam pelo\n       mundo para perder as almas. Amém.\n\n                       Papa Leão XIII, 1886\n\f",
+        "texto_igual_yaml_sem_espacos": true,
+        "errors": []
+      }
+    },
+    "2026-12-15": {
+      "cards": [
+        {
+          "card": 1,
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 2,
+              "oracao": 10
+            },
+            "distancias": {
+              "selo_texto_px": 266.5,
+              "texto_assinatura_px": 266.5,
+              "diferenca_centralizacao_px": 0.0
+            },
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1106.31728653066
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "intencao",
+                "logo_px": 1101.2394903194593
+              },
+              {
+                "campo": "titulo",
+                "logo_px": 755.5
+              },
+              {
+                "campo": "oracao",
+                "logo_px": 266.5
+              }
+            ],
+            "selo_apoio_px": 325.28125,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#5b2e70",
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#f2eadb",
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "ok": true
+              }
+            ],
+            "errors": []
+          }
+        },
+        {
+          "card": 2,
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 2,
+              "oracao": 14
+            },
+            "distancias": {
+              "selo_texto_px": 323,
+              "texto_assinatura_px": 323,
+              "diferenca_centralizacao_px": 0
+            },
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1106.31728653066
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "contagem",
+                "logo_px": 1128.7788108215734
+              },
+              {
+                "campo": "oracao",
+                "logo_px": 403.0
+              },
+              {
+                "campo": "origem",
+                "logo_px": 323.0
+              }
+            ],
+            "selo_apoio_px": 502.671875,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#5b2e70",
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#f2eadb",
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "ok": true
+              }
+            ],
+            "errors": []
+          }
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_sem_espacos": true,
+            "oracao_igual_yaml_sem_espacos": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_sem_espacos": true,
+            "oracao_igual_yaml_sem_espacos": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 19532
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 11376
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 20568
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 17624
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 22252
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     24  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     35  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     40  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     45  0\n",
+        "pdftotext": "Para Rezar · ter, 15 dez              para a confissão\n\n\n\n\n             Ato de Contrição\n\n     Senhor meu Jesus Cristo, Deus e homem\n     verdadeiro, Criador e Redentor meu: por\n      serdes vós quem sois, sumamente bom\n    e digno de ser amado sobre todas as coisas,\n   e porque vos amo e estimo, pesa-me, Senhor,\n   de todo o meu coração, de vos ter ofendido;\n\fPara Rezar · ter, 15 dez                         2/2\n\n\n\n\n     pesa-me também de ter perdido o céu\n e merecido o inferno; e proponho firmemente,\n  ajudado com o auxílio de vossa divina graça,\n emendar-me e nunca mais vos tornar a ofender.\n   Espero alcançar o perdão de minhas culpas\n    pela vossa infinita misericórdia. Amém.\n\n                       Oração tradicional\n\f",
+        "texto_igual_yaml_sem_espacos": true,
+        "errors": []
+      }
+    }
+  },
+  "previa_kit": {
+    "ok": true,
+    "confronto_vitrine_identico": false,
+    "fonte": "kit/design-system/componentes/PostOracao/preview.html",
+    "metodo": "Vitrine original inteira; screenshot de cada article. Isolamento na origem 0,0 somente como diagnóstico separado.",
+    "cards": [
+      {
+        "data": "2026-10-20",
+        "card": 1,
+        "verificado": true,
+        "pixels_alterados": 125,
+        "pixels_identicos": false,
+        "limites_diferenca": [
+          404,
+          1221,
+          533,
+          1259
+        ],
+        "referencia": "work/para-rezar/conferencia-kit/vitrine-previa-1.png",
+        "diferenca": "work/para-rezar/conferencia-kit/vitrine-diferenca-1.png",
+        "diagnostico_article_isolado": {
+          "pixels_alterados": 0,
+          "pixels_identicos": true,
+          "referencia": "work/para-rezar/conferencia-kit/isolado-1.png",
+          "origem": [
+            0,
+            0
+          ]
+        },
+        "diferenca_confinada_ao_logo": true,
+        "explicacao": "Rasterização do SVG em posições globais diferentes na vitrine e no PNG; nenhum ajuste foi aplicado à composição."
+      },
+      {
+        "data": "2026-12-15",
+        "card": 1,
+        "verificado": true,
+        "pixels_alterados": 93,
+        "pixels_identicos": false,
+        "limites_diferenca": [
+          404,
+          1221,
+          533,
+          1259
+        ],
+        "referencia": "work/para-rezar/conferencia-kit/vitrine-previa-2.png",
+        "diferenca": "work/para-rezar/conferencia-kit/vitrine-diferenca-2.png",
+        "diagnostico_article_isolado": {
+          "pixels_alterados": 0,
+          "pixels_identicos": true,
+          "referencia": "work/para-rezar/conferencia-kit/isolado-2.png",
+          "origem": [
+            0,
+            0
+          ]
+        },
+        "diferenca_confinada_ao_logo": true,
+        "explicacao": "Rasterização do SVG em posições globais diferentes na vitrine e no PNG; nenhum ajuste foi aplicado à composição."
+      },
+      {
+        "data": "2026-12-15",
+        "card": 2,
+        "verificado": true,
+        "pixels_alterados": 114,
+        "pixels_identicos": false,
+        "limites_diferenca": [
+          404,
+          1221,
+          533,
+          1259
+        ],
+        "referencia": "work/para-rezar/conferencia-kit/vitrine-previa-3.png",
+        "diferenca": "work/para-rezar/conferencia-kit/vitrine-diferenca-3.png",
+        "diagnostico_article_isolado": {
+          "pixels_alterados": 0,
+          "pixels_identicos": true,
+          "referencia": "work/para-rezar/conferencia-kit/isolado-3.png",
+          "origem": [
+            0,
+            0
+          ]
+        },
+        "diferenca_confinada_ao_logo": true,
+        "explicacao": "Rasterização do SVG em posições globais diferentes na vitrine e no PNG; nenhum ajuste foi aplicado à composição."
+      }
+    ],
+    "avisos": [
+      "2026-10-20, card 1: confronto da vitrine inteira tem 125 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-1.png.",
+      "2026-12-15, card 1: confronto da vitrine inteira tem 93 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-2.png.",
+      "2026-12-15, card 2: confronto da vitrine inteira tem 114 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-3.png."
+    ],
+    "errors": []
+  },
+  "pngs": {
+    "ok": true,
+    "count": 4,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/para-rezar/2026-10-20/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/para-rezar/2026-12-15/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/para-rezar/2026-12-15/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/para-rezar/prancha.png",
+        "expected": [
+          808,
+          1092
+        ],
+        "ok": true,
+        "actual": [
+          808,
+          1092
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [
+    "2026-10-20, card 1: confronto da vitrine inteira tem 125 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-1.png.",
+    "2026-12-15, card 1: confronto da vitrine inteira tem 93 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-2.png.",
+    "2026-12-15, card 2: confronto da vitrine inteira tem 114 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-3.png."
+  ],
+  "ok": true,
+  "comando": "python gerar.py para-rezar"
+}

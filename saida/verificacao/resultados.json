@@ -2,7 +2,8 @@
   "checks": {
     "kit": {
       "ok": true,
-      "version": 3,
+      "version": 4,
+      "final_nicho": true,
       "baseline": "git HEAD:kit-arte-que-reza.zip",
       "count": 44,
       "logo_count": 11,
@@ -2561,7 +2562,8 @@
     },
     "kit_final": {
       "ok": true,
-      "version": 3,
+      "version": 4,
+      "final_nicho": true,
       "baseline": "git HEAD:kit-arte-que-reza.zip",
       "count": 44,
       "logo_count": 11,

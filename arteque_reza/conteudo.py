@@ -30,7 +30,8 @@ ROOT_FIELDS = {
     "data", "celebracao", "cor", "referencia", "titulo", "obra", "trecho",
     "trecho_ref", "reflexao", "pergunta",
 }
-WORK_FIELDS = {"arquivo", "credito", "pagina", "foco"}
+WORK_REQUIRED_FIELDS = {"arquivo", "credito", "pagina", "foco"}
+WORK_FIELDS = WORK_REQUIRED_FIELDS | {"zoom"}
 REFLECTION_FIELDS = {"titulo", "texto"}
 REFERENCE_PATTERN = re.compile(
     r"(?:Mt|Mc|Lc|Jo) [1-9]\d*,[1-9]\d*[a-d]?"
@@ -139,9 +140,15 @@ def local_artwork_path(arquivo: str, project_root: Path = PROJECT) -> Path:
 
 
 def _work(value: Any, context: str) -> dict:
-    work = _mapping(value, WORK_FIELDS, WORK_FIELDS, context)
-    for field in WORK_FIELDS:
+    work = _mapping(value, WORK_FIELDS, WORK_REQUIRED_FIELDS, context)
+    for field in WORK_REQUIRED_FIELDS:
         _text(work[field], f"{context}.{field}")
+    if 'zoom' in work:
+        from .obras import validate_zoom
+        try:
+            validate_zoom(work['zoom'])
+        except ValueError as error:
+            raise ValueError(f'{context}.zoom: use um número entre 1 e 3.') from error
     local_artwork_path(work["arquivo"])
     page = urlsplit(work["pagina"])
     if page.scheme not in {"https", "http"} or not page.netloc or any(

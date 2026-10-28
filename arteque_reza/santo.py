@@ -1,4 +1,4 @@
-"""Santo do Dia: santinhos e festas fiéis aos modelos locais do kit v3."""
+"""Santo do Dia: santinhos e festas fiéis aos modelos locais do kit v4."""
 from __future__ import annotations
 
 from html import escape
@@ -18,6 +18,7 @@ from .base import (PROJECT, KIT, assinatura, color, generate_tokens_css,
 from .conteudo import color_token, date_label, local_artwork_path
 from .conteudo_santo import load_saints
 from .evangelho import _crop_proof, _distance, _measure as measure_evangelho, _ornament, _text
+from .obras import artwork_geometry, inspect_artwork
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
@@ -39,14 +40,13 @@ def _header(day: dict) -> str:
 
 def _image(day: dict, artwork: Path) -> str:
     width, height = SIZES[day['tipo']]
-    markup = nicho(width, height, artwork)
+    markup = nicho(width, height, artwork, foco=day['obra']['foco'], zoom=day['obra'].get('zoom', 1))
     if day['tipo'] == 'festa':
         markup = markup.replace(f'style="width:{width}px;height:{height}px;"',
                                 f'style="width:{width}px;height:{height}px;margin-top:var(--espaco-3)"')
     markup = markup.replace('alt="Obra provisória"', 'alt="' + escape(day['nome'], quote=True) + '"')
     return markup.replace('data-arquivo="obra-provisoria.png"',
-                          f'data-arquivo="{escape(artwork.relative_to(PROJECT).as_posix(), quote=True)}" '
-                          f'style="object-position:{escape(day["obra"]["foco"], quote=True)}"')
+                          f'data-arquivo="{escape(artwork.relative_to(PROJECT).as_posix(), quote=True)}"')
 
 
 def _document(day: dict, css: Path, artwork: Path) -> str:
@@ -86,8 +86,12 @@ _CARD_JS = r"""() => {
    r.height-border.top-border.bottom-padding.top-padding.bottom);
  const a=getComputedStyle(card,'::before');
  const frame=box(r.left+border.left+p(a.left),r.top+border.top+p(a.top),p(a.width),p(a.height));
- const nodes=[...card.querySelectorAll('[data-element]')].map(n=>({elemento:n.dataset.element,
-   caixa:box(n.getBoundingClientRect().left,n.getBoundingClientRect().top,n.getBoundingClientRect().width,n.getBoundingClientRect().height)}));
+ const nodes=[...card.querySelectorAll('[data-element]')].map(n=>{
+   // A imagem pode ser ampliada; só sua interseção com o recorte do arco
+   // participa da verificação de espaço dentro da moldura do santinho.
+   const bounds=(n.matches('img[data-element="nicho-obra"]')?n.closest('.aqr-nicho__obra'):n).getBoundingClientRect();
+   return {elemento:n.dataset.element,caixa:box(bounds.left,bounds.top,bounds.width,bounds.height)};
+ });
  return {caixa:box(r.left,r.top,r.width,r.height),area_interna:inner,filete_interno:frame,
   padding_px:padding,borda_px:border,cor_moldura:s.borderTopColor,cor_filete_interno:a.borderTopColor,
   filete_espessura_px:p(a.borderTopWidth),fundo:s.backgroundColor,
@@ -277,10 +281,10 @@ def _board(target: Path) -> tuple[int, int]:
 
 
 def _regression_summary(output: Path) -> dict:
-    path = output/'evangelho/conferencia-kit-v3.json'
+    path = output/'verificacao/conferencia-kit-v4.json'
     if not path.is_file():
         return {'verificado': False, 'arquivo': str(path.relative_to(PROJECT)),
-                'resultado': 'A conferência de regressão do Evangelho deve ser consultada no relatório geral da etapa.'}
+                'resultado': 'A conferência de regressão do kit v4 ainda não está disponível; consulte o relatório geral da etapa depois de executá-la.'}
     return {'verificado': True, 'arquivo': str(path.relative_to(PROJECT)),
             'resultado': json.loads(path.read_text(encoding='utf-8'))}
 
@@ -296,23 +300,25 @@ def _regression_text(summary: dict) -> str:
     images = components.get('pngs', [])
     if images:
         rows.append(f'Componentes: {sum(bool(image.get("pixels_identicos")) for image in images)}/{len(images)} PNGs com pixels idênticos.')
-    for date, day in sorted(result.get('evangelho', {}).items()):
-        cards = day.get('cards', [])
-        identical = [str(card['card']) for card in cards if card.get('pixels_identicos')]
-        cover = next((card for card in cards if card.get('card') == 1), {})
-        content = 'textos, linhas, estilos e caixas '+('idênticos' if day.get('textos_linhas_estilos_caixas_identicos') else 'com diferenças')
-        rows.append(f'{date}: {content}; cards '+', '.join(identical)+' com pixels idênticos; '
-                    +('a capa mudou somente na área da obra real.' if cover.get('fora_da_obra_identico') else 'a capa deve ser consultada na conferência.'))
+    for series in ('evangelho', 'santo-do-dia'):
+        for date, day in sorted(result.get(series, {}).items()):
+            cards = day.get('cards', [])
+            identical = [str(card['card']) for card in cards if card.get('pixels_identicos')]
+            cover = next((card for card in cards if card.get('card') == 1), {})
+            content = 'textos, linhas, estilos e caixas '+('idênticos' if day.get('textos_linhas_estilos_caixas_identicos') else 'com diferenças')
+            unchanged = ('; cards '+', '.join(identical)+' com pixels idênticos') if identical else ''
+            rows.append(f'{series}, {date}: {content}'+unchanged+'; '
+                        +('o foco/zoom mudou somente a área da obra.' if cover.get('fora_da_obra_identico') else 'consulte as diferenças na conferência.'))
     if result.get('errors'):
         rows.append('Diferenças registradas: '+'; '.join(result['errors'])+'.')
-    rows.append('Detalhes: [`CONFERENCIA-KIT-V3.md`](../evangelho/CONFERENCIA-KIT-V3.md) e '
-                '[`conferencia-kit-v3.json`](../evangelho/conferencia-kit-v3.json).')
+    rows.append('Detalhes: [`CONFERENCIA-KIT-V4.md`](../CONFERENCIA-KIT-V4.md) e '
+                '[`conferencia-kit-v4.json`](../verificacao/conferencia-kit-v4.json).')
     return '\n\n'.join(rows)
 
 
 def _report(target: Path, records: list[dict], checks: dict, command: str) -> Path:
     lines = ['# Santo do Dia', '', f'`{command}`', '', '## Decisões', '',
-        '- Os dois modelos seguem os previews do kit v3: pergaminho, logo pergaminho, Nicho CSS com imagem trocável, foco do YAML e nenhuma sobreposição SVG.',
+        '- Os dois modelos seguem os previews do kit v4: pergaminho, logo pergaminho, Nicho CSS com imagem trocável, foco do YAML e nenhuma sobreposição SVG.',
         '- Dentro do santinho, o conjunto obra e textos fica centralizado como no justify-content:center do kit. Frases de uma e três linhas mudam a altura do conjunto e, por isso, os nichos dos dois santos ficam em alturas diferentes.',
         '- Festa de santo permanece santinho, com Santo do Dia no selo e o grau à direita. A festa do Senhor ou de Nossa Senhora usa o grau como série, sem informação à direita.',
         '- A moldura dupla e o ornamento dos santinhos ficam em ouro, inclusive no mártir; só a cruz do selo e o filete do nicho seguem a cor litúrgica.',
@@ -321,6 +327,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         '- A ficha mantém o formato do Evangelho e acrescenta as caixas, o padding e os afastamentos da moldura do cartão. As linhas são medidas no DOM com Range, depois do carregamento das seis fontes locais.',
         '- A prancha usa miniaturas exatas de 360 × 450 px, lado a lado, e inclui todas as datas já geradas; --data preserva os arquivos das outras datas. HTMLs de apoio ficam em work/santo-do-dia.',
         '- Os PDFs mantêm texto extraível e as fontes usadas embutidas; a festa não recebe uma exigência artificial de fonte itálica.',
+        '- O zoom amplia somente a imagem no foco, depois do object-fit:cover. O arco, a moldura e a composição ficam fixos. A ficha e o recorte registram a janela em pixels originais; margens uniformes visíveis geram aviso sem bloquear.',
         '', '## Linhas medidas', '', '| Data | Campo | Estilo | Linhas | Limite |', '| --- | --- | --- | --- | --- |']
     for record in records:
         limits = _limits(record)
@@ -333,10 +340,17 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         state = 'obra pendente; provisória utilizada' if record['obra_pendente'] else 'obra real local; recorte.png gerado'
         lines += [f'- **{record["data"]} — {record["nome"]}:** {state}.',
                   f'  {record["obra"]["credito"]} — {record["obra"]["pagina"]}']
+        framing = record.get('enquadramento')
+        if framing:
+            window = framing['janela_original']
+            lines.append(f'  Foco {framing["foco"]}; zoom {framing["zoom"]:g}; janela original x={window["x"]:.3f}, y={window["y"]:.3f}, largura={window["largura"]:.3f}, altura={window["altura"]:.3f}px.')
+        lines.extend('  Aviso: ' + warning + '.' for warning in record.get('avisos', []))
+    if not any(record.get('avisos') for record in records):
+        lines.append('Nenhuma margem uniforme da foto está visível nos enquadramentos selecionados.')
     lines += ['', 'Obras pendentes: '+(', '.join(pending) if pending else 'nenhuma')+'.',
         '', '## Conferências', '',
         'PNG 1080 × 1350; PDF de uma página em 810 × 1012,5 pt; textos extraíveis; TTF embutidos e pdffonts; limites de linhas e largura; palavras de uma letra; área interna e afastamento do filete; cruz, nicho e moldura por pixel. Os dados completos estão em verificacao.json e nas fichas.',
-        '', '### Evangelho com o kit v3', '', _regression_text(checks['evangelho_kit_v3']),
+        '', '### Regressão dos modelos com o kit v4', '', _regression_text(checks['evangelho_kit_v4']),
         '', '### Limites da verificação', '',
         'A importação no editor do Canva não foi executada. A validação confere os arquivos produzidos, suas fontes, textos, cores e geometria. As obras foram usadas como entregues no repositório, sem downloads.',
         '', '## Árvore', '', '```text', 'saida/santo-do-dia/']
@@ -371,19 +385,27 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             if pending:
                 if not placeholder.is_file(): raise FileNotFoundError('Obra provisória ausente; execute python gerar.py componentes.')
                 artwork = placeholder
+            width, height = SIZES[day['tipo']]
+            framing_args = {'zoom': day['obra'].get('zoom', 1), 'niche_width': width, 'niche_height': height}
+            framing = (artwork_geometry(artwork, day['obra']['foco'], **framing_args) if pending else
+                       inspect_artwork(artwork, day['obra']['foco'], date=day['data'], **framing_args))
+            for warning in framing.get('avisos', []): print('Aviso: ' + warning)
             temporary = work/day['data']/'card.png'; temporary_pdf = temporary.with_suffix('.pdf')
             render = render_arte(page, _document(day, css, artwork), temporary, pdf_path=temporary_pdf, base_url=base_url)
-            measured = _measure(page, day); layout = _validate_layout(day, measured)
+            measured = _measure(page, day)
+            measured['enquadramento'] = framing
+            layout = _validate_layout(day, measured)
             pixels = _pixels(temporary, day, measured); pdfcheck = _pdf_check(temporary_pdf, day, measured)
             shutil.copyfile(temporary, folder/'card.png'); shutil.copyfile(temporary_pdf, folder/f'santo-{day["data"]}.pdf')
             expected[str(folder/'card.png')] = (1080,1350)
             if not pending:
-                width, height = SIZES[day['tipo']]
-                _crop_proof(artwork, folder/'recorte.png', day['obra']['foco'], niche_width=width, niche_height=height)
+                _crop_proof(artwork, folder/'recorte.png', day['obra']['foco'], niche_width=width,
+                            niche_height=height, zoom=day['obra'].get('zoom', 1), date=day['data'])
                 with Image.open(folder/'recorte.png') as crop: expected[str(folder/'recorte.png')] = crop.size
             elif (folder/'recorte.png').exists(): (folder/'recorte.png').unlink()
             record = {key: day[key] for key in ('data','tipo','cor','grau','nome','obra')}
-            record.update({'obra_pendente':pending,'obra_usada':artwork.relative_to(PROJECT).as_posix(),'cards':[measured]})
+            record.update({'obra_pendente':pending,'obra_usada':artwork.relative_to(PROJECT).as_posix(),
+                           'cards':[measured], 'enquadramento':framing,'avisos':framing.get('avisos', [])})
             (folder/'ficha.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
             records.append(record); checks['dias'][day['data']] = {'layout':layout,'pixels':pixels,'pdf':pdfcheck,'fontes_render':render['fonts']}
         browser.close()
@@ -392,7 +414,8 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
     checks['pngs'] = validate_pngs(expected); checks['kit_final'] = validate_kit(PROJECT)
     checks['browser'] = {'ok':True,'errors':[],'fontes_locais_por_render':6,'recursos_externos':False}
     checks['obras_pendentes'] = [record['data'] for record in records if record['obra_pendente']]
-    checks['evangelho_kit_v3'] = _regression_summary(output)
+    checks['avisos'] = [warning for record in records for warning in record.get('avisos', [])]
+    checks['evangelho_kit_v4'] = _regression_summary(output)
     checks['ok'] = all(checks[key]['ok'] for key in ('kit','kit_final','pngs'))
     if not checks['ok']: raise RuntimeError('Falha de validação de PNG ou kit.')
     command = 'python gerar.py santo' + (f' --data {date_filter}' if date_filter else '')

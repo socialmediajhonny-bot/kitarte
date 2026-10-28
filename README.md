@@ -1,8 +1,8 @@
-# Arte que Reza — componentes, Evangelho e Santo do Dia
+# Arte que Reza — componentes e séries diárias
 
 Gera Selo, Nicho e Assinatura, prévias PNG, SVGs para Canva, PDF de prova e ficha técnica a partir do ZIP do kit. O conteúdo de `kit/` é extraído sem alterações e conferido contra o arquivo do commit. Nenhum recurso externo é carregado durante os renders.
 
-O kit versão 3 tem 44 arquivos, incluindo `PostFesta` e o balanceamento do corpo no próprio `bundle.css`. Os comandos `evangelho` e `santo` reaproveitam essa base e o leitor estrito de YAML. O ZIP duplicado antigo foi removido da `main`.
+O kit versão 4 final tem 44 arquivos e precisa citar o Nicho no LEIA-ME. Tokens, CSS, logos e fontes continuam idênticos aos da versão 3. Os comandos das quatro séries usam o leitor estrito de YAML, as peças compartilhadas e a mesma receita de PDF. Não edite `kit/`; extraia novamente o ZIP quando atualizar a versão.
 
 ## Uso neste ambiente
 
@@ -12,6 +12,10 @@ python gerar.py evangelho
 python gerar.py evangelho --data 2026-11-29
 python gerar.py santo
 python gerar.py santo --data 2026-12-08
+python gerar.py para-rezar
+python gerar.py para-rezar --data 2026-12-15
+python gerar.py coragem
+python gerar.py coragem --data 2026-12-14
 ```
 
 O comando usa automaticamente `.venv` se uma dependência não estiver no Python atual. As saídas ficam em `saida/`, com as evidências em `saida/verificacao/resultados.json` e as decisões em `saida/RELATORIO.md`.
@@ -35,6 +39,20 @@ O filtro `--data` preserva os arquivos das outras datas. A prancha geral inclui 
 `python gerar.py santo` gera um `card.png` de 1080 × 1350, um `santo-<data>.pdf` de uma página e `ficha.json` por data em `saida/santo-do-dia/`. Cada obra real recebe `recorte.png`, com a imagem inteira a 1080 px de largura e o contorno do que aparece no arco. A prancha mostra os cards lado a lado a 1/3 do tamanho; `--data` preserva as demais datas já geradas.
 
 As obras vêm exclusivamente dos caminhos locais do YAML. O crédito da obra do santinho fica na ficha e no relatório para uso na legenda. A moldura do santinho permanece ouro, inclusive para mártires; a cruz e o filete do nicho seguem a cor litúrgica. Limites de linhas, transbordamento, área interna da moldura e distância ao logo são conferidos no render. A ausência de uma imagem usa a provisória e marca a pendência.
+
+## Foco, zoom e recortes
+
+O bloco `obra` aceita `zoom` opcional, número entre 1 e 3, com padrão 1. A ampliação acontece depois de `object-fit: cover`, com a origem e o `object-position` no `foco`. A moldura e o arco permanecem fixos. As fichas registram a janela visível em pixels da imagem original; o contorno em `recorte.png` usa a mesma geometria.
+
+Uma borda uniforme da foto gera aviso quando ainda aparece no enquadramento: pelo menos quatro linhas ou colunas inteiras consecutivas a partir da borda com desvio-padrão de cinza menor que 6. O aviso não interrompe a geração. O gerador não modifica o YAML para corrigir o enquadramento.
+
+## Para Rezar e Coragem
+
+`conteudo/para-rezar.yaml` define um card por item de `partes`, sem divisão automática. A intenção vai no primeiro topo; nos seguintes entra a contagem; a origem fica no último card. São permitidas até 10 linhas de oração no primeiro e 14 nos seguintes. Partes não finais precisam terminar com ponto, ponto e vírgula, exclamação ou interrogação. Card único acima de 400 caracteres recebe aviso. O PDF de cada data reúne todos os cards em um único design.
+
+`conteudo/coragem.yaml` gera feed 1080 × 1350 e status 1080 × 1920, com PDFs separados e a assinatura com @. A frase tem até duas linhas, a referência livre tem uma e os afastamentos do nicho e da assinatura precisam ser de pelo menos 32 px. Obras reais geram `recorte-feed.png` e `recorte-status.png`; crédito, foco, zoom e janela ficam na ficha. Se uma margem uniforme aparecer, o relatório sugere foco e zoom sem mudar o conteúdo.
+
+As saídas ficam em `saida/para-rezar/` e `saida/coragem/`, cada qual com prancha, relatório, verificações e pastas por data. O filtro `--data` preserva os demais dias. As provas da prévia original do Para Rezar e eventuais diferenças de pixels ficam em `work/para-rezar/conferencia-kit/`; o resultado é documentado no relatório.
 
 Os testes verificam o schema e os limites medidos no Chromium, incluindo linhas vazias, transbordamento e a troca do tamanho do versículo na mesma página:
 

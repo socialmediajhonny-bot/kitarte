@@ -7,7 +7,8 @@
     "arquivo": "obras/2026-11-29.jpg",
     "credito": "James Tissot · A profecia da destruição do Templo · Brooklyn Museum",
     "pagina": "https://www.brooklynmuseum.org/objects/4551",
-    "foco": "50% 50%"
+    "foco": "45% 50%",
+    "zoom": 1.1
   },
   "obra_pendente": false,
   "obra_usada": "obras/2026-11-29.jpg",
@@ -610,13 +611,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 216,
-          "y": 168,
-          "width": 648,
-          "height": 744,
+          "x": 186.839996,
+          "y": 130.799988,
+          "width": 712.800049,
+          "height": 818.400024,
           "text": null,
           "arquivo": "obras/2026-11-29.jpg",
-          "source": "http://127.0.0.1:34907/obras/2026-11-29.jpg",
+          "source": "http://127.0.0.1:42283/obras/2026-11-29.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -651,7 +652,7 @@
           "source_width_px": 1499,
           "source_height_px": 1025,
           "object_fit": "cover",
-          "object_position": "50% 50%"
+          "object_position": "45% 50%"
         },
         {
           "element": "credito",
@@ -837,7 +838,39 @@
             }
           ]
         }
-      ]
+      ],
+      "enquadramento": {
+        "foco": "45% 50%",
+        "zoom": 1.1,
+        "imagem_original": {
+          "largura": 1499,
+          "altura": 1025
+        },
+        "nicho": {
+          "largura": 680,
+          "altura": 760
+        },
+        "area_interna": {
+          "largura": 648,
+          "altura": 744
+        },
+        "escala_cover": 0.7258536585365853,
+        "escala_com_zoom": 0.798439024390244,
+        "janela_original": {
+          "x": 309.33739002932555,
+          "y": 46.59090909090912,
+          "largura": 811.5835777126099,
+          "altura": 931.8181818181818
+        },
+        "margens_detectadas": {
+          "topo": 32,
+          "base": 22,
+          "esquerda": 0,
+          "direita": 7
+        },
+        "margens_visiveis": [],
+        "avisos": []
+      }
     },
     {
       "textos": [
@@ -3096,5 +3129,38 @@
         }
       ]
     }
-  ]
+  ],
+  "enquadramento": {
+    "foco": "45% 50%",
+    "zoom": 1.1,
+    "imagem_original": {
+      "largura": 1499,
+      "altura": 1025
+    },
+    "nicho": {
+      "largura": 680,
+      "altura": 760
+    },
+    "area_interna": {
+      "largura": 648,
+      "altura": 744
+    },
+    "escala_cover": 0.7258536585365853,
+    "escala_com_zoom": 0.798439024390244,
+    "janela_original": {
+      "x": 309.33739002932555,
+      "y": 46.59090909090912,
+      "largura": 811.5835777126099,
+      "altura": 931.8181818181818
+    },
+    "margens_detectadas": {
+      "topo": 32,
+      "base": 22,
+      "esquerda": 0,
+      "direita": 7
+    },
+    "margens_visiveis": [],
+    "avisos": []
+  },
+  "avisos": []
 }

@@ -177,17 +177,22 @@ def _image_uri(obra: str | Path) -> str:
     return resource_url(obra)
 
 
-def nicho(largura: int | float, altura: int | float, obra: str | Path) -> str:
+def nicho(largura: int | float, altura: int | float, obra: str | Path, *,
+          foco: str | None = None, zoom: float = 1) -> str:
     """Nicho CSS original, com uma imagem real no recorte em arco."""
     if largura <= 32 or altura <= 16:
         raise ValueError("O nicho precisa comportar as margens de 16 px da obra.")
     src = escape(_image_uri(obra), quote=True)
+    from .obras import image_style, validate_zoom
+    validate_zoom(zoom)
+    image_css = (' style="' + escape(image_style(foco or '50% 50%', zoom), quote=True) + '"'
+                 if foco is not None or zoom != 1 else '')
     return (
         '<div class="aqr-nicho" data-element="nicho" '
         f'style="width:{largura:g}px;height:{altura:g}px;">'
         '<div class="aqr-nicho__obra" data-element="nicho-recorte">'
         f'<img src="{src}" alt="Obra provisória" data-element="nicho-obra" '
-        'data-arquivo="obra-provisoria.png"></div></div>'
+        f'data-arquivo="obra-provisoria.png"{image_css}></div></div>'
     )
 
 

@@ -9,7 +9,7 @@ from copy import deepcopy
 from html import escape
 from io import BytesIO
 import json
-from math import cos, sin, pi, hypot
+from math import hypot
 from pathlib import Path
 import re
 import shutil
@@ -26,6 +26,7 @@ from .base import (PROJECT, KIT, CRUZ_PATH, assinatura, await_fonts, color,
                    render_arte, resource_url, selo)
 from .conteudo import load_content, date_label, expanded_reference, text_html, color_token
 from .ficha import measure_page
+from .obras import artwork_geometry, crop_proof, inspect_artwork
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
@@ -72,13 +73,12 @@ def _document(day: dict, card_kind: int, css: Path, artwork: Path,
               quote_style: str = 'citacao-grande') -> str:
     top = _header(day)
     if card_kind == 1:
-        image = nicho(680, 760, artwork)
+        image = nicho(680, 760, artwork, foco=day['obra']['foco'], zoom=day['obra'].get('zoom', 1))
         image = image.replace('style="width:680px;height:760px;"',
                               'style="width:680px;height:760px;margin-top:var(--espaco-3)"')
         image = image.replace('alt="Obra provisória"', 'alt="Obra do Evangelho"')
         image = image.replace('data-arquivo="obra-provisoria.png"',
-                              f'data-arquivo="{escape(artwork.relative_to(PROJECT).as_posix(), quote=True)}" '
-                              f'style="object-position:{escape(day["obra"]["foco"], quote=True)}"')
+                              f'data-arquivo="{escape(artwork.relative_to(PROJECT).as_posix(), quote=True)}"')
         body = image + _text('p', 'credito', 'credito aqr-credito', day['obra']['credito'],
                              'margin-top:var(--espaco-3)', 'tinta-suave')
         body += _text('h1', 'titulo', 'titulo aqr-titulo', day['titulo'],
@@ -296,24 +296,11 @@ def _pdf_check(path: Path, day: dict, count: int) -> dict:
 
 
 def _crop_proof(artwork: Path, output: Path, focus: str, *,
-                niche_width: float = 680, niche_height: float = 760) -> None:
-    """Map the real CSS cover crop back onto the full 1080 px artwork."""
-    with Image.open(artwork) as raw:
-        raw.load();source=raw.convert('RGB');w,h=source.size
-        full=source.resize((1080,round(h*1080/w)),Image.Resampling.LANCZOS)
-    tw,th=niche_width-32,niche_height-16
-    if tw <= 0 or th <= 0:
-        raise ValueError('O nicho precisa comportar as margens internas de 16px.')
-    scale=max(tw/w,th/h)
-    values=focus.split();keywords={'left':0,'top':0,'center':50,'right':100,'bottom':100}
-    def percent(value):return float(value[:-1]) if value.endswith('%') else keywords[value]
-    fx=percent(values[0])/100;fy=percent(values[1] if len(values)>1 else '50%')/100
-    ox=(w*scale-tw)*fx;oy=(h*scale-th)*fy
-    def inverse(x,y):return ((x+ox)/scale*1080/w,(y+oy)/scale*1080/w)
-    curve=[inverse(tw/2+tw/2*cos(pi+i*pi/240),tw/2+tw/2*sin(pi+i*pi/240)) for i in range(241)]
-    curve += [inverse(tw,th),inverse(0,th),curve[0]]
-    draw=ImageDraw.Draw(full);draw.line(curve,fill='#faf6ee',width=9,joint='curve');draw.line(curve,fill='#5b2e70',width=4,joint='curve')
-    full.save(output)
+                niche_width: float = 680, niche_height: float = 760,
+                zoom: float = 1, date: str | None = None) -> dict:
+    """Compatibilidade com os consumidores anteriores; geometria compartilhada."""
+    return crop_proof(artwork, output, focus, zoom=zoom, niche_width=niche_width,
+                      niche_height=niche_height, date=date)
 
 
 def _font(size=24):
@@ -346,6 +333,7 @@ def _report(output: Path, records: list[dict], checks: dict, pending: list[str])
            '- O selo tem ficha separada para série e data porque as cores e pesos diferem. As caixas são do DOM e as linhas são medidas com Range, depois do carregamento das seis fontes locais.',
            '- A prancha de cores usa ouro como alias de liturgico-branco. As miniaturas medem exatamente 360 × 450 px; etiquetas ficam fora dos cards. A prancha principal indexa todas as datas já geradas, preservando as demais ao usar --data.',
            '- Só obras reais recebem recorte.png; nenhum recurso externo é acessado. Os HTML e PDFs de uma página usados na composição ficam em work/ e não são necessários para importar os PDFs finais.','',
+           '- O zoom amplia somente a imagem depois de object-fit:cover, com transform-origin no foco. O arco e a composição permanecem fixos. A ficha e o recorte registram a janela em pixels originais; margens uniformes visíveis geram aviso sem bloquear.','',
            '## Linhas medidas no render','',
            '| Data | Card | Campo | Estilo | Linhas | Limite |',
            '| --- | --- | --- | --- | --- | --- |']
@@ -359,6 +347,13 @@ def _report(output: Path, records: list[dict], checks: dict, pending: list[str])
     for record in records:
         lines += [f'- **{record["data"]} — {record["celebracao"]}:** '+('obra pendente; foi usada obra-provisoria.png.' if record['obra_pendente'] else 'obra local real; recorte.png gerado.'),
                   f'  {record["obra"]["credito"]} — {record["obra"]["pagina"]}']
+        framing = record.get('enquadramento')
+        if framing:
+            window = framing['janela_original']
+            lines.append(f'  Foco {framing["foco"]}; zoom {framing["zoom"]:g}; janela original x={window["x"]:.3f}, y={window["y"]:.3f}, largura={window["largura"]:.3f}, altura={window["altura"]:.3f}px.')
+        lines.extend('  Aviso: ' + warning + '.' for warning in record.get('avisos', []))
+    if not any(record.get('avisos') for record in records):
+        lines.append('Nenhuma margem uniforme da foto está visível nos enquadramentos selecionados.')
     lines += ['', '## Conferência', '',
               'PNG exatos; limites de linhas; palavras de uma letra; afastamento de 32 px; centralização vertical; cruz, fundo e filete por pixel; páginas PDF de 810 × 1012,5 pt; quatro variantes embutidas por pdffonts; título e convite extraíveis. Os valores estão em verificacao.json e ficha.json.',
               '', 'A importação dentro do editor do Canva não foi executada; a validação cobre o arquivo produzido (texto, fontes e dimensões), não o comportamento do editor.']
@@ -399,6 +394,10 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             folder=target/day['data'];folder.mkdir(parents=True,exist_ok=True)
             artwork=PROJECT/day['obra']['arquivo'];pending=not artwork.is_file()
             if pending:artwork=placeholder
+            framing_args = {'zoom': day['obra'].get('zoom', 1), 'niche_width': 680, 'niche_height': 760}
+            framing = (artwork_geometry(artwork, day['obra']['foco'], **framing_args) if pending else
+                       inspect_artwork(artwork, day['obra']['foco'], date=day['data'], **framing_args))
+            for warning in framing.get('avisos', []): print('Aviso: ' + warning)
             kinds=[1,2]+([3] if day.get('reflexao') else [])+[4]
             cards=[];pdf_parts=[];daychecks=[]
             for number,kind in enumerate(kinds,1):
@@ -413,6 +412,7 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
                     markup=_document(day,kind,css,artwork,'citacao')
                     render_arte(page,markup,temporary,pdf_path=part,base_url=base_url)
                     card=_measure(page,number,kind)
+                if kind == 1: card['enquadramento'] = framing
                 layout=_validate_layout(day,card)
                 shutil.copyfile(temporary,png);expected[str(png)]=(1080,1350)
                 pixel=_pixels(png,day,card);daychecks.append({'card':number,'layout':layout,'pixels':pixel})
@@ -424,7 +424,8 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             with pdf.open('wb') as stream:writer.write(stream)
             pdfcheck=_pdf_check(pdf,day,len(cards))
             if not pending:
-                _crop_proof(artwork,folder/'recorte.png',day['obra']['foco'])
+                _crop_proof(artwork,folder/'recorte.png',day['obra']['foco'],
+                            zoom=day['obra'].get('zoom', 1), date=day['data'])
                 with Image.open(folder/'recorte.png') as image:expected[str(folder/'recorte.png')]=image.size
             elif (folder/'recorte.png').exists():(folder/'recorte.png').unlink()
             # A rerun after removing a reflection must not leave a stale card-4.
@@ -432,7 +433,8 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
                 if int(old.stem.split('-')[-1])>len(cards):old.unlink()
             record={'data':day['data'],'celebracao':day['celebracao'],'cor':day['cor'],
                     'referencia':day['referencia'],'obra':day['obra'],'obra_pendente':pending,
-                    'obra_usada':artwork.relative_to(PROJECT).as_posix(),'cards':cards}
+                    'obra_usada':artwork.relative_to(PROJECT).as_posix(),'cards':cards,
+                    'enquadramento':framing,'avisos':framing.get('avisos', [])}
             (folder/'ficha.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
             records.append(record);checks['dias'][day['data']]={'cards':daychecks,'pdf':pdfcheck}
         # Refresh the board from every generated date, including dates untouched by
@@ -467,6 +469,7 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
     if not checks['ok']:raise RuntimeError('Falha de validação de PNG ou kit.')
     pending=[record['data'] for record in records if record['obra_pendente']]
     checks['obras_pendentes']=pending
+    checks['avisos']=[warning for record in records for warning in record.get('avisos', [])]
     (target/'verificacao.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     report=_report(target,records,checks,pending)
     return {'dias':len(records),'cards':sum(len(r['cards']) for r in records),
