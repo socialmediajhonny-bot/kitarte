@@ -60,11 +60,18 @@ As saídas ficam em `saida/para-rezar/` e `saida/coragem/`, cada qual com pranch
 
 ## Stories por tempo litúrgico
 
-`conteudo/stories.yaml` contém os tempos e os stories fixos do Ângelus às 12h e da Hora da Misericórdia às 15h. O tema capela e a composição de `StoryAngelus` permanecem iguais; entre tempos muda somente a cor da cruz do selo e do filete do nicho. `python gerar.py stories` gera oito PNGs de 1080 × 1920 e um PDF de duas páginas por tempo, na ordem dos stories do YAML.
+`conteudo/stories.yaml` contém os tempos e os stories fixos do Ângelus às 12h e da Hora da Misericórdia às 15h. O tema capela e a estrutura seguem `StoryAngelus`, com os espaços para o Canva descritos abaixo; entre tempos muda somente a cor da cruz do selo e do filete do nicho. `python gerar.py stories` gera oito PNGs de 1080 × 1920 e um PDF de duas páginas por tempo, na ordem dos stories do YAML.
 
 As saídas ficam em `saida/stories/<tempo>/`, com ficha de texto, obra, foco, zoom, janela original e distâncias. Os recortes das duas obras reais, a prancha de todos os tempos já gerados e o relatório ficam em `saida/stories/`. `--tempo advento` preserva os outros tempos; `--data` não é aceito neste comando. O schema rejeita campos desconhecidos, IDs repetidos ou inseguros, horas fora de `0h` a `23h`, textos vazios e zoom fora de 1 a 3.
 
 Os títulos e subtítulos têm uma linha; a invocação aceita três e a resposta opcional, duas. O bloco segue alinhado ao topo, como no kit, com pelo menos 32 px até a assinatura. A regra de espaços inseparáveis inclui `Ó` e `ó`. Obras acima de 4 MB ou abaixo de 1000 px de largura e PDFs acima de 12 MB recebem aviso; obras ausentes usam a provisória. As notas visuais registram o que aparece no arco e eventuais sugestões sem mudar o YAML.
+
+48 px entre o título e o subtítulo e entre a invocação e a resposta, para o Canva importar cada texto em sua caixa (importação de 29/10/2026). O gerador soma `margin-top: var(--espaco-3)` no subtítulo e na resposta ao `gap` de 16 px do kit. Cada par é medido no navegador e precisa ter 48 px (±0,01). As margens inline do ornamento são redistribuídas entre o topo e a base para conservar sua posição; selo, nicho, obra, título e assinatura também permanecem fixos. A cópia da prévia recebe os mesmos ajustes antes da comparação na origem (0,0), sem editar `kit/`.
+
+| Story · todos os tempos | Título → subtítulo | Invocação → resposta | Último texto → assinatura |
+| --- | --- | --- | --- |
+| Ângelus | 48 px | 48 px | 63 px |
+| Hora da Misericórdia | 48 px | — | 37 px |
 
 O teste de importação realizado em 29/10/2026 e seus PDFs originais ficam registrados em [saida/teste-canva/LEIA-ME.md](saida/teste-canva/LEIA-ME.md); o comando experimental `teste-canva` foi retirado após a aprovação dos espaços.
 

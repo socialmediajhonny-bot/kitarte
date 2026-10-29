@@ -26,6 +26,14 @@ from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
 LIMITS = {'titulo': 1, 'subtitulo': 1, 'invocacao': 3, 'resposta': 2}
 NICHE_SIZE = (600, 700)
+TEXT_MARGIN_CSS = 'margin-top:var(--espaco-3)'
+ORNAMENT_MARGIN_CSS = 'margin-top:0;margin-bottom:calc(2 * var(--espaco-3))'
+
+
+def _story_ornament() -> str:
+    # O subtítulo desce 32px. Redistribua o respiro do ornamento para
+    # mantê-lo no mesmo lugar e levar esse aumento até a invocação.
+    return _ornament().replace('margin-block:var(--espaco-3)', ORNAMENT_MARGIN_CSS)
 
 
 def _header(story: dict) -> str:
@@ -45,11 +53,11 @@ def _document(tempo: dict, story: dict, css: Path, artwork: Path) -> str:
         f'data-arquivo="{escape(artwork.relative_to(PROJECT).as_posix(), quote=True)}"')
     body = _header(story)+image+'<div class="aqr-texto" style="margin-top:var(--espaco-4)">'
     body += _text('h1', 'titulo', 'titulo-capa', story['titulo'])
-    body += _text('p', 'subtitulo', 'corpo aqr-suave', story['subtitulo'], token='tinta-suave')
-    body += _ornament()
+    body += _text('p', 'subtitulo', 'corpo aqr-suave', story['subtitulo'], TEXT_MARGIN_CSS, token='tinta-suave')
+    body += _story_ornament()
     body += _text('p', 'invocacao', 'citacao aqr-citacao', story['invocacao'])
     if 'resposta' in story:
-        body += _text('p', 'resposta', 'oracao aqr-suave', story['resposta'], token='tinta-suave')
+        body += _text('p', 'resposta', 'oracao aqr-suave', story['resposta'], TEXT_MARGIN_CSS, token='tinta-suave')
     body += '</div>'+assinatura('capela')
     post = montar_arte(body, tema='capela', cor_do_dia=color_token(tempo['cor']), formato='story')
     return html_document(post, css, '@page{margin:0;}', f'Stories · {tempo["nome"]} · {story["titulo"]}')
@@ -95,6 +103,15 @@ def _validate_layout(tempo: dict, story: dict, measured: dict) -> dict:
             if box['largura'] and (box['x'] < text['caixa']['x']-.1 or box['x']+box['largura'] > text['caixa']['x']+text['caixa']['largura']+.1):
                 errors.append(f'{label}, {field}: linha transborda a largura do campo.')
             if not _inside(art, box): errors.append(f'{label}, {field}: linha fora da arte.')
+    pairs = [('titulo', 'subtitulo')]
+    if 'resposta' in story: pairs.append(('invocacao', 'resposta'))
+    pair_distances = {}
+    for first, second in pairs:
+        a, b = texts[first]['caixa'], texts[second]['caixa']
+        distance = b['y']-a['y']-a['altura']
+        pair_distances[f'{first}_{second}_px'] = round(distance, 6)
+        if abs(distance-48) > .01:
+            errors.append(f'{label}, {first} → {second}: distância {distance:.2f}px; esperado 48px (±0,01).')
     last_field = 'resposta' if 'resposta' in story else 'invocacao'
     last = texts[last_field]['caixa']; signature = measured['caixas']['assinatura']
     gap = signature['y']-last['y']-last['altura']
@@ -105,10 +122,14 @@ def _validate_layout(tempo: dict, story: dict, measured: dict) -> dict:
         'assinatura_topo_px': signature['y']}
     expected = {'selo_topo_px': 240, 'nicho_topo_px': 328, 'nicho_base_px': 1028,
         'titulo_topo_px': 1076, 'assinatura_topo_px': 1628}
+    ornament_y = measured['caixas']['ornamento_cruz']['y']
+    if abs(ornament_y-1286) > .1:
+        errors.append(f'{label}, ornamento_topo_px: {ornament_y:g}px; esperado 1286px pela composição preservada.')
     for field, value in positions.items():
         if abs(value-expected[field]) > .1:
             errors.append(f'{label}, {field}: {value:g}px; esperado {expected[field]}px pela composição do kit.')
     result = {'ok': not errors, 'limites': LIMITS, 'posicoes': positions,
+        **pair_distances, 'ornamento_topo_px': ornament_y,
         'ultimo_campo': last_field, 'ultimo_texto_assinatura_px': round(gap, 6),
         'nicho_bloco_texto_px': measured['caixas']['bloco_texto']['y']-niche['y']-niche['altura'],
         'errors': errors}
@@ -223,6 +244,12 @@ def _preview_check(page: Any, css: Path, target: Path, work: Path, base_url: str
     html = source.read_text(encoding='utf-8')
     links = f'<link rel="stylesheet" href="{resource_url(css)}"><link rel="stylesheet" href="{resource_url(KIT/"design-system/bundle.css")}">'
     html = html.replace('<head>', '<head>'+links).replace('../../../logos/', resource_url(KIT/'logos')+'/')
+    # Adapte apenas a cópia da prévia: os mesmos espaços dos textos e a
+    # compensação de margens que preserva a posição original do ornamento.
+    for style in ('corpo aqr-suave', 'oracao aqr-suave'):
+        html = html.replace(f'<p class="{style}">',
+            f'<p class="{style}" style="{TEXT_MARGIN_CSS}">')
+    html = html.replace('margin-block:var(--espaco-3)', ORNAMENT_MARGIN_CSS)
     folder = work/'conferencia-kit'; folder.mkdir(parents=True, exist_ok=True)
     document = folder/'preview.html'; document.write_text(html, encoding='utf-8')
     page.set_viewport_size({'width': 1176, 'height': 2016})
@@ -250,7 +277,7 @@ def _preview_check(page: Any, css: Path, target: Path, work: Path, base_url: str
     return {'ok': count == 0, 'verificado': True, 'confronto_fora_obra_identico': count == 0,
         'pixels_alterados_fora_obra': count, 'limites_diferenca': list(box) if box else None,
         'obra_excluida': [256,344,824,1028], 'fonte': source.relative_to(PROJECT).as_posix(),
-        'metodo': 'Article original reposicionado na origem (0,0), sem alterar conteúdo ou composição.',
+        'metodo': 'Cópia da prévia com as duas margens dos textos para Canva e as margens compensadas do ornamento; article na origem (0,0).',
         'origem_article_px': [bounds['x'],bounds['y']],
         'preview_renderizado': screenshot.relative_to(PROJECT).as_posix(),
         'diferenca': diff_path.relative_to(PROJECT).as_posix() if count else None,
@@ -281,6 +308,8 @@ def _report(target: Path, records: list[dict], checks: dict, command: str, artwo
         '- A composição segue StoryAngelus: tema capela, formato 1080 × 1920, 240 px no topo e na base, selo Para Rezar com a hora e assinatura capela sem @.',
         '- O Nicho 600 × 700 fica a espaco-4 do selo. O bloco de texto fica a espaco-4 do nicho, alinhado ao topo; margin-top:auto não foi aplicado a ele.',
         '- Só a cruz do selo e o filete do nicho recebem a cor do tempo. O ornamento permanece ouro. Os créditos das obras estão nas fichas e não entram na arte.',
+        '- 48 px entre o título e o subtítulo e entre a invocação e a resposta, para o Canva importar cada texto em sua caixa (importação de 29/10/2026). O subtítulo e a resposta recebem margin-top:var(--espaco-3) inline sobre o gap de 16 px do kit; cada par é medido no navegador, com tolerância de ±0,01 px.',
+        '- O selo, o nicho, a obra, o título, o ornamento e a assinatura ficam nas posições anteriores. Para manter o ornamento fixo após a descida do subtítulo, seu respiro é redistribuído somente nesta composição: margem superior zero e inferior calc(2 * var(--espaco-3)). A invocação desce 32 px e a resposta, 64 px; a assinatura continua a pelo menos 32 px do último texto.',
         '- Quebras manuais são preservadas e palavras de uma letra, incluindo Ó e ó, ficam ligadas à seguinte. As linhas são medidas com Range, após carregar as seis fontes locais.',
         '- A ordem de stories no YAML é a ordem das páginas. Os recortes são globais porque foco, zoom e imagem são iguais nos quatro tempos. --tempo preserva os outros tempos e a prancha indexa todos os já gerados.',
         '', '## Linhas e posições', '', '| Tempo | Story | Campo | Linhas | Limite |', '| --- | --- | --- | --- | --- |']
@@ -293,6 +322,14 @@ def _report(target: Path, records: list[dict], checks: dict, command: str, artwo
         for card in record['cards']:
             layout = card['distancias']; pos = layout['posicoes']
             lines.append(f'| {record["tempo"]["id"]} | {card["id"]} | {pos["selo_topo_px"]:g} | {pos["nicho_topo_px"]:g} / {pos["nicho_base_px"]:g} | {pos["titulo_topo_px"]:g} | {pos["assinatura_topo_px"]:g} | {layout["ultimo_texto_assinatura_px"]:g} px |')
+    lines += ['', '| Tempo | Story | Título → subtítulo | Invocação → resposta | Último texto → assinatura |',
+        '| --- | --- | --- | --- | --- |']
+    for record in records:
+        for card in record['cards']:
+            layout = card['distancias']
+            response = (f'{layout["invocacao_resposta_px"]:g} px'
+                if 'invocacao_resposta_px' in layout else '—')
+            lines.append(f'| {record["tempo"]["id"]} | {card["id"]} | {layout["titulo_subtitulo_px"]:g} px | {response} | {layout["ultimo_texto_assinatura_px"]:g} px |')
     lines += ['', '## Obras, recortes e notas visuais', '']
     for story_id,item in artwork_records.items():
         story = item['story']; framing = item['enquadramento']; window = framing['janela_original']
@@ -305,7 +342,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str, artwo
     lines += ['', '## Conferência da prévia', '']
     preview = checks['previa_kit']
     if preview.get('verificado'):
-        lines.append(f'Prévia do StoryAngelus com o article na origem (0,0), contra tempo-comum/angelus: {preview["pixels_alterados_fora_obra"]} pixels diferentes fora da janela (256,344)–(824,1028).')
+        lines.append(f'Cópia da prévia do StoryAngelus com as mesmas margens para Canva nos textos, as margens compensadas do ornamento e o article na origem (0,0), contra tempo-comum/angelus: {preview["pixels_alterados_fora_obra"]} pixels diferentes fora da janela (256,344)–(824,1028).')
         if preview.get('diferenca'): lines += [preview['explicacao'], 'Diferença: `'+preview['diferenca']+'`.']
     else: lines.append(preview['motivo'])
     lines += ['', '## Avisos e pendências', '']
@@ -313,8 +350,10 @@ def _report(target: Path, records: list[dict], checks: dict, command: str, artwo
     lines.append('Obras pendentes: '+(', '.join(checks['obras_pendentes']) if checks['obras_pendentes'] else 'nenhuma')+'.')
     lines += ['', '## PDF e limites', '',
         'Duas páginas de 810 × 1440 pt por tempo na ordem do YAML. As cinco fontes usadas foram conferidas como TTF embutidos por pdffonts; o texto integral de cada página foi comparado por PyMuPDF e pdftotext -layout, ignorando apenas espaços e quebras.',
-        '', 'A importação no editor do Canva não foi executada. Avisos de tamanho acima de 4 MB por obra, largura abaixo de 1000 px ou PDF acima de 12 MB são informativos. Nenhum recurso externo foi baixado.',
-        '', '## Árvore', '', '```text', 'saida/stories/']
+        '', 'A nova importação dos PDFs ajustados no editor do Canva não foi executada. Avisos de tamanho acima de 4 MB por obra, largura abaixo de 1000 px ou PDF acima de 12 MB são informativos. Nenhum recurso externo foi baixado.']
+    if (target/'CONFERENCIA-PROMPT-7.md').is_file():
+        lines += ['', 'A comparação com a main no commit 8b602bf, incluindo pixels, fontes e aumentos das distâncias nos PDFs, está registrada em [CONFERENCIA-PROMPT-7.md](CONFERENCIA-PROMPT-7.md), com a [evidência detalhada](conferencia-prompt7.json).']
+    lines += ['', '## Árvore', '', '```text', 'saida/stories/']
     paths = {path.relative_to(target).as_posix() for path in target.rglob('*') if path.is_file()}; paths.add('RELATORIO.md')
     lines += ['  '+path for path in sorted(paths)]+['```','']
     report = target/'RELATORIO.md'; report.write_text('\n'.join(lines),encoding='utf-8'); return report

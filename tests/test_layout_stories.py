@@ -49,18 +49,47 @@ class StoryLayoutTests(unittest.TestCase):
         return _measure(self.page,self.tempo,story,1)
 
     def test_given_stories_keep_the_preview_positions_and_expected_distances(self):
-        for story,gap in zip(self.stories,(127,69)):
+        for story,gap in zip(self.stories,(63,37)):
             with self.subTest(story=story['id']):
                 measured = self.render(story); result = _validate_layout(self.tempo,story,measured)
                 self.assertTrue(result['ok'])
                 self.assertEqual(result['posicoes'],{'selo_topo_px':240,'nicho_topo_px':328,
                     'nicho_base_px':1028,'titulo_topo_px':1076,'assinatura_topo_px':1628})
                 self.assertEqual(result['ultimo_texto_assinatura_px'],gap)
+                self.assertEqual(result['titulo_subtitulo_px'],48)
+                if 'resposta' in story:
+                    self.assertEqual(result['invocacao_resposta_px'],48)
                 self.assertEqual(result['nicho_bloco_texto_px'],48)
+                self.assertEqual(measured['caixas']['ornamento_cruz'],
+                    {'x':533,'y':1286,'largura':14,'altura':21})
                 fields = {text['campo']:text for text in measured['textos']}
                 self.assertEqual(fields['titulo']['quantidade_linhas'],1)
                 self.assertEqual(fields['subtitulo']['quantidade_linhas'],1)
                 self.assertEqual(fields['invocacao']['quantidade_linhas'],1 if story['id']=='angelus' else 3)
+                self.assertEqual(fields['subtitulo']['caixa']['y'],1220)
+                self.assertEqual(fields['invocacao']['caixa']['y'],1387)
+                if 'resposta' in story:
+                    self.assertEqual(fields['resposta']['caixa']['y'],1503)
+
+    def test_16_pixel_title_subtitle_gap_is_rejected_for_both_stories(self):
+        for story in self.stories:
+            with self.subTest(story=story['id']):
+                self.render(story)
+                self.page.locator('[data-text="subtitulo"]').evaluate("el=>el.style.marginTop='0px'")
+                measured = _measure(self.page,self.tempo,story,1)
+                fields = {text['campo']:text['caixa'] for text in measured['textos']}
+                self.assertEqual(fields['subtitulo']['y']-fields['titulo']['y']-fields['titulo']['altura'],16)
+                with self.assertRaisesRegex(ValueError,r'titulo.*subtitulo.*16\.00px.*48px'):
+                    _validate_layout(self.tempo,story,measured)
+
+    def test_16_pixel_invocation_response_gap_is_rejected(self):
+        story = self.stories[0]; self.render(story)
+        self.page.locator('[data-text="resposta"]').evaluate("el=>el.style.marginTop='0px'")
+        measured = _measure(self.page,self.tempo,story,1)
+        fields = {text['campo']:text['caixa'] for text in measured['textos']}
+        self.assertEqual(fields['resposta']['y']-fields['invocacao']['y']-fields['invocacao']['altura'],16)
+        with self.assertRaisesRegex(ValueError,r'invocacao.*resposta.*16\.00px.*48px'):
+            _validate_layout(self.tempo,story,measured)
 
     def test_mercy_uses_the_approved_zoom_and_preserves_the_requested_window(self):
         story = self.stories[1]
@@ -120,10 +149,14 @@ class StoryLayoutTests(unittest.TestCase):
             _validate_layout(self.tempo,story,measured)
 
     def test_last_text_requires_at_least_32_pixels_before_the_signature(self):
-        story = self.stories[0]; self.render(story)
-        self.page.locator('.aqr-assinatura').evaluate("el=>el.style.transform='translateY(-100px)'")
-        with self.assertRaisesRegex(ValueError,'resposta: distância à assinatura 27.00px < 32px'):
-            _validate_layout(self.tempo,story,_measure(self.page,self.tempo,story,1))
+        story = deepcopy(self.stories[0])
+        story['resposta'] = 'E ela concebeu do Espírito Santo.\nAve, Maria…'
+        measured = self.render(story)
+        response = next(text for text in measured['textos'] if text['campo']=='resposta')
+        self.assertEqual(response['quantidade_linhas'],2)
+        self.assertEqual(measured['caixas']['assinatura']['y'],1628)
+        with self.assertRaisesRegex(ValueError,'resposta: distância à assinatura 1.00px < 32px'):
+            _validate_layout(self.tempo,story,measured)
 
     def test_o_with_acute_accent_is_joined_to_the_following_word(self):
         self.assertEqual(text_html('Ó Sangue e Água, ó fonte de paz.'),'Ó\u00a0Sangue e\u00a0Água, ó\u00a0fonte de paz.')

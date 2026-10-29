@@ -110,7 +110,7 @@
           "caixas_das_linhas": [
             {
               "x": 227.578125,
-              "y": 1192,
+              "y": 1224,
               "largura": 624.828125,
               "altura": 41
             }
@@ -120,7 +120,7 @@
           "cor": "#bbad98",
           "caixa": {
             "x": 227.578125,
-            "y": 1188,
+            "y": 1220,
             "largura": 624.828125,
             "altura": 50
           },
@@ -141,7 +141,7 @@
           "caixas_das_linhas": [
             {
               "x": 182.4375,
-              "y": 1356,
+              "y": 1388,
               "largura": 715.125,
               "altura": 65
             }
@@ -151,7 +151,7 @@
           "cor": "#f3eadb",
           "caixa": {
             "x": 182.4375,
-            "y": 1355,
+            "y": 1387,
             "largura": 715.125,
             "altura": 68
           },
@@ -172,7 +172,7 @@
           "caixas_das_linhas": [
             {
               "x": 138.671875,
-              "y": 1443,
+              "y": 1507,
               "largura": 802.65625,
               "altura": 54
             }
@@ -182,7 +182,7 @@
           "cor": "#bbad98",
           "caixa": {
             "x": 138.671875,
-            "y": 1439,
+            "y": 1503,
             "largura": 802.65625,
             "altura": 62
           },
@@ -231,7 +231,7 @@
           "x": 80,
           "y": 1076,
           "largura": 920,
-          "altura": 425
+          "altura": 489
         },
         "assinatura": {
           "x": 394.328125,
@@ -610,7 +610,7 @@
           "height": 684,
           "text": null,
           "arquivo": "obras/stories/angelus.jpg",
-          "source": "http://127.0.0.1:41637/obras/stories/angelus.jpg",
+          "source": "http://127.0.0.1:46103/obras/stories/angelus.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -693,7 +693,7 @@
           "element": "subtitulo",
           "kind": "text",
           "x": 227.578125,
-          "y": 1188,
+          "y": 1220,
           "width": 624.828125,
           "height": 50,
           "text": "A pausa do meio-dia para rezar com Maria",
@@ -853,7 +853,7 @@
           "element": "invocacao",
           "kind": "text",
           "x": 182.4375,
-          "y": 1355,
+          "y": 1387,
           "width": 715.125,
           "height": 68,
           "text": "O Anjo do Senhor anunciou a Maria.",
@@ -895,7 +895,7 @@
           "element": "resposta",
           "kind": "text",
           "x": 138.671875,
-          "y": 1439,
+          "y": 1503,
           "width": 802.65625,
           "height": 62,
           "text": "E ela concebeu do Espírito Santo. Ave, Maria…",
@@ -1098,8 +1098,11 @@
           "titulo_topo_px": 1076,
           "assinatura_topo_px": 1628
         },
+        "titulo_subtitulo_px": 48,
+        "invocacao_resposta_px": 48,
+        "ornamento_topo_px": 1286,
         "ultimo_campo": "resposta",
-        "ultimo_texto_assinatura_px": 127,
+        "ultimo_texto_assinatura_px": 63,
         "nicho_bloco_texto_px": 48,
         "errors": []
       }
@@ -1208,7 +1211,7 @@
           "caixas_das_linhas": [
             {
               "x": 117.625,
-              "y": 1192,
+              "y": 1224,
               "largura": 844.734375,
               "altura": 41
             }
@@ -1218,7 +1221,7 @@
           "cor": "#bbad98",
           "caixa": {
             "x": 117.625,
-            "y": 1188,
+            "y": 1220,
             "largura": 844.734375,
             "altura": 50
           },
@@ -1241,19 +1244,19 @@
           "caixas_das_linhas": [
             {
               "x": 240.8125,
-              "y": 1356,
+              "y": 1388,
               "largura": 598.375,
               "altura": 65
             },
             {
               "x": 241.78125,
-              "y": 1424,
+              "y": 1456,
               "largura": 596.4375,
               "altura": 65
             },
             {
               "x": 129.109375,
-              "y": 1492,
+              "y": 1524,
               "largura": 821.78125,
               "altura": 65
             }
@@ -1263,7 +1266,7 @@
           "cor": "#f3eadb",
           "caixa": {
             "x": 129.109375,
-            "y": 1355,
+            "y": 1387,
             "largura": 821.78125,
             "altura": 204
           },
@@ -1312,7 +1315,7 @@
           "x": 80,
           "y": 1076,
           "largura": 920,
-          "altura": 483
+          "altura": 515
         },
         "assinatura": {
           "x": 394.328125,
@@ -1691,7 +1694,7 @@
           "height": 786.599976,
           "text": null,
           "arquivo": "obras/stories/misericordia.jpg",
-          "source": "http://127.0.0.1:41637/obras/stories/misericordia.jpg",
+          "source": "http://127.0.0.1:46103/obras/stories/misericordia.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -1774,7 +1777,7 @@
           "element": "subtitulo",
           "kind": "text",
           "x": 117.625,
-          "y": 1188,
+          "y": 1220,
           "width": 844.734375,
           "height": 50,
           "text": "A oração que Jesus ensinou a Santa Faustina (Diário 187)",
@@ -1934,7 +1937,7 @@
           "element": "invocacao",
           "kind": "text",
           "x": 129.109375,
-          "y": 1355,
+          "y": 1387,
           "width": 821.78125,
           "height": 204,
           "text": "Ó Sangue e Água, que jorrastes do Coração de Jesus como fonte de misericórdia para nós, eu confio em Vós!",
@@ -2154,8 +2157,10 @@
           "titulo_topo_px": 1076,
           "assinatura_topo_px": 1628
         },
+        "titulo_subtitulo_px": 48,
+        "ornamento_topo_px": 1286,
         "ultimo_campo": "invocacao",
-        "ultimo_texto_assinatura_px": 69,
+        "ultimo_texto_assinatura_px": 37,
         "nicho_bloco_texto_px": 48,
         "errors": []
       }

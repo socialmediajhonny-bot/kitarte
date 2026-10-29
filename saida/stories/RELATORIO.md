@@ -7,6 +7,8 @@
 - A composição segue StoryAngelus: tema capela, formato 1080 × 1920, 240 px no topo e na base, selo Para Rezar com a hora e assinatura capela sem @.
 - O Nicho 600 × 700 fica a espaco-4 do selo. O bloco de texto fica a espaco-4 do nicho, alinhado ao topo; margin-top:auto não foi aplicado a ele.
 - Só a cruz do selo e o filete do nicho recebem a cor do tempo. O ornamento permanece ouro. Os créditos das obras estão nas fichas e não entram na arte.
+- 48 px entre o título e o subtítulo e entre a invocação e a resposta, para o Canva importar cada texto em sua caixa (importação de 29/10/2026). O subtítulo e a resposta recebem margin-top:var(--espaco-3) inline sobre o gap de 16 px do kit; cada par é medido no navegador, com tolerância de ±0,01 px.
+- O selo, o nicho, a obra, o título, o ornamento e a assinatura ficam nas posições anteriores. Para manter o ornamento fixo após a descida do subtítulo, seu respiro é redistribuído somente nesta composição: margem superior zero e inferior calc(2 * var(--espaco-3)). A invocação desce 32 px e a resposta, 64 px; a assinatura continua a pelo menos 32 px do último texto.
 - Quebras manuais são preservadas e palavras de uma letra, incluindo Ó e ó, ficam ligadas à seguinte. As linhas são medidas com Range, após carregar as seis fontes locais.
 - A ordem de stories no YAML é a ordem das páginas. Os recortes são globais porque foco, zoom e imagem são iguais nos quatro tempos. --tempo preserva os outros tempos e a prancha indexa todos os já gerados.
 
@@ -61,14 +63,25 @@
 
 | Tempo | Story | Selo y | Nicho y / base | Título y | Assinatura y | Último texto → assinatura |
 | --- | --- | --- | --- | --- | --- | --- |
-| advento | angelus | 240 | 328 / 1028 | 1076 | 1628 | 127 px |
-| advento | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 69 px |
-| natal | angelus | 240 | 328 / 1028 | 1076 | 1628 | 127 px |
-| natal | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 69 px |
-| tempo-comum | angelus | 240 | 328 / 1028 | 1076 | 1628 | 127 px |
-| tempo-comum | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 69 px |
-| quaresma | angelus | 240 | 328 / 1028 | 1076 | 1628 | 127 px |
-| quaresma | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 69 px |
+| advento | angelus | 240 | 328 / 1028 | 1076 | 1628 | 63 px |
+| advento | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 37 px |
+| natal | angelus | 240 | 328 / 1028 | 1076 | 1628 | 63 px |
+| natal | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 37 px |
+| tempo-comum | angelus | 240 | 328 / 1028 | 1076 | 1628 | 63 px |
+| tempo-comum | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 37 px |
+| quaresma | angelus | 240 | 328 / 1028 | 1076 | 1628 | 63 px |
+| quaresma | misericordia | 240 | 328 / 1028 | 1076 | 1628 | 37 px |
+
+| Tempo | Story | Título → subtítulo | Invocação → resposta | Último texto → assinatura |
+| --- | --- | --- | --- | --- |
+| advento | angelus | 48 px | 48 px | 63 px |
+| advento | misericordia | 48 px | — | 37 px |
+| natal | angelus | 48 px | 48 px | 63 px |
+| natal | misericordia | 48 px | — | 37 px |
+| tempo-comum | angelus | 48 px | 48 px | 63 px |
+| tempo-comum | misericordia | 48 px | — | 37 px |
+| quaresma | angelus | 48 px | 48 px | 63 px |
+| quaresma | misericordia | 48 px | — | 37 px |
 
 ## Obras, recortes e notas visuais
 
@@ -91,7 +104,7 @@ Na obra real desta entrega, o foco 50% 8% e o zoom 1.15 mantêm na janela o rost
 
 ## Conferência da prévia
 
-Prévia do StoryAngelus com o article na origem (0,0), contra tempo-comum/angelus: 0 pixels diferentes fora da janela (256,344)–(824,1028).
+Cópia da prévia do StoryAngelus com as mesmas margens para Canva nos textos, as margens compensadas do ornamento e o article na origem (0,0), contra tempo-comum/angelus: 0 pixels diferentes fora da janela (256,344)–(824,1028).
 
 ## Avisos e pendências
 
@@ -102,17 +115,21 @@ Obras pendentes: nenhuma.
 
 Duas páginas de 810 × 1440 pt por tempo na ordem do YAML. As cinco fontes usadas foram conferidas como TTF embutidos por pdffonts; o texto integral de cada página foi comparado por PyMuPDF e pdftotext -layout, ignorando apenas espaços e quebras.
 
-A importação no editor do Canva não foi executada. Avisos de tamanho acima de 4 MB por obra, largura abaixo de 1000 px ou PDF acima de 12 MB são informativos. Nenhum recurso externo foi baixado.
+A nova importação dos PDFs ajustados no editor do Canva não foi executada. Avisos de tamanho acima de 4 MB por obra, largura abaixo de 1000 px ou PDF acima de 12 MB são informativos. Nenhum recurso externo foi baixado.
+
+A comparação com a main no commit 8b602bf, incluindo pixels, fontes e aumentos das distâncias nos PDFs, está registrada em [CONFERENCIA-PROMPT-7.md](CONFERENCIA-PROMPT-7.md), com a [evidência detalhada](conferencia-prompt7.json).
 
 ## Árvore
 
 ```text
 saida/stories/
+  CONFERENCIA-PROMPT-7.md
   RELATORIO.md
   advento/angelus.png
   advento/ficha.json
   advento/misericordia.png
   advento/stories-advento.pdf
+  conferencia-prompt7.json
   natal/angelus.png
   natal/ficha.json
   natal/misericordia.png

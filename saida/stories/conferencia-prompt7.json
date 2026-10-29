@@ -1,0 +1,2971 @@
+{
+  "baseline_commit": "8b602bf36f06147284f124482e2475cd5d612ff2",
+  "testes_passaram": 118,
+  "pngs": [
+    {
+      "arquivo": "canva/elementos/logos/avatar-perfil.png",
+      "sha256_anterior": "3881d62175a78443de1c66ed9294f0cc6bd5861c3e6722fad40ed1bb5e8860f8",
+      "sha256_atual": "3881d62175a78443de1c66ed9294f0cc6bd5861c3e6722fad40ed1bb5e8860f8",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "canva/pagina-1.png",
+      "sha256_anterior": "550886033565336b6b588a4b5ac83ab454c139628bc761573661a9b867c56fad",
+      "sha256_atual": "550886033565336b6b588a4b5ac83ab454c139628bc761573661a9b867c56fad",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "canva/pagina-2.png",
+      "sha256_anterior": "361e3604309230d6714932c8fd553d4654908bd946a9a48f5507d9044e1e2ae2",
+      "sha256_atual": "361e3604309230d6714932c8fd553d4654908bd946a9a48f5507d9044e1e2ae2",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "canva/pagina-3.png",
+      "sha256_anterior": "c67a97fc867572141aef2d6963d5ff2fefdf4b5c773c37f9a0646ce4cd7745c2",
+      "sha256_atual": "c67a97fc867572141aef2d6963d5ff2fefdf4b5c773c37f9a0646ce4cd7745c2",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-14/feed.png",
+      "sha256_anterior": "9f91068561e5ddd0375d63a857c8a4a3926a3af6875b47047e7a49762e787fe5",
+      "sha256_atual": "9f91068561e5ddd0375d63a857c8a4a3926a3af6875b47047e7a49762e787fe5",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-14/recorte-feed.png",
+      "sha256_anterior": "99d5b8533ba3a005c05e4cb8d21d18e4d42cebbb03710e9519f8d6c4ba4657d4",
+      "sha256_atual": "99d5b8533ba3a005c05e4cb8d21d18e4d42cebbb03710e9519f8d6c4ba4657d4",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-14/recorte-status.png",
+      "sha256_anterior": "d119ebc1a0d0af87495afc6a726195605a5efdb29228bcc57a7797d14de4ee0d",
+      "sha256_atual": "d119ebc1a0d0af87495afc6a726195605a5efdb29228bcc57a7797d14de4ee0d",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-14/status.png",
+      "sha256_anterior": "b92a398fb3ef4e4286d622e6906ce52c7c56a00a22249b07abba02aee3971f69",
+      "sha256_atual": "b92a398fb3ef4e4286d622e6906ce52c7c56a00a22249b07abba02aee3971f69",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-28/feed.png",
+      "sha256_anterior": "c539ff1a14ed7ee29b364d48bb33c4245254a65fa64f2c1c0b7ca1b615f22fd1",
+      "sha256_atual": "c539ff1a14ed7ee29b364d48bb33c4245254a65fa64f2c1c0b7ca1b615f22fd1",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-28/recorte-feed.png",
+      "sha256_anterior": "b5401394c2edfffb5655bb77441226636ed5498425fdac0ccc1a6d9be26d5e46",
+      "sha256_atual": "b5401394c2edfffb5655bb77441226636ed5498425fdac0ccc1a6d9be26d5e46",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-28/recorte-status.png",
+      "sha256_anterior": "8e73e587c4de11d51059134fffc1d4580e5f81d4bd9c7212edf30b36c3dd528c",
+      "sha256_atual": "8e73e587c4de11d51059134fffc1d4580e5f81d4bd9c7212edf30b36c3dd528c",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/2026-12-28/status.png",
+      "sha256_anterior": "c49a73b2bbd0555c52bfd0be891350210783246a4bdde526dd97dae3f20e57a7",
+      "sha256_atual": "c49a73b2bbd0555c52bfd0be891350210783246a4bdde526dd97dae3f20e57a7",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "coragem/prancha.png",
+      "sha256_anterior": "2ed01ae45dfd37cdf63c5973865971a874245b0386e3f8aa9efd9c319eb4616d",
+      "sha256_atual": "2ed01ae45dfd37cdf63c5973865971a874245b0386e3f8aa9efd9c319eb4616d",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-11-29/card-1.png",
+      "sha256_anterior": "5d32e45b4b12999265696be5180a79dd538dae7b26d751de344ece838f5ca403",
+      "sha256_atual": "5d32e45b4b12999265696be5180a79dd538dae7b26d751de344ece838f5ca403",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-11-29/card-2.png",
+      "sha256_anterior": "eabda9cbd9b728aeec0036d395e046a471793ee90833a7acf3f9f6e9a8c0881f",
+      "sha256_atual": "eabda9cbd9b728aeec0036d395e046a471793ee90833a7acf3f9f6e9a8c0881f",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-11-29/card-3.png",
+      "sha256_anterior": "8262d76301125e45ecd02277dc5de49ff89c7e90180b96cb2cd12a1b5288fc0a",
+      "sha256_atual": "8262d76301125e45ecd02277dc5de49ff89c7e90180b96cb2cd12a1b5288fc0a",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-11-29/card-4.png",
+      "sha256_anterior": "cd687d475d67dd2e2f4d14eb4796b3b7b769f97c8513cdbbf703a2bcc87b2f37",
+      "sha256_atual": "cd687d475d67dd2e2f4d14eb4796b3b7b769f97c8513cdbbf703a2bcc87b2f37",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-11-29/recorte.png",
+      "sha256_anterior": "123abf09ce65ec3d9e962b574a0da4a1e102d867474971cee376f7778c8a6617",
+      "sha256_atual": "123abf09ce65ec3d9e962b574a0da4a1e102d867474971cee376f7778c8a6617",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-12-13/card-1.png",
+      "sha256_anterior": "cb4dbb56f25ce43d31ea0c8393133dc8ad954afa4f674ed9844b84d21ac7ce5c",
+      "sha256_atual": "cb4dbb56f25ce43d31ea0c8393133dc8ad954afa4f674ed9844b84d21ac7ce5c",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-12-13/card-2.png",
+      "sha256_anterior": "717307b2e922dce003c0efbb41520f1108c2920cce353c9d025e706b44663236",
+      "sha256_atual": "717307b2e922dce003c0efbb41520f1108c2920cce353c9d025e706b44663236",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-12-13/card-3.png",
+      "sha256_anterior": "1a8b6900d3d63e617eabf60613fd436a011bac2d460e98d6b8e2e16000669358",
+      "sha256_atual": "1a8b6900d3d63e617eabf60613fd436a011bac2d460e98d6b8e2e16000669358",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-12-13/card-4.png",
+      "sha256_anterior": "125bb6bcd6ee613f471ebc8183c40d77789269d6f28801486c26b1218851959f",
+      "sha256_atual": "125bb6bcd6ee613f471ebc8183c40d77789269d6f28801486c26b1218851959f",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/2026-12-13/recorte.png",
+      "sha256_anterior": "1d96e41c536df0468e2ed194b3d8535932be165c971645c1d38af23d5fab13b0",
+      "sha256_atual": "1d96e41c536df0468e2ed194b3d8535932be165c971645c1d38af23d5fab13b0",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/prancha-cores.png",
+      "sha256_anterior": "49a0a0b643ba901f6a2570fc54b02802b004156a016f622729f5831a31472319",
+      "sha256_atual": "49a0a0b643ba901f6a2570fc54b02802b004156a016f622729f5831a31472319",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "evangelho/prancha.png",
+      "sha256_anterior": "ab1ec4ff69a2d66f1ff9892b410a7769f72274dec8ebd5cf87257c234204f65b",
+      "sha256_atual": "ab1ec4ff69a2d66f1ff9892b410a7769f72274dec8ebd5cf87257c234204f65b",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "obra-provisoria.png",
+      "sha256_anterior": "7bd63875c2e83e0979a1084030cfd35f516d69fa861e88bddf808637e34fbb56",
+      "sha256_atual": "7bd63875c2e83e0979a1084030cfd35f516d69fa861e88bddf808637e34fbb56",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "para-rezar/2026-10-20/card-1.png",
+      "sha256_anterior": "51e0c5df71262e4e453d54046780cd47923659a0bd5f7438bde7020ec1e39488",
+      "sha256_atual": "51e0c5df71262e4e453d54046780cd47923659a0bd5f7438bde7020ec1e39488",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "para-rezar/2026-12-15/card-1.png",
+      "sha256_anterior": "027c54ca17f04cbcc890116837ecdc5038cad17641940abd5e3977c0de35ab5d",
+      "sha256_atual": "027c54ca17f04cbcc890116837ecdc5038cad17641940abd5e3977c0de35ab5d",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "para-rezar/2026-12-15/card-2.png",
+      "sha256_anterior": "cd30ec27c66eaf7b82b5ae16a5bb205b17c601f9eb0fc050fd8060eeb0113e49",
+      "sha256_atual": "cd30ec27c66eaf7b82b5ae16a5bb205b17c601f9eb0fc050fd8060eeb0113e49",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "para-rezar/prancha.png",
+      "sha256_anterior": "e002d44e2350da07799ecb7ee3a443a1115039123610ed655e86f4c4b4f43589",
+      "sha256_atual": "e002d44e2350da07799ecb7ee3a443a1115039123610ed655e86f4c4b4f43589",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "previas/assinaturas.png",
+      "sha256_anterior": "4e55b95a3149f6455683b044486ac5c49edc5b3ca6da6786ae3f8d71febff175",
+      "sha256_atual": "4e55b95a3149f6455683b044486ac5c49edc5b3ca6da6786ae3f8d71febff175",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "previas/nichos.png",
+      "sha256_anterior": "9b43da184e38130e08d708b76040da7e3f073c76a250cbf831c69b5582289224",
+      "sha256_atual": "9b43da184e38130e08d708b76040da7e3f073c76a250cbf831c69b5582289224",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "previas/selos.png",
+      "sha256_anterior": "1694b180c54461b0ed598c83deb8552b298eb81b48c82c8aaac5cd8ef655e1a8",
+      "sha256_atual": "1694b180c54461b0ed598c83deb8552b298eb81b48c82c8aaac5cd8ef655e1a8",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "santo-do-dia/2026-11-30/card.png",
+      "sha256_anterior": "590a42abfbbd64b45573324fac99826ed95b3320ab79ca53ef6a6f7ba8fee451",
+      "sha256_atual": "590a42abfbbd64b45573324fac99826ed95b3320ab79ca53ef6a6f7ba8fee451",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "santo-do-dia/2026-11-30/recorte.png",
+      "sha256_anterior": "37ca2a3a58e7d21c97d9cc6f0fb92b24d072c1ac5cbb85b8b53554b5a0cef085",
+      "sha256_atual": "37ca2a3a58e7d21c97d9cc6f0fb92b24d072c1ac5cbb85b8b53554b5a0cef085",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "santo-do-dia/2026-12-03/card.png",
+      "sha256_anterior": "8c3226f386a24be34cd6712b6cd563b9589492f6f35426306acdfcc357e4d6ca",
+      "sha256_atual": "8c3226f386a24be34cd6712b6cd563b9589492f6f35426306acdfcc357e4d6ca",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "santo-do-dia/2026-12-03/recorte.png",
+      "sha256_anterior": "cfe4292a156f1d3fbc62a3751bcbbb88625d16ba8a213d6076cce2b3de25703a",
+      "sha256_atual": "cfe4292a156f1d3fbc62a3751bcbbb88625d16ba8a213d6076cce2b3de25703a",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "santo-do-dia/2026-12-08/card.png",
+      "sha256_anterior": "7c6d028f0401e51f7c44a8a753f68951f7097c867f62e4071f9265a4120bd759",
+      "sha256_atual": "7c6d028f0401e51f7c44a8a753f68951f7097c867f62e4071f9265a4120bd759",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "santo-do-dia/2026-12-08/recorte.png",
+      "sha256_anterior": "d8a72bd0834a701a9215238c117e981a7f2e6d140e597a7ca9ad1969fdd82b50",
+      "sha256_atual": "d8a72bd0834a701a9215238c117e981a7f2e6d140e597a7ca9ad1969fdd82b50",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "santo-do-dia/prancha.png",
+      "sha256_anterior": "9cb95fb4e9361549055e8ffe530f334bba0271e2f53e8a04e029e098436d9ba0",
+      "sha256_atual": "9cb95fb4e9361549055e8ffe530f334bba0271e2f53e8a04e029e098436d9ba0",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "stories/advento/angelus.png",
+      "sha256_anterior": "8bd4e1adbd48b5c53be19a7202cad88f0b293f60abb9124a0bcfc6a3e15d06ae",
+      "sha256_atual": "c85078720c69c87ddaf70a37a1e4fbede9f1e75315056ad349dfba14bd0efea7",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        140,
+        1200,
+        940,
+        1561
+      ],
+      "pixels_alterados": 36864,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          226,
+          1187,
+          854,
+          1239
+        ],
+        [
+          181,
+          1354,
+          899,
+          1424
+        ],
+        [
+          137,
+          1438,
+          943,
+          1502
+        ],
+        [
+          226,
+          1219,
+          854,
+          1271
+        ],
+        [
+          181,
+          1386,
+          899,
+          1456
+        ],
+        [
+          137,
+          1502,
+          943,
+          1566
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/advento/misericordia.png",
+      "sha256_anterior": "b26737ab5c607c0af11c449c13f03bfdcb6036346d672c5b5f95b1eabe8d54c0",
+      "sha256_atual": "9ce8580ff6c30cec541c999b22aa34dcff77fdc2906e6786ab01b0150f1d5e8d",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        117,
+        1199,
+        961,
+        1589
+      ],
+      "pixels_alterados": 53762,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          116,
+          1187,
+          964,
+          1239
+        ],
+        [
+          128,
+          1354,
+          952,
+          1560
+        ],
+        [
+          116,
+          1219,
+          964,
+          1271
+        ],
+        [
+          128,
+          1386,
+          952,
+          1592
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/natal/angelus.png",
+      "sha256_anterior": "1eb44fb88239f8a302a502f2be70dcfcd5b8e3e7fbc8a503773c5dc20a6ce7de",
+      "sha256_atual": "2104e66107bf6aca17a6abbb160d4ae2f4c4fa35c3062c04e08c5fa8cdb130ed",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        140,
+        1200,
+        940,
+        1561
+      ],
+      "pixels_alterados": 36864,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          226,
+          1187,
+          854,
+          1239
+        ],
+        [
+          181,
+          1354,
+          899,
+          1424
+        ],
+        [
+          137,
+          1438,
+          943,
+          1502
+        ],
+        [
+          226,
+          1219,
+          854,
+          1271
+        ],
+        [
+          181,
+          1386,
+          899,
+          1456
+        ],
+        [
+          137,
+          1502,
+          943,
+          1566
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/natal/misericordia.png",
+      "sha256_anterior": "78a2d5267dbb896437ab3c9437b5b5ff0e8f2fec3b5e4256362c0a687033f889",
+      "sha256_atual": "c62ddc9d72a748624878942dfd0bbb2c7d9df0594988400e240e7b75eaf62319",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        117,
+        1199,
+        961,
+        1589
+      ],
+      "pixels_alterados": 53762,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          116,
+          1187,
+          964,
+          1239
+        ],
+        [
+          128,
+          1354,
+          952,
+          1560
+        ],
+        [
+          116,
+          1219,
+          964,
+          1271
+        ],
+        [
+          128,
+          1386,
+          952,
+          1592
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/prancha.png",
+      "sha256_anterior": "370cd9a941410c0d7a1df262c85747938f214db49d0629f3ab59b772bf58794d",
+      "sha256_atual": "c55e02a199ed6c8268fa5867456a648d068d1297318f98ac161377f0b68fac2f",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        77,
+        489,
+        739,
+        2844
+      ],
+      "pixels_alterados": 139776,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          104,
+          484,
+          320,
+          508
+        ],
+        [
+          89,
+          540,
+          335,
+          570
+        ],
+        [
+          74,
+          568,
+          350,
+          596
+        ],
+        [
+          104,
+          495,
+          320,
+          519
+        ],
+        [
+          89,
+          551,
+          335,
+          581
+        ],
+        [
+          74,
+          589,
+          350,
+          617
+        ],
+        [
+          451,
+          484,
+          741,
+          508
+        ],
+        [
+          455,
+          540,
+          737,
+          615
+        ],
+        [
+          451,
+          495,
+          741,
+          519
+        ],
+        [
+          455,
+          551,
+          737,
+          626
+        ],
+        [
+          104,
+          1224,
+          320,
+          1248
+        ],
+        [
+          89,
+          1280,
+          335,
+          1310
+        ],
+        [
+          74,
+          1308,
+          350,
+          1336
+        ],
+        [
+          104,
+          1235,
+          320,
+          1259
+        ],
+        [
+          89,
+          1291,
+          335,
+          1321
+        ],
+        [
+          74,
+          1329,
+          350,
+          1357
+        ],
+        [
+          451,
+          1224,
+          741,
+          1248
+        ],
+        [
+          455,
+          1280,
+          737,
+          1355
+        ],
+        [
+          451,
+          1235,
+          741,
+          1259
+        ],
+        [
+          455,
+          1291,
+          737,
+          1366
+        ],
+        [
+          104,
+          2704,
+          320,
+          2728
+        ],
+        [
+          89,
+          2760,
+          335,
+          2790
+        ],
+        [
+          74,
+          2788,
+          350,
+          2816
+        ],
+        [
+          104,
+          2715,
+          320,
+          2739
+        ],
+        [
+          89,
+          2771,
+          335,
+          2801
+        ],
+        [
+          74,
+          2809,
+          350,
+          2837
+        ],
+        [
+          451,
+          2704,
+          741,
+          2728
+        ],
+        [
+          455,
+          2760,
+          737,
+          2835
+        ],
+        [
+          451,
+          2715,
+          741,
+          2739
+        ],
+        [
+          455,
+          2771,
+          737,
+          2846
+        ],
+        [
+          104,
+          1964,
+          320,
+          1988
+        ],
+        [
+          89,
+          2020,
+          335,
+          2050
+        ],
+        [
+          74,
+          2048,
+          350,
+          2076
+        ],
+        [
+          104,
+          1975,
+          320,
+          1999
+        ],
+        [
+          89,
+          2031,
+          335,
+          2061
+        ],
+        [
+          74,
+          2069,
+          350,
+          2097
+        ],
+        [
+          451,
+          1964,
+          741,
+          1988
+        ],
+        [
+          455,
+          2020,
+          737,
+          2095
+        ],
+        [
+          451,
+          1975,
+          741,
+          1999
+        ],
+        [
+          455,
+          2031,
+          737,
+          2106
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/quaresma/angelus.png",
+      "sha256_anterior": "8bd4e1adbd48b5c53be19a7202cad88f0b293f60abb9124a0bcfc6a3e15d06ae",
+      "sha256_atual": "c85078720c69c87ddaf70a37a1e4fbede9f1e75315056ad349dfba14bd0efea7",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        140,
+        1200,
+        940,
+        1561
+      ],
+      "pixels_alterados": 36864,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          226,
+          1187,
+          854,
+          1239
+        ],
+        [
+          181,
+          1354,
+          899,
+          1424
+        ],
+        [
+          137,
+          1438,
+          943,
+          1502
+        ],
+        [
+          226,
+          1219,
+          854,
+          1271
+        ],
+        [
+          181,
+          1386,
+          899,
+          1456
+        ],
+        [
+          137,
+          1502,
+          943,
+          1566
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/quaresma/misericordia.png",
+      "sha256_anterior": "b26737ab5c607c0af11c449c13f03bfdcb6036346d672c5b5f95b1eabe8d54c0",
+      "sha256_atual": "9ce8580ff6c30cec541c999b22aa34dcff77fdc2906e6786ab01b0150f1d5e8d",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        117,
+        1199,
+        961,
+        1589
+      ],
+      "pixels_alterados": 53762,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          116,
+          1187,
+          964,
+          1239
+        ],
+        [
+          128,
+          1354,
+          952,
+          1560
+        ],
+        [
+          116,
+          1219,
+          964,
+          1271
+        ],
+        [
+          128,
+          1386,
+          952,
+          1592
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/recorte-angelus.png",
+      "sha256_anterior": "c4b218bb37ed07f1d45db459f5ae6fce49131ceea99b4f3a9ff28de3c3600ccf",
+      "sha256_atual": "c4b218bb37ed07f1d45db459f5ae6fce49131ceea99b4f3a9ff28de3c3600ccf",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "stories/recorte-misericordia.png",
+      "sha256_anterior": "f432bc7afd58c1a64b89b995ddf2d701a3f3d7a08f645c3c97f70cf2436e9972",
+      "sha256_atual": "f432bc7afd58c1a64b89b995ddf2d701a3f3d7a08f645c3c97f70cf2436e9972",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "stories/tempo-comum/angelus.png",
+      "sha256_anterior": "63174e8b2bd395ed227bbe2c48f967b3b5f38e9aa0b425c973d43a1aa38d7e8a",
+      "sha256_atual": "ee3ad6b58f148f539064ca6b59b5a83dab6c0e14c7a009f838ae619d096ba851",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        140,
+        1200,
+        940,
+        1561
+      ],
+      "pixels_alterados": 36864,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          226,
+          1187,
+          854,
+          1239
+        ],
+        [
+          181,
+          1354,
+          899,
+          1424
+        ],
+        [
+          137,
+          1438,
+          943,
+          1502
+        ],
+        [
+          226,
+          1219,
+          854,
+          1271
+        ],
+        [
+          181,
+          1386,
+          899,
+          1456
+        ],
+        [
+          137,
+          1502,
+          943,
+          1566
+        ]
+      ]
+    },
+    {
+      "arquivo": "stories/tempo-comum/misericordia.png",
+      "sha256_anterior": "3020ddca32c0c120054e73dfa80badafcbb43d641297d09945c02e499aa97249",
+      "sha256_atual": "c1c3f74c1ee7be60c58af4857c670e281779fdaa21e6137d65edfa62a3e6f2df",
+      "pixels_identicos": false,
+      "limites_diferenca": [
+        117,
+        1199,
+        961,
+        1589
+      ],
+      "pixels_alterados": 53762,
+      "fora_da_regiao_identico": true,
+      "limites_diferenca_externa": null,
+      "regioes_autorizadas": [
+        [
+          116,
+          1187,
+          964,
+          1239
+        ],
+        [
+          128,
+          1354,
+          952,
+          1560
+        ],
+        [
+          116,
+          1219,
+          964,
+          1271
+        ],
+        [
+          128,
+          1386,
+          952,
+          1592
+        ]
+      ]
+    },
+    {
+      "arquivo": "teste-canva/prancha.png",
+      "sha256_anterior": "84f940270aed46826c2dcbe4904b72949cd69cbdc9c2a4110754f9a8c417b677",
+      "sha256_atual": "84f940270aed46826c2dcbe4904b72949cd69cbdc9c2a4110754f9a8c417b677",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/avatar-perfil-convertido.png",
+      "sha256_anterior": "5c218e03c52f15f31b133f7e26bdcad6e82e09f9deb65fec845edaebc387eeed",
+      "sha256_atual": "5c218e03c52f15f31b133f7e26bdcad6e82e09f9deb65fec845edaebc387eeed",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/avatar-perfil-original.png",
+      "sha256_anterior": "1bb1ba5632549d67a558524335abb3b4e7cc0cad2b348c592d70f1609ae62cce",
+      "sha256_atual": "1bb1ba5632549d67a558524335abb3b4e7cc0cad2b348c592d70f1609ae62cce",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-horizontal-capela-convertido.png",
+      "sha256_anterior": "21fcbd3ba5086872d99c78d3435ff87ad6a4e6040e15256c62d081f24ffada89",
+      "sha256_atual": "21fcbd3ba5086872d99c78d3435ff87ad6a4e6040e15256c62d081f24ffada89",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-horizontal-capela-original.png",
+      "sha256_anterior": "4ca9aa3b9e83361e9d2d7871f0f9cd7047d30708d59ce1b27075f7a66a88aeac",
+      "sha256_atual": "4ca9aa3b9e83361e9d2d7871f0f9cd7047d30708d59ce1b27075f7a66a88aeac",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-horizontal-pergaminho-convertido.png",
+      "sha256_anterior": "8027b0bd5b7615483624d27ed9d15eb5be0af038c1b8594929818465dd0d429c",
+      "sha256_atual": "8027b0bd5b7615483624d27ed9d15eb5be0af038c1b8594929818465dd0d429c",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-horizontal-pergaminho-original.png",
+      "sha256_anterior": "81e99c5c323f9e2c22088b901b7cccc42f090da14e9efeb58ddbe03c3180639b",
+      "sha256_atual": "81e99c5c323f9e2c22088b901b7cccc42f090da14e9efeb58ddbe03c3180639b",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-horizontal-sobre-cor-convertido.png",
+      "sha256_anterior": "9d4827b5090dc2b1ab1d0105fd30c34d073ba84e1707913dc97e7a11003a8dba",
+      "sha256_atual": "9d4827b5090dc2b1ab1d0105fd30c34d073ba84e1707913dc97e7a11003a8dba",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-horizontal-sobre-cor-original.png",
+      "sha256_anterior": "ebaa37d9f03809862565b780d2986adfe734b58c2c10bf7440565365897f54f5",
+      "sha256_atual": "ebaa37d9f03809862565b780d2986adfe734b58c2c10bf7440565365897f54f5",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-vertical-capela-convertido.png",
+      "sha256_anterior": "54ef83d8fa9e82dfb305d9693c0c3d467543eb7ff5d619e944a5424cca7a8b76",
+      "sha256_atual": "54ef83d8fa9e82dfb305d9693c0c3d467543eb7ff5d619e944a5424cca7a8b76",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-vertical-capela-original.png",
+      "sha256_anterior": "491df15a04d0f6333bbddeade053fe45b9bcd7c10a3ffe28a21c082e270be34b",
+      "sha256_atual": "491df15a04d0f6333bbddeade053fe45b9bcd7c10a3ffe28a21c082e270be34b",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-vertical-pergaminho-convertido.png",
+      "sha256_anterior": "55e14fb2f078f20a9699bfbfbd9593382b79bc30cb39e19a403be51d6885e22c",
+      "sha256_atual": "55e14fb2f078f20a9699bfbfbd9593382b79bc30cb39e19a403be51d6885e22c",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/logo-vertical-pergaminho-original.png",
+      "sha256_anterior": "91fd7f513ea48ee9a6d4b1cdd271649dd455c1032a62401ef5f7971a8748065b",
+      "sha256_atual": "91fd7f513ea48ee9a6d4b1cdd271649dd455c1032a62401ef5f7971a8748065b",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-capela-convertido.png",
+      "sha256_anterior": "f5f0b5e93a1fd4db0926f9c5e967558bd2deb64d78f675c58bbcf5cc8db9737f",
+      "sha256_atual": "f5f0b5e93a1fd4db0926f9c5e967558bd2deb64d78f675c58bbcf5cc8db9737f",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-capela-original.png",
+      "sha256_anterior": "187832b325e50fe64761688fd010184f57cb6d3819b3af8ae8b1a33ca388eb7b",
+      "sha256_atual": "187832b325e50fe64761688fd010184f57cb6d3819b3af8ae8b1a33ca388eb7b",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-pergaminho-convertido.png",
+      "sha256_anterior": "8401959f6fc7ca71d2fd5017b07335a21eed86006d0102c72657381557323619",
+      "sha256_atual": "8401959f6fc7ca71d2fd5017b07335a21eed86006d0102c72657381557323619",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-pergaminho-original.png",
+      "sha256_anterior": "0ded33949d278f88ce4872a53c06b5ba43e8cd955f214800c7a2420f807f3187",
+      "sha256_atual": "0ded33949d278f88ce4872a53c06b5ba43e8cd955f214800c7a2420f807f3187",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-reduzido-capela-convertido.png",
+      "sha256_anterior": "2ae6d89d69c6e571da78bf90cd1590663ea92ab5047888a730710e6b98573237",
+      "sha256_atual": "2ae6d89d69c6e571da78bf90cd1590663ea92ab5047888a730710e6b98573237",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-reduzido-capela-original.png",
+      "sha256_anterior": "abc178f0079edc6c58524cddb0308cecaec60e2e09c042c260cb4e92fb646b74",
+      "sha256_atual": "abc178f0079edc6c58524cddb0308cecaec60e2e09c042c260cb4e92fb646b74",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-reduzido-pergaminho-convertido.png",
+      "sha256_anterior": "ebe80cabf80849b51489beff4c4340344f4a456e76bf47e78fb042447809652f",
+      "sha256_atual": "ebe80cabf80849b51489beff4c4340344f4a456e76bf47e78fb042447809652f",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    },
+    {
+      "arquivo": "verificacao/logos/simbolo-reduzido-pergaminho-original.png",
+      "sha256_anterior": "b429bea1aa603e9755ed04299a47d15c7ec2c5b37af22aa797b74c677394cc41",
+      "sha256_atual": "b429bea1aa603e9755ed04299a47d15c7ec2c5b37af22aa797b74c677394cc41",
+      "pixels_identicos": true,
+      "limites_diferenca": null,
+      "pixels_alterados": 0
+    }
+  ],
+  "pdfs": [
+    {
+      "arquivo": "canva/teste-importacao.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "coragem/2026-12-14/coragem-2026-12-14-feed.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "coragem/2026-12-14/coragem-2026-12-14-status.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "coragem/2026-12-28/coragem-2026-12-28-feed.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "coragem/2026-12-28/coragem-2026-12-28-status.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "evangelho/2026-11-29/evangelho-2026-11-29.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "evangelho/2026-12-13/evangelho-2026-12-13.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "para-rezar/2026-10-20/para-rezar-2026-10-20.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "para-rezar/2026-12-15/para-rezar-2026-12-15.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "santo-do-dia/2026-11-30/santo-2026-11-30.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "santo-do-dia/2026-12-03/santo-2026-12-03.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "santo-do-dia/2026-12-08/santo-2026-12-08.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "stories/advento/stories-advento.pdf",
+      "bytes_identicos": false,
+      "paginas": [
+        {
+          "pagina": 1,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "3022a6dfd4f6b0264783c6cb88572ecc089ddf0aef2242f6bb88780ffc526e32",
+            "sha256_atual": "8bfacf767d2f1fc759560e328b02a705245d13e0fc01a84a9115b938f92af2e8",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              140,
+              1200,
+              940,
+              1561
+            ],
+            "pixels_alterados": 36906,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                226,
+                1187,
+                854,
+                1239
+              ],
+              [
+                181,
+                1354,
+                899,
+                1424
+              ],
+              [
+                137,
+                1438,
+                943,
+                1502
+              ],
+              [
+                226,
+                1219,
+                854,
+                1271
+              ],
+              [
+                181,
+                1386,
+                899,
+                1456
+              ],
+              [
+                137,
+                1502,
+                943,
+                1566
+              ]
+            ]
+          }
+        },
+        {
+          "pagina": 2,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "126d9d0a9e113687242a6634ca7b9fcdc604eb4eb0a66ee1a5f7825a630f2bbd",
+            "sha256_atual": "f8d76e2d4b9dc9fccd5e04a59652531f307e2958b66503739c940762b48f199e",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              117,
+              1199,
+              962,
+              1589
+            ],
+            "pixels_alterados": 54254,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                116,
+                1187,
+                964,
+                1239
+              ],
+              [
+                128,
+                1354,
+                952,
+                1560
+              ],
+              [
+                116,
+                1219,
+                964,
+                1271
+              ],
+              [
+                128,
+                1386,
+                952,
+                1592
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "arquivo": "stories/natal/stories-natal.pdf",
+      "bytes_identicos": false,
+      "paginas": [
+        {
+          "pagina": 1,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "55f3e32e8e6150a3f01bf6236965379b7533de7d8e66647da1f6be1010a9227a",
+            "sha256_atual": "2ec79ab6f6dd14c75307bbd8e4377b13dfe245fbab3a18ca6a542828ed2c6005",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              140,
+              1200,
+              940,
+              1561
+            ],
+            "pixels_alterados": 36906,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                226,
+                1187,
+                854,
+                1239
+              ],
+              [
+                181,
+                1354,
+                899,
+                1424
+              ],
+              [
+                137,
+                1438,
+                943,
+                1502
+              ],
+              [
+                226,
+                1219,
+                854,
+                1271
+              ],
+              [
+                181,
+                1386,
+                899,
+                1456
+              ],
+              [
+                137,
+                1502,
+                943,
+                1566
+              ]
+            ]
+          }
+        },
+        {
+          "pagina": 2,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "3ba5e77398b66a5a97919ee079859faa6e71e164f2a9c077d34878bc41992c62",
+            "sha256_atual": "b3a6891ce01c3e60f425a385217144ea320725f19480bc91c9df18e395e40136",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              117,
+              1199,
+              962,
+              1589
+            ],
+            "pixels_alterados": 54254,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                116,
+                1187,
+                964,
+                1239
+              ],
+              [
+                128,
+                1354,
+                952,
+                1560
+              ],
+              [
+                116,
+                1219,
+                964,
+                1271
+              ],
+              [
+                128,
+                1386,
+                952,
+                1592
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "arquivo": "stories/quaresma/stories-quaresma.pdf",
+      "bytes_identicos": false,
+      "paginas": [
+        {
+          "pagina": 1,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "3022a6dfd4f6b0264783c6cb88572ecc089ddf0aef2242f6bb88780ffc526e32",
+            "sha256_atual": "8bfacf767d2f1fc759560e328b02a705245d13e0fc01a84a9115b938f92af2e8",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              140,
+              1200,
+              940,
+              1561
+            ],
+            "pixels_alterados": 36906,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                226,
+                1187,
+                854,
+                1239
+              ],
+              [
+                181,
+                1354,
+                899,
+                1424
+              ],
+              [
+                137,
+                1438,
+                943,
+                1502
+              ],
+              [
+                226,
+                1219,
+                854,
+                1271
+              ],
+              [
+                181,
+                1386,
+                899,
+                1456
+              ],
+              [
+                137,
+                1502,
+                943,
+                1566
+              ]
+            ]
+          }
+        },
+        {
+          "pagina": 2,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "126d9d0a9e113687242a6634ca7b9fcdc604eb4eb0a66ee1a5f7825a630f2bbd",
+            "sha256_atual": "f8d76e2d4b9dc9fccd5e04a59652531f307e2958b66503739c940762b48f199e",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              117,
+              1199,
+              962,
+              1589
+            ],
+            "pixels_alterados": 54254,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                116,
+                1187,
+                964,
+                1239
+              ],
+              [
+                128,
+                1354,
+                952,
+                1560
+              ],
+              [
+                116,
+                1219,
+                964,
+                1271
+              ],
+              [
+                128,
+                1386,
+                952,
+                1592
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "arquivo": "stories/tempo-comum/stories-tempo-comum.pdf",
+      "bytes_identicos": false,
+      "paginas": [
+        {
+          "pagina": 1,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "a4bdbb922af9d4e5db532473ffe0429094c9c814f0062fb3273b94d878a6816a",
+            "sha256_atual": "33b4cd6f66c2609aca2798b636900f215c943a8e24ba60b0359333466150d0cb",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              140,
+              1200,
+              940,
+              1561
+            ],
+            "pixels_alterados": 36906,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                226,
+                1187,
+                854,
+                1239
+              ],
+              [
+                181,
+                1354,
+                899,
+                1424
+              ],
+              [
+                137,
+                1438,
+                943,
+                1502
+              ],
+              [
+                226,
+                1219,
+                854,
+                1271
+              ],
+              [
+                181,
+                1386,
+                899,
+                1456
+              ],
+              [
+                137,
+                1502,
+                943,
+                1566
+              ]
+            ]
+          }
+        },
+        {
+          "pagina": 2,
+          "dimensao_pt": [
+            810.0,
+            1440.0
+          ],
+          "dimensao_identica": true,
+          "fontes_embutidas": true,
+          "tabelas_das_fontes_identicas": true,
+          "texto_identico": true,
+          "texto_igual_ficha_yaml": true,
+          "raster_1080px": {
+            "sha256_anterior": "503241b818ec39cc9d5f150760c69b20c5bc4b92b89f24bcb9629cbeb43f037a",
+            "sha256_atual": "5796e62debc8dbed214c1752dfc6d62d51bd89460e195b1502fb6c2a4a15a208",
+            "pixels_identicos": false,
+            "limites_diferenca": [
+              117,
+              1199,
+              962,
+              1589
+            ],
+            "pixels_alterados": 54254,
+            "fora_da_regiao_identico": true,
+            "limites_diferenca_externa": null,
+            "regioes_autorizadas": [
+              [
+                116,
+                1187,
+                964,
+                1239
+              ],
+              [
+                128,
+                1354,
+                952,
+                1560
+              ],
+              [
+                116,
+                1219,
+                964,
+                1271
+              ],
+              [
+                128,
+                1386,
+                952,
+                1592
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "arquivo": "teste-canva/teste-canva-a.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    },
+    {
+      "arquivo": "teste-canva/teste-canva-b.pdf",
+      "bytes_identicos": true,
+      "paginas": []
+    }
+  ],
+  "dom": [
+    {
+      "arquivo": "stories/advento/angelus.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        },
+        {
+          "par": [
+            "invocacao",
+            "resposta"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 63,
+      "ornamento_y": 1286
+    },
+    {
+      "arquivo": "stories/advento/misericordia.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 37,
+      "ornamento_y": 1286
+    },
+    {
+      "arquivo": "stories/natal/angelus.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        },
+        {
+          "par": [
+            "invocacao",
+            "resposta"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 63,
+      "ornamento_y": 1286
+    },
+    {
+      "arquivo": "stories/natal/misericordia.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 37,
+      "ornamento_y": 1286
+    },
+    {
+      "arquivo": "stories/quaresma/angelus.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        },
+        {
+          "par": [
+            "invocacao",
+            "resposta"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 63,
+      "ornamento_y": 1286
+    },
+    {
+      "arquivo": "stories/quaresma/misericordia.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 37,
+      "ornamento_y": 1286
+    },
+    {
+      "arquivo": "stories/tempo-comum/angelus.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        },
+        {
+          "par": [
+            "invocacao",
+            "resposta"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 63,
+      "ornamento_y": 1286
+    },
+    {
+      "arquivo": "stories/tempo-comum/misericordia.png",
+      "pares": [
+        {
+          "par": [
+            "titulo",
+            "subtitulo"
+          ],
+          "distancia_px": 48
+        }
+      ],
+      "ultimo_texto_assinatura_px": 37,
+      "ornamento_y": 1286
+    }
+  ],
+  "distancias_pdf": [
+    {
+      "arquivo": "stories/advento/stories-advento.pdf",
+      "pagina": 1,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/advento/stories-advento.pdf",
+      "pagina": 1,
+      "par": [
+        "invocacao",
+        "resposta"
+      ],
+      "anterior_px": 21.846028645833332,
+      "atual_px": 53.846028645833336,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/advento/stories-advento.pdf",
+      "pagina": 2,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/natal/stories-natal.pdf",
+      "pagina": 1,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/natal/stories-natal.pdf",
+      "pagina": 1,
+      "par": [
+        "invocacao",
+        "resposta"
+      ],
+      "anterior_px": 21.846028645833332,
+      "atual_px": 53.846028645833336,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/natal/stories-natal.pdf",
+      "pagina": 2,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/quaresma/stories-quaresma.pdf",
+      "pagina": 1,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/quaresma/stories-quaresma.pdf",
+      "pagina": 1,
+      "par": [
+        "invocacao",
+        "resposta"
+      ],
+      "anterior_px": 21.846028645833332,
+      "atual_px": 53.846028645833336,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/quaresma/stories-quaresma.pdf",
+      "pagina": 2,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/tempo-comum/stories-tempo-comum.pdf",
+      "pagina": 1,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/tempo-comum/stories-tempo-comum.pdf",
+      "pagina": 1,
+      "par": [
+        "invocacao",
+        "resposta"
+      ],
+      "anterior_px": 21.846028645833332,
+      "atual_px": 53.846028645833336,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    },
+    {
+      "arquivo": "stories/tempo-comum/stories-tempo-comum.pdf",
+      "pagina": 2,
+      "par": [
+        "titulo",
+        "subtitulo"
+      ],
+      "anterior_px": 13.038004557291666,
+      "atual_px": 45.038004557291664,
+      "aumento_px": 32.0,
+      "esperado_px": 32,
+      "tolerancia_px": 0.5
+    }
+  ],
+  "arquivos_preservados": [
+    {
+      "arquivo": "saida/CONFERENCIA-KIT-V4.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/CONFERENCIA-PROMPT-5.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/CONFERENCIA-PROMPT-6.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/RELATORIO.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/FICHA.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/cruz-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/cruz-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-Medium.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-MediumItalic.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-SemiBold.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-SemiBoldItalic.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/Lato-Bold.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/Lato-Regular.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/licencas/OFL-CormorantGaramond.txt",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/licencas/OFL-Lato.txt",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/avatar-perfil.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/avatar-perfil.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-horizontal-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-horizontal-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-horizontal-sobre-cor.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-vertical-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-vertical-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-reduzido-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-reduzido-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-340x420-santinho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-600x680-coragem.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-600x700-angelus.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-640x760-toda-bela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-680x760-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-720x900-status-coragem.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/elementos/variantes/nicho-680x760-capela-verde.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/medicoes.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/pagina-1.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/pagina-2.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/pagina-3.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/canva/teste-importacao.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/coragem-2026-12-14-feed.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/coragem-2026-12-14-status.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/feed.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/recorte-feed.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/recorte-status.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/status.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/coragem-2026-12-28-feed.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/coragem-2026-12-28-status.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/feed.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/recorte-feed.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/recorte-status.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/status.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/NOTAS-DE-ENQUADRAMENTO.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/RELATORIO.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/prancha.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/coragem/verificacao.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-1.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-2.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-3.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-4.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/evangelho-2026-11-29.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/recorte.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-1.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-2.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-3.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-4.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/evangelho-2026-12-13.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/recorte.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/CONFERENCIA-KIT-V3.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/RELATORIO.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/conferencia-kit-v3.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/prancha-cores.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/prancha.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/evangelho/verificacao.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/html/assinaturas.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/html/nichos.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/html/obra-provisoria.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/html/pagina-1.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/html/pagina-2.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/html/pagina-3.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/html/selos.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/obra-provisoria.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-10-20/card-1.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-10-20/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-10-20/para-rezar-2026-10-20.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/card-1.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/card-2.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/para-rezar-2026-12-15.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/RELATORIO.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/prancha.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/para-rezar/verificacao.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/previas/assinaturas.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/previas/nichos.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/previas/selos.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/card.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/recorte.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/santo-2026-11-30.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/card.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/recorte.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/santo-2026-12-03.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/card.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/recorte.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/santo-2026-12-08.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/RELATORIO.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/prancha.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/santo-do-dia/verificacao.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/stories/recorte-angelus.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/stories/recorte-misericordia.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/teste-canva/LEIA-ME.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/teste-canva/ficha.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/teste-canva/prancha.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/teste-canva/teste-canva-a.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/teste-canva/teste-canva-b.pdf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/teste-canva/verificacao.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/tokens.css",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/conferencia-kit-v4.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/conferencia-prompt5.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/conferencia-prompt6.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/avatar-perfil-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/avatar-perfil-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/avatar-perfil.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/comparacao.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-capela-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-capela-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-pergaminho-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-pergaminho-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-sobre-cor-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-sobre-cor-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-sobre-cor.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-capela-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-capela-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-pergaminho-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-pergaminho-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-capela-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-capela-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-pergaminho-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-pergaminho-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-capela-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-capela-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-pergaminho-convertido.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-pergaminho-original.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "saida/verificacao/resultados.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/2026-11-29.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/2026-12-13.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/coragem/2026-12-14.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/coragem/2026-12-28.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/santo-do-dia/2026-11-30.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/santo-do-dia/2026-12-03.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/santo-do-dia/2026-12-08.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/stories/angelus.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "obras/stories/misericordia.jpg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "conteudo/coragem.yaml",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "conteudo/evangelho.yaml",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "conteudo/para-rezar.yaml",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "conteudo/santo-do-dia.yaml",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "conteudo/stories.yaml",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/__init__.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/base.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/canva.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/conteudo.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_coragem.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_oracao.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_santo.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_stories.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/coragem.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/evangelho.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/ficha.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/obras.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/para_rezar.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/relatorio.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/renderizacao.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/santo.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "arteque_reza/validacao.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "gerar.py",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "requirements.txt",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit-arte-que-reza.zip",
+      "bytes_identicos": true
+    }
+  ],
+  "kit": {
+    "arquivos": [
+      {
+        "arquivo": "kit/LEIA-ME.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/bundle.css",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/Assinatura/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/Assinatura/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/GradeFeed/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/GradeFeed/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/Nicho/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/Nicho/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostCoragem/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostCoragem/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostEvangelho/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostEvangelho/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostFesta/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostFesta/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostOracao/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostOracao/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostSanto/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/PostSanto/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/Selo/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/Selo/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/StoryAngelus/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/componentes/StoryAngelus/preview.html",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/design-system/tokens.json",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/CormorantGaramond-Medium.ttf",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/CormorantGaramond-MediumItalic.ttf",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/CormorantGaramond-SemiBold.ttf",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/CormorantGaramond-SemiBoldItalic.ttf",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/Lato-Bold.ttf",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/Lato-Regular.ttf",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/licencas/OFL-CormorantGaramond.txt",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/fontes/licencas/OFL-Lato.txt",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/README.md",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/avatar-perfil.png",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/avatar-perfil.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/logo-horizontal-capela.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/logo-horizontal-pergaminho.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/logo-horizontal-sobre-cor.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/logo-vertical-capela.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/logo-vertical-pergaminho.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/simbolo-capela.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/simbolo-pergaminho.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/simbolo-reduzido-capela.svg",
+        "bytes_identicos": true
+      },
+      {
+        "arquivo": "kit/logos/simbolo-reduzido-pergaminho.svg",
+        "bytes_identicos": true
+      }
+    ],
+    "total": 44
+  },
+  "validacao_nativa": true,
+  "previa_story_angelus": {
+    "ok": true,
+    "verificado": true,
+    "confronto_fora_obra_identico": true,
+    "pixels_alterados_fora_obra": 0,
+    "limites_diferenca": null,
+    "obra_excluida": [
+      256,
+      344,
+      824,
+      1028
+    ],
+    "fonte": "kit/design-system/componentes/StoryAngelus/preview.html",
+    "metodo": "Cópia da prévia com as duas margens dos textos para Canva e as margens compensadas do ornamento; article na origem (0,0).",
+    "origem_article_px": [
+      0,
+      0
+    ],
+    "preview_renderizado": "work/stories/conferencia-kit/article-origem-0.png",
+    "diferenca": null,
+    "explicacao": "O article da prévia e o gerado são rasterizados na mesma origem (0,0)."
+  },
+  "ok": true,
+  "errors": []
+}
