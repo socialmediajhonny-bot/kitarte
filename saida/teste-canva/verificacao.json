@@ -1,0 +1,2488 @@
+{
+  "ok": true,
+  "checks": {
+    "a": {
+      "arquivo": "teste-canva-a.pdf",
+      "paginas": [
+        {
+          "pagina": 1,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 1,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  411.05999755859375,
+                  706.5491943359375,
+                  483.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  477.05999755859375,
+                  476.21337890625,
+                  549.719970703125
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.5703125,
+                  559.06201171875,
+                  456.93463134765625,
+                  587.8619995117188
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 2,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 2,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8828125,
+                  367.81201171875,
+                  485.8590087890625,
+                  396.61199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  410.3280029296875,
+                  617.7213134765625,
+                  459.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  461.3280029296875,
+                  637.811279296875,
+                  510.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  602.5814819335938,
+                  608.8851928710938,
+                  633.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 3,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 3,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  411.05999755859375,
+                  706.5491943359375,
+                  483.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  477.05999755859375,
+                  476.21337890625,
+                  549.719970703125
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.5703125,
+                  559.06201171875,
+                  456.93463134765625,
+                  587.8619995117188
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 4,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 4,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  410.3280029296875,
+                  617.7213134765625,
+                  459.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  461.3280029296875,
+                  637.811279296875,
+                  510.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  602.5814819335938,
+                  608.8851928710938,
+                  633.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8828125,
+                  367.81201171875,
+                  485.8590087890625,
+                  396.61199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 5,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 5,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0.5,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  411.05999755859375,
+                  706.5491943359375,
+                  483.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  477.05999755859375,
+                  476.21337890625,
+                  549.719970703125
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.3788146972656,
+                  558.60498046875,
+                  456.9903869628906,
+                  588.3145751953125
+                ],
+                "direcao": [
+                  0.9999618530273438,
+                  0.008726534433662891
+                ],
+                "angulo_graus": 0.4999999740168411
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 6,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 6,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0.5,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  410.3280029296875,
+                  617.7213134765625,
+                  459.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  461.3280029296875,
+                  637.811279296875,
+                  510.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  602.5814819335938,
+                  608.8851928710938,
+                  633.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8799133300781,
+                  367.1046142578125,
+                  486.1012878417969,
+                  397.3170471191406
+                ],
+                "direcao": [
+                  0.9999618530273438,
+                  0.008726534433662891
+                ],
+                "angulo_graus": 0.4999999740168411
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 7,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 7,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  405.05999755859375,
+                  706.5491943359375,
+                  477.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  471.05999755859375,
+                  476.21337890625,
+                  543.719970703125
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.5703125,
+                  565.06201171875,
+                  456.93463134765625,
+                  593.8619995117188
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 8,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 8,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8828125,
+                  361.81201171875,
+                  485.8590087890625,
+                  390.61199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  416.3280029296875,
+                  617.7213134765625,
+                  465.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  467.3280029296875,
+                  637.811279296875,
+                  516.3734741210938
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  608.5814819335938,
+                  608.8851928710938,
+                  639.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 9,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 9,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  399.05999755859375,
+                  706.5491943359375,
+                  471.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  465.05999755859375,
+                  476.21337890625,
+                  537.719970703125
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.5703125,
+                  571.06201171875,
+                  456.93463134765625,
+                  599.8619995117188
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 10,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 10,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8828125,
+                  355.81201171875,
+                  485.8590087890625,
+                  384.61199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  422.3280029296875,
+                  617.7213134765625,
+                  471.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  473.3280029296875,
+                  637.811279296875,
+                  522.3734741210938
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  614.5814819335938,
+                  608.8851928710938,
+                  645.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 11,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 11,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  387.05999755859375,
+                  706.5491943359375,
+                  459.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  453.05999755859375,
+                  476.21337890625,
+                  525.719970703125
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.5703125,
+                  583.06201171875,
+                  456.93463134765625,
+                  611.8619995117188
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 12,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 12,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8828125,
+                  343.81201171875,
+                  485.8590087890625,
+                  372.61199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  434.3280029296875,
+                  617.7213134765625,
+                  483.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  485.3280029296875,
+                  637.811279296875,
+                  534.3734741210938
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  626.5814819335938,
+                  608.8851928710938,
+                  657.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 13,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 13,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  369.05999755859375,
+                  706.5491943359375,
+                  441.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  435.05999755859375,
+                  476.21337890625,
+                  507.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.5703125,
+                  601.06201171875,
+                  456.93463134765625,
+                  629.8619995117188
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 14,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "respiro_estilo_computado_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 14,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8828125,
+                  325.81201171875,
+                  485.8590087890625,
+                  354.61199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  452.3280029296875,
+                  617.7213134765625,
+                  501.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  503.3280029296875,
+                  637.811279296875,
+                  552.3734741210938
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  644.5814819335938,
+                  608.8851928710938,
+                  675.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "contagem_ok": true,
+      "marcacao": {
+        "struct_tree_root_presente": false,
+        "mark_info_presente": false,
+        "marked_true": false,
+        "estrutura_preservada": false,
+        "chaves_de_pagina": [],
+        "chaves_parent_tree": [],
+        "parent_tree_next_key": null,
+        "sem_marcacao": true,
+        "marcado": false
+      },
+      "marcacao_ok": true,
+      "fontes": {
+        "ok": true,
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 14944
+          },
+          {
+            "nome": "Lato-Regular",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 16828
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 11656
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     19  0",
+        "errors": []
+      },
+      "producao_declarada": {
+        "documentos_html": 1,
+        "chamadas_page_pdf": 1,
+        "paginas_pdf": 14
+      },
+      "producao_declarada_ok": true
+    },
+    "b": {
+      "arquivo": "teste-canva-b.pdf",
+      "paginas": [
+        {
+          "pagina": 1,
+          "card_origem": 2,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 1,
+            "alvo": "Mc 13,37",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que vos digo, digo a todos:",
+                "texto_sem_espacos": "Oquevosdigo,digoatodos:",
+                "caixa_pt": [
+                  103.4296875,
+                  411.05999755859375,
+                  706.5491943359375,
+                  483.7200012207031
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Vigiai!",
+                "texto_sem_espacos": "Vigiai!",
+                "caixa_pt": [
+                  333.7734375,
+                  477.05999755859375,
+                  476.21337890625,
+                  549.719970703125
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,37",
+                "texto_sem_espacos": "Mc13,37",
+                "caixa_pt": [
+                  352.5703125,
+                  559.06201171875,
+                  456.93463134765625,
+                  587.8619995117188
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "pagina": 2,
+          "card_origem": 4,
+          "dimensao_pt": [
+            810.0,
+            1012.5
+          ],
+          "tamanho_ok": true,
+          "texto_pymupdf_igual": true,
+          "texto_pdftotext_igual": true,
+          "ficha_variante_ok": true,
+          "rotacao": {
+            "ok": true,
+            "pagina": 2,
+            "alvo": "Para rezar hoje",
+            "angulo_esperado": 0,
+            "linhas": [
+              {
+                "texto": "Evangelho do Dia · dom, 29 nov",
+                "texto_sem_espacos": "EvangelhodoDia·dom,29nov",
+                "caixa_pt": [
+                  85.5,
+                  60.3120002746582,
+                  427.5278625488281,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Mc 13,33-37",
+                "texto_sem_espacos": "Mc13,33-37",
+                "caixa_pt": [
+                  609.94921875,
+                  60.3120002746582,
+                  749.7493286132812,
+                  89.11199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Para rezar hoje",
+                "texto_sem_espacos": "Pararezarhoje",
+                "caixa_pt": [
+                  323.8828125,
+                  367.81201171875,
+                  485.8590087890625,
+                  396.61199951171875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "O que em mim está dormindo",
+                "texto_sem_espacos": "Oqueemmimestádormindo",
+                "caixa_pt": [
+                  192.26953125,
+                  410.3280029296875,
+                  617.7213134765625,
+                  459.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "e precisa acordar neste Advento?",
+                "texto_sem_espacos": "eprecisaacordarnesteAdvento?",
+                "caixa_pt": [
+                  172.18359375,
+                  461.3280029296875,
+                  637.811279296875,
+                  510.3735046386719
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              },
+              {
+                "texto": "Abra sua Bíblia em Marcos 13,33-37",
+                "texto_sem_espacos": "AbrasuaBíbliaemMarcos13,33-37",
+                "caixa_pt": [
+                  201.09375,
+                  602.5814819335938,
+                  608.8851928710938,
+                  633.1815185546875
+                ],
+                "direcao": [
+                  1.0,
+                  0.0
+                ],
+                "angulo_graus": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "contagem_ok": true,
+      "marcacao": {
+        "struct_tree_root_presente": true,
+        "mark_info_presente": true,
+        "marked_true": true,
+        "estrutura_preservada": true,
+        "chaves_de_pagina": [
+          0,
+          1
+        ],
+        "chaves_parent_tree": [
+          0,
+          1
+        ],
+        "parent_tree_next_key": 2,
+        "sem_marcacao": false,
+        "marcado": true
+      },
+      "marcacao_ok": true,
+      "fontes": {
+        "ok": true,
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 14944
+          },
+          {
+            "nome": "Lato-Regular",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 16828
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 11656
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      8  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     13  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     18  0",
+        "errors": []
+      },
+      "producao_declarada": {
+        "documentos_html": 1,
+        "chamadas_page_pdf": 1,
+        "paginas_pdf": 2
+      },
+      "producao_declarada_ok": true
+    },
+    "raster": [
+      {
+        "pagina": "A1",
+        "referencia": "Evangelho card 2",
+        "dimensoes_iguais": true,
+        "dimensao_px": [
+          1080,
+          1350
+        ],
+        "identicos": true,
+        "maior_diferenca_por_canal": [
+          0,
+          0,
+          0
+        ],
+        "limites_da_diferenca": null
+      },
+      {
+        "pagina": "B1",
+        "referencia": "Evangelho card 2",
+        "dimensoes_iguais": true,
+        "dimensao_px": [
+          1080,
+          1350
+        ],
+        "identicos": true,
+        "maior_diferenca_por_canal": [
+          0,
+          0,
+          0
+        ],
+        "limites_da_diferenca": null
+      },
+      {
+        "pagina": "A3",
+        "referencia": "A1",
+        "dimensoes_iguais": true,
+        "dimensao_px": [
+          1080,
+          1350
+        ],
+        "identicos": false,
+        "maior_diferenca_por_canal": [
+          2,
+          2,
+          2
+        ],
+        "limites_da_diferenca": [
+          472,
+          753,
+          608,
+          782
+        ],
+        "limite_rgb": 2,
+        "ok": true
+      },
+      {
+        "pagina": "A2",
+        "referencia": "Evangelho card 4",
+        "dimensoes_iguais": true,
+        "dimensao_px": [
+          1080,
+          1350
+        ],
+        "identicos": true,
+        "maior_diferenca_por_canal": [
+          0,
+          0,
+          0
+        ],
+        "limites_da_diferenca": null
+      },
+      {
+        "pagina": "B2",
+        "referencia": "Evangelho card 4",
+        "dimensoes_iguais": true,
+        "dimensao_px": [
+          1080,
+          1350
+        ],
+        "identicos": true,
+        "maior_diferenca_por_canal": [
+          0,
+          0,
+          0
+        ],
+        "limites_da_diferenca": null
+      },
+      {
+        "pagina": "A4",
+        "referencia": "A2",
+        "dimensoes_iguais": true,
+        "dimensao_px": [
+          1080,
+          1350
+        ],
+        "identicos": false,
+        "maior_diferenca_por_canal": [
+          2,
+          2,
+          2
+        ],
+        "limites_da_diferenca": [
+          434,
+          498,
+          647,
+          528
+        ],
+        "limite_rgb": 2,
+        "ok": true
+      }
+    ],
+    "camadas": [
+      {
+        "ok": true,
+        "pagina": 3,
+        "alvo": "Mc 13,37",
+        "forms": [
+          {
+            "recurso": "/X15",
+            "grupo_transparencia": true,
+            "opacidade_invocacao": 0.999,
+            "blocos_bt": 1,
+            "blocos_et": 1,
+            "imagens_pintadas": 0,
+            "pinturas_nao_textuais": 0,
+            "texto": "M c  1 3 , 3 7",
+            "texto_sem_espacos": "Mc13,37"
+          }
+        ],
+        "forms_alvo": 1,
+        "forms_alvo_validos": 1
+      },
+      {
+        "ok": true,
+        "pagina": 4,
+        "alvo": "Para rezar hoje",
+        "forms": [
+          {
+            "recurso": "/X18",
+            "grupo_transparencia": true,
+            "opacidade_invocacao": 0.999,
+            "blocos_bt": 1,
+            "blocos_et": 1,
+            "imagens_pintadas": 0,
+            "pinturas_nao_textuais": 0,
+            "texto": "P a r a  r e z a r  h o j e",
+            "texto_sem_espacos": "Pararezarhoje"
+          }
+        ],
+        "forms_alvo": 1,
+        "forms_alvo_validos": 1
+      }
+    ],
+    "respiros": [
+      {
+        "pagina": 7,
+        "card_origem": 2,
+        "esperado_dom_px": 32,
+        "distancia_dom_px": 32.0,
+        "distancia_calculada_das_caixas_dom_px": 32,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              405.05999755859375,
+              706.5491943359375,
+              477.7200012207031
+            ],
+            [
+              333.7734375,
+              471.05999755859375,
+              476.21337890625,
+              543.719970703125
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              565.06201171875,
+              456.93463134765625,
+              593.8619995117188
+            ]
+          ],
+          "distancia_pt": 21.342041015625,
+          "distancia_px": 28.4560546875
+        },
+        "controle_pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              411.05999755859375,
+              706.5491943359375,
+              483.7200012207031
+            ],
+            [
+              333.7734375,
+              477.05999755859375,
+              476.21337890625,
+              549.719970703125
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              559.06201171875,
+              456.93463134765625,
+              587.8619995117188
+            ]
+          ],
+          "distancia_pt": 9.342041015625,
+          "distancia_px": 12.4560546875
+        },
+        "incremento_pdf_px": 16.0,
+        "incremento_esperado_px": 16,
+        "pdf_ok": true
+      },
+      {
+        "pagina": 8,
+        "card_origem": 4,
+        "esperado_dom_px": 32,
+        "distancia_dom_px": 32.0,
+        "distancia_calculada_das_caixas_dom_px": 32.0,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              361.81201171875,
+              485.8590087890625,
+              390.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              416.3280029296875,
+              617.7213134765625,
+              465.3735046386719
+            ],
+            [
+              172.18359375,
+              467.3280029296875,
+              637.811279296875,
+              516.3734741210938
+            ]
+          ],
+          "distancia_pt": 25.71600341796875,
+          "distancia_px": 34.288004557291664
+        },
+        "controle_pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              367.81201171875,
+              485.8590087890625,
+              396.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              410.3280029296875,
+              617.7213134765625,
+              459.3735046386719
+            ],
+            [
+              172.18359375,
+              461.3280029296875,
+              637.811279296875,
+              510.3735046386719
+            ]
+          ],
+          "distancia_pt": 13.71600341796875,
+          "distancia_px": 18.288004557291668
+        },
+        "incremento_pdf_px": 15.999999999999996,
+        "incremento_esperado_px": 16,
+        "pdf_ok": true
+      },
+      {
+        "pagina": 9,
+        "card_origem": 2,
+        "esperado_dom_px": 48,
+        "distancia_dom_px": 48.0,
+        "distancia_calculada_das_caixas_dom_px": 48,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              399.05999755859375,
+              706.5491943359375,
+              471.7200012207031
+            ],
+            [
+              333.7734375,
+              465.05999755859375,
+              476.21337890625,
+              537.719970703125
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              571.06201171875,
+              456.93463134765625,
+              599.8619995117188
+            ]
+          ],
+          "distancia_pt": 33.342041015625,
+          "distancia_px": 44.4560546875
+        },
+        "controle_pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              411.05999755859375,
+              706.5491943359375,
+              483.7200012207031
+            ],
+            [
+              333.7734375,
+              477.05999755859375,
+              476.21337890625,
+              549.719970703125
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              559.06201171875,
+              456.93463134765625,
+              587.8619995117188
+            ]
+          ],
+          "distancia_pt": 9.342041015625,
+          "distancia_px": 12.4560546875
+        },
+        "incremento_pdf_px": 32.0,
+        "incremento_esperado_px": 32,
+        "pdf_ok": true
+      },
+      {
+        "pagina": 10,
+        "card_origem": 4,
+        "esperado_dom_px": 48,
+        "distancia_dom_px": 48.0,
+        "distancia_calculada_das_caixas_dom_px": 48.0,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              355.81201171875,
+              485.8590087890625,
+              384.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              422.3280029296875,
+              617.7213134765625,
+              471.3735046386719
+            ],
+            [
+              172.18359375,
+              473.3280029296875,
+              637.811279296875,
+              522.3734741210938
+            ]
+          ],
+          "distancia_pt": 37.71600341796875,
+          "distancia_px": 50.288004557291664
+        },
+        "controle_pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              367.81201171875,
+              485.8590087890625,
+              396.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              410.3280029296875,
+              617.7213134765625,
+              459.3735046386719
+            ],
+            [
+              172.18359375,
+              461.3280029296875,
+              637.811279296875,
+              510.3735046386719
+            ]
+          ],
+          "distancia_pt": 13.71600341796875,
+          "distancia_px": 18.288004557291668
+        },
+        "incremento_pdf_px": 31.999999999999996,
+        "incremento_esperado_px": 32,
+        "pdf_ok": true
+      },
+      {
+        "pagina": 11,
+        "card_origem": 2,
+        "esperado_dom_px": 80,
+        "distancia_dom_px": 80.0,
+        "distancia_calculada_das_caixas_dom_px": 80,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              387.05999755859375,
+              706.5491943359375,
+              459.7200012207031
+            ],
+            [
+              333.7734375,
+              453.05999755859375,
+              476.21337890625,
+              525.719970703125
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              583.06201171875,
+              456.93463134765625,
+              611.8619995117188
+            ]
+          ],
+          "distancia_pt": 57.342041015625,
+          "distancia_px": 76.4560546875
+        },
+        "controle_pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              411.05999755859375,
+              706.5491943359375,
+              483.7200012207031
+            ],
+            [
+              333.7734375,
+              477.05999755859375,
+              476.21337890625,
+              549.719970703125
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              559.06201171875,
+              456.93463134765625,
+              587.8619995117188
+            ]
+          ],
+          "distancia_pt": 9.342041015625,
+          "distancia_px": 12.4560546875
+        },
+        "incremento_pdf_px": 64.0,
+        "incremento_esperado_px": 64,
+        "pdf_ok": true
+      },
+      {
+        "pagina": 12,
+        "card_origem": 4,
+        "esperado_dom_px": 80,
+        "distancia_dom_px": 80.0,
+        "distancia_calculada_das_caixas_dom_px": 80.0,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              343.81201171875,
+              485.8590087890625,
+              372.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              434.3280029296875,
+              617.7213134765625,
+              483.3735046386719
+            ],
+            [
+              172.18359375,
+              485.3280029296875,
+              637.811279296875,
+              534.3734741210938
+            ]
+          ],
+          "distancia_pt": 61.71600341796875,
+          "distancia_px": 82.28800455729167
+        },
+        "controle_pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              367.81201171875,
+              485.8590087890625,
+              396.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              410.3280029296875,
+              617.7213134765625,
+              459.3735046386719
+            ],
+            [
+              172.18359375,
+              461.3280029296875,
+              637.811279296875,
+              510.3735046386719
+            ]
+          ],
+          "distancia_pt": 13.71600341796875,
+          "distancia_px": 18.288004557291668
+        },
+        "incremento_pdf_px": 64.0,
+        "incremento_esperado_px": 64,
+        "pdf_ok": true
+      },
+      {
+        "pagina": 13,
+        "card_origem": 2,
+        "esperado_dom_px": 128,
+        "distancia_dom_px": 128.0,
+        "distancia_calculada_das_caixas_dom_px": 128,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              369.05999755859375,
+              706.5491943359375,
+              441.7200012207031
+            ],
+            [
+              333.7734375,
+              435.05999755859375,
+              476.21337890625,
+              507.7200012207031
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              601.06201171875,
+              456.93463134765625,
+              629.8619995117188
+            ]
+          ],
+          "distancia_pt": 93.34201049804688,
+          "distancia_px": 124.45601399739583
+        },
+        "controle_pdf": {
+          "superior": "trecho",
+          "inferior": "trecho_ref",
+          "caixas_superiores_pt": [
+            [
+              103.4296875,
+              411.05999755859375,
+              706.5491943359375,
+              483.7200012207031
+            ],
+            [
+              333.7734375,
+              477.05999755859375,
+              476.21337890625,
+              549.719970703125
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              352.5703125,
+              559.06201171875,
+              456.93463134765625,
+              587.8619995117188
+            ]
+          ],
+          "distancia_pt": 9.342041015625,
+          "distancia_px": 12.4560546875
+        },
+        "incremento_pdf_px": 111.99995930989583,
+        "incremento_esperado_px": 112,
+        "pdf_ok": true
+      },
+      {
+        "pagina": 14,
+        "card_origem": 4,
+        "esperado_dom_px": 128,
+        "distancia_dom_px": 128.0,
+        "distancia_calculada_das_caixas_dom_px": 128.0,
+        "dom_ok": true,
+        "pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              325.81201171875,
+              485.8590087890625,
+              354.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              452.3280029296875,
+              617.7213134765625,
+              501.3735046386719
+            ],
+            [
+              172.18359375,
+              503.3280029296875,
+              637.811279296875,
+              552.3734741210938
+            ]
+          ],
+          "distancia_pt": 97.71600341796875,
+          "distancia_px": 130.28800455729166
+        },
+        "controle_pdf": {
+          "superior": "chamada_oracao",
+          "inferior": "pergunta",
+          "caixas_superiores_pt": [
+            [
+              323.8828125,
+              367.81201171875,
+              485.8590087890625,
+              396.61199951171875
+            ]
+          ],
+          "caixas_inferiores_pt": [
+            [
+              192.26953125,
+              410.3280029296875,
+              617.7213134765625,
+              459.3735046386719
+            ],
+            [
+              172.18359375,
+              461.3280029296875,
+              637.811279296875,
+              510.3735046386719
+            ]
+          ],
+          "distancia_pt": 13.71600341796875,
+          "distancia_px": 18.288004557291668
+        },
+        "incremento_pdf_px": 111.99999999999999,
+        "incremento_esperado_px": 112,
+        "pdf_ok": true
+      }
+    ]
+  },
+  "errors": [],
+  "origem": {
+    "arquivo": "/workspace/kitarte/saida/evangelho/2026-11-29/evangelho-2026-11-29.pdf",
+    "paginas": {
+      "2": 2,
+      "4": 4
+    },
+    "extracao_pymupdf": "get_text(sort=True), ordem geométrica de leitura",
+    "extracao_poppler": "pdftotext -layout"
+  },
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "recursos_externos": false
+  }
+}

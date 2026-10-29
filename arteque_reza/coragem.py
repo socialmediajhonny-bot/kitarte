@@ -88,7 +88,7 @@ def _validate_layout(day: dict, measured: dict) -> dict:
             errors.append(f'{label}, {field}: {text["quantidade_linhas"]} linhas; limite {limit}.')
         if not _inside(art, text['caixa']): errors.append(f'{label}, {field}: texto fora da arte.')
         for line, box in zip(text['linhas'], text['caixas_das_linhas']):
-            if re.search(r'(?:^|\s)[aàeéoAÀEÉO][\W_]*$', line):
+            if re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$', line):
                 errors.append(f'{label}, {field}: palavra de uma letra no fim de {line!r}.')
             if box['largura'] and (box['x'] < text['caixa']['x']-.1 or box['x']+box['largura'] > text['caixa']['x']+text['caixa']['largura']+.1):
                 errors.append(f'{label}, {field}: linha transborda a largura do campo.')

@@ -24,8 +24,8 @@
 
 - **2026-12-14:** obra real local; recortes de feed e status gerados.
   Michelangelo · O profeta Isaías · Capela Sistina — https://en.wikipedia.org/wiki/Prophet_Isaiah_(Michelangelo)
-  - feed: foco `50% 50%`, zoom `1.0`; janela original x=0, y=214.239, largura=1500, altura=1753.52 px.
-  - status: foco `50% 50%`, zoom `1.0`; janela original x=0, y=127.337, largura=1500, altura=1927.33 px.
+  - feed: foco `50% 0%`, zoom `1.0`; janela original x=0, y=0, largura=1500, altura=1753.52 px.
+  - status: foco `50% 0%`, zoom `1.0`; janela original x=0, y=0, largura=1500, altura=1927.33 px.
 - **2026-12-28:** obra real local; recortes de feed e status gerados.
   Jacopo Bassano · A Anunciação aos pastores · National Gallery of Art — https://www.nga.gov/artworks/267-annunciation-shepherds
   - feed: foco `50% 50%`, zoom `1.0`; janela original x=0, y=133.782, largura=1961, altura=2292.44 px.
@@ -33,12 +33,12 @@
 
 ## Revisão visual das obras
 
-As duas obras reais do Coragem foram usadas nos formatos feed e status. Os quatro recortes foram gerados com o foco `50% 50%` e zoom `1` fornecidos no YAML. Nenhum dos quatro enquadramentos disparou o detector de margem uniforme da foto.
+As duas obras reais do Coragem foram usadas nos formatos feed e status. O foco de Isaías em 14/12 foi atualizado para `50% 0%`, sem zoom, conforme o prompt 5. Em 28/12, o foco permanece `50% 50%`, sem zoom. Nenhum dos quatro enquadramentos disparou o detector de margem uniforme da foto.
 
-- **14/12 — Isaías:** o foco original corta parte superior da cabeça nos dois formatos, mais no feed. Para priorizar o rosto, a recomendação editorial é **foco `50% 0%`, zoom `1`**. A alternativa foi renderizada e inspecionada em feed e status, sem margem uniforme visível. As provas ficam em `work/coragem/revisao-visual/`. A recomendação não foi aplicada às artes finais nem ao `coragem.yaml`.
+- **14/12 — Isaías:** o foco recomendado `50% 0%`, zoom `1`, foi aplicado ao `coragem.yaml` e às artes finais de feed e status. A cabeça aparece inteira nos dois formatos; a observação anterior sobre seu corte não se aplica mais. Os dois recortes finais mostram a janela atual, sem margem uniforme visível.
 - **28/12 — Anunciação aos pastores:** os enquadramentos foram inspecionados; o foco original foi mantido nos dois formatos.
 
-A observação sobre a cabeça de Isaías é uma avaliação visual do recorte, distinta do aviso técnico de margem uniforme. `conteudo/coragem.yaml` permanece idêntico ao bloco fornecido no prompt.
+A revisão da cabeça de Isaías é uma avaliação visual do recorte, distinta do aviso técnico de margem uniforme. A comparação com a main está em `saida/CONFERENCIA-PROMPT-5.md`: apenas a obra de 14/12 pode mudar; texto, cores, geometria e todas as artes de 28/12 são preservados.
 
 Obras pendentes: nenhuma.
 Avisos de margem: nenhum nos dois formatos das obras reais fornecidas.

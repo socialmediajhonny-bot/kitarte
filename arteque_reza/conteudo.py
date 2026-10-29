@@ -226,7 +226,7 @@ def text_html(value: str) -> str:
     """Escape conteúdo, preserve quebras e una as palavras de uma letra."""
     value = _text(value, "texto").replace("\r\n", "\n").replace("\r", "\n")
     value = re.sub(
-        r"(?<!\w)([aàeéoAÀEÉO])[ \t]+(?=\S)",
+        r"(?<!\w)([aàeéoóAÀEÉOÓ])[ \t]+(?=\S)",
         lambda match: match.group(1) + "\N{NO-BREAK SPACE}", value,
     )
     return escape(value).replace("\n", "<br>")

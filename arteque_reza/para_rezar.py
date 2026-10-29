@@ -77,7 +77,7 @@ def _validate_layout(day: dict, card: dict) -> dict:
         if box['x'] < -.1 or box['y'] < -.1 or box['x']+box['largura'] > 1080.1 or box['y']+box['altura'] > 1350.1:
             errors.append(f'{day["data"]}, card {number}, {field}: texto fora da arte.')
         for line, linebox in zip(text['linhas'], text['caixas_das_linhas']):
-            if re.search(r'(?:^|\s)[aàeéoAÀEÉO][\W_]*$', line):
+            if re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$', line):
                 errors.append(f'{day["data"]}, card {number}, {field}: palavra de uma letra no fim de {line!r}.')
             if linebox['largura'] and (linebox['x'] < box['x']-.1 or linebox['x']+linebox['largura'] > box['x']+box['largura']+.1):
                 errors.append(f'{day["data"]}, card {number}, {field}: linha transborda a largura do campo.')

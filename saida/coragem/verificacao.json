@@ -377,7 +377,7 @@
             }
           ],
           "enquadramento": {
-            "foco": "50% 50%",
+            "foco": "50% 0%",
             "zoom": 1.0,
             "imagem_original": {
               "largura": 1500,
@@ -395,7 +395,7 @@
             "escala_com_zoom": 0.37866666666666665,
             "janela_original": {
               "x": 0.0,
-              "y": 214.23943661971828,
+              "y": 0.0,
               "largura": 1500.0,
               "altura": 1753.5211267605634
             },
@@ -773,7 +773,7 @@
             }
           ],
           "enquadramento": {
-            "foco": "50% 50%",
+            "foco": "50% 0%",
             "zoom": 1.0,
             "imagem_original": {
               "largura": 1500,
@@ -791,7 +791,7 @@
             "escala_com_zoom": 0.45866666666666667,
             "janela_original": {
               "x": 0.0,
-              "y": 127.33720930232562,
+              "y": 0.0,
               "largura": 1500.0,
               "altura": 1927.3255813953488
             },

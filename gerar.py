@@ -63,13 +63,16 @@ def ensure_kit() -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Gere componentes, Evangelho, Santo do Dia, Para Rezar ou Coragem, preservando kit/.")
-    parser.add_argument("alvo", choices=["componentes", "evangelho", "santo", "para-rezar", "coragem"])
-    parser.add_argument("--data", help="Gere só a data ISO informada, em qualquer série.")
+    parser = argparse.ArgumentParser(description="Gere as séries, stories ou o teste de PDF para Canva, preservando kit/.")
+    parser.add_argument("alvo", choices=["componentes", "evangelho", "santo", "para-rezar", "coragem", "stories", "teste-canva"])
+    parser.add_argument("--data", help="Gere só a data ISO informada nas séries de feed.")
+    parser.add_argument("--tempo", help="Gere só o tempo litúrgico informado (stories), por exemplo advento.")
     args = parser.parse_args()
-    if args.data:
-        if args.alvo == "componentes":
-            parser.error("--data só vale para as séries, não para componentes.")
+    if args.tempo is not None and args.alvo != "stories":
+        parser.error("--tempo só vale para stories.")
+    if args.data is not None:
+        if args.alvo in {"componentes", "stories", "teste-canva"}:
+            parser.error("--data só vale para evangelho, santo, para-rezar ou coragem.")
         try:
             if date.fromisoformat(args.data).isoformat() != args.data:
                 raise ValueError
@@ -78,6 +81,20 @@ def main() -> None:
     dependencies()
     try:
         ensure_kit()
+        if args.alvo == "stories":
+            from arteque_reza.stories import generate
+            result = generate(ROOT / "saida", ROOT / "conteudo/stories.yaml", args.tempo)
+            print("Pronto: stories gerados.")
+            if result.get('obras_pendentes'):
+                print("Obras pendentes: " + ", ".join(result['obras_pendentes']))
+            print(f"Relatório: {ROOT / 'saida/stories/RELATORIO.md'}")
+            return
+        if args.alvo == "teste-canva":
+            from arteque_reza.teste_canva import generate
+            generate(ROOT / "saida")
+            print("Pronto: PDFs A e B do teste de importação no Canva.")
+            print(f"Instruções: {ROOT / 'saida/teste-canva/LEIA-ME.md'}")
+            return
         if args.alvo != "componentes":
             if args.alvo == "evangelho":
                 from arteque_reza.evangelho import generate

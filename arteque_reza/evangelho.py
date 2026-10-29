@@ -192,7 +192,7 @@ def _validate_layout(day: dict, card: dict) -> dict:
         if limit and text['quantidade_linhas']>limit:
             errors.append(f'{day["data"]}, card {card["card"]}, {field}: {text["quantidade_linhas"]} linhas; limite {limit}.')
         for line in text['linhas']:
-            if re.search(r'(?:^|\s)[aàeéoAÀEÉO][\W_]*$',line):
+            if re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$',line):
                 errors.append(f'{day["data"]}, card {card["card"]}, {field}: palavra de uma letra no fim de {line!r}.')
         distance=_distance(text['caixa'],card['caixas']['logo'])
         distances.append({'campo':field,'logo_px':round(distance,6)})

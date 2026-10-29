@@ -1,0 +1,46 @@
+# Stories diários · Para Rezar às 12h e às 15h
+# Uma arte fixa por story e por tempo litúrgico: só muda a cor (cruz do selo e filete do nicho).
+# O Tempo Pascal fica para depois, com o Regina Caeli no lugar do Ângelus e outra obra.
+# Em |- cada linha é uma quebra manual; sem ela, as linhas saem equilibradas.
+# O crédito da obra não vai na arte: fica na ficha.
+
+tempos:
+  - id: advento
+    nome: Advento
+    cor: roxo
+  - id: natal
+    nome: Natal
+    cor: ouro
+  - id: tempo-comum
+    nome: Tempo Comum
+    cor: verde
+  - id: quaresma
+    nome: Quaresma
+    cor: roxo
+
+stories:
+  - id: angelus
+    hora: 12h
+    titulo: Ângelus
+    subtitulo: A pausa do meio-dia para rezar com Maria
+    invocacao: O Anjo do Senhor anunciou a Maria.
+    resposta: E ela concebeu do Espírito Santo. Ave, Maria…
+    obra:
+      arquivo: obras/stories/angelus.jpg
+      credito: Jan van Eyck · A Anunciação · National Gallery of Art
+      pagina: https://www.nga.gov/artworks/46-annunciation
+      foco: 50% 55%
+
+  - id: misericordia
+    hora: 15h
+    titulo: Hora da Misericórdia
+    subtitulo: A oração que Jesus ensinou a Santa Faustina (Diário 187)
+    invocacao: |-
+      Ó Sangue e Água, que jorrastes
+      do Coração de Jesus como fonte
+      de misericórdia para nós, eu confio em Vós!
+    obra:
+      arquivo: obras/stories/misericordia.jpg
+      credito: Eugeniusz Kazimirowski · Jesus Misericordioso · Santuário da Divina Misericórdia, Vilnius
+      pagina: https://en.wikipedia.org/wiki/Divine_Mercy_image
+      foco: 50% 8%

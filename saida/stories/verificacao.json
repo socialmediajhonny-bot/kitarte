@@ -1,0 +1,3334 @@
+{
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "tempos": {
+    "advento": {
+      "cards": [
+        {
+          "story": "angelus",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "resposta",
+            "ultimo_texto_assinatura_px": 127,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/advento/angelus.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "story": "misericordia",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 69,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/advento/misericordia.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·12hÂngelusApausadomeio-diapararezarcomMariaOAnjodoSenhoranunciouaMaria.EelaconcebeudoEspíritoSanto.Ave,Maria…",
+            "texto_integral_pdftotext_igual": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·15hHoradaMisericórdiaAoraçãoqueJesusensinouaSantaFaustina(Diário187)ÓSangueeÁgua,quejorrastesdoCoraçãodeJesuscomofontedemisericórdiaparanós,euconfioemVós!",
+            "texto_integral_pdftotext_igual": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13208
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 6952
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9264
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13552
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18720
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11512
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16800
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
+        "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
+        "tamanho_bytes": 2934371,
+        "errors": []
+      }
+    },
+    "natal": {
+      "cards": [
+        {
+          "story": "angelus",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "resposta",
+            "ultimo_texto_assinatura_px": 127,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/natal/angelus.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "story": "misericordia",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 69,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/natal/misericordia.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·12hÂngelusApausadomeio-diapararezarcomMariaOAnjodoSenhoranunciouaMaria.EelaconcebeudoEspíritoSanto.Ave,Maria…",
+            "texto_integral_pdftotext_igual": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·15hHoradaMisericórdiaAoraçãoqueJesusensinouaSantaFaustina(Diário187)ÓSangueeÁgua,quejorrastesdoCoraçãodeJesuscomofontedemisericórdiaparanós,euconfioemVós!",
+            "texto_integral_pdftotext_igual": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13208
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 6952
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9264
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13552
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18720
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11512
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16800
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
+        "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
+        "tamanho_bytes": 2934371,
+        "errors": []
+      }
+    },
+    "tempo-comum": {
+      "cards": [
+        {
+          "story": "angelus",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "resposta",
+            "ultimo_texto_assinatura_px": 127,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#74aa82",
+                "rgb": [
+                  116,
+                  170,
+                  130
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/tempo-comum/angelus.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "story": "misericordia",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 69,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#74aa82",
+                "rgb": [
+                  116,
+                  170,
+                  130
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/tempo-comum/misericordia.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "actual_rgb": [
+                        116,
+                        170,
+                        130
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·12hÂngelusApausadomeio-diapararezarcomMariaOAnjodoSenhoranunciouaMaria.EelaconcebeudoEspíritoSanto.Ave,Maria…",
+            "texto_integral_pdftotext_igual": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·15hHoradaMisericórdiaAoraçãoqueJesusensinouaSantaFaustina(Diário187)ÓSangueeÁgua,quejorrastesdoCoraçãodeJesuscomofontedemisericórdiaparanós,euconfioemVós!",
+            "texto_integral_pdftotext_igual": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13208
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 6952
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9264
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13552
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18720
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11512
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16800
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
+        "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
+        "tamanho_bytes": 2934371,
+        "errors": []
+      }
+    },
+    "quaresma": {
+      "cards": [
+        {
+          "story": "angelus",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "resposta",
+            "ultimo_texto_assinatura_px": 127,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/quaresma/angelus.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "story": "misericordia",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 69,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories/quaresma/misericordia.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·12hÂngelusApausadomeio-diapararezarcomMariaOAnjodoSenhoranunciouaMaria.EelaconcebeudoEspíritoSanto.Ave,Maria…",
+            "texto_integral_pdftotext_igual": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "ParaRezar·15hHoradaMisericórdiaAoraçãoqueJesusensinouaSantaFaustina(Diário187)ÓSangueeÁgua,quejorrastesdoCoraçãodeJesuscomofontedemisericórdiaparanós,euconfioemVós!",
+            "texto_integral_pdftotext_igual": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13208
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 6952
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9264
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13552
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18720
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11512
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16800
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
+        "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
+        "tamanho_bytes": 2934371,
+        "errors": []
+      }
+    }
+  },
+  "previa_kit": {
+    "ok": true,
+    "verificado": true,
+    "confronto_fora_obra_identico": false,
+    "pixels_alterados_fora_obra": 253,
+    "limites_diferenca": [
+      252,
+      329,
+      840,
+      1669
+    ],
+    "obra_excluida": [
+      256,
+      344,
+      824,
+      1028
+    ],
+    "fonte": "kit/design-system/componentes/StoryAngelus/preview.html",
+    "preview_renderizado": "work/stories/conferencia-kit/article.png",
+    "diferenca": "work/stories/conferencia-kit/diferenca-fora-obra.png",
+    "regioes_diferenca": {
+      "nicho": {
+        "pixels_alterados": 151,
+        "diferenca_maxima_por_canal": 32
+      },
+      "logo": {
+        "pixels_alterados": 102,
+        "diferenca_maxima_por_canal": 40
+      }
+    },
+    "diferenca_somente_curvas_nicho_logo": true,
+    "diagnostico_origem_0": {
+      "pixels_alterados_fora_obra": 0,
+      "limites_diferenca": null,
+      "preview_renderizado": "work/stories/conferencia-kit/article-origem-0.png",
+      "diferenca": null
+    },
+    "explicacao": "O confronto literal solicitado teve 253 pixels diferentes fora da obra: 151 nas curvas do filete do nicho e 102 no SVG do logo. No diagnóstico separado, o mesmo article original reposicionado na origem (0,0), sem mudar seu conteúdo, teve zero pixels diferentes fora da obra. Isso identifica rasterização das curvas em coordenadas globais diferentes da vitrine; o resultado literal continua registrado como não zero."
+  },
+  "pngs": {
+    "ok": true,
+    "count": 11,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/stories/recorte-angelus.png",
+        "expected": [
+          1080,
+          2850
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          2850
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/recorte-misericordia.png",
+        "expected": [
+          1080,
+          1821
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1821
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/advento/angelus.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/advento/misericordia.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/natal/angelus.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/natal/misericordia.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/tempo-comum/angelus.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/tempo-comum/misericordia.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/quaresma/angelus.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/quaresma/misericordia.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories/prancha.png",
+        "expected": [
+          808,
+          2992
+        ],
+        "ok": true,
+        "actual": [
+          808,
+          2992
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [
+    "misericordia: margem da foto visível à esquerda e à direita; aumente o zoom",
+    "StoryAngelus: a prévia literal apresentou diferenças fora da obra; consulte a imagem da diferença e a explicação no relatório."
+  ],
+  "obras": {
+    "angelus": {
+      "story": {
+        "id": "angelus",
+        "hora": "12h",
+        "titulo": "Ângelus",
+        "subtitulo": "A pausa do meio-dia para rezar com Maria",
+        "invocacao": "O Anjo do Senhor anunciou a Maria.",
+        "resposta": "E ela concebeu do Espírito Santo. Ave, Maria…",
+        "obra": {
+          "arquivo": "obras/stories/angelus.jpg",
+          "credito": "Jan van Eyck · A Anunciação · National Gallery of Art",
+          "pagina": "https://www.nga.gov/artworks/46-annunciation",
+          "foco": "50% 55%"
+        }
+      },
+      "obra_pendente": false,
+      "enquadramento": {
+        "foco": "50% 55%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 1137,
+          "altura": 3000
+        },
+        "nicho": {
+          "largura": 600,
+          "altura": 700
+        },
+        "area_interna": {
+          "largura": 568,
+          "altura": 684
+        },
+        "escala_cover": 0.4995602462620932,
+        "escala_com_zoom": 0.4995602462620932,
+        "janela_original": {
+          "x": 0.0,
+          "y": 896.9376760563381,
+          "largura": 1137.0,
+          "altura": 1369.2042253521126
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "margens_visiveis": [],
+        "avisos": []
+      },
+      "nota_visual": {
+        "inspecionada": true,
+        "nota": "Na obra real desta entrega, o arco com foco 50% 55% mostra os rostos de Gabriel, à esquerda, e de Maria, à direita. O recorte concentra a cena nas duas figuras e deixa partes superiores da arquitetura e inferiores da pintura fora da janela. Os elementos essenciais estão preservados; não foi necessário recomendar outro foco ou zoom."
+      }
+    },
+    "misericordia": {
+      "story": {
+        "id": "misericordia",
+        "hora": "15h",
+        "titulo": "Hora da Misericórdia",
+        "subtitulo": "A oração que Jesus ensinou a Santa Faustina (Diário 187)",
+        "invocacao": "Ó Sangue e Água, que jorrastes\ndo Coração de Jesus como fonte\nde misericórdia para nós, eu confio em Vós!",
+        "obra": {
+          "arquivo": "obras/stories/misericordia.jpg",
+          "credito": "Eugeniusz Kazimirowski · Jesus Misericordioso · Santuário da Divina Misericórdia, Vilnius",
+          "pagina": "https://en.wikipedia.org/wiki/Divine_Mercy_image",
+          "foco": "50% 8%"
+        }
+      },
+      "obra_pendente": false,
+      "enquadramento": {
+        "foco": "50% 8%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 1779,
+          "altura": 3000
+        },
+        "nicho": {
+          "largura": 600,
+          "altura": 700
+        },
+        "area_interna": {
+          "largura": 568,
+          "altura": 684
+        },
+        "escala_cover": 0.3192804946599213,
+        "escala_com_zoom": 0.3192804946599213,
+        "janela_original": {
+          "x": 0.0,
+          "y": 68.61464788732395,
+          "largura": 1779.0,
+          "altura": 2142.3169014084506
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 39,
+          "esquerda": 211,
+          "direita": 218
+        },
+        "margens_visiveis": [
+          "esquerda",
+          "direita"
+        ],
+        "avisos": [
+          "misericordia: margem da foto visível à esquerda e à direita; aumente o zoom"
+        ]
+      },
+      "nota_visual": {
+        "inspecionada": true,
+        "nota": "Na obra real desta entrega, o foco 50% 8% preserva o rosto, a mão que abençoa e a origem dos raios vermelho e claro. O detector objetivo acusa faixas uniformes laterais: são áreas escuras do fundo original da pintura, e não uma margem branca externa da foto. O aviso foi mantido. A composição pedida foi preservada, sem alterar o YAML.",
+        "sugestao_opcional": {
+          "foco": "50% 8%",
+          "zoom": 1.33,
+          "margens_visiveis": [],
+          "janela_original": {
+            "x": 220.703007518797,
+            "y": 111.13883299798795,
+            "largura": 1337.593984962406,
+            "altura": 1610.7645875251508
+          },
+          "nota": "Para excluir também as faixas escuras uniformes, foco 50% 8% e zoom 1.33 eliminam o aviso. Na prova de enquadramento, rosto, mão que abençoa e origem dos dois raios permanecem na janela. A sugestão não foi aplicada ao YAML."
+        }
+      }
+    }
+  },
+  "ok": true,
+  "comando": "python gerar.py stories"
+}
