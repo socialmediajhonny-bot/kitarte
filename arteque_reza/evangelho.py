@@ -86,18 +86,21 @@ def _document(day: dict, card_kind: int, css: Path, artwork: Path,
     elif card_kind == 2:
         body = '<div class="aqr-texto" style="margin-top:auto">'
         body += _text('p', 'trecho', quote_style + ' aqr-citacao', day['trecho'], 'max-width:880px')
-        body += _text('p', 'trecho_ref', 'referencia aqr-referencia', day['trecho_ref'], token='ouro')
+        body += _text('p', 'trecho_ref', 'referencia aqr-referencia', day['trecho_ref'],
+                      'margin-top:var(--espaco-2)', token='ouro')
         body += '</div>'
     elif card_kind == 3:
         body = '<div class="aqr-texto" style="margin-top:auto">'
-        body += _text('p', 'chamada_reflexao', 'selo aqr-suave', 'Para a Missa de hoje', token='tinta-suave')
+        body += _text('p', 'chamada_reflexao', 'selo aqr-suave', 'Para a Missa de hoje',
+                      'margin-bottom:var(--espaco-3)', token='tinta-suave')
         body += _text('h2', 'reflexao.titulo', 'titulo aqr-titulo', day['reflexao']['titulo'], 'max-width:880px')
         body += _ornament()
         body += _text('p', 'reflexao.texto', 'corpo aqr-corpo', day['reflexao']['texto'], 'max-width:760px')
         body += '</div>'
     else:
         body = '<div class="aqr-texto" style="margin-top:auto">'
-        body += _text('p', 'chamada_oracao', 'selo', 'Para rezar hoje', token='sobre-cor')
+        body += _text('p', 'chamada_oracao', 'selo', 'Para rezar hoje',
+                      'margin-bottom:var(--espaco-3)', token='sobre-cor')
         body += _text('p', 'pergunta', 'citacao aqr-citacao', day['pergunta'], 'max-width:860px', 'sobre-cor')
         body += _ornament(True)
         invitation = text_html('Abra sua Bíblia em ') + '<strong>' + text_html(expanded_reference(day['referencia'])) + '</strong>'
@@ -213,6 +216,17 @@ def _validate_layout(day: dict, card: dict) -> dict:
     top=_distance(card['caixas']['selo'],card['caixas']['referencia'])
     if top<32-0.01:
         errors.append(f'{day["data"]}, card {card["card"]}: selo e referência distam {top:.2f}px < 32px.')
+    pair=None
+    pairs={2:('trecho','trecho_ref',32),
+           3:('chamada_reflexao','reflexao.titulo',48),
+           4:('chamada_oracao','pergunta',48)}
+    if card['modelo'] in pairs:
+        first,second,expected=pairs[card['modelo']]
+        boxes={text['campo']:text['caixa'] for text in card['textos']}
+        gap=boxes[second]['y']-boxes[first]['y']-boxes[first]['altura']
+        pair={'de':first,'para':second,'distancia_px':round(gap,6),'esperado_px':expected}
+        if abs(gap-expected)>0.01:
+            errors.append(f'{day["data"]}, card {card["card"]}: distância entre {first} e {second} {gap:.2f}px; esperado {expected}px (±0,01).')
     center=None
     if card['caixas']['bloco_texto']:
         block=card['caixas']['bloco_texto'];seal=card['caixas']['selo'];logo=card['caixas']['logo']
@@ -220,7 +234,7 @@ def _validate_layout(day: dict, card: dict) -> dict:
         center={'respiro_superior_px':upper,'respiro_inferior_px':lower,'diferenca_px':abs(upper-lower)}
         if abs(upper-lower)>0.1: errors.append(f'{day["data"]}, card {card["card"]}: bloco de texto não centralizado.')
     result={'ok':not errors,'distancias_ao_logo':distances,'selo_referencia_px':top,
-            'centralizacao_vertical':center,'errors':errors}
+            'par_canva':pair,'centralizacao_vertical':center,'errors':errors}
     if errors: raise ValueError('; '.join(errors))
     return result
 
@@ -327,7 +341,8 @@ def _report(output: Path, records: list[dict], checks: dict, pending: list[str])
     lines=['# Evangelho do Dia','',
            '`python gerar.py evangelho` · seleção: `python gerar.py evangelho --data AAAA-MM-DD`','',
            '## Decisões','',
-           '- Composição, medidas e espaços seguem PostEvangelho/preview.html e bundle.css; a capa usa um img dentro do arco CSS, sem SVG sobre a imagem.',
+           '- A composição vem de PostEvangelho/preview.html e bundle.css; a capa usa um img dentro do arco CSS, sem SVG sobre a imagem.',
+           '- 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026). O gerador acrescenta margens inline em tokens ao gap de 16 px do kit e mede os pares no navegador, com tolerância de ±0,01 px.',
            '- O card final resolve a cor no tema pergaminho e usa o logo sobre-cor da versão 2. Os demais usam capela.',
            '- Textos sem quebras manuais usam balanceamento do navegador, inclusive o corpo da reflexão. Quebras YAML são `<br>`; espaços após a, à, e, é e o são inseparáveis.',
            '- O selo tem ficha separada para série e data porque as cores e pesos diferem. As caixas são do DOM e as linhas são medidas com Range, depois do carregamento das seis fontes locais.',
@@ -355,8 +370,8 @@ def _report(output: Path, records: list[dict], checks: dict, pending: list[str])
     if not any(record.get('avisos') for record in records):
         lines.append('Nenhuma margem uniforme da foto está visível nos enquadramentos selecionados.')
     lines += ['', '## Conferência', '',
-              'PNG exatos; limites de linhas; palavras de uma letra; afastamento de 32 px; centralização vertical; cruz, fundo e filete por pixel; páginas PDF de 810 × 1012,5 pt; quatro variantes embutidas por pdffonts; título e convite extraíveis. Os valores estão em verificacao.json e ficha.json.',
-              '', 'A importação dentro do editor do Canva não foi executada; a validação cobre o arquivo produzido (texto, fontes e dimensões), não o comportamento do editor.']
+              'PNG exatos; limites de linhas; palavras de uma letra; afastamento de 32 px do logo; pares de 32 e 48 px para o Canva; centralização vertical; cruz, fundo e filete por pixel; páginas PDF de 810 × 1012,5 pt; quatro variantes embutidas por pdffonts; título e convite extraíveis. Os valores estão em verificacao.json e ficha.json.',
+              '', 'A regra dos espaços foi aprovada no teste de importação no Canva de 29/10/2026, registrado em saida/teste-canva/LEIA-ME.md. Esta geração valida os novos PDFs; sua importação no editor permanece uma conferência manual.']
     if pending:
         lines += ['', 'Obras pendentes: '+', '.join(pending)+'. Não foi possível verificar seus focos nem gerar recortes reais; o lugar delas foi preservado com a obra provisória.']
     else:

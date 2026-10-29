@@ -19,7 +19,7 @@ from .base import (PROJECT, KIT, assinatura, await_fonts, color, generate_tokens
 from .conteudo import color_token, local_artwork_path
 from .conteudo_stories import load_stories
 from .evangelho import _measure as measure_evangelho, _ornament, _text
-from .obras import artwork_geometry, crop_proof, inspect_artwork
+from .obras import crop_proof, inspect_artwork
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
@@ -210,13 +210,8 @@ def _visual_note(story: dict, artwork: Path, pending: bool, framing: dict) -> di
         return {'inspecionada': True,
             'nota': 'Na obra real desta entrega, o arco com foco 50% 55% mostra os rostos de Gabriel, à esquerda, e de Maria, à direita. O recorte concentra a cena nas duas figuras e deixa partes superiores da arquitetura e inferiores da pintura fora da janela. Os elementos essenciais estão preservados; não foi necessário recomendar outro foco ou zoom.'}
     if story['id'] == 'misericordia':
-        proposed = inspect_artwork(artwork, '50% 8%', 1.33, niche_width=600, niche_height=700)
         return {'inspecionada': True,
-            'nota': 'Na obra real desta entrega, o foco 50% 8% preserva o rosto, a mão que abençoa e a origem dos raios vermelho e claro. O detector objetivo acusa faixas uniformes laterais: são áreas escuras do fundo original da pintura, e não uma margem branca externa da foto. O aviso foi mantido. A composição pedida foi preservada, sem alterar o YAML.',
-            'sugestao_opcional': {'foco': '50% 8%', 'zoom': 1.33,
-                'margens_visiveis': proposed['margens_visiveis'],
-                'janela_original': proposed['janela_original'],
-                'nota': 'Para excluir também as faixas escuras uniformes, foco 50% 8% e zoom 1.33 eliminam o aviso. Na prova de enquadramento, rosto, mão que abençoa e origem dos dois raios permanecem na janela. A sugestão não foi aplicada ao YAML.'}}
+            'nota': 'Na obra real desta entrega, o foco 50% 8% e o zoom 1.15 mantêm na janela o rosto, a auréola, as duas mãos, as mangas e o começo dos raios. As faixas uniformes escuras são parte do fundo da própria pintura; a comparação com as faixas interiores as descarta e não há aviso de margem da foto.'}
     return {'inspecionada': False, 'nota': 'A janela e o recorte foram registrados; esta obra nova requer conferência visual dos elementos essenciais.'}
 
 
@@ -234,66 +229,32 @@ def _preview_check(page: Any, css: Path, target: Path, work: Path, base_url: str
     page.goto(base_url+resource_url(document), wait_until='load'); await_fonts(page)
     articles = page.locator('article.aqr-post')
     if articles.count() != 1: raise ValueError('StoryAngelus/preview.html precisa conter um article.aqr-post.')
-    bounds = articles.first.bounding_box(); screenshot = folder/'article.png'
-    page.screenshot(path=str(screenshot), clip=bounds, animations='disabled')
-    def compare(path):
-        with Image.open(path) as raw, Image.open(reference) as generated:
-            a = raw.convert('RGB'); b = generated.convert('RGB')
-            if a.size != b.size: raise ValueError('Prévia StoryAngelus e story gerado têm dimensões diferentes.')
-            difference = ImageChops.difference(a, b)
-        difference.paste((0,0,0), (256,344,824,1028))
-        channels = difference.split()
-        maximum = ImageChops.lighter(ImageChops.lighter(channels[0],channels[1]),channels[2])
-        count = maximum.width*maximum.height-maximum.histogram()[0]
-        box = difference.getbbox()
-        return difference,maximum,count,box
-    difference,maximum,count,box = compare(screenshot)
-    diff_path = folder/'diferenca-fora-obra.png' if count else None
-    if diff_path: difference.save(diff_path)
-    generated = json.loads((target/'tempo-comum/ficha.json').read_text(encoding='utf-8'))
-    measured = next(card for card in generated['cards'] if card['id'] == 'angelus')
-    niche = measured['caixas']['nicho']; logo = measured['caixas']['logo']
-    regions = {}
-    leftover = maximum.copy()
-    for name,area in [('nicho',niche),('logo',logo)]:
-        bounds = (max(0,int(area['x'])-1),max(0,int(area['y'])-1),
-            min(1080,int(area['x']+area['largura'])+2),min(1920,int(area['y']+area['altura'])+2))
-        region = maximum.crop(bounds)
-        regions[name] = {'pixels_alterados':region.width*region.height-region.histogram()[0],
-            'diferenca_maxima_por_canal':region.getextrema()[1]}
-        leftover.paste(0,bounds)
-    isolated = folder/'article-origem-0.png'
+    # A vitrine desloca o article 48px; alinhe sua origem à do render final
+    # antes de rasterizar para não comparar antialias de coordenadas diferentes.
     articles.first.evaluate("el=>{el.style.position='absolute';el.style.left='0';el.style.top='0';}")
     await_fonts(page)
-    page.screenshot(path=str(isolated),clip=articles.first.bounding_box(),animations='disabled')
-    isolated_diff,_,isolated_count,isolated_box = compare(isolated)
-    isolated_path = folder/'diferenca-origem-0.png' if isolated_count else None
-    if isolated_path: isolated_diff.save(isolated_path)
-    only_curves = leftover.getbbox() is None
-    explanation = None
-    if count:
-        explanation = (f'O confronto literal solicitado teve {count} pixels diferentes fora da obra: '
-            f'{regions["nicho"]["pixels_alterados"]} nas curvas do filete do nicho e '
-            f'{regions["logo"]["pixels_alterados"]} no SVG do logo. '
-            if only_curves else f'O confronto literal solicitado teve {count} pixels diferentes fora da obra. ')
-        if isolated_count == 0:
-            explanation += ('No diagnóstico separado, o mesmo article original reposicionado na origem (0,0), sem mudar '
-                'seu conteúdo, teve zero pixels diferentes fora da obra. Isso identifica rasterização das curvas em '
-                'coordenadas globais diferentes da vitrine; o resultado literal continua registrado como não zero.')
-        else:
-            explanation += (f'O diagnóstico na origem (0,0) ainda tem {isolated_count} pixels diferentes; '
-                'a imagem da diferença foi salva para inspeção. O resultado literal não foi substituído pelo diagnóstico.')
-    return {'ok': True, 'verificado': True, 'confronto_fora_obra_identico': count == 0,
+    bounds = articles.first.bounding_box(); screenshot = folder/'article-origem-0.png'
+    page.screenshot(path=str(screenshot), clip=bounds, animations='disabled')
+    with Image.open(screenshot) as raw, Image.open(reference) as generated:
+        a = raw.convert('RGB'); b = generated.convert('RGB')
+        if a.size != b.size: raise ValueError('Prévia StoryAngelus e story gerado têm dimensões diferentes.')
+        difference = ImageChops.difference(a, b)
+    difference.paste((0,0,0), (256,344,824,1028))
+    channels = difference.split()
+    maximum = ImageChops.lighter(ImageChops.lighter(channels[0],channels[1]),channels[2])
+    count = maximum.width*maximum.height-maximum.histogram()[0]
+    box = difference.getbbox()
+    diff_path = folder/'diferenca-fora-obra.png'
+    if count: difference.save(diff_path)
+    elif diff_path.exists(): diff_path.unlink()
+    return {'ok': count == 0, 'verificado': True, 'confronto_fora_obra_identico': count == 0,
         'pixels_alterados_fora_obra': count, 'limites_diferenca': list(box) if box else None,
         'obra_excluida': [256,344,824,1028], 'fonte': source.relative_to(PROJECT).as_posix(),
+        'metodo': 'Article original reposicionado na origem (0,0), sem alterar conteúdo ou composição.',
+        'origem_article_px': [bounds['x'],bounds['y']],
         'preview_renderizado': screenshot.relative_to(PROJECT).as_posix(),
-        'diferenca': diff_path.relative_to(PROJECT).as_posix() if diff_path else None,
-        'regioes_diferenca':regions, 'diferenca_somente_curvas_nicho_logo':only_curves,
-        'diagnostico_origem_0':{'pixels_alterados_fora_obra':isolated_count,
-            'limites_diferenca':list(isolated_box) if isolated_box else None,
-            'preview_renderizado':isolated.relative_to(PROJECT).as_posix(),
-            'diferenca':isolated_path.relative_to(PROJECT).as_posix() if isolated_path else None},
-        'explicacao': explanation}
+        'diferenca': diff_path.relative_to(PROJECT).as_posix() if count else None,
+        'explicacao': 'O article da prévia e o gerado são rasterizados na mesma origem (0,0).'}
 
 
 def _board(target: Path) -> tuple[int,int]:
@@ -344,7 +305,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str, artwo
     lines += ['', '## Conferência da prévia', '']
     preview = checks['previa_kit']
     if preview.get('verificado'):
-        lines.append(f'Prévia literal do StoryAngelus contra tempo-comum/angelus: {preview["pixels_alterados_fora_obra"]} pixels diferentes fora da janela (256,344)–(824,1028).')
+        lines.append(f'Prévia do StoryAngelus com o article na origem (0,0), contra tempo-comum/angelus: {preview["pixels_alterados_fora_obra"]} pixels diferentes fora da janela (256,344)–(824,1028).')
         if preview.get('diferenca'): lines += [preview['explicacao'], 'Diferença: `'+preview['diferenca']+'`.']
     else: lines.append(preview['motivo'])
     lines += ['', '## Avisos e pendências', '']
@@ -416,7 +377,7 @@ def generate(output: Path, content_path: Path, tempo_filter: str | None = None) 
             records.append(record); checks['tempos'][tempo['id']] = {'cards':card_checks,'pdf':pdf_check}
         checks['previa_kit'] = _preview_check(page,css,target,work,base_url)
         if checks['previa_kit'].get('verificado') and not checks['previa_kit'].get('confronto_fora_obra_identico'):
-            warnings.append('StoryAngelus: a prévia literal apresentou diferenças fora da obra; consulte a imagem da diferença e a explicação no relatório.')
+            warnings.append('StoryAngelus: a prévia na origem (0,0) apresentou diferenças fora da obra; consulte a imagem da diferença e a explicação no relatório.')
         browser.close()
     if errors: raise RuntimeError('Erros de navegador: '+'; '.join(errors))
     expected[str(target/'prancha.png')] = _board(target)

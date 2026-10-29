@@ -85,23 +85,17 @@ Na obra real desta entrega, o arco com foco 50% 55% mostra os rostos de Gabriel,
 Eugeniusz Kazimirowski · Jesus Misericordioso · Santuário da Divina Misericórdia, Vilnius — https://en.wikipedia.org/wiki/Divine_Mercy_image
 
 Obra real local; recorte global gerado.
-Foco `50% 8%`, zoom `1.0`; janela original x=0, y=68.6146, largura=1779, altura=2142.32 px.
+Foco `50% 8%`, zoom `1.15`; janela original x=116.022, y=90.9693, largura=1546.96, altura=1862.88 px.
 
-Na obra real desta entrega, o foco 50% 8% preserva o rosto, a mão que abençoa e a origem dos raios vermelho e claro. O detector objetivo acusa faixas uniformes laterais: são áreas escuras do fundo original da pintura, e não uma margem branca externa da foto. O aviso foi mantido. A composição pedida foi preservada, sem alterar o YAML.
-
-Para excluir também as faixas escuras uniformes, foco 50% 8% e zoom 1.33 eliminam o aviso. Na prova de enquadramento, rosto, mão que abençoa e origem dos dois raios permanecem na janela. A sugestão não foi aplicada ao YAML.
-Confirmação objetiva da sugestão: margens visíveis = [].
+Na obra real desta entrega, o foco 50% 8% e o zoom 1.15 mantêm na janela o rosto, a auréola, as duas mãos, as mangas e o começo dos raios. As faixas uniformes escuras são parte do fundo da própria pintura; a comparação com as faixas interiores as descarta e não há aviso de margem da foto.
 
 ## Conferência da prévia
 
-Prévia literal do StoryAngelus contra tempo-comum/angelus: 253 pixels diferentes fora da janela (256,344)–(824,1028).
-O confronto literal solicitado teve 253 pixels diferentes fora da obra: 151 nas curvas do filete do nicho e 102 no SVG do logo. No diagnóstico separado, o mesmo article original reposicionado na origem (0,0), sem mudar seu conteúdo, teve zero pixels diferentes fora da obra. Isso identifica rasterização das curvas em coordenadas globais diferentes da vitrine; o resultado literal continua registrado como não zero.
-Diferença: `work/stories/conferencia-kit/diferenca-fora-obra.png`.
+Prévia do StoryAngelus com o article na origem (0,0), contra tempo-comum/angelus: 0 pixels diferentes fora da janela (256,344)–(824,1028).
 
 ## Avisos e pendências
 
-- misericordia: margem da foto visível à esquerda e à direita; aumente o zoom
-- StoryAngelus: a prévia literal apresentou diferenças fora da obra; consulte a imagem da diferença e a explicação no relatório.
+Nenhum aviso.
 Obras pendentes: nenhuma.
 
 ## PDF e limites

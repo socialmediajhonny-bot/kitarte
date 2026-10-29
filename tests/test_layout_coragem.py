@@ -50,16 +50,30 @@ class CourageLayoutTests(unittest.TestCase):
 
     def test_supplied_phrases_and_distances_fit_both_formats(self):
         for day in self.days:
-            for name, distances in [('feed', (66, 69)), ('status', (81, 84))]:
+            for name, distances in [('feed', (58, 61)), ('status', (73, 76))]:
                 with self.subTest(date=day['data'], format=name):
                     card = self.render(day, name)
                     result = _validate_layout(day, card)
                     self.assertTrue(result['ok'])
                     self.assertEqual(result['parapeito_frase_px'], distances[0])
                     self.assertEqual(result['referencia_assinatura_px'], distances[1])
+                    self.assertEqual(result['frase_referencia_px'], 32)
                     texts = {text['campo']: text for text in card['textos']}
                     self.assertEqual(texts['frase']['quantidade_linhas'], 2)
                     self.assertEqual(texts['referencia']['quantidade_linhas'], 1)
+
+    def test_16_pixel_phrase_reference_gap_is_rejected_in_both_formats(self):
+        day = self.days[0]
+        for name in ('feed', 'status'):
+            with self.subTest(format=name):
+                self.render(day, name)
+                self.page.locator('[data-text="referencia"]').evaluate("el => el.style.marginTop='0px'")
+                card = _measure(self.page, name)
+                texts = {text['campo']: text for text in card['textos']}
+                phrase, reference = texts['frase']['caixa'], texts['referencia']['caixa']
+                self.assertAlmostEqual(reference['y']-phrase['y']-phrase['altura'], 16, places=3)
+                with self.assertRaisesRegex(ValueError, 'frase → referencia: distância 16.00px; esperado 32px'):
+                    _validate_layout(day, card)
 
     def test_three_line_phrase_is_rejected_in_each_format(self):
         for name in ('feed', 'status'):
@@ -82,13 +96,13 @@ class CourageLayoutTests(unittest.TestCase):
 
     def test_phrase_cannot_touch_the_niche_sill(self):
         day = self.days[0]; self.render(day)
-        self.page.locator('.aqr-texto').evaluate("el => el.style.transform='translateY(-50px)'")
+        self.page.locator('.aqr-texto').evaluate("el => el.style.transform='translateY(-42px)'")
         with self.assertRaisesRegex(ValueError, 'frase: distância ao parapeito 16.00px < 32px'):
             _validate_layout(day, _measure(self.page, 'feed'))
 
     def test_reference_must_keep_32_pixels_from_signature(self):
         day = self.days[0]; self.render(day)
-        self.page.locator('.aqr-assinatura').evaluate("el => el.style.transform='translateY(-50px)'")
+        self.page.locator('.aqr-assinatura').evaluate("el => el.style.transform='translateY(-42px)'")
         with self.assertRaisesRegex(ValueError, 'referencia: distância à assinatura 19.00px < 32px'):
             _validate_layout(day, _measure(self.page, 'feed'))
 

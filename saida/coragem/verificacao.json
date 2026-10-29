@@ -21,10 +21,11 @@
               "frase": 2,
               "referencia": 1
             },
-            "parapeito_frase_px": 66,
-            "referencia_assinatura_px": 69,
-            "respiro_bloco_superior_px": 69,
-            "respiro_bloco_inferior_px": 69,
+            "frase_referencia_px": 32,
+            "parapeito_frase_px": 58,
+            "referencia_assinatura_px": 61,
+            "respiro_bloco_superior_px": 61,
+            "respiro_bloco_inferior_px": 61,
             "errors": []
           },
           "pixels": {
@@ -405,6 +406,7 @@
               "esquerda": 0,
               "direita": 0
             },
+            "faixas_descartadas": [],
             "margens_visiveis": [],
             "avisos": []
           },
@@ -417,10 +419,11 @@
               "frase": 2,
               "referencia": 1
             },
-            "parapeito_frase_px": 81,
-            "referencia_assinatura_px": 84,
-            "respiro_bloco_superior_px": 84,
-            "respiro_bloco_inferior_px": 84,
+            "frase_referencia_px": 32,
+            "parapeito_frase_px": 73,
+            "referencia_assinatura_px": 76,
+            "respiro_bloco_superior_px": 76,
+            "respiro_bloco_inferior_px": 76,
             "errors": []
           },
           "pixels": {
@@ -801,6 +804,7 @@
               "esquerda": 0,
               "direita": 0
             },
+            "faixas_descartadas": [],
             "margens_visiveis": [],
             "avisos": []
           },
@@ -817,10 +821,11 @@
               "frase": 2,
               "referencia": 1
             },
-            "parapeito_frase_px": 66,
-            "referencia_assinatura_px": 69,
-            "respiro_bloco_superior_px": 69,
-            "respiro_bloco_inferior_px": 69,
+            "frase_referencia_px": 32,
+            "parapeito_frase_px": 58,
+            "referencia_assinatura_px": 61,
+            "respiro_bloco_superior_px": 61,
+            "respiro_bloco_inferior_px": 61,
             "errors": []
           },
           "pixels": {
@@ -1201,6 +1206,7 @@
               "esquerda": 0,
               "direita": 0
             },
+            "faixas_descartadas": [],
             "margens_visiveis": [],
             "avisos": []
           },
@@ -1213,10 +1219,11 @@
               "frase": 2,
               "referencia": 1
             },
-            "parapeito_frase_px": 81,
-            "referencia_assinatura_px": 84,
-            "respiro_bloco_superior_px": 84,
-            "respiro_bloco_inferior_px": 84,
+            "frase_referencia_px": 32,
+            "parapeito_frase_px": 73,
+            "referencia_assinatura_px": 76,
+            "respiro_bloco_superior_px": 76,
+            "respiro_bloco_inferior_px": 76,
             "errors": []
           },
           "pixels": {
@@ -1597,6 +1604,7 @@
               "esquerda": 0,
               "direita": 0
             },
+            "faixas_descartadas": [],
             "margens_visiveis": [],
             "avisos": []
           },

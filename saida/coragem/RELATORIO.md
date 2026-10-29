@@ -7,18 +7,19 @@
 - Tema pergaminho; o feed segue PostCoragem e o status usa a mesma composição com aqr-post--story, sem substituir os 240 px de padding superior e inferior do kit.
 - Nichos de 600 × 680 no feed e 720 × 900 no status, com img dentro do arco, object-fit:cover, foco e zoom depois do cover. O crédito da obra permanece somente na ficha para uso na legenda.
 - Frase em citacao-grande e referência livre em referencia/ouro, centralizadas entre nicho e assinatura; a assinatura inclui @artequereza.oficial nos dois formatos.
+- 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026). No Coragem, a referência recebe margin-top:var(--espaco-2) sobre o gap de 16 px do kit.
 - Quebras manuais são preservadas; as demais linhas são equilibradas pelo CSS do kit. Palavras de uma letra ficam ligadas à seguinte. As linhas vazias também contam para o limite.
 - Cada formato recebe seu PDF, porque os designs do Canva têm um tamanho único. Os recortes mostram a obra inteira a 1080 px de largura com a janela do arco, já considerando o zoom.
 - As obras reais fornecidas no repositório foram usadas sem downloads. Avisos e recomendações abaixo não alteram coragem.yaml nem o enquadramento pedido.
 
 ## Linhas e distâncias
 
-| Data | Formato | Frase (limite 2) | Referência (limite 1) | Parapeito → frase | Referência → assinatura |
-| --- | --- | --- | --- | --- | --- |
-| 2026-12-14 | feed | 2 | 1 | 66 px | 69 px |
-| 2026-12-14 | status | 2 | 1 | 81 px | 84 px |
-| 2026-12-28 | feed | 2 | 1 | 66 px | 69 px |
-| 2026-12-28 | status | 2 | 1 | 81 px | 84 px |
+| Data | Formato | Frase (limite 2) | Referência (limite 1) | Frase → referência | Parapeito → frase | Referência → assinatura |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2026-12-14 | feed | 2 | 1 | 32 px | 58 px | 61 px |
+| 2026-12-14 | status | 2 | 1 | 32 px | 73 px | 76 px |
+| 2026-12-28 | feed | 2 | 1 | 32 px | 58 px | 61 px |
+| 2026-12-28 | status | 2 | 1 | 32 px | 73 px | 76 px |
 
 ## Obras, foco e zoom
 
@@ -47,7 +48,7 @@ Avisos de margem: nenhum nos dois formatos das obras reais fornecidas.
 
 Foram conferidos dimensões dos PNGs, cores da cruz e do filete por pixel, linhas reais com Range, limites e distâncias. PDFs com uma página em 810 × 1012,5 pt no feed e 810 × 1440 pt no status; fontes TTF usadas embutidas por pdffonts e texto do YAML verificado por pdftotext desconsiderando espaços e quebras.
 
-A importação no editor do Canva não foi executada. As margens são diagnosticadas pelo critério objetivo de linhas/colunas uniformes da foto; a recomendação conserva a arte gerada e serve para ajuste posterior.
+A regra dos espaços foi aprovada no teste do Canva de 29/10/2026; os PDFs desta geração não foram reimportados. As margens são diagnosticadas por linhas/colunas uniformes com contraste de pelo menos 10 níveis de cinza em relação às 16 linhas/colunas seguintes; faixas sem esse contraste ficam registradas como descartadas. A recomendação conserva a arte gerada e serve para ajuste posterior.
 
 ## Árvore
 

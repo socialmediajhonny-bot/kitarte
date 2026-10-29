@@ -46,7 +46,8 @@ def _document(day: dict, css: Path, artwork: Path, format_name: str) -> str:
         f'data-arquivo="{escape(artwork.relative_to(PROJECT).as_posix(), quote=True)}"')
     body = _header(day) + image + '<div class="aqr-texto" style="margin-top:auto">'
     body += _text('p', 'frase', 'citacao-grande aqr-citacao', day['frase'])
-    body += _text('p', 'referencia', 'referencia aqr-referencia', day['referencia'], token='ouro')
+    body += _text('p', 'referencia', 'referencia aqr-referencia', day['referencia'],
+        'margin-top:var(--espaco-2)', token='ouro')
     body += '</div>'
     signature = assinatura('pergaminho', arroba=True).replace(
         'data-element="assinatura-arroba"',
@@ -95,6 +96,9 @@ def _validate_layout(day: dict, measured: dict) -> dict:
             if not _inside(art, box): errors.append(f'{label}, {field}: linha fora da arte.')
     sill = measured['caixas']['parapeito']; signature = measured['caixas']['assinatura']
     quote = values['frase']['caixa']; reference = values['referencia']['caixa']
+    pair_gap = reference['y']-quote['y']-quote['altura']
+    if abs(pair_gap-32) > .01:
+        errors.append(f'{label}, frase → referencia: distância {pair_gap:.2f}px; esperado 32px (±0,01).')
     above = quote['y']-sill['y']-sill['altura']
     below = signature['y']-reference['y']-reference['altura']
     if above < 31.99: errors.append(f'{label}, frase: distância ao parapeito {above:.2f}px < 32px.')
@@ -104,6 +108,7 @@ def _validate_layout(day: dict, measured: dict) -> dict:
     lower = signature['y']-block['y']-block['altura']
     if abs(upper-lower) > .1: errors.append(f'{label}: texto não centralizado entre nicho e assinatura.')
     result = {'ok': not errors, 'limites': {'frase': 2, 'referencia': 1},
+        'frase_referencia_px': round(pair_gap, 6),
         'parapeito_frase_px': round(above, 6), 'referencia_assinatura_px': round(below, 6),
         'respiro_bloco_superior_px': round(upper, 6), 'respiro_bloco_inferior_px': round(lower, 6),
         'errors': errors}
@@ -258,19 +263,20 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         '- Tema pergaminho; o feed segue PostCoragem e o status usa a mesma composição com aqr-post--story, sem substituir os 240 px de padding superior e inferior do kit.',
         '- Nichos de 600 × 680 no feed e 720 × 900 no status, com img dentro do arco, object-fit:cover, foco e zoom depois do cover. O crédito da obra permanece somente na ficha para uso na legenda.',
         '- Frase em citacao-grande e referência livre em referencia/ouro, centralizadas entre nicho e assinatura; a assinatura inclui @artequereza.oficial nos dois formatos.',
+        '- 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026). No Coragem, a referência recebe margin-top:var(--espaco-2) sobre o gap de 16 px do kit.',
         '- Quebras manuais são preservadas; as demais linhas são equilibradas pelo CSS do kit. Palavras de uma letra ficam ligadas à seguinte. As linhas vazias também contam para o limite.',
         '- Cada formato recebe seu PDF, porque os designs do Canva têm um tamanho único. Os recortes mostram a obra inteira a 1080 px de largura com a janela do arco, já considerando o zoom.',
         '- As obras reais fornecidas no repositório foram usadas sem downloads. Avisos e recomendações abaixo não alteram coragem.yaml nem o enquadramento pedido.',
         '', '## Linhas e distâncias', '',
-        '| Data | Formato | Frase (limite 2) | Referência (limite 1) | Parapeito → frase | Referência → assinatura |',
-        '| --- | --- | --- | --- | --- | --- |']
+        '| Data | Formato | Frase (limite 2) | Referência (limite 1) | Frase → referência | Parapeito → frase | Referência → assinatura |',
+        '| --- | --- | --- | --- | --- | --- | --- |']
     pending = []
     for record in records:
         if record['obra_pendente']: pending.append(record['data'])
         for card in record['cards']:
             texts = {text['campo']: text for text in card['textos']}
             layout = checks['dias'][record['data']]['formatos'][card['formato']]['layout']
-            lines.append(f'| {record["data"]} | {card["formato"]} | {texts["frase"]["quantidade_linhas"]} | {texts["referencia"]["quantidade_linhas"]} | {layout["parapeito_frase_px"]:g} px | {layout["referencia_assinatura_px"]:g} px |')
+            lines.append(f'| {record["data"]} | {card["formato"]} | {texts["frase"]["quantidade_linhas"]} | {texts["referencia"]["quantidade_linhas"]} | {layout["frase_referencia_px"]:g} px | {layout["parapeito_frase_px"]:g} px | {layout["referencia_assinatura_px"]:g} px |')
     lines += ['', '## Obras, foco e zoom', '']
     for record in records:
         lines += [f'- **{record["data"]}:** '+('obra pendente; provisória utilizada.' if record['obra_pendente'] else 'obra real local; recortes de feed e status gerados.'),
@@ -291,7 +297,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         'Avisos de margem: '+(str(len(checks['avisos']))+'; recomendações por formato acima.' if checks['avisos'] else 'nenhum nos dois formatos das obras reais fornecidas.'),
         '', '## Conferências e limites', '',
         'Foram conferidos dimensões dos PNGs, cores da cruz e do filete por pixel, linhas reais com Range, limites e distâncias. PDFs com uma página em 810 × 1012,5 pt no feed e 810 × 1440 pt no status; fontes TTF usadas embutidas por pdffonts e texto do YAML verificado por pdftotext desconsiderando espaços e quebras.',
-        '', 'A importação no editor do Canva não foi executada. As margens são diagnosticadas pelo critério objetivo de linhas/colunas uniformes da foto; a recomendação conserva a arte gerada e serve para ajuste posterior.',
+        '', 'A regra dos espaços foi aprovada no teste do Canva de 29/10/2026; os PDFs desta geração não foram reimportados. As margens são diagnosticadas por linhas/colunas uniformes com contraste de pelo menos 10 níveis de cinza em relação às 16 linhas/colunas seguintes; faixas sem esse contraste ficam registradas como descartadas. A recomendação conserva a arte gerada e serve para ajuste posterior.',
         '', '## Árvore', '', '```text', 'saida/coragem/']
     names = {path.relative_to(target).as_posix() for path in target.rglob('*') if path.is_file()}; names.add('RELATORIO.md')
     lines += ['  '+name for name in sorted(names)] + ['```', '']

@@ -2,7 +2,7 @@
 
 Gerado por `python gerar.py teste-canva` a partir dos cards 2 e 4 do Evangelho de 29/11/2026, usando o mesmo `_document` do gerador.
 
-Importe **os dois PDFs no Canva, sem editar nada**. Compare as caixas e o tamanho da referência Mc 13,37 e do rótulo Para rezar hoje. O objetivo é verificar se o Canva continua fundindo cada elemento ao texto vizinho.
+O teste consistiu em importar **os dois PDFs no Canva, sem editar nada**, comparando as caixas e o tamanho da referência Mc 13,37 e do rótulo Para rezar hoje. Os resultados informados pelo usuário estão registrados abaixo; os PDFs originais foram preservados sem regeneração, e o comando experimental foi retirado.
 
 - [teste-canva-a.pdf](teste-canva-a.pdf): 14 páginas, sem marcação.
 - [teste-canva-b.pdf](teste-canva-b.pdf): 2 controles, com marcação estrutural.
@@ -28,7 +28,19 @@ A validação automática está em [verificacao.json](verificacao.json): página
 
 A igualdade do texto usa a ordem geométrica de leitura (`PyMuPDF sort=True` e `pdftotext -layout`), desconsiderando espaços e quebras. A camada e o giro podem pintar o alvo por último no fluxo interno do PDF; a ordem visual e o conteúdo continuam os mesmos.
 
-A importação real no Canva **não foi executada**. A estrutura do PDF e as medições não permitem concluir como o importador vai tratar cada variante; esse resultado depende do teste manual acima.
+## Resultado no Canva (29/10/2026)
+
+| Páginas | Variante | Card 2 (referência embaixo) | Card 4 (rótulo em cima) |
+| --- | --- | --- | --- |
+| A 1 e 2 | controle (16 px) | fundiu | fundiu |
+| A 3 e 4 | camada | fundiu | fundiu |
+| A 5 e 6 | giro | fundiu | fundiu |
+| A 7 e 8 | 32 px | separou | fundiu |
+| A 9 e 10 | 48 px | separou | separou |
+| A 11 a 14 | 80 e 128 px | separou | separou |
+| B 1 e 2 | PDF marcado | fundiu | fundiu |
+
+Quando separa, o Canva importa a fonte, o tamanho, a cor e a posição certos (menos de 1 px de diferença) e a entrelinha certa. Foram aprovados 32 px entre o texto e a referência e 48 px entre o rótulo e o texto.
 
 ## Arquivos
 

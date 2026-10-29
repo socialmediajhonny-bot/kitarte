@@ -86,13 +86,13 @@
           "caixas_das_linhas": [
             {
               "x": 92.46875,
-              "y": 912,
+              "y": 904,
               "largura": 895.046875,
               "altura": 97
             },
             {
               "x": 271.03125,
-              "y": 1000,
+              "y": 992,
               "largura": 537.921875,
               "altura": 97
             }
@@ -102,7 +102,7 @@
           "cor": "#241b14",
           "caixa": {
             "x": 92.46875,
-            "y": 917,
+            "y": 909,
             "largura": 895.046875,
             "altura": 176
           },
@@ -123,7 +123,7 @@
           "caixas_das_linhas": [
             {
               "x": 490.71875,
-              "y": 1109,
+              "y": 1117,
               "largura": 98.5625,
               "altura": 39
             }
@@ -133,7 +133,7 @@
           "cor": "#866420",
           "caixa": {
             "x": 490.71875,
-            "y": 1109,
+            "y": 1117,
             "largura": 98.5625,
             "altura": 40
           },
@@ -211,9 +211,9 @@
         },
         "bloco_texto": {
           "x": 80,
-          "y": 917,
+          "y": 909,
           "largura": 920,
-          "altura": 232
+          "altura": 248
         },
         "assinatura": {
           "x": 255.40625,
@@ -586,7 +586,7 @@
           "height": 664,
           "text": null,
           "arquivo": "obras/coragem/2026-12-14.jpg",
-          "source": "http://127.0.0.1:37833/obras/coragem/2026-12-14.jpg",
+          "source": "http://127.0.0.1:45951/obras/coragem/2026-12-14.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -627,7 +627,7 @@
           "element": "frase",
           "kind": "text",
           "x": 92.46875,
-          "y": 917,
+          "y": 909,
           "width": 895.046875,
           "height": 176,
           "text": "Criai ânimo, não tenhais medo! Vede, é vosso Deus.",
@@ -669,7 +669,7 @@
           "element": "referencia",
           "kind": "text",
           "x": 490.71875,
-          "y": 1109,
+          "y": 1117,
           "width": 98.5625,
           "height": 40,
           "text": "Is 35,4",
@@ -880,6 +880,7 @@
           "esquerda": 0,
           "direita": 0
         },
+        "faixas_descartadas": [],
         "margens_visiveis": [],
         "avisos": []
       }
@@ -958,13 +959,13 @@
           "caixas_das_linhas": [
             {
               "x": 92.46875,
-              "y": 1307,
+              "y": 1299,
               "largura": 895.046875,
               "altura": 97
             },
             {
               "x": 271.03125,
-              "y": 1395,
+              "y": 1387,
               "largura": 537.921875,
               "altura": 97
             }
@@ -974,7 +975,7 @@
           "cor": "#241b14",
           "caixa": {
             "x": 92.46875,
-            "y": 1312,
+            "y": 1304,
             "largura": 895.046875,
             "altura": 176
           },
@@ -995,7 +996,7 @@
           "caixas_das_linhas": [
             {
               "x": 490.71875,
-              "y": 1504,
+              "y": 1512,
               "largura": 98.5625,
               "altura": 39
             }
@@ -1005,7 +1006,7 @@
           "cor": "#866420",
           "caixa": {
             "x": 490.71875,
-            "y": 1504,
+            "y": 1512,
             "largura": 98.5625,
             "altura": 40
           },
@@ -1083,9 +1084,9 @@
         },
         "bloco_texto": {
           "x": 80,
-          "y": 1312,
+          "y": 1304,
           "largura": 920,
-          "altura": 232
+          "altura": 248
         },
         "assinatura": {
           "x": 255.40625,
@@ -1458,7 +1459,7 @@
           "height": 884,
           "text": null,
           "arquivo": "obras/coragem/2026-12-14.jpg",
-          "source": "http://127.0.0.1:37833/obras/coragem/2026-12-14.jpg",
+          "source": "http://127.0.0.1:45951/obras/coragem/2026-12-14.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -1499,7 +1500,7 @@
           "element": "frase",
           "kind": "text",
           "x": 92.46875,
-          "y": 1312,
+          "y": 1304,
           "width": 895.046875,
           "height": 176,
           "text": "Criai ânimo, não tenhais medo! Vede, é vosso Deus.",
@@ -1541,7 +1542,7 @@
           "element": "referencia",
           "kind": "text",
           "x": 490.71875,
-          "y": 1504,
+          "y": 1512,
           "width": 98.5625,
           "height": 40,
           "text": "Is 35,4",
@@ -1752,6 +1753,7 @@
           "esquerda": 0,
           "direita": 0
         },
+        "faixas_descartadas": [],
         "margens_visiveis": [],
         "avisos": []
       }

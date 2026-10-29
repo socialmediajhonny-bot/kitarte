@@ -610,7 +610,7 @@
           "height": 684,
           "text": null,
           "arquivo": "obras/stories/angelus.jpg",
-          "source": "http://127.0.0.1:37779/obras/stories/angelus.jpg",
+          "source": "http://127.0.0.1:41637/obras/stories/angelus.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -1075,6 +1075,7 @@
           "esquerda": 0,
           "direita": 0
         },
+        "faixas_descartadas": [],
         "margens_visiveis": [],
         "avisos": []
       },
@@ -1684,13 +1685,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 256,
-          "y": 344,
-          "width": 568,
-          "height": 684,
+          "x": 213.399994,
+          "y": 335.791992,
+          "width": 653.199951,
+          "height": 786.599976,
           "text": null,
           "arquivo": "obras/stories/misericordia.jpg",
-          "source": "http://127.0.0.1:37779/obras/stories/misericordia.jpg",
+          "source": "http://127.0.0.1:41637/obras/stories/misericordia.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -2080,13 +2081,14 @@
         "arquivo": "obras/stories/misericordia.jpg",
         "credito": "Eugeniusz Kazimirowski · Jesus Misericordioso · Santuário da Divina Misericórdia, Vilnius",
         "pagina": "https://en.wikipedia.org/wiki/Divine_Mercy_image",
-        "foco": "50% 8%"
+        "foco": "50% 8%",
+        "zoom": 1.15
       },
       "obra_usada": "obras/stories/misericordia.jpg",
       "obra_pendente": false,
       "enquadramento": {
         "foco": "50% 8%",
-        "zoom": 1.0,
+        "zoom": 1.15,
         "imagem_original": {
           "largura": 1779,
           "altura": 3000
@@ -2100,42 +2102,42 @@
           "altura": 684
         },
         "escala_cover": 0.3192804946599213,
-        "escala_com_zoom": 0.3192804946599213,
+        "escala_com_zoom": 0.3671725688589095,
         "janela_original": {
-          "x": 0.0,
-          "y": 68.61464788732395,
-          "largura": 1779.0,
-          "altura": 2142.3169014084506
+          "x": 116.02173913043475,
+          "y": 90.9692590324556,
+          "largura": 1546.9565217391305,
+          "altura": 1862.884262094305
         },
         "margens_detectadas": {
           "topo": 0,
-          "base": 39,
-          "esquerda": 211,
-          "direita": 218
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
         },
-        "margens_visiveis": [
-          "esquerda",
-          "direita"
+        "faixas_descartadas": [
+          {
+            "lado": "base",
+            "largura": 39,
+            "diferenca_cinza": 2.617915927991813
+          },
+          {
+            "lado": "esquerda",
+            "largura": 211,
+            "diferenca_cinza": 0.15367723143759804
+          },
+          {
+            "lado": "direita",
+            "largura": 218,
+            "diferenca_cinza": 1.117466743119266
+          }
         ],
-        "avisos": [
-          "misericordia: margem da foto visível à esquerda e à direita; aumente o zoom"
-        ]
+        "margens_visiveis": [],
+        "avisos": []
       },
       "nota_visual": {
         "inspecionada": true,
-        "nota": "Na obra real desta entrega, o foco 50% 8% preserva o rosto, a mão que abençoa e a origem dos raios vermelho e claro. O detector objetivo acusa faixas uniformes laterais: são áreas escuras do fundo original da pintura, e não uma margem branca externa da foto. O aviso foi mantido. A composição pedida foi preservada, sem alterar o YAML.",
-        "sugestao_opcional": {
-          "foco": "50% 8%",
-          "zoom": 1.33,
-          "margens_visiveis": [],
-          "janela_original": {
-            "x": 220.703007518797,
-            "y": 111.13883299798795,
-            "largura": 1337.593984962406,
-            "altura": 1610.7645875251508
-          },
-          "nota": "Para excluir também as faixas escuras uniformes, foco 50% 8% e zoom 1.33 eliminam o aviso. Na prova de enquadramento, rosto, mão que abençoa e origem dos dois raios permanecem na janela. A sugestão não foi aplicada ao YAML."
-        }
+        "nota": "Na obra real desta entrega, o foco 50% 8% e o zoom 1.15 mantêm na janela o rosto, a auréola, as duas mãos, as mangas e o começo dos raios. As faixas uniformes escuras são parte do fundo da própria pintura; a comparação com as faixas interiores as descarta e não há aviso de margem da foto."
       },
       "distancias": {
         "ok": true,

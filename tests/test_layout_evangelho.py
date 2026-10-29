@@ -36,14 +36,43 @@ class LayoutTests(unittest.TestCase):
         )
         cls.addClassCleanup(cls.browser.close)
         cls.page = cls.browser.new_page(viewport={"width": 1080, "height": 1350})
-        cls.base = load_content(PROJECT / "conteudo/evangelho.yaml")[0]
+        cls.days = load_content(PROJECT / "conteudo/evangelho.yaml")
+        cls.base = cls.days[0]
 
-    def measure_reflection(self, day):
+    def measure(self, day, kind):
         path = self.folder / "card.html"
-        path.write_text(_document(day, 3, self.css, PROJECT / "saida/obra-provisoria.png"))
+        path.write_text(_document(day, kind, self.css, PROJECT / "saida/obra-provisoria.png"))
         self.page.goto(self.url + resource_url(path))
         await_fonts(self.page)
-        return _measure(self.page, 3, 3)
+        return _measure(self.page, kind, kind)
+
+    def measure_reflection(self, day):
+        return self.measure(day, 3)
+
+    def test_canva_pairs_and_centered_blocks_on_both_dates(self):
+        for day in self.days:
+            for kind, expected in ((2, 32), (3, 48), (4, 48)):
+                with self.subTest(data=day['data'], card=kind):
+                    result = _validate_layout(day, self.measure(day, kind))
+                    self.assertAlmostEqual(result['par_canva']['distancia_px'], expected, places=2)
+                    self.assertLessEqual(result['centralizacao_vertical']['diferenca_px'], 0.1)
+
+    def assert_old_gap_rejected(self, kind, field, margin):
+        self.measure(self.base, kind)
+        self.page.locator(f'[data-text="{field}"]').evaluate(
+            '(node, margin) => node.style[margin] = "0px"', margin)
+        card = _measure(self.page, kind, kind)
+        with self.assertRaisesRegex(ValueError, rf'card {kind}: distância entre .* 16\.00px; esperado'):
+            _validate_layout(self.base, card)
+
+    def test_card_2_rejects_old_16px_pair(self):
+        self.assert_old_gap_rejected(2, 'trecho_ref', 'marginTop')
+
+    def test_card_3_rejects_old_16px_pair(self):
+        self.assert_old_gap_rejected(3, 'chamada_reflexao', 'marginBottom')
+
+    def test_card_4_rejects_old_16px_pair(self):
+        self.assert_old_gap_rejected(4, 'chamada_oracao', 'marginBottom')
 
     def test_empty_forced_line_counts_toward_title_limit(self):
         day = deepcopy(self.base)

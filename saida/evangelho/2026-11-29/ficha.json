@@ -617,7 +617,7 @@
           "height": 818.400024,
           "text": null,
           "arquivo": "obras/2026-11-29.jpg",
-          "source": "http://127.0.0.1:42283/obras/2026-11-29.jpg",
+          "source": "http://127.0.0.1:33665/obras/2026-11-29.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -868,6 +868,7 @@
           "esquerda": 0,
           "direita": 7
         },
+        "faixas_descartadas": [],
         "margens_visiveis": [],
         "avisos": []
       }
@@ -977,13 +978,13 @@
           "caixas_das_linhas": [
             {
               "x": 137.90625,
-              "y": 548,
+              "y": 540,
               "largura": 804.171875,
               "altura": 97
             },
             {
               "x": 445.03125,
-              "y": 636,
+              "y": 628,
               "largura": 189.921875,
               "altura": 97
             }
@@ -993,7 +994,7 @@
           "cor": "#f3eadb",
           "caixa": {
             "x": 137.90625,
-            "y": 553,
+            "y": 545,
             "largura": 804.171875,
             "altura": 176
           },
@@ -1014,7 +1015,7 @@
           "caixas_das_linhas": [
             {
               "x": 470.09375,
-              "y": 745,
+              "y": 753,
               "largura": 139.796875,
               "altura": 39
             }
@@ -1024,7 +1025,7 @@
           "cor": "#cfa956",
           "caixa": {
             "x": 470.09375,
-            "y": 745,
+            "y": 753,
             "largura": 139.796875,
             "altura": 40
           },
@@ -1066,9 +1067,9 @@
         },
         "bloco_texto": {
           "x": 80,
-          "y": 553,
+          "y": 545,
           "largura": 920,
-          "altura": 232
+          "altura": 248
         }
       },
       "card": 2,
@@ -1306,7 +1307,7 @@
           "element": "trecho",
           "kind": "text",
           "x": 137.90625,
-          "y": 553,
+          "y": 545,
           "width": 804.171875,
           "height": 176,
           "text": "O que vos digo, digo a todos: Vigiai!",
@@ -1348,7 +1349,7 @@
           "element": "trecho_ref",
           "kind": "text",
           "x": 470.09375,
-          "y": 745,
+          "y": 753,
           "width": 139.796875,
           "height": 40,
           "text": "Mc 13,37",
@@ -1592,7 +1593,7 @@
           "caixas_das_linhas": [
             {
               "x": 391.65625,
-              "y": 419.5,
+              "y": 403.5,
               "largura": 296.6875,
               "altura": 39
             }
@@ -1602,7 +1603,7 @@
           "cor": "#bbad98",
           "caixa": {
             "x": 391.65625,
-            "y": 419.5,
+            "y": 403.5,
             "largura": 296.6875,
             "altura": 40
           },
@@ -1623,7 +1624,7 @@
           "caixas_das_linhas": [
             {
               "x": 100.09375,
-              "y": 471.5,
+              "y": 487.5,
               "largura": 879.796875,
               "altura": 83
             }
@@ -1633,7 +1634,7 @@
           "cor": "#f3eadb",
           "caixa": {
             "x": 100.09375,
-            "y": 475.5,
+            "y": 491.5,
             "largura": 879.796875,
             "altura": 76
           },
@@ -1658,31 +1659,31 @@
           "caixas_das_linhas": [
             {
               "x": 236.234375,
-              "y": 672.5,
+              "y": 688.5,
               "largura": 607.515625,
               "altura": 41
             },
             {
               "x": 226.15625,
-              "y": 722.5,
+              "y": 738.5,
               "largura": 627.6875,
               "altura": 41
             },
             {
               "x": 202.09375,
-              "y": 772.5,
+              "y": 788.5,
               "largura": 675.796875,
               "altura": 41
             },
             {
               "x": 217.28125,
-              "y": 822.5,
+              "y": 838.5,
               "largura": 645.421875,
               "altura": 41
             },
             {
               "x": 226.3125,
-              "y": 872.5,
+              "y": 888.5,
               "largura": 627.375,
               "altura": 41
             }
@@ -1692,7 +1693,7 @@
           "cor": "#f3eadb",
           "caixa": {
             "x": 160,
-            "y": 668.5,
+            "y": 684.5,
             "largura": 760,
             "altura": 250
           },
@@ -1734,9 +1735,9 @@
         },
         "bloco_texto": {
           "x": 80,
-          "y": 419.5,
+          "y": 403.5,
           "largura": 920,
-          "altura": 499
+          "altura": 531
         }
       },
       "card": 3,
@@ -1974,7 +1975,7 @@
           "element": "chamada_reflexao",
           "kind": "text",
           "x": 391.65625,
-          "y": 419.5,
+          "y": 403.5,
           "width": 296.6875,
           "height": 40,
           "text": "Para a Missa de hoje",
@@ -2016,7 +2017,7 @@
           "element": "reflexao.titulo",
           "kind": "text",
           "x": 100.09375,
-          "y": 475.5,
+          "y": 491.5,
           "width": 879.796875,
           "height": 76,
           "text": "A Igreja começa o ano esperando",
@@ -2058,7 +2059,7 @@
           "element": "ornamento",
           "kind": "container",
           "x": 445,
-          "y": 599.5,
+          "y": 615.5,
           "width": 190,
           "height": 21,
           "text": null,
@@ -2102,7 +2103,7 @@
           "pseudo": "::before",
           "host": "ornamento",
           "x": 445,
-          "y": 609,
+          "y": 625,
           "width": 72,
           "height": 2,
           "text": null,
@@ -2140,7 +2141,7 @@
           "pseudo": "::after",
           "host": "ornamento",
           "x": 563,
-          "y": 609,
+          "y": 625,
           "width": 72,
           "height": 2,
           "text": null,
@@ -2176,7 +2177,7 @@
           "element": "reflexao.texto",
           "kind": "text",
           "x": 160,
-          "y": 668.5,
+          "y": 684.5,
           "width": 760,
           "height": 250,
           "text": "O Advento prepara duas vindas de Jesus: a do Natal, que celebramos, e a do fim dos tempos, que esperamos. Por isso o Evangelho de hoje pede atenção, não medo. Na Missa, repare na coroa com a primeira vela acesa.",
@@ -2420,7 +2421,7 @@
           "caixas_das_linhas": [
             {
               "x": 431.84375,
-              "y": 489.5,
+              "y": 473.5,
               "largura": 216.296875,
               "altura": 39
             }
@@ -2430,7 +2431,7 @@
           "cor": "#faf6ee",
           "caixa": {
             "x": 431.84375,
-            "y": 489.5,
+            "y": 473.5,
             "largura": 216.296875,
             "altura": 40
           },
@@ -2452,13 +2453,13 @@
           "caixas_das_linhas": [
             {
               "x": 256.359375,
-              "y": 546.5,
+              "y": 562.5,
               "largura": 567.28125,
               "altura": 65
             },
             {
               "x": 229.578125,
-              "y": 614.5,
+              "y": 630.5,
               "largura": 620.84375,
               "altura": 65
             }
@@ -2468,7 +2469,7 @@
           "cor": "#faf6ee",
           "caixa": {
             "x": 110,
-            "y": 545.5,
+            "y": 561.5,
             "largura": 860,
             "altura": 136
           },
@@ -2489,7 +2490,7 @@
           "caixas_das_linhas": [
             {
               "x": 268.125,
-              "y": 802.5,
+              "y": 818.5,
               "largura": 543.734375,
               "altura": 41
             }
@@ -2499,7 +2500,7 @@
           "cor": "#faf6ee",
           "caixa": {
             "x": 268.125,
-            "y": 798.5,
+            "y": 814.5,
             "largura": 543.734375,
             "altura": 50
           },
@@ -2515,7 +2516,7 @@
               "peso": "700",
               "caixa": {
                 "x": 552.9375,
-                "y": 802.5,
+                "y": 818.5,
                 "largura": 258.921875,
                 "altura": 41
               }
@@ -2552,9 +2553,9 @@
         },
         "bloco_texto": {
           "x": 80,
-          "y": 489.5,
+          "y": 473.5,
           "largura": 920,
-          "altura": 359
+          "altura": 391
         }
       },
       "card": 4,
@@ -2792,7 +2793,7 @@
           "element": "chamada_oracao",
           "kind": "text",
           "x": 431.84375,
-          "y": 489.5,
+          "y": 473.5,
           "width": 216.296875,
           "height": 40,
           "text": "Para rezar hoje",
@@ -2834,7 +2835,7 @@
           "element": "pergunta",
           "kind": "text",
           "x": 110,
-          "y": 545.5,
+          "y": 561.5,
           "width": 860,
           "height": 136,
           "text": "O que em mim está dormindo e precisa acordar neste Advento?",
@@ -2876,7 +2877,7 @@
           "element": "ornamento",
           "kind": "container",
           "x": 445,
-          "y": 729.5,
+          "y": 745.5,
           "width": 190,
           "height": 21,
           "text": null,
@@ -2920,7 +2921,7 @@
           "pseudo": "::before",
           "host": "ornamento",
           "x": 445,
-          "y": 739,
+          "y": 755,
           "width": 72,
           "height": 2,
           "text": null,
@@ -2958,7 +2959,7 @@
           "pseudo": "::after",
           "host": "ornamento",
           "x": 563,
-          "y": 739,
+          "y": 755,
           "width": 72,
           "height": 2,
           "text": null,
@@ -2994,7 +2995,7 @@
           "element": "convite",
           "kind": "text",
           "x": 268.125,
-          "y": 798.5,
+          "y": 814.5,
           "width": 543.734375,
           "height": 50,
           "text": "Abra sua Bíblia em Marcos 13,33-37",
@@ -3159,6 +3160,7 @@
       "esquerda": 0,
       "direita": 7
     },
+    "faixas_descartadas": [],
     "margens_visiveis": [],
     "avisos": []
   },

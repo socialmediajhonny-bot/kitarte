@@ -542,7 +542,7 @@
           "height": 664,
           "text": null,
           "arquivo": "obras/santo-do-dia/2026-12-08.jpg",
-          "source": "http://127.0.0.1:46881/obras/santo-do-dia/2026-12-08.jpg",
+          "source": "http://127.0.0.1:36443/obras/santo-do-dia/2026-12-08.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -794,6 +794,7 @@
           "esquerda": 0,
           "direita": 0
         },
+        "faixas_descartadas": [],
         "margens_visiveis": [],
         "avisos": []
       }
@@ -828,6 +829,7 @@
       "esquerda": 0,
       "direita": 0
     },
+    "faixas_descartadas": [],
     "margens_visiveis": [],
     "avisos": []
   },

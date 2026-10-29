@@ -58,32 +58,54 @@ def artwork_geometry(artwork: Path, focus: str, zoom: float = 1, *,
                                 'largura': window_width, 'altura': window_height}}
 
 
-def uniform_margins(artwork: Path) -> dict[str, int]:
-    """Bordas contíguas com >=4 linhas/colunas inteiras de σ cinza <6."""
+def _uniform_margin_analysis(artwork: Path) -> tuple[dict[str, int], list[dict]]:
+    """Separa margens fotográficas de faixas que continuam na pintura."""
     with Image.open(artwork) as source:
         image = source.convert('L')
         width, height = image.size
         margins = {}
+        discarded = []
         for side, count in (('topo', height), ('base', height),
                             ('esquerda', width), ('direita', width)):
+            def band(start, end):
+                if side == 'topo': return (0, start, width, end)
+                if side == 'base': return (0, height - end, width, height - start)
+                if side == 'esquerda': return (start, 0, end, height)
+                return (width - end, 0, width - start, height)
+
             contiguous = 0
             for offset in range(count):
-                if side == 'topo': box = (0, offset, width, offset + 1)
-                elif side == 'base': box = (0, height - offset - 1, width, height - offset)
-                elif side == 'esquerda': box = (offset, 0, offset + 1, height)
-                else: box = (width - offset - 1, 0, width - offset, height)
-                if ImageStat.Stat(image.crop(box)).stddev[0] >= 6:
+                if ImageStat.Stat(image.crop(band(offset, offset + 1))).stddev[0] >= 6:
                     break
                 contiguous += 1
-            margins[side] = contiguous if contiguous >= 4 else 0
-    return margins
+            margins[side] = 0
+            if contiguous < 4:
+                continue
+            difference = 0.0
+            if contiguous < count:
+                border_mean = ImageStat.Stat(image.crop(band(0, contiguous))).mean[0]
+                interior_mean = ImageStat.Stat(image.crop(band(contiguous, min(count, contiguous + 16)))).mean[0]
+                difference = abs(border_mean - interior_mean)
+            # An entirely uniform image has no contrasting interior and cannot
+            # establish a photographic margin.
+            if difference >= 10:
+                margins[side] = contiguous
+            else:
+                discarded.append({'lado': side, 'largura': contiguous,
+                                  'diferenca_cinza': difference})
+    return margins, discarded
+
+
+def uniform_margins(artwork: Path) -> dict[str, int]:
+    """Faixas de >=4 linhas/colunas com σ<6 e contraste interior >=10."""
+    return _uniform_margin_analysis(artwork)[0]
 
 
 def inspect_artwork(artwork: Path, focus: str, zoom: float = 1, *,
                     niche_width: float = 680, niche_height: float = 760,
                     date: str | None = None) -> dict:
     geometry = artwork_geometry(artwork, focus, zoom, niche_width=niche_width, niche_height=niche_height)
-    margins = uniform_margins(artwork)
+    margins, discarded = _uniform_margin_analysis(artwork)
     window, original = geometry['janela_original'], geometry['imagem_original']
     visible = []
     if margins['topo'] and window['y'] < margins['topo'] - 1e-9: visible.append('topo')
@@ -96,7 +118,8 @@ def inspect_artwork(artwork: Path, focus: str, zoom: float = 1, *,
         sides = [labels[side] for side in visible]
         label = sides[0] if len(sides) == 1 else ', '.join(sides[:-1]) + ' e ' + sides[-1]
         warnings.append(f'{date or Path(artwork).name}: margem da foto visível {label}; aumente o zoom')
-    geometry.update({'margens_detectadas': margins, 'margens_visiveis': visible, 'avisos': warnings})
+    geometry.update({'margens_detectadas': margins, 'faixas_descartadas': discarded,
+                     'margens_visiveis': visible, 'avisos': warnings})
     return geometry
 
 

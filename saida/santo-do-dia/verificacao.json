@@ -1777,8 +1777,6 @@
   },
   "obras_pendentes": [],
   "avisos": [],
-  "ok": true,
-  "comando": "python gerar.py santo",
   "evangelho_kit_v4": {
     "verificado": true,
     "arquivo": "saida/verificacao/conferencia-kit-v4.json",
@@ -2986,5 +2984,7 @@
       "ok": true,
       "errors": []
     }
-  }
+  },
+  "ok": true,
+  "comando": "python gerar.py santo"
 }

@@ -34,9 +34,10 @@ class StoryContentTests(unittest.TestCase):
         self.assertEqual(angelus["resposta"], "E ela concebeu do Espírito Santo. Ave, Maria…")
         self.assertEqual(mercy["invocacao"], "Ó Sangue e Água, que jorrastes\ndo Coração de Jesus como fonte\nde misericórdia para nós, eu confio em Vós!")
         self.assertNotIn("resposta", mercy)
+        self.assertNotIn("zoom", angelus["obra"])
+        self.assertEqual(mercy["obra"]["zoom"], 1.15)
         for story in self.content["stories"]:
             self.assertNotIn("data", story)
-            self.assertNotIn("zoom", story["obra"])
         self.assertEqual(self.load(self.content), self.content)
 
     def test_root_season_story_and_work_each_reject_unknown_fields(self):

@@ -14,8 +14,10 @@ from gerar import ensure_kit
 from arteque_reza.base import PROJECT, await_fonts, generate_tokens_css, render_arte, resource_url
 from arteque_reza.conteudo import local_artwork_path, text_html
 from arteque_reza.conteudo_stories import load_stories
+from arteque_reza.obras import artwork_geometry
 from arteque_reza.renderizacao import local_server
-from arteque_reza.stories import _document, _measure, _pdf_check, _source_warnings, _validate_layout
+from arteque_reza.stories import (_document, _measure, _pdf_check, _preview_check,
+    _source_warnings, _validate_layout, _visual_note)
 
 
 @unittest.skipUnless(shutil.which('chromium'), 'Chromium é necessário para medir o layout real')
@@ -59,6 +61,44 @@ class StoryLayoutTests(unittest.TestCase):
                 self.assertEqual(fields['titulo']['quantidade_linhas'],1)
                 self.assertEqual(fields['subtitulo']['quantidade_linhas'],1)
                 self.assertEqual(fields['invocacao']['quantidade_linhas'],1 if story['id']=='angelus' else 3)
+
+    def test_mercy_uses_the_approved_zoom_and_preserves_the_requested_window(self):
+        story = self.stories[1]
+        self.assertEqual(story['obra']['foco'], '50% 8%')
+        self.assertEqual(story['obra']['zoom'], 1.15)
+        artwork = local_artwork_path(story['obra']['arquivo'])
+        framing = artwork_geometry(artwork, story['obra']['foco'], story['obra']['zoom'],
+            niche_width=600, niche_height=700)
+        window = framing['janela_original']
+        for field, expected in [('x',116), ('y',91), ('largura',1547), ('altura',1863)]:
+            self.assertAlmostEqual(window[field], expected, delta=1)
+        self.render(story)
+        self.assertEqual(self.page.locator('.aqr-nicho__obra img').evaluate(
+            "el=>getComputedStyle(el).transform"), 'matrix(1.15, 0, 0, 1.15, 0, 0)')
+        note = _visual_note(story, artwork, False, framing)
+        self.assertNotIn('sugestao_opcional', note)
+        for essential in ('rosto', 'auréola', 'duas mãos', 'mangas', 'começo dos raios'):
+            self.assertIn(essential, note['nota'])
+
+    def test_preview_at_the_origin_is_identical_outside_the_artwork_and_rejects_a_changed_pixel(self):
+        story = self.stories[0]
+        tempo = {'id':'tempo-comum', 'nome':'Tempo Comum', 'cor':'verde'}
+        target = self.folder/'preview-check'; reference = target/'tempo-comum/angelus.png'
+        artwork = local_artwork_path(story['obra']['arquivo'])
+        render_arte(self.page, _document(tempo,story,self.css,artwork), reference,
+            formato='story', base_url=self.url)
+        result = _preview_check(self.page,self.css,target,self.folder/'preview-work',self.url)
+        self.assertTrue(result['ok'])
+        self.assertEqual(result['origem_article_px'], [0,0])
+        self.assertEqual(result['pixels_alterados_fora_obra'], 0)
+        self.assertIsNone(result['diferenca'])
+        with Image.open(reference) as raw:
+            altered = raw.convert('RGB')
+        altered.putpixel((8,8),(255,0,0)); altered.save(reference)
+        result = _preview_check(self.page,self.css,target,self.folder/'preview-work',self.url)
+        self.assertFalse(result['ok'])
+        self.assertEqual(result['pixels_alterados_fora_obra'], 1)
+        self.assertTrue((PROJECT/result['diferenca']).is_file())
 
     def test_title_subtitle_invocation_and_response_limits_reject_extra_lines(self):
         for field,limit in [('titulo',1),('subtitulo',1),('invocacao',3),('resposta',2)]:

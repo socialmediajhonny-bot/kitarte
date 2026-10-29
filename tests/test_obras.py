@@ -122,6 +122,85 @@ class ArtworkTests(unittest.TestCase):
                 self.assertEqual(result['margens_visiveis'], ['topo', 'base'])
                 self.assertEqual(result['avisos'], [f'{date}: margem da foto visível no topo e na base; aumente o zoom'])
 
+    def test_tissot_photographic_margins_still_have_the_original_widths(self):
+        expected = {
+            '2026-11-29': {'topo': 32, 'base': 22, 'esquerda': 0, 'direita': 7},
+            '2026-12-13': {'topo': 32, 'base': 31, 'esquerda': 9, 'direita': 17},
+        }
+        for date, margins in expected.items():
+            with self.subTest(date=date):
+                result = inspect_artwork(PROJECT / f'obras/{date}.jpg', '50% 50%')
+                self.assertEqual(result['margens_detectadas'], margins)
+                self.assertEqual(result['faixas_descartadas'], [])
+
+    def test_dark_painting_with_white_photographic_border_has_margins(self):
+        image = Image.new('L', (80, 80), 255)
+        for y in range(6, 74):
+            for x in range(6, 74): image.putpixel((x, y), 20 if (x + y) % 2 else 40)
+        image.save(self.image)
+        result = inspect_artwork(self.image, '50% 50%', niche_width=112, niche_height=96)
+        self.assertEqual(result['margens_detectadas'], dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 6))
+        self.assertEqual(result['margens_visiveis'], ['topo', 'base', 'esquerda', 'direita'])
+        self.assertTrue(result['avisos'])
+        self.assertEqual(result['faixas_descartadas'], [])
+
+    def test_dark_uniform_band_matching_the_interior_is_part_of_the_painting(self):
+        image = Image.new('L', (80, 80))
+        image.putdata([5 if (x + y) % 2 else 35 for y in range(80) for x in range(80)])
+        for y in range(5):
+            for x in range(80): image.putpixel((x, y), 20)
+        image.save(self.image)
+        result = inspect_artwork(self.image, '50% 50%', niche_width=112, niche_height=96)
+        self.assertEqual(result['margens_detectadas'], dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0))
+        self.assertEqual(result['faixas_descartadas'], [{'lado': 'topo', 'largura': 5, 'diferenca_cinza': 0}])
+        self.assertEqual(result['avisos'], [])
+
+    def test_margin_contrast_threshold_is_at_least_ten_gray_levels(self):
+        for difference in (9, 10):
+            with self.subTest(difference=difference):
+                image = Image.new('L', (80, 80))
+                image.putdata([90 + difference if (x + y) % 2 else 110 + difference
+                               for y in range(80) for x in range(80)])
+                for y in range(4):
+                    for x in range(80): image.putpixel((x, y), 100)
+                image.save(self.image)
+                result = inspect_artwork(self.image, '50% 50%')
+                self.assertEqual(result['margens_detectadas']['topo'], 4 if difference == 10 else 0)
+                self.assertEqual(result['faixas_descartadas'], [] if difference == 10 else
+                                 [{'lado': 'topo', 'largura': 4, 'diferenca_cinza': 9}])
+
+    def test_entirely_uniform_image_does_not_establish_a_photographic_border(self):
+        result = inspect_artwork(self.image, '50% 50%')
+        self.assertEqual(result['margens_detectadas'], dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0))
+        self.assertEqual(result['avisos'], [])
+        self.assertEqual(len(result['faixas_descartadas']), 4)
+        self.assertTrue(all(band['diferenca_cinza'] == 0 for band in result['faixas_descartadas']))
+
+    def test_mercy_painting_discards_its_dark_bands_at_both_requested_zooms(self):
+        artwork = PROJECT / 'obras/stories/misericordia.jpg'
+        expected = {'base': (39, 2.6), 'esquerda': (211, .2), 'direita': (218, 1.1)}
+        for zoom in (1, 1.15):
+            with self.subTest(zoom=zoom):
+                result = inspect_artwork(artwork, '50% 8%', zoom, niche_width=600, niche_height=700)
+                self.assertEqual(result['margens_detectadas'], dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0))
+                self.assertEqual(result['margens_visiveis'], [])
+                self.assertEqual(result['avisos'], [])
+                self.assertEqual({band['lado'] for band in result['faixas_descartadas']}, set(expected))
+                for band in result['faixas_descartadas']:
+                    width, difference = expected[band['lado']]
+                    self.assertEqual(band['largura'], width)
+                    self.assertAlmostEqual(band['diferenca_cinza'], difference, delta=.05)
+
+    def test_other_repository_paintings_have_no_uniform_bands(self):
+        excluded = {'obras/2026-11-29.jpg', 'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg'}
+        for artwork in sorted((PROJECT / 'obras').rglob('*.jpg')):
+            if artwork.relative_to(PROJECT).as_posix() in excluded:
+                continue
+            with self.subTest(artwork=artwork.name):
+                result = inspect_artwork(artwork, '50% 50%')
+                self.assertFalse(any(result['margens_detectadas'].values()))
+                self.assertEqual(result['faixas_descartadas'], [])
+
     def test_the_five_requested_new_framings_have_no_visible_uniform_margin(self):
         gospel = load_content(PROJECT / 'conteudo/evangelho.yaml')
         saints = load_saints(PROJECT / 'conteudo/santo-do-dia.yaml')
