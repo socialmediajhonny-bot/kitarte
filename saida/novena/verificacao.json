@@ -1,5 +1,5 @@
 {
-  "modo": "teste-canva",
+  "modo": "final",
   "kit": {
     "ok": true,
     "version": 4,
@@ -12919,7 +12919,7 @@
   },
   "pdfs_entregues": [
     {
-      "arquivo": "saida/novena/teste-canva/novena-teste-canva.pdf",
+      "arquivo": "saida/novena/imaculada/novena-imaculada.pdf",
       "validacao": {
         "ok": true,
         "paginas": [
@@ -12939,6 +12939,55 @@
           },
           {
             "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 5,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 6,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 7,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 8,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 9,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 10,
             "largura_pt": 810.0,
             "altura_pt": 1012.5,
             "texto_igual_yaml_sem_espacos": true,
@@ -12980,6 +13029,186 @@
             "nome": "Lato-Bold",
             "formato": "ttf",
             "embutida": true,
+            "bytes": 14860
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11840
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9932
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20804
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13120
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10868
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10996
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21580
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16324
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10864
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12380
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16248
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15084
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10952
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10936
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14704
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14212
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10420
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11900
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14360
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12556
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12132
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11176
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16088
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
             "bytes": 14824
           },
           {
@@ -12999,6 +13228,36 @@
             "formato": "ttf",
             "embutida": true,
             "bytes": 15444
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17128
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10620
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11564
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21344
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
@@ -13044,8 +13303,399 @@
           "Lato-Bold",
           "Lato-Regular"
         ],
-        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     10  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     15  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     20  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     25  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     30  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     42  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     47  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     52  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     57  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     62  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     73  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     78  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     83  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     88  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     93  0\n",
-        "pdftotext": "Novena da Imaculada · dom, 29 nov\n\n\n\n\n                      Dia 1 de 9\n\n\n              Cheia de graça\n                       Lc 1,28\n\n\n\n\n  Maria, o anjo vos chamou de cheia de graça,\n    e em vós não houve lugar para o pecado.\n  Neste começo do Advento, ajudai-nos a abrir\n        espaço para Deus em nossa vida.\n          Ó Maria concebida sem pecado,\n        rogai por nós que recorremos a vós.\n\fNovena da Imaculada · dom, 6 dez\n\n\n\n                      Dia 8 de 9\n\n\n          “Eu sou a Imaculada\n              Conceição”\n                    Lourdes, 1858\n\n\n\n\n      Maria, na gruta de Lourdes dissestes\na Bernadete o vosso nome. Ensinai-nos a confiar\n      como ela, simples e pobre, e acolhei\n      os doentes que hoje vos confiamos.\n          Ó Maria concebida sem pecado,\n        rogai por nós que recorremos a vós.\n\fNovena da Imaculada · ter, 8 dez\n\n\n\n\n                      Encerramento\n\n\n          Oração à Imaculada\n\n       Virgem Imaculada, durante nove dias\n        rezamos convosco, e hoje celebramos\n      a vossa festa. Guardai em vosso coração\n       tudo o que vos pedimos e levai-nos de\n      coração limpo ao Natal do vosso Filho.\n             Ó Maria concebida sem pecado,\n           rogai por nós que recorremos a vós.\n\f",
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     10  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     15  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     20  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     25  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     30  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     42  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     47  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     52  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     57  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     62  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     84  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     89  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     94  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    106  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    111  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    116  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    121  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    126  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    138  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    143  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    148  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    153  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    158  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    170  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    175  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    180  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    185  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    190  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    202  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    207  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    212  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    217  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    222  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    234  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    239  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    244  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    249  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    254  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    265  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    270  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    275  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    280  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    285  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    296  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    301  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    306  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    311  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    316  0\n",
+        "pdftotext": "Novena da Imaculada · dom, 29 nov\n\n\n\n\n                      Dia 1 de 9\n\n\n              Cheia de graça\n                       Lc 1,28\n\n\n\n\n  Maria, o anjo vos chamou de cheia de graça,\n    e em vós não houve lugar para o pecado.\n  Neste começo do Advento, ajudai-nos a abrir\n        espaço para Deus em nossa vida.\n          Ó Maria concebida sem pecado,\n        rogai por nós que recorremos a vós.\n\fNovena da Imaculada · seg, 30 nov\n\n\n\n\n                       Dia 2 de 9\n\n\n                  A nova Eva\n                        Gn 3,15\n\n\n\n\n  Maria, nova Eva, onde a primeira mulher disse\n não, vós dissestes sim. Pelo vosso Filho, a cabeça\n   da serpente foi esmagada. Defendei-nos nas\n    tentações e ensinai-nos a escolher a vida.\n           Ó Maria concebida sem pecado,\n         rogai por nós que recorremos a vós.\n\fNovena da Imaculada · ter, 1 dez\n\n\n\n\n                        Dia 3 de 9\n\n\n              Arca da Aliança\n                        Ladainha\n\n\n\n\n   Maria, Arca da Aliança, vós trouxestes em\n    vosso seio o próprio Deus feito homem.\n  Ajudai-nos a ser também morada do Senhor,\npara levarmos Jesus a quem ainda não o conhece.\n           Ó Maria concebida sem pecado,\n         rogai por nós que recorremos a vós.\n\fNovena da Imaculada · qua, 2 dez\n\n\n\n\n                       Dia 4 de 9\n\n\n           Toda bela és, Maria\n                         Ct 4,7\n\n\n\n\n     Maria, toda bela, em vós não há mancha\n    alguma. Olhai as manchas que carregamos\ne levai-nos ao perdão do vosso Filho na confissão,\n    para que o Natal nos encontre renovados.\n           Ó Maria concebida sem pecado,\n         rogai por nós que recorremos a vós.\n\fNovena da Imaculada · qui, 3 dez\n\n\n\n\n                       Dia 5 de 9\n\n\n            A serva do Senhor\n                         Lc 1,38\n\n\n\n\n      Maria, vós dissestes: eis aqui a serva do\n    Senhor. Ensinai-nos a dizer sim a Deus nas\n   pequenas coisas de cada dia, mesmo quando\n     não entendemos tudo o que ele nos pede.\n           Ó Maria concebida sem pecado,\n         rogai por nós que recorremos a vós.\n\fNovena da Imaculada · sex, 4 dez\n\n\n\n\n                       Dia 6 de 9\n\n\n       A mulher vestida de sol\n                        Ap 12,1\n\n\n\n\n Maria, mulher vestida de sol, com a lua debaixo\n   dos pés e uma coroa de doze estrelas, nas\n  horas escuras da nossa vida lembrai-nos de\n      que a luz de Deus vence toda noite.\n          Ó Maria concebida sem pecado,\n        rogai por nós que recorremos a vós.\n\fNovena da Imaculada · sáb, 5 dez\n\n\n\n\n                       Dia 7 de 9\n\n\n             Estrela da manhã\n                        Ladainha\n\n\n\n\n      Maria, Estrela da manhã, vós anunciais\n     a chegada do Sol, que é Cristo. Quando\n   a noite parecer longa, guiai os nossos passos\n   até ele e não nos deixeis perder a esperança.\n            Ó Maria concebida sem pecado,\n          rogai por nós que recorremos a vós.\n\fNovena da Imaculada · dom, 6 dez\n\n\n\n                      Dia 8 de 9\n\n\n          “Eu sou a Imaculada\n              Conceição”\n                    Lourdes, 1858\n\n\n\n\n      Maria, na gruta de Lourdes dissestes\na Bernadete o vosso nome. Ensinai-nos a confiar\n      como ela, simples e pobre, e acolhei\n      os doentes que hoje vos confiamos.\n          Ó Maria concebida sem pecado,\n        rogai por nós que recorremos a vós.\n\fNovena da Imaculada · seg, 7 dez\n\n\n\n\n                       Dia 9 de 9\n\n\n                Mãe da Igreja\n                   Lumen Gentium 53\n\n\n\n\n    Maria, Mãe da Igreja, ao pé da cruz Jesus\n    vos deu a nós como mãe. Cuidai da Igreja\n   espalhada pelo mundo, do Papa, dos nossos\n  padres e de cada família que reza esta novena.\n           Ó Maria concebida sem pecado,\n         rogai por nós que recorremos a vós.\n\fNovena da Imaculada · ter, 8 dez\n\n\n\n\n                      Encerramento\n\n\n          Oração à Imaculada\n\n       Virgem Imaculada, durante nove dias\n        rezamos convosco, e hoje celebramos\n      a vossa festa. Guardai em vosso coração\n       tudo o que vos pedimos e levai-nos de\n      coração limpo ao Natal do vosso Filho.\n             Ó Maria concebida sem pecado,\n           rogai por nós que recorremos a vós.\n\f",
+        "texto_igual_yaml_sem_espacos": true,
+        "errors": []
+      }
+    },
+    {
+      "arquivo": "saida/novena/natal/novena-natal.pdf",
+      "validacao": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 5,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 6,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 7,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 8,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 9,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 10,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15900
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11280
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14216
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20108
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16624
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10824
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12328
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16364
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15940
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11064
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11360
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 22096
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16484
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12192
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11116
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15804
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16408
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10980
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12664
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20916
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16524
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11040
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12352
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20788
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15760
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11024
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13068
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21220
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16296
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11504
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12640
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21652
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15752
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11048
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11568
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15756
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13268
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11124
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11208
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 22164
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8660
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     10  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     15  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     20  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     25  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     30  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     42  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     47  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     52  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     57  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     62  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     84  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     89  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     94  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    106  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    111  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    116  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    121  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    126  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    138  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    143  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    148  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    153  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    158  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    170  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    175  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    180  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    185  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    190  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    202  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    207  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    212  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    217  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    222  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    234  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    239  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    244  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    249  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    254  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    265  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    270  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    275  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    280  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    285  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    296  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    301  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    306  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    311  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    316  0\n",
+        "pdftotext": "Novena de Natal · qua, 16 dez\n\n\n\n\n                       Dia 1 de 9\n\n\n       Os profetas anunciaram\n                         Is 7,14\n\n\n\n\n Senhor Jesus, os profetas anunciaram que uma\n virgem daria à luz o Emanuel, o Deus conosco.\n   Como eles, queremos esperar a vossa vinda\n com fé e preparar o coração para o vosso Natal.\n               Vinde, Senhor Jesus!\n\fNovena de Natal · qui, 17 dez\n\n\n\n\n                        Dia 2 de 9\n\n\n               João Batista\n            prepara o caminho\n                         Mc 1,3\n\n\n\n\n  Senhor Jesus, João Batista clamou no deserto:\n   preparai o caminho do Senhor. Ajudai-nos\n   a endireitar o que está torto em nossa vida,\n      para que nada impeça a vossa chegada.\n                Vinde, Senhor Jesus!\n\fNovena de Natal · sex, 18 dez\n\n\n\n\n                       Dia 3 de 9\n\n\n          José, o homem justo\n                        Mt 1,19\n\n\n\n\n   Senhor Jesus, José, o homem justo, acolheu\n  Maria e cuidou de vós em silêncio. Abençoai\n  os pais e dai-nos a coragem de José para fazer\n a vontade de Deus, mesmo sem entender tudo.\n                Vinde, Senhor Jesus!\n\fNovena de Natal · sáb, 19 dez\n\n\n\n\n                       Dia 4 de 9\n\n\n              Zacarias e Isabel\n                         Lc 1,13\n\n\n\n\n     Senhor Jesus, Zacarias e Isabel esperaram\n        por muitos anos, e Deus ouviu a sua\n       súplica. Lembrai-vos das orações que\n         ainda esperam resposta em nossa\n       casa e dai-nos paciência para confiar.\n                 Vinde, Senhor Jesus!\n\fNovena de Natal · dom, 20 dez\n\n\n\n\n                       Dia 5 de 9\n\n\n    Maria, a Virgem que espera\n                        Lc 1,45\n\n\n\n\n  Senhor Jesus, vossa Mãe vos esperou com fé,\n   e Isabel a chamou feliz por ter acreditado.\n Ensinai-nos a esperar como Maria, em silêncio\n   e oração, nestes últimos dias do Advento.\n                Vinde, Senhor Jesus!\n\fNovena de Natal · seg, 21 dez\n\n\n\n\n                       Dia 6 de 9\n\n\n          A viagem até Belém\n                         Lc 2,4\n\n\n\n\n   Senhor Jesus, Maria e José fizeram uma longa\nviagem até Belém, pobres e cansados. Acompanhai\n quem está na estrada nestes dias de festa e quem\n    vive longe de casa, sem um lugar para ficar.\n                Vinde, Senhor Jesus!\n\fNovena de Natal · ter, 22 dez\n\n\n\n\n                        Dia 7 de 9\n\n\n Não havia lugar na hospedaria\n                          Lc 2,7\n\n\n\n\n    Senhor Jesus, não havia lugar para vós na\n hospedaria, e fostes deitado numa manjedoura.\n    Entrai em nossa casa e em nosso coração,\n  e ensinai-nos a abrir a porta para os pobres.\n                Vinde, Senhor Jesus!\n\fNovena de Natal · qua, 23 dez\n\n\n\n\n                       Dia 8 de 9\n\n\n   Os pastores vigiam de noite\n                         Lc 2,8\n\n\n\n\n  Senhor Jesus, os pastores vigiavam o rebanho\n  de noite e foram os primeiros a receber a boa\n  notícia. Dai-nos um coração simples e atento,\n   que não esteja dormindo quando chegardes.\n                Vinde, Senhor Jesus!\n\fNovena de Natal · qui, 24 dez\n\n\n\n\n                        Dia 9 de 9\n\n\n       Hoje nasceu o Salvador\n                         Lc 2,11\n\n\n\n\n     Senhor Jesus, nesta noite a Igreja inteira\n    canta: hoje nasceu o Salvador. Que a Missa\n    do Natal nos encontre reunidos e em paz,\n    e que nenhuma casa fique sem a vossa luz.\n                Vinde, Senhor Jesus!\n\fNovena de Natal · sex, 25 dez\n\n\n\n\n                      Encerramento\n\n\n            Feliz e santo Natal\n                         Jo 1,14\n\n\n\n\nSenhor Jesus, o Verbo se fez carne e habitou entre\n  nós. Nós vos agradecemos por estes nove dias\n de espera e de oração. Ficai conosco, nesta casa\ne em cada família que hoje celebra o vosso Natal.\n             Glória a Deus nas alturas!\n\f",
         "texto_igual_yaml_sem_espacos": true,
         "errors": []
       }
@@ -13053,10 +13703,10 @@
   ],
   "pngs": {
     "ok": true,
-    "count": 4,
+    "count": 22,
     "files": [
       {
-        "file": "/workspace/kitarte/saida/novena/teste-canva/dia-1.png",
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-1.png",
         "expected": [
           1080,
           1350
@@ -13069,7 +13719,7 @@
         "format": "PNG"
       },
       {
-        "file": "/workspace/kitarte/saida/novena/teste-canva/dia-8.png",
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-2.png",
         "expected": [
           1080,
           1350
@@ -13082,7 +13732,7 @@
         "format": "PNG"
       },
       {
-        "file": "/workspace/kitarte/saida/novena/teste-canva/encerramento.png",
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-3.png",
         "expected": [
           1080,
           1350
@@ -13095,14 +13745,248 @@
         "format": "PNG"
       },
       {
-        "file": "/workspace/kitarte/saida/novena/teste-canva/prancha.png",
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-4.png",
         "expected": [
-          1192,
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-5.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-6.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-7.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-8.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/imaculada/dia-9.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/imaculada/encerramento.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/imaculada/prancha.png",
+        "expected": [
+          3880,
           586
         ],
         "ok": true,
         "actual": [
-          1192,
+          3880,
+          586
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-5.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-6.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-7.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-8.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/dia-9.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/encerramento.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/novena/natal/prancha.png",
+        "expected": [
+          3880,
+          586
+        ],
+        "ok": true,
+        "actual": [
+          3880,
           586
         ],
         "format": "PNG"
@@ -13152,5 +14036,5 @@
   ],
   "obras_pendentes": [],
   "ok": true,
-  "comando": "python gerar.py novena --teste-canva"
+  "comando": "python gerar.py novena"
 }

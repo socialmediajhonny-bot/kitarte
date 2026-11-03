@@ -131,7 +131,8 @@ def _report(target: Path, checks: dict, command: str) -> Path:
         expected_gap = f'{expected["folga_px"]:g} px' if expected else '—'
         label = 'Encerramento' if row['encerramento'] else f'Dia {row["numero"]}'
         lines.append(f'| {row["novena"]} | {row["data"]} | {label} | {actual["titulo_linhas"]} / {expected_title} | {actual["oracao_linhas"]} / {expected_prayer} | {actual["selo_texto_px"]:g} px | {actual["texto_assinatura_px"]:g} px | {expected_gap} |')
-    lines += ['', '## Diferenças da tabela prevista', '']
+    lines += ['', '## Diferenças da tabela prevista', '',
+        'A tabela prevista usa os valores inteiros do prompt 8. As diferenças de 0,5 px abaixo já estavam registradas naquela rodada; as medidas reais da geração final permanecem idênticas.', '']
     differences = [f'{row["novena"]}, {row["slug"]}: '+ '; '.join(row['diferencas_tabela'])
                    for row in checks['tabela_medida'] if row['diferencas_tabela']]
     lines += ['- '+difference for difference in differences] if differences else ['Nenhuma diferença.']
@@ -146,17 +147,28 @@ def _report(target: Path, checks: dict, command: str) -> Path:
             '- [prancha.png](teste-canva/prancha.png)',
             '- [ficha.json](teste-canva/ficha.json)']
     else:
-        lines.append('Os cards selecionados foram entregues por novena, com um PNG por card e um PDF de dez páginas por novena. O filtro --novena preserva as demais pastas já geradas.')
-    lines += ['', '## O que conferir no Canva', '',
-        '- Cada texto na sua caixa: selo, data, Dia N de 9 ou Encerramento, título e fonte.',
+        lines.append('Os cards selecionados foram entregues por novena, com um PNG por card, um PDF de dez páginas e uma prancha com os dez cards no mesmo formato da prancha do teste. O filtro --novena preserva as demais pastas já geradas.')
+    lines += ['', '## Resultado no Canva (03/11/2026)', '',
+        'Resultado do teste de importação dos três cards informado pelo usuário.', '',
+        '- **Caixas:** nos três cards, cada texto veio na sua caixa: selo com a data, Dia N de 9 ou Encerramento, título e fonte. Não sobrou caixa solta.',
+        '- **Oração e refrão:** vieram numa caixa só, com entrelinha de 62 px, o refrão em itálico, na cor certa e quebrado depois da vírgula.',
+        '- **Contas:** vieram como nove formas; as vazadas viram anéis com o mesmo desenho.',
+        '', '**Ajustes feitos no Canva depois de importar, pela API:**', '',
+        '- Centralizar a caixa da oração e a do título. O Canva desenha o texto centralizado cerca de 2% mais largo e prende a caixa pela esquerda, então a oração entra 7 a 8 px à direita, e o título, 3 a 5 px.',
+        '- Usar entrelinha 1,426 na caixa da oração. Com 1,409, as linhas sobem cerca de 1 px a cada linha.',
+        '- Conferir as quebras da caixa da oração. O Canva pode trocar a quebra antes do refrão por um espaço ou pôr uma quebra fixa no meio da oração.',
+        '', '## O que conferir no Canva', '',
+        '- Cada texto na sua caixa: selo com a data, Dia N de 9 ou Encerramento, título e fonte.',
         '- A oração e o refrão numa caixa só, com entrelinha de 62 px, o refrão em itálico e na cor certa, e a quebra depois da vírgula.',
         '- As nove contas como formas.',
         '- Nenhuma caixa solta.',
         '', '## Pendências', '',
-        'A importação deste PDF no Canva ainda precisa ser conferida. Após essa conferência, gerar os vinte cards finais em saida/novena/imaculada/ e saida/novena/natal/, com os PDFs novena-imaculada.pdf e novena-natal.pdf. Nesta rodada, esses vinte cards não foram publicados.' if is_test else 'A importação dos PDFs finais no editor do Canva não foi realizada por este comando.',
+        'O teste de três cards foi aprovado no Canva em 03/11/2026. A geração das novenas completas utiliza python gerar.py novena.' if is_test else 'A importação dos dois PDFs finais no editor do Canva não foi realizada por este comando. Ao importar, conferir a centralização, a entrelinha e as quebras conforme os ajustes registrados acima.',
         '', 'A evidência da geração está em [verificacao.json](verificacao.json).']
     if (target/'CONFERENCIA-PROMPT-8.md').is_file():
         lines += ['', 'A preservação das saídas anteriores em relação à main no commit 2369956 e a conferência independente das novas artes estão documentadas em [CONFERENCIA-PROMPT-8.md](CONFERENCIA-PROMPT-8.md), com [evidência detalhada](conferencia-prompt8.json).']
+    if (target/'CONFERENCIA-PROMPT-9.md').is_file():
+        lines += ['', 'A conferência dos vinte cards finais contra o prompt 8 e a main no commit dc4b7a5 está registrada em [CONFERENCIA-PROMPT-9.md](CONFERENCIA-PROMPT-9.md), com [evidência detalhada](conferencia-prompt9.json).']
     lines += ['', '## Árvore', '', '```text', 'saida/novena/']
     paths = {path.relative_to(target).as_posix() for path in target.rglob('*') if path.is_file()}
     paths.add('RELATORIO.md')
@@ -278,7 +290,8 @@ def generate(output: Path, content_path: Path, novena_filter: str | None = None,
             pdf_check = _pdf_check(destination, selected, selected_measurements)
             checks['pdfs_entregues'].append({'arquivo':_relative(destination), 'validacao':pdf_check})
             _write_json(folder/'ficha.json', _ficha(selected, selected_measurements, modo='final', png_paths=paths))
-            written_pngs += len(paths)
+            expected_output[str(folder/'prancha.png')] = _board(paths, selected, folder/'prancha.png')
+            written_pngs += len(paths)+1
     checks['pngs'] = validate_pngs(expected_output)
     checks['kit_final'] = validate_kit(PROJECT)
     checks['browser'] = {'ok':True, 'errors':[], 'fontes_locais_por_render':6, 'recursos_externos':False}
