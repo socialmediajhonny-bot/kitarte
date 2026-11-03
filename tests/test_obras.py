@@ -192,7 +192,8 @@ class ArtworkTests(unittest.TestCase):
                     self.assertAlmostEqual(band['diferenca_cinza'], difference, delta=.05)
 
     def test_other_repository_paintings_have_no_uniform_bands(self):
-        excluded = {'obras/2026-11-29.jpg', 'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg'}
+        excluded = {'obras/2026-11-29.jpg', 'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg',
+                    'obras/igreja-domestica/2026-12-06.jpg'}
         for artwork in sorted((PROJECT / 'obras').rglob('*.jpg')):
             if artwork.relative_to(PROJECT).as_posix() in excluded:
                 continue
@@ -200,6 +201,16 @@ class ArtworkTests(unittest.TestCase):
                 result = inspect_artwork(artwork, '50% 50%')
                 self.assertFalse(any(result['margens_detectadas'].values()))
                 self.assertEqual(result['faixas_descartadas'], [])
+
+    def test_education_dark_base_is_discarded_without_a_photo_margin_warning(self):
+        result = inspect_artwork(PROJECT / 'obras/igreja-domestica/2026-12-06.jpg',
+                                 '50% 50%', niche_width=600, niche_height=680)
+        self.assertFalse(any(result['margens_detectadas'].values()))
+        self.assertEqual(result['avisos'], [])
+        self.assertEqual(len(result['faixas_descartadas']), 1)
+        band = result['faixas_descartadas'][0]
+        self.assertEqual((band['lado'], band['largura']), ('base', 78))
+        self.assertAlmostEqual(band['diferenca_cinza'], .04195, places=5)
 
     def test_the_five_requested_new_framings_have_no_visible_uniform_margin(self):
         gospel = load_content(PROJECT / 'conteudo/evangelho.yaml')

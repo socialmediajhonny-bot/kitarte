@@ -19,6 +19,8 @@ python gerar.py coragem --data 2026-12-14
 python gerar.py stories
 python gerar.py stories --tempo advento
 python gerar.py novena --teste-canva
+python gerar.py igreja-domestica
+python gerar.py igreja-domestica --data 2026-11-29
 ```
 
 O comando usa automaticamente `.venv` se uma dependência não estiver no Python atual. As saídas ficam em `saida/`, com as evidências em `saida/verificacao/resultados.json` e as decisões em `saida/RELATORIO.md`.
@@ -93,6 +95,16 @@ O modelo `PostNovena` usa feed 1080 × 1350 e o bloco centralizado entre selo e 
 O encerramento ocupa o cartão inteiro em ouro, com textos, cruz, contas cheias e logo em `sobre-cor`. Ele usa o refrão da novena ou o campo `final` quando houver; a fonte é opcional.
 
 Depois da conferência da importação no Canva, `python gerar.py novena` gera as duas novenas completas em `saida/novena/imaculada/` e `saida/novena/natal/`, com dez PNGs e um PDF de dez páginas por novena. `python gerar.py novena --novena imaculada` e `--novena natal` filtram a série; `--teste-canva` aceita a Imaculada e não combina com o filtro de Natal. Esses comandos finais não fazem parte da geração desta rodada.
+
+## Igreja Doméstica
+
+`conteudo/igreja-domestica.yaml` define carrosséis de domingo para pais e casais rezarem em casa. Os textos foram escritos pela página e aprovados em 03/11/2026. `python gerar.py igreja-domestica` gera as duas datas; `--data AAAA-MM-DD` filtra uma delas e preserva as outras já geradas.
+
+Cada carrossel tem de dois a cinco cards: uma capa com obra, crédito, título e apoio; passos opcionais com itens numerados; oração em família com rubricas, oração e aclamação na ordem do YAML; e conversa opcional, sempre no final, com o cartão inteiro na cor indicada. A capa segue alinhada abaixo do selo; os blocos dos cards de texto ficam centralizados entre o selo e a assinatura. Os espaços de 48 px entre instrução e texto e de 32 px até a fonte são medidos no navegador.
+
+As regras de texto desta série preservam as palavras com hífen, mantêm a referência bíblica inteira (como `Mc 13,33-37`) e ligam ordinais à palavra seguinte (como `3º domingo`). As duas regras novas são locais à série; o `text_html` compartilhado continua intacto. Quebras manuais são preservadas e as palavras de uma letra seguem a regra já usada nas outras séries.
+
+As obras são lidas dos caminhos locais do YAML, sem downloads. Cada data recebe PNGs, um PDF com os cards na ordem, `ficha.json` e `recorte.png` em `saida/igreja-domestica/<data>/`. A prancha geral mostra cada data numa linha, a 1/3 do tamanho. O relatório traz medidas, notas dos enquadramentos e a lista do que conferir no Canva; obras ausentes usam a provisória e ficam marcadas como pendentes.
 
 ## Instalação em outra máquina
 

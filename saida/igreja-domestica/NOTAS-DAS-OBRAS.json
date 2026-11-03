@@ -1,0 +1,10 @@
+{
+  "2026-11-29": {
+    "inspecionada": true,
+    "nota": "Obra real local, conferida na capa e no recorte: o rosto de São José, o rosto do Menino Jesus e a chama da vela ficam inteiros dentro do arco com foco 50% 40% e zoom 1. O recorte retira parte do fundo superior e da base da tela, preservando o trabalho de carpintaria e a luz entre as figuras. Não há margem fotográfica visível; o enquadramento do YAML foi mantido. Nenhum ajuste de foco ou zoom é necessário para preservar os rostos e a vela."
+  },
+  "2026-12-06": {
+    "inspecionada": true,
+    "nota": "Obra real local, conferida na capa e no recorte: os dois rostos e a chama da vela ficam inteiros dentro do arco com foco 50% 50% e zoom 1. O recorte corta partes laterais da tela e parte do alto do lenço, preservando os rostos, a vela e a cena da leitura. A faixa escura de 78 px na base pertence à pintura e foi descartada pelo detector por diferença de cinza de aproximadamente 0,04 nível em relação ao interior. Não há margem fotográfica visível; o enquadramento do YAML foi mantido. Nenhum ajuste de foco ou zoom é necessário para preservar os rostos e a vela."
+  }
+}

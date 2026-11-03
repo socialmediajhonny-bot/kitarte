@@ -1,0 +1,71 @@
+# Igreja Doméstica · aos domingos, para rezar em casa
+# Cada item de "cards" é um card do carrossel, na ordem: a capa primeiro e, se houver, a conversa por último.
+# Em |- cada linha é uma quebra manual; em >- as quebras do YAML não contam.
+# O crédito da obra vai na capa; a página da obra fica só na ficha e no relatório.
+
+- data: 2026-11-29
+  cor: roxo
+  cards:
+    - tipo: capa
+      titulo: A coroa do Advento em casa
+      apoio: Como montar e rezar a primeira vela em família
+      obra:
+        arquivo: obras/igreja-domestica/2026-11-29.jpg
+        credito: Georges de La Tour · São José carpinteiro · Museu do Louvre
+        pagina: https://pop.culture.gouv.fr/notice/joconde/000PE001637
+        foco: 50% 40%
+    - tipo: passos
+      rotulo: Como montar
+      titulo: Ramos verdes e quatro velas
+      itens:
+        - "Faça um círculo de ramos verdes: pinheiro, cipreste ou o que houver por perto."
+        - "Ponha quatro velas: três roxas e uma rosa, para o 3º domingo. Brancas também servem."
+        - A cada domingo, acenda uma vela a mais. A luz vai vencendo a noite, até o Natal.
+        - Deixe a coroa na mesa da família. Nos outros dias, acenda as velas no jantar.
+      fonte: Diretório sobre a Piedade Popular e a Liturgia, n. 98
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: O Senhor vem
+      falas:
+        - rubrica: |-
+            Leiam o Evangelho do dia, Mc 13,33-37.
+            Depois, quem conduz reza:
+        - oracao: >-
+            Senhor nosso Deus, abençoai a nossa família, reunida em volta desta
+            coroa. Que a luz da primeira vela nos mantenha acordados, à espera
+            de Jesus, que vem. Por Cristo, nosso Senhor. Amém.
+        - rubrica: "Acendam a primeira vela e digam juntos:"
+        - aclamacao: Vinde, Senhor Jesus!
+    - tipo: conversa
+      rotulo: Para conversar em família
+      pergunta: O que cada um pode fazer nesta semana para preparar a casa para Jesus?
+      convite: Envie para quem vai acender a coroa com você.
+
+- data: 2026-12-06
+  cor: roxo
+  cards:
+    - tipo: capa
+      titulo: A segunda vela da coroa
+      apoio: Oração em família diante da coroa
+      obra:
+        arquivo: obras/igreja-domestica/2026-12-06.jpg
+        credito: Ateliê de Georges de La Tour · A educação da Virgem · The Frick Collection
+        pagina: https://collections.frick.org/objects/214/the-education-of-the-virgin
+        foco: 50% 50%
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: Preparai o caminho
+      falas:
+        - rubrica: |-
+            Leiam o Evangelho do dia, Mc 1,1-8.
+            Depois, quem conduz reza:
+        - oracao: >-
+            Senhor Jesus, João Batista nos chama a preparar o vosso caminho.
+            Ajudai a nossa família a abrir esse caminho aqui em casa, com mais
+            paciência, perdão e oração. Amém.
+        - rubrica: "Acendam as duas velas e digam juntos:"
+        - aclamacao: Vinde, Senhor Jesus!
+    - tipo: conversa
+      rotulo: Para conversar em família
+      pergunta: Com quem precisamos fazer as pazes antes do Natal?
+      convite: Envie para quem vai acender a coroa com você.
