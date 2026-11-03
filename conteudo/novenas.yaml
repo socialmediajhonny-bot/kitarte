@@ -1,0 +1,161 @@
+# Novenas · um card por dia ("Dia N de 9") e o encerramento no dia da festa.
+# Textos escritos pela página e aprovados em 03/11/2026. Em >- as quebras de linha
+# do YAML não contam; no refrão (|-) contam.
+
+- id: imaculada
+  nome: Novena da Imaculada
+  cor: roxo
+  refrao: |-
+    Ó Maria concebida sem pecado,
+    rogai por nós que recorremos a vós.
+  dias:
+    - data: 2026-11-29
+      titulo: Cheia de graça
+      fonte: Lc 1,28
+      oracao: >-
+        Maria, o anjo vos chamou de cheia de graça, e em vós não houve lugar
+        para o pecado. Neste começo do Advento, ajudai-nos a abrir espaço para
+        Deus em nossa vida.
+    - data: 2026-11-30
+      titulo: A nova Eva
+      fonte: Gn 3,15
+      oracao: >-
+        Maria, nova Eva, onde a primeira mulher disse não, vós dissestes sim.
+        Pelo vosso Filho, a cabeça da serpente foi esmagada. Defendei-nos nas
+        tentações e ensinai-nos a escolher a vida.
+    - data: 2026-12-01
+      titulo: Arca da Aliança
+      fonte: Ladainha
+      oracao: >-
+        Maria, Arca da Aliança, vós trouxestes em vosso seio o próprio Deus
+        feito homem. Ajudai-nos a ser também morada do Senhor, para levarmos
+        Jesus a quem ainda não o conhece.
+    - data: 2026-12-02
+      titulo: Toda bela és, Maria
+      fonte: Ct 4,7
+      oracao: >-
+        Maria, toda bela, em vós não há mancha alguma. Olhai as manchas que
+        carregamos e levai-nos ao perdão do vosso Filho na confissão, para que
+        o Natal nos encontre renovados.
+    - data: 2026-12-03
+      titulo: A serva do Senhor
+      fonte: Lc 1,38
+      oracao: >-
+        Maria, vós dissestes: eis aqui a serva do Senhor. Ensinai-nos a dizer
+        sim a Deus nas pequenas coisas de cada dia, mesmo quando não
+        entendemos tudo o que ele nos pede.
+    - data: 2026-12-04
+      titulo: A mulher vestida de sol
+      fonte: Ap 12,1
+      oracao: >-
+        Maria, mulher vestida de sol, com a lua debaixo dos pés e uma coroa de
+        doze estrelas, nas horas escuras da nossa vida lembrai-nos de que a
+        luz de Deus vence toda noite.
+    - data: 2026-12-05
+      titulo: Estrela da manhã
+      fonte: Ladainha
+      oracao: >-
+        Maria, Estrela da manhã, vós anunciais a chegada do Sol, que é Cristo.
+        Quando a noite parecer longa, guiai os nossos passos até ele e não nos
+        deixeis perder a esperança.
+    - data: 2026-12-06
+      titulo: “Eu sou a Imaculada Conceição”
+      fonte: Lourdes, 1858
+      oracao: >-
+        Maria, na gruta de Lourdes dissestes a Bernadete o vosso nome.
+        Ensinai-nos a confiar como ela, simples e pobre, e acolhei os doentes
+        que hoje vos confiamos.
+    - data: 2026-12-07
+      titulo: Mãe da Igreja
+      fonte: Lumen Gentium 53
+      oracao: >-
+        Maria, Mãe da Igreja, ao pé da cruz Jesus vos deu a nós como mãe.
+        Cuidai da Igreja espalhada pelo mundo, do Papa, dos nossos padres e de
+        cada família que reza esta novena.
+  encerramento:
+    data: 2026-12-08
+    cor: ouro
+    titulo: Oração à Imaculada
+    oracao: >-
+      Virgem Imaculada, durante nove dias rezamos convosco, e hoje celebramos
+      a vossa festa. Guardai em vosso coração tudo o que vos pedimos e
+      levai-nos de coração limpo ao Natal do vosso Filho.
+
+- id: natal
+  nome: Novena de Natal
+  cor: roxo
+  refrao: Vinde, Senhor Jesus!
+  dias:
+    - data: 2026-12-16
+      titulo: Os profetas anunciaram
+      fonte: Is 7,14
+      oracao: >-
+        Senhor Jesus, os profetas anunciaram que uma virgem daria à luz o
+        Emanuel, o Deus conosco. Como eles, queremos esperar a vossa vinda com
+        fé e preparar o coração para o vosso Natal.
+    - data: 2026-12-17
+      titulo: João Batista prepara o caminho
+      fonte: Mc 1,3
+      oracao: >-
+        Senhor Jesus, João Batista clamou no deserto: preparai o caminho do
+        Senhor. Ajudai-nos a endireitar o que está torto em nossa vida, para
+        que nada impeça a vossa chegada.
+    - data: 2026-12-18
+      titulo: José, o homem justo
+      fonte: Mt 1,19
+      oracao: >-
+        Senhor Jesus, José, o homem justo, acolheu Maria e cuidou de vós em
+        silêncio. Abençoai os pais e dai-nos a coragem de José para fazer a
+        vontade de Deus, mesmo sem entender tudo.
+    - data: 2026-12-19
+      titulo: Zacarias e Isabel
+      fonte: Lc 1,13
+      oracao: >-
+        Senhor Jesus, Zacarias e Isabel esperaram por muitos anos, e Deus
+        ouviu a sua súplica. Lembrai-vos das orações que ainda esperam
+        resposta em nossa casa e dai-nos paciência para confiar.
+    - data: 2026-12-20
+      titulo: Maria, a Virgem que espera
+      fonte: Lc 1,45
+      oracao: >-
+        Senhor Jesus, vossa Mãe vos esperou com fé, e Isabel a chamou feliz
+        por ter acreditado. Ensinai-nos a esperar como Maria, em silêncio e
+        oração, nestes últimos dias do Advento.
+    - data: 2026-12-21
+      titulo: A viagem até Belém
+      fonte: Lc 2,4
+      oracao: >-
+        Senhor Jesus, Maria e José fizeram uma longa viagem até Belém, pobres
+        e cansados. Acompanhai quem está na estrada nestes dias de festa e
+        quem vive longe de casa, sem um lugar para ficar.
+    - data: 2026-12-22
+      titulo: Não havia lugar na hospedaria
+      fonte: Lc 2,7
+      oracao: >-
+        Senhor Jesus, não havia lugar para vós na hospedaria, e fostes deitado
+        numa manjedoura. Entrai em nossa casa e em nosso coração, e
+        ensinai-nos a abrir a porta para os pobres.
+    - data: 2026-12-23
+      titulo: Os pastores vigiam de noite
+      fonte: Lc 2,8
+      oracao: >-
+        Senhor Jesus, os pastores vigiavam o rebanho de noite e foram os
+        primeiros a receber a boa notícia. Dai-nos um coração simples e
+        atento, que não esteja dormindo quando chegardes.
+    - data: 2026-12-24
+      titulo: Hoje nasceu o Salvador
+      fonte: Lc 2,11
+      oracao: >-
+        Senhor Jesus, nesta noite a Igreja inteira canta: hoje nasceu o
+        Salvador. Que a Missa do Natal nos encontre reunidos e em paz, e que
+        nenhuma casa fique sem a vossa luz.
+  encerramento:
+    data: 2026-12-25
+    cor: ouro
+    titulo: Feliz e santo Natal
+    fonte: Jo 1,14
+    oracao: >-
+      Senhor Jesus, o Verbo se fez carne e habitou entre nós. Nós vos
+      agradecemos por estes nove dias de espera e de oração. Ficai conosco,
+      nesta casa e em cada família que hoje celebra o vosso Natal.
+    final: Glória a Deus nas alturas!

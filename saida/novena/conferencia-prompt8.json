@@ -1,0 +1,3363 @@
+{
+  "baseline_commit": "2369956b11958ae8f4936b19373feb79f195e7c1",
+  "testes_passaram": 28,
+  "escopo_testes": "Novos testes do schema e do layout das Novenas; outras séries não foram renderizadas.",
+  "arquivos_antigos": [
+    {
+      "arquivo": ".gitignore",
+      "bytes_identicos": true,
+      "sha256_anterior": "249f8e5db491f07d3aa4494c82c603fd53da8b5b70f53f5f81b28b4743e9951d",
+      "sha256_atual": "249f8e5db491f07d3aa4494c82c603fd53da8b5b70f53f5f81b28b4743e9951d"
+    },
+    {
+      "arquivo": "arteque_reza/__init__.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "71371a436173ca98810b1f1ae77e759b7e7a43a3db600490fa759819f71ca85f",
+      "sha256_atual": "71371a436173ca98810b1f1ae77e759b7e7a43a3db600490fa759819f71ca85f"
+    },
+    {
+      "arquivo": "arteque_reza/base.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "198c172cce57cd8b7547ef7f28ab02d9ea6c43bed75f195cd77dd928ce50d776",
+      "sha256_atual": "198c172cce57cd8b7547ef7f28ab02d9ea6c43bed75f195cd77dd928ce50d776"
+    },
+    {
+      "arquivo": "arteque_reza/canva.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "26dfcca82e237205ab76d0775dab99f5d100dd8328a3dc3423349e129d01ac44",
+      "sha256_atual": "26dfcca82e237205ab76d0775dab99f5d100dd8328a3dc3423349e129d01ac44"
+    },
+    {
+      "arquivo": "arteque_reza/conteudo.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "5170efca45d936503146a7e9b0f960b8fe76c82c13f32fd40c6f0903dc73f3f1",
+      "sha256_atual": "5170efca45d936503146a7e9b0f960b8fe76c82c13f32fd40c6f0903dc73f3f1"
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_coragem.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "378e3aeba0099accf5d7f9dcb4b947ce26c8b9d8a4991a0daebcc96b4ac1c95d",
+      "sha256_atual": "378e3aeba0099accf5d7f9dcb4b947ce26c8b9d8a4991a0daebcc96b4ac1c95d"
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_oracao.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "77f700cb65793065aa8a9af8f7369f3237e5a6b102c27408ec95d5402c9e7e98",
+      "sha256_atual": "77f700cb65793065aa8a9af8f7369f3237e5a6b102c27408ec95d5402c9e7e98"
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_santo.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "de60742fa867e3f7f3b3f03b656542595fa186c69b8b65bfb1d31727a4b161ac",
+      "sha256_atual": "de60742fa867e3f7f3b3f03b656542595fa186c69b8b65bfb1d31727a4b161ac"
+    },
+    {
+      "arquivo": "arteque_reza/conteudo_stories.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "d4858178f99f63993ba58dc361d1a0d62720e6bbc72bb012a9a805ab4cabacd1",
+      "sha256_atual": "d4858178f99f63993ba58dc361d1a0d62720e6bbc72bb012a9a805ab4cabacd1"
+    },
+    {
+      "arquivo": "arteque_reza/coragem.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "5b299fafe83ce55a9d611cf35aad3336b66ba07396ea15264f05c8c0bf2ce690",
+      "sha256_atual": "5b299fafe83ce55a9d611cf35aad3336b66ba07396ea15264f05c8c0bf2ce690"
+    },
+    {
+      "arquivo": "arteque_reza/evangelho.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "e6a6fd8bd4bc9771b9bfc3d33222fd0634023584b3fd8196176e584cec7ed317",
+      "sha256_atual": "e6a6fd8bd4bc9771b9bfc3d33222fd0634023584b3fd8196176e584cec7ed317"
+    },
+    {
+      "arquivo": "arteque_reza/ficha.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "73e228d51487700383e2cd6ac053e7daf244b9e96454abbcfb48c4c9b082df49",
+      "sha256_atual": "73e228d51487700383e2cd6ac053e7daf244b9e96454abbcfb48c4c9b082df49"
+    },
+    {
+      "arquivo": "arteque_reza/obras.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "60e8e434c68c8b0c349e748dcf4a4d4b517823bc4e3566a94b57ac4526fcf19e",
+      "sha256_atual": "60e8e434c68c8b0c349e748dcf4a4d4b517823bc4e3566a94b57ac4526fcf19e"
+    },
+    {
+      "arquivo": "arteque_reza/para_rezar.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "334b88a888c89f241580730dbf7cda85ba224984b0ffc660a10b665b6757b1dc",
+      "sha256_atual": "334b88a888c89f241580730dbf7cda85ba224984b0ffc660a10b665b6757b1dc"
+    },
+    {
+      "arquivo": "arteque_reza/relatorio.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "6cfbf53736f1ec1065e4af8caead044af4b7e5ca0b057c901004553c190596a8",
+      "sha256_atual": "6cfbf53736f1ec1065e4af8caead044af4b7e5ca0b057c901004553c190596a8"
+    },
+    {
+      "arquivo": "arteque_reza/renderizacao.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "49fb4c18570edcd457d53b0d127b622ab907d921803efc62cb176534c704c4d3",
+      "sha256_atual": "49fb4c18570edcd457d53b0d127b622ab907d921803efc62cb176534c704c4d3"
+    },
+    {
+      "arquivo": "arteque_reza/santo.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "95a3c5e606dea885eff9ccd42a84bdb61194fc790df0f0547b85d4bdc54e1eee",
+      "sha256_atual": "95a3c5e606dea885eff9ccd42a84bdb61194fc790df0f0547b85d4bdc54e1eee"
+    },
+    {
+      "arquivo": "arteque_reza/stories.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "58a48f615087c0e78c0a34a11b0906480b5e6f6a60134facc21ef5cd0b10d794",
+      "sha256_atual": "58a48f615087c0e78c0a34a11b0906480b5e6f6a60134facc21ef5cd0b10d794"
+    },
+    {
+      "arquivo": "arteque_reza/validacao.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "cbb5be86090730d76e2d98c0e6469f8316670d427b0a43d354ab524d6a832ead",
+      "sha256_atual": "cbb5be86090730d76e2d98c0e6469f8316670d427b0a43d354ab524d6a832ead"
+    },
+    {
+      "arquivo": "conteudo/coragem.yaml",
+      "bytes_identicos": true,
+      "sha256_anterior": "c69381279d8e891ff314ea22c0ec96640795160d7124c4ca7d0a1fa0d2387320",
+      "sha256_atual": "c69381279d8e891ff314ea22c0ec96640795160d7124c4ca7d0a1fa0d2387320"
+    },
+    {
+      "arquivo": "conteudo/evangelho.yaml",
+      "bytes_identicos": true,
+      "sha256_anterior": "9ff96d5035861ab40d5acbf4651453c65cf9e3d36c3050d845b7357cc66b4b1d",
+      "sha256_atual": "9ff96d5035861ab40d5acbf4651453c65cf9e3d36c3050d845b7357cc66b4b1d"
+    },
+    {
+      "arquivo": "conteudo/para-rezar.yaml",
+      "bytes_identicos": true,
+      "sha256_anterior": "6fb5aa55e846d68a2a0004bc7615d8d37e1127eff3b89a49a0a5022edf860819",
+      "sha256_atual": "6fb5aa55e846d68a2a0004bc7615d8d37e1127eff3b89a49a0a5022edf860819"
+    },
+    {
+      "arquivo": "conteudo/santo-do-dia.yaml",
+      "bytes_identicos": true,
+      "sha256_anterior": "4a0a3c3c0bcb1dc024bdc66d4ea9418ef0f977c8e792b454d34552bfe19186b0",
+      "sha256_atual": "4a0a3c3c0bcb1dc024bdc66d4ea9418ef0f977c8e792b454d34552bfe19186b0"
+    },
+    {
+      "arquivo": "conteudo/stories.yaml",
+      "bytes_identicos": true,
+      "sha256_anterior": "67d8dc9c37aea4206c0acf4d260d0c50612c03acd726b216d1a03c9a27947ee1",
+      "sha256_atual": "67d8dc9c37aea4206c0acf4d260d0c50612c03acd726b216d1a03c9a27947ee1"
+    },
+    {
+      "arquivo": "kit-arte-que-reza.zip",
+      "bytes_identicos": true,
+      "sha256_anterior": "6d300ac5dec2f043d819063cc39ee89bdb1b1875020c978d644774a8c8d51481",
+      "sha256_atual": "6d300ac5dec2f043d819063cc39ee89bdb1b1875020c978d644774a8c8d51481"
+    },
+    {
+      "arquivo": "obras/2026-11-29.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "d1a6e48c2962ed2d30e16b630120cc26b194293407faab1bf08370f055bfa8f6",
+      "sha256_atual": "d1a6e48c2962ed2d30e16b630120cc26b194293407faab1bf08370f055bfa8f6"
+    },
+    {
+      "arquivo": "obras/2026-12-13.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "44a37c2c0565014bbf2704fc905cf95a3657004b7f86e3752ad693b29b8b0f10",
+      "sha256_atual": "44a37c2c0565014bbf2704fc905cf95a3657004b7f86e3752ad693b29b8b0f10"
+    },
+    {
+      "arquivo": "obras/coragem/2026-12-14.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "5dc7f25ab661fa1fd77bea887c93b9e360105a576060203c3868c3670ca883c1",
+      "sha256_atual": "5dc7f25ab661fa1fd77bea887c93b9e360105a576060203c3868c3670ca883c1"
+    },
+    {
+      "arquivo": "obras/coragem/2026-12-28.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "a7feb05c206db10243d15c8a83b598c52e132e23ad1b6f4c82c7acac2f1bc091",
+      "sha256_atual": "a7feb05c206db10243d15c8a83b598c52e132e23ad1b6f4c82c7acac2f1bc091"
+    },
+    {
+      "arquivo": "obras/santo-do-dia/2026-11-30.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "b46b7253c6d5cd8efb073c38c2f86fa6497dc73385c073e77f84d57f82d72d4e",
+      "sha256_atual": "b46b7253c6d5cd8efb073c38c2f86fa6497dc73385c073e77f84d57f82d72d4e"
+    },
+    {
+      "arquivo": "obras/santo-do-dia/2026-12-03.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "3b395f13bb60e89c9a1175ca17be16ee08601d1b4d705c67b6596973f3c7a08e",
+      "sha256_atual": "3b395f13bb60e89c9a1175ca17be16ee08601d1b4d705c67b6596973f3c7a08e"
+    },
+    {
+      "arquivo": "obras/santo-do-dia/2026-12-08.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "7aa0c2ef873d17d092b34bffd0b827a9c7cf3864bb58c80555171c302c58ea13",
+      "sha256_atual": "7aa0c2ef873d17d092b34bffd0b827a9c7cf3864bb58c80555171c302c58ea13"
+    },
+    {
+      "arquivo": "obras/stories/angelus.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "b8f8cf80afde5ebd16b613e34ceadd82f41efe703c60bca6a788c35ebe81c04d",
+      "sha256_atual": "b8f8cf80afde5ebd16b613e34ceadd82f41efe703c60bca6a788c35ebe81c04d"
+    },
+    {
+      "arquivo": "obras/stories/misericordia.jpg",
+      "bytes_identicos": true,
+      "sha256_anterior": "6d8c996d5314d9395823515461356c60ef58796e4076ab81c5714d0fe68343e4",
+      "sha256_atual": "6d8c996d5314d9395823515461356c60ef58796e4076ab81c5714d0fe68343e4"
+    },
+    {
+      "arquivo": "requirements.txt",
+      "bytes_identicos": true,
+      "sha256_anterior": "556fb4c2394324be55a9a3e4ab79785736babc4be84ba2d741d05a81bd278b22",
+      "sha256_atual": "556fb4c2394324be55a9a3e4ab79785736babc4be84ba2d741d05a81bd278b22"
+    },
+    {
+      "arquivo": "saida/CONFERENCIA-KIT-V4.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "ba332cada0f1d6492f1607339177ed82c4416dfa664a98dab25abfbc938d2c87",
+      "sha256_atual": "ba332cada0f1d6492f1607339177ed82c4416dfa664a98dab25abfbc938d2c87"
+    },
+    {
+      "arquivo": "saida/CONFERENCIA-PROMPT-5.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "2950a8adc87d0d87eab7baf8aa95de93641abf197a79cd1bf7a0f6ba1962db9c",
+      "sha256_atual": "2950a8adc87d0d87eab7baf8aa95de93641abf197a79cd1bf7a0f6ba1962db9c"
+    },
+    {
+      "arquivo": "saida/CONFERENCIA-PROMPT-6.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "847864e5917ce4765bd1c5466c1d7f3c88ff83dcc602dac0291988a074bf996f",
+      "sha256_atual": "847864e5917ce4765bd1c5466c1d7f3c88ff83dcc602dac0291988a074bf996f"
+    },
+    {
+      "arquivo": "saida/RELATORIO.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "ec2614d2a40841ae7c6d6f323458180337af63bbe8f000644ba6892b9bb6d8ea",
+      "sha256_atual": "ec2614d2a40841ae7c6d6f323458180337af63bbe8f000644ba6892b9bb6d8ea"
+    },
+    {
+      "arquivo": "saida/canva/FICHA.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "2840fa9175699fbdc2f83d986173db4380630c70d57dc6ac252caf9090dbefda",
+      "sha256_atual": "2840fa9175699fbdc2f83d986173db4380630c70d57dc6ac252caf9090dbefda"
+    },
+    {
+      "arquivo": "saida/canva/elementos/cruz-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "2e1103cf8b478598b8d7803699020d16c77601a50a3d4c7149de68073adf7264",
+      "sha256_atual": "2e1103cf8b478598b8d7803699020d16c77601a50a3d4c7149de68073adf7264"
+    },
+    {
+      "arquivo": "saida/canva/elementos/cruz-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "81b3e0b7af19f8e5ad1869cabbd92fc99d4b204e48920f35fbac9d89a37d728e",
+      "sha256_atual": "81b3e0b7af19f8e5ad1869cabbd92fc99d4b204e48920f35fbac9d89a37d728e"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-Medium.ttf",
+      "bytes_identicos": true,
+      "sha256_anterior": "956e139d28ebff34f8fdc10765ceb655171a151c83a6f3e9397ae7d320f8849a",
+      "sha256_atual": "956e139d28ebff34f8fdc10765ceb655171a151c83a6f3e9397ae7d320f8849a"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-MediumItalic.ttf",
+      "bytes_identicos": true,
+      "sha256_anterior": "ba0bb190adfaaba7524e28426f1f343bac16859bccbc89d22aacdfd944807ced",
+      "sha256_atual": "ba0bb190adfaaba7524e28426f1f343bac16859bccbc89d22aacdfd944807ced"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-SemiBold.ttf",
+      "bytes_identicos": true,
+      "sha256_anterior": "23ff9a95ec59896e2dcb63d57b3129ae1fe56f8c5168ccb19d326c8eabfa8019",
+      "sha256_atual": "23ff9a95ec59896e2dcb63d57b3129ae1fe56f8c5168ccb19d326c8eabfa8019"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/CormorantGaramond-SemiBoldItalic.ttf",
+      "bytes_identicos": true,
+      "sha256_anterior": "764987b86e23ed5959b94463ea80c1ad35bbc0223e282b1a56dd158d4d55672f",
+      "sha256_atual": "764987b86e23ed5959b94463ea80c1ad35bbc0223e282b1a56dd158d4d55672f"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/Lato-Bold.ttf",
+      "bytes_identicos": true,
+      "sha256_anterior": "e377d26a5666272f33e572c0fc256e5b2a66b9754acc22f6dcd0f00aad0699e2",
+      "sha256_atual": "e377d26a5666272f33e572c0fc256e5b2a66b9754acc22f6dcd0f00aad0699e2"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/Lato-Regular.ttf",
+      "bytes_identicos": true,
+      "sha256_anterior": "7ba36fa91fc9c34e7f050c1f8ddb94297d393ae76670ffd9d38ef0c10f0c1ede",
+      "sha256_atual": "7ba36fa91fc9c34e7f050c1f8ddb94297d393ae76670ffd9d38ef0c10f0c1ede"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/licencas/OFL-CormorantGaramond.txt",
+      "bytes_identicos": true,
+      "sha256_anterior": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "sha256_atual": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "arquivo": "saida/canva/elementos/fontes/licencas/OFL-Lato.txt",
+      "bytes_identicos": true,
+      "sha256_anterior": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e",
+      "sha256_atual": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/avatar-perfil.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "3881d62175a78443de1c66ed9294f0cc6bd5861c3e6722fad40ed1bb5e8860f8",
+      "sha256_atual": "3881d62175a78443de1c66ed9294f0cc6bd5861c3e6722fad40ed1bb5e8860f8"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/avatar-perfil.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "a4e747e4ea52c28305baa69f5e91e1cc70f0645434dcbc3b2985013ab6f2003d",
+      "sha256_atual": "a4e747e4ea52c28305baa69f5e91e1cc70f0645434dcbc3b2985013ab6f2003d"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-horizontal-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "3220dd0b1871936de561d480e67aa22a38859fd7a410df4470a029504a82bc21",
+      "sha256_atual": "3220dd0b1871936de561d480e67aa22a38859fd7a410df4470a029504a82bc21"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-horizontal-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "221d3483e01cc0745c0cb7da9c129f5ee92c49a80ad38b007bfb16eb431d4ca0",
+      "sha256_atual": "221d3483e01cc0745c0cb7da9c129f5ee92c49a80ad38b007bfb16eb431d4ca0"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-horizontal-sobre-cor.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "f7e0fefb008e43abdc76069e88419be516d75872f8f884238167eea1725352f5",
+      "sha256_atual": "f7e0fefb008e43abdc76069e88419be516d75872f8f884238167eea1725352f5"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-vertical-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "acf1c6e364de5d5399d57dbfccf151f5f6f97ebd87e8e79ee30cb753bc7e49fb",
+      "sha256_atual": "acf1c6e364de5d5399d57dbfccf151f5f6f97ebd87e8e79ee30cb753bc7e49fb"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/logo-vertical-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "236b0a893607d7054ee416f8548132009aadb382f8e000eb6537e6a72cd3fc53",
+      "sha256_atual": "236b0a893607d7054ee416f8548132009aadb382f8e000eb6537e6a72cd3fc53"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "ff24cadaf4448e7628ea02d0dcc0fafc59c57a871cc73cd9947f5ecceac989f2",
+      "sha256_atual": "ff24cadaf4448e7628ea02d0dcc0fafc59c57a871cc73cd9947f5ecceac989f2"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "b2ec0cf74c9b6deab034e30b52abca6e86c03354178bf0189531cf64d905cc08",
+      "sha256_atual": "b2ec0cf74c9b6deab034e30b52abca6e86c03354178bf0189531cf64d905cc08"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-reduzido-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "919ab2531060f781f44ae867b887058273a72927853073167fbe9c06d6f88075",
+      "sha256_atual": "919ab2531060f781f44ae867b887058273a72927853073167fbe9c06d6f88075"
+    },
+    {
+      "arquivo": "saida/canva/elementos/logos/simbolo-reduzido-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "3d5c3d34b2d64b93f379d832d05dc25ca0f875804fb2723450dd0be1342ff6c8",
+      "sha256_atual": "3d5c3d34b2d64b93f379d832d05dc25ca0f875804fb2723450dd0be1342ff6c8"
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-340x420-santinho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "9b08239bfc17c06cf2625957470ea89208c236c27828a8bed1042f1cb8d9e972",
+      "sha256_atual": "9b08239bfc17c06cf2625957470ea89208c236c27828a8bed1042f1cb8d9e972"
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-600x680-coragem.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "f23dd47e0b7b0067a0e3fbb739f9c8eb6d673c144176b585640eed2d16e156ba",
+      "sha256_atual": "f23dd47e0b7b0067a0e3fbb739f9c8eb6d673c144176b585640eed2d16e156ba"
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-600x700-angelus.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "1398ad39997bba8ffafa7ce46c5ab03b4c265ec87ce75b2d4bfe2d5eaf16291b",
+      "sha256_atual": "1398ad39997bba8ffafa7ce46c5ab03b4c265ec87ce75b2d4bfe2d5eaf16291b"
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-640x760-toda-bela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "c1e37f18f5a22cbef1eb06ed8a2786a28db1d338dade2e0cc99ff50453f19a68",
+      "sha256_atual": "c1e37f18f5a22cbef1eb06ed8a2786a28db1d338dade2e0cc99ff50453f19a68"
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-680x760-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "809a4758184aece9d837cab67449ccbd48afdd14205108c37a79aede493a5bd6",
+      "sha256_atual": "809a4758184aece9d837cab67449ccbd48afdd14205108c37a79aede493a5bd6"
+    },
+    {
+      "arquivo": "saida/canva/elementos/nicho-720x900-status-coragem.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "d65bba6592e611ee4776198f2922fcd929bffd5d78ae1e05ec9447f22abf6611",
+      "sha256_atual": "d65bba6592e611ee4776198f2922fcd929bffd5d78ae1e05ec9447f22abf6611"
+    },
+    {
+      "arquivo": "saida/canva/elementos/variantes/nicho-680x760-capela-verde.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "a9606575803a94910169c757b32fd4c187c309fffe1fc836b4e7dd37b3ab1d16",
+      "sha256_atual": "a9606575803a94910169c757b32fd4c187c309fffe1fc836b4e7dd37b3ab1d16"
+    },
+    {
+      "arquivo": "saida/canva/medicoes.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "9b240e32238540a889198598df6b05704f8b96815a170d34fdca31a9398ea769",
+      "sha256_atual": "9b240e32238540a889198598df6b05704f8b96815a170d34fdca31a9398ea769"
+    },
+    {
+      "arquivo": "saida/canva/pagina-1.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "550886033565336b6b588a4b5ac83ab454c139628bc761573661a9b867c56fad",
+      "sha256_atual": "550886033565336b6b588a4b5ac83ab454c139628bc761573661a9b867c56fad"
+    },
+    {
+      "arquivo": "saida/canva/pagina-2.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "361e3604309230d6714932c8fd553d4654908bd946a9a48f5507d9044e1e2ae2",
+      "sha256_atual": "361e3604309230d6714932c8fd553d4654908bd946a9a48f5507d9044e1e2ae2"
+    },
+    {
+      "arquivo": "saida/canva/pagina-3.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c67a97fc867572141aef2d6963d5ff2fefdf4b5c773c37f9a0646ce4cd7745c2",
+      "sha256_atual": "c67a97fc867572141aef2d6963d5ff2fefdf4b5c773c37f9a0646ce4cd7745c2"
+    },
+    {
+      "arquivo": "saida/canva/teste-importacao.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "869049082a4c485d48ae795e1156b02fa41900c4edb5306ab3a577492ef14ac1",
+      "sha256_atual": "869049082a4c485d48ae795e1156b02fa41900c4edb5306ab3a577492ef14ac1"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/coragem-2026-12-14-feed.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "ea5bfc1dc77d7bc0431c08d2088bcaeb5ffb63e09813a38c1cea518003fddedd",
+      "sha256_atual": "ea5bfc1dc77d7bc0431c08d2088bcaeb5ffb63e09813a38c1cea518003fddedd"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/coragem-2026-12-14-status.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "ef19ccbacb05c676b70f6a41d70c700cc38360ca6151ef91eb52a039e5d04268",
+      "sha256_atual": "ef19ccbacb05c676b70f6a41d70c700cc38360ca6151ef91eb52a039e5d04268"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/feed.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "9f91068561e5ddd0375d63a857c8a4a3926a3af6875b47047e7a49762e787fe5",
+      "sha256_atual": "9f91068561e5ddd0375d63a857c8a4a3926a3af6875b47047e7a49762e787fe5"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "337b80e1230c9c227b8a57afcde18ff9bd67b9ba2f17848927cb173b52b07205",
+      "sha256_atual": "337b80e1230c9c227b8a57afcde18ff9bd67b9ba2f17848927cb173b52b07205"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/recorte-feed.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "99d5b8533ba3a005c05e4cb8d21d18e4d42cebbb03710e9519f8d6c4ba4657d4",
+      "sha256_atual": "99d5b8533ba3a005c05e4cb8d21d18e4d42cebbb03710e9519f8d6c4ba4657d4"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/recorte-status.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "d119ebc1a0d0af87495afc6a726195605a5efdb29228bcc57a7797d14de4ee0d",
+      "sha256_atual": "d119ebc1a0d0af87495afc6a726195605a5efdb29228bcc57a7797d14de4ee0d"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-14/status.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "b92a398fb3ef4e4286d622e6906ce52c7c56a00a22249b07abba02aee3971f69",
+      "sha256_atual": "b92a398fb3ef4e4286d622e6906ce52c7c56a00a22249b07abba02aee3971f69"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/coragem-2026-12-28-feed.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "ff5b4d49d68046b61ea511b5487aea5457d5e35a7e92d71110dc5a728149cea5",
+      "sha256_atual": "ff5b4d49d68046b61ea511b5487aea5457d5e35a7e92d71110dc5a728149cea5"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/coragem-2026-12-28-status.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "79f41de2a588c2247f854ef5b1647be98364116c65515328bae9b2748c750e80",
+      "sha256_atual": "79f41de2a588c2247f854ef5b1647be98364116c65515328bae9b2748c750e80"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/feed.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c539ff1a14ed7ee29b364d48bb33c4245254a65fa64f2c1c0b7ca1b615f22fd1",
+      "sha256_atual": "c539ff1a14ed7ee29b364d48bb33c4245254a65fa64f2c1c0b7ca1b615f22fd1"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "1458b6e0cd7823df00abf0efb17fd68e051fe76a06c1a3ab033366bc564885b3",
+      "sha256_atual": "1458b6e0cd7823df00abf0efb17fd68e051fe76a06c1a3ab033366bc564885b3"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/recorte-feed.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "b5401394c2edfffb5655bb77441226636ed5498425fdac0ccc1a6d9be26d5e46",
+      "sha256_atual": "b5401394c2edfffb5655bb77441226636ed5498425fdac0ccc1a6d9be26d5e46"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/recorte-status.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "8e73e587c4de11d51059134fffc1d4580e5f81d4bd9c7212edf30b36c3dd528c",
+      "sha256_atual": "8e73e587c4de11d51059134fffc1d4580e5f81d4bd9c7212edf30b36c3dd528c"
+    },
+    {
+      "arquivo": "saida/coragem/2026-12-28/status.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c49a73b2bbd0555c52bfd0be891350210783246a4bdde526dd97dae3f20e57a7",
+      "sha256_atual": "c49a73b2bbd0555c52bfd0be891350210783246a4bdde526dd97dae3f20e57a7"
+    },
+    {
+      "arquivo": "saida/coragem/NOTAS-DE-ENQUADRAMENTO.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "31e7db8b242d9fde1a308fb1986f46b214a19d0e4392a2d02453af5d1737ba9f",
+      "sha256_atual": "31e7db8b242d9fde1a308fb1986f46b214a19d0e4392a2d02453af5d1737ba9f"
+    },
+    {
+      "arquivo": "saida/coragem/RELATORIO.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "db8eb0ba9c6e650bba5dcf32546a56ba8c411eb10e8d91440f016826c9da08da",
+      "sha256_atual": "db8eb0ba9c6e650bba5dcf32546a56ba8c411eb10e8d91440f016826c9da08da"
+    },
+    {
+      "arquivo": "saida/coragem/prancha.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "2ed01ae45dfd37cdf63c5973865971a874245b0386e3f8aa9efd9c319eb4616d",
+      "sha256_atual": "2ed01ae45dfd37cdf63c5973865971a874245b0386e3f8aa9efd9c319eb4616d"
+    },
+    {
+      "arquivo": "saida/coragem/verificacao.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "99781ae45bf9b35a123fda9bc7f20173e4f4d939b05e1f1759cea1355900f00b",
+      "sha256_atual": "99781ae45bf9b35a123fda9bc7f20173e4f4d939b05e1f1759cea1355900f00b"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-1.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "5d32e45b4b12999265696be5180a79dd538dae7b26d751de344ece838f5ca403",
+      "sha256_atual": "5d32e45b4b12999265696be5180a79dd538dae7b26d751de344ece838f5ca403"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-2.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "eabda9cbd9b728aeec0036d395e046a471793ee90833a7acf3f9f6e9a8c0881f",
+      "sha256_atual": "eabda9cbd9b728aeec0036d395e046a471793ee90833a7acf3f9f6e9a8c0881f"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-3.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "8262d76301125e45ecd02277dc5de49ff89c7e90180b96cb2cd12a1b5288fc0a",
+      "sha256_atual": "8262d76301125e45ecd02277dc5de49ff89c7e90180b96cb2cd12a1b5288fc0a"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/card-4.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "cd687d475d67dd2e2f4d14eb4796b3b7b769f97c8513cdbbf703a2bcc87b2f37",
+      "sha256_atual": "cd687d475d67dd2e2f4d14eb4796b3b7b769f97c8513cdbbf703a2bcc87b2f37"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/evangelho-2026-11-29.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "61627fc30f0ea9b3d9600d726df2db4bf111da0293c976ac20dd70a2329fe3f2",
+      "sha256_atual": "61627fc30f0ea9b3d9600d726df2db4bf111da0293c976ac20dd70a2329fe3f2"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "2e805226b3c9a629d28948437919e1ccd44db22a2bb908509348f83c912b9228",
+      "sha256_atual": "2e805226b3c9a629d28948437919e1ccd44db22a2bb908509348f83c912b9228"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-11-29/recorte.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "123abf09ce65ec3d9e962b574a0da4a1e102d867474971cee376f7778c8a6617",
+      "sha256_atual": "123abf09ce65ec3d9e962b574a0da4a1e102d867474971cee376f7778c8a6617"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-1.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "cb4dbb56f25ce43d31ea0c8393133dc8ad954afa4f674ed9844b84d21ac7ce5c",
+      "sha256_atual": "cb4dbb56f25ce43d31ea0c8393133dc8ad954afa4f674ed9844b84d21ac7ce5c"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-2.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "717307b2e922dce003c0efbb41520f1108c2920cce353c9d025e706b44663236",
+      "sha256_atual": "717307b2e922dce003c0efbb41520f1108c2920cce353c9d025e706b44663236"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-3.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "1a8b6900d3d63e617eabf60613fd436a011bac2d460e98d6b8e2e16000669358",
+      "sha256_atual": "1a8b6900d3d63e617eabf60613fd436a011bac2d460e98d6b8e2e16000669358"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/card-4.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "125bb6bcd6ee613f471ebc8183c40d77789269d6f28801486c26b1218851959f",
+      "sha256_atual": "125bb6bcd6ee613f471ebc8183c40d77789269d6f28801486c26b1218851959f"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/evangelho-2026-12-13.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "57d39c17712c3f88cb05210fa69695bf2793a1468fefcd62f75d920d7571cc0c",
+      "sha256_atual": "57d39c17712c3f88cb05210fa69695bf2793a1468fefcd62f75d920d7571cc0c"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "aeeb2e2377fc335b2ca65f8c5925b5887bc5763202e905ab06eb4899fef35612",
+      "sha256_atual": "aeeb2e2377fc335b2ca65f8c5925b5887bc5763202e905ab06eb4899fef35612"
+    },
+    {
+      "arquivo": "saida/evangelho/2026-12-13/recorte.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "1d96e41c536df0468e2ed194b3d8535932be165c971645c1d38af23d5fab13b0",
+      "sha256_atual": "1d96e41c536df0468e2ed194b3d8535932be165c971645c1d38af23d5fab13b0"
+    },
+    {
+      "arquivo": "saida/evangelho/CONFERENCIA-KIT-V3.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "299688dfe743a3649acbd4ea4cfa045e2d4562d57b03bf2c6a04b466ba797623",
+      "sha256_atual": "299688dfe743a3649acbd4ea4cfa045e2d4562d57b03bf2c6a04b466ba797623"
+    },
+    {
+      "arquivo": "saida/evangelho/RELATORIO.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "bf6d0aa9d4fa8292d49ea1a2e01f9e37452b8858b893c26315a76c23e0d46a17",
+      "sha256_atual": "bf6d0aa9d4fa8292d49ea1a2e01f9e37452b8858b893c26315a76c23e0d46a17"
+    },
+    {
+      "arquivo": "saida/evangelho/conferencia-kit-v3.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "bb543b4a7330e5538805ca5d048ee912d4073b3aef7c255173cf665e8e9fcf57",
+      "sha256_atual": "bb543b4a7330e5538805ca5d048ee912d4073b3aef7c255173cf665e8e9fcf57"
+    },
+    {
+      "arquivo": "saida/evangelho/prancha-cores.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "49a0a0b643ba901f6a2570fc54b02802b004156a016f622729f5831a31472319",
+      "sha256_atual": "49a0a0b643ba901f6a2570fc54b02802b004156a016f622729f5831a31472319"
+    },
+    {
+      "arquivo": "saida/evangelho/prancha.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "ab1ec4ff69a2d66f1ff9892b410a7769f72274dec8ebd5cf87257c234204f65b",
+      "sha256_atual": "ab1ec4ff69a2d66f1ff9892b410a7769f72274dec8ebd5cf87257c234204f65b"
+    },
+    {
+      "arquivo": "saida/evangelho/verificacao.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "f89deded6d8738e9463b01a2de850e3f6506d96ff0431e81c943bc3495be1404",
+      "sha256_atual": "f89deded6d8738e9463b01a2de850e3f6506d96ff0431e81c943bc3495be1404"
+    },
+    {
+      "arquivo": "saida/html/assinaturas.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "fa16db1e1b52182c88fcbfccae0dd993babcc98e8c1c45f1fa658d49ce6f0666",
+      "sha256_atual": "fa16db1e1b52182c88fcbfccae0dd993babcc98e8c1c45f1fa658d49ce6f0666"
+    },
+    {
+      "arquivo": "saida/html/nichos.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "780ff0ad2311bb05db165cff6356b137202245235699c301b1861a534c2512e8",
+      "sha256_atual": "780ff0ad2311bb05db165cff6356b137202245235699c301b1861a534c2512e8"
+    },
+    {
+      "arquivo": "saida/html/obra-provisoria.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "47f713e94764d2c085aa6eaca6de305c4e9055ab8d370112740fabf872624548",
+      "sha256_atual": "47f713e94764d2c085aa6eaca6de305c4e9055ab8d370112740fabf872624548"
+    },
+    {
+      "arquivo": "saida/html/pagina-1.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "2ef2a1024f15b34b929e22b9db20f21f4401b5806851baa9046aa85b277c369d",
+      "sha256_atual": "2ef2a1024f15b34b929e22b9db20f21f4401b5806851baa9046aa85b277c369d"
+    },
+    {
+      "arquivo": "saida/html/pagina-2.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "2c47f2f2bf46d79e412d49c68c13f9f4dd3c1af3bc7df527e682913f3a44a4da",
+      "sha256_atual": "2c47f2f2bf46d79e412d49c68c13f9f4dd3c1af3bc7df527e682913f3a44a4da"
+    },
+    {
+      "arquivo": "saida/html/pagina-3.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "be7ff9ac2dd2552cc0cb0507e7ae30202673d1573111874c2597f577bb47db44",
+      "sha256_atual": "be7ff9ac2dd2552cc0cb0507e7ae30202673d1573111874c2597f577bb47db44"
+    },
+    {
+      "arquivo": "saida/html/selos.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "a34b8d5e3227437965349a5c3367b7f6e0a98e274a8814d92f057c911dacfbc5",
+      "sha256_atual": "a34b8d5e3227437965349a5c3367b7f6e0a98e274a8814d92f057c911dacfbc5"
+    },
+    {
+      "arquivo": "saida/obra-provisoria.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "7bd63875c2e83e0979a1084030cfd35f516d69fa861e88bddf808637e34fbb56",
+      "sha256_atual": "7bd63875c2e83e0979a1084030cfd35f516d69fa861e88bddf808637e34fbb56"
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-10-20/card-1.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "51e0c5df71262e4e453d54046780cd47923659a0bd5f7438bde7020ec1e39488",
+      "sha256_atual": "51e0c5df71262e4e453d54046780cd47923659a0bd5f7438bde7020ec1e39488"
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-10-20/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "e7761fe2e0cc4f6fc2d49b9fb43603a33e1baee68a98f3fffb08129240dcecc1",
+      "sha256_atual": "e7761fe2e0cc4f6fc2d49b9fb43603a33e1baee68a98f3fffb08129240dcecc1"
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-10-20/para-rezar-2026-10-20.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "434139d34f9687aa6e133d3fce9cef2732d21cebda344486aa9e68b9f55c73be",
+      "sha256_atual": "434139d34f9687aa6e133d3fce9cef2732d21cebda344486aa9e68b9f55c73be"
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/card-1.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "027c54ca17f04cbcc890116837ecdc5038cad17641940abd5e3977c0de35ab5d",
+      "sha256_atual": "027c54ca17f04cbcc890116837ecdc5038cad17641940abd5e3977c0de35ab5d"
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/card-2.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "cd30ec27c66eaf7b82b5ae16a5bb205b17c601f9eb0fc050fd8060eeb0113e49",
+      "sha256_atual": "cd30ec27c66eaf7b82b5ae16a5bb205b17c601f9eb0fc050fd8060eeb0113e49"
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "4ddb4338baaf094807c37d6a87e0de9bc8a4ee0b4b3a755630f112a3bd46f3d8",
+      "sha256_atual": "4ddb4338baaf094807c37d6a87e0de9bc8a4ee0b4b3a755630f112a3bd46f3d8"
+    },
+    {
+      "arquivo": "saida/para-rezar/2026-12-15/para-rezar-2026-12-15.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "8d71e0ab26c00d51574591c8b717a49b33cfa4efff44ded9f3268ba07f74c4df",
+      "sha256_atual": "8d71e0ab26c00d51574591c8b717a49b33cfa4efff44ded9f3268ba07f74c4df"
+    },
+    {
+      "arquivo": "saida/para-rezar/RELATORIO.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "00c9c1a6a9eace41bb1ef1ae3f0d210ff411177c6091b2168998eb35489af3e5",
+      "sha256_atual": "00c9c1a6a9eace41bb1ef1ae3f0d210ff411177c6091b2168998eb35489af3e5"
+    },
+    {
+      "arquivo": "saida/para-rezar/prancha.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "e002d44e2350da07799ecb7ee3a443a1115039123610ed655e86f4c4b4f43589",
+      "sha256_atual": "e002d44e2350da07799ecb7ee3a443a1115039123610ed655e86f4c4b4f43589"
+    },
+    {
+      "arquivo": "saida/para-rezar/verificacao.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "f6787d97a746482807350db462942866f81c684a14f5ac0c55c2ca69139d4c68",
+      "sha256_atual": "f6787d97a746482807350db462942866f81c684a14f5ac0c55c2ca69139d4c68"
+    },
+    {
+      "arquivo": "saida/previas/assinaturas.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "4e55b95a3149f6455683b044486ac5c49edc5b3ca6da6786ae3f8d71febff175",
+      "sha256_atual": "4e55b95a3149f6455683b044486ac5c49edc5b3ca6da6786ae3f8d71febff175"
+    },
+    {
+      "arquivo": "saida/previas/nichos.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "9b43da184e38130e08d708b76040da7e3f073c76a250cbf831c69b5582289224",
+      "sha256_atual": "9b43da184e38130e08d708b76040da7e3f073c76a250cbf831c69b5582289224"
+    },
+    {
+      "arquivo": "saida/previas/selos.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "1694b180c54461b0ed598c83deb8552b298eb81b48c82c8aaac5cd8ef655e1a8",
+      "sha256_atual": "1694b180c54461b0ed598c83deb8552b298eb81b48c82c8aaac5cd8ef655e1a8"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/card.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "590a42abfbbd64b45573324fac99826ed95b3320ab79ca53ef6a6f7ba8fee451",
+      "sha256_atual": "590a42abfbbd64b45573324fac99826ed95b3320ab79ca53ef6a6f7ba8fee451"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "5b3f51452716117957c3d1b525ddb213b27e254cb2586d7545f9f1522a14a8de",
+      "sha256_atual": "5b3f51452716117957c3d1b525ddb213b27e254cb2586d7545f9f1522a14a8de"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/recorte.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "37ca2a3a58e7d21c97d9cc6f0fb92b24d072c1ac5cbb85b8b53554b5a0cef085",
+      "sha256_atual": "37ca2a3a58e7d21c97d9cc6f0fb92b24d072c1ac5cbb85b8b53554b5a0cef085"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-11-30/santo-2026-11-30.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "a7c8e0946b8a1d7bdf2d7d5e3ac67ce525cc50dccbd28457e379b0a61ef8d217",
+      "sha256_atual": "a7c8e0946b8a1d7bdf2d7d5e3ac67ce525cc50dccbd28457e379b0a61ef8d217"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/card.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "8c3226f386a24be34cd6712b6cd563b9589492f6f35426306acdfcc357e4d6ca",
+      "sha256_atual": "8c3226f386a24be34cd6712b6cd563b9589492f6f35426306acdfcc357e4d6ca"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "e98ca2ec2df3e6bdbbabdd354c688e450b3af167db6253ba143e573dc5af1880",
+      "sha256_atual": "e98ca2ec2df3e6bdbbabdd354c688e450b3af167db6253ba143e573dc5af1880"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/recorte.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "cfe4292a156f1d3fbc62a3751bcbbb88625d16ba8a213d6076cce2b3de25703a",
+      "sha256_atual": "cfe4292a156f1d3fbc62a3751bcbbb88625d16ba8a213d6076cce2b3de25703a"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-03/santo-2026-12-03.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "9ea0539c1d3ef185476d0fc9d9cad38fe38a8185fadceb946ec7e0f496d52c9d",
+      "sha256_atual": "9ea0539c1d3ef185476d0fc9d9cad38fe38a8185fadceb946ec7e0f496d52c9d"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/card.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "7c6d028f0401e51f7c44a8a753f68951f7097c867f62e4071f9265a4120bd759",
+      "sha256_atual": "7c6d028f0401e51f7c44a8a753f68951f7097c867f62e4071f9265a4120bd759"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "20e2d7e447eac4dac9d82f4e8e578a6fd814fb4cf62300e362664887060b09c5",
+      "sha256_atual": "20e2d7e447eac4dac9d82f4e8e578a6fd814fb4cf62300e362664887060b09c5"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/recorte.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "d8a72bd0834a701a9215238c117e981a7f2e6d140e597a7ca9ad1969fdd82b50",
+      "sha256_atual": "d8a72bd0834a701a9215238c117e981a7f2e6d140e597a7ca9ad1969fdd82b50"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/2026-12-08/santo-2026-12-08.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "6133f953ce5edd98cef0211ba300df5ce528bde235b4213b320f92faf6babb3a",
+      "sha256_atual": "6133f953ce5edd98cef0211ba300df5ce528bde235b4213b320f92faf6babb3a"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/RELATORIO.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "7e0dfbde8fb93fefaefc885585fe5c1fde9604f4ed33e3bcd01fe4cba5711780",
+      "sha256_atual": "7e0dfbde8fb93fefaefc885585fe5c1fde9604f4ed33e3bcd01fe4cba5711780"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/prancha.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "9cb95fb4e9361549055e8ffe530f334bba0271e2f53e8a04e029e098436d9ba0",
+      "sha256_atual": "9cb95fb4e9361549055e8ffe530f334bba0271e2f53e8a04e029e098436d9ba0"
+    },
+    {
+      "arquivo": "saida/santo-do-dia/verificacao.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "2ff5a2f03e8274a98d7970666b3a182cf7861a244c2f4d740549dd2c01e11773",
+      "sha256_atual": "2ff5a2f03e8274a98d7970666b3a182cf7861a244c2f4d740549dd2c01e11773"
+    },
+    {
+      "arquivo": "saida/stories/CONFERENCIA-PROMPT-7.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "32d9449f76d3c70c705a209028de9581757ea22c8a692cbc6ecd945460589ca2",
+      "sha256_atual": "32d9449f76d3c70c705a209028de9581757ea22c8a692cbc6ecd945460589ca2"
+    },
+    {
+      "arquivo": "saida/stories/RELATORIO.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "207b68c286e54bb3d360b259753cfa839a67c1ee6017ec49823e3c232c23fd1b",
+      "sha256_atual": "207b68c286e54bb3d360b259753cfa839a67c1ee6017ec49823e3c232c23fd1b"
+    },
+    {
+      "arquivo": "saida/stories/advento/angelus.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c85078720c69c87ddaf70a37a1e4fbede9f1e75315056ad349dfba14bd0efea7",
+      "sha256_atual": "c85078720c69c87ddaf70a37a1e4fbede9f1e75315056ad349dfba14bd0efea7"
+    },
+    {
+      "arquivo": "saida/stories/advento/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "90f879b909cedc67420b35597e680b05cc677227f6d6313fb902b6d09f61959b",
+      "sha256_atual": "90f879b909cedc67420b35597e680b05cc677227f6d6313fb902b6d09f61959b"
+    },
+    {
+      "arquivo": "saida/stories/advento/misericordia.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "9ce8580ff6c30cec541c999b22aa34dcff77fdc2906e6786ab01b0150f1d5e8d",
+      "sha256_atual": "9ce8580ff6c30cec541c999b22aa34dcff77fdc2906e6786ab01b0150f1d5e8d"
+    },
+    {
+      "arquivo": "saida/stories/advento/stories-advento.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "591cbf6d4ae9e49209c047ce441ae3b77a6696e46e735ef603ac5ba1b514f699",
+      "sha256_atual": "591cbf6d4ae9e49209c047ce441ae3b77a6696e46e735ef603ac5ba1b514f699"
+    },
+    {
+      "arquivo": "saida/stories/conferencia-prompt7.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "707d30e18f6f5779f9ab50c9207ed5a88a899db05d96a2c26573a9dd5fa4e799",
+      "sha256_atual": "707d30e18f6f5779f9ab50c9207ed5a88a899db05d96a2c26573a9dd5fa4e799"
+    },
+    {
+      "arquivo": "saida/stories/natal/angelus.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "2104e66107bf6aca17a6abbb160d4ae2f4c4fa35c3062c04e08c5fa8cdb130ed",
+      "sha256_atual": "2104e66107bf6aca17a6abbb160d4ae2f4c4fa35c3062c04e08c5fa8cdb130ed"
+    },
+    {
+      "arquivo": "saida/stories/natal/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "bef283b82ff2a5f386d02dc9cea944ffe450f72f173d11d997e50aae8b60a6ea",
+      "sha256_atual": "bef283b82ff2a5f386d02dc9cea944ffe450f72f173d11d997e50aae8b60a6ea"
+    },
+    {
+      "arquivo": "saida/stories/natal/misericordia.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c62ddc9d72a748624878942dfd0bbb2c7d9df0594988400e240e7b75eaf62319",
+      "sha256_atual": "c62ddc9d72a748624878942dfd0bbb2c7d9df0594988400e240e7b75eaf62319"
+    },
+    {
+      "arquivo": "saida/stories/natal/stories-natal.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "3fdb8733ef686ca57234572b5b9f93c4defee031efa98fd7312765a59eaf118f",
+      "sha256_atual": "3fdb8733ef686ca57234572b5b9f93c4defee031efa98fd7312765a59eaf118f"
+    },
+    {
+      "arquivo": "saida/stories/prancha.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c55e02a199ed6c8268fa5867456a648d068d1297318f98ac161377f0b68fac2f",
+      "sha256_atual": "c55e02a199ed6c8268fa5867456a648d068d1297318f98ac161377f0b68fac2f"
+    },
+    {
+      "arquivo": "saida/stories/quaresma/angelus.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c85078720c69c87ddaf70a37a1e4fbede9f1e75315056ad349dfba14bd0efea7",
+      "sha256_atual": "c85078720c69c87ddaf70a37a1e4fbede9f1e75315056ad349dfba14bd0efea7"
+    },
+    {
+      "arquivo": "saida/stories/quaresma/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "8b17f325f2d19b739fcc1874b57b086b48ac04eece0df0a98cae99521dac696e",
+      "sha256_atual": "8b17f325f2d19b739fcc1874b57b086b48ac04eece0df0a98cae99521dac696e"
+    },
+    {
+      "arquivo": "saida/stories/quaresma/misericordia.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "9ce8580ff6c30cec541c999b22aa34dcff77fdc2906e6786ab01b0150f1d5e8d",
+      "sha256_atual": "9ce8580ff6c30cec541c999b22aa34dcff77fdc2906e6786ab01b0150f1d5e8d"
+    },
+    {
+      "arquivo": "saida/stories/quaresma/stories-quaresma.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "591cbf6d4ae9e49209c047ce441ae3b77a6696e46e735ef603ac5ba1b514f699",
+      "sha256_atual": "591cbf6d4ae9e49209c047ce441ae3b77a6696e46e735ef603ac5ba1b514f699"
+    },
+    {
+      "arquivo": "saida/stories/recorte-angelus.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c4b218bb37ed07f1d45db459f5ae6fce49131ceea99b4f3a9ff28de3c3600ccf",
+      "sha256_atual": "c4b218bb37ed07f1d45db459f5ae6fce49131ceea99b4f3a9ff28de3c3600ccf"
+    },
+    {
+      "arquivo": "saida/stories/recorte-misericordia.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "f432bc7afd58c1a64b89b995ddf2d701a3f3d7a08f645c3c97f70cf2436e9972",
+      "sha256_atual": "f432bc7afd58c1a64b89b995ddf2d701a3f3d7a08f645c3c97f70cf2436e9972"
+    },
+    {
+      "arquivo": "saida/stories/tempo-comum/angelus.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "ee3ad6b58f148f539064ca6b59b5a83dab6c0e14c7a009f838ae619d096ba851",
+      "sha256_atual": "ee3ad6b58f148f539064ca6b59b5a83dab6c0e14c7a009f838ae619d096ba851"
+    },
+    {
+      "arquivo": "saida/stories/tempo-comum/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "841de5ec45affc2226ce57fcd3cd206730dd2b5ab18ddb0220fe2d79a6f9f39d",
+      "sha256_atual": "841de5ec45affc2226ce57fcd3cd206730dd2b5ab18ddb0220fe2d79a6f9f39d"
+    },
+    {
+      "arquivo": "saida/stories/tempo-comum/misericordia.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "c1c3f74c1ee7be60c58af4857c670e281779fdaa21e6137d65edfa62a3e6f2df",
+      "sha256_atual": "c1c3f74c1ee7be60c58af4857c670e281779fdaa21e6137d65edfa62a3e6f2df"
+    },
+    {
+      "arquivo": "saida/stories/tempo-comum/stories-tempo-comum.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "5f5312e252dac80f42ed9fbe07e58e4bfbc3612455639de25a44b0b9926c07cf",
+      "sha256_atual": "5f5312e252dac80f42ed9fbe07e58e4bfbc3612455639de25a44b0b9926c07cf"
+    },
+    {
+      "arquivo": "saida/stories/verificacao.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "78fe32315dbafc3679206fa74113002dafc475ffe17165f2085456b8c779788b",
+      "sha256_atual": "78fe32315dbafc3679206fa74113002dafc475ffe17165f2085456b8c779788b"
+    },
+    {
+      "arquivo": "saida/teste-canva/LEIA-ME.md",
+      "bytes_identicos": true,
+      "sha256_anterior": "97e5bbdf7b902726cd78eecc85ac103a9607f010c443069fa916ea5d1989fdb9",
+      "sha256_atual": "97e5bbdf7b902726cd78eecc85ac103a9607f010c443069fa916ea5d1989fdb9"
+    },
+    {
+      "arquivo": "saida/teste-canva/ficha.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "2d15f53fdbd76e36dab451da926f8fa8f25f542b211cd878f49ba1c78cd9ef32",
+      "sha256_atual": "2d15f53fdbd76e36dab451da926f8fa8f25f542b211cd878f49ba1c78cd9ef32"
+    },
+    {
+      "arquivo": "saida/teste-canva/prancha.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "84f940270aed46826c2dcbe4904b72949cd69cbdc9c2a4110754f9a8c417b677",
+      "sha256_atual": "84f940270aed46826c2dcbe4904b72949cd69cbdc9c2a4110754f9a8c417b677"
+    },
+    {
+      "arquivo": "saida/teste-canva/teste-canva-a.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "a5a8630b30fd477ef0f407e914f0ca7185414310930dc62ea8fe01847cfdb175",
+      "sha256_atual": "a5a8630b30fd477ef0f407e914f0ca7185414310930dc62ea8fe01847cfdb175"
+    },
+    {
+      "arquivo": "saida/teste-canva/teste-canva-b.pdf",
+      "bytes_identicos": true,
+      "sha256_anterior": "14f89a19fd6d3ddc8a094f05950a6e93d682f4eedd1ba1fa55482d7e31d747b5",
+      "sha256_atual": "14f89a19fd6d3ddc8a094f05950a6e93d682f4eedd1ba1fa55482d7e31d747b5"
+    },
+    {
+      "arquivo": "saida/teste-canva/verificacao.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "b011f00c7f8340ed6a9f4ee601b1f67f55bea79480ec0a05918e31a1b91c6de5",
+      "sha256_atual": "b011f00c7f8340ed6a9f4ee601b1f67f55bea79480ec0a05918e31a1b91c6de5"
+    },
+    {
+      "arquivo": "saida/tokens.css",
+      "bytes_identicos": true,
+      "sha256_anterior": "a70590128fc59642a4291988029f4238e0c03c3d34101d5c036bf503dd7d4337",
+      "sha256_atual": "a70590128fc59642a4291988029f4238e0c03c3d34101d5c036bf503dd7d4337"
+    },
+    {
+      "arquivo": "saida/verificacao/conferencia-kit-v4.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "925c81faff57cffa4e64330383b1fae55e6c1181cdd0064de73fc9941a30da87",
+      "sha256_atual": "925c81faff57cffa4e64330383b1fae55e6c1181cdd0064de73fc9941a30da87"
+    },
+    {
+      "arquivo": "saida/verificacao/conferencia-prompt5.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "f727f0e46e2b7290ba10ffac2cfaf9ffd00b81fa05a47186291c3443945dc3b4",
+      "sha256_atual": "f727f0e46e2b7290ba10ffac2cfaf9ffd00b81fa05a47186291c3443945dc3b4"
+    },
+    {
+      "arquivo": "saida/verificacao/conferencia-prompt6.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "d34d01f63acf10e3929de164e1d0430d9ff114b19386c65f0bb787d2fe0385a1",
+      "sha256_atual": "d34d01f63acf10e3929de164e1d0430d9ff114b19386c65f0bb787d2fe0385a1"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/avatar-perfil-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "5c218e03c52f15f31b133f7e26bdcad6e82e09f9deb65fec845edaebc387eeed",
+      "sha256_atual": "5c218e03c52f15f31b133f7e26bdcad6e82e09f9deb65fec845edaebc387eeed"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/avatar-perfil-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "1bb1ba5632549d67a558524335abb3b4e7cc0cad2b348c592d70f1609ae62cce",
+      "sha256_atual": "1bb1ba5632549d67a558524335abb3b4e7cc0cad2b348c592d70f1609ae62cce"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/avatar-perfil.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "0e588b7e223faaa065b7d80023a34486f3d344c0c64d2aee90eee8fdd9aeebc8",
+      "sha256_atual": "0e588b7e223faaa065b7d80023a34486f3d344c0c64d2aee90eee8fdd9aeebc8"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/comparacao.html",
+      "bytes_identicos": true,
+      "sha256_anterior": "de10eda64251d0e8b17e1587e3a080d43e99dea9da6fbd02b5f565ee1a3cca7c",
+      "sha256_atual": "de10eda64251d0e8b17e1587e3a080d43e99dea9da6fbd02b5f565ee1a3cca7c"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-capela-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "21fcbd3ba5086872d99c78d3435ff87ad6a4e6040e15256c62d081f24ffada89",
+      "sha256_atual": "21fcbd3ba5086872d99c78d3435ff87ad6a4e6040e15256c62d081f24ffada89"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-capela-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "4ca9aa3b9e83361e9d2d7871f0f9cd7047d30708d59ce1b27075f7a66a88aeac",
+      "sha256_atual": "4ca9aa3b9e83361e9d2d7871f0f9cd7047d30708d59ce1b27075f7a66a88aeac"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "b0168a90b291a7447ded9ed14b2891815951c07433eb0943e9e1fc819501f72f",
+      "sha256_atual": "b0168a90b291a7447ded9ed14b2891815951c07433eb0943e9e1fc819501f72f"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-pergaminho-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "8027b0bd5b7615483624d27ed9d15eb5be0af038c1b8594929818465dd0d429c",
+      "sha256_atual": "8027b0bd5b7615483624d27ed9d15eb5be0af038c1b8594929818465dd0d429c"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-pergaminho-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "81e99c5c323f9e2c22088b901b7cccc42f090da14e9efeb58ddbe03c3180639b",
+      "sha256_atual": "81e99c5c323f9e2c22088b901b7cccc42f090da14e9efeb58ddbe03c3180639b"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "531b977e40fd98662119f1b4fddd1e65ae19788523fd5c4e6b4fe1a2db5b06ce",
+      "sha256_atual": "531b977e40fd98662119f1b4fddd1e65ae19788523fd5c4e6b4fe1a2db5b06ce"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-sobre-cor-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "9d4827b5090dc2b1ab1d0105fd30c34d073ba84e1707913dc97e7a11003a8dba",
+      "sha256_atual": "9d4827b5090dc2b1ab1d0105fd30c34d073ba84e1707913dc97e7a11003a8dba"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-sobre-cor-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "ebaa37d9f03809862565b780d2986adfe734b58c2c10bf7440565365897f54f5",
+      "sha256_atual": "ebaa37d9f03809862565b780d2986adfe734b58c2c10bf7440565365897f54f5"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-horizontal-sobre-cor.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "8ff3a31bc6fc7e8b1d5127f277dfd320425dd62470c573194de5030bb57b887f",
+      "sha256_atual": "8ff3a31bc6fc7e8b1d5127f277dfd320425dd62470c573194de5030bb57b887f"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-capela-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "54ef83d8fa9e82dfb305d9693c0c3d467543eb7ff5d619e944a5424cca7a8b76",
+      "sha256_atual": "54ef83d8fa9e82dfb305d9693c0c3d467543eb7ff5d619e944a5424cca7a8b76"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-capela-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "491df15a04d0f6333bbddeade053fe45b9bcd7c10a3ffe28a21c082e270be34b",
+      "sha256_atual": "491df15a04d0f6333bbddeade053fe45b9bcd7c10a3ffe28a21c082e270be34b"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "e90552a6cfb99da60acdd47816464630697f2e444b4e154df2ede4b3dc15d8c7",
+      "sha256_atual": "e90552a6cfb99da60acdd47816464630697f2e444b4e154df2ede4b3dc15d8c7"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-pergaminho-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "55e14fb2f078f20a9699bfbfbd9593382b79bc30cb39e19a403be51d6885e22c",
+      "sha256_atual": "55e14fb2f078f20a9699bfbfbd9593382b79bc30cb39e19a403be51d6885e22c"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-pergaminho-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "91fd7f513ea48ee9a6d4b1cdd271649dd455c1032a62401ef5f7971a8748065b",
+      "sha256_atual": "91fd7f513ea48ee9a6d4b1cdd271649dd455c1032a62401ef5f7971a8748065b"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/logo-vertical-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "6458761e4a4727276de9e3e7167d68d23030bdeb797a9d64849209d8186d7c0d",
+      "sha256_atual": "6458761e4a4727276de9e3e7167d68d23030bdeb797a9d64849209d8186d7c0d"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-capela-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "f5f0b5e93a1fd4db0926f9c5e967558bd2deb64d78f675c58bbcf5cc8db9737f",
+      "sha256_atual": "f5f0b5e93a1fd4db0926f9c5e967558bd2deb64d78f675c58bbcf5cc8db9737f"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-capela-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "187832b325e50fe64761688fd010184f57cb6d3819b3af8ae8b1a33ca388eb7b",
+      "sha256_atual": "187832b325e50fe64761688fd010184f57cb6d3819b3af8ae8b1a33ca388eb7b"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "bc415466f8f733a6ef85afd56237199258eabd7d64362cf8b4d49894c126deea",
+      "sha256_atual": "bc415466f8f733a6ef85afd56237199258eabd7d64362cf8b4d49894c126deea"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-pergaminho-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "8401959f6fc7ca71d2fd5017b07335a21eed86006d0102c72657381557323619",
+      "sha256_atual": "8401959f6fc7ca71d2fd5017b07335a21eed86006d0102c72657381557323619"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-pergaminho-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "0ded33949d278f88ce4872a53c06b5ba43e8cd955f214800c7a2420f807f3187",
+      "sha256_atual": "0ded33949d278f88ce4872a53c06b5ba43e8cd955f214800c7a2420f807f3187"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "31020b0acc6a85e44520379d432eaca145ba13ffa78ce3a65e99b6fa525dffa4",
+      "sha256_atual": "31020b0acc6a85e44520379d432eaca145ba13ffa78ce3a65e99b6fa525dffa4"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-capela-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "2ae6d89d69c6e571da78bf90cd1590663ea92ab5047888a730710e6b98573237",
+      "sha256_atual": "2ae6d89d69c6e571da78bf90cd1590663ea92ab5047888a730710e6b98573237"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-capela-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "abc178f0079edc6c58524cddb0308cecaec60e2e09c042c260cb4e92fb646b74",
+      "sha256_atual": "abc178f0079edc6c58524cddb0308cecaec60e2e09c042c260cb4e92fb646b74"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-capela.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "d1b0ed771bba5dea07928eac26731156bafea0a84216983fd1cdd985928f6720",
+      "sha256_atual": "d1b0ed771bba5dea07928eac26731156bafea0a84216983fd1cdd985928f6720"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-pergaminho-convertido.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "ebe80cabf80849b51489beff4c4340344f4a456e76bf47e78fb042447809652f",
+      "sha256_atual": "ebe80cabf80849b51489beff4c4340344f4a456e76bf47e78fb042447809652f"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-pergaminho-original.png",
+      "bytes_identicos": true,
+      "sha256_anterior": "b429bea1aa603e9755ed04299a47d15c7ec2c5b37af22aa797b74c677394cc41",
+      "sha256_atual": "b429bea1aa603e9755ed04299a47d15c7ec2c5b37af22aa797b74c677394cc41"
+    },
+    {
+      "arquivo": "saida/verificacao/logos/simbolo-reduzido-pergaminho.svg",
+      "bytes_identicos": true,
+      "sha256_anterior": "926315f276cf98f51e650517dd870f288dcb4b7df4fcf8086608488642a3ef68",
+      "sha256_atual": "926315f276cf98f51e650517dd870f288dcb4b7df4fcf8086608488642a3ef68"
+    },
+    {
+      "arquivo": "saida/verificacao/resultados.json",
+      "bytes_identicos": true,
+      "sha256_anterior": "7a47f28aaf37d926131dc241fd979db1dab09908e15e5b7c6cc9c583e8054849",
+      "sha256_atual": "7a47f28aaf37d926131dc241fd979db1dab09908e15e5b7c6cc9c583e8054849"
+    },
+    {
+      "arquivo": "tests/test_conteudo.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "e7645d8014e6a2017ff9363210e9b543ffe1b5bae11977de4da584502e1f651c",
+      "sha256_atual": "e7645d8014e6a2017ff9363210e9b543ffe1b5bae11977de4da584502e1f651c"
+    },
+    {
+      "arquivo": "tests/test_conteudo_coragem.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "036794da7590e5e1042036b4f47ea5823e581b8f054c81385f3053b9d58552a1",
+      "sha256_atual": "036794da7590e5e1042036b4f47ea5823e581b8f054c81385f3053b9d58552a1"
+    },
+    {
+      "arquivo": "tests/test_conteudo_oracao.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "c069bf39dde06ec23f54525698bb5743e6d0b6fe458677ae63a0aa4f7b6b5abf",
+      "sha256_atual": "c069bf39dde06ec23f54525698bb5743e6d0b6fe458677ae63a0aa4f7b6b5abf"
+    },
+    {
+      "arquivo": "tests/test_conteudo_santo.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "22809578d81667c8e320fdcf8e03c3db8df0fcfcd696628e89b6555665804134",
+      "sha256_atual": "22809578d81667c8e320fdcf8e03c3db8df0fcfcd696628e89b6555665804134"
+    },
+    {
+      "arquivo": "tests/test_conteudo_stories.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "06b7004328ee9e4ecf02133d7c3c086c78d141deb4dccc04d4bf6acdcd1ccd71",
+      "sha256_atual": "06b7004328ee9e4ecf02133d7c3c086c78d141deb4dccc04d4bf6acdcd1ccd71"
+    },
+    {
+      "arquivo": "tests/test_layout_coragem.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "9753dbfdf03cb4c4860e31ee472fda8443527171430e7792a998a28f14fb988a",
+      "sha256_atual": "9753dbfdf03cb4c4860e31ee472fda8443527171430e7792a998a28f14fb988a"
+    },
+    {
+      "arquivo": "tests/test_layout_evangelho.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "0b441cf47be7b94331b06e3c63451a96d85516ae1e42f10b0c013c477f0472bb",
+      "sha256_atual": "0b441cf47be7b94331b06e3c63451a96d85516ae1e42f10b0c013c477f0472bb"
+    },
+    {
+      "arquivo": "tests/test_layout_para_rezar.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "498c1c4c7eae8f9b3ca9acecbec2bc930a36205818f81a599cef524f5a54bfb4",
+      "sha256_atual": "498c1c4c7eae8f9b3ca9acecbec2bc930a36205818f81a599cef524f5a54bfb4"
+    },
+    {
+      "arquivo": "tests/test_layout_santo.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "45260aed3bdfa0392ca39a61e8baf3b6fe7d8bdae6390bbafbcb4cb7138250ab",
+      "sha256_atual": "45260aed3bdfa0392ca39a61e8baf3b6fe7d8bdae6390bbafbcb4cb7138250ab"
+    },
+    {
+      "arquivo": "tests/test_layout_stories.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "c992a437ebe3ebf3c126d2618d87b049d1b18d6b79005b79b61c040b0bab8234",
+      "sha256_atual": "c992a437ebe3ebf3c126d2618d87b049d1b18d6b79005b79b61c040b0bab8234"
+    },
+    {
+      "arquivo": "tests/test_obras.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "5b26c2b58ce50ef6d45c20d764536a1da69665f2e518decfc68ef26118949a36",
+      "sha256_atual": "5b26c2b58ce50ef6d45c20d764536a1da69665f2e518decfc68ef26118949a36"
+    },
+    {
+      "arquivo": "tests/test_texto.py",
+      "bytes_identicos": true,
+      "sha256_anterior": "7398d66ad5461d99a4e84794b8b43760660ee04b9aef92a3c41771b0b0bf2154",
+      "sha256_atual": "7398d66ad5461d99a4e84794b8b43760660ee04b9aef92a3c41771b0b0bf2154"
+    }
+  ],
+  "kit": [
+    {
+      "arquivo": "kit/LEIA-ME.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/bundle.css",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/Assinatura/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/Assinatura/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/GradeFeed/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/GradeFeed/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/Nicho/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/Nicho/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostCoragem/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostCoragem/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostEvangelho/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostEvangelho/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostFesta/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostFesta/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostOracao/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostOracao/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostSanto/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/PostSanto/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/Selo/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/Selo/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/StoryAngelus/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/componentes/StoryAngelus/preview.html",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/design-system/tokens.json",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/CormorantGaramond-Medium.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/CormorantGaramond-MediumItalic.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/CormorantGaramond-SemiBold.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/CormorantGaramond-SemiBoldItalic.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/Lato-Bold.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/Lato-Regular.ttf",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/licencas/OFL-CormorantGaramond.txt",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/fontes/licencas/OFL-Lato.txt",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/README.md",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/avatar-perfil.png",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/avatar-perfil.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/logo-horizontal-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/logo-horizontal-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/logo-horizontal-sobre-cor.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/logo-vertical-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/logo-vertical-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/simbolo-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/simbolo-pergaminho.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/simbolo-reduzido-capela.svg",
+      "bytes_identicos": true
+    },
+    {
+      "arquivo": "kit/logos/simbolo-reduzido-pergaminho.svg",
+      "bytes_identicos": true
+    }
+  ],
+  "cards_work": [
+    {
+      "novena": "imaculada",
+      "card": "dia-1",
+      "data": "2026-11-29",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-1.html",
+        "png": "work/novena/imaculada/dia-1.png",
+        "pdf": "work/novena/imaculada/dia-1.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-2",
+      "data": "2026-11-30",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-2.html",
+        "png": "work/novena/imaculada/dia-2.png",
+        "pdf": "work/novena/imaculada/dia-2.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-3",
+      "data": "2026-12-01",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-3.html",
+        "png": "work/novena/imaculada/dia-3.png",
+        "pdf": "work/novena/imaculada/dia-3.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-4",
+      "data": "2026-12-02",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-4.html",
+        "png": "work/novena/imaculada/dia-4.png",
+        "pdf": "work/novena/imaculada/dia-4.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-5",
+      "data": "2026-12-03",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-5.html",
+        "png": "work/novena/imaculada/dia-5.png",
+        "pdf": "work/novena/imaculada/dia-5.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-6",
+      "data": "2026-12-04",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-6.html",
+        "png": "work/novena/imaculada/dia-6.png",
+        "pdf": "work/novena/imaculada/dia-6.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-7",
+      "data": "2026-12-05",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-7.html",
+        "png": "work/novena/imaculada/dia-7.png",
+        "pdf": "work/novena/imaculada/dia-7.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-8",
+      "data": "2026-12-06",
+      "titulo_linhas": 2,
+      "oracao_linhas": 6,
+      "folga_superior_px": 115.5,
+      "folga_inferior_px": 115.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-8.html",
+        "png": "work/novena/imaculada/dia-8.png",
+        "pdf": "work/novena/imaculada/dia-8.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "dia-9",
+      "data": "2026-12-07",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/dia-9.html",
+        "png": "work/novena/imaculada/dia-9.png",
+        "pdf": "work/novena/imaculada/dia-9.pdf"
+      }
+    },
+    {
+      "novena": "imaculada",
+      "card": "encerramento",
+      "data": "2026-12-08",
+      "titulo_linhas": 1,
+      "oracao_linhas": 7,
+      "folga_superior_px": 158.5,
+      "folga_inferior_px": 158.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Ó Maria concebida sem pecado,",
+        "rogai por nós que recorremos a vós."
+      ],
+      "cores": {
+        "fundo": "#866420",
+        "cruz": "#faf6ee",
+        "ornamento": "#faf6ee"
+      },
+      "arquivos": {
+        "html": "work/novena/imaculada/encerramento.html",
+        "png": "work/novena/imaculada/encerramento.png",
+        "pdf": "work/novena/imaculada/encerramento.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-1",
+      "data": "2026-12-16",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-1.html",
+        "png": "work/novena/natal/dia-1.png",
+        "pdf": "work/novena/natal/dia-1.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-2",
+      "data": "2026-12-17",
+      "titulo_linhas": 2,
+      "oracao_linhas": 5,
+      "folga_superior_px": 146.5,
+      "folga_inferior_px": 146.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-2.html",
+        "png": "work/novena/natal/dia-2.png",
+        "pdf": "work/novena/natal/dia-2.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-3",
+      "data": "2026-12-18",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-3.html",
+        "png": "work/novena/natal/dia-3.png",
+        "pdf": "work/novena/natal/dia-3.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-4",
+      "data": "2026-12-19",
+      "titulo_linhas": 1,
+      "oracao_linhas": 6,
+      "folga_superior_px": 153.5,
+      "folga_inferior_px": 153.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-4.html",
+        "png": "work/novena/natal/dia-4.png",
+        "pdf": "work/novena/natal/dia-4.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-5",
+      "data": "2026-12-20",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-5.html",
+        "png": "work/novena/natal/dia-5.png",
+        "pdf": "work/novena/natal/dia-5.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-6",
+      "data": "2026-12-21",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-6.html",
+        "png": "work/novena/natal/dia-6.png",
+        "pdf": "work/novena/natal/dia-6.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-7",
+      "data": "2026-12-22",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-7.html",
+        "png": "work/novena/natal/dia-7.png",
+        "pdf": "work/novena/natal/dia-7.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-8",
+      "data": "2026-12-23",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-8.html",
+        "png": "work/novena/natal/dia-8.png",
+        "pdf": "work/novena/natal/dia-8.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "dia-9",
+      "data": "2026-12-24",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Vinde, Senhor Jesus!"
+      ],
+      "cores": {
+        "fundo": "#f2eadb",
+        "cruz": "#5b2e70",
+        "ornamento": "#866420"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/dia-9.html",
+        "png": "work/novena/natal/dia-9.png",
+        "pdf": "work/novena/natal/dia-9.pdf"
+      }
+    },
+    {
+      "novena": "natal",
+      "card": "encerramento",
+      "data": "2026-12-25",
+      "titulo_linhas": 1,
+      "oracao_linhas": 5,
+      "folga_superior_px": 184.5,
+      "folga_inferior_px": 184.5,
+      "distancias": [
+        {
+          "par": [
+            "contagem",
+            "titulo"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "titulo",
+            "fonte"
+          ],
+          "distancia_px": 32.0,
+          "esperado_px": 32
+        },
+        {
+          "par": [
+            "fonte",
+            "ornamento"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "ornamento",
+            "oracao"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        },
+        {
+          "par": [
+            "oracao",
+            "contas"
+          ],
+          "distancia_px": 48.0,
+          "esperado_px": 48
+        }
+      ],
+      "linhas_refrao": [
+        "Glória a Deus nas alturas!"
+      ],
+      "cores": {
+        "fundo": "#866420",
+        "cruz": "#faf6ee",
+        "ornamento": "#faf6ee"
+      },
+      "arquivos": {
+        "html": "work/novena/natal/encerramento.html",
+        "png": "work/novena/natal/encerramento.png",
+        "pdf": "work/novena/natal/encerramento.pdf"
+      }
+    }
+  ],
+  "teste_canva": [
+    {
+      "pagina": 1,
+      "novena": "imaculada",
+      "card": "dia-1",
+      "png_final_identico": {
+        "dimensao": [
+          1080,
+          1350
+        ],
+        "pixels_identicos": true,
+        "bytes_identicos": true
+      },
+      "pdf_final_raster_identico": true,
+      "texto_integral_igual_yaml": true,
+      "fontes": [
+        {
+          "nome": "CormorantGaramond-Medium",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "78ce4ffaf4b2b6131fb8cc59010a4551e6815a96f5c5569810462e683442d462",
+          "tabelas": {
+            "GDEF": "dc6b971f0bd5fff7fc74a26adca58d4d808fa5a6170e029b358b420ff7f11438",
+            "GPOS": "bde709901cb7a6461e7a91604a337d0b6f53bf626a94f3eef6cd7ca6e070fbe3",
+            "GSUB": "f80051b277a1fc07c7e9e7fdfedc5a84dea935b9ccb92331d1bc0c4c26fd34e6",
+            "OS/2": "bfeb8fe8b3b9215d114a7b36fb3cd575a9819841a5bcd7876fa38410c3c6629b",
+            "cmap": "c3bf689ee30c7410b64d66e70cb7bb97ca2051177f9db31d2f3dcb75296f6c00",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "5c1b830aebf3de0de93e7c154ac2b4e12bf0f0dd210388149e8477e9d076de8e",
+            "head": "7179b117e8dae2a6a3b9d939067ca22114a281c8beca76e43006aaa91386a638",
+            "hhea": "f0a07934c8f560c4a6651b49a57d8d817c681cf424e12ddc7b4d42fa5131ac57",
+            "hmtx": "8f6ac6138ff11220766c3bbf957067fa8dd97e239111d6cfd2ed15d3e23a5b9c",
+            "loca": "c84d658b2b1ba1aad21a19c9978d8077c3fcd133ccdafd441b219c1d4ad7f039",
+            "maxp": "f9cc75a0736f706a5175b9e83fed94062876bb9ac9e59ae160c6d46e95d89a5e",
+            "name": "3dd583dae1590e8f36a1cb1dc03a504b572f1a21cec76b50ee4003049d633a85",
+            "post": "4fdc83d5e42fe44650fe86f15a645d5cc926d07355ba945e1ede42737607bf83",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "CormorantGaramond-MediumItalic",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "980eabc30112ba546c12b49dbb0e0e907717e653d6dae0d8afedfb700cd0f1a5",
+          "tabelas": {
+            "GDEF": "56ec1063f3636e959b1d8c04572f4c4c1bfc452ad6219d85656856966f7e194a",
+            "GPOS": "ec697fd54b289e2978db080b081971e960cd0d483efe0f7044d1c46780618ff4",
+            "GSUB": "50be5815263fe91f255ab5de90ff5ecc65c948ce8586774663d4943b77e47770",
+            "OS/2": "dbf36021934ea8515228d964ed801cd3a23ecd7fba8a7bf06aae87b1bba5dd5f",
+            "cmap": "465c5c32c790de21abe09a987a646cc9e7ef4e01856284420da1bd75c15125f8",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "4937ca827011d7657fc268b227fcfdf59236fbd475abcea728b35ec61ef152e0",
+            "head": "e8d678bf25a5b870ca863f9b11a9e865762f09779df61ade25b290c8c251b7c3",
+            "hhea": "cc5773f62ef3826f8b6665e074c3497d231826730ab006f8bfcef7c7ea5fa699",
+            "hmtx": "9563d4469dd1ccf8926ade5a54b00fff57bd0e638177e1ea0af19d1f1bfbf6ab",
+            "loca": "49ef26d1c231bb8662f13139ea2acd8aeb4892151c23f09ef96d6429f098ef3b",
+            "maxp": "404879125a27436a4f2b8ee67179717e415fea54169b2005c1d8e8b8fa36adb3",
+            "name": "e8ed5ae8ac2dc7104541ed26d433e553da5a46d17818ed949a6fe11542ddf1c3",
+            "post": "54e14d94fba6396927384b218d5372db69982688148f25e9aa1a48546bbaf061",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "CormorantGaramond-SemiBold",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "a5994663b25fd0f11df13b7cb059237ea8788a56f9777ad99d5d023b1bf75d98",
+          "tabelas": {
+            "GDEF": "355c0a584ce174bbc1526a25093491f6f2219f38e3d9884cdbb94add65747581",
+            "GPOS": "3e5c840e03a76fe453a5c00767e00ab61557e6d8b616846234a2362f121cccf1",
+            "GSUB": "7ac963660338bed6b2f5b6408cb18370ca11275e08e321a32a13108854ad6f54",
+            "OS/2": "73e9b5f302a23d9886190ca43f2e1a6bf22f45d0e2bb2a000f772025f1e7c2b4",
+            "cmap": "5634f46a1db0cb1781383ccb3bc5c78375f0b128c9c78e86de41df21eb1ddadd",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "dabd368f3ba382f2eaca4e2411dc3e1e5bfa0be752130f7d1b4273aa77935ae1",
+            "head": "23005518a239f1e2b6822ac88eaff526b11e5ed71aa741daec463fd51932fe46",
+            "hhea": "afc3c3ce493941812356c6dbc3fe09089bd55f6b06619b931aaa759a5d368824",
+            "hmtx": "91af5c6a7af9fd0c9d729aa6d1a089524e3d7b6c74bd101a1a7f2bd2d3712f66",
+            "loca": "bc7f1dad106a4d9424d1e012ab2e3da6a4c4b04fbdf07a9f79150d9ee9c877e8",
+            "maxp": "adef05eae282d69d67fce2d49d8728e066fa739ec59f673173b2de312ee8e404",
+            "name": "aa4497c9b45a6d142c4a67b81445b1c5657b520562fc69a5a39b2f07bb3d35c2",
+            "post": "4fdc83d5e42fe44650fe86f15a645d5cc926d07355ba945e1ede42737607bf83",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "Lato-Bold",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "d4044334b22c222800b6908cb08813c9512b6f11020943a40d1c30918f12dfb4",
+          "tabelas": {
+            "GPOS": "d47d00f3e600da7eb5aeac988f37c45fef2e07de10925e6fc6f3d898aed4a5df",
+            "GSUB": "6d5d44400f2a0d1f8f6a1b1133dc842cd8ed757f5b8e791a2ac68748b7a91ef7",
+            "OS/2": "cd2c8f7d6e65ee10d7bac3fddad09d3975b6c2ebd47ea39408ffd586595bccd8",
+            "cmap": "416451b6ce49b7848cc6d8d2c946ce689165ed00d8b84df9fcbe211b7162fdee",
+            "cvt ": "4555cb5183fada9f5e63ee7537f3938232c145b78d3862e911423bd968053b28",
+            "fpgm": "e8bd5d273795a11fa8dfad07b720556b6661bd18c72ea63f966ea5496b63e0cd",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "0d1f76f37fa657deb2e217abb5f7b7e81c4b0c12e07d403b687da8b255fc2b0d",
+            "head": "ef9d843746ce5f27c7c17ee81ba8ffe52a59aaf284de26c85eb3361233d65e52",
+            "hhea": "0a8b7c5628bcf61aca4641710fe7b5c501fa1b2f56ffd077ba500fa10f052fb5",
+            "hmtx": "17db5bb0409550874cb037ae0b6757ec3ea857fd8b96c519ff1c847419106c82",
+            "loca": "a243015cf357e32bee23fbd21bc0e82ee538437dec1f9e34e6073c5418c4f96f",
+            "maxp": "3082139506d651e06b69f2e01bbbc0af1a6978bedf6fc25aef02378fc7c33aef",
+            "name": "e50446a2ee6045a3931de08238ad397114eacffb61f8ea16c7422bd5a412cc7c",
+            "post": "5f8dbd566f40fe3463da23d1e2b05962f16f354aa6e571a026b6df6aba2343dc",
+            "prep": "ecca8c624db70ab24306d32bd23826ea72e8bec4c2b1ba6072f1006a61881e05"
+          }
+        },
+        {
+          "nome": "Lato-Regular",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "52bda84a472a81c18ed2d31b2db492c2792b735fac79a344ad790a72db3efb21",
+          "tabelas": {
+            "GPOS": "d28fd901a8731cf768b50d3e257d25e275bb17104de61e45cf5b3a0cb9a828f8",
+            "GSUB": "167aa06260217c39b056f287083c941e563d171a4487b4b510f33c9c7f5776fd",
+            "OS/2": "06fa786cb7dfaffd120d31895f12142b8d0a36e7d9e8742519847f91c69b7cd5",
+            "cmap": "a5f26050cf9d1003cf6c7648e53ebe1ab0eed5fa213ff5b6cfbbc237e7496541",
+            "cvt ": "3e1883048f1d4aae07704a0877b3264c408c6c40d084cfa7a61f95bf7c3e998e",
+            "fpgm": "e8bd5d273795a11fa8dfad07b720556b6661bd18c72ea63f966ea5496b63e0cd",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "3eff2fdb8641420b5e0882017c9890a459ad4cae2b43138f0dc6d8631201499e",
+            "head": "6d7f3d58ee66b641b518011d54dbd99c237acd276ac7022c7fa7f7cc61b700d9",
+            "hhea": "6eb491b17589fff60d4934123ff74016f6f26a996fc9710d41df7d747d65618d",
+            "hmtx": "03074ab489d85f6eed2944c1c25af1012a0bb0077311b56eb2f277714131ed71",
+            "loca": "35f8ac106ffecdfb26da72f6381756d289e96c62a44cd046141fb7a7a2370243",
+            "maxp": "3082139506d651e06b69f2e01bbbc0af1a6978bedf6fc25aef02378fc7c33aef",
+            "name": "445809968eb0d4bd325dc8e158152852a08983850ebaeca752e07aaea076a7a1",
+            "post": "96f48c87267cec628f2b481a6d5f3fd8fea047cd1126394df440fdb03bae250e",
+            "prep": "ecca8c624db70ab24306d32bd23826ea72e8bec4c2b1ba6072f1006a61881e05"
+          }
+        }
+      ]
+    },
+    {
+      "pagina": 2,
+      "novena": "imaculada",
+      "card": "dia-8",
+      "png_final_identico": {
+        "dimensao": [
+          1080,
+          1350
+        ],
+        "pixels_identicos": true,
+        "bytes_identicos": true
+      },
+      "pdf_final_raster_identico": true,
+      "texto_integral_igual_yaml": true,
+      "fontes": [
+        {
+          "nome": "CormorantGaramond-Medium",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "e852b3f23754ff3e639ba8e1f722c8e8ed0148bade5e72cd8cf2d10793d2a6e9",
+          "tabelas": {
+            "GDEF": "a999694bdba81c81eca886138b57f8c4d47346cbb25cc4d692cd91482bbfdd6f",
+            "GPOS": "2d4e89dd1a3011f04622e20e2dd2faa36ed858ae572564067d3e6802fd2e3c74",
+            "GSUB": "60ab99bac76a10e9986e913735079d0ceafe4f014a91eb69942554a4d9a745d9",
+            "OS/2": "a8ef9acedbb4f8c4c4e6175fc5d11edd6f6cde9a03111b7ef76dc5e7e82f3eee",
+            "cmap": "d7ce5f9bd9ac8ebc44c46792860e7a461932060af4da082cc982e141d2d5423b",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "8f7a7ae93030cdd8674d5d4e309b73c300cf7af1d6283e9de7a156311287a7f0",
+            "head": "6079282c05bb1ae5ec1cde25ec139318b48f95de90420ddc5bf9ade09c29176e",
+            "hhea": "f0a07934c8f560c4a6651b49a57d8d817c681cf424e12ddc7b4d42fa5131ac57",
+            "hmtx": "06d5a6ba62b34747efe510688de62f995fbe741195f94de4af599fb2c09c1c8b",
+            "loca": "d6da0a12490b6cda3b2351195360e369505c091365f8f7fce54e478f2720fd1f",
+            "maxp": "f9cc75a0736f706a5175b9e83fed94062876bb9ac9e59ae160c6d46e95d89a5e",
+            "name": "3dd583dae1590e8f36a1cb1dc03a504b572f1a21cec76b50ee4003049d633a85",
+            "post": "4fdc83d5e42fe44650fe86f15a645d5cc926d07355ba945e1ede42737607bf83",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "CormorantGaramond-MediumItalic",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "980eabc30112ba546c12b49dbb0e0e907717e653d6dae0d8afedfb700cd0f1a5",
+          "tabelas": {
+            "GDEF": "56ec1063f3636e959b1d8c04572f4c4c1bfc452ad6219d85656856966f7e194a",
+            "GPOS": "ec697fd54b289e2978db080b081971e960cd0d483efe0f7044d1c46780618ff4",
+            "GSUB": "50be5815263fe91f255ab5de90ff5ecc65c948ce8586774663d4943b77e47770",
+            "OS/2": "dbf36021934ea8515228d964ed801cd3a23ecd7fba8a7bf06aae87b1bba5dd5f",
+            "cmap": "465c5c32c790de21abe09a987a646cc9e7ef4e01856284420da1bd75c15125f8",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "4937ca827011d7657fc268b227fcfdf59236fbd475abcea728b35ec61ef152e0",
+            "head": "e8d678bf25a5b870ca863f9b11a9e865762f09779df61ade25b290c8c251b7c3",
+            "hhea": "cc5773f62ef3826f8b6665e074c3497d231826730ab006f8bfcef7c7ea5fa699",
+            "hmtx": "9563d4469dd1ccf8926ade5a54b00fff57bd0e638177e1ea0af19d1f1bfbf6ab",
+            "loca": "49ef26d1c231bb8662f13139ea2acd8aeb4892151c23f09ef96d6429f098ef3b",
+            "maxp": "404879125a27436a4f2b8ee67179717e415fea54169b2005c1d8e8b8fa36adb3",
+            "name": "e8ed5ae8ac2dc7104541ed26d433e553da5a46d17818ed949a6fe11542ddf1c3",
+            "post": "54e14d94fba6396927384b218d5372db69982688148f25e9aa1a48546bbaf061",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "CormorantGaramond-SemiBold",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "f0597a878df65d753f179fd673856058ffbc3de833e3c04e1ab38eae79e1af38",
+          "tabelas": {
+            "GDEF": "0117de6ae2a2abe2a6e0b102b23c31b453481a9a1b56d255c4b1f5e31fb4e3f3",
+            "GPOS": "d8cb157be24e70a8ef27c8b50394232e72d877d4ec5868ce579830768e19bb2f",
+            "GSUB": "f3fbe41e427cd31c1530376b33f0e1ffde536b686a5e08e34f1dd957f9bd9ce3",
+            "OS/2": "2f8753b7ea1eedec2c1212f4c4efce8890fa2d644e6da21c9e3779b1081591d5",
+            "cmap": "c8a4eda3e1375cdf125bb9f762f6b4e50b1c547d9f5fbf40f33ee8f0e13bb76e",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "1556736553b05ff758183237b4a2357573c8c1fd3f42e1adf087e3b1378aad32",
+            "head": "d98d37d5a857b0aa7ad0f48e3e7fb991f830c26830a0c94198c29a6b8e9b8f30",
+            "hhea": "13ad006c68a6fe79a3377d54aacb0eb930786c8e9acdc59d483b282152440058",
+            "hmtx": "8f562ef9c176570bfa1491b8536a97d48b461ce7c38210971c074f974479495d",
+            "loca": "4d1c8bbd7f0a0b98a56f0dea21ebbea517961d1cf7c60d7756b6d6672817233b",
+            "maxp": "4196b55a62c9d64672afce604c14455db1a92f05a44f7fde9c51297834f1b188",
+            "name": "aa4497c9b45a6d142c4a67b81445b1c5657b520562fc69a5a39b2f07bb3d35c2",
+            "post": "4fdc83d5e42fe44650fe86f15a645d5cc926d07355ba945e1ede42737607bf83",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "Lato-Bold",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "6c8e69b45d78a13af034f089b12a970c5e0fbab28bf0b39205a5c902ccf6a0b6",
+          "tabelas": {
+            "GPOS": "ebf86db70e501d32fa6cb92c115dfc1b8944558f35067d531d684fc6a23fcf41",
+            "GSUB": "e1677de27976ee57ea7157bb698f66fb01a02eb7ca84220f5fd2857dc7929ab6",
+            "OS/2": "cd2c8f7d6e65ee10d7bac3fddad09d3975b6c2ebd47ea39408ffd586595bccd8",
+            "cmap": "53e9b8f04a20c2f770ffc806aa23bda7a5f10fd3a01599091cd3fc38ce744bdf",
+            "cvt ": "4555cb5183fada9f5e63ee7537f3938232c145b78d3862e911423bd968053b28",
+            "fpgm": "e8bd5d273795a11fa8dfad07b720556b6661bd18c72ea63f966ea5496b63e0cd",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "42b682dc78742c8996f78773f8020899bb468b40a6630bd9e820bbb647504113",
+            "head": "e1174c7d04bdb248f95f233525cf20e03e113de6d60d3a6f71885ab173f65fd6",
+            "hhea": "0a8b7c5628bcf61aca4641710fe7b5c501fa1b2f56ffd077ba500fa10f052fb5",
+            "hmtx": "60949b52e7f64f064a24d55c14b920064584affffd639f171e6d227580af88f4",
+            "loca": "6bcf54b646a4e5d0c8a801fa7aab6949269188a88e5f156ee129fd12343ceac5",
+            "maxp": "3082139506d651e06b69f2e01bbbc0af1a6978bedf6fc25aef02378fc7c33aef",
+            "name": "e50446a2ee6045a3931de08238ad397114eacffb61f8ea16c7422bd5a412cc7c",
+            "post": "5f8dbd566f40fe3463da23d1e2b05962f16f354aa6e571a026b6df6aba2343dc",
+            "prep": "ecca8c624db70ab24306d32bd23826ea72e8bec4c2b1ba6072f1006a61881e05"
+          }
+        },
+        {
+          "nome": "Lato-Regular",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "c51288ba3ce9cc54313ee6972d288d39a6c6c17cf6c8d1b634e011efb7150fbf",
+          "tabelas": {
+            "GPOS": "84987fc947279fd2a8bebcdb43b0ddf784dbc6a64a96f6204cec5f96a9708e72",
+            "GSUB": "cf9a56fe434ff1e7b9d02d2bd8ccf29e084b0c3db85661cb3d0ca9a6d17158b4",
+            "OS/2": "06fa786cb7dfaffd120d31895f12142b8d0a36e7d9e8742519847f91c69b7cd5",
+            "cmap": "006240eeb4b686224b9f38101541248fbfc05b734d677cf8a3d646ff323dd7e0",
+            "cvt ": "3e1883048f1d4aae07704a0877b3264c408c6c40d084cfa7a61f95bf7c3e998e",
+            "fpgm": "e8bd5d273795a11fa8dfad07b720556b6661bd18c72ea63f966ea5496b63e0cd",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "7be6e18d094300a73a5cf994425ff98e76259135778010f813d1219a543e6301",
+            "head": "8f74c6929fba2070166245d991ac21ad089d20284a708fe37bd0dd90de596516",
+            "hhea": "6eb491b17589fff60d4934123ff74016f6f26a996fc9710d41df7d747d65618d",
+            "hmtx": "0893a9f44e64b86a59254300af36e30887c6b248ab677b94129982051d60622b",
+            "loca": "7ad88e5ba1fdee2c8e59be1c97aeddfc85d662a6ab5dcd52ec3d8ed04b4e7826",
+            "maxp": "3082139506d651e06b69f2e01bbbc0af1a6978bedf6fc25aef02378fc7c33aef",
+            "name": "445809968eb0d4bd325dc8e158152852a08983850ebaeca752e07aaea076a7a1",
+            "post": "96f48c87267cec628f2b481a6d5f3fd8fea047cd1126394df440fdb03bae250e",
+            "prep": "ecca8c624db70ab24306d32bd23826ea72e8bec4c2b1ba6072f1006a61881e05"
+          }
+        }
+      ]
+    },
+    {
+      "pagina": 3,
+      "novena": "imaculada",
+      "card": "encerramento",
+      "png_final_identico": {
+        "dimensao": [
+          1080,
+          1350
+        ],
+        "pixels_identicos": true,
+        "bytes_identicos": true
+      },
+      "pdf_final_raster_identico": true,
+      "texto_integral_igual_yaml": true,
+      "fontes": [
+        {
+          "nome": "CormorantGaramond-Medium",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "1ba7ac5246b78caf6a64344d3d3692b053e94910499336ee3390d83a3af0bbad",
+          "tabelas": {
+            "GDEF": "bfdd5eda72fea04597dbb26d9086d6dfae2577a20c7b6daedf76a02b4665df4c",
+            "GPOS": "d6dd449cecc59498f24b23d5ba656588342831a8242884d2065ce21f469d231f",
+            "GSUB": "d0598b9df27f2dea9235a1850e8cdd13e655f2107c8b5b8accf1ba3312f3a720",
+            "OS/2": "a13b5c779b4d0c29a72ea35f4e5e3974b5e5d3f42e4cf6d47f3aac9531576132",
+            "cmap": "4f145530ae0da53aa5d3b0cb472c5b4de31fed9a175d91a9da11b06ed33841e5",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "0a45791fe47dce8e94c36a49dce86bdc7709281544a9ff14a67bf66bb5d42c86",
+            "head": "74d7262ad1ae91e46226bbbed1f35ee95e63e7df5b9ac2f39868e0df88211f0b",
+            "hhea": "f0a07934c8f560c4a6651b49a57d8d817c681cf424e12ddc7b4d42fa5131ac57",
+            "hmtx": "81fb01eefe86970a12849167fcddcf0e046e7e69912e4cc81930ba36c3f5512b",
+            "loca": "38311a2b6842147469583fc9ff472e71bccc8798e24a41fe635de496a952f11c",
+            "maxp": "f9cc75a0736f706a5175b9e83fed94062876bb9ac9e59ae160c6d46e95d89a5e",
+            "name": "3dd583dae1590e8f36a1cb1dc03a504b572f1a21cec76b50ee4003049d633a85",
+            "post": "4fdc83d5e42fe44650fe86f15a645d5cc926d07355ba945e1ede42737607bf83",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "CormorantGaramond-MediumItalic",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "980eabc30112ba546c12b49dbb0e0e907717e653d6dae0d8afedfb700cd0f1a5",
+          "tabelas": {
+            "GDEF": "56ec1063f3636e959b1d8c04572f4c4c1bfc452ad6219d85656856966f7e194a",
+            "GPOS": "ec697fd54b289e2978db080b081971e960cd0d483efe0f7044d1c46780618ff4",
+            "GSUB": "50be5815263fe91f255ab5de90ff5ecc65c948ce8586774663d4943b77e47770",
+            "OS/2": "dbf36021934ea8515228d964ed801cd3a23ecd7fba8a7bf06aae87b1bba5dd5f",
+            "cmap": "465c5c32c790de21abe09a987a646cc9e7ef4e01856284420da1bd75c15125f8",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "4937ca827011d7657fc268b227fcfdf59236fbd475abcea728b35ec61ef152e0",
+            "head": "e8d678bf25a5b870ca863f9b11a9e865762f09779df61ade25b290c8c251b7c3",
+            "hhea": "cc5773f62ef3826f8b6665e074c3497d231826730ab006f8bfcef7c7ea5fa699",
+            "hmtx": "9563d4469dd1ccf8926ade5a54b00fff57bd0e638177e1ea0af19d1f1bfbf6ab",
+            "loca": "49ef26d1c231bb8662f13139ea2acd8aeb4892151c23f09ef96d6429f098ef3b",
+            "maxp": "404879125a27436a4f2b8ee67179717e415fea54169b2005c1d8e8b8fa36adb3",
+            "name": "e8ed5ae8ac2dc7104541ed26d433e553da5a46d17818ed949a6fe11542ddf1c3",
+            "post": "54e14d94fba6396927384b218d5372db69982688148f25e9aa1a48546bbaf061",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "CormorantGaramond-SemiBold",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "54cab46fb6d3fa21c6e26d71d29fc99b1ca85c5255706a0c6374e34450729418",
+          "tabelas": {
+            "GDEF": "99ce0048594aad90aceb3b85404a9ef6221f5dcf42a4cdf4266856d07f9d6532",
+            "GPOS": "8e0d8fe40a8fe4e8f7b7b208d0cc704a09adac6ccad5b5b27497fa776860bb5d",
+            "GSUB": "fcae6b1283e7cec804441b5a1e8be5df2b907c9836fd687ca50c4da340c30221",
+            "OS/2": "73e9b5f302a23d9886190ca43f2e1a6bf22f45d0e2bb2a000f772025f1e7c2b4",
+            "cmap": "56456b04e345dffee58a8a9b8876c61066dd7632f858145882653b46751c83b6",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "975262aee8ade2b952d9ec674530cc6f8cfb6509271674ac727c5fee7f9ce49e",
+            "head": "e357e31d48e98f6bde176968fea2faf8aa0373f85029b32d198a4a353f92c304",
+            "hhea": "afc3c3ce493941812356c6dbc3fe09089bd55f6b06619b931aaa759a5d368824",
+            "hmtx": "f551b3622041e64cf792b0e733efa66aae69d0c30d92c28aeae885e42db617ea",
+            "loca": "d973a0799d1af63b857f72a887dac7f62ac25df7b5d087ea568950e0010a1b1c",
+            "maxp": "a9aa36fb838ecd524c7eddc12d8e48c20458ad21511a09bfe5ec7bb5f767d253",
+            "name": "aa4497c9b45a6d142c4a67b81445b1c5657b520562fc69a5a39b2f07bb3d35c2",
+            "post": "4fdc83d5e42fe44650fe86f15a645d5cc926d07355ba945e1ede42737607bf83",
+            "prep": "907c4106ff9989c1805827d5581bdf107a253b098cb71eb374f5e47c35604452"
+          }
+        },
+        {
+          "nome": "Lato-Bold",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "81cce28c0882458dd9cdf22d73764bb703de8a2a2355628e6e95b3ad1fa74ed6",
+          "tabelas": {
+            "GPOS": "0c7f4713a1798d8b729144e33ab967a79299cb27bc5fa2f1859f041b6ac82ad0",
+            "GSUB": "a6ae1cc9d2f1fefda155024fef18f37585deda3eb15f9292fe11f11a93af8e05",
+            "OS/2": "cd2c8f7d6e65ee10d7bac3fddad09d3975b6c2ebd47ea39408ffd586595bccd8",
+            "cmap": "1e4c54519536129827ad062f896ad042191a07dbad32061ab1c03ca844492ba7",
+            "cvt ": "4555cb5183fada9f5e63ee7537f3938232c145b78d3862e911423bd968053b28",
+            "fpgm": "e8bd5d273795a11fa8dfad07b720556b6661bd18c72ea63f966ea5496b63e0cd",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "078743524d09c2536394471a2c13041a65748ee9add02c211aa04cb0d4478dfc",
+            "head": "aeebe9023e58187b84351971dd02a26bf6ae32b927328fbd25c139cd73f2d762",
+            "hhea": "0a8b7c5628bcf61aca4641710fe7b5c501fa1b2f56ffd077ba500fa10f052fb5",
+            "hmtx": "858080b46903e32e39aa0dc320194c79bda37e811d9bac52a53e2be0537c6161",
+            "loca": "e42cfa9277d717ab65c333b6777491792f0658071fbdd3d3aef1e99417afb23e",
+            "maxp": "3082139506d651e06b69f2e01bbbc0af1a6978bedf6fc25aef02378fc7c33aef",
+            "name": "e50446a2ee6045a3931de08238ad397114eacffb61f8ea16c7422bd5a412cc7c",
+            "post": "5f8dbd566f40fe3463da23d1e2b05962f16f354aa6e571a026b6df6aba2343dc",
+            "prep": "ecca8c624db70ab24306d32bd23826ea72e8bec4c2b1ba6072f1006a61881e05"
+          }
+        },
+        {
+          "nome": "Lato-Regular",
+          "formato": "ttf",
+          "embutida": true,
+          "sha256_programa": "3c4a8ee643097a7ab1253a36543319f0d4397ab388b151154f03513da579ef26",
+          "tabelas": {
+            "GPOS": "039d829b48f0ecfac1cb0d66bbd386e03b6cb95330ef98c28366b1e499593e6d",
+            "GSUB": "574e8810eb53d45115e6a0e89e801c8ff77e9e2ff9b10ba9f80bb4ebf55b8bc8",
+            "OS/2": "06fa786cb7dfaffd120d31895f12142b8d0a36e7d9e8742519847f91c69b7cd5",
+            "cmap": "9dc8f799e73d753896d1843e021d8c9ddab7318689de6dbd0e655eee314d0737",
+            "cvt ": "3e1883048f1d4aae07704a0877b3264c408c6c40d084cfa7a61f95bf7c3e998e",
+            "fpgm": "e8bd5d273795a11fa8dfad07b720556b6661bd18c72ea63f966ea5496b63e0cd",
+            "gasp": "4ca731f86ad506ac0e320283dc9461926346de3c4d91d539ea7f6620d3826940",
+            "glyf": "29966da75e7fa38c0d9e6937bd5102a873f1f74795c3cee281ad524948d11604",
+            "head": "0bb09232c14cbc216c5b565fd97df0b693590bc8703e7cbd83dd98bf24d7bb2f",
+            "hhea": "6eb491b17589fff60d4934123ff74016f6f26a996fc9710d41df7d747d65618d",
+            "hmtx": "8de3a0817ed172ed4586dcec6748607798be45e890cd3d57c60f8ade7882c7ce",
+            "loca": "6c09db5835ad27ece4f204e8e264a8829625d31933c5c199aad318c40b61d356",
+            "maxp": "3082139506d651e06b69f2e01bbbc0af1a6978bedf6fc25aef02378fc7c33aef",
+            "name": "445809968eb0d4bd325dc8e158152852a08983850ebaeca752e07aaea076a7a1",
+            "post": "96f48c87267cec628f2b481a6d5f3fd8fea047cd1126394df440fdb03bae250e",
+            "prep": "ecca8c624db70ab24306d32bd23826ea72e8bec4c2b1ba6072f1006a61881e05"
+          }
+        }
+      ]
+    }
+  ],
+  "yaml_exato_prompt": true,
+  "pngs_publicados": [
+    "teste-canva/dia-1.png",
+    "teste-canva/dia-8.png",
+    "teste-canva/encerramento.png",
+    "teste-canva/prancha.png"
+  ],
+  "pdfs_completos_work": [
+    {
+      "novena": "imaculada",
+      "arquivo": "work/novena/validacao-imaculada-10-paginas.pdf",
+      "bytes": 843347,
+      "paginas": [
+        {
+          "pagina": 1,
+          "card": "dia-1",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 2,
+          "card": "dia-2",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 3,
+          "card": "dia-3",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 4,
+          "card": "dia-4",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 5,
+          "card": "dia-5",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 6,
+          "card": "dia-6",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 7,
+          "card": "dia-7",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 8,
+          "card": "dia-8",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 9,
+          "card": "dia-9",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 10,
+          "card": "encerramento",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        }
+      ]
+    },
+    {
+      "novena": "natal",
+      "arquivo": "work/novena/validacao-natal-10-paginas.pdf",
+      "bytes": 830963,
+      "paginas": [
+        {
+          "pagina": 1,
+          "card": "dia-1",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 2,
+          "card": "dia-2",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 3,
+          "card": "dia-3",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 4,
+          "card": "dia-4",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 5,
+          "card": "dia-5",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 6,
+          "card": "dia-6",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 7,
+          "card": "dia-7",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 8,
+          "card": "dia-8",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 9,
+          "card": "dia-9",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        },
+        {
+          "pagina": 10,
+          "card": "encerramento",
+          "texto_igual_yaml": true,
+          "fontes_embutidas": true
+        }
+      ]
+    }
+  ],
+  "validacao_nativa": true,
+  "ok": true,
+  "errors": []
+}

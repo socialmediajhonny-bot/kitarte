@@ -18,6 +18,7 @@ python gerar.py coragem
 python gerar.py coragem --data 2026-12-14
 python gerar.py stories
 python gerar.py stories --tempo advento
+python gerar.py novena --teste-canva
 ```
 
 O comando usa automaticamente `.venv` se uma dependência não estiver no Python atual. As saídas ficam em `saida/`, com as evidências em `saida/verificacao/resultados.json` e as decisões em `saida/RELATORIO.md`.
@@ -80,6 +81,18 @@ Os testes verificam o schema e os limites medidos no Chromium, incluindo linhas 
 ```bash
 .venv/bin/python -m unittest discover -s tests -v
 ```
+
+## Novenas
+
+`conteudo/novenas.yaml` contém a Novena da Imaculada e a Novena de Natal: nove dias consecutivos e o encerramento no dia seguinte. As orações foram escritas pela página e aprovadas em 03/11/2026. O leitor preserva esses textos, exige fonte nos nove dias e limita cada oração a 240 caracteres, sem contar o refrão.
+
+Nesta rodada, execute `python gerar.py novena --teste-canva`: os 20 cards são renderizados e validados somente em `work/novena/`, e `saida/novena/teste-canva/` recebe os dias 1 e 8 e o encerramento da Imaculada, reunidos em um PDF de três páginas, com PNGs, prancha e ficha. O relatório da série registra as medidas dos 20 e o que conferir no Canva. Os arquivos corrigidos dos stories e as outras séries são preservados.
+
+O modelo `PostNovena` usa feed 1080 × 1350 e o bloco centralizado entre selo e assinatura. A cruz permanece roxa nos nove dias de cada novena, inclusive nas festas de 30/11, 3/12 e 7/12. As nove contas mostram o progresso: as do dia 1 até o dia N ficam cheias, e as restantes, vazadas. A oração e o refrão formam um único parágrafo com entrelinha de 62 px; o refrão começa em linha própria, em itálico, e preserva suas quebras. Palavras com hífen ficam inteiras. Espaços de 48 px acima do título e de 32 px abaixo dele separam as caixas para o Canva, sem alterar o kit.
+
+O encerramento ocupa o cartão inteiro em ouro, com textos, cruz, contas cheias e logo em `sobre-cor`. Ele usa o refrão da novena ou o campo `final` quando houver; a fonte é opcional.
+
+Depois da conferência da importação no Canva, `python gerar.py novena` gera as duas novenas completas em `saida/novena/imaculada/` e `saida/novena/natal/`, com dez PNGs e um PDF de dez páginas por novena. `python gerar.py novena --novena imaculada` e `--novena natal` filtram a série; `--teste-canva` aceita a Imaculada e não combina com o filtro de Natal. Esses comandos finais não fazem parte da geração desta rodada.
 
 ## Instalação em outra máquina
 
