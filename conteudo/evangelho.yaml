@@ -39,7 +39,7 @@
     arquivo: obras/2026-11-30.jpg
     credito: Duccio · A vocação dos apóstolos Pedro e André · National Gallery of Art
     pagina: https://www.nga.gov/artworks/282-calling-apostles-peter-and-andrew
-    foco: 22% 50%
+    foco: 10% 50%
     zoom: 1
   trecho: |-
     Segui-me,
@@ -134,7 +134,7 @@
     arquivo: obras/2026-12-05.jpg
     credito: James Tissot · A escolha dos doze apóstolos · Brooklyn Museum
     pagina: https://www.brooklynmuseum.org/objects/13407
-    foco: 33% 50%
+    foco: 25% 50%
     zoom: 1.1
   trecho: De graça recebestes, de graça deveis dar!
   trecho_ref: Mt 10,8
@@ -178,7 +178,7 @@
     credito: James Tissot · O paralítico descido pelo telhado · Brooklyn Museum
     pagina: https://www.brooklynmuseum.org/objects/4504
     foco: 50% 20%
-    zoom: 1.1
+    zoom: 1.04
   trecho: Homem, teus pecados estão perdoados.
   trecho_ref: Lc 5,20
   pergunta: Quem eu posso levar até Jesus na minha oração de hoje?
@@ -235,7 +235,7 @@
     arquivo: obras/2026-12-10.jpg
     credito: Geertgen tot Sint Jans · São João Batista no deserto · Gemäldegalerie
     pagina: https://commons.wikimedia.org/wiki/File:Geertgen_tot_Sint_Jans_004.jpg
-    foco: 50% 85%
+    foco: 50% 98%
     zoom: 1
   trecho: No entanto, o menor no Reino dos Céus é maior do que ele.
   trecho_ref: Mt 11,11
@@ -275,8 +275,8 @@
     arquivo: obras/2026-12-12.jpg
     credito: Piero di Cosimo · A Visitação · National Gallery of Art
     pagina: https://www.nga.gov/artworks/505-visitation-saint-nicholas-and-saint-anthony-abbot
-    foco: 50% 8%
-    zoom: 1.55
+    foco: 50% 3%
+    zoom: 1.6
   trecho: |-
     Bendita és tu entre as mulheres
     e bendito é o fruto do teu ventre!

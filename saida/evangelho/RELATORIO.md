@@ -284,7 +284,7 @@
   Foco 45% 50%; zoom 1.1; janela original x=309.337, y=46.591, largura=811.584, altura=931.818px.
 - **2026-11-30 — Santo André, apóstolo (Festa):** obra local real; recorte.png gerado.
   Duccio · A vocação dos apóstolos Pedro e André · National Gallery of Art — https://www.nga.gov/artworks/282-calling-apostles-peter-and-andrew
-  Foco 22% 50%; zoom 1; janela original x=103.890, y=0.000, largura=2127.774, altura=2443.000px.
+  Foco 10% 50%; zoom 1; janela original x=47.223, y=0.000, largura=2127.774, altura=2443.000px.
 - **2026-12-01 — Terça-feira da 1ª Semana do Advento:** obra local real; recorte.png gerado.
   James Tissot · Deixai vir a mim as criancinhas · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4539
   Foco 20% 45%; zoom 1.1; janela original x=124.930, y=47.086, largura=911.349, altura=1046.364px.
@@ -299,13 +299,13 @@
   Foco 50% 80%; zoom 1.2; janela original x=71.500, y=572.059, largura=715.000, altura=820.926px.
 - **2026-12-05 — Sábado da 1ª Semana do Advento:** obra local real; recorte.png gerado.
   James Tissot · A escolha dos doze apóstolos · Brooklyn Museum — https://www.brooklynmuseum.org/objects/13407
-  Foco 33% 50%; zoom 1.1; janela original x=242.977, y=45.909, largura=799.707, altura=918.182px.
+  Foco 25% 50%; zoom 1.1; janela original x=184.073, y=45.909, largura=799.707, altura=918.182px.
 - **2026-12-06 — 2º Domingo do Advento:** obra local real; recorte.png gerado.
   James Tissot · A voz no deserto · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4447
   Foco 40% 15%; zoom 1.1; janela original x=33.091, y=87.925, largura=827.273, altura=949.832px.
 - **2026-12-07 — Santo Ambrósio, bispo e doutor da Igreja (Memória):** obra local real; recorte.png gerado.
   James Tissot · O paralítico descido pelo telhado · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4504
-  Foco 50% 20%; zoom 1.1; janela original x=49.500, y=79.867, largura=990.000, altura=1136.667px.
+  Foco 50% 20%; zoom 1.04; janela original x=20.942, y=66.751, largura=1047.115, altura=1202.244px.
 - **2026-12-08 — Imaculada Conceição da Bem-aventurada Virgem Maria (Solenidade):** obra local real; recorte.png gerado.
   Fra Angelico · A Anunciação · Museu do Prado — https://commons.wikimedia.org/wiki/File:La_Anunciación,_by_Fra_Angelico,_from_Prado_in_Google_Earth.jpg
   Foco 82% 40%; zoom 1.3; janela original x=1067.200, y=349.754, largura=2538.536, altura=2914.615px.
@@ -314,13 +314,13 @@
   Foco 48% 27%; zoom 3; janela original x=2382.705, y=910.800, largura=1469.032, altura=1686.667px.
 - **2026-12-10 — Quinta-feira da 2ª Semana do Advento:** obra local real; recorte.png gerado.
   Geertgen tot Sint Jans · São João Batista no deserto · Gemäldegalerie — https://commons.wikimedia.org/wiki/File:Geertgen_tot_Sint_Jans_004.jpg
-  Foco 50% 85%; zoom 1; janela original x=0.000, y=376.046, largura=1192.000, altura=1368.593px.
+  Foco 50% 98%; zoom 1; janela original x=0.000, y=433.559, largura=1192.000, altura=1368.593px.
 - **2026-12-11 — Sexta-feira da 2ª Semana do Advento:** obra local real; recorte.png gerado.
   James Tissot · A refeição na casa de Mateus · Brooklyn Museum — https://www.brooklynmuseum.org/objects/13405
   Foco 88% 25%; zoom 1.3; janela original x=683.098, y=65.423, largura=759.752, altura=872.308px.
 - **2026-12-12 — Bem-aventurada Virgem Maria de Guadalupe, Padroeira principal da América (Festa):** obra local real; recorte.png gerado.
   Piero di Cosimo · A Visitação · National Gallery of Art — https://www.nga.gov/artworks/505-visitation-saint-nicholas-and-saint-anthony-abbot
-  Foco 50% 8%; zoom 1.55; janela original x=598.169, y=70.911, largura=1403.663, altura=1611.613px.
+  Foco 50% 3%; zoom 1.6; janela original x=620.101, y=28.103, largura=1359.798, altura=1561.250px.
 - **2026-12-13 — 3º Domingo do Advento (Gaudete):** obra local real; recorte.png gerado.
   James Tissot · São João Batista e os fariseus · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4449
   Foco 50% 50%; zoom 1.1; janela original x=334.496, y=49.773, largura=867.009, altura=995.455px.
@@ -337,7 +337,19 @@ Todas as obras selecionadas foram encontradas localmente e receberam prova de re
 <!-- inicio-relatorio-lote-1 -->
 ## Lote 1 · 30/11 a 12/12
 
-Trechos retirados da Liturgia Diária da CNBB, conferidos e aprovados em 05/11/2026. Foram acrescentados treze carrosséis; os dias 29/11 e 13/12 foram preservados.
+Trechos retirados da Liturgia Diária da CNBB, conferidos e aprovados em 05/11/2026. Foram acrescentados treze carrosséis; o conteúdo dos dias 29/11 e 13/12 foi preservado.
+
+### Enquadramentos aplicados nesta revisão
+
+Foram aplicadas somente as cinco sugestões autorizadas abaixo. Os textos, as demais dez datas do Evangelho e as outras séries foram preservados.
+
+| Data | Foco aplicado | Zoom aplicado |
+| --- | --- | --- |
+| 2026-11-30 | 10% 50% | 1 |
+| 2026-12-05 | 25% 50% | 1.1 |
+| 2026-12-07 | 50% 20% | 1.04 |
+| 2026-12-10 | 50% 98% | 1 |
+| 2026-12-12 | 50% 3% | 1.6 |
 
 ### Tabela medida no navegador
 
@@ -359,7 +371,7 @@ Trechos retirados da Liturgia Diária da CNBB, conferidos e aprovados em 05/11/2
 
 ### Comparação com a tabela prevista
 
-Nenhuma diferença em relação à tabela do prompt.
+Nenhuma diferença em relação à tabela do prompt 11.
 
 ### Obras, janelas e inspeção visual
 
@@ -369,14 +381,12 @@ As imagens originais foram preservadas. Borda do museu é aceita quando fica for
 
 Duccio · A vocação dos apóstolos Pedro e André · National Gallery of Art — https://www.nga.gov/artworks/282-calling-apostles-peter-and-andrew
 
-Foco 22% 50%, zoom 1; janela original x=103.890, y=0.000, largura=2127.774, altura=2443.000 px.
+Foco 10% 50%, zoom 1; janela original x=47.223, y=0.000, largura=2127.774, altura=2443.000 px.
 Margens uniformes visíveis: nenhuma.
 
-Cristo, Pedro e André preservam os corpos, rostos, mãos e, no caso de Cristo, os pés; as partes inferiores dos apóstolos já são ocultadas pelo barco na obra original. A curva do arco intercepta apenas a borda superior esquerda da auréola de Cristo, por isso a composição não está estritamente integral. O barco e parte das redes também saem à direita, sem cortar os corpos. Não há margem fotográfica dentro do arco.
+Card 1 e recorte conferidos após o ajuste: a auréola de Cristo fica inteira dentro do arco. Cristo, Pedro e André preservam os corpos, rostos e mãos na extensão em que aparecem na pintura; os pés de Cristo também ficam inteiros. As partes inferiores dos apóstolos já são ocultadas pelo barco na obra original. O barco e parte das redes continuam fora à direita, sem cortar os personagens. Não há margem fotográfica dentro do arco.
 
-A figura ou o grupo principal aparece parcialmente no recorte.
-
-Sugestão registrada, sem alterar o YAML: foco 10% 50%, zoom 1. Alternativa renderizada e inspecionada no card e no respectivo recorte: libera a auréola e mantém os três personagens na extensão em que aparecem na pintura. Sugestão somente; YAML aprovado 22% 50%, zoom 1 preservado.
+Ajuste aplicado no YAML e conferido no card e no recorte: foco 10% 50%, zoom 1. O foco antes sugerido foi aplicado ao YAML e às saídas finais, liberando a auréola sem cortar os três personagens.
 
 #### 2026-12-01
 
@@ -418,14 +428,14 @@ Cristo e os dois cegos ficam inteiros na extensão em que aparecem no original: 
 
 James Tissot · A escolha dos doze apóstolos · Brooklyn Museum — https://www.brooklynmuseum.org/objects/13407
 
-Foco 33% 50%, zoom 1.1; janela original x=242.977, y=45.909, largura=799.707, altura=918.182 px.
+Foco 25% 50%, zoom 1.1; janela original x=184.073, y=45.909, largura=799.707, altura=918.182 px.
 Margens uniformes visíveis: nenhuma.
 
-No foco aprovado 33% 50%, zoom 1.1, a mão de Cristo que se estende para a esquerda fica fora do arco, embora rosto, outra mão e pés estejam preservados. A maior parte do grupo dos Doze, à direita, também fica fora; alguns apóstolos são interceptados pela curva e pela lateral. Não há borda do museu dentro do arco. A composição horizontal de Cristo até o último apóstolo não cabe inteira no nicho fixo com zoom igual ou superior a 1.
+Card 1 e recorte conferidos após o ajuste: Cristo fica inteiro, inclusive a mão que se estende para a esquerda, o rosto, a outra mão e os pés. A maior parte do grupo dos Doze, à direita, continua fora; alguns apóstolos são interceptados pela curva e pela lateral. Não há borda do museu dentro do arco. A composição horizontal de Cristo até o último apóstolo não cabe inteira no nicho fixo com zoom igual ou superior a 1.
+
+Ajuste aplicado no YAML e conferido no card e no recorte: foco 25% 50%, zoom 1.1. O foco antes sugerido foi aplicado ao YAML e às saídas finais. Recupera Cristo inteiro sem trazer o papel do museu; os apóstolos da direita continuam parcialmente fora.
 
 A figura ou o grupo principal aparece parcialmente no recorte.
-
-Sugestão registrada, sem alterar o YAML: foco 25% 50%, zoom 1.1. Alternativa renderizada e inspecionada: recupera Cristo inteiro, inclusive a mão à esquerda, sem trazer o papel do museu. Os apóstolos da direita continuam parcialmente fora; não resolve a integralidade de todo o grupo. Sugestão somente; YAML aprovado preservado.
 
 #### 2026-12-06
 
@@ -444,14 +454,12 @@ Sugestão registrada, sem alterar o YAML: foco 40% 15%, zoom 1.05. Alternativa v
 
 James Tissot · O paralítico descido pelo telhado · Brooklyn Museum — https://www.brooklynmuseum.org/objects/4504
 
-Foco 50% 20%, zoom 1.1; janela original x=49.500, y=79.867, largura=990.000, altura=1136.667 px.
+Foco 50% 20%, zoom 1.04; janela original x=20.942, y=66.751, largura=1047.115, altura=1202.244 px.
 Margens uniformes visíveis: nenhuma.
 
-Card 1 e recorte conferidos: o paralítico suspenso, seu rosto e seus dois braços ficam preservados, assim como o rosto e o gesto de Jesus. A base faz um corte leve na parte inferior da figura sentada de Jesus, junto ao pé. Ajudantes no telhado e figurantes periféricos também são parciais, alguns já no original. O foco e o zoom aprovados foram preservados.
+Card 1 e recorte conferidos após o ajuste: o paralítico suspenso, seu rosto, os dois braços e as pernas visíveis na pintura ficam preservados. A parte inferior e o pé de Jesus, que antes eram interceptados pela base, ficam dentro do arco, assim como seu rosto e seu gesto. Os dois protagonistas permanecem inteiros na extensão em que aparecem no original. Ajudantes no telhado e figurantes periféricos continuam parciais, alguns já no original. Não há margem fotográfica dentro do arco.
 
-A figura ou o grupo principal aparece parcialmente no recorte.
-
-Sugestão registrada, sem alterar o YAML: foco 50% 20%, zoom 1.04. Alternativa verificada no contorno e no render isolado: inclui o pé e a parte inferior de Jesus e mantém o paralítico e seus gestos dentro do arco, sem margem fotográfica visível. Os figurantes periféricos e os ajudantes já cortados no original continuam parciais. Não aplicada ao YAML.
+Ajuste aplicado no YAML e conferido no card e no recorte: foco 50% 20%, zoom 1.04. O zoom antes sugerido foi aplicado ao YAML e às saídas finais. Inclui o pé e a parte inferior de Jesus sem perder o paralítico e seus gestos.
 
 #### 2026-12-08
 
@@ -479,20 +487,18 @@ A figura ou o grupo principal aparece parcialmente no recorte.
 
 Sugestão registrada, sem alterar o YAML: foco 48% 27%, zoom 3. Recomendação: manter o enquadramento aprovado, verificado no card e no recorte. Mostrar os corpos inteiros exigiria abrir a janela em direção às figuras que devem ficar excluídas. Não se recomenda abrir este recorte; priorizar os rostos e o gesto e manter o YAML intacto.
 
-Conferência especial de 9/12: o arco está fechado em Cristo e na mulher junto à mão dele. O homem com punhal, a mãe com o filho morto e a moldura estão fora do arco e fora do contorno indicado no recorte.
+Conferência especial de 9/12: o arco está fechado em Cristo e na mulher junto à mão dele. O homem com punhal, a mãe com o filho morto e a moldura estão fora do arco e fora do contorno indicado no recorte. Esta data não foi regenerada nesta revisão.
 
 #### 2026-12-10
 
 Geertgen tot Sint Jans · São João Batista no deserto · Gemäldegalerie — https://commons.wikimedia.org/wiki/File:Geertgen_tot_Sint_Jans_004.jpg
 
-Foco 50% 85%, zoom 1; janela original x=0.000, y=376.046, largura=1192.000, altura=1368.593 px.
+Foco 50% 98%, zoom 1; janela original x=0.000, y=433.559, largura=1192.000, altura=1368.593 px.
 Margens uniformes visíveis: nenhuma.
 
-Card 1 e recorte conferidos: o rosto, as duas mãos, as pernas e os pés de João Batista ficam dentro do arco, assim como o cordeiro. A única parte da figura cortada é a extremidade inferior do manto azul, que ultrapassa a base. O foco e o zoom aprovados foram preservados.
+Card 1 e recorte conferidos após o ajuste: João Batista fica inteiro dentro do arco, incluindo o rosto, as duas mãos, as pernas, os pés e a extremidade inferior do manto azul, agora acima da base. O cordeiro também fica inteiro. A ponta do manto permanece muito próxima da base, mas não é cortada. Não há margem fotográfica dentro do arco.
 
-A figura ou o grupo principal aparece parcialmente no recorte.
-
-Sugestão registrada, sem alterar o YAML: foco 50% 98%, zoom 1. Alternativa verificada no contorno e no render isolado: inclui a ponta inferior do manto e mantém rosto, mãos, pés e cordeiro dentro do arco, sem margem fotográfica visível. Não aplicada ao YAML.
+Ajuste aplicado no YAML e conferido no card e no recorte: foco 50% 98%, zoom 1. O foco antes sugerido foi aplicado ao YAML e às saídas finais, incluindo a ponta inferior do manto e preservando o rosto, as mãos, os pés e o cordeiro.
 
 #### 2026-12-11
 
@@ -507,16 +513,16 @@ Card 1 e recorte conferidos: Cristo sentado e os dois interlocutores de pé no c
 
 Piero di Cosimo · A Visitação · National Gallery of Art — https://www.nga.gov/artworks/505-visitation-saint-nicholas-and-saint-anthony-abbot
 
-Foco 50% 8%, zoom 1.55; janela original x=598.169, y=70.911, largura=1403.663, altura=1611.613 px.
+Foco 50% 3%, zoom 1.6; janela original x=620.101, y=28.103, largura=1359.798, altura=1561.250 px.
 Margens uniformes visíveis: nenhuma.
 
-Card 1 e recorte conferidos: Maria e Isabel ficam no centro, com rostos, halos e mãos inteiros; a base corta as partes inferiores das saias e os pés. Os rostos e corpos identificáveis de São Nicolau e Santo Antão ficam fora. Contudo, duas pequenas pontas vermelhas de seus mantos aparecem nas quinas inferiores internas do arco: à esquerda de Maria e à direita de Isabel; junto da ponta direita também há uma extremidade clara ligada ao objeto que o santo segura. Portanto, os santos não estão integralmente excluídos. Essa ressalva foi confirmada também pelo revisor principal. O foco e o zoom aprovados foram preservados; o STOP obrigatório de 9/12 não se aplica a esta data.
+Card 1 e recorte conferidos após o ajuste: Maria e Isabel ficam no centro, com rostos, halos e mãos inteiros; a base continua cortando as partes inferiores das saias e os pés. São Nicolau e Santo Antão ficam integralmente fora do arco, inclusive as pequenas pontas vermelhas dos mantos e a extremidade clara que apareciam nas quinas inferiores do enquadramento anterior. As figuras e os objetos excluídos permanecem visíveis somente na parte do original fora do contorno da prova de recorte. Não há margem fotográfica dentro do arco.
+
+Ajuste aplicado no YAML e conferido no card e no recorte: foco 50% 3%, zoom 1.6. O foco e o zoom antes sugeridos foram aplicados ao YAML e às saídas finais. Eliminam as pontas dos mantos e a extremidade clara, preservando os halos, rostos e mãos de Maria e Isabel. Saias inferiores e pés continuam fora.
 
 A figura ou o grupo principal aparece parcialmente no recorte.
 
-Sugestão registrada, sem alterar o YAML: foco 50% 3%, zoom 1.6. Alternativa verificada em render real isolado e confirmada por dois revisores: elimina as duas pontas dos mantos e a extremidade clara, preservando os halos, rostos e mãos de Maria e Isabel. Saias inferiores e pés continuam fora; o recorte não torna as figuras de corpo inteiro. Não aplicada ao YAML.
-
-Ressalva de 12/12: os santos da frente não ficam completamente fora do arco. Fragmentos dos mantos aparecem nas quinas inferiores; a nota visual registra a extensão visível e a sugestão de enquadramento, sem mudar o YAML.
+Conferência especial de 12/12: São Nicolau e Santo Antão ficam integralmente fora do arco, inclusive as pontas dos mantos e o pequeno objeto que apareciam nas quinas inferiores. Maria e Isabel preservam halos, rostos e mãos; as partes inferiores das saias e os pés continuam fora.
 
 ## O que conferir no Canva
 
@@ -525,10 +531,10 @@ Ressalva de 12/12: os santos da frente não ficam completamente fora do arco. Fr
 - O filete, o parapeito e o ornamento como formas.
 - Nenhuma caixa solta, inclusive caixas contendo somente um espaço, como observado na importação da Igreja Doméstica.
 
-A conferência independente está em [CONFERENCIA-PROMPT-11.md](CONFERENCIA-PROMPT-11.md), com [evidência detalhada](conferencia-prompt11.json).
+A conferência desta revisão está em [CONFERENCIA-ENQUADRAMENTOS.md](CONFERENCIA-ENQUADRAMENTOS.md), com [evidência detalhada](conferencia-enquadramentos.json). A [conferência do lote original](CONFERENCIA-PROMPT-11.md) é o registro histórico anterior aos cinco ajustes.
 
-O texto integral de todas as páginas foi comparado por PyMuPDF e pdftotext, preservando as fronteiras entre palavras. Espaços comuns, espaços inseparáveis e quebras são normalizados para um espaço, sem descartar os espaços entre palavras.
-Os treze PDFs novos ainda precisam da conferência de importação no Canva. As notas registram os recortes parciais e as sugestões, sem alterar foco e zoom aprovados.
+O texto integral dos PDFs foi comparado com os campos do YAML, preservando as fronteiras entre palavras. Espaços comuns, espaços inseparáveis e quebras são normalizados para um espaço, sem descartar os espaços entre palavras.
+Pendente: conferir a importação no Canva dos cinco PDFs regenerados. Em 5/12, os apóstolos da direita continuam parciais; em 12/12, as saias inferiores e os pés de Maria e Isabel continuam fora. As demais ressalvas das datas não alteradas permanecem registradas acima.
 <!-- fim-relatorio-lote-1 -->
 
 ## Árvore
@@ -628,10 +634,12 @@ saida/evangelho/
   2026-12-13/evangelho-2026-12-13.pdf
   2026-12-13/ficha.json
   2026-12-13/recorte.png
+  CONFERENCIA-ENQUADRAMENTOS.md
   CONFERENCIA-KIT-V3.md
   CONFERENCIA-PROMPT-11.md
   NOTAS-DAS-OBRAS-LOTE-1.json
   RELATORIO.md
+  conferencia-enquadramentos.json
   conferencia-kit-v3.json
   conferencia-prompt11.json
   prancha-cores.png

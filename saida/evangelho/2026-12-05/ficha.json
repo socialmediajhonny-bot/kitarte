@@ -7,7 +7,7 @@
     "arquivo": "obras/2026-12-05.jpg",
     "credito": "James Tissot · A escolha dos doze apóstolos · Brooklyn Museum",
     "pagina": "https://www.brooklynmuseum.org/objects/13407",
-    "foco": "33% 50%",
+    "foco": "25% 50%",
     "zoom": 1.1
   },
   "obra_pendente": false,
@@ -611,13 +611,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 194.615997,
+          "x": 199.800003,
           "y": 130.799988,
-          "width": 712.800049,
+          "width": 712.799988,
           "height": 818.400024,
           "text": null,
           "arquivo": "obras/2026-12-05.jpg",
-          "source": "http://127.0.0.1:34461/obras/2026-12-05.jpg",
+          "source": "http://127.0.0.1:45285/obras/2026-12-05.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -652,7 +652,7 @@
           "source_width_px": 1536,
           "source_height_px": 1010,
           "object_fit": "cover",
-          "object_position": "33% 50%"
+          "object_position": "25% 50%"
         },
         {
           "element": "credito",
@@ -840,7 +840,7 @@
         }
       ],
       "enquadramento": {
-        "foco": "33% 50%",
+        "foco": "25% 50%",
         "zoom": 1.1,
         "imagem_original": {
           "largura": 1536,
@@ -857,7 +857,7 @@
         "escala_cover": 0.7366336633663366,
         "escala_com_zoom": 0.8102970297029704,
         "janela_original": {
-          "x": 242.97677419354844,
+          "x": 184.07331378299122,
           "y": 45.909090909090935,
           "largura": 799.7067448680351,
           "altura": 918.1818181818181
@@ -2304,7 +2304,7 @@
     }
   ],
   "enquadramento": {
-    "foco": "33% 50%",
+    "foco": "25% 50%",
     "zoom": 1.1,
     "imagem_original": {
       "largura": 1536,
@@ -2321,7 +2321,7 @@
     "escala_cover": 0.7366336633663366,
     "escala_com_zoom": 0.8102970297029704,
     "janela_original": {
-      "x": 242.97677419354844,
+      "x": 184.07331378299122,
       "y": 45.909090909090935,
       "largura": 799.7067448680351,
       "altura": 918.1818181818181

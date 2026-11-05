@@ -7,7 +7,7 @@
     "arquivo": "obras/2026-12-10.jpg",
     "credito": "Geertgen tot Sint Jans · São João Batista no deserto · Gemäldegalerie",
     "pagina": "https://commons.wikimedia.org/wiki/File:Geertgen_tot_Sint_Jans_004.jpg",
-    "foco": "50% 85%",
+    "foco": "50% 98%",
     "zoom": 1
   },
   "obra_pendente": false,
@@ -610,7 +610,7 @@
           "height": 744,
           "text": null,
           "arquivo": "obras/2026-12-10.jpg",
-          "source": "http://127.0.0.1:34461/obras/2026-12-10.jpg",
+          "source": "http://127.0.0.1:32929/obras/2026-12-10.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -645,7 +645,7 @@
           "source_width_px": 1192,
           "source_height_px": 1811,
           "object_fit": "cover",
-          "object_position": "50% 85%"
+          "object_position": "50% 98%"
         },
         {
           "element": "credito",
@@ -833,7 +833,7 @@
         }
       ],
       "enquadramento": {
-        "foco": "50% 85%",
+        "foco": "50% 98%",
         "zoom": 1.0,
         "imagem_original": {
           "largura": 1192,
@@ -851,7 +851,7 @@
         "escala_com_zoom": 0.5436241610738255,
         "janela_original": {
           "x": 0.0,
-          "y": 376.04629629629625,
+          "y": 433.55925925925925,
           "largura": 1192.0,
           "altura": 1368.5925925925926
         },
@@ -2297,7 +2297,7 @@
     }
   ],
   "enquadramento": {
-    "foco": "50% 85%",
+    "foco": "50% 98%",
     "zoom": 1.0,
     "imagem_original": {
       "largura": 1192,
@@ -2315,7 +2315,7 @@
     "escala_com_zoom": 0.5436241610738255,
     "janela_original": {
       "x": 0.0,
-      "y": 376.04629629629625,
+      "y": 433.55925925925925,
       "largura": 1192.0,
       "altura": 1368.5925925925926
     },

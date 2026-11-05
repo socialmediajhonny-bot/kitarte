@@ -7,7 +7,7 @@
     "arquivo": "obras/2026-11-30.jpg",
     "credito": "Duccio · A vocação dos apóstolos Pedro e André · National Gallery of Art",
     "pagina": "https://www.nga.gov/artworks/282-calling-apostles-peter-and-andrew",
-    "foco": "22% 50%",
+    "foco": "10% 50%",
     "zoom": 1
   },
   "obra_pendente": false,
@@ -617,7 +617,7 @@
           "height": 744,
           "text": null,
           "arquivo": "obras/2026-11-30.jpg",
-          "source": "http://127.0.0.1:34461/obras/2026-11-30.jpg",
+          "source": "http://127.0.0.1:35731/obras/2026-11-30.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -652,7 +652,7 @@
           "source_width_px": 2600,
           "source_height_px": 2443,
           "object_fit": "cover",
-          "object_position": "22% 50%"
+          "object_position": "10% 50%"
         },
         {
           "element": "credito",
@@ -840,7 +840,7 @@
         }
       ],
       "enquadramento": {
-        "foco": "22% 50%",
+        "foco": "10% 50%",
         "zoom": 1.0,
         "imagem_original": {
           "largura": 2600,
@@ -857,7 +857,7 @@
         "escala_cover": 0.30454359394187475,
         "escala_com_zoom": 0.30454359394187475,
         "janela_original": {
-          "x": 103.8896774193548,
+          "x": 47.22258064516127,
           "y": 0.0,
           "largura": 2127.7741935483873,
           "altura": 2443.0
@@ -2311,7 +2311,7 @@
     }
   ],
   "enquadramento": {
-    "foco": "22% 50%",
+    "foco": "10% 50%",
     "zoom": 1.0,
     "imagem_original": {
       "largura": 2600,
@@ -2328,7 +2328,7 @@
     "escala_cover": 0.30454359394187475,
     "escala_com_zoom": 0.30454359394187475,
     "janela_original": {
-      "x": 103.8896774193548,
+      "x": 47.22258064516127,
       "y": 0.0,
       "largura": 2127.7741935483873,
       "altura": 2443.0

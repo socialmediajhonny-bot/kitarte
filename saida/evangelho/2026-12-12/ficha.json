@@ -7,8 +7,8 @@
     "arquivo": "obras/2026-12-12.jpg",
     "credito": "Piero di Cosimo · A Visitação · National Gallery of Art",
     "pagina": "https://www.nga.gov/artworks/505-visitation-saint-nicholas-and-saint-anthony-abbot",
-    "foco": "50% 8%",
-    "zoom": 1.55
+    "foco": "50% 3%",
+    "zoom": 1.6
   },
   "obra_pendente": false,
   "obra_usada": "obras/2026-12-12.jpg",
@@ -611,13 +611,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 37.800018,
-          "y": 135.264008,
-          "width": 1004.399902,
-          "height": 1153.199951,
+          "x": 21.599976,
+          "y": 154.608002,
+          "width": 1036.800049,
+          "height": 1190.400024,
           "text": null,
           "arquivo": "obras/2026-12-12.jpg",
-          "source": "http://127.0.0.1:34461/obras/2026-12-12.jpg",
+          "source": "http://127.0.0.1:42477/obras/2026-12-12.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -652,7 +652,7 @@
           "source_width_px": 2600,
           "source_height_px": 2498,
           "object_fit": "cover",
-          "object_position": "50% 8%"
+          "object_position": "50% 3%"
         },
         {
           "element": "credito",
@@ -840,8 +840,8 @@
         }
       ],
       "enquadramento": {
-        "foco": "50% 8%",
-        "zoom": 1.55,
+        "foco": "50% 3%",
+        "zoom": 1.6,
         "imagem_original": {
           "largura": 2600,
           "altura": 2498
@@ -855,12 +855,12 @@
           "altura": 744
         },
         "escala_cover": 0.2978382706164932,
-        "escala_com_zoom": 0.4616493194555645,
+        "escala_com_zoom": 0.4765412329863892,
         "janela_original": {
-          "x": 598.168574401665,
-          "y": 70.9109677419355,
-          "largura": 1403.66285119667,
-          "altura": 1611.6129032258063
+          "x": 620.100806451613,
+          "y": 28.102500000000006,
+          "largura": 1359.798387096774,
+          "altura": 1561.2499999999998
         },
         "margens_detectadas": {
           "topo": 0,
@@ -2304,8 +2304,8 @@
     }
   ],
   "enquadramento": {
-    "foco": "50% 8%",
-    "zoom": 1.55,
+    "foco": "50% 3%",
+    "zoom": 1.6,
     "imagem_original": {
       "largura": 2600,
       "altura": 2498
@@ -2319,12 +2319,12 @@
       "altura": 744
     },
     "escala_cover": 0.2978382706164932,
-    "escala_com_zoom": 0.4616493194555645,
+    "escala_com_zoom": 0.4765412329863892,
     "janela_original": {
-      "x": 598.168574401665,
-      "y": 70.9109677419355,
-      "largura": 1403.66285119667,
-      "altura": 1611.6129032258063
+      "x": 620.100806451613,
+      "y": 28.102500000000006,
+      "largura": 1359.798387096774,
+      "altura": 1561.2499999999998
     },
     "margens_detectadas": {
       "topo": 0,
