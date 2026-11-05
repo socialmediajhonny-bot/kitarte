@@ -37,25 +37,53 @@ class LayoutTests(unittest.TestCase):
         cls.addClassCleanup(cls.browser.close)
         cls.page = cls.browser.new_page(viewport={"width": 1080, "height": 1350})
         cls.days = load_content(PROJECT / "conteudo/evangelho.yaml")
-        cls.base = cls.days[0]
+        cls.by_date = {day["data"]: day for day in cls.days}
+        cls.base = cls.by_date["2026-11-29"]
 
-    def measure(self, day, kind):
+    def measure(self, day, kind, number=None):
+        number = kind if number is None else number
         path = self.folder / "card.html"
-        path.write_text(_document(day, kind, self.css, PROJECT / "saida/obra-provisoria.png"))
-        self.page.goto(self.url + resource_url(path))
-        await_fonts(self.page)
-        return _measure(self.page, kind, kind)
+
+        def render(style):
+            path.write_text(_document(day, kind, self.css, PROJECT / "saida/obra-provisoria.png", style))
+            self.page.goto(self.url + resource_url(path))
+            await_fonts(self.page)
+            return _measure(self.page, number, kind)
+
+        card = render("citacao-grande")
+        quote = next((text for text in card["textos"] if text["campo"] == "trecho"), None)
+        if quote and quote["quantidade_linhas"] > 3:
+            card = render("citacao")
+        return card
 
     def measure_reflection(self, day):
         return self.measure(day, 3)
 
-    def test_canva_pairs_and_centered_blocks_on_both_dates(self):
+    def test_canva_pairs_and_centered_blocks_on_all_dates(self):
         for day in self.days:
-            for kind, expected in ((2, 32), (3, 48), (4, 48)):
-                with self.subTest(data=day['data'], card=kind):
-                    result = _validate_layout(day, self.measure(day, kind))
+            kinds = [1, 2] + ([3] if day.get("reflexao") else []) + [4]
+            for number, kind in enumerate(kinds, 1):
+                if kind == 1:
+                    continue
+                expected = 32 if kind == 2 else 48
+                with self.subTest(data=day['data'], card=number, modelo=kind):
+                    result = _validate_layout(day, self.measure(day, kind, number))
                     self.assertAlmostEqual(result['par_canva']['distancia_px'], expected, places=2)
                     self.assertLessEqual(result['centralizacao_vertical']['diferenca_px'], 0.1)
+
+    def test_cross_chapter_invitation_keeps_the_complete_reference_in_bold(self):
+        day = self.by_date["2026-12-05"]
+        card = self.measure(day, 4, 3)
+        invitation = next(text for text in card["textos"] if text["campo"] == "convite")
+        self.assertEqual(
+            " ".join(invitation["conteudo"].split()),
+            "Abra sua Bíblia em Mateus 9,35-10,1.6-8",
+        )
+        self.assertEqual([text["texto"] for text in invitation["destaques"]],
+                         ["Mateus 9,35-10,1.6-8"])
+        self.assertTrue(all(text["peso"] == "700" for text in invitation["destaques"]))
+        self.assertNotIn("–", invitation["conteudo"])
+        self.assertNotIn("—", invitation["conteudo"])
 
     def assert_old_gap_rejected(self, kind, field, margin):
         self.measure(self.base, kind)

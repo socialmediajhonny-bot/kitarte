@@ -27,6 +27,262 @@
       vela acesa.
   pergunta: O que em mim está dormindo e precisa acordar neste Advento?
 
+- data: 2026-11-30
+  celebracao: Santo André, apóstolo (Festa)
+  cor: vermelho
+  referencia: Mt 4,18-22
+  titulo: Eles deixaram as redes na mesma hora
+  obra:
+    # Duccio di Buoninsegna, The Calling of the Apostles Peter and Andrew, 1308-1311,
+    # têmpera sobre madeira, 42,7 × 45,5 cm. NGA, Samuel H. Kress Collection.
+    # Domínio público: a página diz "free and in the public domain".
+    arquivo: obras/2026-11-30.jpg
+    credito: Duccio · A vocação dos apóstolos Pedro e André · National Gallery of Art
+    pagina: https://www.nga.gov/artworks/282-calling-apostles-peter-and-andrew
+    foco: 22% 50%
+    zoom: 1
+  trecho: |-
+    Segui-me,
+    e eu farei de vós
+    pescadores de homens.
+  trecho_ref: Mt 4,19
+  pergunta: Que rede eu preciso largar para seguir Jesus mais de perto?
+
+- data: 2026-12-01
+  celebracao: Terça-feira da 1ª Semana do Advento
+  cor: roxo
+  referencia: Lc 10,21-24
+  titulo: Deus se revela aos pequenos
+  obra:
+    # James Tissot, Suffer the Little Children to Come unto Me
+    # (Laisser venir à moi les petits enfants), 1886-1896, guache, 17,8 × 24 cm (horizontal).
+    # Brooklyn Museum 00.159.188. Domínio público (Tissot morreu em 1902).
+    # A cena é de Mt 19; entra pelos "pequeninos" do v. 21.
+    arquivo: obras/2026-12-01.jpg
+    credito: James Tissot · Deixai vir a mim as criancinhas · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4539
+    foco: 20% 45%
+    zoom: 1.1
+  trecho: Eu te louvo, Pai, Senhor do céu e da terra, porque escondeste essas coisas aos sábios e inteligentes, e as revelaste aos pequeninos.
+  trecho_ref: Lc 10,21
+  pergunta: Diante de Deus, eu chego como quem já sabe tudo ou como um pequeno?
+
+- data: 2026-12-02
+  celebracao: Quarta-feira da 1ª Semana do Advento
+  cor: roxo
+  referencia: Mt 15,29-37
+  titulo: Sete pães e uma multidão saciada
+  obra:
+    # James Tissot, The Miracle of the Loaves and Fishes (La multiplication des pains),
+    # 1886-1896, guache, 18,7 × 26,8 cm (horizontal). Brooklyn Museum 00.159.134.
+    # Domínio público.
+    arquivo: obras/2026-12-02.jpg
+    credito: James Tissot · A multiplicação dos pães · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/13423
+    foco: 50% 50%
+    zoom: 1.1
+  trecho: Tenho compaixão da multidão, porque já faz três dias que está comigo, e nada tem para comer.
+  trecho_ref: Mt 15,32
+  pergunta: O que eu tenho de pouco e posso pôr nas mãos de Jesus hoje?
+
+- data: 2026-12-03
+  celebracao: São Francisco Xavier, presbítero (Memória)
+  cor: ouro
+  referencia: Mt 7,21.24-27
+  titulo: A casa construída sobre a rocha
+  obra:
+    # James Tissot, The Sermon of the Beatitudes (La sermon des béatitudes), 1886-1896,
+    # guache, 24,4 × 16,4 cm (vertical). Brooklyn Museum 00.159.124. Domínio público.
+    # A parábola da casa fecha o Sermão da Montanha.
+    arquivo: obras/2026-12-03.jpg
+    credito: James Tissot · O sermão das bem-aventuranças · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/13418
+    foco: 50% 15%
+    zoom: 1.1
+  # Na CNBB o versículo começa com "Portanto, quem ouve…"; o trecho começa em "Quem".
+  trecho: Quem ouve estas minhas palavras e as põe em prática, é como um homem prudente, que construiu sua casa sobre a rocha.
+  trecho_ref: Mt 7,24
+  pergunta: O que eu já ouvi de Jesus e ainda não pus em prática?
+
+- data: 2026-12-04
+  celebracao: Sexta-feira da 1ª Semana do Advento
+  cor: roxo
+  referencia: Mt 9,27-31
+  titulo: Dois cegos que gritaram por misericórdia
+  obra:
+    # James Tissot, The Blind of Capernaum (Les aveugles de Capharnum), 1886-1896,
+    # guache, 26,7 × 13,7 cm (vertical, estreita). Brooklyn Museum 00.159.126.
+    # Domínio público. É o episódio deste Evangelho (Mt 9,27-31, em Cafarnaum).
+    arquivo: obras/2026-12-04.jpg
+    credito: James Tissot · Os cegos de Cafarnaum · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4505
+    foco: 50% 80%
+    zoom: 1.2
+  trecho: Faça-se conforme a vossa fé.
+  trecho_ref: Mt 9,29
+  pergunta: Que cegueira minha eu ainda não tive coragem de levar a Jesus?
+
+- data: 2026-12-05
+  celebracao: Sábado da 1ª Semana do Advento
+  cor: roxo
+  referencia: Mt 9,35-10,1.6-8
+  titulo: A messe é grande e faltam trabalhadores
+  obra:
+    # James Tissot, Ordaining of the Twelve Apostles (Election des douze apôtres),
+    # 1886-1894, guache, 17 × 26,8 cm (horizontal). Brooklyn Museum 00.159.98.
+    # Domínio público.
+    arquivo: obras/2026-12-05.jpg
+    credito: James Tissot · A escolha dos doze apóstolos · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/13407
+    foco: 33% 50%
+    zoom: 1.1
+  trecho: De graça recebestes, de graça deveis dar!
+  trecho_ref: Mt 10,8
+  pergunta: O que eu recebi de graça e ainda guardo só para mim?
+
+- data: 2026-12-06
+  celebracao: 2º Domingo do Advento
+  cor: roxo
+  referencia: Mc 1,1-8
+  titulo: Uma voz no deserto prepara o caminho
+  obra:
+    # James Tissot, The Voice in the Desert (La voix dans le désert), 1886-1894,
+    # guache, 29,1 × 17 cm (vertical). Brooklyn Museum 00.159.44. Domínio público.
+    arquivo: obras/2026-12-06.jpg
+    credito: James Tissot · A voz no deserto · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4447
+    foco: 40% 15%
+    zoom: 1.1
+  trecho: |-
+    Preparai o caminho do Senhor,
+    endireitai suas estradas!
+  trecho_ref: Mc 1,3
+  reflexao:
+    titulo: Endireitar o caminho
+    texto: >-
+      João Batista prepara a vinda de Jesus pedindo conversão. Endireitar
+      a estrada é tirar do caminho o que impede Deus de chegar: uma mágoa,
+      um vício, uma confissão adiada. Na Missa, repare na coroa com a
+      segunda vela acesa.
+  pergunta: O que está torto em mim e precisa ser endireitado para Jesus chegar?
+
+- data: 2026-12-07
+  celebracao: Santo Ambrósio, bispo e doutor da Igreja (Memória)
+  cor: ouro
+  referencia: Lc 5,17-26
+  titulo: Os amigos que abriram o telhado
+  obra:
+    # James Tissot, The Palsied Man Let Down through the Roof (Le paralytique descendu du toit),
+    # 1886-1896, guache, 23,7 × 16,7 cm (vertical). Brooklyn Museum 00.159.123. Domínio público.
+    arquivo: obras/2026-12-07.jpg
+    credito: James Tissot · O paralítico descido pelo telhado · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4504
+    foco: 50% 20%
+    zoom: 1.1
+  trecho: Homem, teus pecados estão perdoados.
+  trecho_ref: Lc 5,20
+  pergunta: Quem eu posso levar até Jesus na minha oração de hoje?
+
+- data: 2026-12-08
+  celebracao: Imaculada Conceição da Bem-aventurada Virgem Maria (Solenidade)
+  cor: ouro
+  referencia: Lc 1,26-38
+  titulo: O sim da cheia de graça
+  obra:
+    # Fra Angelico, La Anunciación, c. 1425-1426, têmpera sobre madeira.
+    # Museo del Prado, P000015. Domínio público (Wikimedia Commons: "Public domain").
+    # Arquivo na versão de 3.840 px do Wikimedia Commons.
+    arquivo: obras/2026-12-08.jpg
+    credito: Fra Angelico · A Anunciação · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:La_Anunciación,_by_Fra_Angelico,_from_Prado_in_Google_Earth.jpg
+    foco: 82% 40%
+    zoom: 1.3
+  trecho: |-
+    Alegra-te, cheia de graça,
+    o Senhor está contigo!
+  trecho_ref: Lc 1,28
+  pergunta: Que sim Deus está esperando de mim neste Advento?
+
+- data: 2026-12-09
+  celebracao: Quarta-feira da 2ª Semana do Advento
+  cor: roxo
+  referencia: Mt 11,28-30
+  titulo: Descanso para quem está cansado
+  obra:
+    # Ary Scheffer, Christus Consolator, 1851, óleo sobre tela, 65 × 87,6 cm (horizontal).
+    # Minneapolis Institute of Art 2008.101. A página diz "Public Domain".
+    # Uma das versões do quadro de 1837.
+    # RECORTE FECHADO EM CRISTO: o quadro tem um suicida com punhal e uma mãe com o
+    # filho morto, que não podem aparecer no arco.
+    arquivo: obras/2026-12-09.jpg
+    credito: Ary Scheffer · Cristo Consolador · Minneapolis Institute of Art
+    pagina: https://collections.artsmia.org/art/104894/christus-consolator-ary-scheffer
+    foco: 48% 27%
+    zoom: 3
+  trecho: Vinde a mim todos vós que estais cansados e fatigados sob o peso dos vossos fardos, e eu vos darei descanso.
+  trecho_ref: Mt 11,28
+  pergunta: Que peso eu ando carregando sozinho e preciso entregar a Jesus?
+
+- data: 2026-12-10
+  celebracao: Quinta-feira da 2ª Semana do Advento
+  cor: roxo
+  referencia: Mt 11,11-15
+  titulo: Ninguém foi maior que João
+  obra:
+    # Geertgen tot Sint Jans, Johannes der Täufer in der Wüste (John the Baptist in the
+    # Wilderness), c. 1480-1490, 41,5 × 27,9 cm (vertical). Gemäldegalerie, Staatliche
+    # Museen zu Berlin, inv. 1631. Domínio público (Wikimedia Commons: "Public domain").
+    arquivo: obras/2026-12-10.jpg
+    credito: Geertgen tot Sint Jans · São João Batista no deserto · Gemäldegalerie
+    pagina: https://commons.wikimedia.org/wiki/File:Geertgen_tot_Sint_Jans_004.jpg
+    foco: 50% 85%
+    zoom: 1
+  trecho: No entanto, o menor no Reino dos Céus é maior do que ele.
+  trecho_ref: Mt 11,11
+  pergunta: Onde eu quero ser grande aos olhos dos outros, e não aos olhos de Deus?
+
+- data: 2026-12-11
+  celebracao: Sexta-feira da 2ª Semana do Advento
+  cor: roxo
+  referencia: Mt 11,16-19
+  titulo: Uma geração que não quis dançar nem chorar
+  obra:
+    # James Tissot, The Meal in the House of Matthew (Le repas chez Mathieu), 1886-1896,
+    # guache, 19,5 × 26,7 cm (horizontal). Brooklyn Museum 00.159.94. Domínio público.
+    # Jesus à mesa com cobradores de impostos e pecadores (v. 19).
+    arquivo: obras/2026-12-11.jpg
+    credito: James Tissot · A refeição na casa de Mateus · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/13405
+    foco: 88% 25%
+    zoom: 1.3
+  trecho: |-
+    Tocamos flauta e vós não dançastes.
+    Entoamos lamentações
+    e vós não batestes no peito!
+  trecho_ref: Mt 11,17
+  pergunta: Que desculpa eu tenho dado para não responder quando Deus chama?
+
+- data: 2026-12-12
+  celebracao: Bem-aventurada Virgem Maria de Guadalupe, Padroeira principal da América (Festa)
+  cor: ouro
+  referencia: Lc 1,39-47
+  titulo: Maria parte às pressas pela montanha
+  obra:
+    # Piero di Cosimo, The Visitation with Saint Nicholas and Saint Anthony Abbot,
+    # c. 1489/1490, óleo sobre madeira, 184,2 × 188,6 cm. NGA, Samuel H. Kress Collection.
+    # Domínio público: a página diz "free and in the public domain".
+    # O recorte fica em Maria e Isabel, no centro; os dois santos da frente saem.
+    arquivo: obras/2026-12-12.jpg
+    credito: Piero di Cosimo · A Visitação · National Gallery of Art
+    pagina: https://www.nga.gov/artworks/505-visitation-saint-nicholas-and-saint-anthony-abbot
+    foco: 50% 8%
+    zoom: 1.55
+  trecho: |-
+    Bendita és tu entre as mulheres
+    e bendito é o fruto do teu ventre!
+  trecho_ref: Lc 1,42
+  pergunta: Quem está esperando uma visita minha, como Isabel esperou Maria?
+
 - data: 2026-12-13
   celebracao: 3º Domingo do Advento (Gaudete)
   cor: rosa

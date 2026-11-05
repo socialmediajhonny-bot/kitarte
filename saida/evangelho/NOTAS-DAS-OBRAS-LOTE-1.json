@@ -1,0 +1,115 @@
+{
+  "2026-11-30": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "Cristo, Pedro e André preservam os corpos, rostos, mãos e, no caso de Cristo, os pés; as partes inferiores dos apóstolos já são ocultadas pelo barco na obra original. A curva do arco intercepta apenas a borda superior esquerda da auréola de Cristo, por isso a composição não está estritamente integral. O barco e parte das redes também saem à direita, sem cortar os corpos. Não há margem fotográfica dentro do arco.",
+    "sugestao": {
+      "foco": "10% 50%",
+      "zoom": 1,
+      "nota": "Alternativa renderizada e inspecionada no card e no respectivo recorte: libera a auréola e mantém os três personagens na extensão em que aparecem na pintura. Sugestão somente; YAML aprovado 22% 50%, zoom 1 preservado."
+    }
+  },
+  "2026-12-01": {
+    "inspecionada": true,
+    "figuras_inteiras": true,
+    "nota": "Cristo, a mulher que apresenta a criança e a menina de roupa clara ao seu lado ficam inteiros na extensão em que estão pintados, com mãos e pés preservados. Participantes periféricos são recortados nas laterais e pela curva superior; a mãe sentada à direita aparece parcialmente. O papel da fotografia do museu fica inteiramente fora do arco."
+  },
+  "2026-12-02": {
+    "inspecionada": true,
+    "figuras_inteiras": true,
+    "nota": "O núcleo central da distribuição dos pães, incluindo as duas figuras que servem e o grupo imediatamente diante delas, permanece preservado na extensão visível na obra; pernas já ocultadas por outros participantes não são um corte novo. Vários integrantes periféricos da multidão são cortados nas laterais, pela curva e na base. Nenhuma borda de papel do museu entra no arco."
+  },
+  "2026-12-03": {
+    "inspecionada": true,
+    "figuras_inteiras": true,
+    "nota": "Cristo, que é a figura principal no alto do monte, fica inteiro: capuz, mãos erguidas, vestes e pés dentro do arco. A plateia periférica, especialmente os ouvintes em primeiro plano, é cortada na base e à direita. A borda fotográfica do museu fica fora do recorte."
+  },
+  "2026-12-04": {
+    "inspecionada": true,
+    "figuras_inteiras": true,
+    "nota": "Cristo e os dois cegos ficam inteiros na extensão em que aparecem no original: rostos, mãos erguidas ou estendidas, vestes e pés preservados. O pé do cego em primeiro plano está muito próximo da base, mas permanece dentro dela. O observador atrás de Cristo já aparece parcialmente oculto na própria pintura. As faixas cinzentas externas da fotografia ficam fora do arco."
+  },
+  "2026-12-05": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "No foco aprovado 33% 50%, zoom 1.1, a mão de Cristo que se estende para a esquerda fica fora do arco, embora rosto, outra mão e pés estejam preservados. A maior parte do grupo dos Doze, à direita, também fica fora; alguns apóstolos são interceptados pela curva e pela lateral. Não há borda do museu dentro do arco. A composição horizontal de Cristo até o último apóstolo não cabe inteira no nicho fixo com zoom igual ou superior a 1.",
+    "sugestao": {
+      "foco": "25% 50%",
+      "zoom": 1.1,
+      "nota": "Alternativa renderizada e inspecionada: recupera Cristo inteiro, inclusive a mão à esquerda, sem trazer o papel do museu. Os apóstolos da direita continuam parcialmente fora; não resolve a integralidade de todo o grupo. Sugestão somente; YAML aprovado preservado."
+    }
+  },
+  "2026-12-06": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "Card 1 e recorte conferidos: o rosto de João Batista, os braços e as duas mãos erguidas ficam inteiros dentro do arco. A base corta a figura logo abaixo da túnica, deixando as pernas inferiores e os pés de fora. O foco e o zoom aprovados foram preservados.",
+    "sugestao": {
+      "foco": "40% 15%",
+      "zoom": 1.05,
+      "nota": "Alternativa verificada em render isolado: abre um pouco o enquadramento, preserva rosto e mãos e continua sem margem fotográfica visível. As pernas ainda ficam parciais; não resolve a figura de corpo inteiro. Abrir até zoom 1 mostra as bordas laterais da foto, e descer o foco para tentar incluir os pés compromete as mãos junto à curva. Recomenda-se priorizar o rosto e o gesto, como no enquadramento aprovado. Não aplicada ao YAML."
+    }
+  },
+  "2026-12-07": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "Card 1 e recorte conferidos: o paralítico suspenso, seu rosto e seus dois braços ficam preservados, assim como o rosto e o gesto de Jesus. A base faz um corte leve na parte inferior da figura sentada de Jesus, junto ao pé. Ajudantes no telhado e figurantes periféricos também são parciais, alguns já no original. O foco e o zoom aprovados foram preservados.",
+    "sugestao": {
+      "foco": "50% 20%",
+      "zoom": 1.04,
+      "nota": "Alternativa verificada no contorno e no render isolado: inclui o pé e a parte inferior de Jesus e mantém o paralítico e seus gestos dentro do arco, sem margem fotográfica visível. Os figurantes periféricos e os ajudantes já cortados no original continuam parciais. Não aplicada ao YAML."
+    }
+  },
+  "2026-12-08": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "Card 1 e recorte conferidos: os rostos, halos e mãos de Maria e Gabriel ficam inteiros, e as vestes principais são legíveis. O arco corta a extremidade esquerda da asa de Gabriel e a ponta lateral de sua veste. Maria permanece inteira no enquadramento aprovado, com a veste próxima da borda direita. O foco e o zoom aprovados foram preservados.",
+    "sugestao": {
+      "foco": "82% 20%",
+      "zoom": 1.12,
+      "nota": "Alternativa verificada no contorno e no render isolado: inclui a ponta da asa e a veste de Gabriel, preservando Maria, rostos, halos e mãos. Não mostra margem fotográfica, mas inclui mais arquitetura, moldura interna e uma faixa da predela na base; esse é o custo de abrir o recorte. Não aplicada ao YAML."
+    }
+  },
+  "2026-12-09": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "Card 1 e recorte conferidos: o enquadramento fechado preserva a cabeça e o rosto de Cristo, a mão aberta e o rosto da mulher encostado na mão dele. Os corpos são parciais pela base e pela lateral direita, intencionalmente. O suicida com punhal, a mãe com o filho morto e toda a moldura ficam fora do arco; o topo vermelho da mãe chega perto, mas permanece abaixo da linha inferior do contorno. O recorte mostra essas figuras apenas na parte do original fora do arco. Nenhuma condição de parada foi acionada. Revisão confirmada também pelo revisor principal.",
+    "sugestao": {
+      "foco": "48% 27%",
+      "zoom": 3,
+      "nota": "Recomendação: manter o enquadramento aprovado, verificado no card e no recorte. Mostrar os corpos inteiros exigiria abrir a janela em direção às figuras que devem ficar excluídas. Não se recomenda abrir este recorte; priorizar os rostos e o gesto e manter o YAML intacto."
+    },
+    "verificacao_especial": {
+      "suicida_fora_do_arco": true,
+      "mae_e_filho_morto_fora_do_arco": true,
+      "moldura_fora_do_arco": true
+    }
+  },
+  "2026-12-10": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "Card 1 e recorte conferidos: o rosto, as duas mãos, as pernas e os pés de João Batista ficam dentro do arco, assim como o cordeiro. A única parte da figura cortada é a extremidade inferior do manto azul, que ultrapassa a base. O foco e o zoom aprovados foram preservados.",
+    "sugestao": {
+      "foco": "50% 98%",
+      "zoom": 1,
+      "nota": "Alternativa verificada no contorno e no render isolado: inclui a ponta inferior do manto e mantém rosto, mãos, pés e cordeiro dentro do arco, sem margem fotográfica visível. Não aplicada ao YAML."
+    }
+  },
+  "2026-12-11": {
+    "inspecionada": true,
+    "figuras_inteiras": true,
+    "nota": "Card 1 e recorte conferidos: Cristo sentado e os dois interlocutores de pé no centro ficam inteiros, incluindo seus rostos, mãos, vestes e pés visíveis na pintura. O figurante sentado de azul na borda inferior esquerda fica parcial, e outros figurantes periféricos são excluídos, sem cortar as figuras principais. O foco e o zoom aprovados foram preservados."
+  },
+  "2026-12-12": {
+    "inspecionada": true,
+    "figuras_inteiras": false,
+    "nota": "Card 1 e recorte conferidos: Maria e Isabel ficam no centro, com rostos, halos e mãos inteiros; a base corta as partes inferiores das saias e os pés. Os rostos e corpos identificáveis de São Nicolau e Santo Antão ficam fora. Contudo, duas pequenas pontas vermelhas de seus mantos aparecem nas quinas inferiores internas do arco: à esquerda de Maria e à direita de Isabel; junto da ponta direita também há uma extremidade clara ligada ao objeto que o santo segura. Portanto, os santos não estão integralmente excluídos. Essa ressalva foi confirmada também pelo revisor principal. O foco e o zoom aprovados foram preservados; o STOP obrigatório de 9/12 não se aplica a esta data.",
+    "sugestao": {
+      "foco": "50% 3%",
+      "zoom": 1.6,
+      "nota": "Alternativa verificada em render real isolado e confirmada por dois revisores: elimina as duas pontas dos mantos e a extremidade clara, preservando os halos, rostos e mãos de Maria e Isabel. Saias inferiores e pés continuam fora; o recorte não torna as figuras de corpo inteiro. Não aplicada ao YAML."
+    },
+    "verificacao_especial": {
+      "santos_frente_fora_do_arco": false
+    }
+  }
+}

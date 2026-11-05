@@ -28,11 +28,20 @@ class ContentTests(unittest.TestCase):
         return load_content(self.file)
 
     def test_exact_content_preserves_manual_and_folded_lines(self):
-        self.assertEqual([day["data"] for day in self.days], ["2026-11-29", "2026-12-13"])
-        self.assertEqual(self.days[0]["titulo"], "O Senhor vem.\nFique acordado.")
-        self.assertEqual(self.days[0]["trecho"], "O que vos digo, digo a todos:\nVigiai!")
-        self.assertNotIn("\n", self.days[0]["reflexao"]["texto"])
-        self.assertEqual(self.days[1]["obra"]["pagina"], "https://www.brooklynmuseum.org/objects/4449")
+        self.assertEqual(
+            [day["data"] for day in self.days],
+            ["2026-11-29", "2026-11-30"]
+            + [f"2026-12-{number:02d}" for number in range(1, 14)],
+        )
+        by_date = {day["data"]: day for day in self.days}
+        self.assertEqual(by_date["2026-11-29"]["titulo"], "O Senhor vem.\nFique acordado.")
+        self.assertEqual(by_date["2026-11-29"]["trecho"], "O que vos digo, digo a todos:\nVigiai!")
+        self.assertNotIn("\n", by_date["2026-11-29"]["reflexao"]["texto"])
+        self.assertEqual(by_date["2026-12-13"]["obra"]["pagina"], "https://www.brooklynmuseum.org/objects/4449")
+        self.assertEqual(by_date["2026-11-30"]["trecho"],
+                         "Segui-me,\ne eu farei de vós\npescadores de homens.")
+        self.assertNotIn("\n", by_date["2026-12-06"]["reflexao"]["texto"])
+        self.assertEqual(by_date["2026-12-05"]["referencia"], "Mt 9,35-10,1.6-8")
 
     def test_unknown_fields_rejected_at_each_level(self):
         for nested, label in ((None, "dia 1"), ("obra", "obra"), ("reflexao", "reflexao")):

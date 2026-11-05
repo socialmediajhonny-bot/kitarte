@@ -31,6 +31,10 @@ Edite somente `conteudo/evangelho.yaml` e os arquivos locais em `obras/`. A refe
 
 Domingos exigem reflexão e geram quatro cards. Sem reflexão são três cards; reflexão em dia de semana emite aviso. Campos desconhecidos, conteúdo inválido, texto acima do limite ou falha nas verificações interrompem a geração. As quebras manuais são preservadas, e palavras de uma letra ficam ligadas à palavra seguinte.
 
+O Lote 1 acrescenta os treze carrosséis de 30/11 a 12/12/2026: doze dias de semana com três cards e o domingo de 6/12 com quatro. Os trechos foram tirados da Liturgia Diária da CNBB e aprovados em 05/11/2026; pontuação, acentos e quebras manuais foram preservados, assim como o conteúdo de 29/11 e 13/12.
+
+Uma obra com borda do museu é aceita quando a borda fica fora do arco no foco e zoom aprovados. As imagens originais são preservadas; um teste próprio registra as margens e faixas descartadas e exige ausência de margem visível nos enquadramentos do lote. Cada data recebe sua prova de recorte.
+
 As cores aceitas são `verde`, `roxo`, `ouro` (ou `branco`), `vermelho` e `rosa`. `celebracao` e `obra.pagina` são metadados do relatório, sem aparecer nos cards. Nenhuma obra é baixada: quando `obra.arquivo` não existe, usa-se `saida/obra-provisoria.png`, com indicação de obra pendente. Uma obra local real também gera `recorte.png` para ajustar o foco do arco.
 
 O PDF mantém texto e fontes embutidas para importar um carrossel como um design no Canva. Nos cards 2, 3 e 4, o gerador aplica margens inline em tokens: 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026). O bloco permanece centralizado entre o selo e o logo. A validação mede esses pares no navegador e interrompe a geração se diferirem mais de 0,01 px.

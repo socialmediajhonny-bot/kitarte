@@ -12,6 +12,19 @@ from arteque_reza.conteudo_santo import load_saints
 from arteque_reza.obras import artwork_geometry, crop_proof, inspect_artwork, uniform_margins
 
 
+LOT_ONE_MUSEUM_MARGINS = {
+    '2026-12-01': {'base': 20, 'esquerda': 19, 'direita': 26},
+    '2026-12-02': {'topo': 7, 'base': 10, 'esquerda': 19, 'direita': 16},
+    '2026-12-03': {'base': 15, 'esquerda': 15, 'direita': 15},
+    '2026-12-04': {},
+    '2026-12-05': {'esquerda': 34, 'direita': 33},
+    '2026-12-06': {'base': 18, 'esquerda': 15, 'direita': 14},
+    '2026-12-07': {'topo': 12, 'base': 4, 'esquerda': 13, 'direita': 9},
+    '2026-12-09': {'topo': 20, 'base': 20, 'esquerda': 27, 'direita': 23},
+    '2026-12-11': {'base': 22, 'esquerda': 15, 'direita': 14},
+}
+
+
 class ArtworkTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -194,6 +207,7 @@ class ArtworkTests(unittest.TestCase):
     def test_other_repository_paintings_have_no_uniform_bands(self):
         excluded = {'obras/2026-11-29.jpg', 'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg',
                     'obras/igreja-domestica/2026-12-06.jpg'}
+        excluded.update(f'obras/{day}.jpg' for day in LOT_ONE_MUSEUM_MARGINS)
         for artwork in sorted((PROJECT / 'obras').rglob('*.jpg')):
             if artwork.relative_to(PROJECT).as_posix() in excluded:
                 continue
@@ -201,6 +215,35 @@ class ArtworkTests(unittest.TestCase):
                 result = inspect_artwork(artwork, '50% 50%')
                 self.assertFalse(any(result['margens_detectadas'].values()))
                 self.assertEqual(result['faixas_descartadas'], [])
+
+    def test_gospel_batch_one_museum_borders_stay_outside_the_approved_windows(self):
+        days = {day['data']: day for day in load_content(PROJECT / 'conteudo/evangelho.yaml')}
+        discarded_expected = {'topo': (38, 4.6), 'base': (23, 3.5),
+                              'esquerda': (45, 4.7), 'direita': (45, 4.0)}
+        for date, expected in LOT_ONE_MUSEUM_MARGINS.items():
+            with self.subTest(date=date):
+                artwork = PROJECT / f'obras/{date}.jpg'
+                centered = inspect_artwork(artwork, '50% 50%', date=date)
+                margins = dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0)
+                margins.update(expected)
+                self.assertEqual(centered['margens_detectadas'], margins)
+                if date == '2026-12-04':
+                    bands = centered['faixas_descartadas']
+                    self.assertEqual({band['lado'] for band in bands}, set(discarded_expected))
+                    for band in bands:
+                        width, difference = discarded_expected[band['lado']]
+                        self.assertEqual(band['largura'], width)
+                        self.assertAlmostEqual(band['diferenca_cinza'], difference, delta=.05)
+                else:
+                    self.assertEqual(centered['faixas_descartadas'], [])
+        batch_dates = ['2026-11-30'] + [f'2026-12-{number:02d}' for number in range(1, 13)]
+        for date in batch_dates:
+            with self.subTest(approved=date):
+                work = days[date]['obra']
+                approved = inspect_artwork(PROJECT / work['arquivo'], work['foco'],
+                                           work.get('zoom', 1), date=date)
+                self.assertEqual(approved['margens_visiveis'], [])
+                self.assertEqual(approved['avisos'], [])
 
     def test_education_dark_base_is_discarded_without_a_photo_margin_warning(self):
         result = inspect_artwork(PROJECT / 'obras/igreja-domestica/2026-12-06.jpg',
@@ -213,10 +256,16 @@ class ArtworkTests(unittest.TestCase):
         self.assertAlmostEqual(band['diferenca_cinza'], .04195, places=5)
 
     def test_the_five_requested_new_framings_have_no_visible_uniform_margin(self):
-        gospel = load_content(PROJECT / 'conteudo/evangelho.yaml')
-        saints = load_saints(PROJECT / 'conteudo/santo-do-dia.yaml')
-        expected = [('45% 50%', 1.1), ('50% 50%', 1.1), ('45% 15%', 1.05), ('50% 0%', 1.3), ('50% 20%', 1)]
-        for day, (focus, zoom) in zip(gospel + saints, expected):
+        gospel = {day['data']: day for day in load_content(PROJECT / 'conteudo/evangelho.yaml')}
+        saints = {day['data']: day for day in load_saints(PROJECT / 'conteudo/santo-do-dia.yaml')}
+        expected = [
+            (gospel['2026-11-29'], '45% 50%', 1.1),
+            (gospel['2026-12-13'], '50% 50%', 1.1),
+            (saints['2026-11-30'], '45% 15%', 1.05),
+            (saints['2026-12-03'], '50% 0%', 1.3),
+            (saints['2026-12-08'], '50% 20%', 1),
+        ]
+        for day, focus, zoom in expected:
             with self.subTest(date=day['data']):
                 self.assertEqual(day['obra']['foco'], focus)
                 self.assertEqual(day['obra'].get('zoom', 1), zoom)
@@ -225,7 +274,7 @@ class ArtworkTests(unittest.TestCase):
                                          niche_width=size[0], niche_height=size[1], date=day['data'])
                 self.assertEqual(result['margens_visiveis'], [])
                 self.assertEqual(result['avisos'], [])
-        self.assertNotIn('zoom', saints[-1]['obra'])
+        self.assertNotIn('zoom', saints['2026-12-08']['obra'])
 
     def test_crop_proof_uses_the_zoomed_window_on_the_full_original(self):
         output = self.folder / 'recorte.png'
