@@ -460,44 +460,6 @@
           }
         },
         {
-          "element": "nicho-filete",
-          "kind": "pseudo",
-          "pseudo": "::before",
-          "host": "nicho",
-          "x": 240,
-          "y": 168,
-          "width": 600,
-          "height": 680,
-          "text": null,
-          "arquivo": null,
-          "token": "cor-do-dia",
-          "hex": "#866420",
-          "background_hex": null,
-          "border_top_px": 3,
-          "border_right_px": 3,
-          "border_bottom_px": 0,
-          "border_left_px": 3,
-          "border_radius_px": {
-            "top_left": [
-              300,
-              300
-            ],
-            "top_right": [
-              300,
-              300
-            ],
-            "bottom_right": [
-              0,
-              0
-            ],
-            "bottom_left": [
-              0,
-              0
-            ]
-          },
-          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
-        },
-        {
           "element": "nicho-parapeito",
           "kind": "pseudo",
           "pseudo": "::after",
@@ -534,6 +496,48 @@
             ]
           },
           "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 240,
+          "y": 168,
+          "width": 600,
+          "height": 680,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
         },
         {
           "element": "nicho-recorte",
@@ -586,7 +590,7 @@
           "height": 664,
           "text": null,
           "arquivo": "obras/coragem/2026-12-14.jpg",
-          "source": "http://127.0.0.1:45951/obras/coragem/2026-12-14.jpg",
+          "source": "http://127.0.0.1:41847/obras/coragem/2026-12-14.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -1333,44 +1337,6 @@
           }
         },
         {
-          "element": "nicho-filete",
-          "kind": "pseudo",
-          "pseudo": "::before",
-          "host": "nicho",
-          "x": 180,
-          "y": 328,
-          "width": 720,
-          "height": 900,
-          "text": null,
-          "arquivo": null,
-          "token": "cor-do-dia",
-          "hex": "#866420",
-          "background_hex": null,
-          "border_top_px": 3,
-          "border_right_px": 3,
-          "border_bottom_px": 0,
-          "border_left_px": 3,
-          "border_radius_px": {
-            "top_left": [
-              360,
-              360
-            ],
-            "top_right": [
-              360,
-              360
-            ],
-            "bottom_right": [
-              0,
-              0
-            ],
-            "bottom_left": [
-              0,
-              0
-            ]
-          },
-          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
-        },
-        {
           "element": "nicho-parapeito",
           "kind": "pseudo",
           "pseudo": "::after",
@@ -1407,6 +1373,48 @@
             ]
           },
           "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 180,
+          "y": 328,
+          "width": 720,
+          "height": 900,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
         },
         {
           "element": "nicho-recorte",
@@ -1459,7 +1467,7 @@
           "height": 884,
           "text": null,
           "arquivo": "obras/coragem/2026-12-14.jpg",
-          "source": "http://127.0.0.1:45951/obras/coragem/2026-12-14.jpg",
+          "source": "http://127.0.0.1:41847/obras/coragem/2026-12-14.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,

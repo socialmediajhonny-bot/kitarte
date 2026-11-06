@@ -27,6 +27,7 @@ from .base import (PROJECT, KIT, CRUZ_PATH, assinatura, await_fonts, color,
 from .conteudo import load_content, date_label, expanded_reference, text_html, color_token
 from .ficha import measure_page
 from .obras import artwork_geometry, crop_proof, inspect_artwork
+from .pdf_nicho import niches_from_elements, validate_niche_pdf
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
@@ -266,7 +267,8 @@ def _pixels(path: Path, day: dict, card: dict) -> dict:
     return result
 
 
-def _pdf_check(path: Path, day: dict, count: int) -> dict:
+def _pdf_check(path: Path, day: dict, count: int,
+               cards: list[dict] | None = None) -> dict:
     import fitz
     errors=[];pages=[];font_records={};combined=''
     with fitz.open(path) as doc:
@@ -302,9 +304,20 @@ def _pdf_check(path: Path, day: dict, count: int) -> dict:
             match=re.search(r'\s(yes|no)\s+(yes|no)\s+(yes|no)\s+\d+\s+\d+\s*$',line)
             if match and match.group(1)!='yes':errors.append('pdffonts: fonte não embutida '+line)
     else:errors.append('pdffonts indisponível.')
+    vector_niche = None
+    if cards is not None:
+        if len(cards) != count:
+            errors.append(f'{path.name}: medições não correspondem às {count} páginas esperadas.')
+        niches = [niche for number, card in enumerate(cards, 1)
+                  for niche in niches_from_elements(card['elementos'], page=number)]
+        if len(niches) != 1:
+            errors.append(f'{path.name}: esperado um único nicho medido na capa; encontrados {len(niches)}.')
+        vector_niche = validate_niche_pdf(path, niches)
+        errors.extend(vector_niche['errors'])
     result={'ok':not errors,'paginas':pages,'fontes':list(font_records.values()),
             'pdffonts':poppler,'titulo_extraivel':title in normalized,
-            'convite_extraivel':'Abra sua Bíblia' in normalized,'errors':errors}
+            'convite_extraivel':'Abra sua Bíblia' in normalized,
+            'nicho_vetorial':vector_niche,'errors':errors}
     if errors:raise ValueError('; '.join(errors))
     return result
 
@@ -341,7 +354,7 @@ def _report(output: Path, records: list[dict], checks: dict, pending: list[str])
     lines=['# Evangelho do Dia','',
            '`python gerar.py evangelho` · seleção: `python gerar.py evangelho --data AAAA-MM-DD`','',
            '## Decisões','',
-           '- A composição vem de PostEvangelho/preview.html e bundle.css; a capa usa um img dentro do arco CSS, sem SVG sobre a imagem.',
+           '- A composição vem de PostEvangelho/preview.html e bundle.css; a capa mantém a obra dentro do arco CSS e desenha somente o filete como uma faixa vetorial em U, com um único path preenchido. O parapeito permanece separado.',
            '- 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026). O gerador acrescenta margens inline em tokens ao gap de 16 px do kit e mede os pares no navegador, com tolerância de ±0,01 px.',
            '- O card final resolve a cor no tema pergaminho e usa o logo sobre-cor da versão 2. Os demais usam capela.',
            '- Textos sem quebras manuais usam balanceamento do navegador, inclusive o corpo da reflexão. Quebras YAML são `<br>`; espaços após a, à, e, é e o são inseparáveis.',
@@ -371,6 +384,8 @@ def _report(output: Path, records: list[dict], checks: dict, pending: list[str])
         lines.append('Nenhuma margem uniforme da foto está visível nos enquadramentos selecionados.')
     lines += ['', '## Conferência', '',
               'PNG exatos; limites de linhas; palavras de uma letra; afastamento de 32 px do logo; pares de 32 e 48 px para o Canva; centralização vertical; cruz, fundo e filete por pixel; páginas PDF de 810 × 1012,5 pt; quatro variantes embutidas por pdffonts; título e convite extraíveis. Os valores estão em verificacao.json e ficha.json.',
+              '', 'Em cada PDF, PyMuPDF exige um único preenchimento curvo na cor e na caixa do nicho, nenhuma borda antiga feita apenas de retângulos recortados e um parapeito retangular separado de 3 px. Uma falha interrompe a geração. O resultado fica em nicho_vetorial na verificação de cada PDF.',
+              '', 'No Canva, conferir o filete (forma em U, sem imagem por trás), o parapeito e o ornamento como formas.',
               '', 'A regra dos espaços foi aprovada no teste de importação no Canva de 29/10/2026, registrado em saida/teste-canva/LEIA-ME.md. Esta geração valida os novos PDFs; sua importação no editor permanece uma conferência manual.']
     if pending:
         lines += ['', 'Obras pendentes: '+', '.join(pending)+'. Não foi possível verificar seus focos nem gerar recortes reais; o lugar delas foi preservado com a obra provisória.']
@@ -437,7 +452,7 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
                 reader=PdfReader(part)
                 for pdfpage in reader.pages:writer.add_page(pdfpage)
             with pdf.open('wb') as stream:writer.write(stream)
-            pdfcheck=_pdf_check(pdf,day,len(cards))
+            pdfcheck=_pdf_check(pdf,day,len(cards),cards)
             if not pending:
                 _crop_proof(artwork,folder/'recorte.png',day['obra']['foco'],
                             zoom=day['obra'].get('zoom', 1), date=day['data'])

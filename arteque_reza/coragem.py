@@ -19,6 +19,7 @@ from .conteudo import color_token, date_label, local_artwork_path
 from .conteudo_coragem import load_courage
 from .evangelho import _measure as measure_evangelho, _text
 from .obras import artwork_geometry, crop_proof, inspect_artwork
+from .pdf_nicho import niches_from_elements, validate_niche_pdf
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
@@ -191,8 +192,11 @@ def _pdf_check(path: Path, day: dict, measured: dict) -> dict:
         for field in ('frase', 'referencia'):
             if compact(day[field]) not in compact(extracted): errors.append(f'pdftotext: {field} diferente do YAML.')
     else: errors.append('pdftotext indisponível.')
+    vector_niche = validate_niche_pdf(path, niches_from_elements(measured['elementos']))
+    errors.extend(vector_niche['errors'])
     result = {'ok': not errors, 'paginas': pages, 'fontes': list(fonts.values()),
         'textos': text_checks, 'pdffonts': poppler, 'pdftotext': extracted,
+        'nicho_vetorial': vector_niche,
         'igualdade_texto_integral': {'pymupdf': pymupdf_equal, 'pdftotext': pdftotext_equal,
             'esperado_sem_espacos': expected_text, 'pymupdf_sem_espacos': pymupdf_text,
             'pdftotext_sem_espacos': compact(extracted) if extracted is not None else None},
@@ -297,6 +301,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         'Avisos de margem: '+(str(len(checks['avisos']))+'; recomendações por formato acima.' if checks['avisos'] else 'nenhum nos dois formatos das obras reais fornecidas.'),
         '', '## Conferências e limites', '',
         'Foram conferidos dimensões dos PNGs, cores da cruz e do filete por pixel, linhas reais com Range, limites e distâncias. PDFs com uma página em 810 × 1012,5 pt no feed e 810 × 1440 pt no status; fontes TTF usadas embutidas por pdffonts e texto do YAML verificado por pdftotext desconsiderando espaços e quebras.',
+        'O filete do nicho é uma faixa vetorial em U. PyMuPDF exige no PDF um preenchimento curvo na caixa do nicho, nenhuma assinatura da borda antiga feita de retângulos recortados e um parapeito retangular separado de 3 px. O resultado fica em nicho_vetorial e uma falha interrompe a geração.',
         '', 'A regra dos espaços foi aprovada no teste do Canva de 29/10/2026; os PDFs desta geração não foram reimportados. As margens são diagnosticadas por linhas/colunas uniformes com contraste de pelo menos 10 níveis de cinza em relação às 16 linhas/colunas seguintes; faixas sem esse contraste ficam registradas como descartadas. A recomendação conserva a arte gerada e serve para ajuste posterior.',
         '', '## Árvore', '', '```text', 'saida/coragem/']
     names = {path.relative_to(target).as_posix() for path in target.rglob('*') if path.is_file()}; names.add('RELATORIO.md')

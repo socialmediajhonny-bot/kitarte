@@ -47,6 +47,7 @@ Avisos de margem: nenhum nos dois formatos das obras reais fornecidas.
 ## Conferências e limites
 
 Foram conferidos dimensões dos PNGs, cores da cruz e do filete por pixel, linhas reais com Range, limites e distâncias. PDFs com uma página em 810 × 1012,5 pt no feed e 810 × 1440 pt no status; fontes TTF usadas embutidas por pdffonts e texto do YAML verificado por pdftotext desconsiderando espaços e quebras.
+O filete do nicho é uma faixa vetorial em U. PyMuPDF exige no PDF um preenchimento curvo na caixa do nicho, nenhuma assinatura da borda antiga feita de retângulos recortados e um parapeito retangular separado de 3 px. O resultado fica em nicho_vetorial e uma falha interrompe a geração.
 
 A regra dos espaços foi aprovada no teste do Canva de 29/10/2026; os PDFs desta geração não foram reimportados. As margens são diagnosticadas por linhas/colunas uniformes com contraste de pelo menos 10 níveis de cinza em relação às 16 linhas/colunas seguintes; faixas sem esse contraste ficam registradas como descartadas. A recomendação conserva a arte gerada e serve para ajuste posterior.
 

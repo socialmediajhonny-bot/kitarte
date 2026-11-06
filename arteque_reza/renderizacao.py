@@ -19,6 +19,7 @@ from pypdf.generic import RectangleObject
 from .base import KIT, PROJECT, CRUZ_PATH, assinatura, await_fonts, color, dimension, generate_tokens_css, html_document, load_tokens, montar_arte, nicho, selo
 from .canva import export_elements
 from .ficha import measure_page, write_ficha
+from .pdf_nicho import niches_from_elements, validate_niche_pdf
 from .validacao import validate_kit, validate_niche_pixels, validate_pdf, validate_pngs, validate_svgs
 
 
@@ -140,9 +141,10 @@ def galleries(page, output, css, artwork, base_url, expected):
       return {x:r.x,y:r.y,width:r.width,height:r.height,background:getComputedStyle(panel).backgroundColor,
         filete:style.getPropertyValue('--moldura').trim() || style.getPropertyValue('--cor-do-dia').trim(),outer_radius:r.width/2};
     })""")
-    # Resolve actual pseudo-element paint (aliases may remain in custom properties).
+    # Resolve the SVG paint (aliases may remain in custom properties).
     for i, box in enumerate(boxes):
-        box['filete'] = page.locator('.niche-panel .aqr-nicho').nth(i).evaluate("el => getComputedStyle(el,'::before').borderTopColor")
+        box['filete'] = page.locator('.niche-panel .aqr-nicho').nth(i).evaluate(
+            "el => getComputedStyle(el.querySelector('[data-element=\"nicho-filete\"]')).color")
     snapshot(page, output / "previas/nichos.png", expected, full_page=True)
     expected[str(output / "previas/nichos.png")] = (2160, 3360)
 
@@ -311,6 +313,10 @@ def generate(output: Path):
         raise RuntimeError('Erros de navegador: ' + '; '.join(errors))
     checks['pngs'] = validate_pngs(expected)
     checks['pdf'] = validate_pdf(output / 'canva/teste-importacao.pdf')
+    measurements = json.loads((output / 'canva/medicoes.json').read_text(encoding='utf-8'))
+    niches = [niche for record in measurements
+              for niche in niches_from_elements(record['elements'], page=record['page_n'])]
+    checks['nicho_vetorial'] = validate_niche_pdf(output / 'canva/teste-importacao.pdf', niches)
     checks['nicho_pixels'] = validate_niche_pixels(output / 'previas/nichos.png', boxes)
     checks['kit_final'] = validate_kit(PROJECT)
     for name,result in checks.items(): check(result,name)

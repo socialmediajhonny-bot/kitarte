@@ -324,6 +324,38 @@
             ],
             "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     21  0\n",
             "pdftotext": "Coragem · seg, 14 dez\n\n\n\n\nCriai ânimo, não tenhais medo!\n      Vede, é vosso Deus.\n                        Is 35,4\n\n\n                              @artequereza.oficial\n\f",
+            "nicho_vetorial": {
+              "ok": true,
+              "arquivo": "/workspace/kitarte/work/coragem/2026-12-14/feed.pdf",
+              "escala_px_para_pt": 0.75,
+              "tolerancia_caixa_pt": 0.5,
+              "nichos": [
+                {
+                  "indice": 1,
+                  "filete_vetorial": true,
+                  "borda_antiga_ausente": true,
+                  "parapeito_vetorial": true,
+                  "pagina": 1,
+                  "hex": "#866420",
+                  "caixa_nicho_pt": [
+                    180.0,
+                    126.0,
+                    630.0,
+                    636.0
+                  ],
+                  "caixa_parapeito_pt": [
+                    144.0,
+                    636.0,
+                    666.0,
+                    638.25
+                  ],
+                  "preenchimentos_curvos": 1,
+                  "assinaturas_antigas_re": 0,
+                  "parapeitos_re": 1
+                }
+              ],
+              "errors": []
+            },
             "igualdade_texto_integral": {
               "pymupdf": true,
               "pdftotext": true,
@@ -722,6 +754,38 @@
             ],
             "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     21  0\n",
             "pdftotext": "Coragem · seg, 14 dez\n\n\n\n\nCriai ânimo, não tenhais medo!\n      Vede, é vosso Deus.\n                        Is 35,4\n\n\n                              @artequereza.oficial\n\f",
+            "nicho_vetorial": {
+              "ok": true,
+              "arquivo": "/workspace/kitarte/work/coragem/2026-12-14/status.pdf",
+              "escala_px_para_pt": 0.75,
+              "tolerancia_caixa_pt": 0.5,
+              "nichos": [
+                {
+                  "indice": 1,
+                  "filete_vetorial": true,
+                  "borda_antiga_ausente": true,
+                  "parapeito_vetorial": true,
+                  "pagina": 1,
+                  "hex": "#866420",
+                  "caixa_nicho_pt": [
+                    135.0,
+                    246.0,
+                    675.0,
+                    921.0
+                  ],
+                  "caixa_parapeito_pt": [
+                    99.0,
+                    921.0,
+                    711.0,
+                    923.25
+                  ],
+                  "preenchimentos_curvos": 1,
+                  "assinaturas_antigas_re": 0,
+                  "parapeitos_re": 1
+                }
+              ],
+              "errors": []
+            },
             "igualdade_texto_integral": {
               "pymupdf": true,
               "pdftotext": true,
@@ -1124,6 +1188,38 @@
             ],
             "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     21  0\n",
             "pdftotext": "Coragem · seg, 28 dez\n\n\n\n\n  Não tenhais medo! Eu vos\n anuncio uma grande alegria.\n                        Lc 2,10\n\n\n                              @artequereza.oficial\n\f",
+            "nicho_vetorial": {
+              "ok": true,
+              "arquivo": "/workspace/kitarte/work/coragem/2026-12-28/feed.pdf",
+              "escala_px_para_pt": 0.75,
+              "tolerancia_caixa_pt": 0.5,
+              "nichos": [
+                {
+                  "indice": 1,
+                  "filete_vetorial": true,
+                  "borda_antiga_ausente": true,
+                  "parapeito_vetorial": true,
+                  "pagina": 1,
+                  "hex": "#8e2020",
+                  "caixa_nicho_pt": [
+                    180.0,
+                    126.0,
+                    630.0,
+                    636.0
+                  ],
+                  "caixa_parapeito_pt": [
+                    144.0,
+                    636.0,
+                    666.0,
+                    638.25
+                  ],
+                  "preenchimentos_curvos": 1,
+                  "assinaturas_antigas_re": 0,
+                  "parapeitos_re": 1
+                }
+              ],
+              "errors": []
+            },
             "igualdade_texto_integral": {
               "pymupdf": true,
               "pdftotext": true,
@@ -1522,6 +1618,38 @@
             ],
             "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     21  0\n",
             "pdftotext": "Coragem · seg, 28 dez\n\n\n\n\n  Não tenhais medo! Eu vos\n anuncio uma grande alegria.\n                        Lc 2,10\n\n\n                              @artequereza.oficial\n\f",
+            "nicho_vetorial": {
+              "ok": true,
+              "arquivo": "/workspace/kitarte/work/coragem/2026-12-28/status.pdf",
+              "escala_px_para_pt": 0.75,
+              "tolerancia_caixa_pt": 0.5,
+              "nichos": [
+                {
+                  "indice": 1,
+                  "filete_vetorial": true,
+                  "borda_antiga_ausente": true,
+                  "parapeito_vetorial": true,
+                  "pagina": 1,
+                  "hex": "#8e2020",
+                  "caixa_nicho_pt": [
+                    135.0,
+                    246.0,
+                    675.0,
+                    921.0
+                  ],
+                  "caixa_parapeito_pt": [
+                    99.0,
+                    921.0,
+                    711.0,
+                    923.25
+                  ],
+                  "preenchimentos_curvos": 1,
+                  "assinaturas_antigas_re": 0,
+                  "parapeitos_re": 1
+                }
+              ],
+              "errors": []
+            },
             "igualdade_texto_integral": {
               "pymupdf": true,
               "pdftotext": true,

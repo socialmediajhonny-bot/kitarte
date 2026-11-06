@@ -20,6 +20,7 @@ from .conteudo import color_token, local_artwork_path
 from .conteudo_stories import load_stories
 from .evangelho import _measure as measure_evangelho, _ornament, _text
 from .obras import crop_proof, inspect_artwork
+from .pdf_nicho import niches_from_elements, validate_niche_pdf
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
@@ -210,8 +211,13 @@ def _pdf_check(path: Path, stories: list[dict], cards: list[dict]) -> dict:
             if index < len(pages): pages[index]['texto_integral_pdftotext_igual'] = equal
             if not equal: errors.append(f'{path.name}, página {index+1}: texto integral diferente do conteúdo esperado (pdftotext).')
     else: errors.append('pdftotext indisponível.')
+    niches = [niche for number, card in enumerate(cards, 1)
+              for niche in niches_from_elements(card['elementos'], page=number)]
+    vector_niche = validate_niche_pdf(path, niches)
+    errors.extend(vector_niche['errors'])
     result = {'ok': not errors, 'paginas': pages, 'fontes': list(fonts.values()), 'fontes_exigidas': sorted(required),
-        'pdffonts': poppler, 'pdftotext': extracted, 'tamanho_bytes': path.stat().st_size, 'errors': errors}
+        'pdffonts': poppler, 'pdftotext': extracted, 'tamanho_bytes': path.stat().st_size,
+        'nicho_vetorial': vector_niche, 'errors': errors}
     if errors: raise ValueError('; '.join(errors))
     return result
 
@@ -259,6 +265,14 @@ def _preview_check(page: Any, css: Path, target: Path, work: Path, base_url: str
     # A vitrine desloca o article 48px; alinhe sua origem à do render final
     # antes de rasterizar para não comparar antialias de coordenadas diferentes.
     articles.first.evaluate("el=>{el.style.position='absolute';el.style.left='0';el.style.top='0';}")
+    # A prévia é uma cópia em work/: aplique o mesmo filete do gerador sem
+    # alterar o bundle nem o HTML do kit. Obra, nicho e parapeito não se movem.
+    page.add_style_tag(content='.aqr-nicho::before{content:none;}')
+    for host in page.locator('.aqr-nicho').all():
+        box = host.bounding_box()
+        markup = nicho(box['width'], box['height'], PROJECT/'saida/obra-provisoria.png')
+        vector = re.search(r'<svg\b.*?</svg>', markup, flags=re.S).group()
+        host.evaluate("(node, svg)=>node.insertAdjacentHTML('afterbegin', svg)", vector)
     await_fonts(page)
     bounds = articles.first.bounding_box(); screenshot = folder/'article-origem-0.png'
     page.screenshot(path=str(screenshot), clip=bounds, animations='disabled')
@@ -277,7 +291,7 @@ def _preview_check(page: Any, css: Path, target: Path, work: Path, base_url: str
     return {'ok': count == 0, 'verificado': True, 'confronto_fora_obra_identico': count == 0,
         'pixels_alterados_fora_obra': count, 'limites_diferenca': list(box) if box else None,
         'obra_excluida': [256,344,824,1028], 'fonte': source.relative_to(PROJECT).as_posix(),
-        'metodo': 'Cópia da prévia com as duas margens dos textos para Canva e as margens compensadas do ornamento; article na origem (0,0).',
+        'metodo': 'Cópia da prévia com as duas margens dos textos para Canva, margens compensadas do ornamento e o filete vetorial do gerador; article na origem (0,0).',
         'origem_article_px': [bounds['x'],bounds['y']],
         'preview_renderizado': screenshot.relative_to(PROJECT).as_posix(),
         'diferenca': diff_path.relative_to(PROJECT).as_posix() if count else None,
@@ -342,7 +356,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str, artwo
     lines += ['', '## Conferência da prévia', '']
     preview = checks['previa_kit']
     if preview.get('verificado'):
-        lines.append(f'Cópia da prévia do StoryAngelus com as mesmas margens para Canva nos textos, as margens compensadas do ornamento e o article na origem (0,0), contra tempo-comum/angelus: {preview["pixels_alterados_fora_obra"]} pixels diferentes fora da janela (256,344)–(824,1028).')
+        lines.append(f'Cópia da prévia do StoryAngelus com as mesmas margens para Canva nos textos, as margens compensadas do ornamento, o filete vetorial do gerador e o article na origem (0,0), contra tempo-comum/angelus: {preview["pixels_alterados_fora_obra"]} pixels diferentes fora da janela (256,344)–(824,1028).')
         if preview.get('diferenca'): lines += [preview['explicacao'], 'Diferença: `'+preview['diferenca']+'`.']
     else: lines.append(preview['motivo'])
     lines += ['', '## Avisos e pendências', '']
@@ -350,6 +364,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str, artwo
     lines.append('Obras pendentes: '+(', '.join(checks['obras_pendentes']) if checks['obras_pendentes'] else 'nenhuma')+'.')
     lines += ['', '## PDF e limites', '',
         'Duas páginas de 810 × 1440 pt por tempo na ordem do YAML. As cinco fontes usadas foram conferidas como TTF embutidos por pdffonts; o texto integral de cada página foi comparado por PyMuPDF e pdftotext -layout, ignorando apenas espaços e quebras.',
+        'Em cada página, o filete do nicho é uma faixa vetorial em U. PyMuPDF exige um único preenchimento curvo na caixa do nicho, nenhuma borda antiga feita de retângulos recortados e um parapeito retangular separado de 3 px. A geração para se falhar; o resultado está em nicho_vetorial na verificação de cada PDF.',
         '', 'A nova importação dos PDFs ajustados no editor do Canva não foi executada. Avisos de tamanho acima de 4 MB por obra, largura abaixo de 1000 px ou PDF acima de 12 MB são informativos. Nenhum recurso externo foi baixado.']
     if (target/'CONFERENCIA-PROMPT-7.md').is_file():
         lines += ['', 'A comparação com a main no commit 8b602bf, incluindo pixels, fontes e aumentos das distâncias nos PDFs, está registrada em [CONFERENCIA-PROMPT-7.md](CONFERENCIA-PROMPT-7.md), com a [evidência detalhada](conferencia-prompt7.json).']

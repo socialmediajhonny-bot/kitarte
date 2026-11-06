@@ -76,6 +76,15 @@
               }
             },
             {
+              "elemento": "nicho-filete",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 110.5,
+                "direita": 277,
+                "base": 477.5
+              }
+            },
+            {
               "elemento": "nicho-recorte",
               "distancias_filete_interno_px": {
                 "esquerda": 293,
@@ -598,6 +607,38 @@
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     13  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     18  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     23  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     28  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2026-11-30/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#8e2020",
+              "caixa_nicho_pt": [
+                277.5,
+                206.625,
+                532.5,
+                521.625
+              ],
+              "caixa_parapeito_pt": [
+                241.5,
+                521.625,
+                568.5,
+                523.875
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       },
       "fontes_render": [
@@ -701,6 +742,15 @@
           "elementos": [
             {
               "elemento": "nicho",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 42.5,
+                "direita": 277,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nicho-filete",
               "distancias_filete_interno_px": {
                 "esquerda": 277,
                 "topo": 42.5,
@@ -1231,6 +1281,38 @@
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     13  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     18  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     23  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     28  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2026-12-03/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                277.5,
+                155.625,
+                532.5,
+                470.625
+              ],
+              "caixa_parapeito_pt": [
+                241.5,
+                470.625,
+                568.5,
+                472.875
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       },
       "fontes_render": [
@@ -1611,6 +1693,38 @@
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2026-12-08/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       },
       "fontes_render": [

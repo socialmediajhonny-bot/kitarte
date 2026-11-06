@@ -13,6 +13,7 @@ from PIL import Image, ImageColor
 from .base import PROJECT, assinatura, color, html_document, montar_arte, nicho, selo
 from .conteudo import color_token, date_label, text_html
 from .evangelho import _measure as measure_evangelho, _ornament, _text
+from .pdf_nicho import niches_from_elements, validate_niche_pdf
 from .validacao import validate_niche_pixels
 
 
@@ -345,7 +346,12 @@ def _pdf_check(path: Path, cards: list[dict], measured: list[dict]) -> dict:
         if [compact(part) for part in text_output.split('\f') if part.strip()]!=expected_pages:
             errors.append(f'{path.name}: texto integral de pdftotext difere do YAML.')
     else:errors.append('pdftotext indisponível.')
+    niches=[niche for number, card in enumerate(measured,1)
+            for niche in niches_from_elements(card['elementos'],page=number)]
+    vector_niche=validate_niche_pdf(path,niches)
+    errors.extend(vector_niche['errors'])
     result={'ok':not errors,'paginas':pages,'fontes':list(fonts.values()),'fontes_exigidas':sorted(required),
-        'pdffonts':font_text,'pdftotext':text_output,'texto_igual_yaml_sem_espacos':not errors,'errors':errors}
+        'pdffonts':font_text,'pdftotext':text_output,'texto_igual_yaml_sem_espacos':not errors,
+        'nicho_vetorial':vector_niche,'errors':errors}
     if errors:raise ValueError('; '.join(errors))
     return result

@@ -19,6 +19,7 @@ from urllib.parse import quote, urlparse
 PROJECT = Path(__file__).resolve().parents[1]
 KIT = PROJECT / "kit"
 CRUZ_PATH = "M6.8 0h4.4v8.2H18v3.6h-6.8V30H6.8V11.8H0V8.2h6.8z"
+NICHO_FILETE_ESPESSURA = 3
 
 
 def resource_url(path: Path | str) -> str:
@@ -179,7 +180,7 @@ def _image_uri(obra: str | Path) -> str:
 
 def nicho(largura: int | float, altura: int | float, obra: str | Path, *,
           foco: str | None = None, zoom: float = 1) -> str:
-    """Nicho CSS original, com uma imagem real no recorte em arco."""
+    """Obra no recorte CSS original e filete como uma faixa vetorial em U."""
     if largura <= 32 or altura <= 16:
         raise ValueError("O nicho precisa comportar as margens de 16 px da obra.")
     src = escape(_image_uri(obra), quote=True)
@@ -187,9 +188,21 @@ def nicho(largura: int | float, altura: int | float, obra: str | Path, *,
     validate_zoom(zoom)
     image_css = (' style="' + escape(image_style(foco or '50% 50%', zoom), quote=True) + '"'
                  if foco is not None or zoom != 1 else '')
+    radius = largura / 2
+    inner_radius = radius - NICHO_FILETE_ESPESSURA
+    inner_right = largura - NICHO_FILETE_ESPESSURA
+    path = (f'M0 {altura:g}V{radius:g}A{radius:g} {radius:g} 0 0 1 {largura:g} {radius:g}'
+            f'V{altura:g}H{inner_right:g}V{radius:g}'
+            f'A{inner_radius:g} {inner_radius:g} 0 0 0 {NICHO_FILETE_ESPESSURA:g} {radius:g}'
+            f'V{altura:g}Z')
     return (
         '<div class="aqr-nicho" data-element="nicho" '
         f'style="width:{largura:g}px;height:{altura:g}px;">'
+        '<svg data-element="nicho-filete" data-cor-token="cor-do-dia" '
+        f'viewBox="0 0 {largura:g} {altura:g}" aria-hidden="true" '
+        'style="position:absolute;inset:0;width:100%;height:100%;'
+        'color:var(--moldura, var(--cor-do-dia));">'
+        f'<path d="{path}" fill="currentColor"/></svg>'
         '<div class="aqr-nicho__obra" data-element="nicho-recorte">'
         f'<img src="{src}" alt="Obra provisória" data-element="nicho-obra" '
         f'data-arquivo="obra-provisoria.png"{image_css}></div></div>'
@@ -279,6 +292,7 @@ def html_document(
         f'<link rel="stylesheet" href="{bundle_uri}">'
         '<style>*,*::before,*::after{box-sizing:border-box;}html,body{margin:0;padding:0;}'
         'body{font-family:var(--font-sem-serifa);background:var(--fundo);color:var(--tinta);}'
+        '.aqr-nicho::before{content:none;}'
         + extra_css + '</style></head><body>' + body + '</body></html>'
     )
 

@@ -19,6 +19,7 @@ from .conteudo import color_token, date_label, local_artwork_path
 from .conteudo_santo import load_saints
 from .evangelho import _crop_proof, _distance, _measure as measure_evangelho, _ornament, _text
 from .obras import artwork_geometry, inspect_artwork
+from .pdf_nicho import niches_from_elements, validate_niche_pdf
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_niche_pixels, validate_pngs
 
@@ -258,8 +259,11 @@ def _pdf_check(path: Path, day: dict, measured: dict) -> dict:
             match = re.search(r'\s(yes|no)\s+(yes|no)\s+(yes|no)\s+\d+\s+\d+\s*$', line)
             if match and match.group(1) != 'yes': errors.append('pdffonts: fonte não embutida '+line)
     else: errors.append('pdffonts indisponível.')
+    vector_niche = validate_niche_pdf(path, niches_from_elements(measured['elementos']))
+    errors.extend(vector_niche['errors'])
     result = {'ok': not errors, 'paginas': pages, 'fontes': list(fonts.values()),
-              'fontes_exigidas': sorted(required), 'textos': fields, 'pdffonts': poppler, 'errors': errors}
+              'fontes_exigidas': sorted(required), 'textos': fields, 'pdffonts': poppler,
+              'nicho_vetorial': vector_niche, 'errors': errors}
     if errors: raise ValueError('; '.join(errors))
     return result
 
@@ -318,7 +322,7 @@ def _regression_text(summary: dict) -> str:
 
 def _report(target: Path, records: list[dict], checks: dict, command: str) -> Path:
     lines = ['# Santo do Dia', '', f'`{command}`', '', '## Decisões', '',
-        '- Os dois modelos seguem os previews do kit v4: pergaminho, logo pergaminho, Nicho CSS com imagem trocável, foco do YAML e nenhuma sobreposição SVG.',
+        '- Os dois modelos seguem os previews do kit v4: pergaminho, logo pergaminho, obra trocável no recorte CSS do nicho e foco do YAML. O filete é uma faixa vetorial em U; o parapeito mantém o retângulo original.',
         '- Dentro do santinho, o conjunto obra e textos fica centralizado como no justify-content:center do kit. Frases de uma e três linhas mudam a altura do conjunto e, por isso, os nichos dos dois santos ficam em alturas diferentes.',
         '- Festa de santo permanece santinho, com Santo do Dia no selo e o grau à direita. A festa do Senhor ou de Nossa Senhora usa o grau como série, sem informação à direita.',
         '- A moldura dupla e o ornamento dos santinhos ficam em ouro, inclusive no mártir; só a cruz do selo e o filete do nicho seguem a cor litúrgica.',
@@ -350,6 +354,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
     lines += ['', 'Obras pendentes: '+(', '.join(pending) if pending else 'nenhuma')+'.',
         '', '## Conferências', '',
         'PNG 1080 × 1350; PDF de uma página em 810 × 1012,5 pt; textos extraíveis; TTF embutidos e pdffonts; limites de linhas e largura; palavras de uma letra; área interna e afastamento do filete; cruz, nicho e moldura por pixel. Os dados completos estão em verificacao.json e nas fichas.',
+        'Em cada PDF, PyMuPDF exige um único preenchimento curvo na caixa do nicho, ausência da borda antiga feita de retângulos recortados e um parapeito retangular separado de 3 px. Uma falha interrompe a geração; o resultado está em nicho_vetorial, dentro da verificação do PDF.',
         '', '### Regressão dos modelos com o kit v4', '', _regression_text(checks['evangelho_kit_v4']),
         '', '### Limites da verificação', '',
         'A importação no editor do Canva não foi executada. A validação confere os arquivos produzidos, suas fontes, textos, cores e geometria. As obras foram usadas como entregues no repositório, sem downloads.',

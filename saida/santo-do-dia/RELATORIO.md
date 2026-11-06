@@ -4,7 +4,7 @@
 
 ## Decisões
 
-- Os dois modelos seguem os previews do kit v4: pergaminho, logo pergaminho, Nicho CSS com imagem trocável, foco do YAML e nenhuma sobreposição SVG.
+- Os dois modelos seguem os previews do kit v4: pergaminho, logo pergaminho, obra trocável no recorte CSS do nicho e foco do YAML. O filete é uma faixa vetorial em U; o parapeito mantém o retângulo original.
 - Dentro do santinho, o conjunto obra e textos fica centralizado como no justify-content:center do kit. Frases de uma e três linhas mudam a altura do conjunto e, por isso, os nichos dos dois santos ficam em alturas diferentes.
 - Festa de santo permanece santinho, com Santo do Dia no selo e o grau à direita. A festa do Senhor ou de Nossa Senhora usa o grau como série, sem informação à direita.
 - A moldura dupla e o ornamento dos santinhos ficam em ouro, inclusive no mártir; só a cruz do selo e o filete do nicho seguem a cor litúrgica.
@@ -56,6 +56,7 @@ Obras pendentes: nenhuma.
 ## Conferências
 
 PNG 1080 × 1350; PDF de uma página em 810 × 1012,5 pt; textos extraíveis; TTF embutidos e pdffonts; limites de linhas e largura; palavras de uma letra; área interna e afastamento do filete; cruz, nicho e moldura por pixel. Os dados completos estão em verificacao.json e nas fichas.
+Em cada PDF, PyMuPDF exige um único preenchimento curvo na caixa do nicho, ausência da borda antiga feita de retângulos recortados e um parapeito retangular separado de 3 px. Uma falha interrompe a geração; o resultado está em nicho_vetorial, dentro da verificação do PDF.
 
 ### Regressão dos modelos com o kit v4
 

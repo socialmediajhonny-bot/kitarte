@@ -31,8 +31,8 @@
 | selo-data | — | · sex, 16 out | Lato / 400 / normal | 374.46875 | 80 | 175.390625 | 39 | 32 | 40 | 1.25 | 0.01 | 10 | tinta-suave / #bbad98 |
 | selo-info | — | Lc 12,1-7 | Lato / 400 / normal | 864.984375 | 80 | 135.015625 | 40 | 32 | 40 | 1.25 | 0.01 | 10 | tinta-suave / #bbad98 |
 | nicho | — | — | — | 200 | 152 | 680 | 760 | — | — | — | — | — | — |
-| nicho-filete | — | — | — | 200 | 152 | 680 | 760 | — | — | — | — | — | cor-do-dia / #74aa82 |
 | nicho-parapeito | — | — | — | 152 | 912 | 776 | 3 | — | — | — | — | — | cor-do-dia / #74aa82 |
+| nicho-filete | — | — | — | 200 | 152 | 680 | 760 | — | — | — | — | — | cor-do-dia / #74aa82 |
 | nicho-recorte | — | — | — | 216 | 168 | 648 | 744 | — | — | — | — | — | papel / #211a15 |
 | nicho-obra | obra-provisoria.png | — | — | 216 | 168 | 648 | 744 | — | — | — | — | — | — |
 | credito-obra | — | Artista · Título da obra · Museu | Lato / 400 / normal | 377.8125 | 944 | 324.375 | 32 | 24 | 32 | 1.333333 | 0 | 0 | tinta-suave / #bbad98 |
@@ -43,15 +43,6 @@
 | Elemento | Propriedade | Valor |
 | --- | --- | --- |
 | arte-fundo | Fundo | #16110d |
-| nicho-filete | Raio top_left (rx, ry; px) | [340,340] |
-| nicho-filete | Raio top_right (rx, ry; px) | [340,340] |
-| nicho-filete | Raio bottom_right (rx, ry; px) | [0,0] |
-| nicho-filete | Raio bottom_left (rx, ry; px) | [0,0] |
-| nicho-filete | Medição | getComputedStyle(::before) + host.getBoundingClientRect |
-| nicho-filete | Borda top (px) | 3 |
-| nicho-filete | Borda right (px) | 3 |
-| nicho-filete | Borda bottom (px) | 0 |
-| nicho-filete | Borda left (px) | 3 |
 | nicho-parapeito | Fundo | #74aa82 |
 | nicho-parapeito | Medição | getComputedStyle(::after) + host.getBoundingClientRect |
 | nicho-parapeito | Borda top (px) | 0 |
@@ -63,7 +54,7 @@
 | nicho-recorte | Raio top_right (rx, ry; px) | [324,324] |
 | nicho-recorte | Raio bottom_right (rx, ry; px) | [0,0] |
 | nicho-recorte | Raio bottom_left (rx, ry; px) | [0,0] |
-| nicho-obra | Origem | http://127.0.0.1:37661/saida/obra-provisoria.png |
+| nicho-obra | Origem | http://127.0.0.1:44573/saida/obra-provisoria.png |
 | nicho-obra | Imagem: largura original (px) | 1080 |
 | nicho-obra | Imagem: altura original (px) | 1350 |
 | nicho-obra | object-fit | cover |
@@ -99,7 +90,7 @@
 | Elemento | Propriedade | Valor |
 | --- | --- | --- |
 | arte-fundo | Fundo | #16110d |
-| nicho-obra-retangular | Origem | http://127.0.0.1:37661/saida/obra-provisoria.png |
+| nicho-obra-retangular | Origem | http://127.0.0.1:44573/saida/obra-provisoria.png |
 | nicho-obra-retangular | Imagem: largura original (px) | 1080 |
 | nicho-obra-retangular | Imagem: altura original (px) | 1350 |
 | nicho-obra-retangular | object-fit | cover |

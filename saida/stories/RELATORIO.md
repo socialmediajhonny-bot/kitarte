@@ -104,7 +104,7 @@ Na obra real desta entrega, o foco 50% 8% e o zoom 1.15 mantêm na janela o rost
 
 ## Conferência da prévia
 
-Cópia da prévia do StoryAngelus com as mesmas margens para Canva nos textos, as margens compensadas do ornamento e o article na origem (0,0), contra tempo-comum/angelus: 0 pixels diferentes fora da janela (256,344)–(824,1028).
+Cópia da prévia do StoryAngelus com as mesmas margens para Canva nos textos, as margens compensadas do ornamento, o filete vetorial do gerador e o article na origem (0,0), contra tempo-comum/angelus: 0 pixels diferentes fora da janela (256,344)–(824,1028).
 
 ## Avisos e pendências
 
@@ -114,6 +114,7 @@ Obras pendentes: nenhuma.
 ## PDF e limites
 
 Duas páginas de 810 × 1440 pt por tempo na ordem do YAML. As cinco fontes usadas foram conferidas como TTF embutidos por pdffonts; o texto integral de cada página foi comparado por PyMuPDF e pdftotext -layout, ignorando apenas espaços e quebras.
+Em cada página, o filete do nicho é uma faixa vetorial em U. PyMuPDF exige um único preenchimento curvo na caixa do nicho, nenhuma borda antiga feita de retângulos recortados e um parapeito retangular separado de 3 px. A geração para se falhar; o resultado está em nicho_vetorial na verificação de cada PDF.
 
 A nova importação dos PDFs ajustados no editor do Canva não foi executada. Avisos de tamanho acima de 4 MB por obra, largura abaixo de 1000 px ou PDF acima de 12 MB são informativos. Nenhum recurso externo foi baixado.
 

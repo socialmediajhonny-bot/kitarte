@@ -758,7 +758,62 @@
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
         "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
-        "tamanho_bytes": 2934397,
+        "tamanho_bytes": 2923449,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/stories/advento/stories-advento.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 2,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 2,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -1508,7 +1563,62 @@
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
         "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
-        "tamanho_bytes": 2934397,
+        "tamanho_bytes": 2923449,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/stories/natal/stories-natal.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 2,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 2,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -2258,7 +2368,62 @@
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
         "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
-        "tamanho_bytes": 2934397,
+        "tamanho_bytes": 2923449,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/stories/tempo-comum/stories-tempo-comum.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#74aa82",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 2,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 2,
+              "hex": "#74aa82",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -3008,7 +3173,62 @@
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nEAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     31  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     44  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     49  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     54  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     59  0\n",
         "pdftotext": "Para Rezar · 12h\n\n\n\n\n                   Ângelus\n       A pausa do meio-dia para rezar com Maria\n\n\n\n\n    O Anjo do Senhor anunciou a Maria.\n\n E ela concebeu do Espírito Santo. Ave, Maria…\n\fPara Rezar · 15h\n\n\n\n\n  Hora da Misericórdia\nA oração que Jesus ensinou a Santa Faustina (Diário 187)\n\n\n\n\n      Ó Sangue e Água, que jorrastes\n      do Coração de Jesus como fonte\n de misericórdia para nós, eu confio em Vós!\n\f",
-        "tamanho_bytes": 2934397,
+        "tamanho_bytes": 2923449,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/stories/quaresma/stories-quaresma.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 2,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 2,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     }
@@ -3026,7 +3246,7 @@
       1028
     ],
     "fonte": "kit/design-system/componentes/StoryAngelus/preview.html",
-    "metodo": "Cópia da prévia com as duas margens dos textos para Canva e as margens compensadas do ornamento; article na origem (0,0).",
+    "metodo": "Cópia da prévia com as duas margens dos textos para Canva, margens compensadas do ornamento e o filete vetorial do gerador; article na origem (0,0).",
     "origem_article_px": [
       0,
       0

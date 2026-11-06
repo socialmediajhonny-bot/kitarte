@@ -1363,6 +1363,38 @@
       "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     34  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     39  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     44  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     55  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     60  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     65  0",
       "errors": []
     },
+    "nicho_vetorial": {
+      "ok": true,
+      "arquivo": "/workspace/kitarte/saida/canva/teste-importacao.pdf",
+      "escala_px_para_pt": 0.75,
+      "tolerancia_caixa_pt": 0.5,
+      "nichos": [
+        {
+          "indice": 1,
+          "filete_vetorial": true,
+          "borda_antiga_ausente": true,
+          "parapeito_vetorial": true,
+          "pagina": 1,
+          "hex": "#74aa82",
+          "caixa_nicho_pt": [
+            150.0,
+            114.0,
+            660.0,
+            684.0
+          ],
+          "caixa_parapeito_pt": [
+            114.0,
+            684.0,
+            696.0,
+            686.25
+          ],
+          "preenchimentos_curvos": 1,
+          "assinaturas_antigas_re": 0,
+          "parapeitos_re": 1
+        }
+      ],
+      "errors": []
+    },
     "nicho_pixels": {
       "ok": true,
       "file": "/workspace/kitarte/saida/previas/nichos.png",

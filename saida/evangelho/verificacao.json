@@ -641,6 +641,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     84  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-11-29/evangelho-2026-11-29.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -1166,6 +1198,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-11-30/evangelho-2026-11-30.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#d86e60",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -1691,6 +1755,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-01/evangelho-2026-12-01.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -2216,6 +2312,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-02/evangelho-2026-12-02.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -2741,6 +2869,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-03/evangelho-2026-12-03.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -3266,6 +3426,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-04/evangelho-2026-12-04.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -3791,6 +3983,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-05/evangelho-2026-12-05.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -4423,6 +4647,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     84  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-06/evangelho-2026-12-06.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -4948,6 +5204,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-07/evangelho-2026-12-07.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -5473,6 +5761,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-08/evangelho-2026-12-08.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -5998,6 +6318,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-09/evangelho-2026-12-09.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -6523,6 +6875,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-10/evangelho-2026-12-10.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -7048,6 +7432,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-11/evangelho-2026-12-11.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -7573,6 +7989,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-12/evangelho-2026-12-12.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -8205,6 +8653,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     84  0\n",
         "titulo_extraivel": true,
         "convite_extraivel": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/evangelho/2026-12-13/evangelho-2026-12-13.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#de9eb5",
+              "caixa_nicho_pt": [
+                150.0,
+                114.0,
+                660.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                114.0,
+                684.0,
+                696.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     }

@@ -193,6 +193,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         lines.append('Inspeção visual dos rostos e da vela pendente: '+', '.join(visual_pending)+'.')
     lines += ['', '## PDF e conferências', '',
         'Cada data recebe um PDF com os cards na ordem do YAML, páginas de 810 × 1012,5 pt e texto e fontes embutidas conferidos por PyMuPDF, pdffonts e pdftotext. A ficha preserva as caixas de cada linha, as falas, as posições da lista e os dados do enquadramento.',
+        'Nas capas, o filete do nicho é uma faixa vetorial em U. PyMuPDF exige um único preenchimento curvo na caixa do nicho, nenhuma assinatura da borda antiga feita de retângulos recortados e o parapeito retangular separado de 3 px. A verificação fica em nicho_vetorial dentro do PDF e interrompe a geração se falhar.',
         '', 'A importação destes PDFs no editor do Canva ainda não foi executada.',
         '', '## O que conferir no Canva', '',
         '- Cada texto na sua caixa: selo, contagem, rótulo, título, apoio, crédito, cada rubrica, a oração, a aclamação, cada número e cada item, a fonte, a pergunta e o convite.',

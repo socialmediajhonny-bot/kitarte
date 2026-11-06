@@ -4,7 +4,7 @@
 
 ## Decisões
 
-- A composição vem de PostEvangelho/preview.html e bundle.css; a capa usa um img dentro do arco CSS, sem SVG sobre a imagem.
+- A composição vem de PostEvangelho/preview.html e bundle.css; a capa mantém a obra dentro do arco CSS e desenha somente o filete como uma faixa vetorial em U, com um único path preenchido. O parapeito permanece separado.
 - 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026). O gerador acrescenta margens inline em tokens ao gap de 16 px do kit e mede os pares no navegador, com tolerância de ±0,01 px.
 - O card final resolve a cor no tema pergaminho e usa o logo sobre-cor da versão 2. Os demais usam capela.
 - Textos sem quebras manuais usam balanceamento do navegador, inclusive o corpo da reflexão. Quebras YAML são `<br>`; espaços após a, à, e, é e o são inseparáveis.
@@ -330,6 +330,10 @@ Nenhuma margem uniforme da foto está visível nos enquadramentos selecionados.
 
 PNG exatos; limites de linhas; palavras de uma letra; afastamento de 32 px do logo; pares de 32 e 48 px para o Canva; centralização vertical; cruz, fundo e filete por pixel; páginas PDF de 810 × 1012,5 pt; quatro variantes embutidas por pdffonts; título e convite extraíveis. Os valores estão em verificacao.json e ficha.json.
 
+Em cada PDF, PyMuPDF exige um único preenchimento curvo na cor e na caixa do nicho, nenhuma borda antiga feita apenas de retângulos recortados e um parapeito retangular separado de 3 px. Uma falha interrompe a geração. O resultado fica em nicho_vetorial na verificação de cada PDF.
+
+No Canva, conferir o filete (forma em U, sem imagem por trás), o parapeito e o ornamento como formas.
+
 A regra dos espaços foi aprovada no teste de importação no Canva de 29/10/2026, registrado em saida/teste-canva/LEIA-ME.md. Esta geração valida os novos PDFs; sua importação no editor permanece uma conferência manual.
 
 Todas as obras selecionadas foram encontradas localmente e receberam prova de recorte.
@@ -339,9 +343,9 @@ Todas as obras selecionadas foram encontradas localmente e receberam prova de re
 
 Trechos retirados da Liturgia Diária da CNBB, conferidos e aprovados em 05/11/2026. Foram acrescentados treze carrosséis; o conteúdo dos dias 29/11 e 13/12 foi preservado.
 
-### Enquadramentos aplicados nesta revisão
+### Enquadramentos aprovados anteriormente
 
-Foram aplicadas somente as cinco sugestões autorizadas abaixo. Os textos, as demais dez datas do Evangelho e as outras séries foram preservados.
+Os cinco enquadramentos abaixo foram aprovados e aplicados antes desta revisão do filete. Seus focos, zooms e textos continuam preservados. A comparação do prompt 12 cobre a regeneração atual de todas as séries com nicho.
 
 | Data | Foco aplicado | Zoom aplicado |
 | --- | --- | --- |
@@ -487,7 +491,7 @@ A figura ou o grupo principal aparece parcialmente no recorte.
 
 Sugestão registrada, sem alterar o YAML: foco 48% 27%, zoom 3. Recomendação: manter o enquadramento aprovado, verificado no card e no recorte. Mostrar os corpos inteiros exigiria abrir a janela em direção às figuras que devem ficar excluídas. Não se recomenda abrir este recorte; priorizar os rostos e o gesto e manter o YAML intacto.
 
-Conferência especial de 9/12: o arco está fechado em Cristo e na mulher junto à mão dele. O homem com punhal, a mãe com o filho morto e a moldura estão fora do arco e fora do contorno indicado no recorte. Esta data não foi regenerada nesta revisão.
+Conferência especial de 9/12: o arco está fechado em Cristo e na mulher junto à mão dele. O homem com punhal, a mãe com o filho morto e a moldura estão fora do arco e fora do contorno indicado no recorte. O enquadramento desta data foi preservado na regeneração do filete.
 
 #### 2026-12-10
 
@@ -528,14 +532,98 @@ Conferência especial de 12/12: São Nicolau e Santo Antão ficam integralmente 
 
 - Cada texto na sua caixa: selo, data, referência, crédito, título, trecho, referência do trecho, a chamada, o título e o texto da reflexão de 6/12, a pergunta e o convite, com a referência em negrito.
 - A obra dentro do arco.
-- O filete, o parapeito e o ornamento como formas.
+- O filete (forma em U, sem imagem por trás), o parapeito e o ornamento como formas.
 - Nenhuma caixa solta, inclusive caixas contendo somente um espaço, como observado na importação da Igreja Doméstica.
 
-A conferência desta revisão está em [CONFERENCIA-ENQUADRAMENTOS.md](CONFERENCIA-ENQUADRAMENTOS.md), com [evidência detalhada](conferencia-enquadramentos.json). A [conferência do lote original](CONFERENCIA-PROMPT-11.md) é o registro histórico anterior aos cinco ajustes.
+A [conferência dos enquadramentos](CONFERENCIA-ENQUADRAMENTOS.md) e a [conferência do lote original](CONFERENCIA-PROMPT-11.md) são registros históricos anteriores à mudança do filete. A conferência atual está em [CONFERENCIA-PROMPT-12.md](CONFERENCIA-PROMPT-12.md), com [evidência detalhada](conferencia-prompt12.json).
 
 O texto integral dos PDFs foi comparado com os campos do YAML, preservando as fronteiras entre palavras. Espaços comuns, espaços inseparáveis e quebras são normalizados para um espaço, sem descartar os espaços entre palavras.
-Pendente: conferir a importação no Canva dos cinco PDFs regenerados. Em 5/12, os apóstolos da direita continuam parciais; em 12/12, as saias inferiores e os pés de Maria e Isabel continuam fora. As demais ressalvas das datas não alteradas permanecem registradas acima.
+Os treze carrosséis do Lote 1 foram importados e corrigidos no Canva em 05/11/2026 e não serão importados novamente. Pendente: testar a importação do filete como forma nos PDFs de 30/11 e 10/12. Em 5/12, os apóstolos da direita continuam parciais; em 12/12, as saias inferiores e os pés de Maria e Isabel continuam fora. As demais ressalvas de enquadramento permanecem registradas acima.
 <!-- fim-relatorio-lote-1 -->
+
+<!-- inicio-conferencia-prompt12 -->
+## Conferência do prompt 12
+
+Baseline: main em d8e738b5562fb2bf2ed62d0b86f55b9116be89a8.
+
+Conferência aprovada.
+
+Regra autorizada: qualquer intensidade de antialiasing somente até 2 pixels do contorno nos PNGs e até 4 pixels no raster PyMuPDF a 2× dos PDFs. Fora dessas faixas, exige-se igualdade absoluta. As posições são avaliadas pelo centro de cada pixel. A geometria dos PNGs usa o caminho em U; os PDFs usam as curvas e retas reais extraídas por PyMuPDF, em coordenadas do raster. Pranchas e imagens reduzidas derivadas dos cards estão excluídas da comparação por instrução explícita.
+
+| Série | Tipo | Arquivos | Idênticos | Páginas | Pixels diferentes | Maior diferença por canal | Maior distância ao contorno (px do raster) | Pixels fora da faixa |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| componentes | PNG | 28 | 26 | — | 11286 | 58 | 0.884076621 | 0 |
+| componentes | PDF | 1 | 0 | 3 | 244 | 26 | 1.590213407 | 0 |
+| coragem | PNG | 8 | 4 | — | 7267 | 62 | 0.825183372 | 0 |
+| coragem | PDF | 4 | 0 | 4 | 4714 | 47 | 2.098640619 | 0 |
+| evangelho | PNG | 63 | 48 | — | 26832 | 51 | 0.820843801 | 0 |
+| evangelho | PDF | 15 | 0 | 48 | 3745 | 35 | 1.590213407 | 0 |
+| igreja-domestica | PNG | 9 | 7 | — | 3090 | 45 | 0.769845563 | 0 |
+| igreja-domestica | PDF | 2 | 0 | 7 | 532 | 31 | 2.098640619 | 0 |
+| novena | PNG | 23 | 23 | — | 0 | 0 | — | 0 |
+| novena | PDF | 3 | 3 | 23 | 0 | 0 | — | 0 |
+| para-rezar | PNG | 3 | 3 | — | 0 | 0 | — | 0 |
+| para-rezar | PDF | 2 | 2 | 3 | 0 | 0 | — | 0 |
+| santo-do-dia | PNG | 6 | 3 | — | 3337 | 45 | 1.282620103 | 0 |
+| santo-do-dia | PDF | 3 | 0 | 3 | 491 | 32 | 2.098640619 | 0 |
+| stories | PNG | 10 | 2 | — | 12448 | 43 | 0.769845563 | 0 |
+| stories | PDF | 4 | 0 | 8 | 2108 | 32 | 2.098619040 | 0 |
+| teste-canva | PNG | 0 | 0 | — | 0 | 0 | — | 0 |
+| teste-canva | PDF | 2 | 2 | 16 | 0 | 0 | — | 0 |
+
+Total: 150 PNGs e 36 PDFs, com 115 páginas renderizadas a 2×.
+
+### Posições das maiores distâncias por série e modalidade
+
+| Série | Tipo | Arquivo e página | Posição do pixel (x, y) | Distância no raster |
+| --- | --- | --- | --- | ---: |
+| componentes | PNG | previas/nichos.png | (1721, 158) | 0.884076621 |
+| componentes | PDF | canva/teste-importacao.pdf · página1 | (450, 378) | 1.590213407 |
+| coragem | PNG | coragem/2026-12-14/status.png | (759, 407) | 0.825183372 |
+| coragem | PDF | coragem/2026-12-14/coragem-2026-12-14-feed.pdf · página1 | (1126, 385) | 2.098640619 |
+| evangelho | PNG | evangelho/2026-11-29/card-1.png | (706, 196) | 0.820843801 |
+| evangelho | PDF | evangelho/2026-11-29/evangelho-2026-11-29.pdf · página1 | (450, 378) | 1.590213407 |
+| igreja-domestica | PNG | igreja-domestica/2026-11-29/card-1.png | (489, 155) | 0.769845563 |
+| igreja-domestica | PDF | igreja-domestica/2026-11-29/igreja-domestica-2026-11-29.pdf · página1 | (1126, 361) | 2.098640619 |
+| santo-do-dia | PNG | santo-do-dia/2026-11-30/card.png | (637, 311) | 1.282620103 |
+| santo-do-dia | PDF | santo-do-dia/2026-12-08/santo-2026-12-08.pdf · página1 | (1126, 361) | 2.098640619 |
+| stories | PNG | stories/advento/angelus.png | (489, 331) | 0.769845563 |
+| stories | PDF | stories/advento/stories-advento.pdf · página1 | (1126, 625) | 2.098619040 |
+
+### Pranchas excluídas da comparação
+
+| Imagem reduzida | Tratamento | Bytes idênticos ao baseline |
+| --- | --- | --- |
+| coragem/prancha.png | Prancha regenerada a partir dos cards atuais | não; regenerada |
+| evangelho/prancha-cores.png | Prancha regenerada a partir dos cards atuais | não; regenerada |
+| evangelho/prancha.png | Prancha regenerada a partir dos cards atuais | não; regenerada |
+| igreja-domestica/prancha.png | Prancha regenerada a partir dos cards atuais | não; regenerada |
+| novena/imaculada/prancha.png | Registro anterior preservado byte a byte | sim |
+| novena/natal/prancha.png | Registro anterior preservado byte a byte | sim |
+| novena/teste-canva/prancha.png | Registro anterior preservado byte a byte | sim |
+| para-rezar/prancha.png | Registro anterior preservado byte a byte | sim |
+| santo-do-dia/prancha.png | Prancha regenerada a partir dos cards atuais | não; regenerada |
+| stories/prancha.png | Prancha regenerada a partir dos cards atuais | não; regenerada |
+| teste-canva/prancha.png | Registro anterior preservado byte a byte | sim |
+
+Os seis índices das séries com nicho foram regenerados. As três pranchas da Novena, a prancha de Para Rezar e a prancha histórica de teste-canva foram preservadas junto com esses registros. Os recortes das obras originais continuam incluídos na comparação de pixels.
+
+### Fichas
+
+66 entradas do nicho foram conferidas. x, y, width, height, hex e token são preservados.
+
+- nicho-filete: campos alterados: border_bottom_px, border_left_px, border_radius_px, border_right_px, border_top_px, font_family, font_size_px, font_style, font_weight, host, kind, letter_spacing_em, letter_spacing_px, letter_spacing_thousandths_em, line_height_multiple, line_height_px, measurement, pseudo, source.
+
+Os valores anteriores e atuais dos campos alterados estão na evidência JSON. As imagens originais, todos os YAMLs, o ZIP e os 44 arquivos do kit permanecem preservados. Novena e Para Rezar não foram regenerados e continuam idênticos byte a byte.
+
+194 testes passaram.
+
+Pendente: teste de importação no Canva dos dois PDFs de 30/11 e 10/12.
+
+Evidência: [conferencia-prompt12.json](conferencia-prompt12.json).
+<!-- fim-conferencia-prompt12 -->
+
+Nos quadros de distância, “—” indica ausência de pixels diferentes. As distâncias dos PNGs estão em pixels do card; as dos PDFs, em pixels do raster PyMuPDF a 2×.
 
 ## Árvore
 
@@ -637,11 +725,13 @@ saida/evangelho/
   CONFERENCIA-ENQUADRAMENTOS.md
   CONFERENCIA-KIT-V3.md
   CONFERENCIA-PROMPT-11.md
+  CONFERENCIA-PROMPT-12.md
   NOTAS-DAS-OBRAS-LOTE-1.json
   RELATORIO.md
   conferencia-enquadramentos.json
   conferencia-kit-v3.json
   conferencia-prompt11.json
+  conferencia-prompt12.json
   prancha-cores.png
   prancha.png
   verificacao.json

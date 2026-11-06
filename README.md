@@ -39,6 +39,10 @@ As cores aceitas são `verde`, `roxo`, `ouro` (ou `branco`), `vermelho` e `rosa`
 
 O PDF mantém texto e fontes embutidas para importar um carrossel como um design no Canva. Nos cards 2, 3 e 4, o gerador aplica margens inline em tokens: 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026). O bloco permanece centralizado entre o selo e o logo. A validação mede esses pares no navegador e interrompe a geração se diferirem mais de 0,01 px.
 
+O filete do nicho é um único caminho vetorial preenchido em forma de U, para o Canva importá-lo como forma. A borda CSS arredondada anterior chegava ao Canva como imagem e podia incorporar o parapeito. A obra mantém seu recorte CSS; o parapeito continua sendo um retângulo separado. Em cada PDF com nicho, PyMuPDF exige um preenchimento curvo na caixa e na cor do filete, ausência da assinatura antiga feita apenas de retângulos recortados e um parapeito retangular separado de 3 px. Falhas interrompem a geração e ficam registradas em `nicho_vetorial`, na verificação do PDF e no relatório da série. O gerador aplica essa mudança sem editar o kit ou seu ZIP.
+
+A comparação do prompt 12 aceita diferenças de antialiasing de qualquer intensidade somente na faixa de 2 px do contorno do filete nos cards PNG e de 4 px nos PDFs rasterizados por PyMuPDF a 2×. Fora dessas faixas, a diferença precisa ser zero. Pranchas e imagens reduzidas a partir dos cards são regeneradas e ficam fora da comparação pixel a pixel; os registros históricos protegidos permanecem intactos. A tabela por série, as maiores distâncias e a prova estão no relatório do Evangelho.
+
 O filtro `--data` preserva os arquivos das outras datas. A prancha geral inclui todas as datas já geradas; a prancha de cores sempre usa o conteúdo de 29/11. As variantes de cor ficam em `work/`, sem substituir os cards finais.
 
 ## Conteúdo do Santo do Dia

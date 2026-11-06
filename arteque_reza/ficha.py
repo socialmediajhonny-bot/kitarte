@@ -78,7 +78,11 @@ _MEASURE_JS = r"""tokenNames => {
       const fill = shape ? getComputedStyle(shape).fill : '';
       if (fill && fill !== 'none') actual = hex(fill);
     }
-    const hint = node.dataset.corToken || null;
+    let hint = node.dataset.corToken || null;
+    // Keep the former pseudo-element's token when a preview overrides --moldura,
+    // even if its resolved color happens to equal the current liturgical color.
+    if (node.dataset.element === 'nicho-filete' && style.getPropertyValue('--moldura').trim())
+      hint = tokenNames.find(name => palette[name] === actual) || hint;
     const isColorCard = Boolean(node.closest('.aqr-post--cor'));
     const size = isText ? number(style.fontSize) : null;
     const leading = isText ? number(style.lineHeight) : null;

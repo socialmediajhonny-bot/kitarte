@@ -73,6 +73,7 @@ saida/
 │   │   ├── recorte-feed.png
 │   │   ├── recorte-status.png
 │   │   └── status.png
+│   ├── NOTAS-DE-ENQUADRAMENTO.md
 │   ├── RELATORIO.md
 │   ├── prancha.png
 │   └── verificacao.json
@@ -85,6 +86,98 @@ saida/
 │   │   ├── evangelho-2026-11-29.pdf
 │   │   ├── ficha.json
 │   │   └── recorte.png
+│   ├── 2026-11-30/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-11-30.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-01/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-01.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-02/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-02.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-03/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-03.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-04/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-04.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-05/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-05.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-06/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── card-4.png
+│   │   ├── evangelho-2026-12-06.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-07/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-07.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-08/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-08.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-09/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-09.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-10/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-10.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-11/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-11.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
+│   ├── 2026-12-12/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── evangelho-2026-12-12.pdf
+│   │   ├── ficha.json
+│   │   └── recorte.png
 │   ├── 2026-12-13/
 │   │   ├── card-1.png
 │   │   ├── card-2.png
@@ -93,9 +186,14 @@ saida/
 │   │   ├── evangelho-2026-12-13.pdf
 │   │   ├── ficha.json
 │   │   └── recorte.png
+│   ├── CONFERENCIA-ENQUADRAMENTOS.md
 │   ├── CONFERENCIA-KIT-V3.md
+│   ├── CONFERENCIA-PROMPT-11.md
+│   ├── NOTAS-DAS-OBRAS-LOTE-1.json
 │   ├── RELATORIO.md
+│   ├── conferencia-enquadramentos.json
 │   ├── conferencia-kit-v3.json
+│   ├── conferencia-prompt11.json
 │   ├── prancha-cores.png
 │   ├── prancha.png
 │   └── verificacao.json
@@ -107,6 +205,70 @@ saida/
 │   ├── pagina-2.html
 │   ├── pagina-3.html
 │   └── selos.html
+├── igreja-domestica/
+│   ├── 2026-11-29/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── card-4.png
+│   │   ├── ficha.json
+│   │   ├── igreja-domestica-2026-11-29.pdf
+│   │   └── recorte.png
+│   ├── 2026-12-06/
+│   │   ├── card-1.png
+│   │   ├── card-2.png
+│   │   ├── card-3.png
+│   │   ├── ficha.json
+│   │   ├── igreja-domestica-2026-12-06.pdf
+│   │   └── recorte.png
+│   ├── CONFERENCIA-PROMPT-10.md
+│   ├── NOTAS-DAS-OBRAS.json
+│   ├── RELATORIO.md
+│   ├── conferencia-prompt10.json
+│   ├── prancha.png
+│   └── verificacao.json
+├── novena/
+│   ├── imaculada/
+│   │   ├── dia-1.png
+│   │   ├── dia-2.png
+│   │   ├── dia-3.png
+│   │   ├── dia-4.png
+│   │   ├── dia-5.png
+│   │   ├── dia-6.png
+│   │   ├── dia-7.png
+│   │   ├── dia-8.png
+│   │   ├── dia-9.png
+│   │   ├── encerramento.png
+│   │   ├── ficha.json
+│   │   ├── novena-imaculada.pdf
+│   │   └── prancha.png
+│   ├── natal/
+│   │   ├── dia-1.png
+│   │   ├── dia-2.png
+│   │   ├── dia-3.png
+│   │   ├── dia-4.png
+│   │   ├── dia-5.png
+│   │   ├── dia-6.png
+│   │   ├── dia-7.png
+│   │   ├── dia-8.png
+│   │   ├── dia-9.png
+│   │   ├── encerramento.png
+│   │   ├── ficha.json
+│   │   ├── novena-natal.pdf
+│   │   └── prancha.png
+│   ├── teste-canva/
+│   │   ├── dia-1.png
+│   │   ├── dia-8.png
+│   │   ├── encerramento.png
+│   │   ├── ficha.json
+│   │   ├── novena-teste-canva.pdf
+│   │   └── prancha.png
+│   ├── CONFERENCIA-PROMPT-8.md
+│   ├── CONFERENCIA-PROMPT-9.md
+│   ├── RELATORIO.md
+│   ├── conferencia-prompt8.json
+│   ├── conferencia-prompt9.json
+│   └── verificacao.json
 ├── para-rezar/
 │   ├── 2026-10-20/
 │   │   ├── card-1.png
@@ -143,6 +305,41 @@ saida/
 │   ├── RELATORIO.md
 │   ├── prancha.png
 │   └── verificacao.json
+├── stories/
+│   ├── advento/
+│   │   ├── angelus.png
+│   │   ├── ficha.json
+│   │   ├── misericordia.png
+│   │   └── stories-advento.pdf
+│   ├── natal/
+│   │   ├── angelus.png
+│   │   ├── ficha.json
+│   │   ├── misericordia.png
+│   │   └── stories-natal.pdf
+│   ├── quaresma/
+│   │   ├── angelus.png
+│   │   ├── ficha.json
+│   │   ├── misericordia.png
+│   │   └── stories-quaresma.pdf
+│   ├── tempo-comum/
+│   │   ├── angelus.png
+│   │   ├── ficha.json
+│   │   ├── misericordia.png
+│   │   └── stories-tempo-comum.pdf
+│   ├── CONFERENCIA-PROMPT-7.md
+│   ├── RELATORIO.md
+│   ├── conferencia-prompt7.json
+│   ├── prancha.png
+│   ├── recorte-angelus.png
+│   ├── recorte-misericordia.png
+│   └── verificacao.json
+├── teste-canva/
+│   ├── LEIA-ME.md
+│   ├── ficha.json
+│   ├── prancha.png
+│   ├── teste-canva-a.pdf
+│   ├── teste-canva-b.pdf
+│   └── verificacao.json
 ├── verificacao/
 │   ├── logos/
 │   │   ├── avatar-perfil-convertido.png
@@ -176,7 +373,13 @@ saida/
 │   │   ├── simbolo-reduzido-pergaminho-convertido.png
 │   │   ├── simbolo-reduzido-pergaminho-original.png
 │   │   └── simbolo-reduzido-pergaminho.svg
+│   ├── conferencia-kit-v4.json
+│   ├── conferencia-prompt5.json
+│   ├── conferencia-prompt6.json
 │   └── resultados.json
+├── CONFERENCIA-KIT-V4.md
+├── CONFERENCIA-PROMPT-5.md
+├── CONFERENCIA-PROMPT-6.md
 ├── RELATORIO.md
 ├── obra-provisoria.png
 └── tokens.css
@@ -192,6 +395,7 @@ saida/
 - A imagem provisória vem apenas do degradê aqr-obra--luz rasterizado em 1080 × 1350. Dentro dos nichos só há imagens, sem degradês CSS.
 - Na página Canva, a imagem continua retangular, nos limites internos de 648 × 744 px e offset de 16 px, para preservar o mesmo enquadramento da capa CSS. A máscara SVG fica em x − 48, com 776 × 763 px; nenhum clip CSS é usado nessa versão.
 - Os SVGs de nicho têm duas cores, máscara e filete/parapeito. O arco externo tem raio W/2; o interno tem raio (W−32)/2 e centro coincidente. A máscara pode ser usada sobre uma imagem retangular.
+- No helper nicho(), o filete é um único path SVG preenchido em U, separado da obra e do parapeito. A antiga borda CSS arredondada do ::before fica desativada somente pelo CSS do gerador, para o Canva importar o filete como forma.
 - Os viewBoxes dos logos são recortados para os limites reais do desenho, como solicitado. Os originais têm pequenas sobras e um corte de borda. Para comparar apenas a conversão de traço em preenchimento, o original é renderizado nos mesmos limites de desenho e no mesmo tamanho do convertido. O kit original não é alterado; os originais normalizados de comparação ficam em verificacao/logos/.
 - As prévias são pranchas de inspeção, com rótulos de 14 px fora das peças: selos 2160 × 1600, nichos 2160 × 3360 e assinaturas 2160 × 1320. As três páginas de prova permanecem em 1080 × 1350.
 - O Chromium arredonda a altura física do PDF em cerca de 0,54 pt. Na junção das páginas, a origem do conteúdo é compensada e MediaBox/CropBox são fixados em 810 × 1012,5 pt; o texto e as fontes permanecem vetoriais.
@@ -206,10 +410,11 @@ A travessa mede 26 unidades no símbolo, com escala 1.0517: 27.3442 unidades no 
 - 19 SVGs com tamanho menor que 3 MB e contagens zeradas para stroke, text, style, class, transform, degradês, Q e T.
 - PNGs conferidos contra as dimensões declaradas em verificacao/resultados.json, incluindo as pranchas, páginas e comparações de logos.
 - PDF com três páginas de 810 × 1012,5 pt, equivalentes a 1080 × 1350 px a 96 dpi. O selo e o título ou a pergunta de cada página continuam como texto extraível.
+- 1 nicho medido na prova PDF: um preenchimento curvo na cor e caixa do nicho, nenhuma assinatura antiga feita apenas de retângulos na caixa inteira e um parapeito retangular separado de 3 px. A verificação usa PyMuPDF com tolerância de 0,5 pt e interrompe a geração se falhar; os resultados estão em verificacao/resultados.json.
 - Fontes TrueType embutidas conferidas no próprio PDF: CormorantGaramond-SemiBold, CormorantGaramond-MediumItalic, Lato-Bold e Lato-Regular. As outras duas variantes estão nos TTF fornecidos e são verificadas no navegador, sem exigir que apareçam em páginas que não as usam.
 - Seis nichos conferidos por pixels no canto, topo, lateral, parapeito e três pontos do arco; tolerância de 3 níveis RGB para antialiasing.
 - 10 logos SVG comparados em dois fundos; maior diferença média por canal: 0.237187/255, concentrada na rasterização das bordas. As imagens original/convertido e as métricas estão em verificacao/.
-- Navegador sem erros de console, execução ou HTTP durante a geração. A FICHA contém os valores de posição e tipografia medidos no DOM; os pseudoelementos são derivados dos estilos resolvidos e da caixa medida do nicho.
+- Navegador sem erros de console, execução ou HTTP durante a geração. A FICHA contém os valores de posição e tipografia medidos no DOM. O filete é medido como SVG; parapeito e demais pseudoelementos são derivados dos estilos resolvidos e da caixa medida do elemento hospedeiro.
 
 ## Limites e verificações externas
 

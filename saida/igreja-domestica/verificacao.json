@@ -881,6 +881,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     68  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     73  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     84  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     89  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     94  0\n",
         "pdftotext": "Igreja Doméstica · dom, 29 nov\n\n\n\n\n       Georges de La Tour · São José carpinteiro · Museu do Louvre\n\n\n\n  A coroa do Advento em casa\n     Como montar e rezar a primeira vela em família\n\fIgreja Doméstica · dom, 29 nov                                    2/4\n\n\n\n\n                          Como montar\n\n\n   Ramos verdes e quatro velas\n\n 1 Faça um círculo de ramos verdes: pinheiro, cipreste\n   ou o que houver por perto.\n\n 2 Ponha quatro velas: três roxas e uma rosa, para\n   o 3º domingo. Brancas também servem.\n\n 3 A cada domingo, acenda uma vela a mais. A luz vai\n   vencendo a noite, até o Natal.\n\n 4 Deixe a coroa na mesa da família. Nos outros dias,\n   acenda as velas no jantar.\n\n          Diretório sobre a Piedade Popular e a Liturgia, n. 98\n\fIgreja Doméstica · dom, 29 nov                    3/4\n\n\n\n                  Para rezar em família\n\n\n               O Senhor vem\n\n        Leiam o Evangelho do dia, Mc 13,33-37.\n              Depois, quem conduz reza:\n\n\n   Senhor nosso Deus, abençoai a nossa família,\n    reunida em volta desta coroa. Que a luz da\nprimeira vela nos mantenha acordados, à espera de\n Jesus, que vem. Por Cristo, nosso Senhor. Amém.\n\n        Acendam a primeira vela e digam juntos:\n\n\n               Vinde, Senhor Jesus!\n\fIgreja Doméstica · dom, 29 nov                       4/4\n\n\n\n\n                Para conversar em família\n\n\n  O que cada um pode fazer nesta semana\n     para preparar a casa para Jesus?\n\n\n     Envie para quem vai acender a coroa com você.\n\f",
         "texto_igual_yaml_sem_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/igreja-domestica/2026-11-29/igreja-domestica-2026-11-29.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#5b2e70",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     },
@@ -1543,6 +1575,38 @@
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     42  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     47  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     52  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     63  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     68  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     73  0\n",
         "pdftotext": "Igreja Doméstica · dom, 6 dez\n\n\n\n\n  Ateliê de Georges de La Tour · A educação da Virgem · The Frick Collection\n\n\n\n        A segunda vela da coroa\n              Oração em família diante da coroa\n\fIgreja Doméstica · dom, 6 dez                    2/3\n\n\n\n                  Para rezar em família\n\n\n           Preparai o caminho\n\n          Leiam o Evangelho do dia, Mc 1,1-8.\n              Depois, quem conduz reza:\n\n\n      Senhor Jesus, João Batista nos chama\n   a preparar o vosso caminho. Ajudai a nossa\n    família a abrir esse caminho aqui em casa,\n  com mais paciência, perdão e oração. Amém.\n\n         Acendam as duas velas e digam juntos:\n\n\n               Vinde, Senhor Jesus!\n\fIgreja Doméstica · dom, 6 dez                        3/3\n\n\n\n\n                Para conversar em família\n\n\n          Com quem precisamos fazer\n           as pazes antes do Natal?\n\n\n     Envie para quem vai acender a coroa com você.\n\f",
         "texto_igual_yaml_sem_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/igreja-domestica/2026-12-06/igreja-domestica-2026-12-06.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#5b2e70",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
         "errors": []
       }
     }
