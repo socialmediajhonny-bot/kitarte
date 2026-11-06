@@ -1,0 +1,834 @@
+{
+  "data": "2026-12-30",
+  "tipo": "festa",
+  "cor": "ouro",
+  "grau": "Oitava do Natal",
+  "nome": "Sexto dia do Natal",
+  "obra": {
+    "arquivo": "obras/santo-do-dia/2026-12-30.jpg",
+    "credito": "Bartolomé Esteban Murillo · A Sagrada Família do passarinho · Museu do Prado",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_del_pajarito_(Murillo).jpg",
+    "foco": "16% 50%"
+  },
+  "obra_pendente": false,
+  "obra_usada": "obras/santo-do-dia/2026-12-30.jpg",
+  "cards": [
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Oitava do Natal",
+          "linhas": [
+            "Oitava do Natal"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 227.484375,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#241b14",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 227.484375,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qua, 30 dez",
+          "linhas": [
+            "· qua, 30 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 349.59375,
+              "y": 80,
+              "largura": 182.390625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#665647",
+          "caixa": {
+            "x": 349.59375,
+            "y": 80,
+            "largura": 182.390625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "credito",
+          "conteudo": "Bartolomé Esteban Murillo · A Sagrada Família do passarinho · Museu do Prado",
+          "linhas": [
+            "Bartolomé Esteban Murillo · A Sagrada Família do passarinho · Museu do Prado"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 126.78125,
+              "y": 865,
+              "largura": 826.4375,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#665647",
+          "caixa": {
+            "x": 126.78125,
+            "y": 864,
+            "largura": 826.4375,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "nome",
+          "conteudo": "Sexto dia do Natal",
+          "linhas": [
+            "Sexto dia do Natal"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 206.3125,
+              "y": 936,
+              "largura": 667.375,
+              "altura": 111
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo-capa",
+          "cor": "#241b14",
+          "caixa": {
+            "x": 206.3125,
+            "y": 944,
+            "largura": 667.375,
+            "altura": 96
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 92,
+          "entrelinha_px": 96,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 240,
+          "y": 152,
+          "largura": 600,
+          "altura": 680
+        },
+        "obra": {
+          "x": 256,
+          "y": 168,
+          "largura": 568,
+          "altura": 664
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 451.984375,
+          "altura": 40
+        },
+        "referencia": null,
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": null,
+        "cartao": null,
+        "cartao_area_interna": null,
+        "cartao_filete_interno": null
+      },
+      "card": 1,
+      "tipo": "festa",
+      "modelo": "PostFesta",
+      "tema": "pergaminho",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#f2eadb",
+          "background_hex": "#f2eadb",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 227.484375,
+          "height": 39,
+          "text": "Oitava do Natal",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#241b14",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 349.59375,
+          "y": 80,
+          "width": 182.390625,
+          "height": 39,
+          "text": "· qua, 30 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#665647",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 240,
+          "y": 152,
+          "width": 600,
+          "height": 680,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 192,
+          "y": 832,
+          "width": 696,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": "#866420",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 240,
+          "y": 152,
+          "width": 600,
+          "height": 680,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#866420",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 256,
+          "y": 168,
+          "width": 568,
+          "height": 664,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#faf6ee",
+          "background_hex": "#faf6ee",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              284,
+              284
+            ],
+            "top_right": [
+              284,
+              284
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 256,
+          "y": 168,
+          "width": 568,
+          "height": 664,
+          "text": null,
+          "arquivo": "obras/santo-do-dia/2026-12-30.jpg",
+          "source": "http://127.0.0.1:40133/obras/santo-do-dia/2026-12-30.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 3051,
+          "source_height_px": 2288,
+          "object_fit": "cover",
+          "object_position": "16% 50%"
+        },
+        {
+          "element": "credito",
+          "kind": "text",
+          "x": 126.78125,
+          "y": 864,
+          "width": 826.4375,
+          "height": 32,
+          "text": "Bartolomé Esteban Murillo · A Sagrada Família do passarinho · Museu do Prado",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#665647",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nome",
+          "kind": "text",
+          "x": 206.3125,
+          "y": 944,
+          "width": 667.375,
+          "height": 96,
+          "text": "Sexto dia do Natal",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 92,
+          "line_height_px": 96,
+          "line_height_multiple": 1.043478,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#241b14",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-pergaminho.svg",
+          "source": "kit/logos/logo-horizontal-pergaminho.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#241b14",
+              "token": "tinta",
+              "theme": "pergaminho"
+            },
+            {
+              "hex": "#866420",
+              "token": "ouro",
+              "theme": "pergaminho"
+            }
+          ]
+        }
+      ],
+      "cartao": null,
+      "enquadramento": {
+        "foco": "16% 50%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 3051,
+          "altura": 2288
+        },
+        "nicho": {
+          "largura": 600,
+          "altura": 680
+        },
+        "area_interna": {
+          "largura": 568,
+          "altura": 664
+        },
+        "escala_cover": 0.2902097902097902,
+        "escala_com_zoom": 0.2902097902097902,
+        "janela_original": {
+          "x": 175.00722891566264,
+          "y": 0.0,
+          "largura": 1957.2048192771085,
+          "altura": 2288.0
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 6
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": [],
+        "avisos": []
+      }
+    }
+  ],
+  "enquadramento": {
+    "foco": "16% 50%",
+    "zoom": 1.0,
+    "imagem_original": {
+      "largura": 3051,
+      "altura": 2288
+    },
+    "nicho": {
+      "largura": 600,
+      "altura": 680
+    },
+    "area_interna": {
+      "largura": 568,
+      "altura": 664
+    },
+    "escala_cover": 0.2902097902097902,
+    "escala_com_zoom": 0.2902097902097902,
+    "janela_original": {
+      "x": 175.00722891566264,
+      "y": 0.0,
+      "largura": 1957.2048192771085,
+      "altura": 2288.0
+    },
+    "margens_detectadas": {
+      "topo": 0,
+      "base": 0,
+      "esquerda": 0,
+      "direita": 6
+    },
+    "faixas_descartadas": [],
+    "margens_visiveis": [],
+    "avisos": []
+  },
+  "avisos": []
+}

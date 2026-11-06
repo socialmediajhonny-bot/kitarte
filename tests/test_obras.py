@@ -24,6 +24,13 @@ LOT_ONE_MUSEUM_MARGINS = {
     '2026-12-11': {'base': 22, 'esquerda': 15, 'direita': 14},
 }
 
+SAINT_DECEMBER_MUSEUM_MARGINS = {
+    '2026-12-07': {},
+    '2026-12-09': {'topo': 50, 'esquerda': 51, 'direita': 62},
+    '2026-12-29': {'esquerda': 7},
+    '2026-12-30': {'direita': 6},
+}
+
 
 class ArtworkTests(unittest.TestCase):
     def setUp(self):
@@ -208,6 +215,7 @@ class ArtworkTests(unittest.TestCase):
         excluded = {'obras/2026-11-29.jpg', 'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg',
                     'obras/igreja-domestica/2026-12-06.jpg'}
         excluded.update(f'obras/{day}.jpg' for day in LOT_ONE_MUSEUM_MARGINS)
+        excluded.update(f'obras/santo-do-dia/{day}.jpg' for day in SAINT_DECEMBER_MUSEUM_MARGINS)
         for artwork in sorted((PROJECT / 'obras').rglob('*.jpg')):
             if artwork.relative_to(PROJECT).as_posix() in excluded:
                 continue
@@ -215,6 +223,26 @@ class ArtworkTests(unittest.TestCase):
                 result = inspect_artwork(artwork, '50% 50%')
                 self.assertFalse(any(result['margens_detectadas'].values()))
                 self.assertEqual(result['faixas_descartadas'], [])
+
+    def test_saints_december_museum_borders_stay_outside_the_approved_windows(self):
+        days = {day['data']: day for day in load_saints(PROJECT / 'conteudo/santo-do-dia.yaml')}
+        for date, expected in SAINT_DECEMBER_MUSEUM_MARGINS.items():
+            with self.subTest(date=date):
+                day = days[date]
+                work = day['obra']
+                width, height = (340, 420) if day['tipo'] == 'santinho' else (600, 680)
+                artwork = PROJECT / work['arquivo']
+                centered = inspect_artwork(artwork, '50% 50%', niche_width=width, niche_height=height)
+                margins = dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0)
+                margins.update(expected)
+                self.assertEqual(centered['margens_detectadas'], margins)
+                if date == '2026-12-07':
+                    self.assertEqual({band['lado']: band['largura'] for band in centered['faixas_descartadas']},
+                                     {'topo': 52, 'base': 91, 'direita': 69})
+                approved = inspect_artwork(artwork, work['foco'], work.get('zoom', 1),
+                                           niche_width=width, niche_height=height, date=date)
+                self.assertEqual(approved['margens_visiveis'], [])
+                self.assertEqual(approved['avisos'], [])
 
     def test_gospel_batch_one_museum_borders_stay_outside_the_approved_windows(self):
         days = {day['data']: day for day in load_content(PROJECT / 'conteudo/evangelho.yaml')}

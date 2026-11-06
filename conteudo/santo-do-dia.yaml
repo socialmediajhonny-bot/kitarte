@@ -16,6 +16,35 @@
     foco: 45% 15%
     zoom: 1.05
 
+- data: 2026-12-01
+  tipo: santinho
+  cor: ouro
+  grau: Canonizado em 2022
+  nome: São Carlos de Foucauld
+  titulo: Presbítero e eremita
+  frase: Peça a Deus que eu seja realmente o irmão de todos.
+  fonte: Carta a Henry de Castries, 1901 · Fratelli tutti, 287
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-01.jpg
+    credito: Fotógrafo desconhecido · Carlos de Foucauld · Wikimedia Commons
+    pagina: https://commons.wikimedia.org/wiki/File:St_Charles_de_Foucauld.jpg
+    foco: 50% 40%
+
+- data: 2026-12-02
+  tipo: santinho
+  cor: ouro
+  grau: Martirológio
+  nome: São Habacuque
+  titulo: Profeta
+  frase: Eu, porém, me regozijarei no Senhor. Encontrarei minha alegria no Deus de minha salvação.
+  fonte: Oração de Habacuque, Hab 3,18
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-02.jpg
+    credito: Juan Correa de Vivar · O profeta Habacuque · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:El_profeta_Habacuc,_de_Juan_Correa_de_Vivar_(Museo_del_Prado).jpg
+    foco: 52% 18%
+    zoom: 1.22
+
 - data: 2026-12-03
   tipo: santinho
   cor: ouro
@@ -31,6 +60,47 @@
     foco: 50% 0%
     zoom: 1.3
 
+- data: 2026-12-04
+  tipo: santinho
+  cor: ouro
+  grau: Memória facultativa
+  nome: São João Damasceno
+  titulo: Presbítero e Doutor da Igreja
+  frase: Não venero a matéria, mas o criador da matéria, que por mim se fez matéria.
+  fonte: Em defesa das santas imagens · Bento XVI, audiência de 6/5/2009
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-04.jpg
+    credito: Autor desconhecido · São João Damasceno · Afresco do Monte Athos
+    pagina: https://commons.wikimedia.org/wiki/File:Athonite_Fresco_Icon_of_Saint_John_of_Damascus_2.jpg
+    foco: 50% 3%
+
+- data: 2026-12-05
+  tipo: festa
+  cor: ouro
+  grau: Santo do Dia
+  nome: São Sabas
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-05.jpg
+    credito: Menológio de Basílio II · São Sabas · Biblioteca Apostólica Vaticana
+    pagina: https://commons.wikimedia.org/wiki/File:Sabbas_the_Sanctified_(Menologion_of_Basil_II).jpg
+    foco: 28% 50%
+    zoom: 1.12
+
+- data: 2026-12-07
+  tipo: santinho
+  cor: ouro
+  grau: Memória
+  nome: Santo Ambrósio
+  titulo: Bispo e Doutor da Igreja
+  frase: Cristo é tudo para nós!
+  fonte: Sobre a virgindade, 16,99
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-07.jpg
+    credito: Francisco de Zurbarán · Santo Ambrósio · Museu de Belas Artes de Sevilha
+    pagina: https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_032.jpg
+    foco: 55% 0%
+    zoom: 1.1
+
 - data: 2026-12-08
   tipo: festa
   cor: ouro
@@ -41,3 +111,202 @@
     credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
     pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
     foco: 50% 20%
+
+- data: 2026-12-09
+  tipo: santinho
+  cor: ouro
+  grau: Memória facultativa
+  nome: São João Diego
+  titulo: Vidente de Guadalupe
+  frase: Por acaso sou digno, sou merecedor do que ouço?
+  fonte: Nican Mopohua, relato de Antonio Valeriano
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-09.jpg
+    credito: Autor desconhecido · São João Diego com a tilma · 1737
+    pagina: https://commons.wikimedia.org/wiki/File:San_Juan_Diego_con_el_ayate.jpg
+    foco: 50% 30%
+    zoom: 1.4
+
+- data: 2026-12-10
+  tipo: santinho
+  cor: ouro
+  grau: Memória facultativa
+  nome: Nossa Senhora de Loreto
+  titulo: A casa de Nazaré
+  frase: |-
+    Eis aqui a serva do Senhor;
+    faça-se em mim
+    segundo a tua palavra!
+  fonte: Palavras de Maria ao anjo, Lc 1,38
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-10.jpg
+    credito: Lorenzo Lotto · A Anunciação · Museu Villa Colloredo Mels, Recanati
+    pagina: https://commons.wikimedia.org/wiki/File:Lorenzo_Lotto_066.jpg
+    foco: 40% 100%
+    zoom: 1.12
+
+- data: 2026-12-11
+  tipo: santinho
+  cor: ouro
+  grau: Memória facultativa
+  nome: São Dâmaso I
+  titulo: Papa
+  frase: Creio que, depois das cinzas, ele fará Dâmaso ressurgir.
+  fonte: Epitáfio que escreveu para si
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-11.jpg
+    credito: Bíblia de São Marcial de Limoges · O papa Dâmaso · Biblioteca Nacional da França
+    pagina: https://commons.wikimedia.org/wiki/File:Pope_Damasus_-_Biblia_Sancti_Martialis_Lemovicensis,_Folio_4v.png
+    foco: 50% 3%
+    zoom: 1.05
+
+- data: 2026-12-12
+  tipo: festa
+  cor: ouro
+  grau: Festa
+  nome: Nossa Senhora de Guadalupe
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-12.jpg
+    credito: Antonio e Manuel de Arellano · Virgem de Guadalupe · LACMA
+    pagina: https://collections.lacma.org/object/148372
+    foco: 50% 40%
+
+- data: 2026-12-14
+  tipo: santinho
+  cor: ouro
+  grau: Memória
+  nome: São João da Cruz
+  titulo: Presbítero e Doutor da Igreja
+  frase: Ao pôr do sol te examinarão no amor.
+  fonte: Ditos de luz e amor, 64 · São João Paulo II, Segóvia, 1982
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-14.jpg
+    credito: Atribuído a Francisco de Zurbarán · São João da Cruz · Museu Arquidiocesano de Katowice
+    pagina: https://commons.wikimedia.org/wiki/File:Zurbar%C3%A1n_(atribuido)-John_of_the_Cross-1656.jpg
+    foco: 40% 5%
+    zoom: 1.35
+
+- data: 2026-12-15
+  tipo: santinho
+  cor: ouro
+  grau: Martirológio
+  nome: Santa Virgínia Bracelli
+  titulo: Leiga e fundadora
+  frase: Quando se tem como fim unicamente Deus, todas as oposições se aplanam.
+  fonte: Citada por São João Paulo II na canonização, 2003
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-15.jpg
+    credito: Mestre de Alkmaar · Dar de comer a quem tem fome · Rijksmuseum
+    pagina: https://commons.wikimedia.org/wiki/File:De_zeven_werken_van_barmhartigheid_Rijksmuseum_SK-A-2815-1.jpeg
+    foco: 20% 62%
+    zoom: 1.3
+
+- data: 2026-12-16
+  tipo: santinho
+  cor: ouro
+  grau: Martirológio
+  nome: São Ageu
+  titulo: Profeta
+  frase: Coragem, povo todo desta terra, diz o Senhor dos exércitos; ponde mãos à obra, pois eu estou convosco.
+  fonte: Ag 2,4
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-16.jpg
+    credito: Moretto da Brescia · O profeta Ageu · San Giovanni Evangelista, Brescia
+    pagina: https://commons.wikimedia.org/wiki/File:Profeta_Aggeo_(Moretto).jpg
+    foco: 35% 50%
+    zoom: 1.2
+
+- data: 2026-12-24
+  tipo: santinho
+  cor: ouro
+  grau: Martirológio
+  nome: Santos antepassados de Cristo
+  titulo: Filhos de Abraão e de Davi
+  frase: Espero em vosso socorro, Senhor!
+  fonte: Bênção de Jacó, Gn 49,18
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-24.jpg
+    credito: Círculo de Geertgen tot Sint Jans · A árvore de Jessé · Rijksmuseum
+    pagina: https://www.rijksmuseum.nl/en/collection/SK-A-3901
+    foco: 50% 0%
+    zoom: 1.5
+
+- data: 2026-12-25
+  tipo: festa
+  cor: ouro
+  grau: Solenidade
+  nome: Natal do Senhor
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-25.jpg
+    credito: Georges de La Tour · A adoração dos pastores · Museu do Louvre
+    pagina: https://collections.louvre.fr/ark:/53355/cl010065555
+    foco: 28% 50%
+
+- data: 2026-12-26
+  tipo: santinho
+  cor: vermelho
+  grau: Festa
+  nome: Santo Estêvão
+  titulo: Diácono e primeiro mártir
+  frase: |-
+    Estou vendo o céu aberto,
+    e o Filho do Homem,
+    de pé, à direita de Deus.
+  fonte: Palavras de Estêvão diante do Sinédrio, At 7,56
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-26.jpg
+    credito: Carlo Crivelli · Santo Estêvão · National Gallery, Londres
+    pagina: https://www.nationalgallery.org.uk/paintings/carlo-crivelli-saint-stephen
+    foco: 50% 5%
+    zoom: 1.1
+
+- data: 2026-12-28
+  tipo: santinho
+  cor: vermelho
+  grau: Festa
+  nome: Santos Inocentes
+  titulo: Mártires
+  frase: Ainda não falam, e já dão testemunho de Cristo.
+  fonte: São Quodvultdeus, Ofício das Leituras
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-28.jpg
+    credito: Vittore Carpaccio · A fuga para o Egito · National Gallery of Art
+    pagina: https://www.nga.gov/collection/art-object-page.32.html
+    foco: 26% 50%
+
+- data: 2026-12-29
+  tipo: santinho
+  cor: vermelho
+  grau: Memória facultativa
+  nome: São Tomás Becket
+  titulo: Bispo e mártir
+  frase: Sem verdadeiro combate, ninguém conquista a coroa.
+  fonte: Carta de São Tomás Becket, Ofício das Leituras
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-29.jpg
+    credito: Autor desconhecido · Cena da vida de São Tomás Becket · Harvard Art Museums
+    pagina: https://harvardartmuseums.org/art/231842
+    foco: 50% 55%
+    zoom: 1.35
+
+- data: 2026-12-30
+  tipo: festa
+  cor: ouro
+  grau: Oitava do Natal
+  nome: Sexto dia do Natal
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-30.jpg
+    credito: Bartolomé Esteban Murillo · A Sagrada Família do passarinho · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:Sagrada_Familia_del_pajarito_(Murillo).jpg
+    foco: 16% 50%
+
+- data: 2026-12-31
+  tipo: festa
+  cor: ouro
+  grau: Santo do Dia
+  nome: São Silvestre I
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-31.jpg
+    credito: Autor desconhecido · São Silvestre · Biblioteca Nacional da França
+    pagina: https://commons.wikimedia.org/wiki/File:Pape_St_Sylvestre_%E2%80%93_BnF,_ms_16251,_fol._87.jpg
+    foco: 50% 5%

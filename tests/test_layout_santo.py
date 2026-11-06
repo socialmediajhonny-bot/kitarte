@@ -50,8 +50,9 @@ class SaintLayoutTests(unittest.TestCase):
         )
         cls.page = cls.context.new_page()
         cls.days = load_saints(PROJECT / "conteudo/santo-do-dia.yaml")
-        cls.saint = cls.days[0]
-        cls.feast = cls.days[2]
+        by_date = {day["data"]: day for day in cls.days}
+        cls.saint = by_date["2026-11-30"]
+        cls.feast = by_date["2026-12-08"]
 
     def render(self, day):
         artwork = local_artwork_path(day["obra"]["arquivo"])
