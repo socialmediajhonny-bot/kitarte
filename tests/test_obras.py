@@ -24,6 +24,18 @@ LOT_ONE_MUSEUM_MARGINS = {
     '2026-12-11': {'base': 22, 'esquerda': 15, 'direita': 14},
 }
 
+LOT_THREE_MUSEUM_MARGINS = {
+    '2026-12-14': {'topo': 24, 'base': 25, 'esquerda': 21},
+    '2026-12-15': {'topo': 11, 'base': 8, 'esquerda': 17, 'direita': 7},
+    '2026-12-19': {'topo': 29, 'esquerda': 27, 'direita': 29},
+    '2026-12-21': {'base': 14, 'esquerda': 32, 'direita': 41},
+    '2026-12-22': {'topo': 22, 'base': 33, 'esquerda': 22, 'direita': 22},
+    '2026-12-24': {'topo': 50, 'direita': 43},
+    '2026-12-26': {'base': 28, 'esquerda': 20, 'direita': 21},
+    '2026-12-28': {},
+    '2026-12-29': {'base': 45, 'esquerda': 28, 'direita': 41},
+}
+
 SAINT_DECEMBER_MUSEUM_MARGINS = {
     '2026-12-07': {},
     '2026-12-09': {'topo': 50, 'esquerda': 51, 'direita': 62},
@@ -215,6 +227,7 @@ class ArtworkTests(unittest.TestCase):
         excluded = {'obras/2026-11-29.jpg', 'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg',
                     'obras/igreja-domestica/2026-12-06.jpg'}
         excluded.update(f'obras/{day}.jpg' for day in LOT_ONE_MUSEUM_MARGINS)
+        excluded.update(f'obras/{day}.jpg' for day in LOT_THREE_MUSEUM_MARGINS)
         excluded.update(f'obras/santo-do-dia/{day}.jpg' for day in SAINT_DECEMBER_MUSEUM_MARGINS)
         for artwork in sorted((PROJECT / 'obras').rglob('*.jpg')):
             if artwork.relative_to(PROJECT).as_posix() in excluded:
@@ -270,6 +283,37 @@ class ArtworkTests(unittest.TestCase):
                 work = days[date]['obra']
                 approved = inspect_artwork(PROJECT / work['arquivo'], work['foco'],
                                            work.get('zoom', 1), date=date)
+                self.assertEqual(approved['margens_visiveis'], [])
+                self.assertEqual(approved['avisos'], [])
+
+    def test_gospel_batch_three_museum_borders_stay_outside_the_approved_windows(self):
+        days = {day['data']: day for day in load_content(PROJECT / 'conteudo/evangelho.yaml')}
+        discarded_expected = {
+            '2026-12-24': {'base': (4, .2)},
+            '2026-12-28': {'topo': (12, 9.5)},
+        }
+        for date, expected in LOT_THREE_MUSEUM_MARGINS.items():
+            with self.subTest(date=date):
+                artwork = PROJECT / f'obras/{date}.jpg'
+                centered = inspect_artwork(artwork, '50% 50%', niche_width=680, niche_height=760,
+                                           date=date)
+                margins = dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0)
+                margins.update(expected)
+                self.assertEqual(centered['margens_detectadas'], margins)
+                bands = centered['faixas_descartadas']
+                discarded = discarded_expected.get(date, {})
+                self.assertEqual({band['lado'] for band in bands}, set(discarded))
+                for band in bands:
+                    width, difference = discarded[band['lado']]
+                    self.assertEqual(band['largura'], width)
+                    self.assertAlmostEqual(band['diferenca_cinza'], difference, delta=.05)
+        for number in range(14, 32):
+            date = f'2026-12-{number:02d}'
+            with self.subTest(approved=date):
+                work = days[date]['obra']
+                approved = inspect_artwork(PROJECT / work['arquivo'], work['foco'],
+                                           work.get('zoom', 1), niche_width=680,
+                                           niche_height=760, date=date)
                 self.assertEqual(approved['margens_visiveis'], [])
                 self.assertEqual(approved['avisos'], [])
 

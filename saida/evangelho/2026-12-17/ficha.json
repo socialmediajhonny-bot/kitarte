@@ -1,0 +1,2344 @@
+{
+  "data": "2026-12-17",
+  "celebracao": "Quinta-feira da 3ª Semana do Advento",
+  "cor": "roxo",
+  "referencia": "Mt 1,1-17",
+  "obra": {
+    "arquivo": "obras/2026-12-17.jpg",
+    "credito": "Livro de Kells · Início do Evangelho de Mateus · Trinity College Dublin",
+    "pagina": "https://commons.wikimedia.org/wiki/File:KellsFol029rIncipitMatthew.jpg",
+    "foco": "50% 30%",
+    "zoom": 1
+  },
+  "obra_pendente": false,
+  "obra_usada": "obras/2026-12-17.jpg",
+  "cards": [
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Evangelho do Dia",
+          "linhas": [
+            "Evangelho do Dia"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 252.359375,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 252.359375,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qui, 17 dez",
+          "linhas": [
+            "· qui, 17 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 374.46875,
+              "y": 80,
+              "largura": 174.171875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 374.46875,
+            "y": 80,
+            "largura": 174.171875,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "referencia",
+          "conteudo": "Mt 1,1-17",
+          "linhas": [
+            "Mt 1,1-17"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 854.8125,
+              "y": 80,
+              "largura": 145.1875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 854.8125,
+            "y": 80,
+            "largura": 145.1875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "credito",
+          "conteudo": "Livro de Kells · Início do Evangelho de Mateus · Trinity College Dublin",
+          "linhas": [
+            "Livro de Kells · Início do Evangelho de Mateus · Trinity College Dublin"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 178.15625,
+              "y": 945,
+              "largura": 723.671875,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 178.15625,
+            "y": 944,
+            "largura": 723.671875,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "titulo",
+          "conteudo": "A árvore de família de Jesus",
+          "linhas": [
+            "A árvore de família de Jesus"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 171.328125,
+              "y": 1020,
+              "largura": 737.328125,
+              "altura": 83
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 171.328125,
+            "y": 1024,
+            "largura": 737.328125,
+            "altura": 76
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 68,
+          "entrelinha_px": 76,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 200,
+          "y": 152,
+          "largura": 680,
+          "altura": 760
+        },
+        "obra": {
+          "x": 216,
+          "y": 168,
+          "largura": 648,
+          "altura": 744
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 468.640625,
+          "altura": 40
+        },
+        "referencia": {
+          "x": 854.8125,
+          "y": 80,
+          "largura": 145.1875,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": null
+      },
+      "card": 1,
+      "tipo": "Capa",
+      "modelo": 1,
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 252.359375,
+          "height": 39,
+          "text": "Evangelho do Dia",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 374.46875,
+          "y": 80,
+          "width": 174.171875,
+          "height": 39,
+          "text": "· qui, 17 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 854.8125,
+          "y": 80,
+          "width": 145.1875,
+          "height": 40,
+          "text": "Mt 1,1-17",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 200,
+          "y": 152,
+          "width": 680,
+          "height": 760,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 152,
+          "y": 912,
+          "width": 776,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": "#ac8bc6",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 200,
+          "y": 152,
+          "width": 680,
+          "height": 760,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 216,
+          "y": 168,
+          "width": 648,
+          "height": 744,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#211a15",
+          "background_hex": "#211a15",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              324,
+              324
+            ],
+            "top_right": [
+              324,
+              324
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 216,
+          "y": 168,
+          "width": 648,
+          "height": 744,
+          "text": null,
+          "arquivo": "obras/2026-12-17.jpg",
+          "source": "http://127.0.0.1:40363/obras/2026-12-17.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 1354,
+          "source_height_px": 1794,
+          "object_fit": "cover",
+          "object_position": "50% 30%"
+        },
+        {
+          "element": "credito",
+          "kind": "text",
+          "x": 178.15625,
+          "y": 944,
+          "width": 723.671875,
+          "height": 32,
+          "text": "Livro de Kells · Início do Evangelho de Mateus · Trinity College Dublin",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "titulo",
+          "kind": "text",
+          "x": 171.328125,
+          "y": 1024,
+          "width": 737.328125,
+          "height": 76,
+          "text": "A árvore de família de Jesus",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 68,
+          "line_height_px": 76,
+          "line_height_multiple": 1.117647,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "enquadramento": {
+        "foco": "50% 30%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 1354,
+          "altura": 1794
+        },
+        "nicho": {
+          "largura": 680,
+          "altura": 760
+        },
+        "area_interna": {
+          "largura": 648,
+          "altura": 744
+        },
+        "escala_cover": 0.47858197932053176,
+        "escala_com_zoom": 0.47858197932053176,
+        "janela_original": {
+          "x": 0.0,
+          "y": 71.82222222222221,
+          "largura": 1354.0,
+          "altura": 1554.5925925925926
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": [],
+        "avisos": []
+      }
+    },
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Evangelho do Dia",
+          "linhas": [
+            "Evangelho do Dia"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 252.359375,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 252.359375,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qui, 17 dez",
+          "linhas": [
+            "· qui, 17 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 374.46875,
+              "y": 80,
+              "largura": 174.171875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 374.46875,
+            "y": 80,
+            "largura": 174.171875,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "referencia",
+          "conteudo": "Mt 1,1-17",
+          "linhas": [
+            "Mt 1,1-17"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 854.8125,
+              "y": 80,
+              "largura": 145.1875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 854.8125,
+            "y": 80,
+            "largura": 145.1875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "trecho",
+          "conteudo": "Jacó gerou José, o esposo de Maria, da qual nasceu Jesus, que é chamado o Cristo.",
+          "linhas": [
+            "Jacó gerou José, o esposo de",
+            "Maria, da qual nasceu Jesus,",
+            "que é chamado o Cristo."
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 161.671875,
+              "y": 496,
+              "largura": 756.640625,
+              "altura": 97
+            },
+            {
+              "x": 135.390625,
+              "y": 584,
+              "largura": 809.203125,
+              "altura": 97
+            },
+            {
+              "x": 201.234375,
+              "y": 672,
+              "largura": 677.53125,
+              "altura": 97
+            }
+          ],
+          "quantidade_linhas": 3,
+          "estilo": "citacao-grande",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 100,
+            "y": 501,
+            "largura": 880,
+            "altura": 264
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "500",
+          "tamanho_px": 80,
+          "entrelinha_px": 88,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "trecho_ref",
+          "conteudo": "Mt 1,16",
+          "linhas": [
+            "Mt 1,16"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 481.4375,
+              "y": 797,
+              "largura": 117.125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "referencia",
+          "cor": "#cfa956",
+          "caixa": {
+            "x": 481.4375,
+            "y": 797,
+            "largura": 117.125,
+            "altura": 40
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.64,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": null,
+        "obra": null,
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 468.640625,
+          "altura": 40
+        },
+        "referencia": {
+          "x": 854.8125,
+          "y": 80,
+          "largura": 145.1875,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": {
+          "x": 80,
+          "y": 501,
+          "largura": 920,
+          "altura": 336
+        }
+      },
+      "card": 2,
+      "tipo": "Versículo",
+      "modelo": 2,
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 252.359375,
+          "height": 39,
+          "text": "Evangelho do Dia",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 374.46875,
+          "y": 80,
+          "width": 174.171875,
+          "height": 39,
+          "text": "· qui, 17 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 854.8125,
+          "y": 80,
+          "width": 145.1875,
+          "height": 40,
+          "text": "Mt 1,1-17",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "trecho",
+          "kind": "text",
+          "x": 100,
+          "y": 501,
+          "width": 880,
+          "height": 264,
+          "text": "Jacó gerou José, o esposo de Maria, da qual nasceu Jesus, que é chamado o Cristo.",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "500",
+          "font_style": "italic",
+          "font_size_px": 80,
+          "line_height_px": 88,
+          "line_height_multiple": 1.1,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "trecho_ref",
+          "kind": "text",
+          "x": 481.4375,
+          "y": 797,
+          "width": 117.125,
+          "height": 40,
+          "text": "Mt 1,16",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.64,
+          "letter_spacing_em": 0.02,
+          "letter_spacing_thousandths_em": 20,
+          "token": "ouro",
+          "hex": "#cfa956",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Evangelho do Dia",
+          "linhas": [
+            "Evangelho do Dia"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 252.359375,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 252.359375,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qui, 17 dez",
+          "linhas": [
+            "· qui, 17 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 374.46875,
+              "y": 80,
+              "largura": 174.171875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 374.46875,
+            "y": 80,
+            "largura": 174.171875,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "referencia",
+          "conteudo": "Mt 1,1-17",
+          "linhas": [
+            "Mt 1,1-17"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 854.8125,
+              "y": 80,
+              "largura": 145.1875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 854.8125,
+            "y": 80,
+            "largura": 145.1875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "chamada_oracao",
+          "conteudo": "Para rezar hoje",
+          "linhas": [
+            "Para rezar hoje"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 431.84375,
+              "y": 473.5,
+              "largura": 216.296875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 431.84375,
+            "y": 473.5,
+            "largura": 216.296875,
+            "altura": 40
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "pergunta",
+          "conteudo": "Que parte da minha história eu ainda não deixei Deus usar?",
+          "linhas": [
+            "Que parte da minha história",
+            "eu ainda não deixei Deus usar?"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 266.625,
+              "y": 562.5,
+              "largura": 546.75,
+              "altura": 65
+            },
+            {
+              "x": 243.71875,
+              "y": 630.5,
+              "largura": 592.546875,
+              "altura": 65
+            }
+          ],
+          "quantidade_linhas": 2,
+          "estilo": "citacao",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 110,
+            "y": 561.5,
+            "largura": 860,
+            "altura": 136
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "500",
+          "tamanho_px": 54,
+          "entrelinha_px": 68,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "convite",
+          "conteudo": "Abra sua Bíblia em Mateus 1,1-17",
+          "linhas": [
+            "Abra sua Bíblia em Mateus 1,1-17"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 286.953125,
+              "y": 818.5,
+              "largura": 506.09375,
+              "altura": 41
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "corpo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 286.953125,
+            "y": 814.5,
+            "largura": 506.09375,
+            "altura": 50
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 34,
+          "entrelinha_px": 50,
+          "tracking_px": 0,
+          "destaques": [
+            {
+              "texto": "Mateus 1,1-17",
+              "peso": "700",
+              "caixa": {
+                "x": 571.765625,
+                "y": 818.5,
+                "largura": 221.28125,
+                "altura": 41
+              }
+            }
+          ]
+        }
+      ],
+      "caixas": {
+        "nicho": null,
+        "obra": null,
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 468.640625,
+          "altura": 40
+        },
+        "referencia": {
+          "x": 854.8125,
+          "y": 80,
+          "largura": 145.1875,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": {
+          "x": 80,
+          "y": 473.5,
+          "largura": 920,
+          "altura": 391
+        }
+      },
+      "card": 3,
+      "tipo": "Para rezar hoje",
+      "modelo": 4,
+      "tema": "pergaminho",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#5b2e70",
+          "background_hex": "#5b2e70",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 252.359375,
+          "height": 39,
+          "text": "Evangelho do Dia",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 374.46875,
+          "y": 80,
+          "width": 174.171875,
+          "height": 39,
+          "text": "· qui, 17 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 854.8125,
+          "y": 80,
+          "width": 145.1875,
+          "height": 40,
+          "text": "Mt 1,1-17",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "chamada_oracao",
+          "kind": "text",
+          "x": 431.84375,
+          "y": 473.5,
+          "width": 216.296875,
+          "height": 40,
+          "text": "Para rezar hoje",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "pergunta",
+          "kind": "text",
+          "x": 110,
+          "y": 561.5,
+          "width": 860,
+          "height": 136,
+          "text": "Que parte da minha história eu ainda não deixei Deus usar?",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "500",
+          "font_style": "italic",
+          "font_size_px": 54,
+          "line_height_px": 68,
+          "line_height_multiple": 1.259259,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento",
+          "kind": "container",
+          "x": 445,
+          "y": 745.5,
+          "width": 190,
+          "height": 21,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento-filete-esquerdo",
+          "kind": "pseudo",
+          "pseudo": "::before",
+          "host": "ornamento",
+          "x": 445,
+          "y": 755,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": "#faf6ee",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
+        },
+        {
+          "element": "ornamento-filete-direito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "ornamento",
+          "x": 563,
+          "y": 755,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": "#faf6ee",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "convite",
+          "kind": "text",
+          "x": 286.953125,
+          "y": 814.5,
+          "width": 506.09375,
+          "height": 50,
+          "text": "Abra sua Bíblia em Mateus 1,1-17",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 34,
+          "line_height_px": 50,
+          "line_height_multiple": 1.470588,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-sobre-cor.svg",
+          "source": "kit/logos/logo-horizontal-sobre-cor.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#faf6ee",
+              "token": "papel",
+              "theme": "pergaminho"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "enquadramento": {
+    "foco": "50% 30%",
+    "zoom": 1.0,
+    "imagem_original": {
+      "largura": 1354,
+      "altura": 1794
+    },
+    "nicho": {
+      "largura": 680,
+      "altura": 760
+    },
+    "area_interna": {
+      "largura": 648,
+      "altura": 744
+    },
+    "escala_cover": 0.47858197932053176,
+    "escala_com_zoom": 0.47858197932053176,
+    "janela_original": {
+      "x": 0.0,
+      "y": 71.82222222222221,
+      "largura": 1354.0,
+      "altura": 1554.5925925925926
+    },
+    "margens_detectadas": {
+      "topo": 0,
+      "base": 0,
+      "esquerda": 0,
+      "direita": 0
+    },
+    "faixas_descartadas": [],
+    "margens_visiveis": [],
+    "avisos": []
+  },
+  "avisos": []
+}

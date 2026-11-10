@@ -33,6 +33,10 @@ Domingos exigem reflexão e geram quatro cards. Sem reflexão são três cards; 
 
 O Lote 1 acrescenta os treze carrosséis de 30/11 a 12/12/2026: doze dias de semana com três cards e o domingo de 6/12 com quatro. Os trechos foram tirados da Liturgia Diária da CNBB e aprovados em 05/11/2026; pontuação, acentos e quebras manuais foram preservados, assim como o conteúdo de 29/11 e 13/12.
 
+O Lote 3 acrescenta os dezoito carrosséis de 14 a 31/12/2026, com trechos retirados da Liturgia Diária da CNBB e aprovados em 09/11/2026. São dezesseis dias com três cards e os domingos 20 e 27/12 com quatro; o Natal de 25/12 não recebe reflexão.
+
+Somente `referencia` pode terminar com um espaço e o nome de uma das quatro missas do Natal: `(Missa da vigília)`, `(Missa da noite)`, `(Missa da aurora)` ou `(Missa do dia)`. Esse nome também aparece no convite, com a referência inteira em negrito; `trecho_ref` continua sem sufixo.
+
 Uma obra com borda do museu é aceita quando a borda fica fora do arco no foco e zoom aprovados. As imagens originais são preservadas; um teste próprio registra as margens e faixas descartadas e exige ausência de margem visível nos enquadramentos do lote. Cada data recebe sua prova de recorte.
 
 As cores aceitas são `verde`, `roxo`, `ouro` (ou `branco`), `vermelho` e `rosa`. `celebracao` e `obra.pagina` são metadados do relatório, sem aparecer nos cards. Nenhuma obra é baixada: quando `obra.arquivo` não existe, usa-se `saida/obra-provisoria.png`, com indicação de obra pendente. Uma obra local real também gera `recorte.png` para ajustar o foco do arco.

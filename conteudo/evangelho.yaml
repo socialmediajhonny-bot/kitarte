@@ -303,3 +303,291 @@
       acende a vela rosa. João Batista mostra de onde vem essa alegria: ele
       não aponta para si mesmo, aponta para Jesus.
   pergunta: Onde Jesus já está no meio da minha vida, e eu ainda não percebi?
+
+- data: 2026-12-14
+  celebracao: São João da Cruz, presbítero e doutor da Igreja (Memória)
+  cor: ouro
+  referencia: Mt 21,23-27
+  titulo: Jesus responde com outra pergunta
+  obra:
+    arquivo: obras/2026-12-14.jpg
+    credito: James Tissot · Os sumos sacerdotes interrogam Jesus · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/13456
+    foco: 18% 50%
+    zoom: 1.08
+  trecho: Com que autoridade fazes estas coisas? Quem te deu tal autoridade?
+  trecho_ref: Mt 21,23
+  pergunta: Que verdade eu evito encarar porque sei que ela me pede mudança?
+
+- data: 2026-12-15
+  celebracao: Terça-feira da 3ª Semana do Advento
+  cor: roxo
+  referencia: Mt 21,28-32
+  titulo: O filho que disse não e depois foi
+  obra:
+    # Obra temática: não há obra de Tissot sobre os dois filhos.
+    arquivo: obras/2026-12-15.jpg
+    credito: James Tissot · A volta do filho pródigo · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4538
+    foco: 60% 45%
+    zoom: 1.15
+  # Aspas simples curvas no trecho (‘Não quero’), aprovadas em 09/11/2026.
+  trecho: "O filho respondeu: ‘Não quero’. Mas depois mudou de opinião e foi."
+  trecho_ref: Mt 21,29
+  pergunta: Em que eu já disse não a Deus e ainda posso voltar atrás?
+
+- data: 2026-12-16
+  celebracao: Quarta-feira da 3ª Semana do Advento
+  cor: roxo
+  referencia: Lc 7,19-23
+  titulo: Os sinais de que o Messias chegou
+  obra:
+    arquivo: obras/2026-12-16.jpg
+    credito: James Tissot · Jesus cura cegos e coxos no monte · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4482
+    foco: 85% 45%
+    zoom: 1.2
+  trecho: E feliz é aquele que não se escandaliza por causa de mim!
+  trecho_ref: Lc 7,23
+  pergunta: O que no jeito de Jesus agir ainda me escandaliza ou me decepciona?
+
+- data: 2026-12-17
+  celebracao: Quinta-feira da 3ª Semana do Advento
+  cor: roxo
+  referencia: Mt 1,1-17
+  titulo: A árvore de família de Jesus
+  obra:
+    arquivo: obras/2026-12-17.jpg
+    credito: Livro de Kells · Início do Evangelho de Mateus · Trinity College Dublin
+    pagina: https://commons.wikimedia.org/wiki/File:KellsFol029rIncipitMatthew.jpg
+    foco: 50% 30%
+    zoom: 1
+  trecho: Jacó gerou José, o esposo de Maria, da qual nasceu Jesus, que é chamado o Cristo.
+  trecho_ref: Mt 1,16
+  pergunta: Que parte da minha história eu ainda não deixei Deus usar?
+
+- data: 2026-12-18
+  celebracao: Sexta-feira da 3ª Semana do Advento
+  cor: roxo
+  referencia: Mt 1,18-24
+  titulo: José acorda e faz o que o anjo mandou
+  obra:
+    arquivo: obras/2026-12-18.jpg
+    credito: Philippe de Champaigne · O sonho de São José · National Gallery, Londres
+    pagina: https://commons.wikimedia.org/wiki/File:Philippe_de_Champaigne_(1602-1674)_-_The_Dream_of_Saint_Joseph_-_NG6276_-_National_Gallery.jpg
+    foco: 45% 40%
+    zoom: 1
+  trecho: "Eis que a virgem conceberá e dará à luz um filho. Ele será chamado pelo nome de Emanuel, que significa: Deus está conosco."
+  trecho_ref: Mt 1,23
+  pergunta: Que plano meu eu preciso entregar para acolher o plano de Deus?
+
+- data: 2026-12-19
+  celebracao: Sábado da 3ª Semana do Advento
+  cor: roxo
+  referencia: Lc 1,5-25
+  titulo: O anjo aparece a Zacarias no Templo
+  obra:
+    arquivo: obras/2026-12-19.jpg
+    credito: James Tissot · A visão de Zacarias · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4419
+    foco: 50% 25%
+    zoom: 1.1
+  trecho: Não tenhas medo, Zacarias, porque Deus ouviu tua súplica.
+  trecho_ref: Lc 1,13
+  pergunta: Que súplica antiga eu deixei de fazer porque achei que Deus não ouvia?
+
+- data: 2026-12-20
+  celebracao: 4º Domingo do Advento
+  cor: roxo
+  referencia: Lc 1,26-38
+  titulo: O anjo é enviado a uma virgem de Nazaré
+  obra:
+    # O anjo é a coluna de luz à esquerda; o foco 25% a põe dentro do arco.
+    arquivo: obras/2026-12-20.jpg
+    credito: Henry Ossawa Tanner · A Anunciação · Philadelphia Museum of Art
+    pagina: https://commons.wikimedia.org/wiki/File:The_Annunciation,_Philadelphia_Museum_of_Art,_W1899-1-1-pma,_by_Henry_Ossawa_Tanner.jpg
+    foco: 25% 50%
+    zoom: 1
+  # O trecho tira o "porque" do início do versículo; o resto é literal da CNBB.
+  trecho: Para Deus nada é impossível.
+  trecho_ref: Lc 1,37
+  reflexao:
+    titulo: O Natal começa em Nazaré
+    texto: >-
+      No último domingo do Advento, a Igreja volta à Anunciação. Maria
+      acredita numa promessa que parecia impossível, e o Filho de Deus se faz
+      homem no seu seio. Na Missa, repare na coroa com as quatro velas acesas.
+  pergunta: O que parece impossível para mim e eu ainda não entreguei a Deus?
+
+- data: 2026-12-21
+  celebracao: Segunda-feira da 4ª Semana do Advento
+  cor: roxo
+  referencia: Lc 1,39-45
+  titulo: João salta de alegria no ventre de Isabel
+  obra:
+    arquivo: obras/2026-12-21.jpg
+    credito: James Tissot · A Visitação · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4424
+    foco: 45% 40%
+    zoom: 1.1
+  trecho: Bem-aventurada aquela que acreditou, porque será cumprido, o que o Senhor lhe prometeu.
+  trecho_ref: Lc 1,45
+  pergunta: Em que promessa de Deus eu ainda tenho dificuldade de acreditar?
+
+- data: 2026-12-22
+  celebracao: Terça-feira da 4ª Semana do Advento
+  cor: roxo
+  referencia: Lc 1,46-56
+  titulo: Maria canta as maravilhas de Deus
+  obra:
+    arquivo: obras/2026-12-22.jpg
+    credito: James Tissot · O Magnificat · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4425
+    foco: 60% 30%
+    zoom: 1.1
+  trecho: A minha alma engrandece o Senhor, e o meu espírito se alegra em Deus, meu Salvador.
+  trecho_ref: Lc 1,46-47
+  pergunta: Que grande coisa Deus já fez por mim e eu ainda não agradeci?
+
+- data: 2026-12-23
+  celebracao: Quarta-feira da 4ª Semana do Advento
+  cor: roxo
+  referencia: Lc 1,57-66
+  titulo: O menino recebe o nome de João
+  obra:
+    arquivo: obras/2026-12-23.jpg
+    credito: Fra Angelico · A imposição do nome a João Batista · Museu de San Marco, Florença
+    pagina: https://commons.wikimedia.org/wiki/File:Fra_Angelico_002.jpg
+    foco: 40% 60%
+    zoom: 1.2
+  trecho: O que virá a ser este menino? De fato, a mão do Senhor estava com ele.
+  trecho_ref: Lc 1,66
+  pergunta: O que Deus está fazendo crescer em mim, mesmo sem eu entender?
+
+- data: 2026-12-24
+  celebracao: Quinta-feira da 4ª Semana do Advento
+  cor: roxo
+  referencia: Lc 1,67-79
+  titulo: Zacarias, cheio do Espírito Santo, profetiza
+  obra:
+    arquivo: obras/2026-12-24.jpg
+    credito: James Tissot · Zacarias e Isabel · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4418
+    foco: 40% 50%
+    zoom: 1.1
+  trecho: Graças à misericordiosa compaixão do nosso Deus, o sol que nasce do alto nos visitará.
+  trecho_ref: Lc 1,78
+  pergunta: Que escuridão minha eu quero que a luz do Natal visite esta noite?
+
+- data: 2026-12-25
+  celebracao: Natal de Nosso Senhor Jesus Cristo (Solenidade)
+  cor: ouro
+  referencia: Lc 2,1-14 (Missa da noite)
+  titulo: Um Salvador deitado numa manjedoura
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 50% 20%
+    zoom: 1.9
+  trecho: Hoje, na cidade de Davi, nasceu para vós um Salvador, que é o Cristo Senhor.
+  trecho_ref: Lc 2,11
+  pergunta: Que lugar eu estou abrindo para Jesus nascer na minha casa?
+
+- data: 2026-12-26
+  celebracao: Santo Estêvão, protomártir (Festa)
+  cor: vermelho
+  referencia: Mt 10,17-22
+  titulo: Jesus avisa que os seus serão perseguidos
+  obra:
+    arquivo: obras/2026-12-26.jpg
+    credito: James Tissot · Recomendações aos apóstolos · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/13422
+    foco: 35% 50%
+    zoom: 1.2
+  # O trecho tira o "Com efeito" do início do versículo; o resto é literal da CNBB.
+  trecho: Não sereis vós que havereis de falar, mas sim o Espírito do vosso Pai é que falará através de vós.
+  trecho_ref: Mt 10,20
+  pergunta: Onde eu me calo sobre a fé por medo do que vão pensar de mim?
+
+- data: 2026-12-27
+  celebracao: Sagrada Família de Jesus, Maria e José (Festa)
+  cor: ouro
+  referencia: Lc 2,22-40
+  titulo: Maria e José levam o menino ao Templo
+  obra:
+    arquivo: obras/2026-12-27.jpg
+    credito: Andrea Mantegna · A Apresentação no Templo · Gemäldegalerie, Berlim
+    pagina: https://commons.wikimedia.org/wiki/File:Andrea_Mantegna_-_The_Presentation_-_Google_Art_Project.jpg
+    foco: 45% 50%
+    zoom: 1.1
+  trecho: O menino crescia e tornava-se forte, cheio de sabedoria; e a graça de Deus estava com ele.
+  trecho_ref: Lc 2,40
+  reflexao:
+    titulo: Deus quis crescer numa família
+    texto: >-
+      No domingo depois do Natal, a Igreja celebra a Sagrada Família. Maria
+      e José apresentam o menino no Templo com a oferta dos pobres, duas
+      rolinhas ou dois pombinhos. Depois, em Nazaré, o Filho de Deus cresce
+      numa casa simples.
+  pergunta: O que a minha família pode fazer junta para crescer na graça de Deus?
+
+- data: 2026-12-28
+  celebracao: Santos Inocentes, mártires (Festa)
+  cor: vermelho
+  referencia: Mt 2,13-18
+  titulo: José foge com a família para o Egito
+  obra:
+    arquivo: obras/2026-12-28.jpg
+    credito: Rembrandt e ateliê · O sonho de São José · Museu de Belas Artes de Budapeste
+    pagina: https://www.mfab.hu/artworks/8895/
+    foco: 40% 45%
+    zoom: 1
+  trecho: Levanta-te, pega o menino e sua mãe e foge para o Egito!
+  trecho_ref: Mt 2,13
+  pergunta: Quem eu posso proteger hoje, como José protegeu o menino e sua mãe?
+
+- data: 2026-12-29
+  celebracao: 5º dia na Oitava do Natal
+  cor: ouro
+  referencia: Lc 2,22-35
+  titulo: Simeão toma o menino nos braços
+  obra:
+    arquivo: obras/2026-12-29.jpg
+    credito: James Tissot · O velho Simeão · Brooklyn Museum
+    pagina: https://www.brooklynmuseum.org/objects/4434
+    foco: 40% 45%
+    zoom: 1.12
+  trecho: Agora, Senhor, conforme a tua promessa, podes deixar teu servo partir em paz; porque meus olhos viram a tua salvação.
+  trecho_ref: Lc 2,29-30
+  pergunta: Onde eu já vi a salvação de Deus agindo na minha vida?
+
+- data: 2026-12-30
+  celebracao: 6º dia na Oitava do Natal
+  cor: ouro
+  referencia: Lc 2,36-40
+  titulo: Ana, a viúva que não saía do Templo
+  obra:
+    arquivo: obras/2026-12-30.jpg
+    credito: Rembrandt · A profetisa Ana · Rijksmuseum
+    pagina: https://www.rijksmuseum.nl/en/collection/SK-A-3066
+    foco: 40% 40%
+    zoom: 1.1
+  trecho: Ana chegou nesse momento e pôs-se a louvar a Deus e a falar do menino a todos os que esperavam a libertação de Jerusalém.
+  trecho_ref: Lc 2,38
+  pergunta: A quem eu posso falar de Jesus hoje, como Ana falou do menino?
+
+- data: 2026-12-31
+  celebracao: 7º dia na Oitava do Natal
+  cor: ouro
+  referencia: Jo 1,1-18
+  titulo: A Palavra eterna entra no tempo
+  obra:
+    arquivo: obras/2026-12-31.jpg
+    credito: Autor desconhecido · Cristo Pantocrator · Mosteiro de Santa Catarina, Sinai
+    pagina: https://commons.wikimedia.org/wiki/File:CHRIST_PANTOCRATOR-SINAI(6th_Century).jpg
+    foco: 50% 15%
+    zoom: 1
+  trecho: E a Palavra se fez carne e habitou entre nós.
+  trecho_ref: Jo 1,14
+  pergunta: Como a Palavra de Deus vai entrar na minha rotina no ano que começa?

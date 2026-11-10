@@ -31,7 +31,7 @@ class ContentTests(unittest.TestCase):
         self.assertEqual(
             [day["data"] for day in self.days],
             ["2026-11-29", "2026-11-30"]
-            + [f"2026-12-{number:02d}" for number in range(1, 14)],
+            + [f"2026-12-{number:02d}" for number in range(1, 32)],
         )
         by_date = {day["data"]: day for day in self.days}
         self.assertEqual(by_date["2026-11-29"]["titulo"], "O Senhor vem.\nFique acordado.")
@@ -42,6 +42,16 @@ class ContentTests(unittest.TestCase):
                          "Segui-me,\ne eu farei de vós\npescadores de homens.")
         self.assertNotIn("\n", by_date["2026-12-06"]["reflexao"]["texto"])
         self.assertEqual(by_date["2026-12-05"]["referencia"], "Mt 9,35-10,1.6-8")
+        for day in ("2026-12-20", "2026-12-27"):
+            self.assertNotIn("\n", by_date[day]["reflexao"]["texto"])
+        self.assertEqual(by_date["2026-12-25"]["referencia"], "Lc 2,1-14 (Missa da noite)")
+        self.assertEqual(by_date["2026-12-15"]["trecho"],
+                         "O filho respondeu: ‘Não quero’. Mas depois mudou de opinião e foi.")
+        self.assertNotIn("'", by_date["2026-12-15"]["trecho"])
+        self.assertEqual(by_date["2026-12-18"]["trecho"],
+                         "Eis que a virgem conceberá e dará à luz um filho. Ele será chamado pelo nome de Emanuel, que significa: Deus está conosco.")
+        self.assertEqual(by_date["2026-12-20"]["obra"]["foco"], "25% 50%")
+        self.assertEqual(by_date["2026-12-20"]["obra"]["zoom"], 1)
 
     def test_unknown_fields_rejected_at_each_level(self):
         for nested, label in ((None, "dia 1"), ("obra", "obra"), ("reflexao", "reflexao")):
@@ -102,6 +112,35 @@ class ContentTests(unittest.TestCase):
                         self.load(days)
         self.assertEqual(expanded_reference("Jo 1,6-8.19-28"), "João 1,6-8.19-28")
         self.assertEqual(expanded_reference("Mc 13,33-37"), "Marcos 13,33-37")
+
+    def test_reference_accepts_the_four_christmas_mass_names(self):
+        for name in ("Missa da vigília", "Missa da noite", "Missa da aurora", "Missa do dia"):
+            with self.subTest(name=name):
+                day = deepcopy(self.days[0])
+                reference = f"Lc 2,1-14 ({name})"
+                day["referencia"] = reference
+                self.assertEqual(self.load([day])[0]["referencia"], reference)
+
+    def test_reference_rejects_inexact_mass_suffixes(self):
+        for reference in ("Lc 2,1-14 (Missa)", "Lc 2,1-14 (missa da noite)",
+                          "Lc 2,1-14(Missa da noite)"):
+            with self.subTest(reference=reference):
+                day = deepcopy(self.days[0])
+                day["referencia"] = reference
+                with self.assertRaisesRegex(ValueError, "referencia.*referência inválida"):
+                    self.load([day])
+
+    def test_excerpt_reference_rejects_mass_suffixes(self):
+        for name in ("Missa da vigília", "Missa da noite", "Missa da aurora", "Missa do dia"):
+            with self.subTest(name=name):
+                day = deepcopy(self.days[0])
+                day["trecho_ref"] = f"Lc 2,11 ({name})"
+                with self.assertRaisesRegex(ValueError, "trecho_ref.*referência inválida"):
+                    self.load([day])
+
+    def test_expanded_reference_preserves_the_mass_name(self):
+        self.assertEqual(expanded_reference("Lc 2,1-14 (Missa da noite)"),
+                         "Lucas 2,1-14 (Missa da noite)")
 
     def test_colors_and_locale_independent_date_labels(self):
         self.assertEqual(color_token("ouro"), "liturgico-branco")

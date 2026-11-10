@@ -105,9 +105,12 @@ def color_token(value: str) -> str:
     return COLOR_TOKENS[value]
 
 
-def _reference(value: Any, context: str) -> str:
+def _reference(value: Any, context: str, *, allow_mass: bool = False) -> str:
     value = _text(value, context)
-    if not REFERENCE_PATTERN.fullmatch(value):
+    bare_reference = value
+    if allow_mass:
+        bare_reference = re.sub(r" \(Missa (?:da vigília|da noite|da aurora|do dia)\)\Z", "", value)
+    if not REFERENCE_PATTERN.fullmatch(bare_reference):
         raise ValueError(
             f"{context}: referência inválida: {value!r}; "
             "use Mt, Mc, Lc ou Jo, capítulo e versículos (por exemplo Mc 13,33-37)."
@@ -187,7 +190,7 @@ def load_content(path: Path | str) -> list[dict]:
         for field in ("celebracao", "titulo", "trecho", "pergunta"):
             _text(item[field], f"{context}.{field}")
         color_token(item["cor"])
-        _reference(item["referencia"], f"{context}.referencia")
+        _reference(item["referencia"], f"{context}.referencia", allow_mass=True)
         _reference(item["trecho_ref"], f"{context}.trecho_ref")
         validated = {**item, "data": context, "obra": _work(item["obra"], f"{context}.obra")}
         if "reflexao" in item:
@@ -216,8 +219,8 @@ def date_label(value: date | str) -> str:
 
 
 def expanded_reference(reference: str) -> str:
-    """Expanda só o livro; mantenha capítulos, versículos e separadores."""
-    _reference(reference, "referencia")
+    """Expanda só o livro; mantenha capítulos, versículos e eventual nome da missa."""
+    _reference(reference, "referencia", allow_mass=True)
     book, remainder = reference.split(" ", 1)
     return f"{GOSPELS[book]} {remainder}"
 

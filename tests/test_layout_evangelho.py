@@ -85,6 +85,17 @@ class LayoutTests(unittest.TestCase):
         self.assertNotIn("–", invitation["conteudo"])
         self.assertNotIn("—", invitation["conteudo"])
 
+    def test_christmas_invitation_keeps_the_complete_reference_in_bold(self):
+        day = self.by_date["2026-12-25"]
+        card = self.measure(day, 4, 3)
+        invitation = next(text for text in card["textos"] if text["campo"] == "convite")
+        reference = "Lucas 2,1-14 (Missa da noite)"
+        self.assertEqual(" ".join(invitation["conteudo"].split()),
+                         "Abra sua Bíblia em " + reference)
+        self.assertEqual(invitation["quantidade_linhas"], 1)
+        self.assertEqual([text["texto"] for text in invitation["destaques"]], [reference])
+        self.assertTrue(all(text["peso"] == "700" for text in invitation["destaques"]))
+
     def assert_old_gap_rejected(self, kind, field, margin):
         self.measure(self.base, kind)
         self.page.locator(f'[data-text="{field}"]').evaluate(
