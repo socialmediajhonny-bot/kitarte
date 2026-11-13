@@ -69,3 +69,49 @@
       rotulo: Para conversar em família
       pergunta: Com quem precisamos fazer as pazes antes do Natal?
       convite: Envie para quem vai acender a coroa com você.
+
+- data: 2026-12-13
+  cor: rosa
+  cards:
+    - tipo: capa
+      titulo: O presépio em casa
+      apoio: Como montar e por que tudo começou em Greccio
+      obra:
+        arquivo: obras/igreja-domestica/2026-12-13.jpg
+        credito: Giotto e oficina · O presépio de Greccio · Basílica de São Francisco, Assis
+        pagina: https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_(und_Werkstatt)_007.jpg
+        foco: 50% 50%
+    - tipo: passos
+      rotulo: Como tudo começou
+      titulo: Greccio, Natal de 1223
+      itens:
+        - Quinze dias antes do Natal, São Francisco pediu a João, um homem de Greccio, que o ajudasse.
+        - Queria ver com os olhos do corpo o Menino nascido em Belém, na palha, entre o boi e o burro.
+        - Na noite de Natal, a Missa foi celebrada sobre a manjedoura. Assim começou o presépio.
+      fonte: Papa Francisco, Admirabile signum, 2
+    - tipo: passos
+      rotulo: Como montar
+      titulo: A gruta, as figuras e a espera
+      itens:
+        - "Escolha um canto por onde todos passam. A forma não importa: pode ser igual todo ano."
+        - Monte a gruta com Maria, José, o boi e o burro. Pastores, ovelhas, anjos e a estrela vêm em volta.
+        - Deixe a manjedoura vazia até a noite de Natal, quando o Menino Jesus chega ao presépio.
+        - Guarde os Reis Magos para perto da Epifania, a festa em que eles chegam.
+      fonte: Papa Francisco, Admirabile signum, 5-10
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: Alegrai-vos no Senhor
+      falas:
+        - rubrica: |-
+            Leiam o Evangelho do dia, Jo 1,6-8.19-28.
+            Depois, quem conduz reza:
+        - oracao: >-
+            Senhor Jesus, hoje a Igreja se alegra porque estais perto. Que o
+            presépio desta casa nos lembre que vos fizestes pequeno por amor de
+            nós, e que a nossa família vos espere com alegria. Amém.
+        - rubrica: "Acendam também a vela rosa e digam juntos:"
+        - aclamacao: Vinde, Senhor Jesus!
+    - tipo: conversa
+      rotulo: Para conversar em família
+      pergunta: Quem vai colocar o Menino Jesus na manjedoura na noite de Natal?
+      convite: Envie para quem vai montar o presépio com você.

@@ -12,8 +12,8 @@ import fitz
 from playwright.sync_api import sync_playwright
 
 from gerar import ensure_kit
-from arteque_reza.base import PROJECT, await_fonts, generate_tokens_css, render_arte, resource_url
-from arteque_reza.conteudo import text_html
+from arteque_reza.base import PROJECT, await_fonts, color, generate_tokens_css, render_arte, resource_url
+from arteque_reza.conteudo import color_token, text_html
 from arteque_reza.conteudo_igreja_domestica import load_domestic_church
 from arteque_reza.igreja_domestica import (
     _document, _measure, _pdf_check, _pixels, _validate_layout, expand_cards,
@@ -85,8 +85,8 @@ class DomesticChurchLayoutTests(unittest.TestCase):
     def assert_gap(self, first, second, expected):
         self.assertAlmostEqual(second["y"]-first["y"]-first["h"], expected, delta=.01)
 
-    def test_all_seven_cards_have_required_gaps_limits_and_centering(self):
-        self.assertEqual(len(self.cards), 7)
+    def test_all_twelve_cards_have_required_gaps_limits_and_centering(self):
+        self.assertEqual(len(self.cards), 12)
         for card in self.cards:
             with self.subTest(date=card["data"], card=card["numero"], kind=card["tipo"]):
                 measured = self.render(card)
@@ -129,8 +129,11 @@ class DomesticChurchLayoutTests(unittest.TestCase):
                                 self.assertEqual(styles[1:], ["500", "italic"])
                     else:
                         self.assert_gap(g["ornament"], fields["convite"], 48)
+                        day_color = color(color_token(card["cor"]), "pergaminho")
+                        expected_rgb = 'rgb('+', '.join(str(int(day_color[i:i+2], 16))
+                                                       for i in (1, 3, 5))+')'
                         self.assertEqual(self.page.locator('.aqr-post').evaluate(
-                            'el=>getComputedStyle(el).backgroundColor'), 'rgb(91, 46, 112)')
+                            'el=>getComputedStyle(el).backgroundColor'), expected_rgb)
 
     def test_16_pixel_label_title_gap_is_rejected(self):
         for kind in ("passos", "oracao"):

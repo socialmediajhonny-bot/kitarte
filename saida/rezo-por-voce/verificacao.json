@@ -1,0 +1,333 @@
+{
+  "serie": "rezo-por-voce",
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "elementos": {
+    "ok": true,
+    "svgs": []
+  },
+  "dias": {
+    "2026-12-11": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "unico",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 352.5,
+              "texto_assinatura_px": 352.5,
+              "diferenca_centralizacao_px": 0.0,
+              "ornamento_titulo_px": 48.0,
+              "titulo_texto_px": 32.0
+            },
+            "limites": {
+              "titulo": 2,
+              "texto": 2
+            },
+            "esperado": {
+              "linhas": {
+                "titulo": 2,
+                "texto": 2
+              },
+              "folga_px": 352.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  483
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11512
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17472
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12776
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\n",
+        "pdftotext": "Rezo por Você · sex, 11 dez\nDeixe sua intenção\nnos comentários\nAmanhã, sábado, rezamos o terço\npor todas elas nos Stories.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/rezo-por-voce/2026-12-11/rezo-por-voce-2026-12-11.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [],
+          "errors": []
+        },
+        "errors": []
+      }
+    }
+  },
+  "pngs": {
+    "ok": true,
+    "count": 2,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/rezo-por-voce/2026-12-11/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/rezo-por-voce/prancha.png",
+        "expected": [
+          424,
+          562
+        ],
+        "ok": true,
+        "actual": [
+          424,
+          562
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [],
+  "tabela_medida": [
+    {
+      "data": "2026-12-11",
+      "card": 1,
+      "tipo": "unico",
+      "linhas": {
+        "titulo": 2,
+        "texto": 2
+      },
+      "distancias": {
+        "selo_texto_px": 352.5,
+        "texto_assinatura_px": 352.5,
+        "diferenca_centralizacao_px": 0.0,
+        "ornamento_titulo_px": 48.0,
+        "titulo_texto_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 2,
+          "texto": 2
+        },
+        "folga_px": 352.5
+      },
+      "diferencas_tabela": []
+    }
+  ],
+  "ok": true,
+  "comando": "python3 gerar.py rezo-por-voce"
+}

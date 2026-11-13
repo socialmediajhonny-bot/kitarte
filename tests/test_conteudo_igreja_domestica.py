@@ -26,9 +26,10 @@ class DomesticChurchContentTests(unittest.TestCase):
         return load_domestic_church(self.file)
 
     def test_supplied_days_preserve_order_manual_breaks_and_approved_text(self):
-        self.assertEqual([day["data"] for day in self.days], ["2026-11-29", "2026-12-06"])
+        self.assertEqual([day["data"] for day in self.days], ["2026-11-29", "2026-12-06", "2026-12-13"])
         self.assertEqual([[card["tipo"] for card in day["cards"]] for day in self.days],
-                         [["capa", "passos", "oracao", "conversa"], ["capa", "oracao", "conversa"]])
+                         [["capa", "passos", "oracao", "conversa"], ["capa", "oracao", "conversa"],
+                          ["capa", "passos", "passos", "oracao", "conversa"]])
         self.assertEqual(self.days[0]["cards"][2]["falas"][0]["rubrica"],
                          "Leiam o Evangelho do dia, Mc 13,33-37.\nDepois, quem conduz reza:")
         self.assertIn("3º domingo", self.days[0]["cards"][1]["itens"][1])

@@ -56,6 +56,9 @@ def expected_layout(card: dict) -> dict:
         return {'linhas': {'credito': 1, 'titulo': 1, 'apoio': 1},
                 'selo_nicho_px': 32, 'apoio_assinatura_px': 116}
     if kind == 'passos':
+        if card['data'] == '2026-12-13' and card['numero'] == 2:
+            return {'linhas': {'titulo': 1, **{f'item_{i}': 2 for i in range(1,4)}, 'fonte': 1},
+                    'folga_px': 194.5}
         return {'linhas': {'titulo': 1, **{f'item_{i}': 2 for i in range(1,5)}, 'fonte': 1},
                 'folga_px': 128.5}
     if kind == 'oracao':

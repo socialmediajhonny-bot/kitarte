@@ -1,0 +1,29 @@
+# Toda Bela · aos sábados, a Ladainha de Nossa Senhora, invocação por invocação
+# Três cards: a capa com a obra e a invocação, de onde vem e para rezar hoje.
+# Em |- cada linha é uma quebra manual; em >- as quebras do YAML não contam.
+
+- data: 2026-12-12
+  cor: ouro
+  info: Ladainha 1
+  invocacao: Santa Maria
+  obra:
+    arquivo: obras/toda-bela/2026-12-12.jpg
+    credito: Sassoferrato · A Virgem em oração · National Gallery, Londres
+    pagina: https://www.nationalgallery.org.uk/paintings/sassoferrato-the-virgin-in-prayer
+    foco: 50% 30%
+    zoom: 1.08
+  raiz:
+    rotulo: De onde vem
+    versiculo: E o nome da virgem era Maria.
+    referencia: Lc 1,27
+    texto: >-
+      É a primeira invocação a Nossa Senhora na Ladainha: o nome dela e uma
+      palavra, santa. O Oriente cristão a chama de Panaghia, a toda santa,
+      porque, pela graça de Deus, ela viveu livre de todo pecado.
+    fonte: Catecismo da Igreja Católica, 493
+  oracao:
+    rotulo: Para rezar hoje
+    frase: |-
+      Santa Maria,
+      rogai por nós.
+    convite: Salve e reze com a gente, uma invocação de cada vez.

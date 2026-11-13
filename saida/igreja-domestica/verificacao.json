@@ -1609,11 +1609,1086 @@
         },
         "errors": []
       }
+    },
+    "2026-12-13": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_apoio_px": 32,
+              "apoio_assinatura_px": 116
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1,
+                "apoio": 1
+              },
+              "selo_nicho_px": 32,
+              "apoio_assinatura_px": 116
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  153,
+                  71,
+                  106
+                ],
+                "esperado": "#99476a",
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/igreja-domestica/2026-12-13/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        168
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "actual_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        472
+                      ],
+                      "expected_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "actual_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        833
+                      ],
+                      "expected_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "actual_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        240
+                      ],
+                      "expected_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "actual_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        237
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "actual_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        240
+                      ],
+                      "expected_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "actual_rgb": [
+                        153,
+                        71,
+                        106
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        237
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "passos",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 194.5,
+              "texto_assinatura_px": 194.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_linha_item_1_px": 48.0,
+              "linha_item_1_linha_item_2_px": 32.0,
+              "linha_item_2_linha_item_3_px": 32.0,
+              "linha_item_3_fonte_px": 32.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "item_1": 3,
+              "item_2": 3,
+              "item_3": 3
+            },
+            "lista": [
+              {
+                "numero_campo": "numero_1",
+                "item_campo": "item_1",
+                "caixa": {
+                  "x": 130,
+                  "y": 595.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 633.5,
+                "baseline_texto_px": 633.5
+              },
+              {
+                "numero_campo": "numero_2",
+                "item_campo": "item_2",
+                "caixa": {
+                  "x": 130,
+                  "y": 727.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 765.5,
+                "baseline_texto_px": 765.5
+              },
+              {
+                "numero_campo": "numero_3",
+                "item_campo": "item_3",
+                "caixa": {
+                  "x": 130,
+                  "y": 859.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 897.5,
+                "baseline_texto_px": 897.5
+              }
+            ],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "item_1": 2,
+                "item_2": 2,
+                "item_3": 2,
+                "fonte": 1
+              },
+              "folga_px": 194.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  153,
+                  71,
+                  106
+                ],
+                "esperado": "#99476a",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "passos",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 128.5,
+              "texto_assinatura_px": 128.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_linha_item_1_px": 48.0,
+              "linha_item_1_linha_item_2_px": 32.0,
+              "linha_item_2_linha_item_3_px": 32.0,
+              "linha_item_3_linha_item_4_px": 32.0,
+              "linha_item_4_fonte_px": 32.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "item_1": 3,
+              "item_2": 3,
+              "item_3": 3,
+              "item_4": 3
+            },
+            "lista": [
+              {
+                "numero_campo": "numero_1",
+                "item_campo": "item_1",
+                "caixa": {
+                  "x": 130,
+                  "y": 529.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 567.5,
+                "baseline_texto_px": 567.5
+              },
+              {
+                "numero_campo": "numero_2",
+                "item_campo": "item_2",
+                "caixa": {
+                  "x": 130,
+                  "y": 661.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 699.5,
+                "baseline_texto_px": 699.5
+              },
+              {
+                "numero_campo": "numero_3",
+                "item_campo": "item_3",
+                "caixa": {
+                  "x": 130,
+                  "y": 793.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 831.5,
+                "baseline_texto_px": 831.5
+              },
+              {
+                "numero_campo": "numero_4",
+                "item_campo": "item_4",
+                "caixa": {
+                  "x": 130,
+                  "y": 925.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 963.5,
+                "baseline_texto_px": 963.5
+              }
+            ],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "item_1": 2,
+                "item_2": 2,
+                "item_3": 2,
+                "item_4": 2,
+                "fonte": 1
+              },
+              "folga_px": 128.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  153,
+                  71,
+                  106
+                ],
+                "esperado": "#99476a",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 4,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 103.5,
+              "texto_assinatura_px": 103.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_fala_1_px": 48.0,
+              "fala_1_fala_2_px": 48.0,
+              "fala_2_fala_3_px": 48.0,
+              "fala_3_fala_4_px": 48.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "fala_1": 2,
+              "fala_2": 6,
+              "fala_3": 2,
+              "fala_4": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "fala_1": 2,
+                "fala_2": 4,
+                "fala_3": 1,
+                "fala_4": 1
+              },
+              "folga_px": 103.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  153,
+                  71,
+                  106
+                ],
+                "esperado": "#99476a",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 5,
+          "tipo": "conversa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 353.5,
+              "texto_assinatura_px": 353.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_pergunta_px": 48.0,
+              "pergunta_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "pergunta": 2,
+                "convite": 1
+              },
+              "folga_px": 353.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  153,
+                  71,
+                  106
+                ],
+                "esperado": "#99476a",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 5,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19768
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11588
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17464
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 31168
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11728
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17264
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 31484
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11700
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 23788
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12812
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 22080
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21176
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19240
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10116
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     84  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     89  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     94  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    105  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    110  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    115  0\n",
+        "pdftotext": "Igreja Doméstica · dom, 13 dez\n\n\n\n\n   Giotto e oficina · O presépio de Greccio · Basílica de São Francisco, Assis\n\n\n\n               O presépio em casa\n   Como montar e por que tudo começou em Greccio\n\fIgreja Doméstica · dom, 13 dez                        2/5\n\n\n\n\n                  Como tudo começou\n\n\n        Greccio, Natal de 1223\n\n 1 Quinze dias antes do Natal, São Francisco pediu\n   a João, um homem de Greccio, que o ajudasse.\n\n 2 Queria ver com os olhos do corpo o Menino nascido\n   em Belém, na palha, entre o boi e o burro.\n\n 3 Na noite de Natal, a Missa foi celebrada sobre\n   a manjedoura. Assim começou o presépio.\n\n               Papa Francisco, Admirabile signum, 2\n\fIgreja Doméstica · dom, 13 dez                          3/5\n\n\n\n\n                        Como montar\n\n\n   A gruta, as figuras e a espera\n\n 1 Escolha um canto por onde todos passam. A forma\n   não importa: pode ser igual todo ano.\n\n 2 Monte a gruta com Maria, José, o boi e o burro.\n   Pastores, ovelhas, anjos e a estrela vêm em volta.\n\n 3 Deixe a manjedoura vazia até a noite de Natal,\n   quando o Menino Jesus chega ao presépio.\n\n 4 Guarde os Reis Magos para perto da Epifania,\n   a festa em que eles chegam.\n\n              Papa Francisco, Admirabile signum, 5-10\n\fIgreja Doméstica · dom, 13 dez                     4/5\n\n\n\n                  Para rezar em família\n\n\n        Alegrai-vos no Senhor\n\n       Leiam o Evangelho do dia, Jo 1,6-8.19-28.\n              Depois, quem conduz reza:\n\n\nSenhor Jesus, hoje a Igreja se alegra porque estais\n  perto. Que o presépio desta casa nos lembre\nque vos fizestes pequeno por amor de nós, e que\n a nossa família vos espere com alegria. Amém.\n\n      Acendam também a vela rosa e digam juntos:\n\n\n               Vinde, Senhor Jesus!\n\fIgreja Doméstica · dom, 13 dez                       5/5\n\n\n\n\n                Para conversar em família\n\n\n      Quem vai colocar o Menino Jesus\n      na manjedoura na noite de Natal?\n\n\n   Envie para quem vai montar o presépio com você.\n\f",
+        "texto_igual_yaml_sem_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/igreja-domestica/2026-12-13/igreja-domestica-2026-12-13.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#99476a",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
     }
   },
   "pngs": {
     "ok": true,
-    "count": 10,
+    "count": 16,
     "files": [
       {
         "file": "/workspace/kitarte/saida/igreja-domestica/2026-11-29/card-1.png",
@@ -1733,15 +2808,93 @@
         "format": "PNG"
       },
       {
-        "file": "/workspace/kitarte/saida/igreja-domestica/prancha.png",
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-13/card-1.png",
         "expected": [
-          1576,
-          1092
+          1080,
+          1350
         ],
         "ok": true,
         "actual": [
-          1576,
-          1092
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-13/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-13/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-13/card-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-13/card-5.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-13/recorte.png",
+        "expected": [
+          1080,
+          1438
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1438
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/prancha.png",
+        "expected": [
+          1960,
+          1622
+        ],
+        "ok": true,
+        "actual": [
+          1960,
+          1622
         ],
         "format": "PNG"
       }
@@ -1944,6 +3097,163 @@
     {
       "data": "2026-12-06",
       "card": 3,
+      "tipo": "conversa",
+      "linhas": {
+        "pergunta": 2,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 353.5,
+        "texto_assinatura_px": 353.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_pergunta_px": 48.0,
+        "pergunta_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "pergunta": 2,
+          "convite": 1
+        },
+        "folga_px": 353.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-13",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1,
+        "apoio": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_apoio_px": 32,
+        "apoio_assinatura_px": 116
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1,
+          "apoio": 1
+        },
+        "selo_nicho_px": 32,
+        "apoio_assinatura_px": 116
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-13",
+      "card": 2,
+      "tipo": "passos",
+      "linhas": {
+        "titulo": 1,
+        "item_1": 2,
+        "item_2": 2,
+        "item_3": 2,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 194.5,
+        "texto_assinatura_px": 194.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_linha_item_1_px": 48.0,
+        "linha_item_1_linha_item_2_px": 32.0,
+        "linha_item_2_linha_item_3_px": 32.0,
+        "linha_item_3_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "item_1": 2,
+          "item_2": 2,
+          "item_3": 2,
+          "fonte": 1
+        },
+        "folga_px": 194.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-13",
+      "card": 3,
+      "tipo": "passos",
+      "linhas": {
+        "titulo": 1,
+        "item_1": 2,
+        "item_2": 2,
+        "item_3": 2,
+        "item_4": 2,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 128.5,
+        "texto_assinatura_px": 128.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_linha_item_1_px": 48.0,
+        "linha_item_1_linha_item_2_px": 32.0,
+        "linha_item_2_linha_item_3_px": 32.0,
+        "linha_item_3_linha_item_4_px": 32.0,
+        "linha_item_4_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "item_1": 2,
+          "item_2": 2,
+          "item_3": 2,
+          "item_4": 2,
+          "fonte": 1
+        },
+        "folga_px": 128.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-13",
+      "card": 4,
+      "tipo": "oracao",
+      "linhas": {
+        "titulo": 1,
+        "fala_1": 2,
+        "fala_2": 4,
+        "fala_3": 1,
+        "fala_4": 1
+      },
+      "distancias": {
+        "selo_texto_px": 103.5,
+        "texto_assinatura_px": 103.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_fala_1_px": 48.0,
+        "fala_1_fala_2_px": 48.0,
+        "fala_2_fala_3_px": 48.0,
+        "fala_3_fala_4_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "fala_1": 2,
+          "fala_2": 4,
+          "fala_3": 1,
+          "fala_4": 1
+        },
+        "folga_px": 103.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-13",
+      "card": 5,
       "tipo": "conversa",
       "linhas": {
         "pergunta": 2,

@@ -64,7 +64,7 @@ def ensure_kit() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Gere as séries e stories, preservando kit/.")
-    parser.add_argument("alvo", choices=["componentes", "evangelho", "santo", "para-rezar", "coragem", "stories", "novena", "igreja-domestica"])
+    parser.add_argument("alvo", choices=["componentes", "evangelho", "santo", "para-rezar", "coragem", "stories", "novena", "igreja-domestica", "olhe-de-novo", "por-dentro-da-missa", "rezo-por-voce", "toda-bela"])
     parser.add_argument("--data", help="Gere só a data ISO informada nas séries de feed.")
     parser.add_argument("--tempo", help="Gere só o tempo litúrgico informado (stories), por exemplo advento.")
     parser.add_argument("--novena", choices=["imaculada", "natal"], help="Gere só a novena informada.")
@@ -78,7 +78,7 @@ def main() -> None:
         parser.error("--teste-canva usa os três cards da Imaculada; não combina com --novena natal.")
     if args.data is not None:
         if args.alvo in {"componentes", "stories", "novena"}:
-            parser.error("--data só vale para evangelho, santo, para-rezar, coragem ou igreja-domestica.")
+            parser.error("--data só vale para evangelho, santo, para-rezar, coragem, igreja-domestica, olhe-de-novo, por-dentro-da-missa, rezo-por-voce ou toda-bela.")
         try:
             if date.fromisoformat(args.data).isoformat() != args.data:
                 raise ValueError
@@ -87,6 +87,12 @@ def main() -> None:
     dependencies()
     try:
         ensure_kit()
+        if args.alvo in {"olhe-de-novo", "por-dentro-da-missa", "rezo-por-voce", "toda-bela"}:
+            from arteque_reza.serie_noite import generate
+            generate(ROOT / "saida", ROOT / f"conteudo/{args.alvo}.yaml", args.alvo, args.data)
+            print(f"Pronto: {args.alvo} gerado.")
+            print(f"Relatório: {ROOT / 'saida' / args.alvo / 'RELATORIO.md'}")
+            return
         if args.alvo == "igreja-domestica":
             from arteque_reza.serie_igreja_domestica import generate
             result = generate(ROOT / "saida", ROOT / "conteudo/igreja-domestica.yaml", args.data)

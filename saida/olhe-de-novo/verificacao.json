@@ -1,0 +1,2138 @@
+{
+  "serie": "olhe-de-novo",
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "elementos": {
+    "ok": true,
+    "svgs": [
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/elementos/nicho-640x840-olhe-de-novo.svg",
+        "bytes": 422,
+        "colors": [
+          "#16110d",
+          "#ac8bc6"
+        ]
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/elementos/nicho-340x420-olhe-de-novo.svg",
+        "bytes": 422,
+        "colors": [
+          "#16110d",
+          "#ac8bc6"
+        ]
+      }
+    ]
+  },
+  "dias": {
+    "2026-12-09": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "obra",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 38
+            },
+            "limites": {
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 38
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/olhe-de-novo/2026-12-09/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        993
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "detalhe",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 38
+            },
+            "limites": {
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 38
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/olhe-de-novo/2026-12-09/card-2.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        993
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "significado",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 251.5,
+              "texto_assinatura_px": 251.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "rotulo": 1,
+              "titulo": 2,
+              "texto": 6,
+              "fonte": 2
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "titulo": 1,
+                "texto": 5,
+                "fonte": 1
+              },
+              "folga_px": 251.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  594
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 4,
+          "tipo": "onde",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 116,
+              "texto_assinatura_px": 116,
+              "diferenca_centralizacao_px": 0,
+              "rotulo_linha_nichos_px": 48,
+              "linha_nichos_texto_px": 48,
+              "texto_fonte_px": 32,
+              "nicho_1_credito_1_px": 32,
+              "nicho_2_credito_2_px": 32,
+              "distancia_entre_nichos_px": 96
+            },
+            "limites": {
+              "rotulo": 1,
+              "credito_1": 2,
+              "credito_2": 2,
+              "texto": 4,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "credito_1": 2,
+                "credito_2": 2,
+                "texto": 3,
+                "fonte": 1
+              },
+              "folga_px": 116
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito_1",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito_2",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/olhe-de-novo/2026-12-09/card-4.png",
+              "count": 2,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 170.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        168,
+                        340
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        322,
+                        325
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        153,
+                        514
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        132,
+                        745
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        202,
+                        374
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        198,
+                        370
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        322,
+                        325
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        322,
+                        320
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        441,
+                        374
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        445,
+                        370
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                },
+                {
+                  "name": "nicho-2",
+                  "ok": true,
+                  "outer_radius": 170.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        604,
+                        340
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        758,
+                        325
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        589,
+                        514
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        568,
+                        745
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        638,
+                        374
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        634,
+                        370
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        758,
+                        325
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        758,
+                        320
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        877,
+                        374
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        881,
+                        370
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito_1",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito_2",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9304
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20496
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12168
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9304
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15032
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12512
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15644
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 32872
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11224
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12384
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 31344
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     34  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     39  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     44  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     55  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     60  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     65  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     80  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     85  0\n",
+        "pdftotext": "Olhe de Novo · qua, 9 dez 1/4\nCarlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres\nO lírio da Anunciação\n\fOlhe de Novo · qua, 9 dez 2/4\nDetalhe da mesma obra\nNa mão do anjo, um lírio\n\fOlhe de Novo · qua, 9 dez 3/4\nO que significa\nA pureza de Maria\nO lírio branco é sinal de pureza. Nas cenas da\nAnunciação, aparece na mão do anjo ou num\nvaso perto de Maria. No quadro de Crivelli,\no lírio que Gabriel segura fala da castidade e da\npureza de Maria, a virgem que Deus escolheu.\nNational Gallery, Londres: glossário (lírios) e ficha da obra · Lc 1,27\n\fOlhe de Novo · qua, 9 dez 4/4\nOnde mais aparece\nJan van Eyck · A Anunciação\nNational Gallery of Art\nEl Greco · Santo Antônio de Pádua\nMuseu do Prado\nAo lado de Maria, como na Anunciação do nosso\nÂngelus das 12h. E na mão de santos como Santo\nAntônio de Pádua e Santa Catarina de Sena.\nNational Gallery, Londres: glossário (lírios)\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/olhe-de-novo-2026-12-09.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                744.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                744.0,
+                681.0,
+                746.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 2,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 2,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                744.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                744.0,
+                681.0,
+                746.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 3,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 4,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                114.0,
+                243.0,
+                369.0,
+                558.0
+              ],
+              "caixa_parapeito_pt": [
+                78.0,
+                558.0,
+                405.0,
+                560.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 4,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 4,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                441.0,
+                243.0,
+                696.0,
+                558.0
+              ],
+              "caixa_parapeito_pt": [
+                405.0,
+                558.0,
+                732.0,
+                560.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    }
+  },
+  "pngs": {
+    "ok": true,
+    "count": 9,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/card-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/recorte-1.png",
+        "expected": [
+          1080,
+          1523
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1523
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/recorte-2.png",
+        "expected": [
+          1080,
+          1523
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1523
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/recorte-4-1.png",
+        "expected": [
+          1080,
+          2850
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          2850
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/2026-12-09/recorte-4-2.png",
+        "expected": [
+          1080,
+          1452
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1452
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/olhe-de-novo/prancha.png",
+        "expected": [
+          1576,
+          562
+        ],
+        "ok": true,
+        "actual": [
+          1576,
+          562
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [],
+  "tabela_medida": [
+    {
+      "data": "2026-12-09",
+      "card": 1,
+      "tipo": "obra",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 38
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 38
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-09",
+      "card": 2,
+      "tipo": "detalhe",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 38
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 38
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-09",
+      "card": 3,
+      "tipo": "significado",
+      "linhas": {
+        "rotulo": 1,
+        "titulo": 1,
+        "texto": 5,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 251.5,
+        "texto_assinatura_px": 251.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "titulo": 1,
+          "texto": 5,
+          "fonte": 1
+        },
+        "folga_px": 251.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-09",
+      "card": 4,
+      "tipo": "onde",
+      "linhas": {
+        "rotulo": 1,
+        "credito_1": 2,
+        "credito_2": 2,
+        "texto": 3,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 116,
+        "texto_assinatura_px": 116,
+        "diferenca_centralizacao_px": 0,
+        "rotulo_linha_nichos_px": 48,
+        "linha_nichos_texto_px": 48,
+        "texto_fonte_px": 32,
+        "nicho_1_credito_1_px": 32,
+        "nicho_2_credito_2_px": 32,
+        "distancia_entre_nichos_px": 96
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "credito_1": 2,
+          "credito_2": 2,
+          "texto": 3,
+          "fonte": 1
+        },
+        "folga_px": 116
+      },
+      "diferencas_tabela": []
+    }
+  ],
+  "ok": true,
+  "comando": "python3 gerar.py olhe-de-novo"
+}

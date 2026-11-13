@@ -1,0 +1,47 @@
+{
+  "2026-12-09": {
+    "card-1": {
+      "inspecionada": true,
+      "anjo_preservado": true,
+      "maria_preservada": true,
+      "lirio_preservado": true,
+      "nota": "Card 1 e recorte-1.png finais conferidos individualmente. Gabriel, Maria e o lírio ficam preservados dentro do arco na extensão em que já aparecem na pintura: os rostos, as mãos, as vestes e as flores permanecem legíveis. A asa à esquerda já encontra a borda do arquivo original; isso não é um corte novo introduzido pelo arco. A curva recorta a arquitetura e o céu na parte superior, sem atingir esses protagonistas. Nenhuma margem fotográfica foi vista."
+    },
+    "card-2": {
+      "inspecionada": true,
+      "rosto_e_aureola_preservados": true,
+      "lirio_das_flores_ate_mao_preservado": true,
+      "nota": "Card 2 e recorte-2.png finais conferidos individualmente. O rosto de Gabriel, a auréola dourada e o lírio estão dentro do arco, das flores até a mão que segura a haste. As laterais cortam asas e outros elementos periféricos, mas o conjunto de rosto, auréola, flores e mão pedido para este detalhe fica preservado. Nenhuma margem fotográfica foi vista."
+    },
+    "card-4-1": {
+      "inspecionada": true,
+      "flores_preservadas_integralmente": false,
+      "nota": "O nicho esquerdo do card 4, o JPEG obra-4-1.jpg e recorte-4-1.png finais foram conferidos. As flores centrais do lírio ficam legíveis, mas a flor mais alta à direita entra parcialmente na janela retangular aprovada e perde mais pétalas pela curva do arco; portanto o conjunto das flores não está integralmente preservado. Algumas extremidades à direita já encontram a borda do arquivo original e não podem ser recuperadas com outra janela. Nenhuma margem fotográfica foi vista. O YAML aprovado foi mantido.",
+      "sugestao": {
+        "janela": [
+          717,
+          1830,
+          420
+        ],
+        "tamanho": [
+          1137,
+          3000
+        ],
+        "altura_calculada_px": 551,
+        "ampliacao": 0.7333333333333333,
+        "tamanho_recortado_px": [
+          420,
+          551
+        ],
+        "nota": "Alternativa renderizada e inspecionada no card 4 e no JPEG temporários: inclui a flor alta e preserva todas as flores na extensão disponível no arquivo original, posicionando-as abaixo da curva. O livro e mais tecido azul passam a aparecer, e as flores ficam menores; as pontas já limitadas pela borda original não são recuperadas. A janela cabe integralmente no arquivo, tem ampliação 0,733333 e margens_visiveis vazias. Sugestão somente no relatório; nenhum foco ou janela do YAML foi alterado."
+      }
+    },
+    "card-4-2": {
+      "inspecionada": true,
+      "rosto_preservado": true,
+      "lirio_preservado": true,
+      "mao_preservada": true,
+      "nota": "O nicho direito do card 4, o JPEG obra-4-2.jpg e recorte-4-2.png finais foram conferidos. O rosto de Santo Antônio, as flores do lírio e a mão que segura a haste ficam dentro do arco. O corte termina junto ao punho e exclui a parte inferior do corpo e o livro, conforme a proposta de detalhe; os dedos e o rosto permanecem preservados. Nenhuma margem fotográfica foi vista."
+    }
+  }
+}

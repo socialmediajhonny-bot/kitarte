@@ -1,0 +1,47 @@
+# Olhe de Novo · às quartas, a obra como protagonista
+# Sempre quatro cards: a obra inteira, o detalhe, o que significa e onde mais aparece.
+# janela: [x, y, largura] em pixels do arquivo, que precisa ter o tamanho indicado; a altura sai da proporção da área da obra no nicho.
+# Em |- cada linha é uma quebra manual; em >- as quebras do YAML não contam.
+
+- data: 2026-12-09
+  cor: roxo
+  titulo: O lírio da Anunciação
+  obra:
+    arquivo: obras/olhe-de-novo/2026-12-09.jpg
+    credito: Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres
+    pagina: https://nationalgallery.org.uk/paintings/NG739
+    foco: 50% 70%
+  detalhe:
+    titulo: Na mão do anjo, um lírio
+    janela: [396, 2440, 608]
+    tamanho: [2996, 4226]
+  significado:
+    rotulo: O que significa
+    titulo: A pureza de Maria
+    texto: >-
+      O lírio branco é sinal de pureza. Nas cenas da Anunciação, aparece na
+      mão do anjo ou num vaso perto de Maria. No quadro de Crivelli, o lírio
+      que Gabriel segura fala da castidade e da pureza de Maria, a virgem que
+      Deus escolheu.
+    fonte: "National Gallery, Londres: glossário (lírios) e ficha da obra · Lc 1,27"
+  onde:
+    rotulo: Onde mais aparece
+    obras:
+      - arquivo: obras/stories/angelus.jpg
+        credito: |-
+          Jan van Eyck · A Anunciação
+          National Gallery of Art
+        pagina: https://www.nga.gov/artworks/46-annunciation
+        janela: [830, 2085, 307]
+        tamanho: [1137, 3000]
+      - arquivo: obras/olhe-de-novo/2026-12-09-santo-antonio.jpg
+        credito: |-
+          El Greco · Santo Antônio de Pádua
+          Museu do Prado
+        pagina: https://commons.wikimedia.org/wiki/File:San_Antonio_de_Padua_(El_Greco).jpg
+        janela: [200, 120, 1446]
+        tamanho: [2270, 3051]
+    texto: >-
+      Ao lado de Maria, como na Anunciação do nosso Ângelus das 12h. E na mão
+      de santos como Santo Antônio de Pádua e Santa Catarina de Sena.
+    fonte: "National Gallery, Londres: glossário (lírios)"

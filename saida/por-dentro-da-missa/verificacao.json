@@ -1,0 +1,1207 @@
+{
+  "serie": "por-dentro-da-missa",
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "elementos": {
+    "ok": true,
+    "svgs": []
+  },
+  "dias": {
+    "2026-12-10": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 369.5,
+              "texto_assinatura_px": 369.5,
+              "diferenca_centralizacao_px": 0.0,
+              "pergunta_ornamento_px": 48.0,
+              "ornamento_resposta_px": 48.0
+            },
+            "limites": {
+              "pergunta": 2,
+              "resposta": 3
+            },
+            "esperado": {
+              "linhas": {
+                "pergunta": 2,
+                "resposta": 1
+              },
+              "folga_px": 369.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  740
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "pergunta",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "resposta",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "explicacao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 235.5,
+              "texto_assinatura_px": 235.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "rotulo": 1,
+              "titulo": 2,
+              "texto": 6,
+              "fonte": 2
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "titulo": 1,
+                "texto": 5,
+                "fonte": 2
+              },
+              "folga_px": 235.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  578
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "explicacao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 260.5,
+              "texto_assinatura_px": 260.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "rotulo": 1,
+              "titulo": 2,
+              "texto": 6,
+              "fonte": 2
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "titulo": 1,
+                "texto": 4,
+                "fonte": 2
+              },
+              "folga_px": 260.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  603
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  36,
+                  27,
+                  20
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  102,
+                  86,
+                  71
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 4,
+          "tipo": "fecho",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 353.5,
+              "texto_assinatura_px": 353.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_frase_px": 48.0,
+              "frase_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "rotulo": 1,
+              "frase": 4,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "frase": 2,
+                "convite": 1
+              },
+              "folga_px": 353.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  756
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "frase",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "pergunta",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "resposta",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "frase",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14460
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15564
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11468
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15640
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 26532
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11724
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16732
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 32092
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12952
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 15444
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17252
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8412
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     30  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     35  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     40  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     51  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     56  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     61  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     72  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     77  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     82  0\n",
+        "pdftotext": "Por Dentro da Missa · qui, 10 dez 1/4\nPor que o padre\nveste roxo?\nE por que, no domingo, ele pode aparecer de rosa.\n\fPor Dentro da Missa · qui, 10 dez 2/4\nO que a cor diz\nRoxo: tempo de preparação\nA cor das vestes mostra o mistério que se celebra\ne o caminho do ano litúrgico. O roxo é usado no\nAdvento e na Quaresma. No Advento, a Igreja\nse prepara para o Natal e para a volta de Cristo:\né um “tempo de piedosa e alegre expectativa”.\nInstrução Geral do Missal Romano, 345-346\nNormas Universais sobre o Ano Litúrgico e o Calendário, 39\n\fPor Dentro da Missa · qui, 10 dez 3/4\nNo 3º Domingo do Advento\nRosa: o domingo Gaudete\nGaudete quer dizer “alegrai-vos”. O nome vem\nda antífona de entrada da Missa desse domingo:\n“Alegrai-vos sempre no Senhor!” (Fl 4,4). Onde\nfor costume, o padre pode vestir rosa nesse dia.\nBento XVI, Ângelus de 14/12/2008 · Francisco, Ângelus de 13/12/2020\nInstrução Geral do Missal Romano, 346\n\fPor Dentro da Missa · qui, 10 dez 4/4\nPara reparar no domingo\nRepare na cor das vestes do padre\ne na vela rosa da coroa do Advento.\nSalve e envie para quem vai à Missa com você.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/por-dentro-da-missa/2026-12-10/por-dentro-da-missa-2026-12-10.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [],
+          "errors": []
+        },
+        "errors": []
+      }
+    }
+  },
+  "pngs": {
+    "ok": true,
+    "count": 5,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/por-dentro-da-missa/2026-12-10/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/por-dentro-da-missa/2026-12-10/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/por-dentro-da-missa/2026-12-10/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/por-dentro-da-missa/2026-12-10/card-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/por-dentro-da-missa/prancha.png",
+        "expected": [
+          1576,
+          562
+        ],
+        "ok": true,
+        "actual": [
+          1576,
+          562
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [],
+  "tabela_medida": [
+    {
+      "data": "2026-12-10",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "pergunta": 2,
+        "resposta": 1
+      },
+      "distancias": {
+        "selo_texto_px": 369.5,
+        "texto_assinatura_px": 369.5,
+        "diferenca_centralizacao_px": 0.0,
+        "pergunta_ornamento_px": 48.0,
+        "ornamento_resposta_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "pergunta": 2,
+          "resposta": 1
+        },
+        "folga_px": 369.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-10",
+      "card": 2,
+      "tipo": "explicacao",
+      "linhas": {
+        "rotulo": 1,
+        "titulo": 1,
+        "texto": 5,
+        "fonte": 2
+      },
+      "distancias": {
+        "selo_texto_px": 235.5,
+        "texto_assinatura_px": 235.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "titulo": 1,
+          "texto": 5,
+          "fonte": 2
+        },
+        "folga_px": 235.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-10",
+      "card": 3,
+      "tipo": "explicacao",
+      "linhas": {
+        "rotulo": 1,
+        "titulo": 1,
+        "texto": 4,
+        "fonte": 2
+      },
+      "distancias": {
+        "selo_texto_px": 260.5,
+        "texto_assinatura_px": 260.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "titulo": 1,
+          "texto": 4,
+          "fonte": 2
+        },
+        "folga_px": 260.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-10",
+      "card": 4,
+      "tipo": "fecho",
+      "linhas": {
+        "rotulo": 1,
+        "frase": 2,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 353.5,
+        "texto_assinatura_px": 353.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_frase_px": 48.0,
+        "frase_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "frase": 2,
+          "convite": 1
+        },
+        "folga_px": 353.5
+      },
+      "diferencas_tabela": []
+    }
+  ],
+  "ok": true,
+  "comando": "python3 gerar.py por-dentro-da-missa"
+}

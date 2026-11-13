@@ -1,0 +1,1163 @@
+{
+  "serie": "toda-bela",
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "elementos": {
+    "ok": true,
+    "svgs": []
+  },
+  "dias": {
+    "2026-12-12": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_invocacao_px": 48,
+              "invocacao_assinatura_px": 98
+            },
+            "limites": {
+              "credito": 1,
+              "invocacao": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "invocacao": 1
+              },
+              "selo_nicho_px": 32,
+              "invocacao_assinatura_px": 98
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "info",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "invocacao",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/toda-bela/2026-12-12/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        913
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "raiz",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 219.5,
+              "texto_assinatura_px": 219.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_versiculo_px": 48.0,
+              "versiculo_referencia_px": 32.0,
+              "referencia_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "rotulo": 1,
+              "versiculo": 3,
+              "referencia": 1,
+              "texto": 5,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "versiculo": 1,
+                "referencia": 1,
+                "texto": 5,
+                "fonte": 1
+              },
+              "folga_px": 219.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  626
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "versiculo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "referencia",
+                "cor_em_pixel": [
+                  207,
+                  169,
+                  86
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 333.5,
+              "texto_assinatura_px": 333.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_frase_px": 48.0,
+              "frase_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "rotulo": 1,
+              "frase": 3,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "frase": 2,
+                "convite": 1
+              },
+              "folga_px": 333.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  776
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "frase",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "info",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "invocacao",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "versiculo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "referencia",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "frase",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9300
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 25648
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10660
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12784
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 23140
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9384
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10304
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19740
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9600
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
+        "pdftotext": "Toda Bela · sáb, 12 dez Ladainha 1\nSassoferrato · A Virgem em oração · National Gallery, Londres\nSanta Maria\n\fToda Bela · sáb, 12 dez 2/3\nDe onde vem\nE o nome da virgem era Maria.\nLc 1,27\nÉ a primeira invocação a Nossa Senhora\nna Ladainha: o nome dela e uma palavra,\nsanta. O Oriente cristão a chama de\nPanaghia, a toda santa, porque, pela graça\nde Deus, ela viveu livre de todo pecado.\nCatecismo da Igreja Católica, 493\n\fToda Bela · sáb, 12 dez 3/3\nPara rezar hoje\nSanta Maria,\nrogai por nós.\nSalve e reze com a gente, uma invocação de cada vez.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/toda-bela/2026-12-12/toda-bela-2026-12-12.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                684.0,
+                681.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    }
+  },
+  "pngs": {
+    "ok": true,
+    "count": 5,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/toda-bela/2026-12-12/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/toda-bela/2026-12-12/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/toda-bela/2026-12-12/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/toda-bela/2026-12-12/recorte-1.png",
+        "expected": [
+          1080,
+          1358
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1358
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/toda-bela/prancha.png",
+        "expected": [
+          1192,
+          562
+        ],
+        "ok": true,
+        "actual": [
+          1192,
+          562
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [],
+  "tabela_medida": [
+    {
+      "data": "2026-12-12",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "invocacao": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_invocacao_px": 48,
+        "invocacao_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "invocacao": 1
+        },
+        "selo_nicho_px": 32,
+        "invocacao_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-12",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 1,
+        "referencia": 1,
+        "texto": 5,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 219.5,
+        "texto_assinatura_px": 219.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 1,
+          "referencia": 1,
+          "texto": 5,
+          "fonte": 1
+        },
+        "folga_px": 219.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-12",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "frase": 2,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 333.5,
+        "texto_assinatura_px": 333.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_frase_px": 48.0,
+        "frase_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "frase": 2,
+          "convite": 1
+        },
+        "folga_px": 333.5
+      },
+      "diferencas_tabela": []
+    }
+  ],
+  "ok": true,
+  "comando": "python3 gerar.py toda-bela"
+}

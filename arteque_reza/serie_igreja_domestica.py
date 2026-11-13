@@ -138,7 +138,7 @@ def _board(target: Path, records: list[dict]) -> tuple[int, int]:
 
 def _report(target: Path, records: list[dict], checks: dict, command: str) -> Path:
     lines = ['# Igreja Doméstica', '', f'`{command}`', '', '## Conteúdo e composição', '',
-        '- Os textos foram escritos pela página e aprovados em 03/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.',
+        '- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026 e os de 13/12 em 12/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.',
         '- PostIgrejaDomestica usa feed 1080 × 1350 e tema pergaminho. O selo traz a série e a data; do segundo card em diante aparece a contagem à direita.',
         '- A capa segue o fluxo abaixo do selo: Nicho 600 × 680 com foco e zoom do YAML, crédito, título e apoio. A imagem entra dentro do arco; o crédito aparece na capa, e a página da obra fica somente na ficha e neste relatório.',
         '- Passos, oração e conversa mantêm o bloco centralizado entre selo e assinatura, com pelo menos 60 px de folga e diferença de centralização até 0,1 px. Na capa, o apoio fica a pelo menos 32 px da assinatura.',
@@ -157,6 +157,11 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         '| 6/12 · 1 · capa | crédito 1, título 1, apoio 1 | selo → nicho 32 px; apoio → assinatura 116 px |',
         '| 6/12 · 2 · oração | título 1; rubricas 2 e 1; oração 4; aclamação 1 | 103,5 px acima e abaixo |',
         '| 6/12 · 3 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |',
+        '| 13/12 · 1 · capa | crédito 1, título 1, apoio 1 | selo → nicho 32 px; apoio → assinatura 116 px |',
+        '| 13/12 · 2 · passos | título 1; itens 2, 2 e 2; fonte 1 | 194,5 px acima e abaixo |',
+        '| 13/12 · 3 · passos | título 1; itens 2, 2, 2 e 2; fonte 1 | 128,5 px acima e abaixo |',
+        '| 13/12 · 4 · oração | título 1; rubricas 2 e 1; oração 4; aclamação 1 | 103,5 px acima e abaixo |',
+        '| 13/12 · 5 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |',
         '', '## Valores medidos no navegador', '',
         '| Data | Card | Tipo | Linhas | Distâncias e folgas |', '| --- | --- | --- | --- | --- |']
     rows = [row for record in records for row in record['tabela_medida']]
@@ -294,7 +299,7 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             destination = folder/f'igreja-domestica-{day["data"]}.pdf'
             _merge(parts, destination)
             pdf_check = _pdf_check(destination, cards, measurements)
-            record = {'modelo':'PostIgrejaDomestica', 'textos_aprovados_em':'2026-11-03',
+            record = {'modelo':'PostIgrejaDomestica', 'textos_aprovados_em':'2026-11-12' if day['data']=='2026-12-13' else '2026-11-03',
                       'data':day['data'], 'cor':day['cor'], 'cards':measurements,
                       'obra':deepcopy(cover['obra']), 'obra_usada':_relative(artwork),
                       'obra_pendente':pending, 'enquadramento':framing, 'nota_visual':note,

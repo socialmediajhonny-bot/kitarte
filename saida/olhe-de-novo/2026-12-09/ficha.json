@@ -1,0 +1,5070 @@
+{
+  "modelo": "PostOlheDeNovo",
+  "serie": "olhe-de-novo",
+  "textos_aprovados_em": "2026-11-12",
+  "data": "2026-12-09",
+  "cor": "roxo",
+  "cards": [
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Olhe de Novo",
+          "linhas": [
+            "Olhe de Novo"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 200.140625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 200.140625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qua, 9 dez",
+          "linhas": [
+            "· qua, 9 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 322.25,
+              "y": 80,
+              "largura": 163.515625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 322.25,
+            "y": 80,
+            "largura": 163.515625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "contagem",
+          "conteudo": "1/4",
+          "linhas": [
+            "1/4"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 947.453125,
+              "y": 80,
+              "largura": 52.546875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 947.453125,
+            "y": 80,
+            "largura": 52.546875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "credito",
+          "conteudo": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+          "linhas": [
+            "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 150.96875,
+              "y": 1025,
+              "largura": 778.046875,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 150.96875,
+            "y": 1024,
+            "largura": 778.046875,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "titulo",
+          "conteudo": "O lírio da Anunciação",
+          "linhas": [
+            "O lírio da Anunciação"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 242.625,
+              "y": 1100,
+              "largura": 594.734375,
+              "altura": 83
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 242.625,
+            "y": 1104,
+            "largura": 594.734375,
+            "altura": 76
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 68,
+          "entrelinha_px": 76,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 220,
+          "y": 152,
+          "largura": 640,
+          "altura": 840
+        },
+        "obra": {
+          "x": 236,
+          "y": 168,
+          "largura": 608,
+          "altura": 824
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 405.765625,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": null,
+        "info_topo": {
+          "x": 947.453125,
+          "y": 80,
+          "largura": 52.546875,
+          "altura": 40
+        },
+        "ornamento": null,
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "linha_nichos": null
+      },
+      "card": 1,
+      "tipo": "obra",
+      "modelo": "PostOlheDeNovo",
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 200.140625,
+          "height": 39,
+          "text": "Olhe de Novo",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 322.25,
+          "y": 80,
+          "width": 163.515625,
+          "height": 39,
+          "text": "· qua, 9 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 947.453125,
+          "y": 80,
+          "width": 52.546875,
+          "height": 40,
+          "text": "1/4",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 220,
+          "y": 152,
+          "width": 640,
+          "height": 840,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 172,
+          "y": 992,
+          "width": 736,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": "#ac8bc6",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 220,
+          "y": 152,
+          "width": 640,
+          "height": 840,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 236,
+          "y": 168,
+          "width": 608,
+          "height": 824,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#211a15",
+          "background_hex": "#211a15",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              304,
+              304
+            ],
+            "top_right": [
+              304,
+              304
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 236,
+          "y": 168,
+          "width": 608,
+          "height": 824,
+          "text": null,
+          "arquivo": "saida/olhe-de-novo/2026-12-09/obra-1.jpg",
+          "source": "http://127.0.0.1:36785/saida/olhe-de-novo/2026-12-09/obra-1.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 1216,
+          "source_height_px": 1648,
+          "object_fit": "cover",
+          "object_position": "50% 50%"
+        },
+        {
+          "element": "credito",
+          "kind": "text",
+          "x": 150.96875,
+          "y": 1024,
+          "width": 778.046875,
+          "height": 32,
+          "text": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "titulo",
+          "kind": "text",
+          "x": 242.625,
+          "y": 1104,
+          "width": 594.734375,
+          "height": 76,
+          "text": "O lírio da Anunciação",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 68,
+          "line_height_px": 76,
+          "line_height_multiple": 1.117647,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "serie": "olhe-de-novo",
+      "data": "2026-12-09",
+      "cor": "roxo",
+      "numero": 1,
+      "total": 4,
+      "cartao_cor": false,
+      "conteudo": {
+        "titulo": "O lírio da Anunciação",
+        "obra": {
+          "arquivo": "obras/olhe-de-novo/2026-12-09.jpg",
+          "credito": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+          "pagina": "https://nationalgallery.org.uk/paintings/NG739",
+          "foco": "50% 70%"
+        },
+        "serie": "olhe-de-novo",
+        "modelo": "PostOlheDeNovo",
+        "data": "2026-12-09",
+        "cor": "roxo",
+        "tipo": "obra",
+        "numero": 1,
+        "total": 4,
+        "cartao_cor": false,
+        "tema": "capela"
+      },
+      "nichos": [
+        {
+          "x": 220,
+          "y": 152,
+          "largura": 640,
+          "altura": 840
+        }
+      ],
+      "figuras": [],
+      "cores": {
+        "fundo": "#16110d",
+        "cruz": "#ac8bc6",
+        "ornamento": null
+      },
+      "tema_dom": "capela",
+      "logo": "kit/logos/logo-horizontal-capela.svg",
+      "estilos_texto": {
+        "selo": "normal",
+        "data": "normal",
+        "contagem": "normal",
+        "credito": "normal",
+        "titulo": "normal"
+      },
+      "sem_quebra": [],
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 38
+      },
+      "pagina": 1,
+      "arquivo": "card-1.png",
+      "obras": [
+        {
+          "arquivo": "obras/olhe-de-novo/2026-12-09.jpg",
+          "credito": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+          "pagina": "https://nationalgallery.org.uk/paintings/NG739",
+          "foco": "50% 70%",
+          "zoom": 1,
+          "card": 1,
+          "indice": 1,
+          "janela_original": {
+            "x": 0.0,
+            "y": 115.94210526315781,
+            "largura": 2996.0,
+            "altura": 4060.3684210526317
+          },
+          "ampliacao": 0.20293724966622162,
+          "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-1.jpg",
+          "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-1.png",
+          "tamanho_recortado": [
+            1216,
+            1648
+          ],
+          "geometria": {
+            "foco": "50% 70%",
+            "zoom": 1.0,
+            "imagem_original": {
+              "largura": 2996,
+              "altura": 4226
+            },
+            "nicho": {
+              "largura": 640,
+              "altura": 840
+            },
+            "area_interna": {
+              "largura": 608,
+              "altura": 824
+            },
+            "escala_cover": 0.20293724966622162,
+            "escala_com_zoom": 0.20293724966622162,
+            "janela_original": {
+              "x": 0.0,
+              "y": 115.94210526315781,
+              "largura": 2996.0,
+              "altura": 4060.3684210526317
+            },
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": [],
+            "avisos": [],
+            "ampliacao": 0.20293724966622162
+          },
+          "margens": {
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": []
+          },
+          "margens_detectadas": {
+            "topo": 0,
+            "base": 0,
+            "esquerda": 0,
+            "direita": 0
+          },
+          "faixas_descartadas": [],
+          "margens_visiveis": [],
+          "avisos": [],
+          "nota_visual": {
+            "inspecionada": true,
+            "anjo_preservado": true,
+            "maria_preservada": true,
+            "lirio_preservado": true,
+            "nota": "Card 1 e recorte-1.png finais conferidos individualmente. Gabriel, Maria e o lírio ficam preservados dentro do arco na extensão em que já aparecem na pintura: os rostos, as mãos, as vestes e as flores permanecem legíveis. A asa à esquerda já encontra a borda do arquivo original; isso não é um corte novo introduzido pelo arco. A curva recorta a arquitetura e o céu na parte superior, sem atingir esses protagonistas. Nenhuma margem fotográfica foi vista."
+          }
+        }
+      ]
+    },
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Olhe de Novo",
+          "linhas": [
+            "Olhe de Novo"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 200.140625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 200.140625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qua, 9 dez",
+          "linhas": [
+            "· qua, 9 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 322.25,
+              "y": 80,
+              "largura": 163.515625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 322.25,
+            "y": 80,
+            "largura": 163.515625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "contagem",
+          "conteudo": "2/4",
+          "linhas": [
+            "2/4"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 947.453125,
+              "y": 80,
+              "largura": 52.546875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 947.453125,
+            "y": 80,
+            "largura": 52.546875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "credito",
+          "conteudo": "Detalhe da mesma obra",
+          "linhas": [
+            "Detalhe da mesma obra"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 415.625,
+              "y": 1025,
+              "largura": 248.734375,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 415.625,
+            "y": 1024,
+            "largura": 248.734375,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "titulo",
+          "conteudo": "Na mão do anjo, um lírio",
+          "linhas": [
+            "Na mão do anjo, um lírio"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 205.46875,
+              "y": 1100,
+              "largura": 669.0625,
+              "altura": 83
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 205.46875,
+            "y": 1104,
+            "largura": 669.0625,
+            "altura": 76
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 68,
+          "entrelinha_px": 76,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 220,
+          "y": 152,
+          "largura": 640,
+          "altura": 840
+        },
+        "obra": {
+          "x": 236,
+          "y": 168,
+          "largura": 608,
+          "altura": 824
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 405.765625,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": null,
+        "info_topo": {
+          "x": 947.453125,
+          "y": 80,
+          "largura": 52.546875,
+          "altura": 40
+        },
+        "ornamento": null,
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "linha_nichos": null
+      },
+      "card": 2,
+      "tipo": "detalhe",
+      "modelo": "PostOlheDeNovo",
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 200.140625,
+          "height": 39,
+          "text": "Olhe de Novo",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 322.25,
+          "y": 80,
+          "width": 163.515625,
+          "height": 39,
+          "text": "· qua, 9 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 947.453125,
+          "y": 80,
+          "width": 52.546875,
+          "height": 40,
+          "text": "2/4",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 220,
+          "y": 152,
+          "width": 640,
+          "height": 840,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 172,
+          "y": 992,
+          "width": 736,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": "#ac8bc6",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 220,
+          "y": 152,
+          "width": 640,
+          "height": 840,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 236,
+          "y": 168,
+          "width": 608,
+          "height": 824,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#211a15",
+          "background_hex": "#211a15",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              304,
+              304
+            ],
+            "top_right": [
+              304,
+              304
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 236,
+          "y": 168,
+          "width": 608,
+          "height": 824,
+          "text": null,
+          "arquivo": "saida/olhe-de-novo/2026-12-09/obra-2.jpg",
+          "source": "http://127.0.0.1:36785/saida/olhe-de-novo/2026-12-09/obra-2.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 608,
+          "source_height_px": 824,
+          "object_fit": "cover",
+          "object_position": "50% 50%"
+        },
+        {
+          "element": "credito",
+          "kind": "text",
+          "x": 415.625,
+          "y": 1024,
+          "width": 248.734375,
+          "height": 32,
+          "text": "Detalhe da mesma obra",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "titulo",
+          "kind": "text",
+          "x": 205.46875,
+          "y": 1104,
+          "width": 669.0625,
+          "height": 76,
+          "text": "Na mão do anjo, um lírio",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 68,
+          "line_height_px": 76,
+          "line_height_multiple": 1.117647,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "serie": "olhe-de-novo",
+      "data": "2026-12-09",
+      "cor": "roxo",
+      "numero": 2,
+      "total": 4,
+      "cartao_cor": false,
+      "conteudo": {
+        "titulo": "Na mão do anjo, um lírio",
+        "janela": [
+          396,
+          2440,
+          608
+        ],
+        "tamanho": [
+          2996,
+          4226
+        ],
+        "obra": {
+          "arquivo": "obras/olhe-de-novo/2026-12-09.jpg",
+          "credito": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+          "pagina": "https://nationalgallery.org.uk/paintings/NG739",
+          "foco": "50% 70%"
+        },
+        "serie": "olhe-de-novo",
+        "modelo": "PostOlheDeNovo",
+        "data": "2026-12-09",
+        "cor": "roxo",
+        "tipo": "detalhe",
+        "numero": 2,
+        "total": 4,
+        "cartao_cor": false,
+        "tema": "capela"
+      },
+      "nichos": [
+        {
+          "x": 220,
+          "y": 152,
+          "largura": 640,
+          "altura": 840
+        }
+      ],
+      "figuras": [],
+      "cores": {
+        "fundo": "#16110d",
+        "cruz": "#ac8bc6",
+        "ornamento": null
+      },
+      "tema_dom": "capela",
+      "logo": "kit/logos/logo-horizontal-capela.svg",
+      "estilos_texto": {
+        "selo": "normal",
+        "data": "normal",
+        "contagem": "normal",
+        "credito": "normal",
+        "titulo": "normal"
+      },
+      "sem_quebra": [],
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 38
+      },
+      "pagina": 2,
+      "arquivo": "card-2.png",
+      "obras": [
+        {
+          "arquivo": "obras/olhe-de-novo/2026-12-09.jpg",
+          "credito": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+          "pagina": "https://nationalgallery.org.uk/paintings/NG739",
+          "janela": [
+            396,
+            2440,
+            608
+          ],
+          "tamanho": [
+            2996,
+            4226
+          ],
+          "card": 2,
+          "indice": 1,
+          "janela_original": {
+            "x": 396,
+            "y": 2440,
+            "largura": 608,
+            "altura": 824
+          },
+          "ampliacao": 1.0,
+          "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-2.jpg",
+          "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-2.png",
+          "tamanho_recortado": [
+            608,
+            824
+          ],
+          "geometria": {
+            "foco": "50% 50%",
+            "zoom": 1.0,
+            "imagem_original": {
+              "largura": 2996,
+              "altura": 4226
+            },
+            "nicho": {
+              "largura": 640,
+              "altura": 840
+            },
+            "area_interna": {
+              "largura": 608,
+              "altura": 824
+            },
+            "escala_cover": 0.20293724966622162,
+            "escala_com_zoom": 1.0,
+            "janela_original": {
+              "x": 396,
+              "y": 2440,
+              "largura": 608,
+              "altura": 824
+            },
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": [],
+            "avisos": [],
+            "ampliacao": 1.0
+          },
+          "margens": {
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": []
+          },
+          "margens_detectadas": {
+            "topo": 0,
+            "base": 0,
+            "esquerda": 0,
+            "direita": 0
+          },
+          "faixas_descartadas": [],
+          "margens_visiveis": [],
+          "avisos": [],
+          "nota_visual": {
+            "inspecionada": true,
+            "rosto_e_aureola_preservados": true,
+            "lirio_das_flores_ate_mao_preservado": true,
+            "nota": "Card 2 e recorte-2.png finais conferidos individualmente. O rosto de Gabriel, a auréola dourada e o lírio estão dentro do arco, das flores até a mão que segura a haste. As laterais cortam asas e outros elementos periféricos, mas o conjunto de rosto, auréola, flores e mão pedido para este detalhe fica preservado. Nenhuma margem fotográfica foi vista."
+          }
+        }
+      ]
+    },
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Olhe de Novo",
+          "linhas": [
+            "Olhe de Novo"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 200.140625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 200.140625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qua, 9 dez",
+          "linhas": [
+            "· qua, 9 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 322.25,
+              "y": 80,
+              "largura": 163.515625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 322.25,
+            "y": 80,
+            "largura": 163.515625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "contagem",
+          "conteudo": "3/4",
+          "linhas": [
+            "3/4"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 947.453125,
+              "y": 80,
+              "largura": 52.546875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 947.453125,
+            "y": 80,
+            "largura": 52.546875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "rotulo",
+          "conteudo": "O que significa",
+          "linhas": [
+            "O que significa"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 431.96875,
+              "y": 371.5,
+              "largura": 216.046875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 431.96875,
+            "y": 371.5,
+            "largura": 216.046875,
+            "altura": 40
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "titulo",
+          "conteudo": "A pureza de Maria",
+          "linhas": [
+            "A pureza de Maria"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 292.40625,
+              "y": 455.5,
+              "largura": 495.1875,
+              "altura": 83
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 292.40625,
+            "y": 459.5,
+            "largura": 495.1875,
+            "altura": 76
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 68,
+          "entrelinha_px": 76,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "texto",
+          "conteudo": "O lírio branco é sinal de pureza. Nas cenas da Anunciação, aparece na mão do anjo ou num vaso perto de Maria. No quadro de Crivelli, o lírio que Gabriel segura fala da castidade e da pureza de Maria, a virgem que Deus escolheu.",
+          "linhas": [
+            "O lírio branco é sinal de pureza. Nas cenas da",
+            "Anunciação, aparece na mão do anjo ou num",
+            "vaso perto de Maria. No quadro de Crivelli,",
+            "o lírio que Gabriel segura fala da castidade e da",
+            "pureza de Maria, a virgem que Deus escolheu."
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 204.546875,
+              "y": 656.5,
+              "largura": 670.90625,
+              "altura": 41
+            },
+            {
+              "x": 207.828125,
+              "y": 706.5,
+              "largura": 664.34375,
+              "altura": 41
+            },
+            {
+              "x": 221.5625,
+              "y": 756.5,
+              "largura": 636.859375,
+              "altura": 41
+            },
+            {
+              "x": 189.875,
+              "y": 806.5,
+              "largura": 700.25,
+              "altura": 41
+            },
+            {
+              "x": 199.46875,
+              "y": 856.5,
+              "largura": 681.046875,
+              "altura": 41
+            }
+          ],
+          "quantidade_linhas": 5,
+          "estilo": "corpo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 160,
+            "y": 652.5,
+            "largura": 760,
+            "altura": 250
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 34,
+          "entrelinha_px": 50,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "fonte",
+          "conteudo": "National Gallery, Londres: glossário (lírios) e ficha da obra · Lc 1,27",
+          "linhas": [
+            "National Gallery, Londres: glossário (lírios) e ficha da obra · Lc 1,27"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 193.90625,
+              "y": 935.5,
+              "largura": 692.171875,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 193.90625,
+            "y": 934.5,
+            "largura": 692.171875,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": null,
+        "obra": null,
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 405.765625,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": {
+          "x": 80,
+          "y": 371.5,
+          "largura": 920,
+          "altura": 595
+        },
+        "info_topo": {
+          "x": 947.453125,
+          "y": 80,
+          "largura": 52.546875,
+          "altura": 40
+        },
+        "ornamento": {
+          "x": 445,
+          "y": 583.5,
+          "largura": 190,
+          "altura": 21
+        },
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "linha_nichos": null
+      },
+      "card": 3,
+      "tipo": "significado",
+      "modelo": "PostOlheDeNovo",
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 200.140625,
+          "height": 39,
+          "text": "Olhe de Novo",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 322.25,
+          "y": 80,
+          "width": 163.515625,
+          "height": 39,
+          "text": "· qua, 9 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 947.453125,
+          "y": 80,
+          "width": 52.546875,
+          "height": 40,
+          "text": "3/4",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "rotulo",
+          "kind": "text",
+          "x": 431.96875,
+          "y": 371.5,
+          "width": 216.046875,
+          "height": 40,
+          "text": "O que significa",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "titulo",
+          "kind": "text",
+          "x": 292.40625,
+          "y": 459.5,
+          "width": 495.1875,
+          "height": 76,
+          "text": "A pureza de Maria",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 68,
+          "line_height_px": 76,
+          "line_height_multiple": 1.117647,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento",
+          "kind": "container",
+          "x": 445,
+          "y": 583.5,
+          "width": 190,
+          "height": 21,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento-filete-esquerdo",
+          "kind": "pseudo",
+          "pseudo": "::before",
+          "host": "ornamento",
+          "x": 445,
+          "y": 593,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "ouro",
+          "hex": "#cfa956",
+          "background_hex": "#cfa956",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
+        },
+        {
+          "element": "ornamento-filete-direito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "ornamento",
+          "x": 563,
+          "y": 593,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "ouro",
+          "hex": "#cfa956",
+          "background_hex": "#cfa956",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "texto",
+          "kind": "text",
+          "x": 160,
+          "y": 652.5,
+          "width": 760,
+          "height": 250,
+          "text": "O lírio branco é sinal de pureza. Nas cenas da Anunciação, aparece na mão do anjo ou num vaso perto de Maria. No quadro de Crivelli, o lírio que Gabriel segura fala da castidade e da pureza de Maria, a virgem que Deus escolheu.",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 34,
+          "line_height_px": 50,
+          "line_height_multiple": 1.470588,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "fonte",
+          "kind": "text",
+          "x": 193.90625,
+          "y": 934.5,
+          "width": 692.171875,
+          "height": 32,
+          "text": "National Gallery, Londres: glossário (lírios) e ficha da obra · Lc 1,27",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "serie": "olhe-de-novo",
+      "data": "2026-12-09",
+      "cor": "roxo",
+      "numero": 3,
+      "total": 4,
+      "cartao_cor": false,
+      "conteudo": {
+        "rotulo": "O que significa",
+        "titulo": "A pureza de Maria",
+        "texto": "O lírio branco é sinal de pureza. Nas cenas da Anunciação, aparece na mão do anjo ou num vaso perto de Maria. No quadro de Crivelli, o lírio que Gabriel segura fala da castidade e da pureza de Maria, a virgem que Deus escolheu.",
+        "fonte": "National Gallery, Londres: glossário (lírios) e ficha da obra · Lc 1,27",
+        "serie": "olhe-de-novo",
+        "modelo": "PostOlheDeNovo",
+        "data": "2026-12-09",
+        "cor": "roxo",
+        "tipo": "significado",
+        "numero": 3,
+        "total": 4,
+        "cartao_cor": false,
+        "tema": "capela"
+      },
+      "nichos": [],
+      "figuras": [],
+      "cores": {
+        "fundo": "#16110d",
+        "cruz": "#ac8bc6",
+        "ornamento": "#cfa956"
+      },
+      "tema_dom": "capela",
+      "logo": "kit/logos/logo-horizontal-capela.svg",
+      "estilos_texto": {
+        "selo": "normal",
+        "data": "normal",
+        "contagem": "normal",
+        "rotulo": "normal",
+        "titulo": "normal",
+        "texto": "normal",
+        "fonte": "normal"
+      },
+      "sem_quebra": [
+        {
+          "texto": "Lc 1,27",
+          "regra": "referencia",
+          "white_space": "nowrap",
+          "linhas": [
+            935.5
+          ]
+        }
+      ],
+      "distancias": {
+        "selo_texto_px": 251.5,
+        "texto_assinatura_px": 251.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "pagina": 3,
+      "arquivo": "card-3.png",
+      "obras": []
+    },
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Olhe de Novo",
+          "linhas": [
+            "Olhe de Novo"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 200.140625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 200.140625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· qua, 9 dez",
+          "linhas": [
+            "· qua, 9 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 322.25,
+              "y": 80,
+              "largura": 163.515625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 322.25,
+            "y": 80,
+            "largura": 163.515625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "contagem",
+          "conteudo": "4/4",
+          "linhas": [
+            "4/4"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 947.453125,
+              "y": 80,
+              "largura": 52.546875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 947.453125,
+            "y": 80,
+            "largura": 52.546875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "rotulo",
+          "conteudo": "Onde mais aparece",
+          "linhas": [
+            "Onde mais aparece"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 401.71875,
+              "y": 236,
+              "largura": 276.546875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 401.71875,
+            "y": 236,
+            "largura": 276.546875,
+            "altura": 40
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "credito_1",
+          "conteudo": "Jan van Eyck · A Anunciação\nNational Gallery of Art",
+          "linhas": [
+            "Jan van Eyck · A Anunciação",
+            "National Gallery of Art"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 174.90625,
+              "y": 777,
+              "largura": 294.1875,
+              "altura": 29
+            },
+            {
+              "x": 204.234375,
+              "y": 809,
+              "largura": 235.515625,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 2,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 174.90625,
+            "y": 776,
+            "largura": 294.1875,
+            "altura": 64
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "credito_2",
+          "conteudo": "El Greco · Santo Antônio de Pádua\nMuseu do Prado",
+          "linhas": [
+            "El Greco · Santo Antônio de Pádua",
+            "Museu do Prado"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 577.921875,
+              "y": 777,
+              "largura": 360.140625,
+              "altura": 29
+            },
+            {
+              "x": 671.515625,
+              "y": 809,
+              "largura": 172.9375,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 2,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 577.921875,
+            "y": 776,
+            "largura": 360.140625,
+            "altura": 64
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "texto",
+          "conteudo": "Ao lado de Maria, como na Anunciação do nosso Ângelus das 12h. E na mão de santos como Santo Antônio de Pádua e Santa Catarina de Sena.",
+          "linhas": [
+            "Ao lado de Maria, como na Anunciação do nosso",
+            "Ângelus das 12h. E na mão de santos como Santo",
+            "Antônio de Pádua e Santa Catarina de Sena."
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 179.5625,
+              "y": 892,
+              "largura": 720.859375,
+              "altura": 41
+            },
+            {
+              "x": 172.40625,
+              "y": 942,
+              "largura": 735.1875,
+              "altura": 41
+            },
+            {
+              "x": 214,
+              "y": 992,
+              "largura": 652,
+              "altura": 41
+            }
+          ],
+          "quantidade_linhas": 3,
+          "estilo": "corpo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 160,
+            "y": 888,
+            "largura": 760,
+            "altura": 150
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 34,
+          "entrelinha_px": 50,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "fonte",
+          "conteudo": "National Gallery, Londres: glossário (lírios)",
+          "linhas": [
+            "National Gallery, Londres: glossário (lírios)"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 321.640625,
+              "y": 1071,
+              "largura": 436.71875,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 321.640625,
+            "y": 1070,
+            "largura": 436.71875,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 152,
+          "y": 324,
+          "largura": 340,
+          "altura": 420
+        },
+        "obra": {
+          "x": 168,
+          "y": 340,
+          "largura": 308,
+          "altura": 404
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 405.765625,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": {
+          "x": 80,
+          "y": 236,
+          "largura": 920,
+          "altura": 866
+        },
+        "info_topo": {
+          "x": 947.453125,
+          "y": 80,
+          "largura": 52.546875,
+          "altura": 40
+        },
+        "ornamento": null,
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "linha_nichos": {
+          "x": 80,
+          "y": 324,
+          "largura": 920,
+          "altura": 516
+        }
+      },
+      "card": 4,
+      "tipo": "onde",
+      "modelo": "PostOlheDeNovo",
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 200.140625,
+          "height": 39,
+          "text": "Olhe de Novo",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 322.25,
+          "y": 80,
+          "width": 163.515625,
+          "height": 39,
+          "text": "· qua, 9 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 947.453125,
+          "y": 80,
+          "width": 52.546875,
+          "height": 40,
+          "text": "4/4",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "rotulo",
+          "kind": "text",
+          "x": 401.71875,
+          "y": 236,
+          "width": 276.546875,
+          "height": 40,
+          "text": "Onde mais aparece",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "linha-nichos",
+          "kind": "container",
+          "x": 80,
+          "y": 324,
+          "width": 920,
+          "height": 516,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 152,
+          "y": 324,
+          "width": 340,
+          "height": 420,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 104,
+          "y": 744,
+          "width": 436,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": "#ac8bc6",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 152,
+          "y": 324,
+          "width": 340,
+          "height": 420,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 168,
+          "y": 340,
+          "width": 308,
+          "height": 404,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#211a15",
+          "background_hex": "#211a15",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              154,
+              154
+            ],
+            "top_right": [
+              154,
+              154
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 168,
+          "y": 340,
+          "width": 308,
+          "height": 404,
+          "text": null,
+          "arquivo": "saida/olhe-de-novo/2026-12-09/obra-4-1.jpg",
+          "source": "http://127.0.0.1:36785/saida/olhe-de-novo/2026-12-09/obra-4-1.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 307,
+          "source_height_px": 403,
+          "object_fit": "cover",
+          "object_position": "50% 50%"
+        },
+        {
+          "element": "credito_1",
+          "kind": "text",
+          "x": 174.90625,
+          "y": 776,
+          "width": 294.1875,
+          "height": 64,
+          "text": "Jan van Eyck · A Anunciação National Gallery of Art",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 588,
+          "y": 324,
+          "width": 340,
+          "height": 420,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 540,
+          "y": 744,
+          "width": 436,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": "#ac8bc6",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 588,
+          "y": 324,
+          "width": 340,
+          "height": 420,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 604,
+          "y": 340,
+          "width": 308,
+          "height": 404,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#211a15",
+          "background_hex": "#211a15",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              154,
+              154
+            ],
+            "top_right": [
+              154,
+              154
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 604,
+          "y": 340,
+          "width": 308,
+          "height": 404,
+          "text": null,
+          "arquivo": "saida/olhe-de-novo/2026-12-09/obra-4-2.jpg",
+          "source": "http://127.0.0.1:36785/saida/olhe-de-novo/2026-12-09/obra-4-2.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 616,
+          "source_height_px": 808,
+          "object_fit": "cover",
+          "object_position": "50% 50%"
+        },
+        {
+          "element": "credito_2",
+          "kind": "text",
+          "x": 577.921875,
+          "y": 776,
+          "width": 360.140625,
+          "height": 64,
+          "text": "El Greco · Santo Antônio de Pádua Museu do Prado",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "texto",
+          "kind": "text",
+          "x": 160,
+          "y": 888,
+          "width": 760,
+          "height": 150,
+          "text": "Ao lado de Maria, como na Anunciação do nosso Ângelus das 12h. E na mão de santos como Santo Antônio de Pádua e Santa Catarina de Sena.",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 34,
+          "line_height_px": 50,
+          "line_height_multiple": 1.470588,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "fonte",
+          "kind": "text",
+          "x": 321.640625,
+          "y": 1070,
+          "width": 436.71875,
+          "height": 32,
+          "text": "National Gallery, Londres: glossário (lírios)",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "serie": "olhe-de-novo",
+      "data": "2026-12-09",
+      "cor": "roxo",
+      "numero": 4,
+      "total": 4,
+      "cartao_cor": false,
+      "conteudo": {
+        "rotulo": "Onde mais aparece",
+        "obras": [
+          {
+            "arquivo": "obras/stories/angelus.jpg",
+            "credito": "Jan van Eyck · A Anunciação\nNational Gallery of Art",
+            "pagina": "https://www.nga.gov/artworks/46-annunciation",
+            "janela": [
+              830,
+              2085,
+              307
+            ],
+            "tamanho": [
+              1137,
+              3000
+            ]
+          },
+          {
+            "arquivo": "obras/olhe-de-novo/2026-12-09-santo-antonio.jpg",
+            "credito": "El Greco · Santo Antônio de Pádua\nMuseu do Prado",
+            "pagina": "https://commons.wikimedia.org/wiki/File:San_Antonio_de_Padua_(El_Greco).jpg",
+            "janela": [
+              200,
+              120,
+              1446
+            ],
+            "tamanho": [
+              2270,
+              3051
+            ]
+          }
+        ],
+        "texto": "Ao lado de Maria, como na Anunciação do nosso Ângelus das 12h. E na mão de santos como Santo Antônio de Pádua e Santa Catarina de Sena.",
+        "fonte": "National Gallery, Londres: glossário (lírios)",
+        "serie": "olhe-de-novo",
+        "modelo": "PostOlheDeNovo",
+        "data": "2026-12-09",
+        "cor": "roxo",
+        "tipo": "onde",
+        "numero": 4,
+        "total": 4,
+        "cartao_cor": false,
+        "tema": "capela"
+      },
+      "nichos": [
+        {
+          "x": 152,
+          "y": 324,
+          "largura": 340,
+          "altura": 420
+        },
+        {
+          "x": 588,
+          "y": 324,
+          "largura": 340,
+          "altura": 420
+        }
+      ],
+      "figuras": [
+        {
+          "x": 132,
+          "y": 324,
+          "largura": 380,
+          "altura": 516
+        },
+        {
+          "x": 568,
+          "y": 324,
+          "largura": 380,
+          "altura": 516
+        }
+      ],
+      "cores": {
+        "fundo": "#16110d",
+        "cruz": "#ac8bc6",
+        "ornamento": null
+      },
+      "tema_dom": "capela",
+      "logo": "kit/logos/logo-horizontal-capela.svg",
+      "estilos_texto": {
+        "selo": "normal",
+        "data": "normal",
+        "contagem": "normal",
+        "rotulo": "normal",
+        "credito_1": "normal",
+        "credito_2": "normal",
+        "texto": "normal",
+        "fonte": "normal"
+      },
+      "sem_quebra": [],
+      "distancias": {
+        "selo_texto_px": 116,
+        "texto_assinatura_px": 116,
+        "diferenca_centralizacao_px": 0,
+        "rotulo_linha_nichos_px": 48,
+        "linha_nichos_texto_px": 48,
+        "texto_fonte_px": 32,
+        "nicho_1_credito_1_px": 32,
+        "nicho_2_credito_2_px": 32,
+        "distancia_entre_nichos_px": 96
+      },
+      "pagina": 4,
+      "arquivo": "card-4.png",
+      "obras": [
+        {
+          "arquivo": "obras/stories/angelus.jpg",
+          "credito": "Jan van Eyck · A Anunciação\nNational Gallery of Art",
+          "pagina": "https://www.nga.gov/artworks/46-annunciation",
+          "janela": [
+            830,
+            2085,
+            307
+          ],
+          "tamanho": [
+            1137,
+            3000
+          ],
+          "card": 4,
+          "indice": 1,
+          "janela_original": {
+            "x": 830,
+            "y": 2085,
+            "largura": 307,
+            "altura": 403
+          },
+          "ampliacao": 1.003257328990228,
+          "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-4-1.jpg",
+          "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-4-1.png",
+          "tamanho_recortado": [
+            307,
+            403
+          ],
+          "geometria": {
+            "foco": "50% 50%",
+            "zoom": 1.0,
+            "imagem_original": {
+              "largura": 1137,
+              "altura": 3000
+            },
+            "nicho": {
+              "largura": 340,
+              "altura": 420
+            },
+            "area_interna": {
+              "largura": 308,
+              "altura": 404
+            },
+            "escala_cover": 0.27088830255057167,
+            "escala_com_zoom": 1.003257328990228,
+            "janela_original": {
+              "x": 830,
+              "y": 2085,
+              "largura": 307,
+              "altura": 403
+            },
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": [],
+            "avisos": [],
+            "ampliacao": 1.003257328990228
+          },
+          "margens": {
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": []
+          },
+          "margens_detectadas": {
+            "topo": 0,
+            "base": 0,
+            "esquerda": 0,
+            "direita": 0
+          },
+          "faixas_descartadas": [],
+          "margens_visiveis": [],
+          "avisos": [],
+          "nota_visual": {
+            "inspecionada": true,
+            "flores_preservadas_integralmente": false,
+            "nota": "O nicho esquerdo do card 4, o JPEG obra-4-1.jpg e recorte-4-1.png finais foram conferidos. As flores centrais do lírio ficam legíveis, mas a flor mais alta à direita entra parcialmente na janela retangular aprovada e perde mais pétalas pela curva do arco; portanto o conjunto das flores não está integralmente preservado. Algumas extremidades à direita já encontram a borda do arquivo original e não podem ser recuperadas com outra janela. Nenhuma margem fotográfica foi vista. O YAML aprovado foi mantido.",
+            "sugestao": {
+              "janela": [
+                717,
+                1830,
+                420
+              ],
+              "tamanho": [
+                1137,
+                3000
+              ],
+              "altura_calculada_px": 551,
+              "ampliacao": 0.7333333333333333,
+              "tamanho_recortado_px": [
+                420,
+                551
+              ],
+              "nota": "Alternativa renderizada e inspecionada no card 4 e no JPEG temporários: inclui a flor alta e preserva todas as flores na extensão disponível no arquivo original, posicionando-as abaixo da curva. O livro e mais tecido azul passam a aparecer, e as flores ficam menores; as pontas já limitadas pela borda original não são recuperadas. A janela cabe integralmente no arquivo, tem ampliação 0,733333 e margens_visiveis vazias. Sugestão somente no relatório; nenhum foco ou janela do YAML foi alterado."
+            }
+          }
+        },
+        {
+          "arquivo": "obras/olhe-de-novo/2026-12-09-santo-antonio.jpg",
+          "credito": "El Greco · Santo Antônio de Pádua\nMuseu do Prado",
+          "pagina": "https://commons.wikimedia.org/wiki/File:San_Antonio_de_Padua_(El_Greco).jpg",
+          "janela": [
+            200,
+            120,
+            1446
+          ],
+          "tamanho": [
+            2270,
+            3051
+          ],
+          "card": 4,
+          "indice": 2,
+          "janela_original": {
+            "x": 200,
+            "y": 120,
+            "largura": 1446,
+            "altura": 1897
+          },
+          "ampliacao": 0.21300138312586445,
+          "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-4-2.jpg",
+          "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-4-2.png",
+          "tamanho_recortado": [
+            616,
+            808
+          ],
+          "geometria": {
+            "foco": "50% 50%",
+            "zoom": 1.0,
+            "imagem_original": {
+              "largura": 2270,
+              "altura": 3051
+            },
+            "nicho": {
+              "largura": 340,
+              "altura": 420
+            },
+            "area_interna": {
+              "largura": 308,
+              "altura": 404
+            },
+            "escala_cover": 0.1356828193832599,
+            "escala_com_zoom": 0.21300138312586445,
+            "janela_original": {
+              "x": 200,
+              "y": 120,
+              "largura": 1446,
+              "altura": 1897
+            },
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": [],
+            "avisos": [],
+            "ampliacao": 0.21300138312586445
+          },
+          "margens": {
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": []
+          },
+          "margens_detectadas": {
+            "topo": 0,
+            "base": 0,
+            "esquerda": 0,
+            "direita": 0
+          },
+          "faixas_descartadas": [],
+          "margens_visiveis": [],
+          "avisos": [],
+          "nota_visual": {
+            "inspecionada": true,
+            "rosto_preservado": true,
+            "lirio_preservado": true,
+            "mao_preservada": true,
+            "nota": "O nicho direito do card 4, o JPEG obra-4-2.jpg e recorte-4-2.png finais foram conferidos. O rosto de Santo Antônio, as flores do lírio e a mão que segura a haste ficam dentro do arco. O corte termina junto ao punho e exclui a parte inferior do corpo e o livro, conforme a proposta de detalhe; os dedos e o rosto permanecem preservados. Nenhuma margem fotográfica foi vista."
+          }
+        }
+      ]
+    }
+  ],
+  "obras": [
+    {
+      "arquivo": "obras/olhe-de-novo/2026-12-09.jpg",
+      "credito": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+      "pagina": "https://nationalgallery.org.uk/paintings/NG739",
+      "foco": "50% 70%",
+      "zoom": 1,
+      "card": 1,
+      "indice": 1,
+      "janela_original": {
+        "x": 0.0,
+        "y": 115.94210526315781,
+        "largura": 2996.0,
+        "altura": 4060.3684210526317
+      },
+      "ampliacao": 0.20293724966622162,
+      "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-1.jpg",
+      "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-1.png",
+      "tamanho_recortado": [
+        1216,
+        1648
+      ],
+      "geometria": {
+        "foco": "50% 70%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 2996,
+          "altura": 4226
+        },
+        "nicho": {
+          "largura": 640,
+          "altura": 840
+        },
+        "area_interna": {
+          "largura": 608,
+          "altura": 824
+        },
+        "escala_cover": 0.20293724966622162,
+        "escala_com_zoom": 0.20293724966622162,
+        "janela_original": {
+          "x": 0.0,
+          "y": 115.94210526315781,
+          "largura": 2996.0,
+          "altura": 4060.3684210526317
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": [],
+        "avisos": [],
+        "ampliacao": 0.20293724966622162
+      },
+      "margens": {
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": []
+      },
+      "margens_detectadas": {
+        "topo": 0,
+        "base": 0,
+        "esquerda": 0,
+        "direita": 0
+      },
+      "faixas_descartadas": [],
+      "margens_visiveis": [],
+      "avisos": [],
+      "nota_visual": {
+        "inspecionada": true,
+        "anjo_preservado": true,
+        "maria_preservada": true,
+        "lirio_preservado": true,
+        "nota": "Card 1 e recorte-1.png finais conferidos individualmente. Gabriel, Maria e o lírio ficam preservados dentro do arco na extensão em que já aparecem na pintura: os rostos, as mãos, as vestes e as flores permanecem legíveis. A asa à esquerda já encontra a borda do arquivo original; isso não é um corte novo introduzido pelo arco. A curva recorta a arquitetura e o céu na parte superior, sem atingir esses protagonistas. Nenhuma margem fotográfica foi vista."
+      }
+    },
+    {
+      "arquivo": "obras/olhe-de-novo/2026-12-09.jpg",
+      "credito": "Carlo Crivelli · A Anunciação, com Santo Emídio · National Gallery, Londres",
+      "pagina": "https://nationalgallery.org.uk/paintings/NG739",
+      "janela": [
+        396,
+        2440,
+        608
+      ],
+      "tamanho": [
+        2996,
+        4226
+      ],
+      "card": 2,
+      "indice": 1,
+      "janela_original": {
+        "x": 396,
+        "y": 2440,
+        "largura": 608,
+        "altura": 824
+      },
+      "ampliacao": 1.0,
+      "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-2.jpg",
+      "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-2.png",
+      "tamanho_recortado": [
+        608,
+        824
+      ],
+      "geometria": {
+        "foco": "50% 50%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 2996,
+          "altura": 4226
+        },
+        "nicho": {
+          "largura": 640,
+          "altura": 840
+        },
+        "area_interna": {
+          "largura": 608,
+          "altura": 824
+        },
+        "escala_cover": 0.20293724966622162,
+        "escala_com_zoom": 1.0,
+        "janela_original": {
+          "x": 396,
+          "y": 2440,
+          "largura": 608,
+          "altura": 824
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": [],
+        "avisos": [],
+        "ampliacao": 1.0
+      },
+      "margens": {
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": []
+      },
+      "margens_detectadas": {
+        "topo": 0,
+        "base": 0,
+        "esquerda": 0,
+        "direita": 0
+      },
+      "faixas_descartadas": [],
+      "margens_visiveis": [],
+      "avisos": [],
+      "nota_visual": {
+        "inspecionada": true,
+        "rosto_e_aureola_preservados": true,
+        "lirio_das_flores_ate_mao_preservado": true,
+        "nota": "Card 2 e recorte-2.png finais conferidos individualmente. O rosto de Gabriel, a auréola dourada e o lírio estão dentro do arco, das flores até a mão que segura a haste. As laterais cortam asas e outros elementos periféricos, mas o conjunto de rosto, auréola, flores e mão pedido para este detalhe fica preservado. Nenhuma margem fotográfica foi vista."
+      }
+    },
+    {
+      "arquivo": "obras/stories/angelus.jpg",
+      "credito": "Jan van Eyck · A Anunciação\nNational Gallery of Art",
+      "pagina": "https://www.nga.gov/artworks/46-annunciation",
+      "janela": [
+        830,
+        2085,
+        307
+      ],
+      "tamanho": [
+        1137,
+        3000
+      ],
+      "card": 4,
+      "indice": 1,
+      "janela_original": {
+        "x": 830,
+        "y": 2085,
+        "largura": 307,
+        "altura": 403
+      },
+      "ampliacao": 1.003257328990228,
+      "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-4-1.jpg",
+      "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-4-1.png",
+      "tamanho_recortado": [
+        307,
+        403
+      ],
+      "geometria": {
+        "foco": "50% 50%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 1137,
+          "altura": 3000
+        },
+        "nicho": {
+          "largura": 340,
+          "altura": 420
+        },
+        "area_interna": {
+          "largura": 308,
+          "altura": 404
+        },
+        "escala_cover": 0.27088830255057167,
+        "escala_com_zoom": 1.003257328990228,
+        "janela_original": {
+          "x": 830,
+          "y": 2085,
+          "largura": 307,
+          "altura": 403
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": [],
+        "avisos": [],
+        "ampliacao": 1.003257328990228
+      },
+      "margens": {
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": []
+      },
+      "margens_detectadas": {
+        "topo": 0,
+        "base": 0,
+        "esquerda": 0,
+        "direita": 0
+      },
+      "faixas_descartadas": [],
+      "margens_visiveis": [],
+      "avisos": [],
+      "nota_visual": {
+        "inspecionada": true,
+        "flores_preservadas_integralmente": false,
+        "nota": "O nicho esquerdo do card 4, o JPEG obra-4-1.jpg e recorte-4-1.png finais foram conferidos. As flores centrais do lírio ficam legíveis, mas a flor mais alta à direita entra parcialmente na janela retangular aprovada e perde mais pétalas pela curva do arco; portanto o conjunto das flores não está integralmente preservado. Algumas extremidades à direita já encontram a borda do arquivo original e não podem ser recuperadas com outra janela. Nenhuma margem fotográfica foi vista. O YAML aprovado foi mantido.",
+        "sugestao": {
+          "janela": [
+            717,
+            1830,
+            420
+          ],
+          "tamanho": [
+            1137,
+            3000
+          ],
+          "altura_calculada_px": 551,
+          "ampliacao": 0.7333333333333333,
+          "tamanho_recortado_px": [
+            420,
+            551
+          ],
+          "nota": "Alternativa renderizada e inspecionada no card 4 e no JPEG temporários: inclui a flor alta e preserva todas as flores na extensão disponível no arquivo original, posicionando-as abaixo da curva. O livro e mais tecido azul passam a aparecer, e as flores ficam menores; as pontas já limitadas pela borda original não são recuperadas. A janela cabe integralmente no arquivo, tem ampliação 0,733333 e margens_visiveis vazias. Sugestão somente no relatório; nenhum foco ou janela do YAML foi alterado."
+        }
+      }
+    },
+    {
+      "arquivo": "obras/olhe-de-novo/2026-12-09-santo-antonio.jpg",
+      "credito": "El Greco · Santo Antônio de Pádua\nMuseu do Prado",
+      "pagina": "https://commons.wikimedia.org/wiki/File:San_Antonio_de_Padua_(El_Greco).jpg",
+      "janela": [
+        200,
+        120,
+        1446
+      ],
+      "tamanho": [
+        2270,
+        3051
+      ],
+      "card": 4,
+      "indice": 2,
+      "janela_original": {
+        "x": 200,
+        "y": 120,
+        "largura": 1446,
+        "altura": 1897
+      },
+      "ampliacao": 0.21300138312586445,
+      "arquivo_recortado": "saida/olhe-de-novo/2026-12-09/obra-4-2.jpg",
+      "prova_recorte": "saida/olhe-de-novo/2026-12-09/recorte-4-2.png",
+      "tamanho_recortado": [
+        616,
+        808
+      ],
+      "geometria": {
+        "foco": "50% 50%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 2270,
+          "altura": 3051
+        },
+        "nicho": {
+          "largura": 340,
+          "altura": 420
+        },
+        "area_interna": {
+          "largura": 308,
+          "altura": 404
+        },
+        "escala_cover": 0.1356828193832599,
+        "escala_com_zoom": 0.21300138312586445,
+        "janela_original": {
+          "x": 200,
+          "y": 120,
+          "largura": 1446,
+          "altura": 1897
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": [],
+        "avisos": [],
+        "ampliacao": 0.21300138312586445
+      },
+      "margens": {
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": []
+      },
+      "margens_detectadas": {
+        "topo": 0,
+        "base": 0,
+        "esquerda": 0,
+        "direita": 0
+      },
+      "faixas_descartadas": [],
+      "margens_visiveis": [],
+      "avisos": [],
+      "nota_visual": {
+        "inspecionada": true,
+        "rosto_preservado": true,
+        "lirio_preservado": true,
+        "mao_preservada": true,
+        "nota": "O nicho direito do card 4, o JPEG obra-4-2.jpg e recorte-4-2.png finais foram conferidos. O rosto de Santo Antônio, as flores do lírio e a mão que segura a haste ficam dentro do arco. O corte termina junto ao punho e exclui a parte inferior do corpo e o livro, conforme a proposta de detalhe; os dedos e o rosto permanecem preservados. Nenhuma margem fotográfica foi vista."
+      }
+    }
+  ],
+  "avisos": [],
+  "tabela_medida": [
+    {
+      "data": "2026-12-09",
+      "card": 1,
+      "tipo": "obra",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 38
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 38
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-09",
+      "card": 2,
+      "tipo": "detalhe",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 38
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 38
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-09",
+      "card": 3,
+      "tipo": "significado",
+      "linhas": {
+        "rotulo": 1,
+        "titulo": 1,
+        "texto": 5,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 251.5,
+        "texto_assinatura_px": 251.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "titulo": 1,
+          "texto": 5,
+          "fonte": 1
+        },
+        "folga_px": 251.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-09",
+      "card": 4,
+      "tipo": "onde",
+      "linhas": {
+        "rotulo": 1,
+        "credito_1": 2,
+        "credito_2": 2,
+        "texto": 3,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 116,
+        "texto_assinatura_px": 116,
+        "diferenca_centralizacao_px": 0,
+        "rotulo_linha_nichos_px": 48,
+        "linha_nichos_texto_px": 48,
+        "texto_fonte_px": 32,
+        "nicho_1_credito_1_px": 32,
+        "nicho_2_credito_2_px": 32,
+        "distancia_entre_nichos_px": 96
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "credito_1": 2,
+          "credito_2": 2,
+          "texto": 3,
+          "fonte": 1
+        },
+        "folga_px": 116
+      },
+      "diferencas_tabela": []
+    }
+  ]
+}

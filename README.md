@@ -21,6 +21,11 @@ python gerar.py stories --tempo advento
 python gerar.py novena --teste-canva
 python gerar.py igreja-domestica
 python gerar.py igreja-domestica --data 2026-11-29
+python gerar.py olhe-de-novo
+python gerar.py olhe-de-novo --data 2026-12-09
+python gerar.py por-dentro-da-missa
+python gerar.py rezo-por-voce
+python gerar.py toda-bela
 ```
 
 O comando usa automaticamente `.venv` se uma dependência não estiver no Python atual. As saídas ficam em `saida/`, com as evidências em `saida/verificacao/resultados.json` e as decisões em `saida/RELATORIO.md`.
@@ -110,13 +115,26 @@ Depois da conferência da importação no Canva, `python gerar.py novena` gera a
 
 ## Igreja Doméstica
 
-`conteudo/igreja-domestica.yaml` define carrosséis de domingo para pais e casais rezarem em casa. Os textos foram escritos pela página e aprovados em 03/11/2026. `python gerar.py igreja-domestica` gera as duas datas; `--data AAAA-MM-DD` filtra uma delas e preserva as outras já geradas.
+`conteudo/igreja-domestica.yaml` define carrosséis de domingo para pais e casais rezarem em casa. Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026 e os de 13/12, em 12/11/2026. `python gerar.py igreja-domestica` gera as três datas; `--data AAAA-MM-DD` filtra uma delas e preserva as outras já geradas.
 
 Cada carrossel tem de dois a cinco cards: uma capa com obra, crédito, título e apoio; passos opcionais com itens numerados; oração em família com rubricas, oração e aclamação na ordem do YAML; e conversa opcional, sempre no final, com o cartão inteiro na cor indicada. A capa segue alinhada abaixo do selo; os blocos dos cards de texto ficam centralizados entre o selo e a assinatura. Os espaços de 48 px entre instrução e texto e de 32 px até a fonte são medidos no navegador.
 
 As regras de texto desta série preservam as palavras com hífen, mantêm a referência bíblica inteira (como `Mc 13,33-37`) e ligam ordinais à palavra seguinte (como `3º domingo`). As duas regras novas são locais à série; o `text_html` compartilhado continua intacto. Quebras manuais são preservadas e as palavras de uma letra seguem a regra já usada nas outras séries.
 
 As obras são lidas dos caminhos locais do YAML, sem downloads. Cada data recebe PNGs, um PDF com os cards na ordem, `ficha.json` e `recorte.png` em `saida/igreja-domestica/<data>/`. A prancha geral mostra cada data numa linha, a 1/3 do tamanho. O relatório traz medidas, notas dos enquadramentos e a lista do que conferir no Canva; obras ausentes usam a provisória e ficam marcadas como pendentes.
+
+## Séries da noite
+
+Os quatro modelos existem somente no gerador, mantendo o kit v4 intacto. Os textos foram escritos pela página e aprovados em 12/11/2026:
+
+- Olhe de Novo (`PostOlheDeNovo`): `conteudo/olhe-de-novo.yaml`, quatro cards com obra, detalhe, significado e outras ocorrências.
+- Por Dentro da Missa (`PostPorDentroDaMissa`): `conteudo/por-dentro-da-missa.yaml`, de três a cinco cards, com pergunta, explicações e fecho na cor do dia.
+- Rezo por Você (`PostRezoPorVoce`): `conteudo/rezo-por-voce.yaml`, um card para receber intenções.
+- Toda Bela (`PostTodaBela`): `conteudo/toda-bela.yaml`, três cards com invocação, raiz bíblica e oração.
+
+Cada comando aceita `--data AAAA-MM-DD` e preserva as outras datas. Os nichos usam JPEGs já recortados na janela visível, em qualidade 95 sem subamostragem de cor: o Canva borrou a obra ampliada de 25/12, por isso agora recebe o recorte pronto, com foco 50% 50% e zoom 1. A janela vem do foco e zoom da capa ou de `[x, y, largura]` em pixels do original; tamanho, contenção e ampliação máxima de 1,2 são validados. O recorte mantém resolução nativa, limitado a duas vezes a área interna do nicho, sem ampliar o arquivo.
+
+Os textos importam o helper intacto da Igreja Doméstica: palavras de uma letra protegidas, referências bíblicas inteiras, ordinais ligados à palavra seguinte e palavras com hífen sem quebra. As quebras manuais do YAML são mantidas. Os pares de 48 e 32 px, a centralização, os limites de linhas, as cores e os nichos vetoriais são conferidos antes de concluir a geração. PDFs, fichas, recortes, provas, prancha e relatório ficam em `saida/<serie>/`.
 
 ## Instalação em outra máquina
 
