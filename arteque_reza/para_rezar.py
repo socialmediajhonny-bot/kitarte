@@ -18,12 +18,15 @@ from .base import (PROJECT, KIT, assinatura, await_fonts, color, generate_tokens
 from .conteudo import color_token, date_label
 from .conteudo_oracao import load_prayers, prayer_warnings
 from .evangelho import _board, _distance, _measure as measure_evangelho, _ornament, _text
+from .igreja_domestica import igreja_text_html
 from .renderizacao import local_server
 from .validacao import validate_kit, validate_pngs
 
 
 EXTRA_CSS = '@page{margin:0;}'
 REQUIRED_FONTS = {'CormorantGaramond-SemiBold', 'CormorantGaramond-Medium', 'Lato-Bold', 'Lato-Regular'}
+APPROVAL_DATES = {'2026-12-29': '2026-11-19', '2026-12-31': '2026-11-19'}
+HISTORICAL_DATES = {'2026-10-20', '2026-12-15'}
 
 
 def _header(day: dict, number: int) -> str:
@@ -38,14 +41,19 @@ def _header(day: dict, number: int) -> str:
 
 def _document(day: dict, number: int, css: Path) -> str:
     """Keep the preview's classes, inline spacing and flex composition intact."""
+    # Os hífens destas artes aprovadas já cabem inteiros. Acrescentar spans
+    # muda o antialiasing do PNG, embora o PDF permaneça idêntico.
+    historical = day['data'] in HISTORICAL_DATES
+    def formatted(value: str) -> str:
+        return value if historical else igreja_text_html(value)
     body = '<div class="aqr-texto" style="margin-top:auto">'
     if number == 1:
-        body += _text('h1', 'titulo', 'titulo aqr-titulo', day['titulo'], 'max-width:820px')
+        body += _text('h1', 'titulo', 'titulo aqr-titulo', formatted(day['titulo']), 'max-width:820px', raw=not historical)
         body += _ornament()
-    body += _text('p', 'oracao', 'oracao aqr-corpo', day['partes'][number-1], 'max-width:880px')
+    body += _text('p', 'oracao', 'oracao aqr-corpo', formatted(day['partes'][number-1]), 'max-width:880px', raw=not historical)
     if number == len(day['partes']):
-        body += _text('p', 'origem', 'credito aqr-credito', day['origem'],
-                      'margin-top:var(--espaco-3)', 'tinta-suave')
+        body += _text('p', 'origem', 'credito aqr-credito', formatted(day['origem']),
+                      'margin-top:var(--espaco-3)', 'tinta-suave', raw=not historical)
     body += '</div>'
     post = montar_arte(_header(day, number)+body+assinatura('pergaminho'),
                        tema='pergaminho', cor_do_dia=color_token(day['cor']))
@@ -79,6 +87,8 @@ def _validate_layout(day: dict, card: dict) -> dict:
         for line, linebox in zip(text['linhas'], text['caixas_das_linhas']):
             if re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$', line):
                 errors.append(f'{day["data"]}, card {number}, {field}: palavra de uma letra no fim de {line!r}.')
+            if line.rstrip().endswith('-'):
+                errors.append(f'{day["data"]}, card {number}, {field}: hífen no fim de {line!r}.')
             if linebox['largura'] and (linebox['x'] < box['x']-.1 or linebox['x']+linebox['largura'] > box['x']+box['largura']+.1):
                 errors.append(f'{day["data"]}, card {number}, {field}: linha transborda a largura do campo.')
             if linebox['x'] < -.1 or linebox['y'] < -.1 or linebox['x']+linebox['largura'] > 1080.1 or linebox['y']+linebox['altura'] > 1350.1:
@@ -261,6 +271,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         '- Quebras manuais são preservadas; os demais textos seguem o balanceamento do bundle. Espaços após a, à, e, é e o são inseparáveis. Linhas vazias forçadas também entram na contagem.',
         '- A ficha mantém o formato das séries anteriores, com linhas recuperadas por Range. A prancha usa miniaturas de 360 × 450 px e indexa todas as datas já geradas; --data preserva as demais.',
         '- São Miguel de 20/10 é uma prova do design system e não é publicação. Não há obras nesta série.',
+        '- As palavras hifenizadas permanecem inteiras pelo helper da Igreja Doméstica, importado sem modificações. Os textos de 29 e 31/12 foram aprovados em 19/11/2026.',
         '', '## Linhas medidas no render', '', '| Data | Card | Campo | Linhas | Limite |', '| --- | --- | --- | --- | --- |']
     for record in records:
         for card in record['cards']:
@@ -333,6 +344,8 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             record = {'data': day['data'], 'cor': day['cor'], 'titulo': day['titulo'],
                       'intencao': day['intencao'], 'origem': day['origem'], 'partes': day['partes'],
                       'obra_pendente': False, 'avisos': prayer_warnings(day), 'cards': cards}
+            if day['data'] in APPROVAL_DATES:
+                record['textos_aprovados_em'] = APPROVAL_DATES[day['data']]
             (folder/'ficha.json').write_text(json.dumps(record, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
             records.append(record); checks['dias'][day['data']] = {'cards': card_checks, 'pdf': pdf_check}
         checks['previa_kit'] = _preview_check(page, css, target, work, base_url)

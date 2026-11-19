@@ -1,0 +1,1073 @@
+{
+  "modelo": "StoryAngelus",
+  "grupo": "terco-2026-12-12",
+  "ordem_grupo": 0,
+  "textos_aprovados_em": "2026-11-19",
+  "cards": [
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Rezo por Você",
+          "linhas": [
+            "Rezo por Você"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 240,
+              "largura": 206.03125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 240,
+            "largura": 206.03125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "hora",
+          "conteudo": "· sáb, 12 dez",
+          "linhas": [
+            "· sáb, 12 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 328.140625,
+              "y": 240,
+              "largura": 178.40625,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 328.140625,
+            "y": 240,
+            "largura": 178.40625,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "titulo",
+          "conteudo": "Terço pelas intenções",
+          "linhas": [
+            "Terço pelas intenções"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 155.25,
+              "y": 1068,
+              "largura": 769.5,
+              "altura": 111
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo-capa",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 155.25,
+            "y": 1076,
+            "largura": 769.5,
+            "altura": 96
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 92,
+          "entrelinha_px": 96,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "subtitulo",
+          "conteudo": "Hoje, os mistérios gozosos, por tudo o que vocês pediram",
+          "linhas": [
+            "Hoje, os mistérios gozosos, por tudo o que vocês pediram"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 113.28125,
+              "y": 1224,
+              "largura": 853.421875,
+              "altura": 41
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "corpo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 113.28125,
+            "y": 1220,
+            "largura": 853.421875,
+            "altura": 50
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 34,
+          "entrelinha_px": 50,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "invocacao",
+          "conteudo": "Santa Maria, Mãe de Deus,\nrogai por nós, pecadores,\nagora e na hora de nossa morte. Amém.",
+          "linhas": [
+            "Santa Maria, Mãe de Deus,",
+            "rogai por nós, pecadores,",
+            "agora e na hora de nossa morte. Amém."
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 276.875,
+              "y": 1388,
+              "largura": 526.234375,
+              "altura": 65
+            },
+            {
+              "x": 307.203125,
+              "y": 1456,
+              "largura": 465.59375,
+              "altura": 65
+            },
+            {
+              "x": 162.96875,
+              "y": 1524,
+              "largura": 754.0625,
+              "altura": 65
+            }
+          ],
+          "quantidade_linhas": 3,
+          "estilo": "citacao",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 162.96875,
+            "y": 1387,
+            "largura": 754.0625,
+            "altura": 204
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "500",
+          "tamanho_px": 54,
+          "entrelinha_px": 68,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 240,
+          "y": 328,
+          "largura": 600,
+          "altura": 700
+        },
+        "obra": {
+          "x": 256,
+          "y": 344,
+          "largura": 568,
+          "altura": 684
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1628,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 240,
+          "largura": 426.546875,
+          "altura": 40
+        },
+        "referencia": null,
+        "cruz": {
+          "x": 80,
+          "y": 245,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": {
+          "x": 80,
+          "y": 1076,
+          "largura": 920,
+          "altura": 515
+        },
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1628,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "ornamento_cruz": {
+          "x": 533,
+          "y": 1286,
+          "largura": 14,
+          "altura": 21
+        },
+        "parapeito": {
+          "x": 192,
+          "y": 1028,
+          "largura": 696,
+          "altura": 3
+        }
+      },
+      "card": 1,
+      "tipo": "story",
+      "modelo": "StoryAngelus",
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1920,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 240,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 245,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 240,
+          "width": 206.03125,
+          "height": 39,
+          "text": "Rezo por Você",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 328.140625,
+          "y": 240,
+          "width": 178.40625,
+          "height": 39,
+          "text": "· sáb, 12 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 240,
+          "y": 328,
+          "width": 600,
+          "height": 700,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 192,
+          "y": 1028,
+          "width": 696,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": "#ac8bc6",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 240,
+          "y": 328,
+          "width": 600,
+          "height": 700,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 256,
+          "y": 344,
+          "width": 568,
+          "height": 684,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#211a15",
+          "background_hex": "#211a15",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              284,
+              284
+            ],
+            "top_right": [
+              284,
+              284
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 213.399994,
+          "y": 308.089996,
+          "width": 653.199951,
+          "height": 786.599976,
+          "text": null,
+          "arquivo": "obras/stories/terco.jpg",
+          "source": "http://127.0.0.1:44661/obras/stories/terco.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 1822,
+          "source_height_px": 2717,
+          "object_fit": "cover",
+          "object_position": "50% 35%"
+        },
+        {
+          "element": "titulo",
+          "kind": "text",
+          "x": 155.25,
+          "y": 1076,
+          "width": 769.5,
+          "height": 96,
+          "text": "Terço pelas intenções",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 92,
+          "line_height_px": 96,
+          "line_height_multiple": 1.043478,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "subtitulo",
+          "kind": "text",
+          "x": 113.28125,
+          "y": 1220,
+          "width": 853.421875,
+          "height": 50,
+          "text": "Hoje, os mistérios gozosos, por tudo o que vocês pediram",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 34,
+          "line_height_px": 50,
+          "line_height_multiple": 1.470588,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento",
+          "kind": "container",
+          "x": 445,
+          "y": 1286,
+          "width": 190,
+          "height": 21,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento-filete-esquerdo",
+          "kind": "pseudo",
+          "pseudo": "::before",
+          "host": "ornamento",
+          "x": 445,
+          "y": 1295.5,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "ouro",
+          "hex": "#cfa956",
+          "background_hex": "#cfa956",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
+        },
+        {
+          "element": "ornamento-filete-direito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "ornamento",
+          "x": 563,
+          "y": 1295.5,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "ouro",
+          "hex": "#cfa956",
+          "background_hex": "#cfa956",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "invocacao",
+          "kind": "text",
+          "x": 162.96875,
+          "y": 1387,
+          "width": 754.0625,
+          "height": 204,
+          "text": "Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora de nossa morte. Amém.",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "500",
+          "font_style": "italic",
+          "font_size_px": 54,
+          "line_height_px": 68,
+          "line_height_multiple": 1.259259,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1628,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1628,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "id": "terco-2026-12-12",
+      "hora": "sáb, 12 dez",
+      "tempo": "terco-2026-12-12",
+      "cor": "roxo",
+      "grupo": "terco-2026-12-12",
+      "serie": "Rezo por Você",
+      "apoio": "sáb, 12 dez",
+      "textos_aprovados_em": "2026-11-19",
+      "obra": {
+        "arquivo": "obras/stories/terco.jpg",
+        "credito": "Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg",
+        "foco": "50% 35%",
+        "zoom": 1.15
+      },
+      "obra_usada": "obras/stories/terco.jpg",
+      "obra_pendente": false,
+      "enquadramento": {
+        "foco": "50% 35%",
+        "zoom": 1.15,
+        "imagem_original": {
+          "largura": 1822,
+          "altura": 2717
+        },
+        "nicho": {
+          "largura": 600,
+          "altura": 700
+        },
+        "area_interna": {
+          "largura": 568,
+          "altura": 684
+        },
+        "escala_cover": 0.31174533479692645,
+        "escala_com_zoom": 0.3585071350164654,
+        "janela_original": {
+          "x": 118.82608695652175,
+          "y": 283.1808634415186,
+          "largura": 1584.3478260869565,
+          "altura": 1907.9118187385181
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [
+          {
+            "lado": "base",
+            "largura": 10,
+            "diferenca_cinza": 0.49814077936333945
+          }
+        ],
+        "margens_visiveis": [],
+        "avisos": []
+      },
+      "ampliacao": 0.3585071350164654,
+      "prova_recorte": "saida/stories-avulsos/terco-2026-12-12/recorte-terco-2026-12-12.png",
+      "nota_visual": {
+        "inspecionada": true,
+        "rostos_preservados": true,
+        "maos_e_terco_preservados": true,
+        "menino_preservado": true,
+        "margem_fotografica_visivel": false,
+        "nota": "Story final e recorte-terco-2026-12-12.png conferidos individualmente. Os rostos de Maria e do Menino, os braços e as mãos, o terço e os pés visíveis do Menino ficam dentro do arco. A curva passa acima dos cabelos e não corta esses elementos. A base recorta a extensão inferior do manto e do assento de Maria; portanto não se afirma que a pintura inteira esteja contida. A faixa escura inferior foi descartada pelo detector como parte da pintura, e não há margem fotográfica visível. O foco 50% 35% e o zoom 1.15 aprovados foram mantidos."
+      },
+      "avisos": [
+        "terco-2026-12-12: obra com 4250021 bytes, acima de 4 MB; o PDF incorpora a imagem inteira."
+      ],
+      "distancias": {
+        "ok": true,
+        "limites": {
+          "titulo": 1,
+          "subtitulo": 1,
+          "invocacao": 3,
+          "resposta": 2
+        },
+        "posicoes": {
+          "selo_topo_px": 240,
+          "nicho_topo_px": 328,
+          "nicho_base_px": 1028,
+          "titulo_topo_px": 1076,
+          "assinatura_topo_px": 1628
+        },
+        "titulo_subtitulo_px": 48,
+        "ornamento_topo_px": 1286,
+        "ultimo_campo": "invocacao",
+        "ultimo_texto_assinatura_px": 37,
+        "nicho_bloco_texto_px": 48,
+        "errors": []
+      }
+    }
+  ]
+}

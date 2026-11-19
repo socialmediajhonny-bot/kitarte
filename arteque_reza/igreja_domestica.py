@@ -56,12 +56,24 @@ def expected_layout(card: dict) -> dict:
         return {'linhas': {'credito': 1, 'titulo': 1, 'apoio': 1},
                 'selo_nicho_px': 32, 'apoio_assinatura_px': 116}
     if kind == 'passos':
-        if card['data'] == '2026-12-13' and card['numero'] == 2:
+        if card['data'] in {'2026-12-13', '2026-12-20'} and card['numero'] == 2:
             return {'linhas': {'titulo': 1, **{f'item_{i}': 2 for i in range(1,4)}, 'fonte': 1},
                     'folga_px': 194.5}
         return {'linhas': {'titulo': 1, **{f'item_{i}': 2 for i in range(1,5)}, 'fonte': 1},
                 'folga_px': 128.5}
     if kind == 'oracao':
+        if card['data'] == '2026-12-20':
+            prayers = {
+                3: ({'titulo': 1, 'fala_1': 4, 'fala_2': 4}, 136.5),
+                4: ({'titulo': 1, 'fala_1': 3, 'fala_2': 3}, 198.5),
+                5: ({'titulo': 1, 'fala_1': 3, 'fala_2': 1, 'fala_3': 1, 'origem': 1}, 176.5),
+            }
+            if card['numero'] in prayers:
+                lines, gap = prayers[card['numero']]
+                return {'linhas': lines, 'folga_px': gap}
+        if card['data'] == '2026-12-27' and card['numero'] == 3:
+            return {'linhas': {'titulo': 1, 'fala_1': 2, 'fala_2': 3,
+                               'fala_3': 1, 'fala_4': 1, 'origem': 1}, 'folga_px': 102.5}
         return {'linhas': {'titulo': 1, 'fala_1': 2, 'fala_2': 4, 'fala_3': 1, 'fala_4': 1},
                 'folga_px': 103.5}
     return {'linhas': {'pergunta': 2, 'convite': 1}, 'folga_px': 353.5}

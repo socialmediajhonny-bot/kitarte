@@ -85,8 +85,8 @@ class DomesticChurchLayoutTests(unittest.TestCase):
     def assert_gap(self, first, second, expected):
         self.assertAlmostEqual(second["y"]-first["y"]-first["h"], expected, delta=.01)
 
-    def test_all_twelve_cards_have_required_gaps_limits_and_centering(self):
-        self.assertEqual(len(self.cards), 12)
+    def test_all_twenty_two_cards_have_required_gaps_limits_and_centering(self):
+        self.assertEqual(len(self.cards), 22)
         for card in self.cards:
             with self.subTest(date=card["data"], card=card["numero"], kind=card["tipo"]):
                 measured = self.render(card)
@@ -134,6 +134,47 @@ class DomesticChurchLayoutTests(unittest.TestCase):
                                                        for i in (1, 3, 5))+')'
                         self.assertEqual(self.page.locator('.aqr-post').evaluate(
                             'el=>getComputedStyle(el).backgroundColor'), expected_rgb)
+
+    def test_prompt16_new_cards_match_the_approved_preview(self):
+        expected = {
+            ('2026-12-20', 2): ({'titulo': 1, 'item_1': 2, 'item_2': 2,
+                                'item_3': 2, 'fonte': 1}, 194.5),
+            ('2026-12-20', 3): ({'titulo': 1, 'fala_1': 4, 'fala_2': 4}, 136.5),
+            ('2026-12-20', 4): ({'titulo': 1, 'fala_1': 3, 'fala_2': 3}, 198.5),
+            ('2026-12-20', 5): ({'titulo': 1, 'fala_1': 3, 'fala_2': 1,
+                                'fala_3': 1, 'origem': 1}, 176.5),
+            ('2026-12-20', 6): ({'pergunta': 2, 'convite': 1}, 353.5),
+            ('2026-12-27', 2): ({'titulo': 1, 'item_1': 2, 'item_2': 2,
+                                'item_3': 2, 'item_4': 2, 'fonte': 1}, 128.5),
+            ('2026-12-27', 3): ({'titulo': 1, 'fala_1': 2, 'fala_2': 3,
+                                'fala_3': 1, 'fala_4': 1, 'origem': 1}, 102.5),
+            ('2026-12-27', 4): ({'pergunta': 2, 'convite': 1}, 353.5),
+        }
+        for (day, number), (counts, gap) in expected.items():
+            with self.subTest(date=day, card=number):
+                card = next(card for card in self.cards
+                            if card['data'] == day and card['numero'] == number)
+                measured = self.render(card)
+                layout = _validate_layout(card, measured)
+                self.assertTrue(layout['ok'])
+                for field, count in counts.items():
+                    self.assertEqual(self.field(measured, field)['quantidade_linhas'], count)
+                self.assertAlmostEqual(layout['distancias']['selo_texto_px'], gap, delta=.01)
+                self.assertAlmostEqual(layout['distancias']['texto_assinatura_px'], gap, delta=.01)
+
+    def test_prompt16_wrong_artwork_size_fails_but_missing_stays_pending(self):
+        from PIL import Image
+        from arteque_reza.serie_igreja_domestica import _validate_new_artwork_size
+
+        for reference in ('obras/igreja-domestica/2026-12-20.jpg',
+                          'obras/igreja-domestica/2026-12-27.jpg'):
+            with self.subTest(reference=reference):
+                _validate_new_artwork_size(PROJECT/reference, reference)
+                _validate_new_artwork_size(self.folder/'obra-ausente.jpg', reference)
+                wrong = self.folder/'obra-com-tamanho-errado.png'
+                Image.new('RGB', (100, 120)).save(wrong)
+                with self.assertRaisesRegex(ValueError, 'tamanho 100 × 120; esperado'):
+                    _validate_new_artwork_size(wrong, reference)
 
     def test_16_pixel_label_title_gap_is_rejected(self):
         for kind in ("passos", "oracao"):

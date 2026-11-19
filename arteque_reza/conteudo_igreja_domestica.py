@@ -82,8 +82,8 @@ def load_domestic_church(path: Path | str) -> list[dict]:
             raise ValueError(f"{context}: Igreja Doméstica exige data de domingo.")
         color_token(item["cor"])
         cards = item["cards"]
-        if not isinstance(cards, list) or not 2 <= len(cards) <= 5:
-            raise ValueError(f"{context}.cards: use uma lista de 2 a 5 cards.")
+        if not isinstance(cards, list) or not 2 <= len(cards) <= 6:
+            raise ValueError(f"{context}.cards: use uma lista de 2 a 6 cards.")
         cards = [_card(card, f"{context}.cards[{number}]")
                  for number, card in enumerate(cards, 1)]
         if cards[0]["tipo"] != "capa" or any(card["tipo"] == "capa" for card in cards[1:]):

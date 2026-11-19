@@ -1,0 +1,58 @@
+{
+  "2026-12-17": {
+    "card-1": {
+      "inspecionada": true,
+      "rostos_e_maos_preservados": true,
+      "figuras_inteiras": false,
+      "nota": "Capa e recorte-1.png finais conferidos individualmente. Os rostos de Maria e do Menino, suas mãos e o gesto de bênção ficam dentro do arco. A curva corta o alto da cabeça de Maria, e a base do nicho exclui parte inferior da veste, dos apoios do trono e do pedestal; portanto a escultura não está inteira. A margem fotográfica de 139 px na base do original fica fora da janela aprovada. O foco 50% 40% e zoom 1.4 foram mantidos no YAML.",
+      "sugestao": {
+        "foco": "50% 55%",
+        "zoom": 1.1,
+        "janela_original": {
+          "x": 486.9369501466276,
+          "y": 189.60000000000016,
+          "largura": 2817.1260997067448,
+          "altura": 3447.272727272727
+        },
+        "margens_visiveis": [],
+        "nota": "Alternativa renderizada e inspecionada somente em work: recupera o alto da cabeça de Maria e abre a estátua quase toda, com o pedestal junto ao parapeito. Rostos, mãos e gesto de bênção continuam claros; a figura fica menor e há mais fundo cinzento. A inspeção geométrica tem margens_visiveis e avisos vazios. Não se propõe zoom 1, pois ele traz a margem fotográfica inferior. Sugestão apenas no relatório, sem alterar o YAML."
+      }
+    }
+  },
+  "2026-12-18": {
+    "card-1": {
+      "inspecionada": true,
+      "moises_central_inteiro": true,
+      "nota": "Capa e recorte-1.png finais conferidos individualmente. Moisés ajoelhado, no primeiro plano, permanece inteiro na extensão pintada, com rosto, mãos, veste, joelhos e pés preservados. A aparição divina à esquerda mantém o rosto e os gestos legíveis; a curva intercepta parte das chamas e das extremidades do manto. A segunda cena de Moisés à direita preserva rosto, mãos, pernas e o gesto de tirar a sandália, até os limites já presentes na pintura. Nenhuma margem fotográfica aparece. O enquadramento aprovado foi mantido para priorizar o encontro na sarça."
+    }
+  },
+  "2026-12-19": {
+    "card-1": {
+      "inspecionada": true,
+      "jesse_preservado": true,
+      "nota": "Capa e recorte-1.png finais conferidos individualmente. Jessé reclinado fica inteiro na extensão representada: cabeça, mão junto ao rosto, veste e pés estão dentro do arco, junto ao tronco que brota de seu corpo. A janela isola a parte inferior do vitral; os painéis superiores e figuras periféricas aparecem parciais ou ficam fora por essa escolha. A fotografia e a armação externa do museu ficam fora do arco; nenhuma margem visível foi constatada. A janela aprovada [584, 600, 845] foi mantida."
+    }
+  },
+  "2026-12-21": {
+    "card-1": {
+      "inspecionada": true,
+      "rostos_e_menino_preservados": true,
+      "nota": "Capa e recorte-1.png finais conferidos individualmente. Os rostos de Maria e do Menino, as mãos que o sustentam e o Menino na manjedoura permanecem preservados na extensão pintada; o foco mantém o núcleo luminoso do nascimento. Os rostos de José e das duas mulheres próximas também ficam legíveis. O grupo de anjos no alto fica fora, e o pastor à esquerda e outras partes periféricas são cortados pela curva e pelas laterais. Nenhuma margem fotográfica aparece. O foco e o zoom aprovados foram mantidos para priorizar Maria e o Menino, sem afirmar que a composição inteira está no arco."
+    }
+  },
+  "2026-12-22": {
+    "card-1": {
+      "inspecionada": true,
+      "rosto_e_gesto_bencao_preservados": true,
+      "orbe_inteiro": false,
+      "nota": "Capa e recorte-1.png finais conferidos individualmente. O rosto de Cristo e os dedos levantados no gesto de bênção ficam dentro do arco; os dedos que tocam o globo também permanecem legíveis. A curva corta parte do alto do cabelo e do resplendor; o globo e a extensão inferior das mãos/punhos ficam parciais no limite inferior, além dos limites já impostos pela própria fotografia da pintura. Portanto não se afirma que a auréola, as duas mãos completas e o orbe estejam integralmente contidos. Nenhuma margem fotográfica foi vista. Mantido o foco 50% 90% para o rosto e a bênção; não foi proposta uma correção integral não demonstrada."
+    }
+  },
+  "2026-12-23": {
+    "card-1": {
+      "inspecionada": true,
+      "rostos_maos_e_menino_preservados": true,
+      "nota": "Capa e recorte-1.png finais conferidos individualmente. Os rostos de Maria e do Menino, suas mãos, o abraço e os dois pés do Menino ficam dentro do arco na extensão pintada. A auréola de Maria é interceptada pela curva superior; os extremos do manto e a parte inferior do colo também são recortados. Não há margem fotográfica visível. O enquadramento aprovado foi mantido para conservar os rostos e os gestos; a ressalva de integralidade refere-se principalmente à auréola e ao manto periférico."
+    }
+  }
+}

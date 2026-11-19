@@ -43,5 +43,23 @@
       "mao_preservada": true,
       "nota": "O nicho direito do card 4, o JPEG obra-4-2.jpg e recorte-4-2.png finais foram conferidos. O rosto de Santo Antônio, as flores do lírio e a mão que segura a haste ficam dentro do arco. O corte termina junto ao punho e exclui a parte inferior do corpo e o livro, conforme a proposta de detalhe; os dedos e o rosto permanecem preservados. Nenhuma margem fotográfica foi vista."
     }
+  },
+  "2026-12-30": {
+    "card-1": {
+      "inspecionada": true,
+      "nota": "Capa e recorte-1.png finais conferidos. Maria, José, o Menino e as cabeças do boi e do burro ficam preservados no núcleo da Natividade. A curva intercepta os anjos nas extremidades do coro superior; a base também corta partes das figuras e vestes periféricas dos abraços inferiores. A composição inteira da pintura não cabe neste arco, mas o núcleo da cena permanece legível. Não há margem fotográfica visível. Foco e zoom aprovados mantidos."
+    },
+    "card-2": {
+      "inspecionada": true,
+      "nota": "Card 2 e recorte-2.png finais conferidos. Os rostos, olhos e focinhos do boi e do burro estão dentro do arco, com os chifres do boi legíveis. O alto das orelhas/crina do burro encontra a curva superior; vestes e personagens periféricos ficam parciais neste detalhe fechado. A manjedoura e o Menino continuam reconhecíveis. Não há margem fotográfica visível. A janela aprovada foi mantida; não foi demonstrada correção integral de todas as extremidades sem abrir mais a cena."
+    },
+    "card-4-1": {
+      "inspecionada": true,
+      "nota": "Nicho esquerdo do card 4 e recorte-4-1.png conferidos no ícone russo. As duas cabeças dos animais e o Menino na manjedoura ficam preservados na extensão pintada. Os corpos dos animais já são ocultados pela manjedoura no original; o arco recorta a composição periférica, deixando Maria e os outros personagens fora do detalhe. Não há margem fotográfica visível."
+    },
+    "card-4-2": {
+      "inspecionada": true,
+      "nota": "Nicho direito do card 4 e recorte-4-2.png conferidos no Giotto. As cabeças dos dois animais, o rosto do Menino e o gesto junto da manjedoura permanecem legíveis na extensão disponível da obra. A curva corta o alto da cabeça e a auréola de Maria; José aparece parcial à direita. O animal à esquerda já encontra o limite esquerdo da própria composição. Este é um detalhe dos animais, sem margem fotográfica visível."
+    }
   }
 }

@@ -6,5 +6,11 @@
       "maos_inteiras": true,
       "nota": "Card 1 final e recorte-1.png, com a obra inteira e o contorno da janela, conferidos visualmente. O rosto de Maria fica inteiro dentro do arco, com testa, olhos, nariz, boca e queixo preservados; a cabeça e o véu também não encontram a curva. As duas mãos em oração permanecem inteiras, incluindo as pontas dos dedos e os punhos. O arco e a base recortam apenas partes laterais e inferiores do manto, sem atingir o rosto ou as mãos pedidos. Não há margem fotográfica visível. O foco aprovado 50% 30%, zoom 1.08, foi mantido; não é necessário sugerir correção para os elementos principais desta capa."
     }
+  },
+  "2026-12-26": {
+    "card-1": {
+      "inspecionada": true,
+      "nota": "Capa e recorte-1.png finais conferidos no ícone de Vladimir. Os rostos de Maria e do Menino e os gestos das mãos junto do colo ficam preservados. A curva recorta a região externa do véu e parte da auréola; a base fecha a composição sobre as vestes, deixando parte inferior do corpo e os pés do Menino fora da janela. Não há margem fotográfica dentro do arco: as bordas de 12 e 19 px do original ficam excluídas pelo foco 53% 38% e zoom 1.9 aprovados. Nenhuma mudança aplicada ao YAML."
+    }
   }
 }

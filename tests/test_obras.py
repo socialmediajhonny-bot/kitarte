@@ -43,6 +43,67 @@ SAINT_DECEMBER_MUSEUM_MARGINS = {
     '2026-12-30': {'direita': 6},
 }
 
+# Originais da rodada 16: dimensões, margens fotográficas e faixas do próprio
+# conteúdo descartadas pelo detector (largura em px e diferença de cinza).
+ROUND_SIXTEEN_ARTWORKS = {
+    'obras/antifonas/2026-12-17.jpg': {
+        'tamanho': (3791, 3792), 'margens': {'base': 139},
+        'faixas': {'topo': (235, 2.635032)},
+    },
+    'obras/antifonas/2026-12-18.jpg': {
+        'tamanho': (4289, 5341), 'margens': {}, 'faixas': {},
+    },
+    'obras/antifonas/2026-12-19.jpg': {
+        'tamanho': (2000, 1683), 'margens': {},
+        'faixas': {'direita': (6, 8.752798)},
+    },
+    'obras/antifonas/2026-12-21.jpg': {
+        'tamanho': (3179, 4332), 'margens': {}, 'faixas': {},
+    },
+    'obras/antifonas/2026-12-22.jpg': {
+        'tamanho': (4365, 5956), 'margens': {}, 'faixas': {},
+    },
+    'obras/antifonas/2026-12-23.jpg': {
+        'tamanho': (2972, 4000), 'margens': {}, 'faixas': {},
+    },
+    'obras/igreja-domestica/2026-12-20.jpg': {
+        'tamanho': (3054, 4000), 'margens': {'topo': 4}, 'faixas': {},
+    },
+    'obras/toda-bela/2026-12-26.jpg': {
+        'tamanho': (1941, 2920), 'margens': {'esquerda': 12, 'direita': 19},
+        'faixas': {'topo': (7, 4.883965)},
+    },
+    'obras/igreja-domestica/2026-12-27.jpg': {
+        'tamanho': (3067, 4000), 'margens': {}, 'faixas': {},
+    },
+    'obras/olhe-de-novo/2026-12-30.jpg': {
+        'tamanho': (2792, 4036), 'margens': {}, 'faixas': {},
+    },
+    'obras/olhe-de-novo/2026-12-30-icone.jpg': {
+        'tamanho': (1400, 1858), 'margens': {}, 'faixas': {},
+    },
+    'obras/olhe-de-novo/2026-12-30-giotto.jpg': {
+        'tamanho': (950, 966), 'margens': {}, 'faixas': {},
+    },
+    'obras/stories/terco.jpg': {
+        'tamanho': (1822, 2717), 'margens': {},
+        'faixas': {'base': (10, .498141)},
+    },
+    'obras/stories/chave-de-davi.jpg': {
+        'tamanho': (2536, 2811), 'margens': {},
+        'faixas': {'topo': (19, 7.976774)},
+    },
+    'obras/stories/comece-aqui-1.jpg': {
+        'tamanho': (1941, 2401), 'margens': {'base': 4, 'direita': 5}, 'faixas': {},
+    },
+    'obras/stories/comece-aqui-2.jpg': {
+        'tamanho': (7053, 5864), 'margens': {}, 'faixas': {},
+    },
+    'obras/stories/comece-aqui-3.jpg': {
+        'tamanho': (3459, 4001), 'margens': {}, 'faixas': {},
+    },
+}
+
 
 class ArtworkTests(unittest.TestCase):
     def setUp(self):
@@ -229,6 +290,7 @@ class ArtworkTests(unittest.TestCase):
         excluded.update(f'obras/{day}.jpg' for day in LOT_ONE_MUSEUM_MARGINS)
         excluded.update(f'obras/{day}.jpg' for day in LOT_THREE_MUSEUM_MARGINS)
         excluded.update(f'obras/santo-do-dia/{day}.jpg' for day in SAINT_DECEMBER_MUSEUM_MARGINS)
+        excluded.update(ROUND_SIXTEEN_ARTWORKS)
         for artwork in sorted((PROJECT / 'obras').rglob('*.jpg')):
             if artwork.relative_to(PROJECT).as_posix() in excluded:
                 continue
@@ -236,6 +298,24 @@ class ArtworkTests(unittest.TestCase):
                 result = inspect_artwork(artwork, '50% 50%')
                 self.assertFalse(any(result['margens_detectadas'].values()))
                 self.assertEqual(result['faixas_descartadas'], [])
+
+    def test_round_sixteen_original_dimensions_margins_and_discarded_bands(self):
+        self.assertEqual(len(ROUND_SIXTEEN_ARTWORKS), 17)
+        for relative, expected in ROUND_SIXTEEN_ARTWORKS.items():
+            with self.subTest(artwork=relative):
+                artwork = PROJECT / relative
+                with Image.open(artwork) as image:
+                    self.assertEqual(image.size, expected['tamanho'])
+                result = inspect_artwork(artwork, '50% 50%')
+                margins = dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0)
+                margins.update(expected['margens'])
+                self.assertEqual(result['margens_detectadas'], margins)
+                bands = result['faixas_descartadas']
+                self.assertEqual([band['lado'] for band in bands], list(expected['faixas']))
+                for band in bands:
+                    width, difference = expected['faixas'][band['lado']]
+                    self.assertEqual(band['largura'], width)
+                    self.assertAlmostEqual(band['diferenca_cinza'], difference, delta=.01)
 
     def test_saints_december_museum_borders_stay_outside_the_approved_windows(self):
         days = {day['data']: day for day in load_saints(PROJECT / 'conteudo/santo-do-dia.yaml')}

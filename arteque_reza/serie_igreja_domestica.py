@@ -25,6 +25,25 @@ from .renderizacao import local_server
 from .validacao import validate_kit, validate_pngs
 
 
+_NEW_ARTWORK_SIZES = {
+    'obras/igreja-domestica/2026-12-20.jpg': (3054, 4000),
+    'obras/igreja-domestica/2026-12-27.jpg': (3067, 4000),
+}
+
+
+def _validate_new_artwork_size(artwork: Path, reference: str) -> None:
+    """Recuse enquadramentos novos sobre um original de outra dimensão."""
+    expected = _NEW_ARTWORK_SIZES.get(reference)
+    if expected is None or not artwork.is_file():
+        return
+    with Image.open(artwork) as image:
+        actual = image.size
+    if actual != expected:
+        raise ValueError(
+            f'{reference}: tamanho {actual[0]} × {actual[1]}; '
+            f'esperado {expected[0]} × {expected[1]}.')
+
+
 def _write_json(path: Path, value: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
@@ -138,8 +157,8 @@ def _board(target: Path, records: list[dict]) -> tuple[int, int]:
 
 def _report(target: Path, records: list[dict], checks: dict, command: str) -> Path:
     lines = ['# Igreja Doméstica', '', f'`{command}`', '', '## Conteúdo e composição', '',
-        '- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026 e os de 13/12 em 12/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.',
-        '- PostIgrejaDomestica usa feed 1080 × 1350 e tema pergaminho. O selo traz a série e a data; do segundo card em diante aparece a contagem à direita.',
+        '- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026, os de 13/12 em 12/11/2026 e os de 20 e 27/12 em 19/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.',
+        '- PostIgrejaDomestica aceita de dois a seis cards e usa feed 1080 × 1350 e tema pergaminho. O selo traz a série e a data; do segundo card em diante aparece a contagem à direita.',
         '- A capa segue o fluxo abaixo do selo: Nicho 600 × 680 com foco e zoom do YAML, crédito, título e apoio. A imagem entra dentro do arco; o crédito aparece na capa, e a página da obra fica somente na ficha e neste relatório.',
         '- Passos, oração e conversa mantêm o bloco centralizado entre selo e assinatura, com pelo menos 60 px de folga e diferença de centralização até 0,1 px. Na capa, o apoio fica a pelo menos 32 px da assinatura.',
         '- O gap de 16 px do kit recebe margens inline em tokens: 48 px do rótulo ou da instrução ao texto seguinte e 32 px de um texto à sua fonte. Todos os pares são medidos no navegador com tolerância de ±0,01 px.',
@@ -162,6 +181,16 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         '| 13/12 · 3 · passos | título 1; itens 2, 2, 2 e 2; fonte 1 | 128,5 px acima e abaixo |',
         '| 13/12 · 4 · oração | título 1; rubricas 2 e 1; oração 4; aclamação 1 | 103,5 px acima e abaixo |',
         '| 13/12 · 5 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |',
+        '| 20/12 · 1 · capa | crédito 1, título 1, apoio 1 | selo → nicho 32 px; apoio → assinatura 116 px |',
+        '| 20/12 · 2 · passos | título 1; itens 2, 2 e 2; fonte 1 | 194,5 px acima e abaixo |',
+        '| 20/12 · 3 · oração | título 1; orações 4 e 4 | 136,5 px acima e abaixo |',
+        '| 20/12 · 4 · oração | título 1; orações 3 e 3 | 198,5 px acima e abaixo |',
+        '| 20/12 · 5 · oração | título 1; oração 3; rubrica 1; aclamação 1; origem 1 | 176,5 px acima e abaixo |',
+        '| 20/12 · 6 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |',
+        '| 27/12 · 1 · capa | crédito 1, título 1, apoio 1 | selo → nicho 32 px; apoio → assinatura 116 px |',
+        '| 27/12 · 2 · passos | título 1; itens 2, 2, 2 e 2; fonte 1 | 128,5 px acima e abaixo |',
+        '| 27/12 · 3 · oração | título 1; rubricas 2 e 1; oração 3; aclamação 1; origem 1 | 102,5 px acima e abaixo |',
+        '| 27/12 · 4 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |',
         '', '## Valores medidos no navegador', '',
         '| Data | Card | Tipo | Linhas | Distâncias e folgas |', '| --- | --- | --- | --- | --- |']
     rows = [row for record in records for row in record['tabela_medida']]
@@ -252,6 +281,7 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             cards = expand_cards([day])
             cover = cards[0]
             artwork = local_artwork_path(cover['obra']['arquivo'])
+            _validate_new_artwork_size(artwork, cover['obra']['arquivo'])
             pending = not artwork.is_file()
             if pending:
                 if not placeholder.is_file():
@@ -299,7 +329,9 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             destination = folder/f'igreja-domestica-{day["data"]}.pdf'
             _merge(parts, destination)
             pdf_check = _pdf_check(destination, cards, measurements)
-            record = {'modelo':'PostIgrejaDomestica', 'textos_aprovados_em':'2026-11-12' if day['data']=='2026-12-13' else '2026-11-03',
+            record = {'modelo':'PostIgrejaDomestica', 'textos_aprovados_em':(
+                          '2026-11-19' if day['data'] in {'2026-12-20', '2026-12-27'} else
+                          '2026-11-12' if day['data']=='2026-12-13' else '2026-11-03'),
                       'data':day['data'], 'cor':day['cor'], 'cards':measurements,
                       'obra':deepcopy(cover['obra']), 'obra_usada':_relative(artwork),
                       'obra_pendente':pending, 'enquadramento':framing, 'nota_visual':note,

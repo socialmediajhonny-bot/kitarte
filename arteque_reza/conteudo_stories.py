@@ -13,7 +13,7 @@ from .conteudo import _UniqueKeyLoader, _mapping, _text, _work, color_token
 ROOT_FIELDS = {"tempos", "stories"}
 SEASON_FIELDS = {"id", "nome", "cor"}
 STORY_REQUIRED_FIELDS = {"id", "hora", "titulo", "subtitulo", "invocacao", "obra"}
-STORY_FIELDS = STORY_REQUIRED_FIELDS | {"resposta"}
+STORY_FIELDS = STORY_REQUIRED_FIELDS | {"resposta", "serie"}
 
 
 def _items(value: object, context: str) -> list:
@@ -71,6 +71,8 @@ def load_stories(path: Path | str) -> dict:
             _text(item[field], f"{context}.{field}")
         if not re.fullmatch(r"(?:[0-9]|1[0-9]|2[0-3])h", item["hora"]):
             raise ValueError(f"{context}.hora: use de 0h a 23h, por exemplo 12h.")
+        if "serie" in item:
+            _text(item["serie"], f"{context}.serie")
         if "resposta" in item:
             _text(item["resposta"], f"{context}.resposta")
         work = _work(item["obra"], f"{context}.obra")

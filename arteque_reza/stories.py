@@ -38,7 +38,7 @@ def _story_ornament() -> str:
 
 
 def _header(story: dict) -> str:
-    markup = selo('Para Rezar', story['hora'])
+    markup = selo(story.get('serie', 'Para Rezar'), story['hora'])
     for original, field in [('selo-serie', 'selo'), ('selo-data', 'hora')]:
         markup = markup.replace(f'data-element="{original}"',
             f'data-element="{original}" data-text="{field}" data-style="selo"')
@@ -99,7 +99,9 @@ def _validate_layout(tempo: dict, story: dict, measured: dict) -> dict:
             errors.append(f'{label}, {field}: {text["quantidade_linhas"]} linhas; limite {limit}.')
         if not _inside(art, text['caixa']): errors.append(f'{label}, {field}: texto fora da arte.')
         for line, box in zip(text['linhas'], text['caixas_das_linhas']):
-            if re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$', line):
+            fixed_series_label = (field == 'selo' and story.get('serie') == 'Antífonas do Ó'
+                and text['quantidade_linhas'] == 1 and line == 'Antífonas do Ó')
+            if not fixed_series_label and re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$', line):
                 errors.append(f'{label}, {field}: palavra de uma letra no fim de {line!r}.')
             if box['largura'] and (box['x'] < text['caixa']['x']-.1 or box['x']+box['largura'] > text['caixa']['x']+text['caixa']['largura']+.1):
                 errors.append(f'{label}, {field}: linha transborda a largura do campo.')

@@ -27,3 +27,29 @@
       Santa Maria,
       rogai por nós.
     convite: Salve e reze com a gente, uma invocação de cada vez.
+
+- data: 2026-12-26
+  cor: vermelho
+  info: Ladainha 2
+  invocacao: Santa Mãe de Deus
+  obra:
+    arquivo: obras/toda-bela/2026-12-26.jpg
+    credito: Ícone bizantino, séc. XII · Virgem de Vladimir · Galeria Tretyakov, Moscou
+    pagina: https://commons.wikimedia.org/wiki/File:Vladimirskaja_ikona_Bo%C5%BEiej_Materi.jpg
+    foco: 53% 38%
+    zoom: 1.9
+  raiz:
+    rotulo: De onde vem
+    versiculo: Donde me vem esta honra de vir a mim a mãe de meu Senhor?
+    referencia: Lc 1,43
+    texto: >-
+      Isabel chama Maria de mãe do seu Senhor. Em 431, o Concílio de Éfeso
+      proclamou que ela é, com toda a verdade, Mãe de Deus: o Filho que ela
+      concebeu é o Filho eterno do Pai.
+    fonte: Catecismo da Igreja Católica, 466 e 495
+  oracao:
+    rotulo: Para rezar hoje
+    frase: |-
+      Santa Mãe de Deus,
+      rogai por nós.
+    convite: Dia 1º, solenidade da Mãe de Deus. Reze com a gente.

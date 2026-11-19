@@ -12,7 +12,7 @@
     "errors": []
   },
   "dias": {
-    "2026-10-20": {
+    "2026-12-31": {
       "cards": [
         {
           "card": 1,
@@ -23,8 +23,8 @@
               "oracao": 10
             },
             "distancias": {
-              "selo_texto_px": 195.5,
-              "texto_assinatura_px": 195.5,
+              "selo_texto_px": 204.5,
+              "texto_assinatura_px": 204.5,
               "diferenca_centralizacao_px": 0.0
             },
             "distancias_ao_logo": [
@@ -38,22 +38,18 @@
               },
               {
                 "campo": "intencao",
-                "logo_px": 1098.5547079181185
+                "logo_px": 1098.0
               },
               {
                 "campo": "titulo",
-                "logo_px": 826.5
+                "logo_px": 817.5
               },
               {
                 "campo": "oracao",
-                "logo_px": 275.5
-              },
-              {
-                "campo": "origem",
-                "logo_px": 195.5
+                "logo_px": 204.5
               }
             ],
-            "selo_apoio_px": 277.609375,
+            "selo_apoio_px": 70.15625,
             "errors": []
           },
           "pixels": {
@@ -65,138 +61,11 @@
                   89,
                   103
                 ],
-                "esperado": "#2e5b3b",
+                "esperado": "#866420",
                 "rgb": [
-                  46,
-                  91,
-                  59
-                ],
-                "ok": true
-              },
-              {
-                "elemento": "fundo",
-                "pixel": [
-                  8,
-                  8
-                ],
-                "esperado": "#f2eadb",
-                "rgb": [
-                  242,
-                  234,
-                  219
-                ],
-                "ok": true
-              }
-            ],
-            "errors": []
-          }
-        }
-      ],
-      "pdf": {
-        "ok": true,
-        "paginas": [
-          {
-            "pagina": 1,
-            "largura_pt": 810.0,
-            "altura_pt": 1012.5,
-            "texto_igual_sem_espacos": true,
-            "oracao_igual_yaml_sem_espacos": true
-          }
-        ],
-        "fontes": [
-          {
-            "nome": "Lato-Bold",
-            "tipo": "Type0",
-            "formato": "ttf",
-            "embutida": true,
-            "truetype": true,
-            "bytes": 7356
-          },
-          {
-            "nome": "Lato-Regular",
-            "tipo": "Type0",
-            "formato": "ttf",
-            "embutida": true,
-            "truetype": true,
-            "bytes": 17772
-          },
-          {
-            "nome": "CormorantGaramond-SemiBold",
-            "tipo": "Type0",
-            "formato": "ttf",
-            "embutida": true,
-            "truetype": true,
-            "bytes": 13440
-          },
-          {
-            "nome": "CormorantGaramond-Medium",
-            "tipo": "Type0",
-            "formato": "ttf",
-            "embutida": true,
-            "truetype": true,
-            "bytes": 23620
-          }
-        ],
-        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     24  0\n",
-        "pdftotext": "Para Rezar · ter, 20 out                      para pedir proteção\n\n\n\n\n  Oração a São Miguel Arcanjo\n\n São Miguel Arcanjo, defendei-nos no combate;\nsede o nosso refúgio contra as maldades e ciladas\n  do demônio. Ordene-lhe Deus, instantemente\no pedimos; e vós, príncipe da milícia celeste, pela\n  virtude divina, precipitai no inferno a Satanás\n e aos outros espíritos malignos que andam pelo\n       mundo para perder as almas. Amém.\n\n                       Papa Leão XIII, 1886\n\f",
-        "texto_igual_yaml_sem_espacos": true,
-        "errors": []
-      }
-    },
-    "2026-12-15": {
-      "cards": [
-        {
-          "card": 1,
-          "layout": {
-            "ok": true,
-            "limites": {
-              "titulo": 2,
-              "oracao": 10
-            },
-            "distancias": {
-              "selo_texto_px": 266.5,
-              "texto_assinatura_px": 266.5,
-              "diferenca_centralizacao_px": 0.0
-            },
-            "distancias_ao_logo": [
-              {
-                "campo": "selo",
-                "logo_px": 1106.31728653066
-              },
-              {
-                "campo": "data",
-                "logo_px": 1099.0
-              },
-              {
-                "campo": "intencao",
-                "logo_px": 1101.2394903194593
-              },
-              {
-                "campo": "titulo",
-                "logo_px": 755.5
-              },
-              {
-                "campo": "oracao",
-                "logo_px": 266.5
-              }
-            ],
-            "selo_apoio_px": 325.28125,
-            "errors": []
-          },
-          "pixels": {
-            "ok": true,
-            "amostras": [
-              {
-                "elemento": "cruz do selo",
-                "pixel": [
-                  89,
-                  103
-                ],
-                "esperado": "#5b2e70",
-                "rgb": [
-                  91,
-                  46,
-                  112
+                  134,
+                  100,
+                  32
                 ],
                 "ok": true
               },
@@ -227,8 +96,8 @@
               "oracao": 14
             },
             "distancias": {
-              "selo_texto_px": 323,
-              "texto_assinatura_px": 323,
+              "selo_texto_px": 208,
+              "texto_assinatura_px": 208,
               "diferenca_centralizacao_px": 0
             },
             "distancias_ao_logo": [
@@ -246,14 +115,10 @@
               },
               {
                 "campo": "oracao",
-                "logo_px": 403.0
-              },
-              {
-                "campo": "origem",
-                "logo_px": 323.0
+                "logo_px": 208.0
               }
             ],
-            "selo_apoio_px": 502.671875,
+            "selo_apoio_px": 497.875,
             "errors": []
           },
           "pixels": {
@@ -265,11 +130,84 @@
                   89,
                   103
                 ],
-                "esperado": "#5b2e70",
+                "esperado": "#866420",
                 "rgb": [
-                  91,
-                  46,
-                  112
+                  134,
+                  100,
+                  32
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#f2eadb",
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "ok": true
+              }
+            ],
+            "errors": []
+          }
+        },
+        {
+          "card": 3,
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 2,
+              "oracao": 14
+            },
+            "distancias": {
+              "selo_texto_px": 137,
+              "texto_assinatura_px": 137,
+              "diferenca_centralizacao_px": 0
+            },
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1106.31728653066
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "contagem",
+                "logo_px": 1128.7788108215734
+              },
+              {
+                "campo": "oracao",
+                "logo_px": 217.0
+              },
+              {
+                "campo": "origem",
+                "logo_px": 137.0
+              }
+            ],
+            "selo_apoio_px": 497.875,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#866420",
+                "rgb": [
+                  134,
+                  100,
+                  32
                 ],
                 "ok": true
               },
@@ -308,6 +246,13 @@
             "altura_pt": 1012.5,
             "texto_igual_sem_espacos": true,
             "oracao_igual_yaml_sem_espacos": true
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_sem_espacos": true,
+            "oracao_igual_yaml_sem_espacos": true
           }
         ],
         "fontes": [
@@ -325,7 +270,7 @@
             "formato": "ttf",
             "embutida": true,
             "truetype": true,
-            "bytes": 19532
+            "bytes": 16672
           },
           {
             "nome": "CormorantGaramond-SemiBold",
@@ -333,7 +278,7 @@
             "formato": "ttf",
             "embutida": true,
             "truetype": true,
-            "bytes": 11376
+            "bytes": 10248
           },
           {
             "nome": "CormorantGaramond-Medium",
@@ -341,7 +286,7 @@
             "formato": "ttf",
             "embutida": true,
             "truetype": true,
-            "bytes": 20568
+            "bytes": 22584
           },
           {
             "nome": "Lato-Bold",
@@ -357,7 +302,7 @@
             "formato": "ttf",
             "embutida": true,
             "truetype": true,
-            "bytes": 17624
+            "bytes": 12500
           },
           {
             "nome": "CormorantGaramond-Medium",
@@ -365,11 +310,35 @@
             "formato": "ttf",
             "embutida": true,
             "truetype": true,
-            "bytes": 22252
+            "bytes": 25048
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7356
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 18092
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 17816
           }
         ],
-        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     24  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     35  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     40  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     45  0\n",
-        "pdftotext": "Para Rezar · ter, 15 dez              para a confissão\n\n\n\n\n             Ato de Contrição\n\n     Senhor meu Jesus Cristo, Deus e homem\n     verdadeiro, Criador e Redentor meu: por\n      serdes vós quem sois, sumamente bom\n    e digno de ser amado sobre todas as coisas,\n   e porque vos amo e estimo, pesa-me, Senhor,\n   de todo o meu coração, de vos ter ofendido;\n\fPara Rezar · ter, 15 dez                         2/2\n\n\n\n\n     pesa-me também de ter perdido o céu\n e merecido o inferno; e proponho firmemente,\n  ajudado com o auxílio de vossa divina graça,\n emendar-me e nunca mais vos tornar a ofender.\n   Espero alcançar o perdão de minhas culpas\n    pela vossa infinita misericórdia. Amém.\n\n                       Oração tradicional\n\f",
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     24  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     35  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     40  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     45  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     56  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     61  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     66  0\n",
+        "pdftotext": "Para Rezar · qui, 31 dez   para agradecer o ano que termina\n\n\n\n\n                     Te Deum\n\nA vós, ó Deus, louvamos, a vós, Senhor, cantamos.\nA vós, Eterno Pai, adora toda a terra. A vós cantam\nos anjos, os céus e seus poderes: Sois Santo, Santo,\nSanto, Senhor, Deus do universo! Proclamam céus\n e terra a vossa imensa glória. A vós celebra o coro\n   glorioso dos Apóstolos, vos louva dos Profetas\na nobre multidão e o luminoso exército dos vossos\n                   santos Mártires.\n\fPara Rezar · qui, 31 dez                           2/3\n\n\n\n\n  A vós por toda a terra proclama a Santa Igreja,\n  ó Pai onipotente, de imensa majestade, e adora\n     juntamente o vosso Filho único, Deus vivo\n e verdadeiro, e ao vosso Santo Espírito. Ó Cristo,\n Rei da glória, do Pai eterno Filho, nascestes duma\nVirgem, a fim de nos salvar. Sofrendo vós a morte,\n  da morte triunfastes abrindo aos que têm fé dos\ncéus o reino eterno. Sentastes à direita de Deus, do\nPai na glória. Nós cremos que de novo vireis como\njuiz. Portanto, vos pedimos: salvai os vossos servos,\n  que vós, Senhor, remistes com sangue precioso.\n\fPara Rezar · qui, 31 dez                              3/3\n\n\n\n\nFazei-nos ser contados, Senhor, vos suplicamos, em\n meio a vossos santos na vossa eterna glória. Salvai\n    o vosso povo. Senhor, abençoai-o. Regei-nos\n  e guardai-nos até a vida eterna. Senhor, em cada\n  dia, fiéis, vos bendizemos, louvamos vosso nome\n     agora e pelos séculos. Dignai-vos, neste dia,\n guardar-nos do pecado. Senhor, tende piedade de\n   nós, que a vós clamamos. Que desça sobre nós,\n   Senhor, a vossa graça, porque em vós pusemos\n a nossa confiança. Fazei que eu, para sempre, não\nseja envergonhado: Em vós, Senhor, confio, sois vós\n                    minha esperança!\n\n                Hino Te Deum, na Liturgia das Horas\n\f",
         "texto_igual_yaml_sem_espacos": true,
         "errors": []
       }
@@ -472,7 +441,7 @@
     "count": 4,
     "files": [
       {
-        "file": "/workspace/kitarte/saida/para-rezar/2026-10-20/card-1.png",
+        "file": "/workspace/kitarte/saida/para-rezar/2026-12-31/card-1.png",
         "expected": [
           1080,
           1350
@@ -485,7 +454,7 @@
         "format": "PNG"
       },
       {
-        "file": "/workspace/kitarte/saida/para-rezar/2026-12-15/card-1.png",
+        "file": "/workspace/kitarte/saida/para-rezar/2026-12-31/card-2.png",
         "expected": [
           1080,
           1350
@@ -498,7 +467,7 @@
         "format": "PNG"
       },
       {
-        "file": "/workspace/kitarte/saida/para-rezar/2026-12-15/card-2.png",
+        "file": "/workspace/kitarte/saida/para-rezar/2026-12-31/card-3.png",
         "expected": [
           1080,
           1350
@@ -513,13 +482,13 @@
       {
         "file": "/workspace/kitarte/saida/para-rezar/prancha.png",
         "expected": [
-          808,
-          1092
+          1192,
+          2152
         ],
         "ok": true,
         "actual": [
-          808,
-          1092
+          1192,
+          2152
         ],
         "format": "PNG"
       }
@@ -551,5 +520,5 @@
     "2026-12-15, card 2: confronto da vitrine inteira tem 114 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-3.png."
   ],
   "ok": true,
-  "comando": "python gerar.py para-rezar"
+  "comando": "python gerar.py para-rezar --data 2026-12-31"
 }

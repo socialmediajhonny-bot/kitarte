@@ -64,21 +64,24 @@ def ensure_kit() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Gere as séries e stories, preservando kit/.")
-    parser.add_argument("alvo", choices=["componentes", "evangelho", "santo", "para-rezar", "coragem", "stories", "novena", "igreja-domestica", "olhe-de-novo", "por-dentro-da-missa", "rezo-por-voce", "toda-bela"])
+    parser.add_argument("alvo", choices=["componentes", "evangelho", "santo", "para-rezar", "coragem", "stories", "novena", "igreja-domestica", "olhe-de-novo", "por-dentro-da-missa", "rezo-por-voce", "toda-bela", "antifonas", "stories-avulsos"])
     parser.add_argument("--data", help="Gere só a data ISO informada nas séries de feed.")
     parser.add_argument("--tempo", help="Gere só o tempo litúrgico informado (stories), por exemplo advento.")
+    parser.add_argument("--grupo", help="Gere só o grupo informado de stories avulsos.")
     parser.add_argument("--novena", choices=["imaculada", "natal"], help="Gere só a novena informada.")
     parser.add_argument("--teste-canva", action="store_true", help="Gere só o teste de três cards da Imaculada, validando os 20 em work/.")
     args = parser.parse_args()
     if args.tempo is not None and args.alvo != "stories":
         parser.error("--tempo só vale para stories.")
+    if args.grupo is not None and args.alvo != "stories-avulsos":
+        parser.error("--grupo só vale para stories-avulsos.")
     if (args.novena is not None or args.teste_canva) and args.alvo != "novena":
         parser.error("--novena e --teste-canva só valem para novena.")
     if args.teste_canva and args.novena == "natal":
         parser.error("--teste-canva usa os três cards da Imaculada; não combina com --novena natal.")
     if args.data is not None:
-        if args.alvo in {"componentes", "stories", "novena"}:
-            parser.error("--data só vale para evangelho, santo, para-rezar, coragem, igreja-domestica, olhe-de-novo, por-dentro-da-missa, rezo-por-voce ou toda-bela.")
+        if args.alvo in {"componentes", "stories", "novena", "stories-avulsos"}:
+            parser.error("--data só vale para evangelho, santo, para-rezar, coragem, igreja-domestica, olhe-de-novo, por-dentro-da-missa, rezo-por-voce, toda-bela ou antifonas.")
         try:
             if date.fromisoformat(args.data).isoformat() != args.data:
                 raise ValueError
@@ -87,7 +90,13 @@ def main() -> None:
     dependencies()
     try:
         ensure_kit()
-        if args.alvo in {"olhe-de-novo", "por-dentro-da-missa", "rezo-por-voce", "toda-bela"}:
+        if args.alvo == "stories-avulsos":
+            from arteque_reza.stories_avulsos import generate
+            generate(ROOT / "saida", ROOT / "conteudo/stories-avulsos.yaml", args.grupo)
+            print("Pronto: stories avulsos gerados.")
+            print(f"Relatório: {ROOT / 'saida/stories-avulsos/RELATORIO.md'}")
+            return
+        if args.alvo in {"olhe-de-novo", "por-dentro-da-missa", "rezo-por-voce", "toda-bela", "antifonas"}:
             from arteque_reza.serie_noite import generate
             generate(ROOT / "saida", ROOT / f"conteudo/{args.alvo}.yaml", args.alvo, args.data)
             print(f"Pronto: {args.alvo} gerado.")

@@ -10,5 +10,17 @@
   "2026-12-13": {
     "inspecionada": true,
     "nota": "Obra real local, conferida individualmente na capa e no recorte: São Francisco ajoelhado, o Menino na cena da manjedoura e o sacerdote à direita ficam inteiros dentro do arco na extensão em que aparecem na pintura, com rostos e gestos preservados. A curva corta apenas partes da arquitetura nos cantos superiores; a janela também retira faixas decorativas do alto e da base, sem cortar essas três figuras. Não há margem fotográfica visível. O foco 50% 50% e o zoom 1 do YAML foram mantidos; nenhum ajuste é necessário para preservar São Francisco, o Menino e o sacerdote."
+  },
+  "2026-12-20": {
+    "inspecionada": true,
+    "rostos_maria_jose_menino_preservados": true,
+    "menino_inteiro": true,
+    "nota": "Capa e recorte finais conferidos individualmente com foco 50% 100% e zoom 1.15. Os rostos de Maria, José e do Menino, as mãos dos adultos e o corpo inteiro do Menino ficam dentro do arco. A janela prioriza a Sagrada Família e a manjedoura; as laterais retiram partes periféricas dos mantos e o alto deixa fora os anjos e o crucifixo que aparecem na pintura inteira. Esses cortes não atingem os rostos, os gestos centrais ou o corpo do Menino. O detector registra uma margem de 4 px no topo do original, mas ela fica fora da janela e não aparece na arte. O foco e o zoom aprovados foram mantidos; não é necessário ajuste para preservar os protagonistas."
+  },
+  "2026-12-27": {
+    "inspecionada": true,
+    "rostos_maria_jose_menino_preservados": true,
+    "menino_e_berco_preservados": true,
+    "nota": "Capa e recorte finais conferidos individualmente com foco 50% 75% e zoom 1.1. Maria, o Menino no berço e José ao fundo mantêm seus rostos e os gestos essenciais dentro do arco; o Menino, o berço e o livro de Maria ficam preservados. José permanece na área escura da pintura, como no original. Um anjo sobre a família continua visível, enquanto o grupo de anjos do canto superior esquerdo e partes periféricas do ambiente ficam fora do arco. Não há margem fotográfica detectada ou visível. O foco e o zoom aprovados foram mantidos; não é necessário ajuste para preservar a Sagrada Família."
   }
 }

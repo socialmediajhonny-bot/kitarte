@@ -115,3 +115,100 @@
       rotulo: Para conversar em família
       pergunta: Quem vai colocar o Menino Jesus na manjedoura na noite de Natal?
       convite: Envie para quem vai montar o presépio com você.
+
+- data: 2026-12-20
+  cor: roxo
+  cards:
+    - tipo: capa
+      titulo: A bênção do presépio
+      apoio: Para rezar na noite de Natal, com as crianças
+      obra:
+        arquivo: obras/igreja-domestica/2026-12-20.jpg
+        credito: Lorenzo Lotto · A Natividade · National Gallery of Art, Washington
+        pagina: https://commons.wikimedia.org/wiki/File:Lorenzo_Lotto,_The_Nativity,_1523,_NGA_431.jpg
+        foco: 50% 100%
+        zoom: 1.15
+    - tipo: passos
+      rotulo: Como fazer
+      titulo: Na noite de Natal
+      itens:
+        - Reúnam-se diante do presépio, ainda com a manjedoura vazia, e leiam Lc 2,1-14.
+        - Rezem juntos a oração de Bento XVI para a bênção das imagens do Menino Jesus.
+        - As crianças põem o Menino Jesus na manjedoura. Depois, cantem uma música de Natal.
+      fonte: Diretório sobre a Piedade Popular e a Liturgia, n. 109
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: Deus, nosso Pai
+      falas:
+        - oracao: >-
+            Deus, nosso Pai, vós que tanto amastes os homens que nos enviastes
+            o vosso único Filho Jesus, nascido da Virgem Maria, para nos salvar
+            e reconduzir a vós.
+        - oracao: >-
+            Nós vos pedimos que, com a vossa bênção, estas imagens de Jesus, que
+            está para vir até nós, sejam, nas nossas casas, sinal da vossa
+            presença e do vosso amor.
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: Pai bom
+      falas:
+        - oracao: >-
+            Pai bom, concedei a vossa bênção também a nós, aos nossos pais, às
+            nossas famílias e aos nossos amigos.
+        - oracao: >-
+            Abri o nosso coração, para que saibamos receber Jesus na alegria,
+            fazer sempre o que ele pede e vê-lo em todos os que precisam do
+            nosso amor.
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: Em nome de Jesus
+      falas:
+        - oracao: >-
+            Isto vos pedimos em nome de Jesus, vosso amado Filho, que vem para
+            dar ao mundo a paz. Ele vem e reina nos séculos dos séculos. Amém.
+        - rubrica: "As crianças põem o Menino na manjedoura:"
+        - aclamacao: Glória a Deus nas alturas!
+      origem: Bento XVI, Angelus de 14/12/2008, adaptada
+    - tipo: conversa
+      rotulo: Para conversar em família
+      pergunta: O que cada um quer dizer ao Menino Jesus nesta noite?
+      convite: Envie para quem vai rezar com você na noite de Natal.
+
+- data: 2026-12-27
+  cor: ouro
+  cards:
+    - tipo: capa
+      titulo: A bênção dos pais
+      apoio: Na festa da Sagrada Família, abençoe seus filhos
+      obra:
+        arquivo: obras/igreja-domestica/2026-12-27.jpg
+        credito: Rembrandt · A Sagrada Família · Museu Hermitage, São Petersburgo
+        pagina: https://commons.wikimedia.org/wiki/File:Harmensz_van_Rijn_Rembrandt_-_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B5_%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE_-_Google_Art_Project.jpg
+        foco: 50% 75%
+        zoom: 1.1
+    - tipo: passos
+      rotulo: Por que abençoar
+      titulo: O gesto do Batismo
+      itens:
+        - No Batismo, o padre e os pais traçaram o sinal da cruz na testa do seu filho.
+        - Todo batizado é chamado a ser uma bênção e a abençoar.
+        - A festa da Sagrada Família é ocasião própria para a bênção dos filhos.
+        - A bênção é a de Nm 6,24-26, lida na Missa de 1º de janeiro.
+      fonte: Ritual do Batismo, 16 · Catecismo, 1669 · Diretório da Piedade Popular, 112
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: O Senhor te abençoe
+      falas:
+        - rubrica: |-
+            Leiam o Evangelho do dia, Lc 2,22-40.
+            Os pais traçam a cruz na testa de cada filho:
+        - oracao: >-
+            O Senhor te abençoe e te guarde! O Senhor te mostre a sua face e
+            conceda-te sua graça! O Senhor volva o seu rosto para ti e te dê a paz!
+        - rubrica: "E o filho responde:"
+        - aclamacao: Amém.
+      origem: Nm 6,24-26
+    - tipo: conversa
+      rotulo: Para conversar em família
+      pergunta: Pelo que a nossa família quer agradecer a Deus neste ano?
+      convite: Envie para quem vai abençoar os filhos com você.

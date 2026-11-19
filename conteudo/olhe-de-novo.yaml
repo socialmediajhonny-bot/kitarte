@@ -45,3 +45,45 @@
       Ao lado de Maria, como na Anunciação do nosso Ângelus das 12h. E na mão
       de santos como Santo Antônio de Pádua e Santa Catarina de Sena.
     fonte: "National Gallery, Londres: glossário (lírios)"
+
+- data: 2026-12-30
+  cor: ouro
+  titulo: O boi e o burro do presépio
+  obra:
+    arquivo: obras/olhe-de-novo/2026-12-30.jpg
+    credito: Sandro Botticelli · A Natividade mística · National Gallery, Londres
+    pagina: https://commons.wikimedia.org/wiki/File:Mystic_Nativity_by_Sandro_Botticelli.jpg
+    foco: 50% 50%
+  detalhe:
+    titulo: Junto da manjedoura, os dois
+    janela: [950, 2110, 600]
+    tamanho: [2792, 4036]
+  significado:
+    rotulo: O que significa
+    titulo: Todos precisam do Salvador
+    texto: >-
+      O Evangelho fala só da manjedoura. Lendo Isaías, os Padres da Igreja
+      deduziram que o boi e o burro estavam ali e viram neles os judeus e os
+      pagãos: a humanidade inteira, que precisa de um Salvador.
+    fonte: "Lc 2,7 · Is 1,3 · Bento XVI, homilia da Noite de Natal de 2006"
+  onde:
+    rotulo: Onde mais aparece
+    obras:
+      - arquivo: obras/olhe-de-novo/2026-12-30-icone.jpg
+        credito: |-
+          Ícone russo, séc. XV · A Natividade
+          Catedral da Anunciação, Moscou
+        pagina: https://commons.wikimedia.org/wiki/File:Nativity_(15th_c.,_Annunciation_Cathedral_in_Moscow).jpg
+        janela: [470, 650, 320]
+        tamanho: [1400, 1858]
+      - arquivo: obras/olhe-de-novo/2026-12-30-giotto.jpg
+        credito: |-
+          Giotto · A Natividade
+          Capela Scrovegni, Pádua
+        pagina: https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._17_Scenes_from_the_Life_of_Christ_-_1._Nativity_-_Birth_of_Jesus_-_WGA09193.jpg
+        janela: [20, 430, 320]
+        tamanho: [950, 966]
+    texto: >-
+      No ícone russo e no afresco de Giotto. São Francisco também os quis no
+      primeiro presépio, em Greccio, no Natal de 1223.
+    fonte: "Papa Francisco, Admirabile signum, 2"

@@ -34,6 +34,12 @@ class NightContentTests(unittest.TestCase):
                          ['2026-12-09', '2026-12-10', '2026-12-11', '2026-12-12'])
         for slug, days in self.days.items():
             self.assertEqual(self.load(slug, days), days)
+        self.assertEqual({slug: [day['data'] for day in days] for slug, days in self.days.items()}, {
+            'olhe-de-novo': ['2026-12-09', '2026-12-30'],
+            'por-dentro-da-missa': ['2026-12-10'],
+            'rezo-por-voce': ['2026-12-11'],
+            'toda-bela': ['2026-12-12', '2026-12-26'],
+        })
         look = self.days['olhe-de-novo'][0]
         self.assertEqual(look['detalhe']['janela'], [396, 2440, 608])
         self.assertEqual(look['detalhe']['tamanho'], [2996, 4226])
@@ -61,6 +67,26 @@ class NightContentTests(unittest.TestCase):
         self.assertEqual(fair['cor'], 'ouro')
         self.assertEqual(fair['oracao']['frase'], 'Santa Maria,\nrogai por nós.')
         self.assertEqual(fair['raiz']['referencia'], 'Lc 1,27')
+        later_look = self.days['olhe-de-novo'][1]
+        self.assertEqual(later_look['titulo'], 'O boi e o burro do presépio')
+        self.assertEqual(later_look['detalhe']['janela'], [950, 2110, 600])
+        self.assertEqual(later_look['detalhe']['tamanho'], [2792, 4036])
+        self.assertEqual([work['janela'] for work in later_look['onde']['obras']],
+                         [[470, 650, 320], [20, 430, 320]])
+        self.assertEqual(later_look['onde']['obras'][0]['credito'],
+                         'Ícone russo, séc. XV · A Natividade\nCatedral da Anunciação, Moscou')
+        self.assertEqual(later_look['onde']['obras'][1]['credito'],
+                         'Giotto · A Natividade\nCapela Scrovegni, Pádua')
+        self.assertNotIn('\n', later_look['significado']['texto'])
+        self.assertNotIn('\n', later_look['onde']['texto'])
+        later_fair = self.days['toda-bela'][1]
+        self.assertEqual(later_fair['cor'], 'vermelho')
+        self.assertEqual(later_fair['info'], 'Ladainha 2')
+        self.assertEqual(later_fair['invocacao'], 'Santa Mãe de Deus')
+        self.assertEqual(later_fair['raiz']['referencia'], 'Lc 1,43')
+        self.assertEqual(later_fair['oracao']['frase'], 'Santa Mãe de Deus,\nrogai por nós.')
+        self.assertEqual(later_fair['oracao']['convite'],
+                         'Dia 1º, solenidade da Mãe de Deus. Reze com a gente.')
 
     def test_root_required_and_unknown_fields_are_checked_in_each_series(self):
         for slug, days in self.days.items():

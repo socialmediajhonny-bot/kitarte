@@ -1,6 +1,6 @@
 # Para Rezar
 
-`python gerar.py para-rezar`
+`python gerar.py para-rezar --data 2026-12-31`
 
 ## Decisões
 
@@ -10,35 +10,34 @@
 - Quebras manuais são preservadas; os demais textos seguem o balanceamento do bundle. Espaços após a, à, e, é e o são inseparáveis. Linhas vazias forçadas também entram na contagem.
 - A ficha mantém o formato das séries anteriores, com linhas recuperadas por Range. A prancha usa miniaturas de 360 × 450 px e indexa todas as datas já geradas; --data preserva as demais.
 - São Miguel de 20/10 é uma prova do design system e não é publicação. Não há obras nesta série.
+- As palavras hifenizadas permanecem inteiras pelo helper da Igreja Doméstica, importado sem modificações. Os textos de 29 e 31/12 foram aprovados em 19/11/2026.
 
 ## Linhas medidas no render
 
 | Data | Card | Campo | Linhas | Limite |
 | --- | --- | --- | --- | --- |
-| 2026-10-20 | 1 | selo | 1 | — |
-| 2026-10-20 | 1 | data | 1 | — |
-| 2026-10-20 | 1 | intencao | 1 | — |
-| 2026-10-20 | 1 | titulo | 1 | 2 |
-| 2026-10-20 | 1 | oracao | 7 | 10 |
-| 2026-10-20 | 1 | origem | 1 | — |
-| 2026-12-15 | 1 | selo | 1 | — |
-| 2026-12-15 | 1 | data | 1 | — |
-| 2026-12-15 | 1 | intencao | 1 | — |
-| 2026-12-15 | 1 | titulo | 1 | 2 |
-| 2026-12-15 | 1 | oracao | 6 | 10 |
-| 2026-12-15 | 2 | selo | 1 | — |
-| 2026-12-15 | 2 | data | 1 | — |
-| 2026-12-15 | 2 | contagem | 1 | — |
-| 2026-12-15 | 2 | oracao | 6 | 14 |
-| 2026-12-15 | 2 | origem | 1 | — |
+| 2026-12-31 | 1 | selo | 1 | — |
+| 2026-12-31 | 1 | data | 1 | — |
+| 2026-12-31 | 1 | intencao | 1 | — |
+| 2026-12-31 | 1 | titulo | 1 | 2 |
+| 2026-12-31 | 1 | oracao | 8 | 10 |
+| 2026-12-31 | 2 | selo | 1 | — |
+| 2026-12-31 | 2 | data | 1 | — |
+| 2026-12-31 | 2 | contagem | 1 | — |
+| 2026-12-31 | 2 | oracao | 11 | 14 |
+| 2026-12-31 | 3 | selo | 1 | — |
+| 2026-12-31 | 3 | data | 1 | — |
+| 2026-12-31 | 3 | contagem | 1 | — |
+| 2026-12-31 | 3 | oracao | 12 | 14 |
+| 2026-12-31 | 3 | origem | 1 | — |
 
 ## Distâncias
 
 | Data | Card | Selo → texto | Texto → assinatura |
 | --- | --- | --- | --- |
-| 2026-10-20 | 1 | 195.5 px | 195.5 px |
-| 2026-12-15 | 1 | 266.5 px | 266.5 px |
-| 2026-12-15 | 2 | 323 px | 323 px |
+| 2026-12-31 | 1 | 204.5 px | 204.5 px |
+| 2026-12-31 | 2 | 208 px | 208 px |
+| 2026-12-31 | 3 | 137 px | 137 px |
 
 ## Conferência da prévia
 
@@ -74,7 +73,20 @@ saida/para-rezar/
   2026-12-15/card-2.png
   2026-12-15/ficha.json
   2026-12-15/para-rezar-2026-12-15.pdf
+  2026-12-29/card-1.png
+  2026-12-29/card-2.png
+  2026-12-29/ficha.json
+  2026-12-29/para-rezar-2026-12-29.pdf
+  2026-12-31/card-1.png
+  2026-12-31/card-2.png
+  2026-12-31/card-3.png
+  2026-12-31/ficha.json
+  2026-12-31/para-rezar-2026-12-31.pdf
   RELATORIO.md
   prancha.png
   verificacao.json
 ```
+
+## Compatibilidade dos cards aprovados
+
+As datas de 20/10 e 15/12 preservam seu HTML histórico, cujos hífens já cabem inteiros. As datas novas e futuras usam o helper intacto da Igreja Doméstica. A validação rejeita hífen no fim da linha em todas as datas. A regeneração dos três cards antigos deu zero pixels diferentes nos PNGs e nas páginas PDF a 2×; a ocorrência inicial de 318 pixels foi resolvida, sem tolerância de antialiasing.

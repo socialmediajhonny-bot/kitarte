@@ -7,10 +7,12 @@ import tempfile
 import unittest
 from urllib.parse import urlsplit
 
+import fitz
+from PIL import Image, ImageChops
 from playwright.sync_api import sync_playwright
 
 from gerar import ensure_kit
-from arteque_reza.base import PROJECT, await_fonts, generate_tokens_css, resource_url
+from arteque_reza.base import PROJECT, await_fonts, generate_tokens_css, render_arte, resource_url
 from arteque_reza.conteudo_oracao import load_prayers
 from arteque_reza.para_rezar import _document, _measure, _validate_layout
 from arteque_reza.renderizacao import local_server
@@ -97,6 +99,57 @@ class PrayerLayoutTests(unittest.TestCase):
         self.assertGreater(self.field(card,'oracao')['caixas_das_linhas'][0]['largura'],880)
         with self.assertRaisesRegex(ValueError,r'oracao: linha transborda a largura do campo'):
             _validate_layout(day,card)
+
+
+    def test_prompt16_new_prayers_match_preview_lines_and_gaps(self):
+        days = {day['data']: day for day in self.days}
+        for date, counts, gaps in [
+            ('2026-12-29', [6, 6], [266.5, 323]),
+            ('2026-12-31', [8, 11, 12], [204.5, 208, 137]),
+        ]:
+            day = days[date]
+            for number, count in enumerate(counts, 1):
+                with self.subTest(date=date, card=number):
+                    card = self.render(day, number)
+                    self.assertEqual(self.field(card, 'oracao')['quantidade_linhas'], count)
+                    self.assertTrue(_validate_layout(day, card)['ok'])
+                    self.assertAlmostEqual(card['distancias']['selo_texto_px'], gaps[number-1])
+                    self.assertAlmostEqual(card['distancias']['texto_assinatura_px'], gaps[number-1])
+
+    def test_te_deum_hyphenated_words_stay_on_the_same_rendered_line(self):
+        day = next(day for day in self.days if day['data'] == '2026-12-31')
+        card = self.render(day, 3)
+        lines = self.field(card, 'oracao')['linhas']
+        for word in ('Fazei-nos', 'abençoai-o', 'Regei-nos', 'Dignai-vos'):
+            with self.subTest(word=word):
+                self.assertEqual(sum(line.count(word) for line in lines), day['partes'][2].count(word))
+        self.assertFalse(any(line.rstrip().endswith('-') for line in lines))
+        self.assertTrue(_validate_layout(day, card)['ok'])
+
+    def test_approved_prayers_remain_pixel_identical(self):
+        for day in self.days[:2]:
+            approved = PROJECT/'saida/para-rezar'/day['data']
+            with fitz.open(approved/f'para-rezar-{day["data"]}.pdf') as before:
+                for number in range(1, len(day['partes'])+1):
+                    with self.subTest(date=day['data'], card=number):
+                        png = self.folder/f'historico-{day["data"]}-{number}.png'
+                        pdf = png.with_suffix('.pdf')
+                        render_arte(self.page, _document(day, number, self.css), png,
+                                    pdf_path=pdf, base_url=self.url)
+                        with Image.open(approved/f'card-{number}.png') as a, Image.open(png) as b:
+                            self.assertIsNone(ImageChops.difference(a.convert('RGB'), b.convert('RGB')).getbbox())
+                        with fitz.open(pdf) as after:
+                            a = before[number-1].get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
+                            b = after[0].get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
+                            self.assertEqual((a.width, a.height), (b.width, b.height))
+                            self.assertTrue(a.samples == b.samples, 'Página PDF histórica diferente a 2×.')
+
+    def test_manual_break_after_a_hyphen_fails(self):
+        day = deepcopy(self.days[0])
+        day['partes'][0] = 'Senhor, abençoai-\nnos nesta noite.'
+        card = self.render(day, 1)
+        with self.assertRaisesRegex(ValueError, r'oracao: hífen no fim'):
+            _validate_layout(day, card)
 
 
 if __name__=='__main__':

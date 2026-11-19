@@ -17,7 +17,7 @@ from pypdf import PdfReader, PdfWriter
 
 from .base import PROJECT, KIT, color, generate_tokens_css, render_arte
 from .canva import niche_svg, validate_svg
-from .conteudo_noite import LOADERS
+from .conteudo_noite import LOADERS, load_antiphons
 from .noite import (_document, _measure, _pdf_check, _pixels, _validate_layout,
                     expand_cards, expected_layout, prepare_artworks)
 from .renderizacao import local_server
@@ -30,7 +30,16 @@ SERIES = {
     'por-dentro-da-missa': ('Por Dentro da Missa', 'PostPorDentroDaMissa'),
     'rezo-por-voce': ('Rezo por Você', 'PostRezoPorVoce'),
     'toda-bela': ('Toda Bela', 'PostTodaBela'),
+    'antifonas': ('Antífonas do Ó', 'PostAntifona'),
 }
+
+
+
+def approval_date(series: str, day: str) -> str:
+    if series == 'antifonas' or (series, day) in {
+            ('toda-bela', '2026-12-26'), ('olhe-de-novo', '2026-12-30')}:
+        return '2026-11-19'
+    return APPROVAL_DATE
 
 
 def _write_json(path: Path, value: dict) -> None:
@@ -59,6 +68,8 @@ def _artwork_key(artwork: dict) -> str:
 
 
 def _visual_note(target: Path, date: str, artwork: dict) -> dict:
+    if artwork.get('obra_pendente'):
+        return {'inspecionada':False, 'nota':'Obra pendente; usada a imagem provisória. Conferência visual da obra original pendente.'}
     path = target/'NOTAS-DAS-OBRAS.json'
     if path.is_file():
         notes = json.loads(path.read_text(encoding='utf-8'))
@@ -161,13 +172,19 @@ def _rules(series: str) -> list[str]:
             '- PostRezoPorVoce: card único no tema pergaminho, sem informação à direita do selo. Ornamento, título em titulo-capa de até duas linhas e texto em corpo/tinta-suave de até duas linhas.',
             '- Ornamento → título: 48 px; título → texto: 32 px. O bloco inteiro permanece centralizado entre selo e assinatura.',
         ],
+        'antifonas': [
+            '- PostAntifona: três cards de 17 a 23/12. A capa traz o info Nª de 7, nicho 640 × 760 e título em titulo-capa, com recuo automático para titulo em até duas linhas. Os demais cards têm contagem 2/3 e 3/3.',
+            '- O card De onde vem segue a raiz da Toda Bela, com versículo em citacao, referência em Lato Bold ouro e texto em corpo. O card Para rezar hoje usa o cartão inteiro na cor, antífona em oracao de 44/62 px até cinco linhas, fonte em credito e convite em corpo.',
+            '- Rótulo → antífona: 48 px; antífona → fonte: 32 px; fonte → ornamento: 48 px; ornamento → convite: 48 px. O bloco fica centralizado e com pelo menos 60 px de cada lado.',
+            '- O nome fixo Antífonas do Ó no selo é uma única linha e recebe a exceção à regra de palavra de uma letra no fim da linha; a regra continua valendo nos demais textos.',
+        ],
         'toda-bela': [
             '- PostTodaBela: três cards. Capa e raiz no tema capela; oração em cartão inteiro na cor do dia. A capa traz o info do YAML e os outros cards a contagem 2/3 e 3/3.',
             '- A capa usa nicho 640 × 760, crédito em uma linha e invocação em titulo-capa. Se a invocação quebrar, é renderizada em titulo com até duas linhas; a assinatura continua a pelo menos 32 px. Não há apoio na capa.',
             '- A raiz traz versículo de até três linhas, referência em uma linha, texto de até cinco e fonte em uma. A oração usa citacao-grande em até três linhas, com as quebras manuais do YAML, e convite em uma.',
         ],
     }
-    if series in {'olhe-de-novo', 'toda-bela'}:
+    if series in {'olhe-de-novo', 'toda-bela', 'antifonas'}:
         common += [
             '- Cada nicho recebe um JPEG já recortado na janela visível, qualidade 95 e sem subamostragem de cor, usando LANCZOS e Image.resize com box fracionária. O card e o PDF usam esse arquivo com foco 50% 50% e zoom 1. Isso evita a ampliação que borrou a obra de 25/12 na importação do Canva.',
             '- O recorte mantém a dimensão nativa, limitado a 2× a área interna do nicho, sem ampliar o arquivo. As janelas explícitas exigem dimensão original exata, contenção completa e ampliação de até 1,2. Nenhuma obra original é alterada ou baixada.',
@@ -178,8 +195,14 @@ def _rules(series: str) -> list[str]:
 
 def _report(target: Path, records: list[dict], checks: dict, command: str) -> Path:
     series = checks['serie']
+    rules = _rules(series)
+    approvals = sorted({record['textos_aprovados_em'] for record in records})
+    if approvals != [APPROVAL_DATE]:
+        rules[0] = ('- Os textos foram escritos pela página. Aprovação por data: '+
+                    '; '.join(record['data']+' → '+record['textos_aprovados_em'] for record in records)+
+                    '. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.')
     lines = ['# '+SERIES[series][0], '', f'`{command}`', '', '## Conteúdo e composição', '',
-             *_rules(series), '', '## Tabela medida no navegador', '',
+             *rules, '', '## Tabela medida no navegador', '',
              '| Data | Card | Tipo | Linhas medidas | Distâncias e folgas medidas | Previsto |',
              '| --- | --- | --- | --- | --- | --- |']
     rows = [row for record in records for row in record['tabela_medida']]
@@ -250,7 +273,8 @@ def generate(output: Path, content_path: Path, series: str,
     """Gere a série selecionada e preserve as demais datas e séries."""
     if series not in SERIES:
         raise ValueError('Série da noite desconhecida: '+str(series))
-    days = LOADERS[series](content_path)
+    reader = load_antiphons if series == 'antifonas' else LOADERS[series]
+    days = reader(content_path)
     if date_filter is not None:
         days = [day for day in days if day['data'] == date_filter]
         if not days:
@@ -292,8 +316,9 @@ def generate(output: Path, content_path: Path, series: str,
                 pdf = png.with_suffix('.pdf')
                 rendered = render_arte(page, _document(card, css, artworks), png, pdf_path=pdf, base_url=base_url)
                 measured = _measure(page, card)
-                if series == 'toda-bela' and card['tipo'] == 'capa':
-                    invocation = next(text for text in measured['textos'] if text['campo']=='invocacao')
+                if series in {'toda-bela', 'antifonas'} and card['tipo'] == 'capa':
+                    title_field = 'invocacao' if series == 'toda-bela' else 'titulo'
+                    invocation = next(text for text in measured['textos'] if text['campo']==title_field)
                     if invocation['quantidade_linhas'] > 1:
                         card['invocation_style'] = 'titulo'
                         rendered = render_arte(page, _document(card, css, artworks, invocation_style='titulo'),
@@ -315,9 +340,11 @@ def generate(output: Path, content_path: Path, series: str,
             destination = folder/f'{series}-{day["data"]}.pdf'
             _merge(parts, destination)
             pdf_check = _pdf_check(destination, [entry['conteudo'] for entry in measurements], measurements)
-            record = {'modelo':SERIES[series][1], 'serie':series, 'textos_aprovados_em':APPROVAL_DATE,
+            record = {'modelo':SERIES[series][1], 'serie':series, 'textos_aprovados_em':approval_date(series, day['data']),
                       'data':day['data'], 'cor':day['cor'], 'cards':measurements,
                       'obras':artworks, 'avisos':warnings, 'tabela_medida':rows}
+            if series == 'antifonas':
+                record['obra_pendente'] = any(artwork.get('obra_pendente') for artwork in artworks)
             _write_json(folder/'ficha.json', record)
             for old in folder.glob('card-*.png'):
                 if int(old.stem.split('-')[-1]) > len(cards):
@@ -342,7 +369,7 @@ def generate(output: Path, content_path: Path, series: str,
               'dias':{record['data']:day_checks[record['data']] for record in records if record['data'] in day_checks},
               'pngs':validate_pngs(expected_pngs),
               'browser':{'ok':True, 'errors':[], 'fontes_locais_por_render':6, 'recursos_externos':False},
-              'obras_pendentes':[],
+              'obras_pendentes':[record['data'] for record in records if any(artwork.get('obra_pendente') for artwork in record['obras'])],
               'avisos':[warning for record in records for warning in record['avisos']]
                        +[f'{row["data"]}, card {row["card"]}: '+'; '.join(row['diferencas_tabela'])
                          for record in records for row in record['tabela_medida'] if row['diferencas_tabela']],
@@ -355,5 +382,5 @@ def generate(output: Path, content_path: Path, series: str,
     _write_json(target/'verificacao.json', checks)
     report = _report(target, records, checks, command)
     return {'dias':len(days), 'cards':generated_cards, 'pdfs':len(days),
-            'pngs':generated_cards+generated_crops+1, 'obras_pendentes':[],
+            'pngs':generated_cards+generated_crops+1, 'obras_pendentes':checks['obras_pendentes'],
             'avisos':checks['avisos'], 'relatorio':str(report), 'verificacoes':str(target/'verificacao.json')}

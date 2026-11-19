@@ -1,11 +1,11 @@
 # Igreja Doméstica
 
-`python gerar.py igreja-domestica`
+`python gerar.py igreja-domestica --data 2026-12-27`
 
 ## Conteúdo e composição
 
-- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026 e os de 13/12 em 12/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.
-- PostIgrejaDomestica usa feed 1080 × 1350 e tema pergaminho. O selo traz a série e a data; do segundo card em diante aparece a contagem à direita.
+- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026, os de 13/12 em 12/11/2026 e os de 20 e 27/12 em 19/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.
+- PostIgrejaDomestica aceita de dois a seis cards e usa feed 1080 × 1350 e tema pergaminho. O selo traz a série e a data; do segundo card em diante aparece a contagem à direita.
 - A capa segue o fluxo abaixo do selo: Nicho 600 × 680 com foco e zoom do YAML, crédito, título e apoio. A imagem entra dentro do arco; o crédito aparece na capa, e a página da obra fica somente na ficha e neste relatório.
 - Passos, oração e conversa mantêm o bloco centralizado entre selo e assinatura, com pelo menos 60 px de folga e diferença de centralização até 0,1 px. Na capa, o apoio fica a pelo menos 32 px da assinatura.
 - O gap de 16 px do kit recebe margens inline em tokens: 48 px do rótulo ou da instrução ao texto seguinte e 32 px de um texto à sua fonte. Todos os pares são medidos no navegador com tolerância de ±0,01 px.
@@ -31,6 +31,16 @@
 | 13/12 · 3 · passos | título 1; itens 2, 2, 2 e 2; fonte 1 | 128,5 px acima e abaixo |
 | 13/12 · 4 · oração | título 1; rubricas 2 e 1; oração 4; aclamação 1 | 103,5 px acima e abaixo |
 | 13/12 · 5 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |
+| 20/12 · 1 · capa | crédito 1, título 1, apoio 1 | selo → nicho 32 px; apoio → assinatura 116 px |
+| 20/12 · 2 · passos | título 1; itens 2, 2 e 2; fonte 1 | 194,5 px acima e abaixo |
+| 20/12 · 3 · oração | título 1; orações 4 e 4 | 136,5 px acima e abaixo |
+| 20/12 · 4 · oração | título 1; orações 3 e 3 | 198,5 px acima e abaixo |
+| 20/12 · 5 · oração | título 1; oração 3; rubrica 1; aclamação 1; origem 1 | 176,5 px acima e abaixo |
+| 20/12 · 6 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |
+| 27/12 · 1 · capa | crédito 1, título 1, apoio 1 | selo → nicho 32 px; apoio → assinatura 116 px |
+| 27/12 · 2 · passos | título 1; itens 2, 2, 2 e 2; fonte 1 | 128,5 px acima e abaixo |
+| 27/12 · 3 · oração | título 1; rubricas 2 e 1; oração 3; aclamação 1; origem 1 | 102,5 px acima e abaixo |
+| 27/12 · 4 · conversa | pergunta 2; convite 1 | 353,5 px acima e abaixo |
 
 ## Valores medidos no navegador
 
@@ -48,6 +58,16 @@
 | 2026-12-13 | 3 | passos | titulo: 1; item_1: 2; item_2: 2; item_3: 2; item_4: 2; fonte: 1 | selo_texto_px: 128.5px; texto_assinatura_px: 128.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_linha_item_1_px: 48px; linha_item_1_linha_item_2_px: 32px; linha_item_2_linha_item_3_px: 32px; linha_item_3_linha_item_4_px: 32px; linha_item_4_fonte_px: 32px |
 | 2026-12-13 | 4 | oracao | titulo: 1; fala_1: 2; fala_2: 4; fala_3: 1; fala_4: 1 | selo_texto_px: 103.5px; texto_assinatura_px: 103.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px; fala_2_fala_3_px: 48px; fala_3_fala_4_px: 48px |
 | 2026-12-13 | 5 | conversa | pergunta: 2; convite: 1 | selo_texto_px: 353.5px; texto_assinatura_px: 353.5px; diferenca_centralizacao_px: 0px; rotulo_pergunta_px: 48px; pergunta_ornamento_px: 48px; ornamento_convite_px: 48px |
+| 2026-12-20 | 1 | capa | credito: 1; titulo: 1; apoio: 1 | selo_nicho_px: 32px; nicho_credito_px: 32px; credito_titulo_px: 48px; titulo_apoio_px: 32px; apoio_assinatura_px: 116px |
+| 2026-12-20 | 2 | passos | titulo: 1; item_1: 2; item_2: 2; item_3: 2; fonte: 1 | selo_texto_px: 194.5px; texto_assinatura_px: 194.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_linha_item_1_px: 48px; linha_item_1_linha_item_2_px: 32px; linha_item_2_linha_item_3_px: 32px; linha_item_3_fonte_px: 32px |
+| 2026-12-20 | 3 | oracao | titulo: 1; fala_1: 4; fala_2: 4 | selo_texto_px: 136.5px; texto_assinatura_px: 136.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px |
+| 2026-12-20 | 4 | oracao | titulo: 1; fala_1: 3; fala_2: 3 | selo_texto_px: 198.5px; texto_assinatura_px: 198.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px |
+| 2026-12-20 | 5 | oracao | titulo: 1; fala_1: 3; fala_2: 1; fala_3: 1; origem: 1 | selo_texto_px: 176.5px; texto_assinatura_px: 176.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px; fala_2_fala_3_px: 48px; fala_3_origem_px: 32px |
+| 2026-12-20 | 6 | conversa | pergunta: 2; convite: 1 | selo_texto_px: 353.5px; texto_assinatura_px: 353.5px; diferenca_centralizacao_px: 0px; rotulo_pergunta_px: 48px; pergunta_ornamento_px: 48px; ornamento_convite_px: 48px |
+| 2026-12-27 | 1 | capa | credito: 1; titulo: 1; apoio: 1 | selo_nicho_px: 32px; nicho_credito_px: 32px; credito_titulo_px: 48px; titulo_apoio_px: 32px; apoio_assinatura_px: 116px |
+| 2026-12-27 | 2 | passos | titulo: 1; item_1: 2; item_2: 2; item_3: 2; item_4: 2; fonte: 1 | selo_texto_px: 128.5px; texto_assinatura_px: 128.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_linha_item_1_px: 48px; linha_item_1_linha_item_2_px: 32px; linha_item_2_linha_item_3_px: 32px; linha_item_3_linha_item_4_px: 32px; linha_item_4_fonte_px: 32px |
+| 2026-12-27 | 3 | oracao | titulo: 1; fala_1: 2; fala_2: 3; fala_3: 1; fala_4: 1; origem: 1 | selo_texto_px: 102.5px; texto_assinatura_px: 102.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px; fala_2_fala_3_px: 48px; fala_3_fala_4_px: 48px; fala_4_origem_px: 32px |
+| 2026-12-27 | 4 | conversa | pergunta: 2; convite: 1 | selo_texto_px: 353.5px; texto_assinatura_px: 353.5px; diferenca_centralizacao_px: 0px; rotulo_pergunta_px: 48px; pergunta_ornamento_px: 48px; ornamento_convite_px: 48px |
 
 ## Diferenças da tabela prevista
 
@@ -79,6 +99,22 @@ Obra real local, sem novo download. Recorte gerado com a pintura inteira e o con
 Foco `50% 50%`, zoom `1.0`; janela original x=0, y=205.69, largura=2536, altura=2964.62 px.
 
 Obra real local, conferida individualmente na capa e no recorte: São Francisco ajoelhado, o Menino na cena da manjedoura e o sacerdote à direita ficam inteiros dentro do arco na extensão em que aparecem na pintura, com rostos e gestos preservados. A curva corta apenas partes da arquitetura nos cantos superiores; a janela também retira faixas decorativas do alto e da base, sem cortar essas três figuras. Não há margem fotográfica visível. O foco 50% 50% e o zoom 1 do YAML foram mantidos; nenhum ajuste é necessário para preservar São Francisco, o Menino e o sacerdote.
+### 2026-12-20
+
+Lorenzo Lotto · A Natividade · National Gallery of Art, Washington — https://commons.wikimedia.org/wiki/File:Lorenzo_Lotto,_The_Nativity,_1523,_NGA_431.jpg
+
+Obra real local, sem novo download. Recorte gerado com a pintura inteira e o contorno da janela do arco.
+Foco `50% 100%`, zoom `1.15`; janela original x=199.174, y=895.505, largura=2655.65, altura=3104.49 px.
+
+Capa e recorte finais conferidos individualmente com foco 50% 100% e zoom 1.15. Os rostos de Maria, José e do Menino, as mãos dos adultos e o corpo inteiro do Menino ficam dentro do arco. A janela prioriza a Sagrada Família e a manjedoura; as laterais retiram partes periféricas dos mantos e o alto deixa fora os anjos e o crucifixo que aparecem na pintura inteira. Esses cortes não atingem os rostos, os gestos centrais ou o corpo do Menino. O detector registra uma margem de 4 px no topo do original, mas ela fica fora da janela e não aparece na arte. O foco e o zoom aprovados foram mantidos; não é necessário ajuste para preservar os protagonistas.
+### 2026-12-27
+
+Rembrandt · A Sagrada Família · Museu Hermitage, São Petersburgo — https://commons.wikimedia.org/wiki/File:Harmensz_van_Rijn_Rembrandt_-_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B5_%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE_-_Google_Art_Project.jpg
+
+Obra real local, sem novo download. Recorte gerado com a pintura inteira e o contorno da janela do arco.
+Foco `50% 75%`, zoom `1.1`; janela original x=139.409, y=555.432, largura=2788.18, altura=3259.42 px.
+
+Capa e recorte finais conferidos individualmente com foco 50% 75% e zoom 1.1. Maria, o Menino no berço e José ao fundo mantêm seus rostos e os gestos essenciais dentro do arco; o Menino, o berço e o livro de Maria ficam preservados. José permanece na área escura da pintura, como no original. Um anjo sobre a família continua visível, enquanto o grupo de anjos do canto superior esquerdo e partes periféricas do ambiente ficam fora do arco. Não há margem fotográfica detectada ou visível. O foco e o zoom aprovados foram mantidos; não é necessário ajuste para preservar a Sagrada Família.
 
 ## Avisos e pendências
 
@@ -128,6 +164,22 @@ saida/igreja-domestica/
   2026-12-13/ficha.json
   2026-12-13/igreja-domestica-2026-12-13.pdf
   2026-12-13/recorte.png
+  2026-12-20/card-1.png
+  2026-12-20/card-2.png
+  2026-12-20/card-3.png
+  2026-12-20/card-4.png
+  2026-12-20/card-5.png
+  2026-12-20/card-6.png
+  2026-12-20/ficha.json
+  2026-12-20/igreja-domestica-2026-12-20.pdf
+  2026-12-20/recorte.png
+  2026-12-27/card-1.png
+  2026-12-27/card-2.png
+  2026-12-27/card-3.png
+  2026-12-27/card-4.png
+  2026-12-27/ficha.json
+  2026-12-27/igreja-domestica-2026-12-27.pdf
+  2026-12-27/recorte.png
   CONFERENCIA-PROMPT-10.md
   NOTAS-DAS-OBRAS.json
   RELATORIO.md
@@ -135,54 +187,3 @@ saida/igreja-domestica/
   prancha.png
   verificacao.json
 ```
-
-<!-- inicio-prova-prompt15 -->
-## Prova de preservação do prompt 15
-
-BASE: `109d8c8f6fbb69ab6cae37ce8459658e3f863379`. Nenhum download foi feito nesta execução. As cinco imagens locais têm os tamanhos exigidos; as quatro novas não têm margens fotográficas ou faixas uniformes descartadas.
-
-**Controle inicial:** os oito comandos foram executados na BASE limpa, com `git status` vazio antes de cada um. Cada arquivo modificado foi comparado: PNG por pixel, páginas PDF a 2× por PyMuPDF e JSON/Markdown normalizando apenas a porta local. **Prova após as alterações:** os sete comandos das outras séries foram executados novamente, antes da geração das novas pastas. Nenhum PNG, PDF ou ficha mudou além da porta local prevista. Todos os seus arquivos foram restaurados à BASE.
-
-**Exceções de relatórios, autorizadas pelo usuário:**
-
-| Relatório restaurado e excluído do commit | Evidência |
-| --- | --- |
-| `saida/RELATORIO.md` | Mesma desatualização e árvore regenerada nas duas execuções, com texto idêntico salvo a porta local. |
-| `saida/evangelho/RELATORIO.md` | A regeneração remove o apêndice manual do prompt 14 igualmente na BASE limpa; nenhum PNG/PDF/ficha é alterado além da porta. |
-| `saida/santo-do-dia/RELATORIO.md` | Mesma remoção das 72 linhas do apêndice do prompt 13, de 427 para 355 linhas. |
-
-Para cada relatório, o texto gerado com o código novo foi comparado ao texto gerado no controle da BASE limpa; as diferenças são iguais. Os três arquivos foram restaurados byte a byte e ficam fora do commit. Não foi aplicada exceção a outra diferença. Nenhum auxiliar em `work/` integra a entrega.
-
-**Igreja Doméstica:** as duas datas anteriores foram comparadas e restauradas byte a byte, incluindo cards, PDFs, recortes e fichas. As notas dessas datas e os arquivos `CONFERENCIA-PROMPT-10.md` e `conferencia-prompt10.json` foram preservados. Só a data 13/12 e os quatro arquivos gerais autorizados mudam.
-
-**Testes:** 240 testes passaram (105,707 s): 201 anteriores e 39 novos. `test_conteudo_noite.py` acrescenta 17 testes dos leitores estritos, janelas e referências; `test_layout_noite.py` acrescenta 22 testes de layout, cores, PDF, próximos títulos, uma obra e recortes. Na Igreja, apenas os dois testes autorizados foram ajustados para três datas, 12 cards e a cor do dia. O teste de `--data` também demonstrou preservação byte a byte de PNG, PDF e ficha de outra data.
-
-**Escopo:** os módulos compartilhados, o kit, o ZIP e as obras originais permanecem intactos. O uso dos helpers existentes foi conferido pelas importações abaixo; na Igreja, as alterações ficaram limitadas à previsão de 13/12 e à aprovação por data e relatório.
-
-```text
-arteque_reza/conteudo_noite.py:8:import yaml
-arteque_reza/conteudo_noite.py:10:from .conteudo import (
-arteque_reza/conteudo_noite.py:14:from .igreja_domestica import BOOKS
-arteque_reza/noite.py:7:import re
-arteque_reza/noite.py:8:import shutil
-arteque_reza/noite.py:9:import subprocess
-arteque_reza/noite.py:14:from .base import PROJECT, assinatura, color, html_document, montar_arte, nicho, selo
-arteque_reza/noite.py:15:from .conteudo import color_token, date_label
-arteque_reza/noite.py:16:from .evangelho import _measure as measure_evangelho, _ornament, _text
-arteque_reza/noite.py:17:from .igreja_domestica import BOOK_PATTERN, igreja_text_html
-arteque_reza/noite.py:18:from .obras import artwork_geometry, crop_proof, inspect_artwork, uniform_margins
-arteque_reza/noite.py:19:from .pdf_nicho import niches_from_elements, validate_niche_pdf
-arteque_reza/noite.py:20:from .validacao import validate_niche_pixels
-arteque_reza/serie_noite.py:9:import json
-arteque_reza/serie_noite.py:11:import shutil
-arteque_reza/serie_noite.py:18:from .base import PROJECT, KIT, color, generate_tokens_css, render_arte
-arteque_reza/serie_noite.py:19:from .canva import niche_svg, validate_svg
-arteque_reza/serie_noite.py:20:from .conteudo_noite import LOADERS
-arteque_reza/serie_noite.py:21:from .noite import (_document, _measure, _pdf_check, _pixels, _validate_layout,
-arteque_reza/serie_noite.py:23:from .renderizacao import local_server
-arteque_reza/serie_noite.py:24:from .validacao import validate_kit, validate_pngs
-```
-
-A prova completa por arquivo PNG e página PDF está no [relatório de Olhe de Novo](../olhe-de-novo/RELATORIO.md).
-
-<!-- fim-prova-prompt15 -->

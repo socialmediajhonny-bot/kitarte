@@ -25,6 +25,7 @@ SERIES = {
     'por-dentro-da-missa': ('Por Dentro da Missa', 'PostPorDentroDaMissa', 'pergaminho'),
     'rezo-por-voce': ('Rezo por Você', 'PostRezoPorVoce', 'pergaminho'),
     'toda-bela': ('Toda Bela', 'PostTodaBela', 'capela'),
+    'antifonas': ('Antífonas do Ó', 'PostAntifona', 'capela'),
 }
 _BOOK_END = re.compile(r'(?:^|\s)(?:'+BOOK_PATTERN+r')[\W_]*$')
 
@@ -43,11 +44,14 @@ def expand_cards(series: str, days: list[dict]) -> list[dict]:
             blocks = [('capa', day['capa'])]+[('explicacao', item) for item in day['explicacoes']]+[('fecho', day['fecho'])]
         elif series == 'rezo-por-voce':
             blocks = [('unico', {'titulo': day['titulo'], 'texto': day['texto']})]
+        elif series == 'antifonas':
+            blocks = [('capa', {'info': day['info'], 'titulo': day['titulo'], 'obra': day['obra']}),
+                      ('raiz', day['raiz']), ('oracao', day['oracao'])]
         else:
             blocks = [('capa', {'info': day['info'], 'invocacao': day['invocacao'], 'obra': day['obra']}),
                       ('raiz', day['raiz']), ('oracao', day['oracao'])]
         for number, (kind, fields) in enumerate(blocks, 1):
-            on_color = (series, kind) in {('por-dentro-da-missa', 'fecho'), ('toda-bela', 'oracao')}
+            on_color = (series, kind) in {('por-dentro-da-missa', 'fecho'), ('toda-bela', 'oracao'), ('antifonas', 'oracao')}
             result.append({**fields, 'serie': series, 'modelo': SERIES[series][1],
                            'data': day['data'], 'cor': day['cor'], 'tipo': kind,
                            'numero': number, 'total': len(blocks), 'cartao_cor': on_color,
@@ -58,10 +62,22 @@ def expand_cards(series: str, days: list[dict]) -> list[dict]:
 def expected_layout(card: dict) -> dict:
     """Tabela prevista no prompt; uma diferença válida é registrada na ficha."""
     series, number = card['serie'], card['numero']
+    if series == 'antifonas':
+        day = int(card['data'][-2:])
+        if number == 1:
+            return {'linhas': {'credito': 1, 'titulo': 1}, 'selo_nicho_px': 32, 'titulo_assinatura_px': 98}
+        if number == 2:
+            verses = {17: 2, 18: 1, 19: 2, 20: 2, 21: 3, 22: 2, 23: 2}[day]
+            gap = {17: 210.5, 18: 244.5, 19: 210.5, 20: 210.5, 21: 176.5, 22: 210.5, 23: 210.5}[day]
+            return {'linhas': {'rotulo': 1, 'versiculo': verses, 'referencia': 1, 'texto': 4, 'fonte': 1}, 'folga_px': gap}
+        return {'linhas': {'rotulo': 1, 'antifona': 3 if day == 23 else 4, 'fonte': 1, 'convite': 1},
+                'folga_px': 296.5 if day == 23 else 265.5}
     if series == 'olhe-de-novo':
         if number in (1, 2):
             return {'linhas': {'credito': 1, 'titulo': 1}, 'selo_nicho_px': 32, 'titulo_assinatura_px': 38}
         if number == 3:
+            if card['data'] == '2026-12-30':
+                return {'linhas': {'rotulo': 1, 'titulo': 1, 'texto': 4, 'fonte': 1}, 'folga_px': 276.5}
             return {'linhas': {'rotulo': 1, 'titulo': 1, 'texto': 5, 'fonte': 1}, 'folga_px': 251.5}
         return {'linhas': {'rotulo': 1, **{f'credito_{i}': 2 for i in range(1, len(card['obras'])+1)},
                            'texto': 3, 'fonte': 1}, 'folga_px': 116}
@@ -77,8 +93,25 @@ def expected_layout(card: dict) -> dict:
     if number == 1:
         return {'linhas': {'credito': 1, 'invocacao': 1}, 'selo_nicho_px': 32, 'invocacao_assinatura_px': 98}
     if number == 2:
+        if card['data'] == '2026-12-26':
+            return {'linhas': {'rotulo': 1, 'versiculo': 2, 'referencia': 1, 'texto': 4, 'fonte': 1}, 'folga_px': 210.5}
         return {'linhas': {'rotulo': 1, 'versiculo': 1, 'referencia': 1, 'texto': 5, 'fonte': 1}, 'folga_px': 219.5}
     return {'linhas': {'rotulo': 1, 'frase': 2, 'convite': 1}, 'folga_px': 333.5}
+
+
+
+ARTWORK_SIZES = {
+    'obras/antifonas/2026-12-17.jpg': (3791, 3792),
+    'obras/antifonas/2026-12-18.jpg': (4289, 5341),
+    'obras/antifonas/2026-12-19.jpg': (2000, 1683),
+    'obras/antifonas/2026-12-21.jpg': (3179, 4332),
+    'obras/antifonas/2026-12-22.jpg': (4365, 5956),
+    'obras/antifonas/2026-12-23.jpg': (2972, 4000),
+    'obras/toda-bela/2026-12-26.jpg': (1941, 2920),
+    'obras/olhe-de-novo/2026-12-30.jpg': (2792, 4036),
+    'obras/olhe-de-novo/2026-12-30-icone.jpg': (1400, 1858),
+    'obras/olhe-de-novo/2026-12-30-giotto.jpg': (950, 966),
+}
 
 
 def artwork_window(artwork: Path, work: dict, niche_width: int, niche_height: int) -> dict:
@@ -86,6 +119,12 @@ def artwork_window(artwork: Path, work: dict, niche_width: int, niche_height: in
     artwork = Path(artwork)
     with Image.open(artwork) as raw:
         actual = raw.size
+    try:
+        relative = artwork.resolve().relative_to(PROJECT).as_posix()
+    except ValueError:
+        relative = None
+    if relative in ARTWORK_SIZES and actual != ARTWORK_SIZES[relative]:
+        raise ValueError(f'{artwork.name}: tamanho real {actual} difere de tamanho {ARTWORK_SIZES[relative]}.')
     if 'tamanho' in work and list(actual) != list(work['tamanho']):
         raise ValueError(f'{artwork.name}: tamanho real {actual} difere de tamanho {work["tamanho"]}.')
     if 'janela' not in work:
@@ -159,24 +198,31 @@ def prepare_artworks(series: str, day: dict, target: Path) -> list[dict]:
         jobs = [(1, 1, day['obra'], (640, 840), '1'),
                 (2, 1, {**day['obra'], **day['detalhe']}, (640, 840), '2')]
         jobs += [(4, i, work, (340, 420), f'4-{i}') for i, work in enumerate(day['onde']['obras'], 1)]
-    elif series == 'toda-bela':
+    elif series in {'toda-bela', 'antifonas'}:
         jobs = [(1, 1, day['obra'], (640, 760), '1')]
     else:
         return []
     records = []
     for number, index, work, size, suffix in jobs:
         artwork = PROJECT/work['arquivo']
-        if not artwork.is_file():
-            raise ValueError('Obra local ausente: '+work['arquivo'])
-        geometry = artwork_window(artwork, work, niche_width=size[0], niche_height=size[1])
+        pending = not artwork.is_file()
+        render_work = work
+        if pending:
+            if series != 'antifonas':
+                raise ValueError('Obra local ausente: '+work['arquivo'])
+            artwork = PROJECT/'saida/obra-provisoria.png'
+            if not artwork.is_file():
+                raise ValueError('Obra provisória ausente: gere componentes antes de usar uma obra pendente.')
+            render_work = {'foco': '50% 50%', 'zoom': 1}
+        geometry = artwork_window(artwork, render_work, niche_width=size[0], niche_height=size[1])
         # Os detectores atuais continuam sendo a fonte da análise de margens.
         assert uniform_margins(artwork) == geometry['margens_detectadas']
         cropped = target/f'obra-{suffix}.jpg'
         image = crop_image(artwork, geometry)
         image.save(cropped, quality=95, subsampling=0)
         proof = target/f'recorte-{suffix}.png'
-        if 'janela' not in work:
-            crop_proof(artwork, proof, work['foco'], zoom=work.get('zoom', 1),
+        if 'janela' not in render_work:
+            crop_proof(artwork, proof, render_work['foco'], zoom=render_work.get('zoom', 1),
                        niche_width=size[0], niche_height=size[1], date=day['data'])
         else:
             _window_proof(artwork, proof, geometry)
@@ -193,6 +239,10 @@ def prepare_artworks(series: str, day: dict, target: Path) -> list[dict]:
                         'margens_detectadas': geometry['margens_detectadas'],
                         'faixas_descartadas': geometry['faixas_descartadas'],
                         'margens_visiveis': geometry['margens_visiveis'], 'avisos': geometry['avisos']})
+        if series == 'antifonas':
+            records[-1].update(obra_pendente=pending, arquivo_usado=artwork.resolve().relative_to(PROJECT).as_posix())
+            if pending:
+                records[-1]['avisos'].append('Obra pendente: '+work['arquivo']+'; usada a imagem provisória.')
     return records
 
 
@@ -202,11 +252,11 @@ def _field(tag: str, field: str, style: str, value: str, css: str = '', token: s
 
 def _header(card: dict) -> str:
     series, number = card['serie'], card['numero']
-    info = card.get('info') if series == 'toda-bela' and number == 1 else None
-    if series in {'olhe-de-novo', 'por-dentro-da-missa'} or series == 'toda-bela' and number > 1:
+    info = card.get('info') if series in {'toda-bela', 'antifonas'} and number == 1 else None
+    if series in {'olhe-de-novo', 'por-dentro-da-missa'} or series in {'toda-bela', 'antifonas'} and number > 1:
         info = f'{number}/{card["total"]}'
     markup = selo(SERIES[series][0], date_label(card['data']), info)
-    support = 'info' if series == 'toda-bela' and number == 1 else 'contagem'
+    support = 'info' if series in {'toda-bela', 'antifonas'} and number == 1 else 'contagem'
     for original, field in [('selo-serie', 'selo'), ('selo-data', 'data'), ('selo-info', support)]:
         markup = markup.replace(f'data-element="{original}"', f'data-element="{original}" data-text="{field}" data-style="selo"')
     return markup
@@ -230,16 +280,16 @@ def _document(card: dict, css: Path, artworks: list[dict] | None = None,
     on_color, theme = card['cartao_cor'], card['tema']
     ink, quiet = ('sobre-cor', 'sobre-cor') if on_color else ('tinta', 'tinta-suave')
     works = sorted((a for a in (artworks or []) if a['card'] == card['numero']), key=lambda a: a['indice'])
-    top_art = series == 'olhe-de-novo' and kind in {'obra', 'detalhe'} or series == 'toda-bela' and kind == 'capa'
+    top_art = series == 'olhe-de-novo' and kind in {'obra', 'detalhe'} or series in {'toda-bela', 'antifonas'} and kind == 'capa'
     if top_art:
         if len(works) != 1:
             raise ValueError('A capa/detalhe precisa de exatamente uma obra previamente recortada.')
-        height = 760 if series == 'toda-bela' else 840
+        height = 760 if series in {'toda-bela', 'antifonas'} else 840
         body = _niche(works[0], 640, height, top=True)
         credit = 'Detalhe da mesma obra' if kind == 'detalhe' else card['obra']['credito']
         body += _field('p', 'credito', 'credito aqr-credito', credit, 'margin-top:var(--espaco-3);max-width:920px', quiet)
         field = 'invocacao' if series == 'toda-bela' else 'titulo'
-        style = invocation_style if field == 'invocacao' else 'titulo'
+        style = invocation_style if series in {'toda-bela', 'antifonas'} else 'titulo'
         body += _field('h1', field, style+' aqr-titulo', card[field], 'margin-top:var(--espaco-4);max-width:880px')
     else:
         body = '<div class="aqr-texto" style="margin-top:auto">'
@@ -274,13 +324,19 @@ def _document(card: dict, css: Path, artworks: list[dict] | None = None,
             body += '</div>'
             body += _field('p', 'texto', 'corpo aqr-corpo', card['texto'], 'margin-top:var(--espaco-3);max-width:760px')
             body += _field('p', 'fonte', 'credito aqr-credito', card['fonte'], 'margin-top:var(--espaco-2);max-width:920px', quiet)
-        elif series == 'toda-bela' and kind == 'raiz':
+        elif series in {'toda-bela', 'antifonas'} and kind == 'raiz':
             body += _field('p', 'rotulo', 'selo', card['rotulo'], 'margin-bottom:var(--espaco-3)', quiet)
             body += _field('p', 'versiculo', 'citacao aqr-citacao', card['versiculo'], 'max-width:860px')
             body += _field('p', 'referencia', 'referencia aqr-referencia', card['referencia'], 'margin-top:var(--espaco-2)', 'ouro')
             body += _ornament()
             body += _field('p', 'texto', 'corpo aqr-corpo', card['texto'], 'max-width:760px')
             body += _field('p', 'fonte', 'credito aqr-credito', card['fonte'], 'margin-top:var(--espaco-2);max-width:920px', quiet)
+        elif series == 'antifonas' and kind == 'oracao':
+            body += _field('p', 'rotulo', 'selo', card['rotulo'], 'margin-bottom:var(--espaco-3)', quiet)
+            body += _field('p', 'antifona', 'oracao aqr-oracao', card['antifona'], 'max-width:880px', ink)
+            body += _field('p', 'fonte', 'credito aqr-credito', card['fonte'], 'margin-top:var(--espaco-2);max-width:920px', ink)
+            body += _ornament(on_color)
+            body += _field('p', 'convite', 'corpo', card['convite'], '', ink)
         else:
             body += _field('p', 'rotulo', 'selo', card['rotulo'], 'margin-bottom:var(--espaco-3)', quiet)
             phrase_style = 'citacao-grande' if series == 'toda-bela' else 'citacao'
@@ -335,6 +391,10 @@ def _measure(page: Any, card: dict) -> dict:
 
 def _limits(card: dict, values: dict) -> dict:
     series, kind=card['serie'],card['tipo']
+    if series=='antifonas':
+        if kind=='capa':return {'selo':1,'credito':1,'titulo':1 if values['titulo']['estilo']=='titulo-capa'else 2}
+        if kind=='raiz':return {'selo':1,'rotulo':1,'versiculo':3,'referencia':1,'texto':5,'fonte':1}
+        return {'selo':1,'rotulo':1,'antifona':5,'fonte':1,'convite':1}
     if series=='olhe-de-novo':
         if kind in {'obra','detalhe'}:return {'credito':1,'titulo':1}
         if kind=='significado':return {'rotulo':1,'titulo':2,'texto':6,'fonte':2}
@@ -369,7 +429,9 @@ def _validate_layout(card: dict, measured: dict) -> dict:
         if box['x']<-.1 or box['y']<-.1 or box['x']+box['largura']>1080.1 or box['y']+box['altura']>1350.1:
             errors.append(f'{label}, {field}: texto fora da arte.')
         for line,linebox in zip(text['linhas'],text['caixas_das_linhas']):
-            if re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$',line):errors.append(f'{label}, {field}: palavra de uma letra no fim de {line!r}.')
+            fixed_series = (card['serie']=='antifonas' and field=='selo'
+                            and text['quantidade_linhas']==1 and line=='Antífonas do Ó')
+            if not fixed_series and re.search(r'(?:^|\s)[aàeéoóAÀEÉOÓ][\W_]*$',line):errors.append(f'{label}, {field}: palavra de uma letra no fim de {line!r}.')
             if line.rstrip().endswith(('-', '\u2010','\u2011','\u00ad')):errors.append(f'{label}, {field}: linha termina em hífen: {line!r}.')
             if re.search(r'\d+[ºª][\W_]*$',line):errors.append(f'{label}, {field}: linha termina em ordinal: {line!r}.')
             if _BOOK_END.search(line):errors.append(f'{label}, {field}: linha termina em abreviação bíblica: {line!r}.')
@@ -378,7 +440,7 @@ def _validate_layout(card: dict, measured: dict) -> dict:
     boxes={field:text['caixa']for field,text in values.items()}
     boxes.update({key:value for key,value in measured['caixas'].items()if value is not None})
     series,kind=card['serie'],card['tipo'];pairs=[]
-    top_art=series=='olhe-de-novo'and kind in {'obra','detalhe'}or series=='toda-bela'and kind=='capa'
+    top_art=series=='olhe-de-novo'and kind in {'obra','detalhe'}or series in {'toda-bela','antifonas'}and kind=='capa'
     if top_art:
         last='invocacao'if series=='toda-bela'else'titulo'
         pairs=[('selo','nicho',32),('nicho','credito',32),('credito',last,48)]
@@ -390,8 +452,10 @@ def _validate_layout(card: dict, measured: dict) -> dict:
         pairs=[('rotulo','linha_nichos',48),('linha_nichos','texto',48),('texto','fonte',32)]
         for i,niche in enumerate(measured['nichos'],1):
             boxes[f'nicho_{i}']=niche;pairs.append((f'nicho_{i}',f'credito_{i}',32))
-    elif series=='toda-bela'and kind=='raiz':
+    elif series in {'toda-bela','antifonas'}and kind=='raiz':
         pairs=[('rotulo','versiculo',48),('versiculo','referencia',32),('referencia','ornamento',48),('ornamento','texto',48),('texto','fonte',32)]
+    elif series=='antifonas'and kind=='oracao':
+        pairs=[('rotulo','antifona',48),('antifona','fonte',32),('fonte','ornamento',48),('ornamento','convite',48)]
     else:pairs=[('rotulo','frase',48),('frase','ornamento',48),('ornamento','convite',48)]
     distances=dict(measured['distancias'])
     for first,second,wanted in pairs:

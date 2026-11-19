@@ -44,8 +44,11 @@ class NightLayoutTests(unittest.TestCase):
         cls.context.route("**/*", lambda route: route.continue_()
             if urlsplit(route.request.url).netloc == urlsplit(cls.url).netloc else route.abort())
         cls.page = cls.context.new_page()
-        cls.days = {series: reader(PROJECT / f"conteudo/{series}.yaml")
-                    for series, reader in LOADERS.items()}
+        cls.all_days = {series: reader(PROJECT / f"conteudo/{series}.yaml")
+                        for series, reader in LOADERS.items()}
+        # Os contratos dos 12 cards aprovados no prompt 15 continuam intactos.
+        # As duas datas acrescentadas no prompt 16 têm uma conferência própria abaixo.
+        cls.days = {series: days[:1] for series, days in cls.all_days.items()}
         cls.cards = {series: expand_cards(series, days) for series, days in cls.days.items()}
         cls.artworks = {series: prepare_artworks(series, days[0], cls.folder/series/days[0]["data"])
                         for series, days in cls.days.items()}
@@ -132,6 +135,39 @@ class NightLayoutTests(unittest.TestCase):
                         self.assertEqual(image.evaluate('el=>getComputedStyle(el).objectPosition'), '50% 50%')
                         self.assertIn(image.evaluate('el=>getComputedStyle(el).transform'),
                                       ('none', 'matrix(1, 0, 0, 1, 0, 0)'))
+
+    def test_later_look_again_and_all_fair_keep_the_approved_models_and_measures(self):
+        expected = {
+            ('olhe-de-novo', 1): ({'credito': 1, 'titulo': 1}, 'titulo_assinatura_px', 38),
+            ('olhe-de-novo', 2): ({'credito': 1, 'titulo': 1}, 'titulo_assinatura_px', 38),
+            ('olhe-de-novo', 3): ({'rotulo': 1, 'titulo': 1, 'texto': 4, 'fonte': 1}, 'selo_texto_px', 276.5),
+            ('olhe-de-novo', 4): ({'rotulo': 1, 'credito_1': 2, 'credito_2': 2, 'texto': 3, 'fonte': 1}, 'selo_texto_px', 116),
+            ('toda-bela', 1): ({'credito': 1, 'invocacao': 1}, 'invocacao_assinatura_px', 98),
+            ('toda-bela', 2): ({'rotulo': 1, 'versiculo': 2, 'referencia': 1, 'texto': 4, 'fonte': 1}, 'selo_texto_px', 210.5),
+            ('toda-bela', 3): ({'rotulo': 1, 'frase': 2, 'convite': 1}, 'selo_texto_px', 333.5),
+        }
+        checked = 0
+        for series in ('olhe-de-novo', 'toda-bela'):
+            for day in self.all_days[series][1:]:
+                artworks = prepare_artworks(series, day, self.folder/'later'/series/day['data'])
+                for card in expand_cards(series, [day]):
+                    with self.subTest(series=series, date=day['data'], number=card['numero']):
+                        measured = self.render(card, artworks)
+                        layout = _validate_layout(card, measured)
+                        self.assertTrue(layout['ok'])
+                        counts, gap_name, gap = expected[(series, card['numero'])]
+                        for field, count in counts.items():
+                            self.assertEqual(self.field(measured, field)['quantidade_linhas'], count)
+                        self.assertAlmostEqual(layout['distancias'][gap_name], gap, delta=.01)
+                        if card['tipo'] in {'obra', 'detalhe', 'capa'}:
+                            self.assertAlmostEqual(layout['distancias']['selo_nicho_px'], 32, delta=.01)
+                        if series == 'toda-bela' and card['numero'] == 1:
+                            self.assertEqual(self.field(measured, 'invocacao')['estilo'], 'titulo-capa')
+                        path = self.folder/'later-valid.png'
+                        self.page.screenshot(path=str(path), clip=self.page.locator('.aqr-post').bounding_box())
+                        self.assertTrue(_pixels(path, card, measured)['ok'])
+                        checked += 1
+        self.assertEqual(checked, 7)
 
     def test_16_pixel_label_title_gap_is_rejected(self):
         for series, number in (("olhe-de-novo", 3), ("por-dentro-da-missa", 2)):

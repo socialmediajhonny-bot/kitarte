@@ -1,0 +1,2606 @@
+{
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "grupos": {
+    "terco-2026-12-12": {
+      "cards": [
+        {
+          "story": "terco-2026-12-12",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "titulo_subtitulo_px": 48,
+            "ornamento_topo_px": 1286,
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 37,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories-avulsos/terco-2026-12-12/terco-2026-12-12.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "RezoporVocê·sáb,12dezTerçopelasintençõesHoje,osmistériosgozosos,portudooquevocêspediramSantaMaria,MãedeDeus,rogaipornós,pecadores,agoraenahoradenossamorte.Amém.",
+            "texto_integral_pdftotext_igual": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11512
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17896
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12148
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11900
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\n",
+        "pdftotext": "Rezo por Você · sáb, 12 dez\n\n\n\n\n  Terço pelas intenções\nHoje, os mistérios gozosos, por tudo o que vocês pediram\n\n\n\n\n         Santa Maria, Mãe de Deus,\n           rogai por nós, pecadores,\n   agora e na hora de nossa morte. Amém.\n\f",
+        "tamanho_bytes": 4323112,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/stories-avulsos/terco-2026-12-12/terco-2026-12-12.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "chave-de-davi-2026-12-20": {
+      "cards": [
+        {
+          "story": "chave-de-davi-1",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "titulo_subtitulo_px": 48,
+            "ornamento_topo_px": 1286,
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 37,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories-avulsos/chave-de-davi-2026-12-20/chave-de-davi-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "story": "chave-de-davi-2",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "titulo_subtitulo_px": 48,
+            "ornamento_topo_px": 1286,
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 37,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#ac8bc6",
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories-avulsos/chave-de-davi-2026-12-20/chave-de-davi-2.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "AntífonasdoÓ·dom,20dezÓChavedeDaviA4ªantífonadoÓ,nasVésperasdehojeÓChavedeDavi,CetrodacasadeIsrael,queabriseninguémfecha,quefechaiseninguémabre:",
+            "texto_integral_pdftotext_igual": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "AntífonasdoÓ·dom,20dezÓChavedeDaviLiturgiadasHoras·AntífonadoMagnificat,20/12vindelogoelibertaiohomemprisioneiro,que,nastrevasenasombradamorte,estásentado.",
+            "texto_integral_pdftotext_igual": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19172
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11328
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17228
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 22112
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11328
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10972
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     39  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     44  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     49  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     54  0\n",
+        "pdftotext": "Antífonas do Ó · dom, 20 dez\n\n\n\n\n       Ó Chave de Davi\n        A 4ª antífona do Ó, nas Vésperas de hoje\n\n\n\n\n Ó Chave de Davi, Cetro da casa de Israel,\n       que abris e ninguém fecha,\n       que fechais e ninguém abre:\n\fAntífonas do Ó · dom, 20 dez\n\n\n\n\n       Ó Chave de Davi\n   Liturgia das Horas · Antífona do Magnificat, 20/12\n\n\n\n\n  vinde logo e libertai o homem prisioneiro,\n    que, nas trevas e na sombra da morte,\n                 está sentado.\n\f",
+        "tamanho_bytes": 1408081,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/stories-avulsos/chave-de-davi-2026-12-20/chave-de-davi-2026-12-20.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 2,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 2,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "comece-aqui": {
+      "cards": [
+        {
+          "story": "comece-aqui-1",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "titulo_subtitulo_px": 48,
+            "ornamento_topo_px": 1286,
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 37,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories-avulsos/comece-aqui/comece-aqui-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "story": "comece-aqui-2",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "titulo_subtitulo_px": 48,
+            "ornamento_topo_px": 1286,
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 37,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories-avulsos/comece-aqui/comece-aqui-2.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "story": "comece-aqui-3",
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 1,
+              "subtitulo": 1,
+              "invocacao": 3,
+              "resposta": 2
+            },
+            "posicoes": {
+              "selo_topo_px": 240,
+              "nicho_topo_px": 328,
+              "nicho_base_px": 1028,
+              "titulo_topo_px": 1076,
+              "assinatura_topo_px": 1628
+            },
+            "titulo_subtitulo_px": 48,
+            "ornamento_topo_px": 1286,
+            "ultimo_campo": "invocacao",
+            "ultimo_texto_assinatura_px": 37,
+            "nicho_bloco_texto_px": 48,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#16110d",
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  1300
+                ],
+                "esperado": "#cfa956",
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/stories-avulsos/comece-aqui/comece-aqui-3.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        344
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        648
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        1029
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        416
+                      ],
+                      "expected_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "actual_rgb": [
+                        207,
+                        169,
+                        86
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        413
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "Comeceaqui·1/3ArtequeRezaArtesacrapararezartodososdias«Abelezaeacordasimagensestimulamaminhaoração»,diziaSãoJoãoDamasceno.",
+            "texto_integral_pdftotext_igual": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "Comeceaqui·2/3TododiaNosStories,Ângelusàs12heMisericórdiaàs15hÀs6h,oEvangelhodoDia.Às9h,oSantodoDia.Às19h30,umasériepornoite.",
+            "texto_integral_pdftotext_igual": true
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1440.0,
+            "texto_integral_pymupdf_igual": true,
+            "texto_esperado_sem_espacos": "Comeceaqui·3/3Às19h30Desegundaadomingo,umasériepornoiteCoragem,ParaRezar,OlhedeNovo,PorDentrodaMissa,RezoporVocê,TodaBelaeIgrejaDoméstica.",
+            "texto_integral_pdftotext_igual": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8160
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16420
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10712
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12256
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8160
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19612
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10640
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12076
+          },
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8160
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17324
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9916
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14344
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     26  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     39  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     44  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     49  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     54  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     67  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     72  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     77  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     82  0\n",
+        "pdftotext": "Comece aqui · 1/3\n\n\n\n\n          Arte que Reza\n          Arte sacra para rezar todos os dias\n\n\n\n\n         «A beleza e a cor das imagens\n         estimulam a minha oração»,\n          dizia São João Damasceno.\n\fComece aqui · 2/3\n\n\n\n\n                    Todo dia\n   Nos Stories, Ângelus às 12h e Misericórdia às 15h\n\n\n\n\n         Às 6h, o Evangelho do Dia.\n            Às 9h, o Santo do Dia.\n        Às 19h30, uma série por noite.\n\fComece aqui · 3/3\n\n\n\n\n                Às 19h30\n      De segunda a domingo, uma série por noite\n\n\n\n\n    Coragem, Para Rezar, Olhe de Novo,\n    Por Dentro da Missa, Rezo por Você,\n       Toda Bela e Igreja Doméstica.\n\f",
+        "tamanho_bytes": 13223702,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/stories-avulsos/comece-aqui/comece-aqui.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 2,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 2,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            },
+            {
+              "indice": 3,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 3,
+              "hex": "#cfa956",
+              "caixa_nicho_pt": [
+                180.0,
+                246.0,
+                630.0,
+                771.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                771.0,
+                666.0,
+                773.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    }
+  },
+  "pngs": {
+    "ok": true,
+    "count": 13,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/terco-2026-12-12/terco-2026-12-12.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/terco-2026-12-12/recorte-terco-2026-12-12.png",
+        "expected": [
+          1080,
+          1611
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1611
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/chave-de-davi-2026-12-20/chave-de-davi-1.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/chave-de-davi-2026-12-20/recorte-chave-de-davi-1.png",
+        "expected": [
+          1080,
+          1197
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1197
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/chave-de-davi-2026-12-20/chave-de-davi-2.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/chave-de-davi-2026-12-20/recorte-chave-de-davi-2.png",
+        "expected": [
+          1080,
+          1197
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1197
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/comece-aqui/comece-aqui-1.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/comece-aqui/recorte-comece-aqui-1.png",
+        "expected": [
+          1080,
+          1336
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1336
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/comece-aqui/comece-aqui-2.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/comece-aqui/recorte-comece-aqui-2.png",
+        "expected": [
+          1080,
+          898
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          898
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/comece-aqui/comece-aqui-3.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/comece-aqui/recorte-comece-aqui-3.png",
+        "expected": [
+          1080,
+          1249
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1249
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/stories-avulsos/prancha.png",
+        "expected": [
+          1192,
+          2252
+        ],
+        "ok": true,
+        "actual": [
+          1192,
+          2252
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [
+    "terco-2026-12-12: obra com 4250021 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.",
+    "comece-aqui-1: margem da foto visível à direita; aumente o zoom",
+    "comece-aqui-2: obra com 7099454 bytes, acima de 4 MB; o PDF incorpora a imagem inteira."
+  ],
+  "ok": true,
+  "comando": "python gerar.py stories-avulsos"
+}

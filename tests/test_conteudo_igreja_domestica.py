@@ -26,16 +26,19 @@ class DomesticChurchContentTests(unittest.TestCase):
         return load_domestic_church(self.file)
 
     def test_supplied_days_preserve_order_manual_breaks_and_approved_text(self):
-        self.assertEqual([day["data"] for day in self.days], ["2026-11-29", "2026-12-06", "2026-12-13"])
+        self.assertEqual([day["data"] for day in self.days], ["2026-11-29", "2026-12-06", "2026-12-13",
+                          "2026-12-20", "2026-12-27"])
         self.assertEqual([[card["tipo"] for card in day["cards"]] for day in self.days],
                          [["capa", "passos", "oracao", "conversa"], ["capa", "oracao", "conversa"],
-                          ["capa", "passos", "passos", "oracao", "conversa"]])
+                          ["capa", "passos", "passos", "oracao", "conversa"],
+                          ["capa", "passos", "oracao", "oracao", "oracao", "conversa"],
+                          ["capa", "passos", "oracao", "conversa"]])
         self.assertEqual(self.days[0]["cards"][2]["falas"][0]["rubrica"],
                          "Leiam o Evangelho do dia, Mc 13,33-37.\nDepois, quem conduz reza:")
         self.assertIn("3º domingo", self.days[0]["cards"][1]["itens"][1])
         self.assertEqual(self.days[1]["cards"][0]["obra"]["foco"], "50% 50%")
         self.assertEqual(self.load(self.days), self.days)
-        for day in self.days:
+        for day in self.days[:3]:
             self.assertEqual(set(day), DAY_FIELDS)
             self.assertNotIn("zoom", day["cards"][0]["obra"])
             for card in day["cards"]:
@@ -59,16 +62,18 @@ class DomesticChurchContentTests(unittest.TestCase):
         days[0]["data"] = date(2026, 11, 29)
         self.assertEqual(self.load(days)[0]["data"], "2026-11-29")
 
-    def test_cards_require_two_to_five_entries(self):
+    def test_cards_require_two_to_six_entries(self):
         day = deepcopy(self.days[0])
-        for invalid in (None, {}, "cards", [], day["cards"][:1], day["cards"] + day["cards"][1:3]):
+        for invalid in (None, {}, "cards", [], day["cards"][:1], day["cards"] + day["cards"][1:4]):
             with self.subTest(value=invalid):
                 changed = deepcopy(day)
                 changed["cards"] = invalid
-                with self.assertRaisesRegex(ValueError, "2 a 5 cards"):
+                with self.assertRaisesRegex(ValueError, "2 a 6 cards"):
                     self.load([changed])
         for cards in ([day["cards"][0], day["cards"][1]],
-                      [*day["cards"][:3], deepcopy(day["cards"][2]), day["cards"][-1]]):
+                      [*day["cards"][:3], deepcopy(day["cards"][2]), day["cards"][-1]],
+                      [*day["cards"][:3], deepcopy(day["cards"][2]),
+                       deepcopy(day["cards"][2]), day["cards"][-1]]):
             changed = deepcopy(day)
             changed["cards"] = cards
             self.assertEqual(len(self.load([changed])[0]["cards"]), len(cards))

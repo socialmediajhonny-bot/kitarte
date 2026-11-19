@@ -18,6 +18,7 @@ LOOK_FIELDS = {"data", "cor", "titulo", "obra", "detalhe", "significado", "onde"
 MASS_FIELDS = {"data", "cor", "capa", "explicacoes", "fecho"}
 PRAY_FIELDS = {"data", "cor", "titulo", "texto"}
 FAIR_FIELDS = {"data", "cor", "info", "invocacao", "obra", "raiz", "oracao"}
+ANTIPHON_FIELDS = {"data", "cor", "info", "titulo", "obra", "raiz", "oracao"}
 EXPLANATION_FIELDS = {"rotulo", "titulo", "texto", "fonte"}
 WINDOW_WORK_FIELDS = {"arquivo", "credito", "pagina", "janela", "tamanho"}
 
@@ -118,6 +119,48 @@ def _fair(item: dict, context: str) -> dict:
     return {**item, "obra": work, "raiz": root, "oracao": prayer}
 
 
+
+def _antiphon_work(value: object, context: str) -> dict:
+    if not isinstance(value, dict):
+        raise ValueError(f"{context}: esperado um mapa de campos.")
+    if not ({"janela", "tamanho"} & value.keys()):
+        return _work(value, context)
+    item = _mapping(value, WINDOW_WORK_FIELDS, WINDOW_WORK_FIELDS, context)
+    _work({field: item[field] for field in ("arquivo", "credito", "pagina")} | {"foco": "50% 50%"}, context)
+    window = _integers(item["janela"], 3, f"{context}.janela", positive=False)
+    size = _integers(item["tamanho"], 2, f"{context}.tamanho", positive=True)
+    if not window[2]:
+        raise ValueError(f"{context}.janela: a largura precisa ser positiva.")
+    height = round(window[2] * 744 / 608)
+    if height < 1 or window[0] + window[2] > size[0] or window[1] + height > size[1]:
+        raise ValueError(f"{context}.janela: a janela precisa caber inteira no arquivo.")
+    if 608 / window[2] > 1.2:
+        raise ValueError(f"{context}.janela: ampliação acima de 1,2 não é permitida.")
+    # A ausência do original é pendência de obra, como nas demais séries;
+    # o tamanho declarado continua limitando a janela mesmo nesse caso.
+    if local_artwork_path(item["arquivo"]).is_file():
+        window, size = _window(window, size, item["arquivo"], (608, 744), context)
+    return {**item, "janela": window, "tamanho": size}
+
+
+def _antiphon(item: dict, context: str) -> dict:
+    day = _date(item["data"], f"{context}.data")
+    if day.month != 12 or not 17 <= day.day <= 23:
+        raise ValueError(f"{context}.data: Antífonas do Ó exige uma data entre 17 e 23/12.")
+    wanted = f"{day.day - 16}ª de 7"
+    if _text(item["info"], f"{context}.info") != wanted:
+        raise ValueError(f"{context}.info: para esta data use {wanted!r}.")
+    _text(item["titulo"], f"{context}.titulo")
+    work = _antiphon_work(item["obra"], f"{context}.obra")
+    root = _texts(item["raiz"], {"rotulo", "versiculo", "referencia", "texto", "fonte"}, f"{context}.raiz")
+    book, separator, verses = root["referencia"].partition(" ")
+    if not separator or book not in BOOKS:
+        raise ValueError(f"{context}.raiz.referencia: livro bíblico fora da lista permitida.")
+    _reference("Lc " + verses, f"{context}.raiz.referencia")
+    prayer = _texts(item["oracao"], {"rotulo", "antifona", "fonte", "convite"}, f"{context}.oracao")
+    return {**item, "obra": work, "raiz": root, "oracao": prayer}
+
+
 def _load(path: Path | str, fields: set[str], validate: Callable[[dict, str], dict]) -> list[dict]:
     source = Path(path)
     try:
@@ -153,6 +196,10 @@ def load_pray_for_you(path: Path | str) -> list[dict]:
 
 def load_all_fair(path: Path | str) -> list[dict]:
     return _load(path, FAIR_FIELDS, _fair)
+
+
+def load_antiphons(path: Path | str) -> list[dict]:
+    return _load(path, ANTIPHON_FIELDS, _antiphon)
 
 
 LOADERS = {

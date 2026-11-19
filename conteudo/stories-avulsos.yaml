@@ -1,0 +1,108 @@
+# Stories avulsos · cada story é renderizado uma vez, na composição do StoryAngelus.
+# O selo é "serie · apoio" (ex.: "Rezo por Você · sáb, 12 dez"). O crédito da obra fica na ficha, não na arte.
+# Cada grupo vira um PDF, com os stories na ordem do YAML. Em |- cada linha é uma quebra manual.
+
+- id: terco-2026-12-12
+  grupo: terco-2026-12-12
+  cor: roxo
+  serie: Rezo por Você
+  apoio: sáb, 12 dez
+  titulo: Terço pelas intenções
+  subtitulo: Hoje, os mistérios gozosos, por tudo o que vocês pediram
+  invocacao: |-
+    Santa Maria, Mãe de Deus,
+    rogai por nós, pecadores,
+    agora e na hora de nossa morte. Amém.
+  obra:
+    arquivo: obras/stories/terco.jpg
+    credito: Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg
+    foco: 50% 35%
+    zoom: 1.15
+
+- id: chave-de-davi-1
+  grupo: chave-de-davi-2026-12-20
+  cor: roxo
+  serie: Antífonas do Ó
+  apoio: dom, 20 dez
+  titulo: Ó Chave de Davi
+  subtitulo: A 4ª antífona do Ó, nas Vésperas de hoje
+  invocacao: |-
+    Ó Chave de Davi, Cetro da casa de Israel,
+    que abris e ninguém fecha,
+    que fechais e ninguém abre:
+  obra:
+    arquivo: obras/stories/chave-de-davi.jpg
+    credito: Fra Angelico · Cristo desce à mansão dos mortos · Museu de San Marco, Florença
+    pagina: https://commons.wikimedia.org/wiki/File:Fra_Angelico_024.jpg
+    foco: 91% 90%
+    zoom: 1.36
+
+- id: chave-de-davi-2
+  grupo: chave-de-davi-2026-12-20
+  cor: roxo
+  serie: Antífonas do Ó
+  apoio: dom, 20 dez
+  titulo: Ó Chave de Davi
+  subtitulo: Liturgia das Horas · Antífona do Magnificat, 20/12
+  invocacao: |-
+    vinde logo e libertai o homem prisioneiro,
+    que, nas trevas e na sombra da morte,
+    está sentado.
+  obra:
+    arquivo: obras/stories/chave-de-davi.jpg
+    credito: Fra Angelico · Cristo desce à mansão dos mortos · Museu de San Marco, Florença
+    pagina: https://commons.wikimedia.org/wiki/File:Fra_Angelico_024.jpg
+    foco: 91% 90%
+    zoom: 1.36
+
+- id: comece-aqui-1
+  grupo: comece-aqui
+  cor: ouro
+  serie: Comece aqui
+  apoio: 1/3
+  titulo: Arte que Reza
+  subtitulo: Arte sacra para rezar todos os dias
+  invocacao: |-
+    «A beleza e a cor das imagens
+    estimulam a minha oração»,
+    dizia São João Damasceno.
+  obra:
+    arquivo: obras/stories/comece-aqui-1.jpg
+    credito: Rogier van der Weyden · São Lucas desenhando a Virgem · Museum of Fine Arts, Boston
+    pagina: https://commons.wikimedia.org/wiki/File:Saint_Luke_Drawing_the_Virgin_MFA_Boston.jpg
+    foco: 50% 60%
+
+- id: comece-aqui-2
+  grupo: comece-aqui
+  cor: ouro
+  serie: Comece aqui
+  apoio: 2/3
+  titulo: Todo dia
+  subtitulo: Nos Stories, Ângelus às 12h e Misericórdia às 15h
+  invocacao: |-
+    Às 6h, o Evangelho do Dia.
+    Às 9h, o Santo do Dia.
+    Às 19h30, uma série por noite.
+  obra:
+    arquivo: obras/stories/comece-aqui-2.jpg
+    credito: Jean-François Millet · O Ângelus · Musée d'Orsay, Paris
+    pagina: https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_The_Angelus_-_Google_Art_Project.jpg
+    foco: 50% 50%
+
+- id: comece-aqui-3
+  grupo: comece-aqui
+  cor: ouro
+  serie: Comece aqui
+  apoio: 3/3
+  titulo: Às 19h30
+  subtitulo: De segunda a domingo, uma série por noite
+  invocacao: |-
+    Coragem, Para Rezar, Olhe de Novo,
+    Por Dentro da Missa, Rezo por Você,
+    Toda Bela e Igreja Doméstica.
+  obra:
+    arquivo: obras/stories/comece-aqui-3.jpg
+    credito: Johannes Vermeer · Cristo na casa de Marta e Maria · National Galleries of Scotland, Edimburgo
+    pagina: https://commons.wikimedia.org/wiki/File:Johannes_(Jan)_Vermeer_-_Christ_in_the_House_of_Martha_and_Mary_-_Google_Art_Project.jpg
+    foco: 40% 45%

@@ -26,6 +26,10 @@ python gerar.py olhe-de-novo --data 2026-12-09
 python gerar.py por-dentro-da-missa
 python gerar.py rezo-por-voce
 python gerar.py toda-bela
+python gerar.py antifonas
+python gerar.py antifonas --data 2026-12-17
+python gerar.py stories-avulsos
+python gerar.py stories-avulsos --grupo comece-aqui
 ```
 
 O comando usa automaticamente `.venv` se uma dependência não estiver no Python atual. As saídas ficam em `saida/`, com as evidências em `saida/verificacao/resultados.json` e as decisões em `saida/RELATORIO.md`.
@@ -72,6 +76,8 @@ Uma faixa uniforme é encontrada quando há pelo menos quatro linhas ou colunas 
 
 `conteudo/para-rezar.yaml` define um card por item de `partes`, sem divisão automática. A intenção vai no primeiro topo; nos seguintes entra a contagem; a origem fica no último card. São permitidas até 10 linhas de oração no primeiro e 14 nos seguintes. Partes não finais precisam terminar com ponto, ponto e vírgula, exclamação ou interrogação. Card único acima de 400 caracteres recebe aviso. O PDF de cada data reúne todos os cards em um único design.
 
+Para Rezar também usa o helper intacto da Igreja Doméstica para manter inteiras palavras com hífen, como “abençoai-o”, “Fazei-nos”, “Regei-nos” e “Dignai-vos”. O Salmo 120 (121), de 29/12, e o Te Deum, de 31/12, foram aprovados em 19/11/2026; as datas anteriores mantêm seus textos e a composição.
+
 `conteudo/coragem.yaml` gera feed 1080 × 1350 e status 1080 × 1920, com PDFs separados e a assinatura com @. A frase tem até duas linhas, a referência livre tem uma e os afastamentos do nicho e da assinatura precisam ser de pelo menos 32 px. Obras reais geram `recorte-feed.png` e `recorte-status.png`; crédito, foco, zoom e janela ficam na ficha. Se uma margem uniforme aparecer, o relatório sugere foco e zoom sem mudar o conteúdo.
 
 No Coragem, a referência recebe `margin-top: var(--espaco-2)` e fica a 32 px da frase. O bloco continua centralizado entre o nicho e a assinatura, e a validação exige 32 px com tolerância de 0,01 px. A regra aprovada é: 32 px entre o texto e a referência e 48 px entre o rótulo e o texto, para o Canva importar cada um em sua caixa (teste de 29/10/2026).
@@ -83,6 +89,8 @@ As saídas ficam em `saida/para-rezar/` e `saida/coragem/`, cada qual com pranch
 `conteudo/stories.yaml` contém os tempos e os stories fixos do Ângelus às 12h e da Hora da Misericórdia às 15h. O tema capela e a estrutura seguem `StoryAngelus`, com os espaços para o Canva descritos abaixo; entre tempos muda somente a cor da cruz do selo e do filete do nicho. `python gerar.py stories` gera oito PNGs de 1080 × 1920 e um PDF de duas páginas por tempo, na ordem dos stories do YAML.
 
 As saídas ficam em `saida/stories/<tempo>/`, com ficha de texto, obra, foco, zoom, janela original e distâncias. Os recortes das duas obras reais, a prancha de todos os tempos já gerados e o relatório ficam em `saida/stories/`. `--tempo advento` preserva os outros tempos; `--data` não é aceito neste comando. O schema rejeita campos desconhecidos, IDs repetidos ou inseguros, horas fora de `0h` a `23h`, textos vazios e zoom fora de 1 a 3.
+
+Cada story fixo aceita `serie` opcional, com padrão “Para Rezar”; o selo combina `serie · hora`. O Ângelus e a Hora da Misericórdia continuam sem esse campo no YAML e mantêm suas quatro versões por tempo litúrgico.
 
 Os títulos e subtítulos têm uma linha; a invocação aceita três e a resposta opcional, duas. O bloco segue alinhado ao topo, como no kit, com pelo menos 32 px até a assinatura. A regra de espaços inseparáveis inclui `Ó` e `ó`. Obras acima de 4 MB ou abaixo de 1000 px de largura e PDFs acima de 12 MB recebem aviso; obras ausentes usam a provisória. As notas visuais registram o que aparece no arco e eventuais sugestões sem mudar o YAML.
 
@@ -115,9 +123,9 @@ Depois da conferência da importação no Canva, `python gerar.py novena` gera a
 
 ## Igreja Doméstica
 
-`conteudo/igreja-domestica.yaml` define carrosséis de domingo para pais e casais rezarem em casa. Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026 e os de 13/12, em 12/11/2026. `python gerar.py igreja-domestica` gera as três datas; `--data AAAA-MM-DD` filtra uma delas e preserva as outras já geradas.
+`conteudo/igreja-domestica.yaml` define carrosséis de domingo para pais e casais rezarem em casa. Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026; os de 13/12, em 12/11/2026; e os de 20 e 27/12, em 19/11/2026. `python gerar.py igreja-domestica` gera as cinco datas; `--data AAAA-MM-DD` filtra uma delas e preserva as outras já geradas.
 
-Cada carrossel tem de dois a cinco cards: uma capa com obra, crédito, título e apoio; passos opcionais com itens numerados; oração em família com rubricas, oração e aclamação na ordem do YAML; e conversa opcional, sempre no final, com o cartão inteiro na cor indicada. A capa segue alinhada abaixo do selo; os blocos dos cards de texto ficam centralizados entre o selo e a assinatura. Os espaços de 48 px entre instrução e texto e de 32 px até a fonte são medidos no navegador.
+Cada carrossel tem de dois a seis cards: uma capa com obra, crédito, título e apoio; passos opcionais com itens numerados; oração em família com rubricas, oração e aclamação na ordem do YAML; e conversa opcional, sempre no final, com o cartão inteiro na cor indicada. A capa segue alinhada abaixo do selo; os blocos dos cards de texto ficam centralizados entre o selo e a assinatura. Os espaços de 48 px entre instrução e texto e de 32 px até a fonte são medidos no navegador.
 
 As regras de texto desta série preservam as palavras com hífen, mantêm a referência bíblica inteira (como `Mc 13,33-37`) e ligam ordinais à palavra seguinte (como `3º domingo`). As duas regras novas são locais à série; o `text_html` compartilhado continua intacto. Quebras manuais são preservadas e as palavras de uma letra seguem a regra já usada nas outras séries.
 
@@ -125,7 +133,7 @@ As obras são lidas dos caminhos locais do YAML, sem downloads. Cada data recebe
 
 ## Séries da noite
 
-Os quatro modelos existem somente no gerador, mantendo o kit v4 intacto. Os textos foram escritos pela página e aprovados em 12/11/2026:
+Os quatro modelos existem somente no gerador, mantendo o kit v4 intacto. Os textos foram escritos pela página: os primeiros foram aprovados em 12/11/2026; Toda Bela de 26/12 e Olhe de Novo de 30/12, em 19/11/2026:
 
 - Olhe de Novo (`PostOlheDeNovo`): `conteudo/olhe-de-novo.yaml`, quatro cards com obra, detalhe, significado e outras ocorrências.
 - Por Dentro da Missa (`PostPorDentroDaMissa`): `conteudo/por-dentro-da-missa.yaml`, de três a cinco cards, com pergunta, explicações e fecho na cor do dia.
@@ -135,6 +143,18 @@ Os quatro modelos existem somente no gerador, mantendo o kit v4 intacto. Os text
 Cada comando aceita `--data AAAA-MM-DD` e preserva as outras datas. Os nichos usam JPEGs já recortados na janela visível, em qualidade 95 sem subamostragem de cor: o Canva borrou a obra ampliada de 25/12, por isso agora recebe o recorte pronto, com foco 50% 50% e zoom 1. A janela vem do foco e zoom da capa ou de `[x, y, largura]` em pixels do original; tamanho, contenção e ampliação máxima de 1,2 são validados. O recorte mantém resolução nativa, limitado a duas vezes a área interna do nicho, sem ampliar o arquivo.
 
 Os textos importam o helper intacto da Igreja Doméstica: palavras de uma letra protegidas, referências bíblicas inteiras, ordinais ligados à palavra seguinte e palavras com hífen sem quebra. As quebras manuais do YAML são mantidas. Os pares de 48 e 32 px, a centralização, os limites de linhas, as cores e os nichos vetoriais são conferidos antes de concluir a geração. PDFs, fichas, recortes, provas, prancha e relatório ficam em `saida/<serie>/`.
+
+## Antífonas do Ó
+
+`python gerar.py antifonas` gera os seis carrosséis de 17, 18, 19, 21, 22 e 23/12 em `saida/antifonas/`, com três cards cada, prancha, relatório e fichas. `--data AAAA-MM-DD` filtra sem apagar as outras datas. O conteúdo de `conteudo/antifonas.yaml` foi aprovado em 19/11/2026; 20/12, Ó Chave de Davi, vai nos stories avulsos.
+
+`PostAntifona` reutiliza as peças de Toda Bela: capa com obra recortada, raiz bíblica e antífona inteira em oração 44/62 px no cartão na cor do dia. A data deve ficar entre 17 e 23/12 e o campo `info` deve ser “Nª de 7”, com N correspondente ao dia. O nicho recebe JPEG qualidade 95 sem subamostragem; janelas, dimensões, ampliação, cores, limites, espaços de 48 e 32 px, fontes embutidas e filetes vetoriais são validados. Apenas o rótulo fixo “Antífonas do Ó” no selo é dispensado da regra de uma letra no fim da linha; os textos continuam protegidos.
+
+## Stories avulsos
+
+`python gerar.py stories-avulsos` lê a lista estrita em `conteudo/stories-avulsos.yaml` e gera cada story uma vez, na composição do StoryAngelus, sem o laço por tempo litúrgico. O selo combina `serie · apoio`; `cor` define cruz e filete. Cada grupo recebe seus PNGs, PDF na ordem do YAML, ficha e recortes em `saida/stories-avulsos/<grupo>/`; a prancha e o relatório ficam na pasta da série. `--grupo comece-aqui` preserva os outros grupos.
+
+O lote aprovado em 19/11/2026 traz o terço pelas intenções, os dois stories de Ó Chave de Davi e os três de Comece aqui. A assinatura fica fixa no topo de 1628 px, com pelo menos 32 px até o último texto. Título e subtítulo têm uma linha, invocação até três e resposta opcional até duas; os pares mantêm 48 px. IDs e grupos são nomes seguros; campos desconhecidos, tamanhos incorretos e limites excedidos interrompem a geração. Obras ausentes usam a provisória e ficam pendentes. O selo fixo “Antífonas do Ó” tem a mesma exceção restrita do feed.
 
 ## Instalação em outra máquina
 

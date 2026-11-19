@@ -1,0 +1,3172 @@
+{
+  "modelo": "PostAntifona",
+  "serie": "antifonas",
+  "textos_aprovados_em": "2026-11-19",
+  "data": "2026-12-18",
+  "cor": "roxo",
+  "cards": [
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Antífonas do Ó",
+          "linhas": [
+            "Antífonas do Ó"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 220.28125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 220.28125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· sex, 18 dez",
+          "linhas": [
+            "· sex, 18 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 342.390625,
+              "y": 80,
+              "largura": 177.203125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 342.390625,
+            "y": 80,
+            "largura": 177.203125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "info",
+          "conteudo": "2ª de 7",
+          "linhas": [
+            "2ª de 7"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 897.671875,
+              "y": 80,
+              "largura": 102.328125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 897.671875,
+            "y": 80,
+            "largura": 102.328125,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "credito",
+          "conteudo": "Dieric Bouts (atrib.) · Moisés e a sarça ardente · Philadelphia Museum of Art",
+          "linhas": [
+            "Dieric Bouts (atrib.) · Moisés e a sarça ardente · Philadelphia Museum of Art"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 145.21875,
+              "y": 945,
+              "largura": 789.546875,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 145.21875,
+            "y": 944,
+            "largura": 789.546875,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "titulo",
+          "conteudo": "Ó Adonai",
+          "linhas": [
+            "Ó Adonai"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 359.8125,
+              "y": 1016,
+              "largura": 360.375,
+              "altura": 111
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "titulo-capa",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 359.8125,
+            "y": 1024,
+            "largura": 360.375,
+            "altura": 96
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "600",
+          "tamanho_px": 92,
+          "entrelinha_px": 96,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": {
+          "x": 220,
+          "y": 152,
+          "largura": 640,
+          "altura": 760
+        },
+        "obra": {
+          "x": 236,
+          "y": 168,
+          "largura": 608,
+          "altura": 744
+        },
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 439.59375,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": null,
+        "info_topo": {
+          "x": 897.671875,
+          "y": 80,
+          "largura": 102.328125,
+          "altura": 40
+        },
+        "ornamento": null,
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "linha_nichos": null
+      },
+      "card": 1,
+      "tipo": "capa",
+      "modelo": "PostAntifona",
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 220.28125,
+          "height": 39,
+          "text": "Antífonas do Ó",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 342.390625,
+          "y": 80,
+          "width": 177.203125,
+          "height": 39,
+          "text": "· sex, 18 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 897.671875,
+          "y": 80,
+          "width": 102.328125,
+          "height": 40,
+          "text": "2ª de 7",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho",
+          "kind": "container",
+          "x": 220,
+          "y": 152,
+          "width": 640,
+          "height": 760,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-parapeito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "nicho",
+          "x": 172,
+          "y": 912,
+          "width": 736,
+          "height": 3,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": "#ac8bc6",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "nicho-filete",
+          "kind": "svg",
+          "x": 220,
+          "y": 152,
+          "width": 640,
+          "height": 760,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-recorte",
+          "kind": "container",
+          "x": 236,
+          "y": 168,
+          "width": 608,
+          "height": 744,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "papel",
+          "hex": "#211a15",
+          "background_hex": "#211a15",
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              304,
+              304
+            ],
+            "top_right": [
+              304,
+              304
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "nicho-obra",
+          "kind": "image",
+          "x": 236,
+          "y": 168,
+          "width": 608,
+          "height": 744,
+          "text": null,
+          "arquivo": "saida/antifonas/2026-12-18/obra-1.jpg",
+          "source": "http://127.0.0.1:44279/saida/antifonas/2026-12-18/obra-1.jpg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 1216,
+          "source_height_px": 1488,
+          "object_fit": "cover",
+          "object_position": "50% 50%"
+        },
+        {
+          "element": "credito",
+          "kind": "text",
+          "x": 145.21875,
+          "y": 944,
+          "width": 789.546875,
+          "height": 32,
+          "text": "Dieric Bouts (atrib.) · Moisés e a sarça ardente · Philadelphia Museum of Art",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "titulo",
+          "kind": "text",
+          "x": 359.8125,
+          "y": 1024,
+          "width": 360.375,
+          "height": 96,
+          "text": "Ó Adonai",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "600",
+          "font_style": "normal",
+          "font_size_px": 92,
+          "line_height_px": 96,
+          "line_height_multiple": 1.043478,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "serie": "antifonas",
+      "data": "2026-12-18",
+      "cor": "roxo",
+      "numero": 1,
+      "total": 3,
+      "cartao_cor": false,
+      "conteudo": {
+        "info": "2ª de 7",
+        "titulo": "Ó Adonai",
+        "obra": {
+          "arquivo": "obras/antifonas/2026-12-18.jpg",
+          "credito": "Dieric Bouts (atrib.) · Moisés e a sarça ardente · Philadelphia Museum of Art",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Attributed_to_Dierick_Bouts_the_Elder,_Netherlandish_(active_Louvain),_first_securely_documented_1447,_died_1475_-_Moses_and_the_Burning_Bush,_with_Moses_Removing_His_Shoes_-_Google_Art_Project.jpg",
+          "foco": "40% 50%"
+        },
+        "serie": "antifonas",
+        "modelo": "PostAntifona",
+        "data": "2026-12-18",
+        "cor": "roxo",
+        "tipo": "capa",
+        "numero": 1,
+        "total": 3,
+        "cartao_cor": false,
+        "tema": "capela"
+      },
+      "nichos": [
+        {
+          "x": 220,
+          "y": 152,
+          "largura": 640,
+          "altura": 760
+        }
+      ],
+      "figuras": [],
+      "cores": {
+        "fundo": "#16110d",
+        "cruz": "#ac8bc6",
+        "ornamento": null
+      },
+      "tema_dom": "capela",
+      "logo": "kit/logos/logo-horizontal-capela.svg",
+      "estilos_texto": {
+        "selo": "normal",
+        "data": "normal",
+        "info": "normal",
+        "credito": "normal",
+        "titulo": "normal"
+      },
+      "sem_quebra": [],
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "pagina": 1,
+      "arquivo": "card-1.png",
+      "obras": [
+        {
+          "arquivo": "obras/antifonas/2026-12-18.jpg",
+          "credito": "Dieric Bouts (atrib.) · Moisés e a sarça ardente · Philadelphia Museum of Art",
+          "pagina": "https://commons.wikimedia.org/wiki/File:Attributed_to_Dierick_Bouts_the_Elder,_Netherlandish_(active_Louvain),_first_securely_documented_1447,_died_1475_-_Moses_and_the_Burning_Bush,_with_Moses_Removing_His_Shoes_-_Google_Art_Project.jpg",
+          "foco": "40% 50%",
+          "zoom": 1,
+          "card": 1,
+          "indice": 1,
+          "janela_original": {
+            "x": 0.0,
+            "y": 46.30921052631584,
+            "largura": 4289.0,
+            "altura": 5248.381578947368
+          },
+          "ampliacao": 0.14175798554441596,
+          "arquivo_recortado": "saida/antifonas/2026-12-18/obra-1.jpg",
+          "prova_recorte": "saida/antifonas/2026-12-18/recorte-1.png",
+          "tamanho_recortado": [
+            1216,
+            1488
+          ],
+          "geometria": {
+            "foco": "40% 50%",
+            "zoom": 1.0,
+            "imagem_original": {
+              "largura": 4289,
+              "altura": 5341
+            },
+            "nicho": {
+              "largura": 640,
+              "altura": 760
+            },
+            "area_interna": {
+              "largura": 608,
+              "altura": 744
+            },
+            "escala_cover": 0.14175798554441596,
+            "escala_com_zoom": 0.14175798554441596,
+            "janela_original": {
+              "x": 0.0,
+              "y": 46.30921052631584,
+              "largura": 4289.0,
+              "altura": 5248.381578947368
+            },
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": [],
+            "avisos": [],
+            "ampliacao": 0.14175798554441596
+          },
+          "margens": {
+            "margens_detectadas": {
+              "topo": 0,
+              "base": 0,
+              "esquerda": 0,
+              "direita": 0
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": []
+          },
+          "margens_detectadas": {
+            "topo": 0,
+            "base": 0,
+            "esquerda": 0,
+            "direita": 0
+          },
+          "faixas_descartadas": [],
+          "margens_visiveis": [],
+          "avisos": [],
+          "obra_pendente": false,
+          "arquivo_usado": "obras/antifonas/2026-12-18.jpg",
+          "nota_visual": {
+            "inspecionada": true,
+            "moises_central_inteiro": true,
+            "nota": "Capa e recorte-1.png finais conferidos individualmente. Moisés ajoelhado, no primeiro plano, permanece inteiro na extensão pintada, com rosto, mãos, veste, joelhos e pés preservados. A aparição divina à esquerda mantém o rosto e os gestos legíveis; a curva intercepta parte das chamas e das extremidades do manto. A segunda cena de Moisés à direita preserva rosto, mãos, pernas e o gesto de tirar a sandália, até os limites já presentes na pintura. Nenhuma margem fotográfica aparece. O enquadramento aprovado foi mantido para priorizar o encontro na sarça."
+          }
+        }
+      ]
+    },
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Antífonas do Ó",
+          "linhas": [
+            "Antífonas do Ó"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 220.28125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 220.28125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· sex, 18 dez",
+          "linhas": [
+            "· sex, 18 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 342.390625,
+              "y": 80,
+              "largura": 177.203125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 342.390625,
+            "y": 80,
+            "largura": 177.203125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "contagem",
+          "conteudo": "2/3",
+          "linhas": [
+            "2/3"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 947.453125,
+              "y": 80,
+              "largura": 52.546875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 947.453125,
+            "y": 80,
+            "largura": 52.546875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "rotulo",
+          "conteudo": "De onde vem",
+          "linhas": [
+            "De onde vem"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 444.25,
+              "y": 364.5,
+              "largura": 191.484375,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 444.25,
+            "y": 364.5,
+            "largura": 191.484375,
+            "altura": 40
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "versiculo",
+          "conteudo": "Eu sou aquele que sou.",
+          "linhas": [
+            "Eu sou aquele que sou."
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 325.046875,
+              "y": 453.5,
+              "largura": 429.90625,
+              "altura": 65
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "citacao",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 325.046875,
+            "y": 452.5,
+            "largura": 429.90625,
+            "altura": 68
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "500",
+          "tamanho_px": 54,
+          "entrelinha_px": 68,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "referencia",
+          "conteudo": "Ex 3,14",
+          "linhas": [
+            "Ex 3,14"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 484.734375,
+              "y": 552.5,
+              "largura": 110.53125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "referencia",
+          "cor": "#cfa956",
+          "caixa": {
+            "x": 484.734375,
+            "y": 552.5,
+            "largura": 110.53125,
+            "altura": 40
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.64,
+          "destaques": []
+        },
+        {
+          "campo": "texto",
+          "conteudo": "Na sarça ardente, Deus revelou seu nome a Moisés. Por respeito, Israel não o pronuncia: na leitura, diz Adonai, Senhor. É com esse título que a Igreja aclama Jesus: Jesus é o Senhor.",
+          "linhas": [
+            "Na sarça ardente, Deus revelou seu nome",
+            "a Moisés. Por respeito, Israel não o pronuncia:",
+            "na leitura, diz Adonai, Senhor. É com esse título",
+            "que a Igreja aclama Jesus: Jesus é o Senhor."
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 231.640625,
+              "y": 713.5,
+              "largura": 616.71875,
+              "altura": 41
+            },
+            {
+              "x": 199.671875,
+              "y": 763.5,
+              "largura": 680.65625,
+              "altura": 41
+            },
+            {
+              "x": 189.125,
+              "y": 813.5,
+              "largura": 701.734375,
+              "altura": 41
+            },
+            {
+              "x": 218.359375,
+              "y": 863.5,
+              "largura": 643.265625,
+              "altura": 41
+            }
+          ],
+          "quantidade_linhas": 4,
+          "estilo": "corpo",
+          "cor": "#f3eadb",
+          "caixa": {
+            "x": 160,
+            "y": 709.5,
+            "largura": 760,
+            "altura": 200
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 34,
+          "entrelinha_px": 50,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "fonte",
+          "conteudo": "Ex 3,2-15 · Catecismo da Igreja Católica, 209",
+          "linhas": [
+            "Ex 3,2-15 · Catecismo da Igreja Católica, 209"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 305.0625,
+              "y": 942.5,
+              "largura": 469.859375,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#bbad98",
+          "caixa": {
+            "x": 305.0625,
+            "y": 941.5,
+            "largura": 469.859375,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": null,
+        "obra": null,
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 439.59375,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": {
+          "x": 80,
+          "y": 364.5,
+          "largura": 920,
+          "altura": 609
+        },
+        "info_topo": {
+          "x": 947.453125,
+          "y": 80,
+          "largura": 52.546875,
+          "altura": 40
+        },
+        "ornamento": {
+          "x": 445,
+          "y": 640.5,
+          "largura": 190,
+          "altura": 21
+        },
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "linha_nichos": null
+      },
+      "card": 2,
+      "tipo": "raiz",
+      "modelo": "PostAntifona",
+      "tema": "capela",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "fundo",
+          "hex": "#16110d",
+          "background_hex": "#16110d",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "cor-do-dia",
+          "hex": "#ac8bc6",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 220.28125,
+          "height": 39,
+          "text": "Antífonas do Ó",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 342.390625,
+          "y": 80,
+          "width": 177.203125,
+          "height": 39,
+          "text": "· sex, 18 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 947.453125,
+          "y": 80,
+          "width": 52.546875,
+          "height": 40,
+          "text": "2/3",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "rotulo",
+          "kind": "text",
+          "x": 444.25,
+          "y": 364.5,
+          "width": 191.484375,
+          "height": 40,
+          "text": "De onde vem",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "versiculo",
+          "kind": "text",
+          "x": 325.046875,
+          "y": 452.5,
+          "width": 429.90625,
+          "height": 68,
+          "text": "Eu sou aquele que sou.",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "500",
+          "font_style": "italic",
+          "font_size_px": 54,
+          "line_height_px": 68,
+          "line_height_multiple": 1.259259,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "referencia",
+          "kind": "container",
+          "x": 484.734375,
+          "y": 552.5,
+          "width": 110.53125,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento",
+          "kind": "container",
+          "x": 445,
+          "y": 640.5,
+          "width": 190,
+          "height": 21,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento-filete-esquerdo",
+          "kind": "pseudo",
+          "pseudo": "::before",
+          "host": "ornamento",
+          "x": 445,
+          "y": 650,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "ouro",
+          "hex": "#cfa956",
+          "background_hex": "#cfa956",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
+        },
+        {
+          "element": "ornamento-filete-direito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "ornamento",
+          "x": 563,
+          "y": 650,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "ouro",
+          "hex": "#cfa956",
+          "background_hex": "#cfa956",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "texto",
+          "kind": "text",
+          "x": 160,
+          "y": 709.5,
+          "width": 760,
+          "height": 200,
+          "text": "Na sarça ardente, Deus revelou seu nome a Moisés. Por respeito, Israel não o pronuncia: na leitura, diz Adonai, Senhor. É com esse título que a Igreja aclama Jesus: Jesus é o Senhor.",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 34,
+          "line_height_px": 50,
+          "line_height_multiple": 1.470588,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta",
+          "hex": "#f3eadb",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "fonte",
+          "kind": "text",
+          "x": 305.0625,
+          "y": 941.5,
+          "width": 469.859375,
+          "height": 32,
+          "text": "Ex 3,2-15 · Catecismo da Igreja Católica, 209",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "tinta-suave",
+          "hex": "#bbad98",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-capela.svg",
+          "source": "kit/logos/logo-horizontal-capela.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#cfa956",
+              "token": "ouro",
+              "theme": "capela"
+            },
+            {
+              "hex": "#f3eadb",
+              "token": "tinta",
+              "theme": "capela"
+            }
+          ]
+        }
+      ],
+      "serie": "antifonas",
+      "data": "2026-12-18",
+      "cor": "roxo",
+      "numero": 2,
+      "total": 3,
+      "cartao_cor": false,
+      "conteudo": {
+        "rotulo": "De onde vem",
+        "versiculo": "Eu sou aquele que sou.",
+        "referencia": "Ex 3,14",
+        "texto": "Na sarça ardente, Deus revelou seu nome a Moisés. Por respeito, Israel não o pronuncia: na leitura, diz Adonai, Senhor. É com esse título que a Igreja aclama Jesus: Jesus é o Senhor.",
+        "fonte": "Ex 3,2-15 · Catecismo da Igreja Católica, 209",
+        "serie": "antifonas",
+        "modelo": "PostAntifona",
+        "data": "2026-12-18",
+        "cor": "roxo",
+        "tipo": "raiz",
+        "numero": 2,
+        "total": 3,
+        "cartao_cor": false,
+        "tema": "capela"
+      },
+      "nichos": [],
+      "figuras": [],
+      "cores": {
+        "fundo": "#16110d",
+        "cruz": "#ac8bc6",
+        "ornamento": "#cfa956"
+      },
+      "tema_dom": "capela",
+      "logo": "kit/logos/logo-horizontal-capela.svg",
+      "estilos_texto": {
+        "selo": "normal",
+        "data": "normal",
+        "contagem": "normal",
+        "rotulo": "normal",
+        "versiculo": "italic",
+        "referencia": "normal",
+        "texto": "normal",
+        "fonte": "normal"
+      },
+      "sem_quebra": [
+        {
+          "texto": "Ex 3,14",
+          "regra": "referencia",
+          "white_space": "nowrap",
+          "linhas": [
+            552.5
+          ]
+        },
+        {
+          "texto": "Ex 3,2-15",
+          "regra": "referencia",
+          "white_space": "nowrap",
+          "linhas": [
+            942.5
+          ]
+        }
+      ],
+      "distancias": {
+        "selo_texto_px": 244.5,
+        "texto_assinatura_px": 244.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "pagina": 2,
+      "arquivo": "card-2.png",
+      "obras": []
+    },
+    {
+      "textos": [
+        {
+          "campo": "selo",
+          "conteudo": "Antífonas do Ó",
+          "linhas": [
+            "Antífonas do Ó"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 114,
+              "y": 80,
+              "largura": 220.28125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 114,
+            "y": 80,
+            "largura": 220.28125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "data",
+          "conteudo": "· sex, 18 dez",
+          "linhas": [
+            "· sex, 18 dez"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 342.390625,
+              "y": 80,
+              "largura": 177.203125,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 342.390625,
+            "y": 80,
+            "largura": 177.203125,
+            "altura": 39
+          },
+          "alinhamento_canva": "start",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "contagem",
+          "conteudo": "3/3",
+          "linhas": [
+            "3/3"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 947.453125,
+              "y": 80,
+              "largura": 52.546875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 947.453125,
+            "y": 80,
+            "largura": 52.546875,
+            "altura": 40
+          },
+          "alinhamento_canva": "end",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "rotulo",
+          "conteudo": "Para rezar hoje",
+          "linhas": [
+            "Para rezar hoje"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 431.84375,
+              "y": 385.5,
+              "largura": 216.296875,
+              "altura": 39
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "selo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 431.84375,
+            "y": 385.5,
+            "largura": 216.296875,
+            "altura": 40
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "700",
+          "tamanho_px": 32,
+          "entrelinha_px": 40,
+          "tracking_px": 0.32,
+          "destaques": []
+        },
+        {
+          "campo": "antifona",
+          "conteudo": "Ó Adonai, guia da casa de Israel, que aparecestes a Moisés na sarça ardente e lhe destes vossa lei sobre o Sinai: vinde salvar-nos com o braço poderoso!",
+          "linhas": [
+            "Ó Adonai, guia da casa de Israel, que aparecestes",
+            "a Moisés na sarça ardente e lhe destes vossa lei",
+            "sobre o Sinai: vinde salvar-nos com o braço",
+            "poderoso!"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 123.15625,
+              "y": 477.5,
+              "largura": 833.671875,
+              "altura": 54
+            },
+            {
+              "x": 145.109375,
+              "y": 539.5,
+              "largura": 789.765625,
+              "altura": 54
+            },
+            {
+              "x": 171.234375,
+              "y": 601.5,
+              "largura": 737.515625,
+              "altura": 54
+            },
+            {
+              "x": 455.796875,
+              "y": 663.5,
+              "largura": 168.390625,
+              "altura": 54
+            }
+          ],
+          "quantidade_linhas": 4,
+          "estilo": "oracao",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 100,
+            "y": 473.5,
+            "largura": 880,
+            "altura": 248
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Cormorant Garamond",
+          "peso": "500",
+          "tamanho_px": 44,
+          "entrelinha_px": 62,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "fonte",
+          "conteudo": "Liturgia das Horas · Antífona do Magnificat, 18 de dezembro",
+          "linhas": [
+            "Liturgia das Horas · Antífona do Magnificat, 18 de dezembro"
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 224.640625,
+              "y": 754.5,
+              "largura": 630.703125,
+              "altura": 29
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "credito",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 224.640625,
+            "y": 753.5,
+            "largura": 630.703125,
+            "altura": 32
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 24,
+          "entrelinha_px": 32,
+          "tracking_px": 0,
+          "destaques": []
+        },
+        {
+          "campo": "convite",
+          "conteudo": "Amanhã, às 9h: Ó Raiz de Jessé.",
+          "linhas": [
+            "Amanhã, às 9h: Ó Raiz de Jessé."
+          ],
+          "caixas_das_linhas": [
+            {
+              "x": 303.375,
+              "y": 906.5,
+              "largura": 473.234375,
+              "altura": 41
+            }
+          ],
+          "quantidade_linhas": 1,
+          "estilo": "corpo",
+          "cor": "#faf6ee",
+          "caixa": {
+            "x": 303.375,
+            "y": 902.5,
+            "largura": 473.234375,
+            "altura": 50
+          },
+          "alinhamento_canva": "center",
+          "fonte": "Lato",
+          "peso": "400",
+          "tamanho_px": 34,
+          "entrelinha_px": 50,
+          "tracking_px": 0,
+          "destaques": []
+        }
+      ],
+      "caixas": {
+        "nicho": null,
+        "obra": null,
+        "logo": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "selo": {
+          "x": 80,
+          "y": 80,
+          "largura": 439.59375,
+          "altura": 40
+        },
+        "cruz": {
+          "x": 80,
+          "y": 85,
+          "largura": 18,
+          "altura": 30
+        },
+        "bloco_texto": {
+          "x": 80,
+          "y": 385.5,
+          "largura": 920,
+          "altura": 567
+        },
+        "info_topo": {
+          "x": 947.453125,
+          "y": 80,
+          "largura": 52.546875,
+          "altura": 40
+        },
+        "ornamento": {
+          "x": 445,
+          "y": 833.5,
+          "largura": 190,
+          "altura": 21
+        },
+        "assinatura": {
+          "x": 394.328125,
+          "y": 1218,
+          "largura": 291.328125,
+          "altura": 52
+        },
+        "linha_nichos": null
+      },
+      "card": 3,
+      "tipo": "oracao",
+      "modelo": "PostAntifona",
+      "tema": "pergaminho",
+      "largura": 1080,
+      "altura": 1350,
+      "elementos": [
+        {
+          "element": "arte-fundo",
+          "kind": "background",
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1350,
+          "text": null,
+          "arquivo": null,
+          "token": "cor-do-dia",
+          "hex": "#5b2e70",
+          "background_hex": "#5b2e70",
+          "measurement": "getBoundingClientRect"
+        },
+        {
+          "element": "topo",
+          "kind": "container",
+          "x": 80,
+          "y": 80,
+          "width": 920,
+          "height": 40,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-cruz",
+          "kind": "svg",
+          "x": 80,
+          "y": 85,
+          "width": 18,
+          "height": 30,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-serie",
+          "kind": "text",
+          "x": 114,
+          "y": 80,
+          "width": 220.28125,
+          "height": 39,
+          "text": "Antífonas do Ó",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-data",
+          "kind": "text",
+          "x": 342.390625,
+          "y": 80,
+          "width": 177.203125,
+          "height": 39,
+          "text": "· sex, 18 dez",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "selo-info",
+          "kind": "text",
+          "x": 947.453125,
+          "y": 80,
+          "width": 52.546875,
+          "height": 40,
+          "text": "3/3",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "rotulo",
+          "kind": "text",
+          "x": 431.84375,
+          "y": 385.5,
+          "width": 216.296875,
+          "height": 40,
+          "text": "Para rezar hoje",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "700",
+          "font_style": "normal",
+          "font_size_px": 32,
+          "line_height_px": 40,
+          "line_height_multiple": 1.25,
+          "letter_spacing_px": 0.32,
+          "letter_spacing_em": 0.01,
+          "letter_spacing_thousandths_em": 10,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "antifona",
+          "kind": "text",
+          "x": 100,
+          "y": 473.5,
+          "width": 880,
+          "height": 248,
+          "text": "Ó Adonai, guia da casa de Israel, que aparecestes a Moisés na sarça ardente e lhe destes vossa lei sobre o Sinai: vinde salvar-nos com o braço poderoso!",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Cormorant Garamond",
+          "font_weight": "500",
+          "font_style": "normal",
+          "font_size_px": 44,
+          "line_height_px": 62,
+          "line_height_multiple": 1.409091,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "fonte",
+          "kind": "text",
+          "x": 224.640625,
+          "y": 753.5,
+          "width": 630.703125,
+          "height": 32,
+          "text": "Liturgia das Horas · Antífona do Magnificat, 18 de dezembro",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 24,
+          "line_height_px": 32,
+          "line_height_multiple": 1.333333,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento",
+          "kind": "container",
+          "x": 445,
+          "y": 833.5,
+          "width": 190,
+          "height": 21,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "ornamento-filete-esquerdo",
+          "kind": "pseudo",
+          "pseudo": "::before",
+          "host": "ornamento",
+          "x": 445,
+          "y": 843,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": "#faf6ee",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::before) + host.getBoundingClientRect"
+        },
+        {
+          "element": "ornamento-filete-direito",
+          "kind": "pseudo",
+          "pseudo": "::after",
+          "host": "ornamento",
+          "x": 563,
+          "y": 843,
+          "width": 72,
+          "height": 2,
+          "text": null,
+          "arquivo": null,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": "#faf6ee",
+          "border_top_px": 0,
+          "border_right_px": 0,
+          "border_bottom_px": 0,
+          "border_left_px": 0,
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "measurement": "getComputedStyle(::after) + host.getBoundingClientRect"
+        },
+        {
+          "element": "convite",
+          "kind": "text",
+          "x": 303.375,
+          "y": 902.5,
+          "width": 473.234375,
+          "height": 50,
+          "text": "Amanhã, às 9h: Ó Raiz de Jessé.",
+          "arquivo": null,
+          "source": null,
+          "font_family": "Lato",
+          "font_weight": "400",
+          "font_style": "normal",
+          "font_size_px": 34,
+          "line_height_px": 50,
+          "line_height_multiple": 1.470588,
+          "letter_spacing_px": 0,
+          "letter_spacing_em": 0,
+          "letter_spacing_thousandths_em": 0,
+          "token": "sobre-cor",
+          "hex": "#faf6ee",
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "assinatura",
+          "kind": "container",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": null,
+          "source": null,
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "element": "logo",
+          "kind": "image",
+          "x": 394.328125,
+          "y": 1218,
+          "width": 291.328125,
+          "height": 52,
+          "text": null,
+          "arquivo": "kit/logos/logo-horizontal-sobre-cor.svg",
+          "source": "kit/logos/logo-horizontal-sobre-cor.svg",
+          "font_family": null,
+          "font_weight": null,
+          "font_style": null,
+          "font_size_px": null,
+          "line_height_px": null,
+          "line_height_multiple": null,
+          "letter_spacing_px": null,
+          "letter_spacing_em": null,
+          "letter_spacing_thousandths_em": null,
+          "token": null,
+          "hex": null,
+          "background_hex": null,
+          "measurement": "getBoundingClientRect",
+          "border_radius_px": {
+            "top_left": [
+              0,
+              0
+            ],
+            "top_right": [
+              0,
+              0
+            ],
+            "bottom_right": [
+              0,
+              0
+            ],
+            "bottom_left": [
+              0,
+              0
+            ]
+          },
+          "source_width_px": 2510,
+          "source_height_px": 448,
+          "object_fit": "fill",
+          "object_position": "50% 50%",
+          "svg_colors": [
+            {
+              "hex": "#faf6ee",
+              "token": "papel",
+              "theme": "pergaminho"
+            }
+          ]
+        }
+      ],
+      "serie": "antifonas",
+      "data": "2026-12-18",
+      "cor": "roxo",
+      "numero": 3,
+      "total": 3,
+      "cartao_cor": true,
+      "conteudo": {
+        "rotulo": "Para rezar hoje",
+        "antifona": "Ó Adonai, guia da casa de Israel, que aparecestes a Moisés na sarça ardente e lhe destes vossa lei sobre o Sinai: vinde salvar-nos com o braço poderoso!",
+        "fonte": "Liturgia das Horas · Antífona do Magnificat, 18 de dezembro",
+        "convite": "Amanhã, às 9h: Ó Raiz de Jessé.",
+        "serie": "antifonas",
+        "modelo": "PostAntifona",
+        "data": "2026-12-18",
+        "cor": "roxo",
+        "tipo": "oracao",
+        "numero": 3,
+        "total": 3,
+        "cartao_cor": true,
+        "tema": "pergaminho"
+      },
+      "nichos": [],
+      "figuras": [],
+      "cores": {
+        "fundo": "#5b2e70",
+        "cruz": "#faf6ee",
+        "ornamento": "#faf6ee"
+      },
+      "tema_dom": "pergaminho",
+      "logo": "kit/logos/logo-horizontal-sobre-cor.svg",
+      "estilos_texto": {
+        "selo": "normal",
+        "data": "normal",
+        "contagem": "normal",
+        "rotulo": "normal",
+        "antifona": "normal",
+        "fonte": "normal",
+        "convite": "normal"
+      },
+      "sem_quebra": [
+        {
+          "texto": "salvar-nos",
+          "regra": "hifen",
+          "white_space": "nowrap",
+          "linhas": [
+            601.5
+          ]
+        }
+      ],
+      "distancias": {
+        "selo_texto_px": 265.5,
+        "texto_assinatura_px": 265.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "pagina": 3,
+      "arquivo": "card-3.png",
+      "obras": []
+    }
+  ],
+  "obras": [
+    {
+      "arquivo": "obras/antifonas/2026-12-18.jpg",
+      "credito": "Dieric Bouts (atrib.) · Moisés e a sarça ardente · Philadelphia Museum of Art",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Attributed_to_Dierick_Bouts_the_Elder,_Netherlandish_(active_Louvain),_first_securely_documented_1447,_died_1475_-_Moses_and_the_Burning_Bush,_with_Moses_Removing_His_Shoes_-_Google_Art_Project.jpg",
+      "foco": "40% 50%",
+      "zoom": 1,
+      "card": 1,
+      "indice": 1,
+      "janela_original": {
+        "x": 0.0,
+        "y": 46.30921052631584,
+        "largura": 4289.0,
+        "altura": 5248.381578947368
+      },
+      "ampliacao": 0.14175798554441596,
+      "arquivo_recortado": "saida/antifonas/2026-12-18/obra-1.jpg",
+      "prova_recorte": "saida/antifonas/2026-12-18/recorte-1.png",
+      "tamanho_recortado": [
+        1216,
+        1488
+      ],
+      "geometria": {
+        "foco": "40% 50%",
+        "zoom": 1.0,
+        "imagem_original": {
+          "largura": 4289,
+          "altura": 5341
+        },
+        "nicho": {
+          "largura": 640,
+          "altura": 760
+        },
+        "area_interna": {
+          "largura": 608,
+          "altura": 744
+        },
+        "escala_cover": 0.14175798554441596,
+        "escala_com_zoom": 0.14175798554441596,
+        "janela_original": {
+          "x": 0.0,
+          "y": 46.30921052631584,
+          "largura": 4289.0,
+          "altura": 5248.381578947368
+        },
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": [],
+        "avisos": [],
+        "ampliacao": 0.14175798554441596
+      },
+      "margens": {
+        "margens_detectadas": {
+          "topo": 0,
+          "base": 0,
+          "esquerda": 0,
+          "direita": 0
+        },
+        "faixas_descartadas": [],
+        "margens_visiveis": []
+      },
+      "margens_detectadas": {
+        "topo": 0,
+        "base": 0,
+        "esquerda": 0,
+        "direita": 0
+      },
+      "faixas_descartadas": [],
+      "margens_visiveis": [],
+      "avisos": [],
+      "obra_pendente": false,
+      "arquivo_usado": "obras/antifonas/2026-12-18.jpg",
+      "nota_visual": {
+        "inspecionada": true,
+        "moises_central_inteiro": true,
+        "nota": "Capa e recorte-1.png finais conferidos individualmente. Moisés ajoelhado, no primeiro plano, permanece inteiro na extensão pintada, com rosto, mãos, veste, joelhos e pés preservados. A aparição divina à esquerda mantém o rosto e os gestos legíveis; a curva intercepta parte das chamas e das extremidades do manto. A segunda cena de Moisés à direita preserva rosto, mãos, pernas e o gesto de tirar a sandália, até os limites já presentes na pintura. Nenhuma margem fotográfica aparece. O enquadramento aprovado foi mantido para priorizar o encontro na sarça."
+      }
+    }
+  ],
+  "avisos": [],
+  "tabela_medida": [
+    {
+      "data": "2026-12-18",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-18",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 1,
+        "referencia": 1,
+        "texto": 4,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 244.5,
+        "texto_assinatura_px": 244.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 1,
+          "referencia": 1,
+          "texto": 4,
+          "fonte": 1
+        },
+        "folga_px": 244.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-18",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "antifona": 4,
+        "fonte": 1,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 265.5,
+        "texto_assinatura_px": 265.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "antifona": 4,
+          "fonte": 1,
+          "convite": 1
+        },
+        "folga_px": 265.5
+      },
+      "diferencas_tabela": []
+    }
+  ],
+  "obra_pendente": false
+}

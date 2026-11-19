@@ -1,0 +1,52 @@
+{
+  "terco-2026-12-12": {
+    "inspecionada": true,
+    "rostos_preservados": true,
+    "maos_e_terco_preservados": true,
+    "menino_preservado": true,
+    "margem_fotografica_visivel": false,
+    "nota": "Story final e recorte-terco-2026-12-12.png conferidos individualmente. Os rostos de Maria e do Menino, os braços e as mãos, o terço e os pés visíveis do Menino ficam dentro do arco. A curva passa acima dos cabelos e não corta esses elementos. A base recorta a extensão inferior do manto e do assento de Maria; portanto não se afirma que a pintura inteira esteja contida. A faixa escura inferior foi descartada pelo detector como parte da pintura, e não há margem fotográfica visível. O foco 50% 35% e o zoom 1.15 aprovados foram mantidos."
+  },
+  "chave-de-davi-1": {
+    "inspecionada": true,
+    "rostos_e_gestos_preservados": true,
+    "margem_fotografica_visivel": false,
+    "nota": "Story final e recorte-chave-de-davi-1.png conferidos individualmente. Cristo e Adão preservam os rostos, as mãos que se encontram, as vestes e os pés na extensão em que aparecem na pintura. A porta derrubada também permanece legível. A parte superior do estandarte e da cruz e alguns personagens do grupo à esquerda ficam parciais ou fora do arco; o demônio e boa parte da arquitetura lateral do original são excluídos. O recorte prioriza o encontro de Cristo com Adão e não contém toda a cena. A faixa superior foi descartada pelo detector; nenhuma margem fotográfica fica visível. Foco 91% 90% e zoom 1.36 mantidos."
+  },
+  "chave-de-davi-2": {
+    "inspecionada": true,
+    "rostos_e_gestos_preservados": true,
+    "margem_fotografica_visivel": false,
+    "nota": "O segundo story e recorte-chave-de-davi-2.png foram conferidos individualmente. A obra usa o mesmo enquadramento do primeiro: os rostos, o gesto de Cristo que liberta Adão, as vestes e os pés visíveis e a porta derrubada ficam preservados. O alto do estandarte e da cruz e os personagens periféricos à esquerda continuam parciais ou fora; a cena inteira não cabe nesse detalhe. Nenhuma margem fotográfica visível. O foco 91% 90% e o zoom 1.36 foram mantidos, iguais aos do primeiro story."
+  },
+  "comece-aqui-1": {
+    "inspecionada": true,
+    "rostos_e_gestos_preservados": true,
+    "margem_fotografica_visivel": true,
+    "nota": "Story final e recorte-comece-aqui-1.png conferidos individualmente. Os rostos de Maria, do Menino e de São Lucas, as mãos, o gesto de desenhar e os pés visíveis do Menino ficam dentro do arco. A curva recorta o dossel e a arquitetura superior, sem atingir esses protagonistas. O detector registra 5 px de margem fotográfica à direita, incluídos no limite vertical da janela e percebidos como uma faixa escura muito fina junto à direita; a margem de 4 px na base fica fora da janela. O enquadramento aprovado 50% 60%, zoom 1 foi preservado.",
+    "sugestao": {
+      "foco": "50% 60%",
+      "zoom": 1.01,
+      "janela_original": {
+        "x": 9.608910891089181,
+        "y": 52.044707851066775,
+        "largura": 1921.7821782178216,
+        "altura": 2314.258820248222
+      },
+      "margens_visiveis": [],
+      "nota": "Alternativa renderizada e inspecionada somente em work: zoom 1.01, mantendo o foco 50% 60%, exclui a margem fotográfica detectada e preserva os três rostos, as mãos, o gesto de desenhar e o Menino. O recorte fica discretamente mais fechado na arquitetura e nos extremos dos mantos; não é uma proposta para incluir a pintura inteira. O detector fica com margens_visiveis vazias. Sugestão apenas no relatório; o YAML e os PNGs/PDFs publicados permanecem com o enquadramento aprovado."
+    }
+  },
+  "comece-aqui-2": {
+    "inspecionada": true,
+    "figuras_principais_inteiras": true,
+    "margem_fotografica_visivel": false,
+    "nota": "Story final e recorte-comece-aqui-2.png conferidos individualmente. Os dois camponeses ficam inteiros na extensão pintada, com cabeças, mãos em oração, vestes e pés preservados dentro do arco. A igreja ao fundo permanece reconhecível. O arco exclui partes laterais do campo e das ferramentas, sem cortar os protagonistas; a iluminação escura dos rostos é a do original. Nenhuma margem fotográfica detectada ou vista. Mantido foco 50% 50%, zoom 1."
+  },
+  "comece-aqui-3": {
+    "inspecionada": true,
+    "rostos_e_gestos_preservados": true,
+    "margem_fotografica_visivel": false,
+    "nota": "Story final e recorte-comece-aqui-3.png conferidos individualmente. Os rostos de Cristo, Marta e Maria, as mãos e os gestos centrais, o cesto com o pão e os pés visíveis de Maria ficam dentro do arco. A lateral direita recorta parte do manto de Cristo e da cadeira, e a curva limita o fundo superior; não se afirma que todos os corpos ou a composição inteira estejam integralmente visíveis. Partes encobertas pela mesa e pelas vestes já são assim no original. Nenhuma margem fotográfica detectada ou vista. Foco 40% 45%, zoom 1 mantidos."
+  }
+}

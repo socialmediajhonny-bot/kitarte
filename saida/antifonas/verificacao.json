@@ -1,0 +1,6797 @@
+{
+  "serie": "antifonas",
+  "kit": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "kit_final": {
+    "ok": true,
+    "version": 4,
+    "final_nicho": true,
+    "baseline": "git HEAD:kit-arte-que-reza.zip",
+    "count": 44,
+    "logo_count": 11,
+    "missing": [],
+    "modified": [],
+    "extra": [],
+    "errors": []
+  },
+  "elementos": {
+    "ok": true,
+    "svgs": []
+  },
+  "dias": {
+    "2026-12-17": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 98
+            },
+            "limites": {
+              "selo": 1,
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 98
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "info",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/antifonas/2026-12-17/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        913
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "raiz",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 210.5,
+              "texto_assinatura_px": 210.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_versiculo_px": 48.0,
+              "versiculo_referencia_px": 32.0,
+              "referencia_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "versiculo": 3,
+              "referencia": 1,
+              "texto": 5,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "versiculo": 2,
+                "referencia": 1,
+                "texto": 4,
+                "fonte": 1
+              },
+              "folga_px": 210.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  685
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "versiculo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "referencia",
+                "cor_em_pixel": [
+                  207,
+                  169,
+                  86
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 265.5,
+              "texto_assinatura_px": 265.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_antifona_px": 48.0,
+              "antifona_fonte_px": 32.0,
+              "fonte_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "antifona": 5,
+              "fonte": 1,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "antifona": 4,
+                "fonte": 1,
+                "convite": 1
+              },
+              "folga_px": 265.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  844
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "antifona",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "info",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "versiculo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "referencia",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "antifona",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19348
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11352
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21004
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 30560
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9652
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20220
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 26960
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21224
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     63  0\n",
+        "pdftotext": "Antífonas do Ó · qui, 17 dez 1ª de 7\nAuvergne, séc. XII · Virgem com o Menino em majestade · The Met, Nova York\nÓ Sabedoria\n\fAntífonas do Ó · qui, 17 dez 2/3\nDe onde vem\nSaí da boca do Altíssimo;\nnasci antes de toda criatura.\nEclo 24,5\nDe 17 a 23 de dezembro, as Vésperas cantam\nsete antífonas que chamam Cristo por nomes do\nAntigo Testamento. A primeira é Sabedoria, que\nsaiu da boca de Deus e governa todas as coisas.\nLiturgia das Horas · Eclo 24,5 · Sb 8,1\n\fAntífonas do Ó · qui, 17 dez 3/3\nPara rezar hoje\nÓ Sabedoria, que saístes da boca do Altíssimo,\ne atingis até os confins de todo o universo e com\nforça e suavidade governais o mundo inteiro: oh\nvinde ensinar-nos o caminho da prudência!\nLiturgia das Horas · Antífona do Magnificat, 17 de dezembro\nAmanhã, às 9h: Ó Adonai.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/antifonas/2026-12-17/antifonas-2026-12-17.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                684.0,
+                681.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "2026-12-18": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 98
+            },
+            "limites": {
+              "selo": 1,
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 98
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "info",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/antifonas/2026-12-18/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        913
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "raiz",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 244.5,
+              "texto_assinatura_px": 244.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_versiculo_px": 48.0,
+              "versiculo_referencia_px": 32.0,
+              "referencia_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "versiculo": 3,
+              "referencia": 1,
+              "texto": 5,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "versiculo": 1,
+                "referencia": 1,
+                "texto": 4,
+                "fonte": 1
+              },
+              "folga_px": 244.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  651
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "versiculo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "referencia",
+                "cor_em_pixel": [
+                  207,
+                  169,
+                  86
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 265.5,
+              "texto_assinatura_px": 265.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_antifona_px": 48.0,
+              "antifona_fonte_px": 32.0,
+              "fonte_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "antifona": 5,
+              "fonte": 1,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "antifona": 4,
+                "fonte": 1,
+                "convite": 1
+              },
+              "folga_px": 265.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  844
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "antifona",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "info",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "versiculo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "referencia",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "antifona",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 27524
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11012
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20024
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 25408
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 7268
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20220
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 27904
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16436
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     63  0\n",
+        "pdftotext": "Antífonas do Ó · sex, 18 dez 2ª de 7\nDieric Bouts (atrib.) · Moisés e a sarça ardente · Philadelphia Museum of Art\nÓ Adonai\n\fAntífonas do Ó · sex, 18 dez 2/3\nDe onde vem\nEu sou aquele que sou.\nEx 3,14\nNa sarça ardente, Deus revelou seu nome\na Moisés. Por respeito, Israel não o pronuncia:\nna leitura, diz Adonai, Senhor. É com esse título\nque a Igreja aclama Jesus: Jesus é o Senhor.\nEx 3,2-15 · Catecismo da Igreja Católica, 209\n\fAntífonas do Ó · sex, 18 dez 3/3\nPara rezar hoje\nÓ Adonai, guia da casa de Israel, que aparecestes\na Moisés na sarça ardente e lhe destes vossa lei\nsobre o Sinai: vinde salvar-nos com o braço\npoderoso!\nLiturgia das Horas · Antífona do Magnificat, 18 de dezembro\nAmanhã, às 9h: Ó Raiz de Jessé.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/antifonas/2026-12-18/antifonas-2026-12-18.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                684.0,
+                681.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "2026-12-19": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 98
+            },
+            "limites": {
+              "selo": 1,
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 98
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "info",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/antifonas/2026-12-19/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        913
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "raiz",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 210.5,
+              "texto_assinatura_px": 210.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_versiculo_px": 48.0,
+              "versiculo_referencia_px": 32.0,
+              "referencia_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "versiculo": 3,
+              "referencia": 1,
+              "texto": 5,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "versiculo": 2,
+                "referencia": 1,
+                "texto": 4,
+                "fonte": 1
+              },
+              "folga_px": 210.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  685
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "versiculo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "referencia",
+                "cor_em_pixel": [
+                  207,
+                  169,
+                  86
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 265.5,
+              "texto_assinatura_px": 265.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_antifona_px": 48.0,
+              "antifona_fonte_px": 32.0,
+              "fonte_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "antifona": 5,
+              "fonte": 1,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "antifona": 4,
+                "fonte": 1,
+                "convite": 1
+              },
+              "folga_px": 265.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  844
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "antifona",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "info",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "versiculo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "referencia",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "antifona",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20080
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12160
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18600
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 30788
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10848
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20220
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 27140
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16368
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     63  0\n",
+        "pdftotext": "Antífonas do Ó · sáb, 19 dez 3ª de 7\nVitral alemão, séc. XIII · A Árvore de Jessé · The Met, Nova York\nÓ Raiz de Jessé\n\fAntífonas do Ó · sáb, 19 dez 2/3\nDe onde vem\nUm renovo sairá do tronco de Jessé,\ne um rebento brotará de suas raízes.\nIs 11,1\nJessé era o pai do rei Davi. Isaías anuncia\nque da sua raiz brotaria um rebento, posto\ncomo estandarte para os povos. São Paulo\nlê a profecia como anúncio de Cristo.\nIs 11,1.10 · Mt 1,5-6 · Rm 15,12\n\fAntífonas do Ó · sáb, 19 dez 3/3\nPara rezar hoje\nÓ Raiz de Jessé, ó estandarte, levantado em sinal\npara as nações! Ante vós se calarão os reis da terra,\ne as nações implorarão misericórdia: Vinde\nsalvar-nos! Libertai-nos sem demora!\nLiturgia das Horas · Antífona do Magnificat, 19 de dezembro\nDomingo, nos Stories: Ó Chave de Davi.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/antifonas/2026-12-19/antifonas-2026-12-19.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                684.0,
+                681.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "2026-12-21": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 98
+            },
+            "limites": {
+              "selo": 1,
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 98
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "info",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/antifonas/2026-12-21/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        913
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "raiz",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 176.5,
+              "texto_assinatura_px": 176.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_versiculo_px": 48.0,
+              "versiculo_referencia_px": 32.0,
+              "referencia_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "versiculo": 3,
+              "referencia": 1,
+              "texto": 5,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "versiculo": 3,
+                "referencia": 1,
+                "texto": 4,
+                "fonte": 1
+              },
+              "folga_px": 176.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  719
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "versiculo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "referencia",
+                "cor_em_pixel": [
+                  207,
+                  169,
+                  86
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 265.5,
+              "texto_assinatura_px": 265.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_antifona_px": 48.0,
+              "antifona_fonte_px": 32.0,
+              "fonte_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "antifona": 5,
+              "fonte": 1,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "antifona": 4,
+                "fonte": 1,
+                "convite": 1
+              },
+              "folga_px": 265.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  844
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "antifona",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "info",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "versiculo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "referencia",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "antifona",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18996
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10968
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20664
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 31140
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10952
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20220
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 27448
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14772
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     63  0\n",
+        "pdftotext": "Antífonas do Ó · seg, 21 dez 5ª de 7\nCorreggio · A Noite Santa · Gemäldegalerie Alte Meister, Dresden\nÓ Sol nascente\n\fAntífonas do Ó · seg, 21 dez 2/3\nDe onde vem\nA visita do Sol nascente, que há\nde iluminar os que jazem nas\ntrevas e na sombra da morte.\nLc 1,78-79\nQuando nasce João Batista, seu pai, Zacarias,\nbendiz a Deus e anuncia o Sol que vem do\nalto. O profeta Malaquias já falava do sol de\njustiça, que traz a salvação em seus raios.\nLc 1,67-79 · Ml 3,20\n\fAntífonas do Ó · seg, 21 dez 3/3\nPara rezar hoje\nÓ Sol nascente justiceiro, resplendor da Luz\neterna: Oh, vinde e iluminai os que jazem entre as\ntrevas e, na sombra do pecado e da morte, estão\nsentados.\nLiturgia das Horas · Antífona do Magnificat, 21 de dezembro\nAmanhã, às 9h: Ó Rei das nações.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/antifonas/2026-12-21/antifonas-2026-12-21.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                684.0,
+                681.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "2026-12-22": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 98
+            },
+            "limites": {
+              "selo": 1,
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 98
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "info",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/antifonas/2026-12-22/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        913
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "raiz",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 210.5,
+              "texto_assinatura_px": 210.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_versiculo_px": 48.0,
+              "versiculo_referencia_px": 32.0,
+              "referencia_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "versiculo": 3,
+              "referencia": 1,
+              "texto": 5,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "versiculo": 2,
+                "referencia": 1,
+                "texto": 4,
+                "fonte": 1
+              },
+              "folga_px": 210.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  685
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "versiculo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "referencia",
+                "cor_em_pixel": [
+                  207,
+                  169,
+                  86
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 265.5,
+              "texto_assinatura_px": 265.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_antifona_px": 48.0,
+              "antifona_fonte_px": 32.0,
+              "fonte_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "antifona": 5,
+              "fonte": 1,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "antifona": 4,
+                "fonte": 1,
+                "convite": 1
+              },
+              "folga_px": 265.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  844
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "antifona",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "info",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "versiculo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "referencia",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "antifona",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18140
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12032
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19412
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 30304
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12968
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20220
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 27580
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 22968
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     63  0\n",
+        "pdftotext": "Antífonas do Ó · ter, 22 dez 6ª de 7\nQuentin Metsys · Salvator Mundi · Museo Correr, Veneza\nÓ Rei das nações\n\fAntífonas do Ó · ter, 22 dez 2/3\nDe onde vem\nPorque é ele a nossa paz, ele\nque de dois povos fez um só.\nEf 2,14\nJeremias chama Deus de rei dos povos. São\nPaulo vê em Cristo a pedra angular, que de\ndois povos fez um só. A antífona lembra\nainda o barro de que Deus formou o homem.\nJr 10,7 · Ef 2,14.20 · Gn 2,7\n\fAntífonas do Ó · ter, 22 dez 3/3\nPara rezar hoje\nÓ Rei das nações, Desejado dos povos; ó Pedra\nangular, que os opostos unis: Oh, vinde e salvai este\nhomem tão frágil, que um dia criastes do barro da\nterra!\nLiturgia das Horas · Antífona do Magnificat, 22 de dezembro\nAmanhã, às 9h: Ó Emanuel.\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/antifonas/2026-12-22/antifonas-2026-12-22.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                684.0,
+                681.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "2026-12-23": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_assinatura_px": 98
+            },
+            "limites": {
+              "selo": 1,
+              "credito": 1,
+              "titulo": 1
+            },
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1
+              },
+              "selo_nicho_px": 32,
+              "titulo_assinatura_px": 98
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "info",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "credito",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "titulo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/antifonas/2026-12-23/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho-1",
+                  "ok": true,
+                  "outer_radius": 320.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        236,
+                        168
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        221,
+                        492
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        200,
+                        913
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        314,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        310,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        765,
+                        246
+                      ],
+                      "expected_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "actual_rgb": [
+                        172,
+                        139,
+                        198
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        769,
+                        242
+                      ],
+                      "expected_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "actual_rgb": [
+                        22,
+                        17,
+                        13
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "raiz",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 210.5,
+              "texto_assinatura_px": 210.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_versiculo_px": 48.0,
+              "versiculo_referencia_px": 32.0,
+              "referencia_ornamento_px": 48.0,
+              "ornamento_texto_px": 48.0,
+              "texto_fonte_px": 32.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "versiculo": 3,
+              "referencia": 1,
+              "texto": 5,
+              "fonte": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "versiculo": 2,
+                "referencia": 1,
+                "texto": 4,
+                "fonte": 1
+              },
+              "folga_px": 210.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  22,
+                  17,
+                  13
+                ],
+                "esperado": "#16110d",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  172,
+                  139,
+                  198
+                ],
+                "esperado": "#ac8bc6",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  685
+                ],
+                "rgb": [
+                  207,
+                  169,
+                  86
+                ],
+                "esperado": "#cfa956",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "versiculo",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "referencia",
+                "cor_em_pixel": [
+                  207,
+                  169,
+                  86
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "texto",
+                "cor_em_pixel": [
+                  243,
+                  234,
+                  219
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  187,
+                  173,
+                  152
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 296.5,
+              "texto_assinatura_px": 296.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_antifona_px": 48.0,
+              "antifona_fonte_px": 32.0,
+              "fonte_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "selo": 1,
+              "rotulo": 1,
+              "antifona": 5,
+              "fonte": 1,
+              "convite": 1
+            },
+            "esperado": {
+              "linhas": {
+                "rotulo": 1,
+                "antifona": 3,
+                "fonte": 1,
+                "convite": 1
+              },
+              "folga_px": 296.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "ornamento",
+                "pixel": [
+                  540,
+                  813
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              },
+              {
+                "elemento": "selo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "data",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "contagem",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "rotulo",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "antifona",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "fonte",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              },
+              {
+                "elemento": "convite",
+                "cor_em_pixel": [
+                  250,
+                  246,
+                  238
+                ],
+                "presente": true,
+                "ok": true
+              }
+            ],
+            "nichos": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "info",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "credito",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "titulo",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "versiculo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "referencia",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "texto",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              }
+            ]
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_com_espacos": true,
+            "dimensoes_ok": true,
+            "campos": [
+              {
+                "campo": "selo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "data",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "contagem",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "rotulo",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "antifona",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "fonte",
+                "texto_igual_yaml": true
+              },
+              {
+                "campo": "convite",
+                "texto_igual_yaml": true
+              }
+            ]
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17008
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 25400
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10768
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19196
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 26748
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12420
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20220
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 28440
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 16920
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     63  0\n",
+        "pdftotext": "Antífonas do Ó · qua, 23 dez 7ª de 7\nRafael · A Pequena Madona Cowper · National Gallery of Art, Washington\nÓ Emanuel\n\fAntífonas do Ó · qua, 23 dez 2/3\nDe onde vem\nUma virgem conceberá e dará à luz\num filho, e o chamará ‘Deus Conosco’.\nIs 7,14\nIsaías anunciou o sinal, e São Mateus\no viu cumprido no nascimento de Jesus:\nEmanuel quer dizer Deus conosco.\nÉ a última antífona antes do Natal.\nIs 7,14 · Mt 1,22-23\n\fAntífonas do Ó · qua, 23 dez 3/3\nPara rezar hoje\nÓ Emanuel: Deus-conosco, nosso Rei Legislador,\nEsperança das nações e dos povos Salvador: Vinde\nenfim para salvar-nos, ó Senhor e nosso Deus!\nLiturgia das Horas · Antífona do Magnificat, 23 de dezembro\nAmanhã é véspera de Natal. Vinde, Senhor Jesus!\n\f",
+        "pdftotext_modo": "raw",
+        "texto_igual_yaml_com_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/antifonas/2026-12-23/antifonas-2026-12-23.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#ac8bc6",
+              "caixa_nicho_pt": [
+                165.0,
+                114.0,
+                645.0,
+                684.0
+              ],
+              "caixa_parapeito_pt": [
+                129.0,
+                684.0,
+                681.0,
+                686.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    }
+  },
+  "pngs": {
+    "ok": true,
+    "count": 25,
+    "files": [
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-17/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-17/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-17/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-17/recorte-1.png",
+        "expected": [
+          1080,
+          1080
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1080
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-18/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-18/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-18/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-18/recorte-1.png",
+        "expected": [
+          1080,
+          1345
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1345
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-19/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-19/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-19/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-19/recorte-1.png",
+        "expected": [
+          1080,
+          909
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          909
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-21/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-21/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-21/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-21/recorte-1.png",
+        "expected": [
+          1080,
+          1472
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1472
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-22/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-22/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-22/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-22/recorte-1.png",
+        "expected": [
+          1080,
+          1474
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1474
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-23/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-23/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-23/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/2026-12-23/recorte-1.png",
+        "expected": [
+          1080,
+          1454
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1454
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/antifonas/prancha.png",
+        "expected": [
+          1192,
+          3212
+        ],
+        "ok": true,
+        "actual": [
+          1192,
+          3212
+        ],
+        "format": "PNG"
+      }
+    ],
+    "errors": []
+  },
+  "browser": {
+    "ok": true,
+    "errors": [],
+    "fontes_locais_por_render": 6,
+    "recursos_externos": false
+  },
+  "obras_pendentes": [],
+  "avisos": [],
+  "tabela_medida": [
+    {
+      "data": "2026-12-17",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-17",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 2,
+        "referencia": 1,
+        "texto": 4,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 210.5,
+        "texto_assinatura_px": 210.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 2,
+          "referencia": 1,
+          "texto": 4,
+          "fonte": 1
+        },
+        "folga_px": 210.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-17",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "antifona": 4,
+        "fonte": 1,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 265.5,
+        "texto_assinatura_px": 265.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "antifona": 4,
+          "fonte": 1,
+          "convite": 1
+        },
+        "folga_px": 265.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-18",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-18",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 1,
+        "referencia": 1,
+        "texto": 4,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 244.5,
+        "texto_assinatura_px": 244.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 1,
+          "referencia": 1,
+          "texto": 4,
+          "fonte": 1
+        },
+        "folga_px": 244.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-18",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "antifona": 4,
+        "fonte": 1,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 265.5,
+        "texto_assinatura_px": 265.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "antifona": 4,
+          "fonte": 1,
+          "convite": 1
+        },
+        "folga_px": 265.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-19",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-19",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 2,
+        "referencia": 1,
+        "texto": 4,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 210.5,
+        "texto_assinatura_px": 210.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 2,
+          "referencia": 1,
+          "texto": 4,
+          "fonte": 1
+        },
+        "folga_px": 210.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-19",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "antifona": 4,
+        "fonte": 1,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 265.5,
+        "texto_assinatura_px": 265.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "antifona": 4,
+          "fonte": 1,
+          "convite": 1
+        },
+        "folga_px": 265.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-21",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-21",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 3,
+        "referencia": 1,
+        "texto": 4,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 176.5,
+        "texto_assinatura_px": 176.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 3,
+          "referencia": 1,
+          "texto": 4,
+          "fonte": 1
+        },
+        "folga_px": 176.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-21",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "antifona": 4,
+        "fonte": 1,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 265.5,
+        "texto_assinatura_px": 265.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "antifona": 4,
+          "fonte": 1,
+          "convite": 1
+        },
+        "folga_px": 265.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-22",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-22",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 2,
+        "referencia": 1,
+        "texto": 4,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 210.5,
+        "texto_assinatura_px": 210.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 2,
+          "referencia": 1,
+          "texto": 4,
+          "fonte": 1
+        },
+        "folga_px": 210.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-22",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "antifona": 4,
+        "fonte": 1,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 265.5,
+        "texto_assinatura_px": 265.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "antifona": 4,
+          "fonte": 1,
+          "convite": 1
+        },
+        "folga_px": 265.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-23",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_assinatura_px": 98
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1
+        },
+        "selo_nicho_px": 32,
+        "titulo_assinatura_px": 98
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-23",
+      "card": 2,
+      "tipo": "raiz",
+      "linhas": {
+        "rotulo": 1,
+        "versiculo": 2,
+        "referencia": 1,
+        "texto": 4,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 210.5,
+        "texto_assinatura_px": 210.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_versiculo_px": 48.0,
+        "versiculo_referencia_px": 32.0,
+        "referencia_ornamento_px": 48.0,
+        "ornamento_texto_px": 48.0,
+        "texto_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "versiculo": 2,
+          "referencia": 1,
+          "texto": 4,
+          "fonte": 1
+        },
+        "folga_px": 210.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-23",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "rotulo": 1,
+        "antifona": 3,
+        "fonte": 1,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 296.5,
+        "texto_assinatura_px": 296.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_antifona_px": 48.0,
+        "antifona_fonte_px": 32.0,
+        "fonte_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "rotulo": 1,
+          "antifona": 3,
+          "fonte": 1,
+          "convite": 1
+        },
+        "folga_px": 296.5
+      },
+      "diferencas_tabela": []
+    }
+  ],
+  "ok": true,
+  "comando": "python3 gerar.py antifonas"
+}

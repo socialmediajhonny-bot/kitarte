@@ -2684,11 +2684,2075 @@
         },
         "errors": []
       }
+    },
+    "2026-12-20": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_apoio_px": 32,
+              "apoio_assinatura_px": 116
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1,
+                "apoio": 1
+              },
+              "selo_nicho_px": 32,
+              "apoio_assinatura_px": 116
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/igreja-domestica/2026-12-20/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        168
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "actual_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        472
+                      ],
+                      "expected_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "actual_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        833
+                      ],
+                      "expected_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "actual_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        240
+                      ],
+                      "expected_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "actual_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        237
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "actual_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        240
+                      ],
+                      "expected_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "actual_rgb": [
+                        91,
+                        46,
+                        112
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        237
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "passos",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 194.5,
+              "texto_assinatura_px": 194.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_linha_item_1_px": 48.0,
+              "linha_item_1_linha_item_2_px": 32.0,
+              "linha_item_2_linha_item_3_px": 32.0,
+              "linha_item_3_fonte_px": 32.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "item_1": 3,
+              "item_2": 3,
+              "item_3": 3
+            },
+            "lista": [
+              {
+                "numero_campo": "numero_1",
+                "item_campo": "item_1",
+                "caixa": {
+                  "x": 130,
+                  "y": 595.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 633.5,
+                "baseline_texto_px": 633.5
+              },
+              {
+                "numero_campo": "numero_2",
+                "item_campo": "item_2",
+                "caixa": {
+                  "x": 130,
+                  "y": 727.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 765.5,
+                "baseline_texto_px": 765.5
+              },
+              {
+                "numero_campo": "numero_3",
+                "item_campo": "item_3",
+                "caixa": {
+                  "x": 130,
+                  "y": 859.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 897.5,
+                "baseline_texto_px": 897.5
+              }
+            ],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "item_1": 2,
+                "item_2": 2,
+                "item_3": 2,
+                "fonte": 1
+              },
+              "folga_px": 194.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 136.5,
+              "texto_assinatura_px": 136.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_fala_1_px": 48.0,
+              "fala_1_fala_2_px": 48.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "fala_1": 6,
+              "fala_2": 6
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "fala_1": 4,
+                "fala_2": 4
+              },
+              "folga_px": 136.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 4,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 198.5,
+              "texto_assinatura_px": 198.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_fala_1_px": 48.0,
+              "fala_1_fala_2_px": 48.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "fala_1": 6,
+              "fala_2": 6
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "fala_1": 3,
+                "fala_2": 3
+              },
+              "folga_px": 198.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 5,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 176.5,
+              "texto_assinatura_px": 176.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_fala_1_px": 48.0,
+              "fala_1_fala_2_px": 48.0,
+              "fala_2_fala_3_px": 48.0,
+              "fala_3_origem_px": 32.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "fala_1": 6,
+              "fala_2": 2,
+              "fala_3": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "fala_1": 3,
+                "fala_2": 1,
+                "fala_3": 1,
+                "origem": 1
+              },
+              "folga_px": 176.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 6,
+          "tipo": "conversa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 353.5,
+              "texto_assinatura_px": 353.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_pergunta_px": 48.0,
+              "pergunta_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "pergunta": 2,
+                "convite": 1
+              },
+              "folga_px": 353.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  91,
+                  46,
+                  112
+                ],
+                "esperado": "#5b2e70",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 5,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 6,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 24152
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12272
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20784
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 24520
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10824
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 13076
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11160
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18040
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12760
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10476
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20680
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 22564
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10652
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14340
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 8660
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21176
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19092
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 9612
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     68  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     79  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     84  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     89  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     94  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    105  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    110  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes    115  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes    120  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    125  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes    136  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes    141  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes    146  0\n",
+        "pdftotext": "Igreja Doméstica · dom, 20 dez\n\n\n\n\n     Lorenzo Lotto · A Natividade · National Gallery of Art, Washington\n\n\n\n          A bênção do presépio\n      Para rezar na noite de Natal, com as crianças\n\fIgreja Doméstica · dom, 20 dez                                     2/6\n\n\n\n\n                            Como fazer\n\n\n             Na noite de Natal\n\n 1 Reúnam-se diante do presépio, ainda com\n   a manjedoura vazia, e leiam Lc 2,1-14.\n\n 2 Rezem juntos a oração de Bento XVI para a bênção\n   das imagens do Menino Jesus.\n\n 3 As crianças põem o Menino Jesus na manjedoura.\n   Depois, cantem uma música de Natal.\n\n          Diretório sobre a Piedade Popular e a Liturgia, n. 109\n\fIgreja Doméstica · dom, 20 dez                    3/6\n\n\n\n\n                  Para rezar em família\n\n\n              Deus, nosso Pai\n\n      Deus, nosso Pai, vós que tanto amastes\n       os homens que nos enviastes o vosso\n      único Filho Jesus, nascido da Virgem\n     Maria, para nos salvar e reconduzir a vós.\n\n        Nós vos pedimos que, com a vossa\n     bênção, estas imagens de Jesus, que está\n     para vir até nós, sejam, nas nossas casas,\n     sinal da vossa presença e do vosso amor.\n\fIgreja Doméstica · dom, 20 dez                 4/6\n\n\n\n\n                  Para rezar em família\n\n\n                     Pai bom\n\n         Pai bom, concedei a vossa bênção\n         também a nós, aos nossos pais, às\n        nossas famílias e aos nossos amigos.\n\nAbri o nosso coração, para que saibamos receber\n   Jesus na alegria, fazer sempre o que ele pede\ne vê-lo em todos os que precisam do nosso amor.\n\fIgreja Doméstica · dom, 20 dez                           5/6\n\n\n\n\n                   Para rezar em família\n\n\n            Em nome de Jesus\n\nIsto vos pedimos em nome de Jesus, vosso amado\n   Filho, que vem para dar ao mundo a paz. Ele\n   vem e reina nos séculos dos séculos. Amém.\n\n      As crianças põem o Menino na manjedoura:\n\n\n           Glória a Deus nas alturas!\n            Bento XVI, Angelus de 14/12/2008, adaptada\n\fIgreja Doméstica · dom, 20 dez                           6/6\n\n\n\n\n                Para conversar em família\n\n\n           O que cada um quer dizer\n          ao Menino Jesus nesta noite?\n\n\n Envie para quem vai rezar com você na noite de Natal.\n\f",
+        "texto_igual_yaml_sem_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/igreja-domestica-2026-12-20.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#5b2e70",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
+    },
+    "2026-12-27": {
+      "cards": [
+        {
+          "card": 1,
+          "tipo": "capa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_nicho_px": 32,
+              "nicho_credito_px": 32,
+              "credito_titulo_px": 48,
+              "titulo_apoio_px": 32,
+              "apoio_assinatura_px": 116
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "credito": 1,
+                "titulo": 1,
+                "apoio": 1
+              },
+              "selo_nicho_px": 32,
+              "apoio_assinatura_px": 116
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/igreja-domestica/2026-12-27/card-1.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        168
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        472
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        833
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        240
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        237
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        153
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        148
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        240
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        237
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 2,
+          "tipo": "passos",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 128.5,
+              "texto_assinatura_px": 128.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_linha_item_1_px": 48.0,
+              "linha_item_1_linha_item_2_px": 32.0,
+              "linha_item_2_linha_item_3_px": 32.0,
+              "linha_item_3_linha_item_4_px": 32.0,
+              "linha_item_4_fonte_px": 32.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "item_1": 3,
+              "item_2": 3,
+              "item_3": 3,
+              "item_4": 3
+            },
+            "lista": [
+              {
+                "numero_campo": "numero_1",
+                "item_campo": "item_1",
+                "caixa": {
+                  "x": 130,
+                  "y": 529.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 567.5,
+                "baseline_texto_px": 567.5
+              },
+              {
+                "numero_campo": "numero_2",
+                "item_campo": "item_2",
+                "caixa": {
+                  "x": 130,
+                  "y": 661.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 699.5,
+                "baseline_texto_px": 699.5
+              },
+              {
+                "numero_campo": "numero_3",
+                "item_campo": "item_3",
+                "caixa": {
+                  "x": 130,
+                  "y": 793.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 831.5,
+                "baseline_texto_px": 831.5
+              },
+              {
+                "numero_campo": "numero_4",
+                "item_campo": "item_4",
+                "caixa": {
+                  "x": 130,
+                  "y": 925.5,
+                  "largura": 820,
+                  "altura": 100
+                },
+                "baseline_numero_px": 963.5,
+                "baseline_texto_px": 963.5
+              }
+            ],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "item_1": 2,
+                "item_2": 2,
+                "item_3": 2,
+                "item_4": 2,
+                "fonte": 1
+              },
+              "folga_px": 128.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 3,
+          "tipo": "oracao",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 102.5,
+              "texto_assinatura_px": 102.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_titulo_px": 48.0,
+              "titulo_ornamento_px": 48.0,
+              "ornamento_fala_1_px": 48.0,
+              "fala_1_fala_2_px": 48.0,
+              "fala_2_fala_3_px": 48.0,
+              "fala_3_fala_4_px": 48.0,
+              "fala_4_origem_px": 32.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1,
+              "fala_1": 2,
+              "fala_2": 6,
+              "fala_3": 2,
+              "fala_4": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "titulo": 1,
+                "fala_1": 2,
+                "fala_2": 3,
+                "fala_3": 1,
+                "fala_4": 1,
+                "origem": 1
+              },
+              "folga_px": 102.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "esperado": "#f2eadb",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        },
+        {
+          "card": 4,
+          "tipo": "conversa",
+          "layout": {
+            "ok": true,
+            "distancias": {
+              "selo_texto_px": 353.5,
+              "texto_assinatura_px": 353.5,
+              "diferenca_centralizacao_px": 0.0,
+              "rotulo_pergunta_px": 48.0,
+              "pergunta_ornamento_px": 48.0,
+              "ornamento_convite_px": 48.0
+            },
+            "limites": {
+              "titulo": 2,
+              "credito": 1,
+              "apoio": 1,
+              "fonte": 1,
+              "origem": 1,
+              "pergunta": 4,
+              "convite": 1
+            },
+            "lista": [],
+            "esperado": {
+              "linhas": {
+                "pergunta": 2,
+                "convite": 1
+              },
+              "folga_px": 353.5
+            },
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "esperado": "#866420",
+                "ok": true
+              },
+              {
+                "elemento": "cruz",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "rgb": [
+                  250,
+                  246,
+                  238
+                ],
+                "esperado": "#faf6ee",
+                "ok": true
+              }
+            ],
+            "nicho": null,
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ]
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 2,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 3,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          },
+          {
+            "pagina": 4,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_yaml_sem_espacos": true,
+            "dimensoes_ok": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 26696
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 11764
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 18380
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 32916
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 12132
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 20612
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21964
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 10888
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 19552
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 6712
+          },
+          {
+            "nome": "Lato-Bold",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 21176
+          },
+          {
+            "nome": "Lato-Regular",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 17696
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "formato": "ttf",
+            "embutida": true,
+            "bytes": 14024
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-Medium",
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     68  0\nEAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     73  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     84  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     89  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     94  0\n",
+        "pdftotext": "Igreja Doméstica · dom, 27 dez\n\n\n\n\n    Rembrandt · A Sagrada Família · Museu Hermitage, São Petersburgo\n\n\n\n              A bênção dos pais\n    Na festa da Sagrada Família, abençoe seus filhos\n\fIgreja Doméstica · dom, 27 dez                                                 2/4\n\n\n\n\n                          Por que abençoar\n\n\n             O gesto do Batismo\n\n 1 No Batismo, o padre e os pais traçaram o sinal da\n   cruz na testa do seu filho.\n\n 2 Todo batizado é chamado a ser uma\n   bênção e a abençoar.\n\n 3 A festa da Sagrada Família é ocasião própria para\n   a bênção dos filhos.\n\n 4 A bênção é a de Nm 6,24-26, lida na Missa de\n   1º de janeiro.\n\n Ritual do Batismo, 16 · Catecismo, 1669 · Diretório da Piedade Popular, 112\n\fIgreja Doméstica · dom, 27 dez                        3/4\n\n\n\n                  Para rezar em família\n\n\n         O Senhor te abençoe\n\n        Leiam o Evangelho do dia, Lc 2,22-40.\n      Os pais traçam a cruz na testa de cada filho:\n\n\n  O Senhor te abençoe e te guarde! O Senhor\n   te mostre a sua face e conceda-te sua graça!\n O Senhor volva o seu rosto para ti e te dê a paz!\n\n                   E o filho responde:\n\n\n                        Amém.\n                        Nm 6,24-26\n\fIgreja Doméstica · dom, 27 dez                         4/4\n\n\n\n\n                Para conversar em família\n\n\n         Pelo que a nossa família quer\n         agradecer a Deus neste ano?\n\n\n    Envie para quem vai abençoar os filhos com você.\n\f",
+        "texto_igual_yaml_sem_espacos": true,
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/saida/igreja-domestica/2026-12-27/igreja-domestica-2026-12-27.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      }
     }
   },
   "pngs": {
     "ok": true,
-    "count": 16,
+    "count": 28,
     "files": [
       {
         "file": "/workspace/kitarte/saida/igreja-domestica/2026-11-29/card-1.png",
@@ -2886,15 +4950,171 @@
         "format": "PNG"
       },
       {
-        "file": "/workspace/kitarte/saida/igreja-domestica/prancha.png",
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/card-1.png",
         "expected": [
-          1960,
-          1622
+          1080,
+          1350
         ],
         "ok": true,
         "actual": [
-          1960,
-          1622
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/card-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/card-5.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/card-6.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-20/recorte.png",
+        "expected": [
+          1080,
+          1415
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1415
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-27/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-27/card-2.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-27/card-3.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-27/card-4.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/2026-12-27/recorte.png",
+        "expected": [
+          1080,
+          1409
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1409
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/igreja-domestica/prancha.png",
+        "expected": [
+          2344,
+          2682
+        ],
+        "ok": true,
+        "actual": [
+          2344,
+          2682
         ],
         "format": "PNG"
       }
@@ -3275,8 +5495,310 @@
         "folga_px": 353.5
       },
       "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-20",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1,
+        "apoio": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_apoio_px": 32,
+        "apoio_assinatura_px": 116
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1,
+          "apoio": 1
+        },
+        "selo_nicho_px": 32,
+        "apoio_assinatura_px": 116
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-20",
+      "card": 2,
+      "tipo": "passos",
+      "linhas": {
+        "titulo": 1,
+        "item_1": 2,
+        "item_2": 2,
+        "item_3": 2,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 194.5,
+        "texto_assinatura_px": 194.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_linha_item_1_px": 48.0,
+        "linha_item_1_linha_item_2_px": 32.0,
+        "linha_item_2_linha_item_3_px": 32.0,
+        "linha_item_3_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "item_1": 2,
+          "item_2": 2,
+          "item_3": 2,
+          "fonte": 1
+        },
+        "folga_px": 194.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-20",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "titulo": 1,
+        "fala_1": 4,
+        "fala_2": 4
+      },
+      "distancias": {
+        "selo_texto_px": 136.5,
+        "texto_assinatura_px": 136.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_fala_1_px": 48.0,
+        "fala_1_fala_2_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "fala_1": 4,
+          "fala_2": 4
+        },
+        "folga_px": 136.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-20",
+      "card": 4,
+      "tipo": "oracao",
+      "linhas": {
+        "titulo": 1,
+        "fala_1": 3,
+        "fala_2": 3
+      },
+      "distancias": {
+        "selo_texto_px": 198.5,
+        "texto_assinatura_px": 198.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_fala_1_px": 48.0,
+        "fala_1_fala_2_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "fala_1": 3,
+          "fala_2": 3
+        },
+        "folga_px": 198.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-20",
+      "card": 5,
+      "tipo": "oracao",
+      "linhas": {
+        "titulo": 1,
+        "fala_1": 3,
+        "fala_2": 1,
+        "fala_3": 1,
+        "origem": 1
+      },
+      "distancias": {
+        "selo_texto_px": 176.5,
+        "texto_assinatura_px": 176.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_fala_1_px": 48.0,
+        "fala_1_fala_2_px": 48.0,
+        "fala_2_fala_3_px": 48.0,
+        "fala_3_origem_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "fala_1": 3,
+          "fala_2": 1,
+          "fala_3": 1,
+          "origem": 1
+        },
+        "folga_px": 176.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-20",
+      "card": 6,
+      "tipo": "conversa",
+      "linhas": {
+        "pergunta": 2,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 353.5,
+        "texto_assinatura_px": 353.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_pergunta_px": 48.0,
+        "pergunta_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "pergunta": 2,
+          "convite": 1
+        },
+        "folga_px": 353.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-27",
+      "card": 1,
+      "tipo": "capa",
+      "linhas": {
+        "credito": 1,
+        "titulo": 1,
+        "apoio": 1
+      },
+      "distancias": {
+        "selo_nicho_px": 32,
+        "nicho_credito_px": 32,
+        "credito_titulo_px": 48,
+        "titulo_apoio_px": 32,
+        "apoio_assinatura_px": 116
+      },
+      "previsto": {
+        "linhas": {
+          "credito": 1,
+          "titulo": 1,
+          "apoio": 1
+        },
+        "selo_nicho_px": 32,
+        "apoio_assinatura_px": 116
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-27",
+      "card": 2,
+      "tipo": "passos",
+      "linhas": {
+        "titulo": 1,
+        "item_1": 2,
+        "item_2": 2,
+        "item_3": 2,
+        "item_4": 2,
+        "fonte": 1
+      },
+      "distancias": {
+        "selo_texto_px": 128.5,
+        "texto_assinatura_px": 128.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_linha_item_1_px": 48.0,
+        "linha_item_1_linha_item_2_px": 32.0,
+        "linha_item_2_linha_item_3_px": 32.0,
+        "linha_item_3_linha_item_4_px": 32.0,
+        "linha_item_4_fonte_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "item_1": 2,
+          "item_2": 2,
+          "item_3": 2,
+          "item_4": 2,
+          "fonte": 1
+        },
+        "folga_px": 128.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-27",
+      "card": 3,
+      "tipo": "oracao",
+      "linhas": {
+        "titulo": 1,
+        "fala_1": 2,
+        "fala_2": 3,
+        "fala_3": 1,
+        "fala_4": 1,
+        "origem": 1
+      },
+      "distancias": {
+        "selo_texto_px": 102.5,
+        "texto_assinatura_px": 102.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_titulo_px": 48.0,
+        "titulo_ornamento_px": 48.0,
+        "ornamento_fala_1_px": 48.0,
+        "fala_1_fala_2_px": 48.0,
+        "fala_2_fala_3_px": 48.0,
+        "fala_3_fala_4_px": 48.0,
+        "fala_4_origem_px": 32.0
+      },
+      "previsto": {
+        "linhas": {
+          "titulo": 1,
+          "fala_1": 2,
+          "fala_2": 3,
+          "fala_3": 1,
+          "fala_4": 1,
+          "origem": 1
+        },
+        "folga_px": 102.5
+      },
+      "diferencas_tabela": []
+    },
+    {
+      "data": "2026-12-27",
+      "card": 4,
+      "tipo": "conversa",
+      "linhas": {
+        "pergunta": 2,
+        "convite": 1
+      },
+      "distancias": {
+        "selo_texto_px": 353.5,
+        "texto_assinatura_px": 353.5,
+        "diferenca_centralizacao_px": 0.0,
+        "rotulo_pergunta_px": 48.0,
+        "pergunta_ornamento_px": 48.0,
+        "ornamento_convite_px": 48.0
+      },
+      "previsto": {
+        "linhas": {
+          "pergunta": 2,
+          "convite": 1
+        },
+        "folga_px": 353.5
+      },
+      "diferencas_tabela": []
     }
   ],
   "ok": true,
-  "comando": "python gerar.py igreja-domestica"
+  "comando": "python gerar.py igreja-domestica --data 2026-12-27"
 }
