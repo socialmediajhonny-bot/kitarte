@@ -173,22 +173,22 @@
         },
         {
           "campo": "frase",
-          "conteudo": "“Sem verdadeiro combate, ninguém conquista a coroa.”",
+          "conteudo": "“Não recebe a coroa senão quem combate segundo as regras.”",
           "linhas": [
-            "“Sem verdadeiro combate,",
-            "ninguém conquista a coroa.”"
+            "“Não recebe a coroa senão quem",
+            "combate segundo as regras.”"
           ],
           "caixas_das_linhas": [
             {
-              "x": 290.921875,
+              "x": 233.0625,
               "y": 929.5,
-              "largura": 498.15625,
+              "largura": 613.875,
               "altura": 65
             },
             {
-              "x": 269.859375,
+              "x": 274.203125,
               "y": 997.5,
-              "largura": 540.28125,
+              "largura": 531.578125,
               "altura": 65
             }
           ],
@@ -744,7 +744,7 @@
           "height": 545.400024,
           "text": null,
           "arquivo": "obras/santo-do-dia/2026-12-29.jpg",
-          "source": "http://127.0.0.1:40133/obras/santo-do-dia/2026-12-29.jpg",
+          "source": "http://127.0.0.1:43645/obras/santo-do-dia/2026-12-29.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -990,7 +990,7 @@
           "y": 928.5,
           "width": 700,
           "height": 136,
-          "text": "“Sem verdadeiro combate, ninguém conquista a coroa.”",
+          "text": "“Não recebe a coroa senão quem combate segundo as regras.”",
           "arquivo": null,
           "source": null,
           "font_family": "Cormorant Garamond",

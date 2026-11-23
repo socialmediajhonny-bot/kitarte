@@ -172,22 +172,22 @@
         },
         {
           "campo": "frase",
-          "conteudo": "“Ainda não falam, e já dão testemunho de Cristo.”",
+          "conteudo": "“Ainda não falam e já proclamam o Cristo.”",
           "linhas": [
-            "“Ainda não falam, e já",
-            "dão testemunho de Cristo.”"
+            "“Ainda não falam e já",
+            "proclamam o Cristo.”"
           ],
           "caixas_das_linhas": [
             {
-              "x": 323.96875,
+              "x": 330.09375,
               "y": 929.5,
-              "largura": 432.0625,
+              "largura": 419.796875,
               "altura": 65
             },
             {
-              "x": 283.0625,
+              "x": 337.65625,
               "y": 997.5,
-              "largura": 513.875,
+              "largura": 404.6875,
               "altura": 65
             }
           ],
@@ -743,7 +743,7 @@
           "height": 404,
           "text": null,
           "arquivo": "obras/santo-do-dia/2026-12-28.jpg",
-          "source": "http://127.0.0.1:40133/obras/santo-do-dia/2026-12-28.jpg",
+          "source": "http://127.0.0.1:38179/obras/santo-do-dia/2026-12-28.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -989,7 +989,7 @@
           "y": 928.5,
           "width": 700,
           "height": 136,
-          "text": "“Ainda não falam, e já dão testemunho de Cristo.”",
+          "text": "“Ainda não falam e já proclamam o Cristo.”",
           "arquivo": null,
           "source": null,
           "font_family": "Cormorant Garamond",

@@ -106,3 +106,324 @@
     credito: Johannes Vermeer · Cristo na casa de Marta e Maria · National Galleries of Scotland, Edimburgo
     pagina: https://commons.wikimedia.org/wiki/File:Johannes_(Jan)_Vermeer_-_Christ_in_the_House_of_Martha_and_Mary_-_Google_Art_Project.jpg
     foco: 40% 45%
+
+# Rodada de 21/11/2026 · lembretes das novenas, Rezo por Você de 18/12, terço de 19/12 e Missa da noite de 24/12.
+# Obras já usadas no kit; o lembrete sai às 19h, antes do card da novena das 19h30.
+
+- id: novena-imaculada-1
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: dom, 29 nov
+  titulo: Dia 1 de 9
+  subtitulo: 'Às 19h30, no feed: Cheia de graça'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-2
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: seg, 30 nov
+  titulo: Dia 2 de 9
+  subtitulo: 'Às 19h30, no feed: A nova Eva'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-3
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: ter, 1º dez
+  titulo: Dia 3 de 9
+  subtitulo: 'Às 19h30, no feed: Arca da Aliança'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-4
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: qua, 2 dez
+  titulo: Dia 4 de 9
+  subtitulo: 'Às 19h30, no feed: Toda bela és, Maria'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-5
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: qui, 3 dez
+  titulo: Dia 5 de 9
+  subtitulo: 'Às 19h30, no feed: A serva do Senhor'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-6
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: sex, 4 dez
+  titulo: Dia 6 de 9
+  subtitulo: 'Às 19h30, no feed: A mulher vestida de sol'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-7
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: sáb, 5 dez
+  titulo: Dia 7 de 9
+  subtitulo: 'Às 19h30, no feed: Estrela da manhã'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-8
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: dom, 6 dez
+  titulo: Dia 8 de 9
+  subtitulo: 'Às 19h30, no feed: “Eu sou a Imaculada Conceição”'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-imaculada-9
+  grupo: novena-imaculada-lembretes
+  cor: roxo
+  serie: Novena da Imaculada
+  apoio: seg, 7 dez
+  titulo: Dia 9 de 9
+  subtitulo: 'Às 19h30, no feed: Mãe da Igreja'
+  invocacao: Ó Maria concebida sem pecado,
+  resposta: rogai por nós que recorremos a vós.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-08.jpg
+    credito: Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado
+    pagina: https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+    foco: 45% 22%
+    zoom: 1.6
+
+- id: novena-natal-1
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: qua, 16 dez
+  titulo: Dia 1 de 9
+  subtitulo: 'Às 19h30, no feed: Os profetas anunciaram'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: novena-natal-2
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: qui, 17 dez
+  titulo: Dia 2 de 9
+  subtitulo: 'Às 19h30, no feed: João Batista prepara o caminho'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: novena-natal-3
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: sex, 18 dez
+  titulo: Dia 3 de 9
+  subtitulo: 'Às 19h30, no feed: José, o homem justo'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: novena-natal-4
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: sáb, 19 dez
+  titulo: Dia 4 de 9
+  subtitulo: 'Às 19h30, no feed: Zacarias e Isabel'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: novena-natal-5
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: dom, 20 dez
+  titulo: Dia 5 de 9
+  subtitulo: 'Às 19h30, no feed: Maria, a Virgem que espera'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: novena-natal-6
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: seg, 21 dez
+  titulo: Dia 6 de 9
+  subtitulo: 'Às 19h30, no feed: A viagem até Belém'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: novena-natal-7
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: ter, 22 dez
+  titulo: Dia 7 de 9
+  subtitulo: 'Às 19h30, no feed: Não havia lugar na hospedaria'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: novena-natal-8
+  grupo: novena-natal-lembretes
+  cor: roxo
+  serie: Novena de Natal
+  apoio: qua, 23 dez
+  titulo: Dia 8 de 9
+  subtitulo: 'Às 19h30, no feed: Os pastores vigiam de noite'
+  invocacao: Vinde, Senhor Jesus!
+  obra:
+    arquivo: obras/2026-12-25.jpg
+    credito: Duccio · A Natividade · National Gallery of Art
+    pagina: https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+    foco: 44% 51%
+    zoom: 1.9
+
+- id: rezo-por-voce-2026-12-18
+  grupo: rezo-por-voce-2026-12-18
+  cor: roxo
+  serie: Rezo por Você
+  apoio: sex, 18 dez
+  titulo: Qual é o seu pedido?
+  subtitulo: Amanhã, sábado, rezamos o terço por todos eles
+  invocacao: |-
+    Responda a este story
+    com a sua intenção.
+    Só nós vemos a sua resposta.
+  obra:
+    arquivo: obras/toda-bela/2026-12-12.jpg
+    credito: Sassoferrato · A Virgem em oração · National Gallery, Londres
+    pagina: https://www.nationalgallery.org.uk/paintings/sassoferrato-the-virgin-in-prayer
+    foco: 50% 30%
+    zoom: 1.08
+
+- id: terco-2026-12-19
+  grupo: terco-2026-12-19
+  cor: roxo
+  serie: Rezo por Você
+  apoio: sáb, 19 dez
+  titulo: Terço pelas intenções
+  subtitulo: Hoje, os mistérios gozosos, por tudo o que vocês pediram
+  invocacao: |-
+    Santa Maria, Mãe de Deus,
+    rogai por nós, pecadores,
+    agora e na hora de nossa morte. Amém.
+  obra:
+    arquivo: obras/stories/terco.jpg
+    credito: Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg
+    foco: 50% 35%
+    zoom: 1.15
+
+- id: missa-da-noite-2026-12-24
+  grupo: missa-da-noite-2026-12-24
+  cor: ouro
+  serie: Véspera do Natal
+  apoio: qui, 24 dez
+  titulo: Missa da noite
+  subtitulo: Hoje, o Natal começa na sua paróquia
+  invocacao: |-
+    «Hoje, na cidade de Davi,
+    nasceu para vós um Salvador»,
+    disse o anjo aos pastores.
+  obra:
+    arquivo: obras/santo-do-dia/2026-12-25.jpg
+    credito: Georges de La Tour · A adoração dos pastores · Museu do Louvre
+    pagina: https://collections.louvre.fr/ark:/53355/cl010065555
+    foco: 15% 50%
+    zoom: 1

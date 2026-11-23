@@ -1,6 +1,6 @@
 # Stories avulsos
 
-`python gerar.py stories-avulsos`
+`python gerar.py stories-avulsos --grupo missa-da-noite-2026-12-24`
 
 ## Composição
 
@@ -21,6 +21,26 @@
 | comece-aqui | comece-aqui-1 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
 | comece-aqui | comece-aqui-2 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
 | comece-aqui | comece-aqui-3 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-1 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-2 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-3 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-4 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-5 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-6 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-7 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-8 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-imaculada-lembretes | novena-imaculada-9 | 1 / 1 / 1 / 1 | 48 | 48 | 63 | 1628 |
+| novena-natal-lembretes | novena-natal-1 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| novena-natal-lembretes | novena-natal-2 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| novena-natal-lembretes | novena-natal-3 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| novena-natal-lembretes | novena-natal-4 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| novena-natal-lembretes | novena-natal-5 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| novena-natal-lembretes | novena-natal-6 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| novena-natal-lembretes | novena-natal-7 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| novena-natal-lembretes | novena-natal-8 | 1 / 1 / 1 / — | 48 | — | 173 | 1628 |
+| rezo-por-voce-2026-12-18 | rezo-por-voce-2026-12-18 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
+| terco-2026-12-19 | terco-2026-12-19 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
+| missa-da-noite-2026-12-24 | missa-da-noite-2026-12-24 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
 
 ## Obras, janelas e notas visuais
 
@@ -80,13 +100,197 @@ Prova do recorte: `comece-aqui/recorte-comece-aqui-3.png`.
 Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
 
 Story final e recorte-comece-aqui-3.png conferidos individualmente. Os rostos de Cristo, Marta e Maria, as mãos e os gestos centrais, o cesto com o pão e os pés visíveis de Maria ficam dentro do arco. A lateral direita recorta parte do manto de Cristo e da cadeira, e a curva limita o fundo superior; não se afirma que todos os corpos ou a composição inteira estejam integralmente visíveis. Partes encobertas pela mesa e pelas vestes já são assim no original. Nenhuma margem fotográfica detectada ou vista. Foco 40% 45%, zoom 1 mantidos.
+### novena-imaculada-1
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-1.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-2
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-2.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-3
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-3.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-4
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-4.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-5
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-5.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-6
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-6.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-7
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-7.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-8
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-8.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-imaculada-9
+
+Bartolomé Esteban Murillo · Imaculada dos Veneráveis · Museu do Prado — https://en.wikipedia.org/wiki/The_Immaculate_Conception_of_Los_Venerables
+
+Original: `obras/santo-do-dia/2026-12-08.jpg`; foco `45% 22%`, zoom `1.6`. Janela x=296.325000, y=275.959789, largura=1097.500000, altura=1321.637324 px; ampliação=0.517540.
+Prova do recorte: `novena-imaculada-lembretes/recorte-novena-imaculada-9.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-1
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-1.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-2
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-2.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-3
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-3.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-4
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-4.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-5
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-5.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-6
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-6.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-7
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-7.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### novena-natal-8
+
+Duccio · A Natividade · National Gallery of Art — https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_The_Nativity_with_the_Prophets_Isaiah_and_Ezekiel_-_Google_Art_Project.jpg
+
+Original: `obras/2026-12-25.jpg`; foco `44% 51%`, zoom `1.9`. Janela x=1278.835826, y=516.012632, largura=933.554940, altura=1124.210526 px; ampliação=0.608427.
+Prova do recorte: `novena-natal-lembretes/recorte-novena-natal-8.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### rezo-por-voce-2026-12-18
+
+Sassoferrato · A Virgem em oração · National Gallery, Londres — https://www.nationalgallery.org.uk/paintings/sassoferrato-the-virgin-in-prayer
+
+Original: `obras/toda-bela/2026-12-12.jpg`; foco `50% 30%`, zoom `1.08`. Janela x=124.481481, y=143.521831, largura=3112.037037, altura=3747.593897 px; ampliação=0.182517.
+Prova do recorte: `rezo-por-voce-2026-12-18/recorte-rezo-por-voce-2026-12-18.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### terco-2026-12-19
+
+Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado — https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg
+
+Original: `obras/stories/terco.jpg`; foco `50% 35%`, zoom `1.15`. Janela x=118.826087, y=283.180863, largura=1584.347826, altura=1907.911819 px; ampliação=0.358507.
+Prova do recorte: `terco-2026-12-19/recorte-terco-2026-12-19.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[{"lado": "base", "largura": 10, "diferenca_cinza": 0.49814077936333945}]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
+### missa-da-noite-2026-12-24
+
+Georges de La Tour · A adoração dos pastores · Museu do Louvre — https://collections.louvre.fr/ark:/53355/cl010065555
+
+Original: `obras/santo-do-dia/2026-12-25.jpg`; foco `15% 50%`, zoom `1`. Janela x=196.550877, y=0.000000, largura=2699.660819, altura=3251.000000 px; ampliação=0.210397.
+Prova do recorte: `missa-da-noite-2026-12-24/recorte-missa-da-noite-2026-12-24.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
+
+Obra e recorte registrados; conferir os elementos essenciais no arco.
 
 ## Avisos e pendências
 
 - terco-2026-12-12: obra com 4250021 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
 - comece-aqui-1: margem da foto visível à direita; aumente o zoom
 - comece-aqui-2: obra com 7099454 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
+- rezo-por-voce-2026-12-18: obra com 10499376 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
+- terco-2026-12-19: obra com 4250021 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
+- missa-da-noite-2026-12-24: obra com 4217159 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
 Obras pendentes: nenhuma.
+Inspeção visual pendente: novena-imaculada-1, novena-imaculada-2, novena-imaculada-3, novena-imaculada-4, novena-imaculada-5, novena-imaculada-6, novena-imaculada-7, novena-imaculada-8, novena-imaculada-9, novena-natal-1, novena-natal-2, novena-natal-3, novena-natal-4, novena-natal-5, novena-natal-6, novena-natal-7, novena-natal-8, rezo-por-voce-2026-12-18, terco-2026-12-19, missa-da-noite-2026-12-24.
 
 ## PDF e Canva
 
@@ -113,10 +317,60 @@ saida/stories-avulsos/
   comece-aqui/recorte-comece-aqui-1.png
   comece-aqui/recorte-comece-aqui-2.png
   comece-aqui/recorte-comece-aqui-3.png
+  missa-da-noite-2026-12-24/ficha.json
+  missa-da-noite-2026-12-24/missa-da-noite-2026-12-24.pdf
+  missa-da-noite-2026-12-24/missa-da-noite-2026-12-24.png
+  missa-da-noite-2026-12-24/recorte-missa-da-noite-2026-12-24.png
+  novena-imaculada-lembretes/ficha.json
+  novena-imaculada-lembretes/novena-imaculada-1.png
+  novena-imaculada-lembretes/novena-imaculada-2.png
+  novena-imaculada-lembretes/novena-imaculada-3.png
+  novena-imaculada-lembretes/novena-imaculada-4.png
+  novena-imaculada-lembretes/novena-imaculada-5.png
+  novena-imaculada-lembretes/novena-imaculada-6.png
+  novena-imaculada-lembretes/novena-imaculada-7.png
+  novena-imaculada-lembretes/novena-imaculada-8.png
+  novena-imaculada-lembretes/novena-imaculada-9.png
+  novena-imaculada-lembretes/novena-imaculada-lembretes.pdf
+  novena-imaculada-lembretes/recorte-novena-imaculada-1.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-2.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-3.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-4.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-5.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-6.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-7.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-8.png
+  novena-imaculada-lembretes/recorte-novena-imaculada-9.png
+  novena-natal-lembretes/ficha.json
+  novena-natal-lembretes/novena-natal-1.png
+  novena-natal-lembretes/novena-natal-2.png
+  novena-natal-lembretes/novena-natal-3.png
+  novena-natal-lembretes/novena-natal-4.png
+  novena-natal-lembretes/novena-natal-5.png
+  novena-natal-lembretes/novena-natal-6.png
+  novena-natal-lembretes/novena-natal-7.png
+  novena-natal-lembretes/novena-natal-8.png
+  novena-natal-lembretes/novena-natal-lembretes.pdf
+  novena-natal-lembretes/recorte-novena-natal-1.png
+  novena-natal-lembretes/recorte-novena-natal-2.png
+  novena-natal-lembretes/recorte-novena-natal-3.png
+  novena-natal-lembretes/recorte-novena-natal-4.png
+  novena-natal-lembretes/recorte-novena-natal-5.png
+  novena-natal-lembretes/recorte-novena-natal-6.png
+  novena-natal-lembretes/recorte-novena-natal-7.png
+  novena-natal-lembretes/recorte-novena-natal-8.png
   prancha.png
+  rezo-por-voce-2026-12-18/ficha.json
+  rezo-por-voce-2026-12-18/recorte-rezo-por-voce-2026-12-18.png
+  rezo-por-voce-2026-12-18/rezo-por-voce-2026-12-18.pdf
+  rezo-por-voce-2026-12-18/rezo-por-voce-2026-12-18.png
   terco-2026-12-12/ficha.json
   terco-2026-12-12/recorte-terco-2026-12-12.png
   terco-2026-12-12/terco-2026-12-12.pdf
   terco-2026-12-12/terco-2026-12-12.png
+  terco-2026-12-19/ficha.json
+  terco-2026-12-19/recorte-terco-2026-12-19.png
+  terco-2026-12-19/terco-2026-12-19.pdf
+  terco-2026-12-19/terco-2026-12-19.png
   verificacao.json
 ```
