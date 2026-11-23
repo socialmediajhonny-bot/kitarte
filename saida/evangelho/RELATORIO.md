@@ -1447,3 +1447,10 @@ saida/evangelho/
   prancha.png
   verificacao.json
 ```
+
+### Ajuste de 23/11: capas de 24, 25 e 30/12
+
+Por decisão do Jhonny, as sugestões de enquadramento registradas acima foram aplicadas a três datas ainda não programadas:
+24/12 com foco **0% 45%** e zoom **1.04** (Zacarias inteiro), 25/12 com foco **50% 20%** e zoom **1.3** (Maria, o Menino e a manjedoura inteiros)
+e 30/12 com foco **50% 100%** e zoom **1** (mais do livro e das mãos de Ana). Só o card 1, o recorte, a ficha e o PDF dessas datas mudaram;
+os cards 2 e 3 foram mantidos byte a byte. As demais datas seguem com o enquadramento aprovado.

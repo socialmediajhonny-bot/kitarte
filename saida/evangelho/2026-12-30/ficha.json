@@ -7,8 +7,8 @@
     "arquivo": "obras/2026-12-30.jpg",
     "credito": "Rembrandt · A profetisa Ana · Rijksmuseum",
     "pagina": "https://www.rijksmuseum.nl/en/collection/SK-A-3066",
-    "foco": "40% 40%",
-    "zoom": 1.1
+    "foco": "50% 100%",
+    "zoom": 1
   },
   "obra_pendente": false,
   "obra_usada": "obras/2026-12-30.jpg",
@@ -615,13 +615,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 190.079987,
-          "y": 138.23999,
-          "width": 712.800049,
-          "height": 818.400024,
+          "x": 216,
+          "y": 168,
+          "width": 648,
+          "height": 744,
           "text": null,
           "arquivo": "obras/2026-12-30.jpg",
-          "source": "http://127.0.0.1:40363/obras/2026-12-30.jpg",
+          "source": "http://127.0.0.1:36799/obras/2026-12-30.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -656,7 +656,7 @@
           "source_width_px": 3840,
           "source_height_px": 4815,
           "object_fit": "cover",
-          "object_position": "40% 40%"
+          "object_position": "50% 100%"
         },
         {
           "element": "credito",
@@ -844,8 +844,8 @@
         }
       ],
       "enquadramento": {
-        "foco": "40% 40%",
-        "zoom": 1.1,
+        "foco": "50% 100%",
+        "zoom": 1.0,
         "imagem_original": {
           "largura": 3840,
           "altura": 4815
@@ -859,12 +859,12 @@
           "altura": 744
         },
         "escala_cover": 0.16875,
-        "escala_com_zoom": 0.18562500000000004,
+        "escala_com_zoom": 0.16875,
         "janela_original": {
-          "x": 139.63636363636397,
-          "y": 322.7676767676771,
-          "largura": 3490.90909090909,
-          "altura": 4008.0808080808074
+          "x": 2.2737367544323206e-13,
+          "y": 406.1111111111113,
+          "largura": 3839.9999999999995,
+          "altura": 4408.888888888889
         },
         "margens_detectadas": {
           "topo": 0,
@@ -2315,8 +2315,8 @@
     }
   ],
   "enquadramento": {
-    "foco": "40% 40%",
-    "zoom": 1.1,
+    "foco": "50% 100%",
+    "zoom": 1.0,
     "imagem_original": {
       "largura": 3840,
       "altura": 4815
@@ -2330,12 +2330,12 @@
       "altura": 744
     },
     "escala_cover": 0.16875,
-    "escala_com_zoom": 0.18562500000000004,
+    "escala_com_zoom": 0.16875,
     "janela_original": {
-      "x": 139.63636363636397,
-      "y": 322.7676767676771,
-      "largura": 3490.90909090909,
-      "altura": 4008.0808080808074
+      "x": 2.2737367544323206e-13,
+      "y": 406.1111111111113,
+      "largura": 3839.9999999999995,
+      "altura": 4408.888888888889
     },
     "margens_detectadas": {
       "topo": 0,

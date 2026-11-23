@@ -7,8 +7,8 @@
     "arquivo": "obras/2026-12-24.jpg",
     "credito": "James Tissot · Zacarias e Isabel · Brooklyn Museum",
     "pagina": "https://www.brooklynmuseum.org/objects/4418",
-    "foco": "40% 50%",
-    "zoom": 1.1
+    "foco": "0% 45%",
+    "zoom": 1.04
   },
   "obra_pendente": false,
   "obra_usada": "obras/2026-12-24.jpg",
@@ -615,13 +615,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 190.079987,
-          "y": 130.799988,
-          "width": 712.800049,
-          "height": 818.400024,
+          "x": 216,
+          "y": 154.608002,
+          "width": 673.919983,
+          "height": 773.759888,
           "text": null,
           "arquivo": "obras/2026-12-24.jpg",
-          "source": "http://127.0.0.1:40363/obras/2026-12-24.jpg",
+          "source": "http://127.0.0.1:39719/obras/2026-12-24.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -656,7 +656,7 @@
           "source_width_px": 1132,
           "source_height_px": 1536,
           "object_fit": "cover",
-          "object_position": "40% 50%"
+          "object_position": "0% 45%"
         },
         {
           "element": "credito",
@@ -844,8 +844,8 @@
         }
       ],
       "enquadramento": {
-        "foco": "40% 50%",
-        "zoom": 1.1,
+        "foco": "0% 45%",
+        "zoom": 1.04,
         "imagem_original": {
           "largura": 1132,
           "altura": 1536
@@ -859,12 +859,12 @@
           "altura": 744
         },
         "escala_cover": 0.5724381625441696,
-        "escala_com_zoom": 0.6296819787985866,
+        "escala_com_zoom": 0.5953356890459364,
         "janela_original": {
-          "x": 41.1636363636364,
-          "y": 177.22558922558926,
-          "largura": 1029.090909090909,
-          "altura": 1181.5488215488215
+          "x": 0.0,
+          "y": 128.8282051282051,
+          "largura": 1088.4615384615386,
+          "altura": 1249.7150997150998
         },
         "margens_detectadas": {
           "topo": 50,
@@ -2321,8 +2321,8 @@
     }
   ],
   "enquadramento": {
-    "foco": "40% 50%",
-    "zoom": 1.1,
+    "foco": "0% 45%",
+    "zoom": 1.04,
     "imagem_original": {
       "largura": 1132,
       "altura": 1536
@@ -2336,12 +2336,12 @@
       "altura": 744
     },
     "escala_cover": 0.5724381625441696,
-    "escala_com_zoom": 0.6296819787985866,
+    "escala_com_zoom": 0.5953356890459364,
     "janela_original": {
-      "x": 41.1636363636364,
-      "y": 177.22558922558926,
-      "largura": 1029.090909090909,
-      "altura": 1181.5488215488215
+      "x": 0.0,
+      "y": 128.8282051282051,
+      "largura": 1088.4615384615386,
+      "altura": 1249.7150997150998
     },
     "margens_detectadas": {
       "topo": 50,

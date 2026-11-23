@@ -14825,63 +14825,63 @@
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11432
+            "bytes": 9676
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 20136
+            "bytes": 13116
           },
           {
             "nome": "CormorantGaramond-SemiBold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 16136
+            "bytes": 11552
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13448
+            "bytes": 10600
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13200
+            "bytes": 10268
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11256
+            "bytes": 9604
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 15340
+            "bytes": 11852
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 16724
+            "bytes": 13968
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 10184
+            "bytes": 8996
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
@@ -15382,63 +15382,63 @@
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11432
+            "bytes": 9676
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 23856
+            "bytes": 15200
           },
           {
             "nome": "CormorantGaramond-SemiBold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 12164
+            "bytes": 10944
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 12804
+            "bytes": 10416
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 17424
+            "bytes": 10200
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11488
+            "bytes": 9488
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 18736
+            "bytes": 12288
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 19484
+            "bytes": 14440
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 10608
+            "bytes": 8696
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
@@ -18274,63 +18274,63 @@
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11432
+            "bytes": 9676
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 26628
+            "bytes": 15752
           },
           {
             "nome": "CormorantGaramond-SemiBold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13892
+            "bytes": 11776
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 14172
+            "bytes": 10816
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13528
+            "bytes": 10376
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 17848
+            "bytes": 10208
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 16528
+            "bytes": 12176
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 16904
+            "bytes": 13948
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 14472
+            "bytes": 8760
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     63  0\n",
