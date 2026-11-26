@@ -292,15 +292,16 @@ class ArtworkTests(unittest.TestCase):
         self.assertNotIn('topo', touch['margens_visiveis'])
 
     def test_old_gospel_covers_warn_about_top_and_bottom_margins(self):
-        for date in ('2026-11-29', '2026-12-13'):
+        # 29/11 trocou de obra em 26/11 (Hunt, sem margens); o Tissot de 13/12 continua.
+        for date in ('2026-12-13',):
             with self.subTest(date=date):
                 result = inspect_artwork(PROJECT / f'obras/{date}.jpg', '50% 50%', date=date)
                 self.assertEqual(result['margens_visiveis'], ['topo', 'base'])
                 self.assertEqual(result['avisos'], [f'{date}: margem da foto visível no topo e na base; aumente o zoom'])
 
     def test_tissot_photographic_margins_still_have_the_original_widths(self):
+        # 29/11 trocou o Tissot pelo Hunt em 26/11; fica só o Tissot de 13/12.
         expected = {
-            '2026-11-29': {'topo': 32, 'base': 22, 'esquerda': 0, 'direita': 7},
             '2026-12-13': {'topo': 32, 'base': 31, 'esquerda': 9, 'direita': 17},
         }
         for date, margins in expected.items():
@@ -368,7 +369,7 @@ class ArtworkTests(unittest.TestCase):
                     self.assertAlmostEqual(band['diferenca_cinza'], difference, delta=.05)
 
     def test_other_repository_paintings_have_no_uniform_bands(self):
-        excluded = {'obras/2026-11-29.jpg', 'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg',
+        excluded = {'obras/2026-12-13.jpg', 'obras/stories/misericordia.jpg',
                     'obras/igreja-domestica/2026-12-06.jpg'}
         excluded.update(f'obras/{day}.jpg' for day in LOT_ONE_MUSEUM_MARGINS)
         excluded.update(f'obras/{day}.jpg' for day in LOT_THREE_MUSEUM_MARGINS)
@@ -513,7 +514,7 @@ class ArtworkTests(unittest.TestCase):
         gospel = {day['data']: day for day in load_content(PROJECT / 'conteudo/evangelho.yaml')}
         saints = {day['data']: day for day in load_saints(PROJECT / 'conteudo/santo-do-dia.yaml')}
         expected = [
-            (gospel['2026-11-29'], '45% 50%', 1.1),
+            (gospel['2026-11-29'], '50% 37%', 1),
             (gospel['2026-12-13'], '50% 50%', 1.1),
             (saints['2026-11-30'], '45% 15%', 1.05),
             (saints['2026-12-03'], '50% 0%', 1.3),

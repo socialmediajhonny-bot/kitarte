@@ -1484,3 +1484,16 @@ Capas e `recorte.png` finais conferidos individualmente:
 - **8/1:** Cristo, de manto vermelho, com a mão sobre a cabeça do leproso ajoelhado à esquerda, e os discípulos atrás ficam dentro do arco.
 - **9/1:** O rosto sorridente de João e a mão erguida, apontando para o alto, ficam dentro do arco, sobre o fundo escuro.
 - **10/1:** Cristo de mãos juntas no Jordão, João derramando a água, a pomba no alto e a árvore à esquerda ficam dentro do arco; os anjos à esquerda aparecem em parte.
+
+### Troca de obras em 26/11/2026: 29/11 e 20/12
+
+A pedido da página, duas capas trocaram de obra. Foram regeradas com `python3 gerar.py evangelho --data AAAA-MM-DD`; mudaram só card 1, recorte, ficha e PDF dessas datas, e os cards 2 a 4 foram mantidos.
+
+| Data | Antes | Agora | Foco · zoom |
+| --- | --- | --- | --- |
+| 2026-11-29 | James Tissot · A profecia da destruição do Templo | William Holman Hunt · A Luz do Mundo · Keble College, Oxford | 50% 37% · 1 |
+| 2026-12-20 | Henry Ossawa Tanner · A Anunciação | El Greco · A Anunciação · Museo Thyssen-Bornemisza | 50% 40% · 1 |
+
+- **29/11:** o Evangelho manda vigiar (Mc 13,33-37), e a obra anterior mostrava a profecia da destruição do Templo. No Hunt, Jesus bate de noite numa porta sem maçaneta por fora, com a lanterna na mão. No arco entram o rosto com a coroa e a auréola, a mão que bate, a porta com o mato e a parte de cima da lanterna; a auréola encosta no alto do arco e a base da lanterna fica abaixo dele, porque a tela é estreita (2937 × 5828).
+- **20/12:** o recorte do Tanner deixava de fora a coluna de luz que representa o anjo. A tela de El Greco (2300 × 2750) tem quase a proporção do arco: Maria no atril, o anjo sobre a nuvem, a pomba, os anjinhos, a cortina e o piso entram inteiros; só a barra do piso fica abaixo do arco.
+- Nenhuma das duas fotos tem margem de museu ou faixa uniforme detectada.

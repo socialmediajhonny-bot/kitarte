@@ -51,8 +51,10 @@ class ContentTests(unittest.TestCase):
         self.assertNotIn("'", by_date["2026-12-15"]["trecho"])
         self.assertEqual(by_date["2026-12-18"]["trecho"],
                          "Eis que a virgem conceberá e dará à luz um filho. Ele será chamado pelo nome de Emanuel, que significa: Deus está conosco.")
-        self.assertEqual(by_date["2026-12-20"]["obra"]["foco"], "25% 50%")
+        self.assertEqual(by_date["2026-12-20"]["obra"]["foco"], "50% 40%")
         self.assertEqual(by_date["2026-12-20"]["obra"]["zoom"], 1)
+        self.assertIn("El Greco", by_date["2026-12-20"]["obra"]["credito"])
+        self.assertIn("Holman Hunt", by_date["2026-11-29"]["obra"]["credito"])
 
     def test_unknown_fields_rejected_at_each_level(self):
         for nested, label in ((None, "dia 1"), ("obra", "obra"), ("reflexao", "reflexao")):

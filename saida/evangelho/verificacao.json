@@ -531,7 +531,7 @@
             "pagina": 1,
             "largura_pt": 810.0,
             "altura_pt": 1012.5,
-            "caracteres_extraidos": 141
+            "caracteres_extraidos": 134
           },
           {
             "pagina": 2,
@@ -558,84 +558,84 @@
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11432
+            "bytes": 9676
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 25572
+            "bytes": 13452
           },
           {
             "nome": "CormorantGaramond-SemiBold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 12452
+            "bytes": 11240
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13572
+            "bytes": 10684
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 12888
+            "bytes": 9084
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 9656
+            "bytes": 7872
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 12604
+            "bytes": 10640
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 21904
+            "bytes": 16412
           },
           {
             "nome": "CormorantGaramond-SemiBold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 12692
+            "bytes": 11160
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 14944
+            "bytes": 11644
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 16828
+            "bytes": 14028
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 10080
+            "bytes": 8596
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     84  0\n",
@@ -12549,7 +12549,7 @@
             "pagina": 1,
             "largura_pt": 810.0,
             "altura_pt": 1012.5,
-            "caracteres_extraidos": 146
+            "caracteres_extraidos": 133
           },
           {
             "pagina": 2,
@@ -12576,84 +12576,84 @@
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11432
+            "bytes": 9676
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 26988
+            "bytes": 14904
           },
           {
             "nome": "CormorantGaramond-SemiBold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13348
+            "bytes": 11244
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13476
+            "bytes": 10576
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 13800
+            "bytes": 10288
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 9876
+            "bytes": 8276
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 12604
+            "bytes": 10640
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 29596
+            "bytes": 17728
           },
           {
             "nome": "CormorantGaramond-SemiBold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11352
+            "bytes": 10600
           },
           {
             "nome": "Lato-Bold",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 16712
+            "bytes": 12248
           },
           {
             "nome": "Lato-Regular",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 17468
+            "bytes": 14096
           },
           {
             "nome": "CormorantGaramond-MediumItalic",
             "tipo": "Type0",
             "formato": "ttf",
             "embutida": true,
-            "bytes": 11216
+            "bytes": 9144
           }
         ],
         "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     32  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     37  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     42  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     53  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     58  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     63  0\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     74  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     79  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     84  0\n",
@@ -24773,12 +24773,12 @@
         "file": "/workspace/kitarte/saida/evangelho/2026-11-29/recorte.png",
         "expected": [
           1080,
-          738
+          2143
         ],
         "ok": true,
         "actual": [
           1080,
-          738
+          2143
         ],
         "format": "PNG"
       },
@@ -25904,12 +25904,12 @@
         "file": "/workspace/kitarte/saida/evangelho/2026-12-20/recorte.png",
         "expected": [
           1080,
-          867
+          1291
         ],
         "ok": true,
         "actual": [
           1080,
-          867
+          1291
         ],
         "format": "PNG"
       },
@@ -27110,5 +27110,17 @@
       "python3 gerar.py evangelho --data 2027-01-10"
     ],
     "nota": "As datas de 1º a 10/1/2027 foram geradas uma a uma com --data e mescladas aqui; as demais entradas são as da main, sem alteração."
+  },
+  "troca_de_obras_2026_11_26": {
+    "datas": [
+      "2026-11-29",
+      "2026-12-20"
+    ],
+    "comandos": [
+      "python3 gerar.py evangelho --data 2026-11-29",
+      "python3 gerar.py evangelho --data 2026-12-20"
+    ],
+    "ok": true,
+    "nota": "Obras novas: Holman Hunt (29/11) e El Greco (20/12). Só card 1, recorte, ficha e PDF dessas datas mudaram; cards 2 a 4 mantidos."
   }
 }

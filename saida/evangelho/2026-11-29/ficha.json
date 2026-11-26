@@ -5,10 +5,10 @@
   "referencia": "Mc 13,33-37",
   "obra": {
     "arquivo": "obras/2026-11-29.jpg",
-    "credito": "James Tissot · A profecia da destruição do Templo · Brooklyn Museum",
-    "pagina": "https://www.brooklynmuseum.org/objects/4551",
-    "foco": "45% 50%",
-    "zoom": 1.1
+    "credito": "William Holman Hunt · A Luz do Mundo · Keble College, Oxford",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Hunt-light-of-the-world.jpeg",
+    "foco": "50% 37%",
+    "zoom": 1
   },
   "obra_pendente": false,
   "obra_usada": "obras/2026-11-29.jpg",
@@ -110,15 +110,15 @@
         },
         {
           "campo": "credito",
-          "conteudo": "James Tissot · A profecia da destruição do Templo · Brooklyn Museum",
+          "conteudo": "William Holman Hunt · A Luz do Mundo · Keble College, Oxford",
           "linhas": [
-            "James Tissot · A profecia da destruição do Templo · Brooklyn Museum"
+            "William Holman Hunt · A Luz do Mundo · Keble College, Oxford"
           ],
           "caixas_das_linhas": [
             {
-              "x": 175.03125,
+              "x": 207.109375,
               "y": 945,
-              "largura": 729.9375,
+              "largura": 665.765625,
               "altura": 29
             }
           ],
@@ -126,9 +126,9 @@
           "estilo": "credito",
           "cor": "#bbad98",
           "caixa": {
-            "x": 175.03125,
+            "x": 207.109375,
             "y": 944,
-            "largura": 729.9375,
+            "largura": 665.765625,
             "altura": 32
           },
           "alinhamento_canva": "center",
@@ -615,13 +615,13 @@
         {
           "element": "nicho-obra",
           "kind": "image",
-          "x": 186.839996,
-          "y": 130.799988,
-          "width": 712.800049,
-          "height": 818.400024,
+          "x": 216,
+          "y": 168,
+          "width": 648,
+          "height": 744,
           "text": null,
           "arquivo": "obras/2026-11-29.jpg",
-          "source": "http://127.0.0.1:40679/obras/2026-11-29.jpg",
+          "source": "http://127.0.0.1:43011/obras/2026-11-29.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -653,19 +653,19 @@
               0
             ]
           },
-          "source_width_px": 1499,
-          "source_height_px": 1025,
+          "source_width_px": 2937,
+          "source_height_px": 5828,
           "object_fit": "cover",
-          "object_position": "45% 50%"
+          "object_position": "50% 37%"
         },
         {
           "element": "credito",
           "kind": "text",
-          "x": 175.03125,
+          "x": 207.109375,
           "y": 944,
-          "width": 729.9375,
+          "width": 665.765625,
           "height": 32,
-          "text": "James Tissot · A profecia da destruição do Templo · Brooklyn Museum",
+          "text": "William Holman Hunt · A Luz do Mundo · Keble College, Oxford",
           "arquivo": null,
           "source": null,
           "font_family": "Lato",
@@ -844,11 +844,11 @@
         }
       ],
       "enquadramento": {
-        "foco": "45% 50%",
-        "zoom": 1.1,
+        "foco": "50% 37%",
+        "zoom": 1.0,
         "imagem_original": {
-          "largura": 1499,
-          "altura": 1025
+          "largura": 2937,
+          "altura": 5828
         },
         "nicho": {
           "largura": 680,
@@ -858,19 +858,19 @@
           "largura": 648,
           "altura": 744
         },
-        "escala_cover": 0.7258536585365853,
-        "escala_com_zoom": 0.798439024390244,
+        "escala_cover": 0.22063329928498468,
+        "escala_com_zoom": 0.22063329928498468,
         "janela_original": {
-          "x": 309.33739002932555,
-          "y": 46.59090909090912,
-          "largura": 811.5835777126099,
-          "altura": 931.8181818181818
+          "x": 0.0,
+          "y": 908.6788888888888,
+          "largura": 2937.0,
+          "altura": 3372.1111111111113
         },
         "margens_detectadas": {
-          "topo": 32,
-          "base": 22,
+          "topo": 0,
+          "base": 0,
           "esquerda": 0,
-          "direita": 7
+          "direita": 0
         },
         "faixas_descartadas": [],
         "margens_visiveis": [],
@@ -3136,11 +3136,11 @@
     }
   ],
   "enquadramento": {
-    "foco": "45% 50%",
-    "zoom": 1.1,
+    "foco": "50% 37%",
+    "zoom": 1.0,
     "imagem_original": {
-      "largura": 1499,
-      "altura": 1025
+      "largura": 2937,
+      "altura": 5828
     },
     "nicho": {
       "largura": 680,
@@ -3150,19 +3150,19 @@
       "largura": 648,
       "altura": 744
     },
-    "escala_cover": 0.7258536585365853,
-    "escala_com_zoom": 0.798439024390244,
+    "escala_cover": 0.22063329928498468,
+    "escala_com_zoom": 0.22063329928498468,
     "janela_original": {
-      "x": 309.33739002932555,
-      "y": 46.59090909090912,
-      "largura": 811.5835777126099,
-      "altura": 931.8181818181818
+      "x": 0.0,
+      "y": 908.6788888888888,
+      "largura": 2937.0,
+      "altura": 3372.1111111111113
     },
     "margens_detectadas": {
-      "topo": 32,
-      "base": 22,
+      "topo": 0,
+      "base": 0,
       "esquerda": 0,
-      "direita": 7
+      "direita": 0
     },
     "faixas_descartadas": [],
     "margens_visiveis": [],

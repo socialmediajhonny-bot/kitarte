@@ -5,9 +5,9 @@
   "referencia": "Lc 1,26-38",
   "obra": {
     "arquivo": "obras/2026-12-20.jpg",
-    "credito": "Henry Ossawa Tanner · A Anunciação · Philadelphia Museum of Art",
-    "pagina": "https://commons.wikimedia.org/wiki/File:The_Annunciation,_Philadelphia_Museum_of_Art,_W1899-1-1-pma,_by_Henry_Ossawa_Tanner.jpg",
-    "foco": "25% 50%",
+    "credito": "El Greco · A Anunciação · Museo Thyssen-Bornemisza",
+    "pagina": "https://commons.wikimedia.org/wiki/File:El_Greco_(Dom%C3%A9nikos_Theotok%C3%B3poulos)_-_The_Annunciation_-_Google_Art_Project.jpg",
+    "foco": "50% 40%",
     "zoom": 1
   },
   "obra_pendente": false,
@@ -110,15 +110,15 @@
         },
         {
           "campo": "credito",
-          "conteudo": "Henry Ossawa Tanner · A Anunciação · Philadelphia Museum of Art",
+          "conteudo": "El Greco · A Anunciação · Museo Thyssen-Bornemisza",
           "linhas": [
-            "Henry Ossawa Tanner · A Anunciação · Philadelphia Museum of Art"
+            "El Greco · A Anunciação · Museo Thyssen-Bornemisza"
           ],
           "caixas_das_linhas": [
             {
-              "x": 189.734375,
+              "x": 258.40625,
               "y": 945,
-              "largura": 700.53125,
+              "largura": 563.171875,
               "altura": 29
             }
           ],
@@ -126,9 +126,9 @@
           "estilo": "credito",
           "cor": "#bbad98",
           "caixa": {
-            "x": 189.734375,
+            "x": 258.40625,
             "y": 944,
-            "largura": 700.53125,
+            "largura": 563.171875,
             "altura": 32
           },
           "alinhamento_canva": "center",
@@ -621,7 +621,7 @@
           "height": 744,
           "text": null,
           "arquivo": "obras/2026-12-20.jpg",
-          "source": "http://127.0.0.1:40363/obras/2026-12-20.jpg",
+          "source": "http://127.0.0.1:44463/obras/2026-12-20.jpg",
           "font_family": null,
           "font_weight": null,
           "font_style": null,
@@ -653,19 +653,19 @@
               0
             ]
           },
-          "source_width_px": 3840,
-          "source_height_px": 3081,
+          "source_width_px": 2300,
+          "source_height_px": 2750,
           "object_fit": "cover",
-          "object_position": "25% 50%"
+          "object_position": "50% 40%"
         },
         {
           "element": "credito",
           "kind": "text",
-          "x": 189.734375,
+          "x": 258.40625,
           "y": 944,
-          "width": 700.53125,
+          "width": 563.171875,
           "height": 32,
-          "text": "Henry Ossawa Tanner · A Anunciação · Philadelphia Museum of Art",
+          "text": "El Greco · A Anunciação · Museo Thyssen-Bornemisza",
           "arquivo": null,
           "source": null,
           "font_family": "Lato",
@@ -844,11 +844,11 @@
         }
       ],
       "enquadramento": {
-        "foco": "25% 50%",
+        "foco": "50% 40%",
         "zoom": 1.0,
         "imagem_original": {
-          "largura": 3840,
-          "altura": 3081
+          "largura": 2300,
+          "altura": 2750
         },
         "nicho": {
           "largura": 680,
@@ -858,13 +858,13 @@
           "largura": 648,
           "altura": 744
         },
-        "escala_cover": 0.24148003894839337,
-        "escala_com_zoom": 0.24148003894839337,
+        "escala_cover": 0.2817391304347826,
+        "escala_com_zoom": 0.2817391304347826,
         "janela_original": {
-          "x": 289.13709677419354,
-          "y": 0.0,
-          "largura": 2683.451612903226,
-          "altura": 3081.0
+          "x": 0.0,
+          "y": 43.70370370370365,
+          "largura": 2300.0,
+          "altura": 2640.740740740741
         },
         "margens_detectadas": {
           "topo": 0,
@@ -3129,11 +3129,11 @@
     }
   ],
   "enquadramento": {
-    "foco": "25% 50%",
+    "foco": "50% 40%",
     "zoom": 1.0,
     "imagem_original": {
-      "largura": 3840,
-      "altura": 3081
+      "largura": 2300,
+      "altura": 2750
     },
     "nicho": {
       "largura": 680,
@@ -3143,13 +3143,13 @@
       "largura": 648,
       "altura": 744
     },
-    "escala_cover": 0.24148003894839337,
-    "escala_com_zoom": 0.24148003894839337,
+    "escala_cover": 0.2817391304347826,
+    "escala_com_zoom": 0.2817391304347826,
     "janela_original": {
-      "x": 289.13709677419354,
-      "y": 0.0,
-      "largura": 2683.451612903226,
-      "altura": 3081.0
+      "x": 0.0,
+      "y": 43.70370370370365,
+      "largura": 2300.0,
+      "altura": 2640.740740740741
     },
     "margens_detectadas": {
       "topo": 0,

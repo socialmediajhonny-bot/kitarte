@@ -9,11 +9,12 @@
     O Senhor vem.
     Fique acordado.
   obra:
+    # Trocada em 26/11: Jesus bate à porta de noite, com a lanterna (Ap 3,20).
     arquivo: obras/2026-11-29.jpg
-    credito: James Tissot · A profecia da destruição do Templo · Brooklyn Museum
-    pagina: https://www.brooklynmuseum.org/objects/4551
-    foco: 45% 50%
-    zoom: 1.1
+    credito: William Holman Hunt · A Luz do Mundo · Keble College, Oxford
+    pagina: https://commons.wikimedia.org/wiki/File:Hunt-light-of-the-world.jpeg
+    foco: 50% 37%
+    zoom: 1
   trecho: |-
     O que vos digo, digo a todos:
     Vigiai!
@@ -402,11 +403,11 @@
   referencia: Lc 1,26-38
   titulo: O anjo é enviado a uma virgem de Nazaré
   obra:
-    # O anjo é a coluna de luz à esquerda; o foco 25% a põe dentro do arco.
+    # Trocada em 26/11: a Anunciação de El Greco cabe quase inteira no arco.
     arquivo: obras/2026-12-20.jpg
-    credito: Henry Ossawa Tanner · A Anunciação · Philadelphia Museum of Art
-    pagina: https://commons.wikimedia.org/wiki/File:The_Annunciation,_Philadelphia_Museum_of_Art,_W1899-1-1-pma,_by_Henry_Ossawa_Tanner.jpg
-    foco: 25% 50%
+    credito: El Greco · A Anunciação · Museo Thyssen-Bornemisza
+    pagina: https://commons.wikimedia.org/wiki/File:El_Greco_(Dom%C3%A9nikos_Theotok%C3%B3poulos)_-_The_Annunciation_-_Google_Art_Project.jpg
+    foco: 50% 40%
     zoom: 1
   # O trecho tira o "porque" do início do versículo; o resto é literal da CNBB.
   trecho: Para Deus nada é impossível.
