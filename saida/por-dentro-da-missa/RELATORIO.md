@@ -1,10 +1,10 @@
 # Por Dentro da Missa
 
-`python3 gerar.py por-dentro-da-missa`
+`python3 gerar.py por-dentro-da-missa --data 2027-01-07`
 
 ## Conteúdo e composição
 
-- Os textos foram escritos pela página e aprovados em 12/11/2026. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
+- Os textos foram escritos pela página. Aprovação por data: 2026-12-10 → 2026-11-12; 2027-01-07 → 2026-11-23. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
 - Feed de 1080 × 1350. Os modelos existem apenas no gerador, sem prévia equivalente no kit v4. Nenhum módulo compartilhado ou arquivo do kit é modificado.
 - O helper igreja_text_html é importado intacto: protege palavras de uma letra, referências bíblicas inteiras, ordinais ligados à palavra seguinte e palavras com hífen. As quebras do YAML são mantidas.
 - O gap de 16 px do aqr-texto recebe margens inline em tokens: 48 px entre rótulo e texto e em volta do ornamento; 32 px entre texto e fonte/referência e entre nicho e crédito. Cada par é medido no navegador com tolerância de ±0,01 px.
@@ -22,10 +22,14 @@
 | 2026-12-10 | 2 | explicacao | rotulo: 1; titulo: 1; texto: 5; fonte: 2 | selo_texto_px: 235.5 px; texto_assinatura_px: 235.5 px; diferenca_centralizacao_px: 0 px; rotulo_titulo_px: 48 px; titulo_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; titulo: 1 linhas; texto: 5 linhas; fonte: 2 linhas; folga_px: 235.5 px |
 | 2026-12-10 | 3 | explicacao | rotulo: 1; titulo: 1; texto: 4; fonte: 2 | selo_texto_px: 260.5 px; texto_assinatura_px: 260.5 px; diferenca_centralizacao_px: 0 px; rotulo_titulo_px: 48 px; titulo_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; titulo: 1 linhas; texto: 4 linhas; fonte: 2 linhas; folga_px: 260.5 px |
 | 2026-12-10 | 4 | fecho | rotulo: 1; frase: 2; convite: 1 | selo_texto_px: 353.5 px; texto_assinatura_px: 353.5 px; diferenca_centralizacao_px: 0 px; rotulo_frase_px: 48 px; frase_ornamento_px: 48 px; ornamento_convite_px: 48 px | rotulo: 1 linhas; frase: 2 linhas; convite: 1 linhas; folga_px: 353.5 px |
+| 2027-01-07 | 1 | capa | pergunta: 2; resposta: 1 | selo_texto_px: 369.5 px; texto_assinatura_px: 369.5 px; diferenca_centralizacao_px: 0 px; pergunta_ornamento_px: 48 px; ornamento_resposta_px: 48 px | pergunta: 2 linhas; resposta: 1 linhas; folga_px: 369.5 px |
+| 2027-01-07 | 2 | explicacao | rotulo: 1; titulo: 1; texto: 5; fonte: 2 | selo_texto_px: 235.5 px; texto_assinatura_px: 235.5 px; diferenca_centralizacao_px: 0 px; rotulo_titulo_px: 48 px; titulo_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; titulo: 1 linhas; texto: 5 linhas; fonte: 2 linhas; folga_px: 235.5 px |
+| 2027-01-07 | 3 | explicacao | rotulo: 1; titulo: 1; texto: 4; fonte: 1 | selo_texto_px: 276.5 px; texto_assinatura_px: 276.5 px; diferenca_centralizacao_px: 0 px; rotulo_titulo_px: 48 px; titulo_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; titulo: 1 linhas; texto: 4 linhas; fonte: 2 linhas; folga_px: 260.5 px |
+| 2027-01-07 | 4 | fecho | rotulo: 1; frase: 2; convite: 1 | selo_texto_px: 353.5 px; texto_assinatura_px: 353.5 px; diferenca_centralizacao_px: 0 px; rotulo_frase_px: 48 px; frase_ornamento_px: 48 px; ornamento_convite_px: 48 px | rotulo: 1 linhas; frase: 2 linhas; convite: 1 linhas; folga_px: 353.5 px |
 
 ## Diferenças da tabela prevista
 
-Nenhuma diferença.
+- 2027-01-07, card 3: fonte: 1 linhas; previsto 2; selo_texto_px: 276.5px; previsto 260.5px; texto_assinatura_px: 276.5px; previsto 260.5px
 
 ## Obras, janelas e recortes
 
@@ -33,7 +37,7 @@ Esta série não usa obras nem nichos.
 
 ## Avisos e pendências
 
-Nenhum aviso.
+- 2027-01-07, card 3: fonte: 1 linhas; previsto 2; selo_texto_px: 276.5px; previsto 260.5px; texto_assinatura_px: 276.5px; previsto 260.5px
 
 ## PDF e conferências
 
@@ -61,6 +65,12 @@ saida/por-dentro-da-missa/
   2026-12-10/card-4.png
   2026-12-10/ficha.json
   2026-12-10/por-dentro-da-missa-2026-12-10.pdf
+  2027-01-07/card-1.png
+  2027-01-07/card-2.png
+  2027-01-07/card-3.png
+  2027-01-07/card-4.png
+  2027-01-07/ficha.json
+  2027-01-07/por-dentro-da-missa-2027-01-07.pdf
   RELATORIO.md
   prancha.png
   verificacao.json

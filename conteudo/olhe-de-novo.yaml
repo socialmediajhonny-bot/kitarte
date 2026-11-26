@@ -87,3 +87,46 @@
       No ícone russo e no afresco de Giotto. São Francisco também os quis no
       primeiro presépio, em Greccio, no Natal de 1223.
     fonte: "Papa Francisco, Admirabile signum, 2"
+
+- data: 2027-01-06
+  cor: ouro
+  titulo: Ouro, incenso e mirra
+  obra:
+    arquivo: obras/olhe-de-novo/2027-01-06.jpg
+    credito: Andrea Mantegna · A Adoração dos Magos · J. Paul Getty Museum
+    pagina: https://commons.wikimedia.org/wiki/File:Andrea_Mantegna_-_Adoration_of_the_Magi_-_85.PA.417_-_J._Paul_Getty_MuseumFXD.jpg
+    foco: 50% 50%
+  detalhe:
+    titulo: Os presentes nas mãos dos reis
+    janela: [2100, 2250, 1000]
+    tamanho: [5000, 3861]
+  significado:
+    rotulo: O que significa
+    titulo: Rei, Deus e homem
+    texto: >-
+      Os Padres da Igreja leram nos presentes quem é o menino: o ouro, para
+      o Rei; o incenso, para Deus; a mirra, para o homem que vai morrer por
+      nós. A mirra volta no sepulcro, nas mãos de Nicodemos.
+    fonte: "Mt 2,11 · Jo 19,39 · Santo Ireneu, Contra as heresias, III, 9, 2"
+  onde:
+    rotulo: Onde mais aparece
+    obras:
+      - arquivo: obras/olhe-de-novo/2027-01-06-giotto.jpg
+        credito: |-
+          Giotto · A Adoração dos Magos
+          Capela Scrovegni, Pádua
+        pagina: https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._18_Scenes_from_the_Life_of_Christ_-_2._Adoration_of_the_Magi_-_WGA09195.jpg
+        janela: [420, 380, 400]
+        tamanho: [1000, 1008]
+      - arquivo: obras/olhe-de-novo/2027-01-06-gentile.jpg
+        credito: |-
+          Gentile da Fabriano
+          Adoração dos Magos · Uffizi
+        pagina: https://commons.wikimedia.org/wiki/File:Gentile_da_fabriano,_adorazione_dei_magi.jpg
+        janela: [620, 1120, 840]
+        tamanho: [3734, 2362]
+    texto: >-
+      No afresco de Giotto e no retábulo de Gentile da Fabriano, o rei mais
+      velho se ajoelha primeiro diante do menino. No Brasil, 6 de janeiro é o
+      Dia de Reis.
+    fonte: "Mt 2,11"

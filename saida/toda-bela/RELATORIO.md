@@ -1,10 +1,10 @@
 # Toda Bela
 
-`python3 gerar.py toda-bela --data 2026-12-26`
+`python3 gerar.py toda-bela --data 2027-01-09`
 
 ## Conteúdo e composição
 
-- Os textos foram escritos pela página. Aprovação por data: 2026-12-12 → 2026-11-12; 2026-12-26 → 2026-11-19. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
+- Os textos foram escritos pela página. Aprovação por data: 2026-12-12 → 2026-11-12; 2026-12-26 → 2026-11-19; 2027-01-02 → 2026-11-23; 2027-01-09 → 2026-11-23. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
 - Feed de 1080 × 1350. Os modelos existem apenas no gerador, sem prévia equivalente no kit v4. Nenhum módulo compartilhado ou arquivo do kit é modificado.
 - O helper igreja_text_html é importado intacto: protege palavras de uma letra, referências bíblicas inteiras, ordinais ligados à palavra seguinte e palavras com hífen. As quebras do YAML são mantidas.
 - O gap de 16 px do aqr-texto recebe margens inline em tokens: 48 px entre rótulo e texto e em volta do ornamento; 32 px entre texto e fonte/referência e entre nicho e crédito. Cada par é medido no navegador com tolerância de ±0,01 px.
@@ -28,10 +28,18 @@
 | 2026-12-26 | 1 | capa | credito: 1; invocacao: 1 | selo_nicho_px: 32 px; nicho_credito_px: 32 px; credito_invocacao_px: 48 px; invocacao_assinatura_px: 98 px | credito: 1 linhas; invocacao: 1 linhas; selo_nicho_px: 32 px; invocacao_assinatura_px: 98 px |
 | 2026-12-26 | 2 | raiz | rotulo: 1; versiculo: 2; referencia: 1; texto: 4; fonte: 1 | selo_texto_px: 210.5 px; texto_assinatura_px: 210.5 px; diferenca_centralizacao_px: 0 px; rotulo_versiculo_px: 48 px; versiculo_referencia_px: 32 px; referencia_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; versiculo: 2 linhas; referencia: 1 linhas; texto: 4 linhas; fonte: 1 linhas; folga_px: 210.5 px |
 | 2026-12-26 | 3 | oracao | rotulo: 1; frase: 2; convite: 1 | selo_texto_px: 333.5 px; texto_assinatura_px: 333.5 px; diferenca_centralizacao_px: 0 px; rotulo_frase_px: 48 px; frase_ornamento_px: 48 px; ornamento_convite_px: 48 px | rotulo: 1 linhas; frase: 2 linhas; convite: 1 linhas; folga_px: 333.5 px |
+| 2027-01-02 | 1 | capa | credito: 1; invocacao: 1 | selo_nicho_px: 32 px; nicho_credito_px: 32 px; credito_invocacao_px: 48 px; invocacao_assinatura_px: 118 px | credito: 1 linhas; invocacao: 1 linhas; selo_nicho_px: 32 px; invocacao_assinatura_px: 98 px |
+| 2027-01-02 | 2 | raiz | rotulo: 1; versiculo: 2; referencia: 1; texto: 4; fonte: 1 | selo_texto_px: 210.5 px; texto_assinatura_px: 210.5 px; diferenca_centralizacao_px: 0 px; rotulo_versiculo_px: 48 px; versiculo_referencia_px: 32 px; referencia_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; versiculo: 1 linhas; referencia: 1 linhas; texto: 5 linhas; fonte: 1 linhas; folga_px: 219.5 px |
+| 2027-01-02 | 3 | oracao | rotulo: 1; frase: 2; convite: 1 | selo_texto_px: 333.5 px; texto_assinatura_px: 333.5 px; diferenca_centralizacao_px: 0 px; rotulo_frase_px: 48 px; frase_ornamento_px: 48 px; ornamento_convite_px: 48 px | rotulo: 1 linhas; frase: 2 linhas; convite: 1 linhas; folga_px: 333.5 px |
+| 2027-01-09 | 1 | capa | credito: 1; invocacao: 1 | selo_nicho_px: 32 px; nicho_credito_px: 32 px; credito_invocacao_px: 48 px; invocacao_assinatura_px: 98 px | credito: 1 linhas; invocacao: 1 linhas; selo_nicho_px: 32 px; invocacao_assinatura_px: 98 px |
+| 2027-01-09 | 2 | raiz | rotulo: 1; versiculo: 2; referencia: 1; texto: 4; fonte: 1 | selo_texto_px: 210.5 px; texto_assinatura_px: 210.5 px; diferenca_centralizacao_px: 0 px; rotulo_versiculo_px: 48 px; versiculo_referencia_px: 32 px; referencia_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; versiculo: 1 linhas; referencia: 1 linhas; texto: 5 linhas; fonte: 1 linhas; folga_px: 219.5 px |
+| 2027-01-09 | 3 | oracao | rotulo: 1; frase: 2; convite: 1 | selo_texto_px: 333.5 px; texto_assinatura_px: 333.5 px; diferenca_centralizacao_px: 0 px; rotulo_frase_px: 48 px; frase_ornamento_px: 48 px; ornamento_convite_px: 48 px | rotulo: 1 linhas; frase: 2 linhas; convite: 1 linhas; folga_px: 333.5 px |
 
 ## Diferenças da tabela prevista
 
-Nenhuma diferença.
+- 2027-01-02, card 1: invocacao_assinatura_px: 118px; previsto 98px
+- 2027-01-02, card 2: versiculo: 2 linhas; previsto 1; texto: 4 linhas; previsto 5; selo_texto_px: 210.5px; previsto 219.5px; texto_assinatura_px: 210.5px; previsto 219.5px
+- 2027-01-09, card 2: versiculo: 2 linhas; previsto 1; texto: 4 linhas; previsto 5; selo_texto_px: 210.5px; previsto 219.5px; texto_assinatura_px: 210.5px; previsto 219.5px
 
 ## Obras, janelas e recortes
 
@@ -61,10 +69,38 @@ Dimensão do JPEG recortado: 1022 × 1250 px.
 Margens e faixas detectadas: `{"margens_detectadas": {"topo": 0, "base": 0, "esquerda": 12, "direita": 19}, "faixas_descartadas": [{"lado": "topo", "largura": 7, "diferenca_cinza": 4.883965371310811}], "margens_visiveis": []}`.
 
 Capa e recorte-1.png finais conferidos no ícone de Vladimir. Os rostos de Maria e do Menino e os gestos das mãos junto do colo ficam preservados. A curva recorta a região externa do véu e parte da auréola; a base fecha a composição sobre as vestes, deixando parte inferior do corpo e os pés do Menino fora da janela. Não há margem fotográfica dentro do arco: as bordas de 12 e 19 px do original ficam excluídas pelo foco 53% 38% e zoom 1.9 aprovados. Nenhuma mudança aplicada ao YAML.
+### 2027-01-02 · card-1
+
+Antonello da Messina · A Virgem da Anunciação · Palazzo Abatellis, Palermo — https://commons.wikimedia.org/wiki/File:Antonello_da_Messina,_Annunciata_di_Palermo,_circa_1475-77_-FG2.jpg
+
+Original local: `obras/toda-bela/2027-01-02.jpg`. Foco `50% 32%`, zoom `1.1`.
+
+Janela original x=168.636364, y=231.311005, largura=3372.727273, altura=4127.153110 px; ampliação=0.180270.
+Arquivo recortado: `saida/toda-bela/2027-01-02/obra-1.jpg`. Prova: `saida/toda-bela/2027-01-02/recorte-1.png`.
+Dimensão do JPEG recortado: 1216 × 1488 px.
+
+Margens e faixas detectadas: `{"margens_detectadas": {"topo": 0, "base": 0, "esquerda": 0, "direita": 0}, "faixas_descartadas": [], "margens_visiveis": []}`.
+
+Card 1 final e recorte-1.png conferidos. O rosto de Maria, o véu azul inteiro e as duas mãos, a erguida e a que segura o véu, ficam dentro do arco; o atril com o livro aberto aparece na base. A curva passa acima do véu sem cortar a cabeça, e as bordas escuras do painel ficam fora. Não há margem fotográfica visível. Foco 50% 32% e zoom 1.1 mantidos.
+### 2027-01-09 · card-1
+
+Rafael · Madona della Seggiola · Palazzo Pitti, Florença — https://commons.wikimedia.org/wiki/File:Raphael_Madonna_della_seggiola.jpg
+
+Original local: `obras/toda-bela/2027-01-09.jpg`. Foco `45% 40%`, zoom `1.3`.
+
+Janela original x=257.493797, y=150.923077, largura=1027.791563, altura=1257.692308 px; ampliação=0.591560.
+Arquivo recortado: `saida/toda-bela/2027-01-09/obra-1.jpg`. Prova: `saida/toda-bela/2027-01-09/recorte-1.png`.
+Dimensão do JPEG recortado: 1028 × 1258 px.
+
+Margens e faixas detectadas: `{"margens_detectadas": {"topo": 13, "base": 12, "esquerda": 13, "direita": 16}, "faixas_descartadas": [], "margens_visiveis": []}`.
+
+Card 1 final e recorte-1.png conferidos. Os rostos de Maria e do Menino, o abraço e as pernas do Menino ficam dentro do arco, com o pilar entalhado da cadeira à esquerda. São João menino, à direita, aparece só em parte junto da curva, e a borda do tondo fica fora do arco. Não há margem fotográfica visível. Foco 45% 40% e zoom 1.3 mantidos.
 
 ## Avisos e pendências
 
-Nenhum aviso geométrico ou de composição. Os cortes visuais de figuras e elementos periféricos estão registrados nas notas de cada obra; o YAML aprovado foi mantido.
+- 2027-01-02, card 1: invocacao_assinatura_px: 118px; previsto 98px
+- 2027-01-02, card 2: versiculo: 2 linhas; previsto 1; texto: 4 linhas; previsto 5; selo_texto_px: 210.5px; previsto 219.5px; texto_assinatura_px: 210.5px; previsto 219.5px
+- 2027-01-09, card 2: versiculo: 2 linhas; previsto 1; texto: 4 linhas; previsto 5; selo_texto_px: 210.5px; previsto 219.5px; texto_assinatura_px: 210.5px; previsto 219.5px
 
 ## PDF e conferências
 
@@ -100,6 +136,20 @@ saida/toda-bela/
   2026-12-26/obra-1.jpg
   2026-12-26/recorte-1.png
   2026-12-26/toda-bela-2026-12-26.pdf
+  2027-01-02/card-1.png
+  2027-01-02/card-2.png
+  2027-01-02/card-3.png
+  2027-01-02/ficha.json
+  2027-01-02/obra-1.jpg
+  2027-01-02/recorte-1.png
+  2027-01-02/toda-bela-2027-01-02.pdf
+  2027-01-09/card-1.png
+  2027-01-09/card-2.png
+  2027-01-09/card-3.png
+  2027-01-09/ficha.json
+  2027-01-09/obra-1.jpg
+  2027-01-09/recorte-1.png
+  2027-01-09/toda-bela-2027-01-09.pdf
   NOTAS-DAS-OBRAS.json
   RELATORIO.md
   prancha.png

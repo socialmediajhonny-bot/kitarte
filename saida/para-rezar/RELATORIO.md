@@ -90,3 +90,9 @@ saida/para-rezar/
 ## Compatibilidade dos cards aprovados
 
 As datas de 20/10 e 15/12 preservam seu HTML histórico, cujos hífens já cabem inteiros. As datas novas e futuras usam o helper intacto da Igreja Doméstica. A validação rejeita hífen no fim da linha em todas as datas. A regeneração dos três cards antigos deu zero pixels diferentes nos PNGs e nas páginas PDF a 2×; a ocorrência inicial de 318 pixels foi resolvida, sem tolerância de antialiasing.
+
+### Janeiro de 2027: 1º a 10/1
+
+Gerado em 23/11/2026 com `python gerar.py para-rezar --data 2027-01-05`: À vossa proteção (Sub tuum praesidium, a mais antiga oração a Nossa Senhora), um card, sem obra. Texto autorizado em 23/11/2026.
+
+A conferência da prévia do kit compara a vitrine com as provas de 20/10 e 15/12, renderizadas em outro ambiente; por isso essas duas pastas foram afastadas só durante a geração e devolvidas intactas. A prancha foi recomposta com todas as datas: as faixas de 29 e 31/12 da nova geração são idênticas, pixel a pixel, às da main.

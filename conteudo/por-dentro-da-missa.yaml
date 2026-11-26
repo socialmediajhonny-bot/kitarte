@@ -32,3 +32,30 @@
     rotulo: Para reparar no domingo
     frase: Repare na cor das vestes do padre e na vela rosa da coroa do Advento.
     convite: Salve e envie para quem vai à Missa com você.
+
+- data: 2027-01-07
+  cor: ouro
+  capa:
+    pergunta: Por que cantamos o Glória?
+    resposta: E por que ele some no Advento e volta no Natal.
+  explicacoes:
+    - rotulo: De onde vem
+      titulo: O canto dos anjos
+      texto: >-
+        O Glória começa com o canto dos anjos aos pastores, na noite em que
+        Jesus nasceu. Depois, a Igreja acrescentou louvores ao Pai, ao Filho e
+        ao Espírito Santo. É um hino muito antigo, dos primeiros séculos.
+      fonte: |-
+        Lc 2,14
+        Instrução Geral do Missal Romano, 53
+    - rotulo: Quando se canta
+      titulo: Domingos, solenidades e festas
+      texto: >-
+        O Glória é cantado ou rezado nos domingos fora do Advento e da
+        Quaresma, nas solenidades e nas festas. No Advento, ele fica guardado
+        para voltar com mais alegria na noite de Natal.
+      fonte: Instrução Geral do Missal Romano, 53
+  fecho:
+    rotulo: Para reparar no domingo
+    frase: No Batismo do Senhor, cante o Glória lembrando dos anjos de Belém.
+    convite: Salve e envie para quem canta no coral da sua paróquia.

@@ -1,10 +1,10 @@
 # Rezo por Você
 
-`python3 gerar.py rezo-por-voce`
+`python3 gerar.py rezo-por-voce --data 2027-01-08`
 
 ## Conteúdo e composição
 
-- Os textos foram escritos pela página e aprovados em 12/11/2026. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
+- Os textos foram escritos pela página. Aprovação por data: 2026-12-11 → 2026-11-12; 2027-01-01 → 2026-11-23; 2027-01-08 → 2026-11-23. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
 - Feed de 1080 × 1350. Os modelos existem apenas no gerador, sem prévia equivalente no kit v4. Nenhum módulo compartilhado ou arquivo do kit é modificado.
 - O helper igreja_text_html é importado intacto: protege palavras de uma letra, referências bíblicas inteiras, ordinais ligados à palavra seguinte e palavras com hífen. As quebras do YAML são mantidas.
 - O gap de 16 px do aqr-texto recebe margens inline em tokens: 48 px entre rótulo e texto e em volta do ornamento; 32 px entre texto e fonte/referência e entre nicho e crédito. Cada par é medido no navegador com tolerância de ±0,01 px.
@@ -19,6 +19,8 @@
 | Data | Card | Tipo | Linhas medidas | Distâncias e folgas medidas | Previsto |
 | --- | --- | --- | --- | --- | --- |
 | 2026-12-11 | 1 | unico | titulo: 2; texto: 2 | selo_texto_px: 352.5 px; texto_assinatura_px: 352.5 px; diferenca_centralizacao_px: 0 px; ornamento_titulo_px: 48 px; titulo_texto_px: 32 px | titulo: 2 linhas; texto: 2 linhas; folga_px: 352.5 px |
+| 2027-01-01 | 1 | unico | titulo: 2; texto: 2 | selo_texto_px: 352.5 px; texto_assinatura_px: 352.5 px; diferenca_centralizacao_px: 0 px; ornamento_titulo_px: 48 px; titulo_texto_px: 32 px | titulo: 2 linhas; texto: 2 linhas; folga_px: 352.5 px |
+| 2027-01-08 | 1 | unico | titulo: 2; texto: 2 | selo_texto_px: 352.5 px; texto_assinatura_px: 352.5 px; diferenca_centralizacao_px: 0 px; ornamento_titulo_px: 48 px; titulo_texto_px: 32 px | titulo: 2 linhas; texto: 2 linhas; folga_px: 352.5 px |
 
 ## Diferenças da tabela prevista
 
@@ -55,6 +57,12 @@ saida/rezo-por-voce/
   2026-12-11/card-1.png
   2026-12-11/ficha.json
   2026-12-11/rezo-por-voce-2026-12-11.pdf
+  2027-01-01/card-1.png
+  2027-01-01/ficha.json
+  2027-01-01/rezo-por-voce-2027-01-01.pdf
+  2027-01-08/card-1.png
+  2027-01-08/ficha.json
+  2027-01-08/rezo-por-voce-2027-01-08.pdf
   RELATORIO.md
   prancha.png
   verificacao.json

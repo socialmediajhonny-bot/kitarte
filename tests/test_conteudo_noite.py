@@ -35,10 +35,10 @@ class NightContentTests(unittest.TestCase):
         for slug, days in self.days.items():
             self.assertEqual(self.load(slug, days), days)
         self.assertEqual({slug: [day['data'] for day in days] for slug, days in self.days.items()}, {
-            'olhe-de-novo': ['2026-12-09', '2026-12-30'],
-            'por-dentro-da-missa': ['2026-12-10'],
-            'rezo-por-voce': ['2026-12-11'],
-            'toda-bela': ['2026-12-12', '2026-12-26'],
+            'olhe-de-novo': ['2026-12-09', '2026-12-30', '2027-01-06'],
+            'por-dentro-da-missa': ['2026-12-10', '2027-01-07'],
+            'rezo-por-voce': ['2026-12-11', '2027-01-01', '2027-01-08'],
+            'toda-bela': ['2026-12-12', '2026-12-26', '2027-01-02', '2027-01-09'],
         })
         look = self.days['olhe-de-novo'][0]
         self.assertEqual(look['detalhe']['janela'], [396, 2440, 608])

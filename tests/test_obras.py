@@ -104,6 +104,89 @@ ROUND_SIXTEEN_ARTWORKS = {
     },
 }
 
+# Originais de janeiro de 2027 (1º a 10/1): dimensões, margens fotográficas e
+# faixas descartadas. O gerador mantém essas margens fora dos recortes.
+JANUARY_2027_ARTWORKS = {
+    'obras/2027-01-01.jpg': {
+        'tamanho': (3840, 3166), 'margens': {}, 'faixas': {},
+    },
+    'obras/2027-01-02.jpg': {
+        'tamanho': (6246, 3713), 'margens': {'topo': 46, 'base': 45, 'direita': 57}, 'faixas': {'esquerda': (48, 9.453934)},
+    },
+    'obras/2027-01-03.jpg': {
+        'tamanho': (1861, 3051), 'margens': {}, 'faixas': {},
+    },
+    'obras/2027-01-04.jpg': {
+        'tamanho': (3840, 4190), 'margens': {}, 'faixas': {},
+    },
+    'obras/2027-01-05.jpg': {
+        'tamanho': (3811, 1686), 'margens': {'topo': 4, 'base': 4, 'direita': 4}, 'faixas': {},
+    },
+    'obras/2027-01-06.jpg': {
+        'tamanho': (1200, 2011), 'margens': {}, 'faixas': {},
+    },
+    'obras/2027-01-07.jpg': {
+        'tamanho': (1024, 1181), 'margens': {}, 'faixas': {},
+    },
+    'obras/2027-01-08.jpg': {
+        'tamanho': (1888, 1418), 'margens': {}, 'faixas': {},
+    },
+    'obras/2027-01-09.jpg': {
+        'tamanho': (3840, 4971), 'margens': {}, 'faixas': {},
+    },
+    'obras/2027-01-10.jpg': {
+        'tamanho': (3840, 5517), 'margens': {}, 'faixas': {},
+    },
+    'obras/coragem/2027-01-04.jpg': {
+        'tamanho': (3811, 2864), 'margens': {'topo': 19, 'base': 17, 'esquerda': 25, 'direita': 18}, 'faixas': {},
+    },
+    'obras/igreja-domestica/2027-01-03.jpg': {
+        'tamanho': (3840, 2647), 'margens': {}, 'faixas': {},
+    },
+    'obras/igreja-domestica/2027-01-10.jpg': {
+        'tamanho': (1565, 1864), 'margens': {}, 'faixas': {},
+    },
+    'obras/olhe-de-novo/2027-01-06-gentile.jpg': {
+        'tamanho': (3734, 2362), 'margens': {}, 'faixas': {},
+    },
+    'obras/olhe-de-novo/2027-01-06-giotto.jpg': {
+        'tamanho': (1000, 1008), 'margens': {}, 'faixas': {},
+    },
+    'obras/olhe-de-novo/2027-01-06.jpg': {
+        'tamanho': (5000, 3861), 'margens': {}, 'faixas': {},
+    },
+    'obras/santo-do-dia/2027-01-01.jpg': {
+        'tamanho': (3840, 4796), 'margens': {}, 'faixas': {},
+    },
+    'obras/santo-do-dia/2027-01-02.jpg': {
+        'tamanho': (2202, 3904), 'margens': {}, 'faixas': {'topo': (6, 8.601357), 'esquerda': (117, 0.88511)},
+    },
+    'obras/santo-do-dia/2027-01-04.jpg': {
+        'tamanho': (3165, 4000), 'margens': {}, 'faixas': {},
+    },
+    'obras/santo-do-dia/2027-01-05.jpg': {
+        'tamanho': (1150, 1536), 'margens': {'topo': 7, 'base': 21, 'esquerda': 20, 'direita': 9}, 'faixas': {},
+    },
+    'obras/santo-do-dia/2027-01-06.jpg': {
+        'tamanho': (1280, 1731), 'margens': {}, 'faixas': {},
+    },
+    'obras/santo-do-dia/2027-01-07.jpg': {
+        'tamanho': (1280, 1280), 'margens': {'esquerda': 197, 'direita': 203}, 'faixas': {},
+    },
+    'obras/santo-do-dia/2027-01-08.jpg': {
+        'tamanho': (3840, 5503), 'margens': {}, 'faixas': {},
+    },
+    'obras/santo-do-dia/2027-01-09.jpg': {
+        'tamanho': (1796, 3049), 'margens': {}, 'faixas': {},
+    },
+    'obras/toda-bela/2027-01-02.jpg': {
+        'tamanho': (3710, 4850), 'margens': {}, 'faixas': {},
+    },
+    'obras/toda-bela/2027-01-09.jpg': {
+        'tamanho': (1600, 1635), 'margens': {'topo': 13, 'base': 12, 'esquerda': 13, 'direita': 16}, 'faixas': {},
+    },
+}
+
 
 class ArtworkTests(unittest.TestCase):
     def setUp(self):
@@ -291,6 +374,7 @@ class ArtworkTests(unittest.TestCase):
         excluded.update(f'obras/{day}.jpg' for day in LOT_THREE_MUSEUM_MARGINS)
         excluded.update(f'obras/santo-do-dia/{day}.jpg' for day in SAINT_DECEMBER_MUSEUM_MARGINS)
         excluded.update(ROUND_SIXTEEN_ARTWORKS)
+        excluded.update(JANUARY_2027_ARTWORKS)
         for artwork in sorted((PROJECT / 'obras').rglob('*.jpg')):
             if artwork.relative_to(PROJECT).as_posix() in excluded:
                 continue
@@ -302,6 +386,24 @@ class ArtworkTests(unittest.TestCase):
     def test_round_sixteen_original_dimensions_margins_and_discarded_bands(self):
         self.assertEqual(len(ROUND_SIXTEEN_ARTWORKS), 17)
         for relative, expected in ROUND_SIXTEEN_ARTWORKS.items():
+            with self.subTest(artwork=relative):
+                artwork = PROJECT / relative
+                with Image.open(artwork) as image:
+                    self.assertEqual(image.size, expected['tamanho'])
+                result = inspect_artwork(artwork, '50% 50%')
+                margins = dict.fromkeys(('topo', 'base', 'esquerda', 'direita'), 0)
+                margins.update(expected['margens'])
+                self.assertEqual(result['margens_detectadas'], margins)
+                bands = result['faixas_descartadas']
+                self.assertEqual([band['lado'] for band in bands], list(expected['faixas']))
+                for band in bands:
+                    width, difference = expected['faixas'][band['lado']]
+                    self.assertEqual(band['largura'], width)
+                    self.assertAlmostEqual(band['diferenca_cinza'], difference, delta=.01)
+
+    def test_january_2027_original_dimensions_margins_and_discarded_bands(self):
+        self.assertEqual(len(JANUARY_2027_ARTWORKS), 26)
+        for relative, expected in JANUARY_2027_ARTWORKS.items():
             with self.subTest(artwork=relative):
                 artwork = PROJECT / relative
                 with Image.open(artwork) as image:

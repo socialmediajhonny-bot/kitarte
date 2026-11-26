@@ -1,10 +1,10 @@
 # Igreja Doméstica
 
-`python gerar.py igreja-domestica --data 2026-12-27`
+`python gerar.py igreja-domestica --data 2027-01-10`
 
 ## Conteúdo e composição
 
-- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026, os de 13/12 em 12/11/2026 e os de 20 e 27/12 em 19/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.
+- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026, os de 13/12 em 12/11/2026, os de 20 e 27/12 em 19/11/2026 e os de 3 e 10/1/2027 em 23/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.
 - PostIgrejaDomestica aceita de dois a seis cards e usa feed 1080 × 1350 e tema pergaminho. O selo traz a série e a data; do segundo card em diante aparece a contagem à direita.
 - A capa segue o fluxo abaixo do selo: Nicho 600 × 680 com foco e zoom do YAML, crédito, título e apoio. A imagem entra dentro do arco; o crédito aparece na capa, e a página da obra fica somente na ficha e neste relatório.
 - Passos, oração e conversa mantêm o bloco centralizado entre selo e assinatura, com pelo menos 60 px de folga e diferença de centralização até 0,1 px. Na capa, o apoio fica a pelo menos 32 px da assinatura.
@@ -68,10 +68,21 @@
 | 2026-12-27 | 2 | passos | titulo: 1; item_1: 2; item_2: 2; item_3: 2; item_4: 2; fonte: 1 | selo_texto_px: 128.5px; texto_assinatura_px: 128.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_linha_item_1_px: 48px; linha_item_1_linha_item_2_px: 32px; linha_item_2_linha_item_3_px: 32px; linha_item_3_linha_item_4_px: 32px; linha_item_4_fonte_px: 32px |
 | 2026-12-27 | 3 | oracao | titulo: 1; fala_1: 2; fala_2: 3; fala_3: 1; fala_4: 1; origem: 1 | selo_texto_px: 102.5px; texto_assinatura_px: 102.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px; fala_2_fala_3_px: 48px; fala_3_fala_4_px: 48px; fala_4_origem_px: 32px |
 | 2026-12-27 | 4 | conversa | pergunta: 2; convite: 1 | selo_texto_px: 353.5px; texto_assinatura_px: 353.5px; diferenca_centralizacao_px: 0px; rotulo_pergunta_px: 48px; pergunta_ornamento_px: 48px; ornamento_convite_px: 48px |
+| 2027-01-03 | 1 | capa | credito: 1; titulo: 1; apoio: 1 | selo_nicho_px: 32px; nicho_credito_px: 32px; credito_titulo_px: 48px; titulo_apoio_px: 32px; apoio_assinatura_px: 116px |
+| 2027-01-03 | 2 | passos | titulo: 1; item_1: 2; item_2: 2; item_3: 2; item_4: 3; fonte: 1 | selo_texto_px: 103.5px; texto_assinatura_px: 103.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_linha_item_1_px: 48px; linha_item_1_linha_item_2_px: 32px; linha_item_2_linha_item_3_px: 32px; linha_item_3_linha_item_4_px: 32px; linha_item_4_fonte_px: 32px |
+| 2027-01-03 | 3 | oracao | titulo: 1; fala_1: 2; fala_2: 2; fala_3: 1; fala_4: 1; origem: 1 | selo_texto_px: 133.5px; texto_assinatura_px: 133.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px; fala_2_fala_3_px: 48px; fala_3_fala_4_px: 48px; fala_4_origem_px: 32px |
+| 2027-01-03 | 4 | conversa | pergunta: 2; convite: 1 | selo_texto_px: 353.5px; texto_assinatura_px: 353.5px; diferenca_centralizacao_px: 0px; rotulo_pergunta_px: 48px; pergunta_ornamento_px: 48px; ornamento_convite_px: 48px |
+| 2027-01-10 | 1 | capa | credito: 1; titulo: 1; apoio: 1 | selo_nicho_px: 32px; nicho_credito_px: 32px; credito_titulo_px: 48px; titulo_apoio_px: 32px; apoio_assinatura_px: 116px |
+| 2027-01-10 | 2 | passos | titulo: 1; item_1: 1; item_2: 2; item_3: 2; item_4: 2; fonte: 1 | selo_texto_px: 153.5px; texto_assinatura_px: 153.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_linha_item_1_px: 48px; linha_item_1_linha_item_2_px: 32px; linha_item_2_linha_item_3_px: 32px; linha_item_3_linha_item_4_px: 32px; linha_item_4_fonte_px: 32px |
+| 2027-01-10 | 3 | oracao | titulo: 1; fala_1: 2; fala_2: 2; fala_3: 1; fala_4: 1; origem: 1 | selo_texto_px: 133.5px; texto_assinatura_px: 133.5px; diferenca_centralizacao_px: 0px; rotulo_titulo_px: 48px; titulo_ornamento_px: 48px; ornamento_fala_1_px: 48px; fala_1_fala_2_px: 48px; fala_2_fala_3_px: 48px; fala_3_fala_4_px: 48px; fala_4_origem_px: 32px |
+| 2027-01-10 | 4 | conversa | pergunta: 2; convite: 1 | selo_texto_px: 353.5px; texto_assinatura_px: 353.5px; diferenca_centralizacao_px: 0px; rotulo_pergunta_px: 48px; pergunta_ornamento_px: 48px; ornamento_convite_px: 48px |
 
 ## Diferenças da tabela prevista
 
-Nenhuma diferença.
+- 2027-01-03, card 2: item_4: 3 linhas; previsto 2; selo_texto_px: 103.5px; previsto 128.5px; texto_assinatura_px: 103.5px; previsto 128.5px
+- 2027-01-03, card 3: fala_2: 2 linhas; previsto 4; selo_texto_px: 133.5px; previsto 103.5px; texto_assinatura_px: 133.5px; previsto 103.5px
+- 2027-01-10, card 2: item_1: 1 linhas; previsto 2; selo_texto_px: 153.5px; previsto 128.5px; texto_assinatura_px: 153.5px; previsto 128.5px
+- 2027-01-10, card 3: fala_2: 2 linhas; previsto 4; selo_texto_px: 133.5px; previsto 103.5px; texto_assinatura_px: 133.5px; previsto 103.5px
 
 ## Obras, enquadramentos e recortes
 
@@ -115,10 +126,29 @@ Obra real local, sem novo download. Recorte gerado com a pintura inteira e o con
 Foco `50% 75%`, zoom `1.1`; janela original x=139.409, y=555.432, largura=2788.18, altura=3259.42 px.
 
 Capa e recorte finais conferidos individualmente com foco 50% 75% e zoom 1.1. Maria, o Menino no berço e José ao fundo mantêm seus rostos e os gestos essenciais dentro do arco; o Menino, o berço e o livro de Maria ficam preservados. José permanece na área escura da pintura, como no original. Um anjo sobre a família continua visível, enquanto o grupo de anjos do canto superior esquerdo e partes periféricas do ambiente ficam fora do arco. Não há margem fotográfica detectada ou visível. O foco e o zoom aprovados foram mantidos; não é necessário ajuste para preservar a Sagrada Família.
+### 2027-01-03
+
+Burne-Jones e Morris & Co. · A Adoração dos Magos · Museu d'Orsay — https://commons.wikimedia.org/wiki/File:Edward_Burne-Jones_-_The_Adoration_of_the_Magi_-_Google_Art_Project.jpg
+
+Obra real local, sem novo download. Recorte gerado com a pintura inteira e o contorno da janela do arco.
+Foco `42% 55%`, zoom `1.4`; janela original x=933.51, y=415.957, largura=1617.36, altura=1890.71 px.
+
+Capa e recorte finais conferidos com foco 42% 55% e zoom 1.4. Maria com o Menino no colo e o anjo que segura a estrela ficam dentro do arco; o primeiro rei, de manto vermelho, aparece à direita só em parte. José, à esquerda, e os outros dois reis ficam fora, porque a tapeçaria é muito mais larga que o arco. A borda tecida não entra no arco, e não há margem fotográfica visível. O foco e o zoom do YAML foram mantidos.
+### 2027-01-10
+
+Verrocchio e Leonardo · O Batismo de Cristo · Galeria Uffizi, Florença — https://commons.wikimedia.org/wiki/File:Andrea_del_Verrocchio,_Leonardo_da_Vinci_-_Baptism_of_Christ_-_Uffizi.jpg
+
+Obra real local, sem novo download. Recorte gerado com a pintura inteira e o contorno da janela do arco.
+Foco `50% 40%`, zoom `1.1`; janela original x=71.1364, y=80.3247, largura=1422.73, altura=1663.19 px.
+
+Capa e recorte finais conferidos com foco 50% 40% e zoom 1.1. Cristo, São João Batista derramando a água, a pomba no alto e os dois anjos ajoelhados à esquerda ficam dentro do arco; a palmeira e a paisagem laterais aparecem em parte. Não há margem fotográfica detectada ou visível. O foco e o zoom do YAML foram mantidos.
 
 ## Avisos e pendências
 
-Nenhum aviso.
+- 2027-01-03, card 2: item_4: 3 linhas; previsto 2; selo_texto_px: 103.5px; previsto 128.5px; texto_assinatura_px: 103.5px; previsto 128.5px
+- 2027-01-03, card 3: fala_2: 2 linhas; previsto 4; selo_texto_px: 133.5px; previsto 103.5px; texto_assinatura_px: 133.5px; previsto 103.5px
+- 2027-01-10, card 2: item_1: 1 linhas; previsto 2; selo_texto_px: 153.5px; previsto 128.5px; texto_assinatura_px: 153.5px; previsto 128.5px
+- 2027-01-10, card 3: fala_2: 2 linhas; previsto 4; selo_texto_px: 133.5px; previsto 103.5px; texto_assinatura_px: 133.5px; previsto 103.5px
 Obras pendentes: nenhuma.
 
 ## PDF e conferências
@@ -180,6 +210,20 @@ saida/igreja-domestica/
   2026-12-27/ficha.json
   2026-12-27/igreja-domestica-2026-12-27.pdf
   2026-12-27/recorte.png
+  2027-01-03/card-1.png
+  2027-01-03/card-2.png
+  2027-01-03/card-3.png
+  2027-01-03/card-4.png
+  2027-01-03/ficha.json
+  2027-01-03/igreja-domestica-2027-01-03.pdf
+  2027-01-03/recorte.png
+  2027-01-10/card-1.png
+  2027-01-10/card-2.png
+  2027-01-10/card-3.png
+  2027-01-10/card-4.png
+  2027-01-10/ficha.json
+  2027-01-10/igreja-domestica-2027-01-10.pdf
+  2027-01-10/recorte.png
   CONFERENCIA-PROMPT-10.md
   NOTAS-DAS-OBRAS.json
   RELATORIO.md

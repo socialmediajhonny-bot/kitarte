@@ -12,5 +12,17 @@
       "inspecionada": true,
       "nota": "Capa e recorte-1.png finais conferidos no ícone de Vladimir. Os rostos de Maria e do Menino e os gestos das mãos junto do colo ficam preservados. A curva recorta a região externa do véu e parte da auréola; a base fecha a composição sobre as vestes, deixando parte inferior do corpo e os pés do Menino fora da janela. Não há margem fotográfica dentro do arco: as bordas de 12 e 19 px do original ficam excluídas pelo foco 53% 38% e zoom 1.9 aprovados. Nenhuma mudança aplicada ao YAML."
     }
+  },
+  "2027-01-02": {
+    "card-1": {
+      "inspecionada": true,
+      "nota": "Card 1 final e recorte-1.png conferidos. O rosto de Maria, o véu azul inteiro e as duas mãos, a erguida e a que segura o véu, ficam dentro do arco; o atril com o livro aberto aparece na base. A curva passa acima do véu sem cortar a cabeça, e as bordas escuras do painel ficam fora. Não há margem fotográfica visível. Foco 50% 32% e zoom 1.1 mantidos."
+    }
+  },
+  "2027-01-09": {
+    "card-1": {
+      "inspecionada": true,
+      "nota": "Card 1 final e recorte-1.png conferidos. Os rostos de Maria e do Menino, o abraço e as pernas do Menino ficam dentro do arco, com o pilar entalhado da cadeira à esquerda. São João menino, à direita, aparece só em parte junto da curva, e a borda do tondo fica fora do arco. Não há margem fotográfica visível. Foco 45% 40% e zoom 1.3 mantidos."
+    }
   }
 }

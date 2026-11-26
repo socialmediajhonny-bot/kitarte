@@ -27,8 +27,10 @@ class SaintContentTests(unittest.TestCase):
     def test_supplied_content_has_exact_fields_and_unquoted_phrases(self):
         self.assertEqual([item["data"] for item in self.days], ["2026-11-30"] + [
             f"2026-12-{number:02d}" for number in
-            (1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 24, 25, 26, 28, 29, 30, 31)])
-        feasts = {"2026-12-05", "2026-12-08", "2026-12-12", "2026-12-25", "2026-12-30", "2026-12-31"}
+            (1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 24, 25, 26, 28, 29, 30, 31)] + [
+            f"2027-01-{number:02d}" for number in (1, 2, 4, 5, 6, 7, 8, 9)])
+        feasts = {"2026-12-05", "2026-12-08", "2026-12-12", "2026-12-25", "2026-12-30", "2026-12-31",
+                  "2027-01-01", "2027-01-04", "2027-01-05", "2027-01-07", "2027-01-09"}
         self.assertEqual([item["tipo"] for item in self.days],
                          ["festa" if item["data"] in feasts else "santinho" for item in self.days])
         for day in self.days:

@@ -342,6 +342,137 @@
         "texto_igual_yaml_sem_espacos": true,
         "errors": []
       }
+    },
+    "2027-01-05": {
+      "cards": [
+        {
+          "card": 1,
+          "layout": {
+            "ok": true,
+            "limites": {
+              "titulo": 2,
+              "oracao": 10
+            },
+            "distancias": {
+              "selo_texto_px": 288.5,
+              "texto_assinatura_px": 288.5,
+              "diferenca_centralizacao_px": 0.0
+            },
+            "distancias_ao_logo": [
+              {
+                "campo": "selo",
+                "logo_px": 1106.31728653066
+              },
+              {
+                "campo": "data",
+                "logo_px": 1099.0
+              },
+              {
+                "campo": "intencao",
+                "logo_px": 1098.0
+              },
+              {
+                "campo": "titulo",
+                "logo_px": 733.5
+              },
+              {
+                "campo": "oracao",
+                "logo_px": 368.5
+              },
+              {
+                "campo": "origem",
+                "logo_px": 288.5
+              }
+            ],
+            "selo_apoio_px": 80.84375,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#866420",
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#f2eadb",
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "ok": true
+              }
+            ],
+            "errors": []
+          }
+        }
+      ],
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "pagina": 1,
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "texto_igual_sem_espacos": true,
+            "oracao_igual_yaml_sem_espacos": true
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 6932
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 15724
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 10480
+          },
+          {
+            "nome": "CormorantGaramond-Medium",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 13876
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      9  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     14  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     19  0\nDAAAAA+CormorantGaramond-Medium      CID TrueType      Identity-H       yes yes yes     24  0\n",
+        "pdftotext": "Para Rezar · ter, 5 jan         para se pôr sob o cuidado de Maria\n\n\n\n\n                À vossa proteção\n\n  À vossa proteção recorremos, santa Mãe de\nDeus; não desprezeis as nossas súplicas em nossas\n necessidades, mas livrai-nos sempre de todos\nos perigos, ó Virgem gloriosa e bendita. Amém.\n\n        Sub tuum praesidium, a mais antiga oração a Nossa Senhora\n\f",
+        "texto_igual_yaml_sem_espacos": true,
+        "errors": []
+      }
     }
   },
   "previa_kit": {
@@ -438,7 +569,7 @@
   },
   "pngs": {
     "ok": true,
-    "count": 4,
+    "count": 5,
     "files": [
       {
         "file": "/workspace/kitarte/saida/para-rezar/2026-12-31/card-1.png",
@@ -483,12 +614,25 @@
         "file": "/workspace/kitarte/saida/para-rezar/prancha.png",
         "expected": [
           1192,
-          2152
+          2682
         ],
         "ok": true,
         "actual": [
           1192,
-          2152
+          2682
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/para-rezar/2027-01-05/card-1.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
         ],
         "format": "PNG"
       }
@@ -520,5 +664,13 @@
     "2026-12-15, card 2: confronto da vitrine inteira tem 114 pixels diferentes, confinados ao SVG do logo; o article isolado na origem 0,0 tem zero. Diferença salva em work/para-rezar/conferencia-kit/vitrine-diferenca-3.png."
   ],
   "ok": true,
-  "comando": "python gerar.py para-rezar --data 2026-12-31"
+  "comando": "python gerar.py para-rezar --data 2026-12-31",
+  "janeiro_2027": {
+    "ok": true,
+    "gerado_em": "2026-11-23",
+    "comandos": [
+      "python gerar.py para-rezar --data 2027-01-05"
+    ],
+    "nota": "As datas de 1º a 10/1/2027 foram geradas uma a uma com --data e mescladas aqui; as demais entradas são as da main, sem alteração."
+  }
 }

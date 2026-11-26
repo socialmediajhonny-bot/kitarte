@@ -425,3 +425,29 @@ saida/santo-do-dia/
   prancha.png
   verificacao.json
 ```
+
+### Janeiro de 2027: 1º a 10/1
+
+Gerado em 23/11/2026, data por data, com `python gerar.py santo --data AAAA-MM-DD`. Os domingos 3 e 10/1 não têm card das 9h. As datas anteriores e o restante deste relatório não mudaram. A verificação nativa das oito datas passou (16 PNGs, 8 PDFs e fichas), sem obra pendente e sem aviso de margem.
+
+| Data | Tipo | Nome | Obra | Foco · zoom |
+| --- | --- | --- | --- | --- |
+| 2027-01-01 | festa | Santa Maria, Mãe de Deus | Giovanni Bellini · Madona degli Alberetti · Gallerie dell'Accademia, Veneza | 45% 32% · 1.1 |
+| 2027-01-02 | santinho | São Basílio e São Gregório | Ícone russo, séc. XIX · São Basílio, São João Crisóstomo e São Gregório · Museu da Cultura Cristã, São Petersburgo | 50% 38% · 1.15 |
+| 2027-01-04 | festa | Santa Isabel Ana Seton | Saint-Mémin · Elizabeth Ann Seton, 1797 · National Gallery of Art | 58% 38% · 1.35 |
+| 2027-01-05 | festa | São João Nepomuceno Neumann | Samuel Hollyer · São João Neumann, 1892 · Biblioteca do Congresso | 50% 30% · 1.5 |
+| 2027-01-06 | santinho | Santo André Bessette | Autor desconhecido · O irmão André, fotografia | 45% 35% · 1.3 |
+| 2027-01-07 | festa | São Raimundo de Penhaforte | Francesco Rustici · São Raimundo de Penhaforte ressuscita uma menina · Siena | 48% 35% · 1.45 |
+| 2027-01-08 | santinho | São Lourenço Justiniano | Gentile Bellini · O bem-aventurado Lourenço Justiniano · Gallerie dell'Accademia, Veneza | 52% 35% · 1.3 |
+| 2027-01-09 | festa | Santo André Corsini | Guido Reni · Santo André Corsini · Pinacoteca Nacional de Bolonha | 50% 25% · 1.1 |
+
+Cards e `recorte.png` finais conferidos individualmente:
+
+- **1º/1:** Maria, de manto azul, e o Menino, de pé no colo dela, ficam dentro do arco, diante do pano verde; as duas arvorezinhas aparecem nas laterais, e o parapeito com a assinatura fica abaixo do arco.
+- **2/1:** Santinho: no ícone, São Basílio e São Gregório aparecem ao lado de São João Crisóstomo; os três, de corpo inteiro, ficam dentro do arco pequeno.
+- **4/1:** Retrato de perfil desenhado por Saint-Mémin, com a assinatura do artista na base, dentro do arco.
+- **5/1:** Retrato gravado, do rosto às mãos, dentro do arco.
+- **6/1:** Santinho com fotografia: rosto e busto de Santo André Bessette dentro do arco pequeno.
+- **7/1:** A cena do milagre, com a menina deitada e as pessoas ao redor, fica dentro do arco.
+- **8/1:** Santinho: a figura de pé do santo, de perfil, e os devotos ajoelhados aos seus pés dentro do arco pequeno.
+- **9/1:** O santo de mitra, capa dourada e báculo, de corpo quase inteiro, dentro do arco.

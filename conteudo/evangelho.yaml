@@ -591,3 +591,166 @@
   trecho: E a Palavra se fez carne e habitou entre nós.
   trecho_ref: Jo 1,14
   pergunta: Como a Palavra de Deus vai entrar na minha rotina no ano que começa?
+
+- data: 2027-01-01
+  celebracao: Santa Maria, Mãe de Deus (Solenidade)
+  cor: ouro
+  referencia: Lc 2,16-21
+  titulo: Maria guardava tudo no coração
+  obra:
+    arquivo: obras/2027-01-01.jpg
+    credito: Bartolomé Esteban Murillo · A Adoração dos pastores · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:Adoration_of_the_Shepherds,_Murillo_(Prado_Museum).jpg
+    foco: 28% 50%
+    zoom: 1.15
+  trecho: Quanto a Maria, guardava todos esses fatos e meditava sobre eles em seu coração.
+  trecho_ref: Lc 2,19
+  pergunta: O que Deus fez por mim no ano que passou e eu ainda não parei para meditar?
+
+- data: 2027-01-02
+  celebracao: Santos Basílio Magno e Gregório Nazianzeno (Memória)
+  cor: ouro
+  referencia: Jo 1,19-28
+  titulo: João aponta para quem vem depois dele
+  obra:
+    arquivo: obras/2027-01-02.jpg
+    credito: Pieter Bruegel · O sermão de São João Batista · Budapeste
+    pagina: https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Sermon_of_Saint_John_the_Baptist_-_Google_Art_Project.jpg
+    foco: 47% 22%
+    zoom: 2
+  trecho: Eu batizo com água; mas no meio de vós está aquele que vós não conheceis, e que vem depois de mim.
+  trecho_ref: Jo 1,26
+  pergunta: Onde Jesus está no meio da minha rotina e eu ainda não o reconheço?
+
+- data: 2027-01-03
+  celebracao: Epifania do Senhor (Solenidade)
+  cor: ouro
+  referencia: Mt 2,1-12
+  titulo: Os magos seguem a estrela até o menino
+  obra:
+    arquivo: obras/2027-01-03.jpg
+    credito: Diego Velázquez · A Adoração dos Magos · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:Vel%C3%A1zquez_-_Adoraci%C3%B3n_de_los_Reyes_(Museo_del_Prado,_1619).jpg
+    foco: 55% 30%
+    zoom: 1
+  trecho: Onde está o rei dos judeus, que acaba de nascer? Nós vimos a sua estrela no Oriente e viemos adorá-lo.
+  trecho_ref: Mt 2,2
+  reflexao:
+    titulo: Deus se mostra a todos os povos
+    texto: >-
+      Epifania quer dizer manifestação. Nos magos, que vêm do Oriente, Jesus
+      se revela aos povos que não eram de Israel. No Brasil, a solenidade é
+      celebrada no domingo entre 2 e 8 de janeiro.
+  pergunta: Que estrela Deus colocou no meu caminho para me levar até ele?
+
+- data: 2027-01-04
+  celebracao: Segunda-feira depois da Epifania
+  cor: ouro
+  referencia: Mt 4,12-17.23-25
+  titulo: Jesus começa a pregar na Galileia
+  obra:
+    arquivo: obras/2027-01-04.jpg
+    credito: Carl Bloch · O Sermão da Montanha · Museu de História Nacional, Frederiksborg
+    pagina: https://commons.wikimedia.org/wiki/File:Carl_Bloch_-_The_Sermon_on_the_Mount.jpg
+    foco: 55% 35%
+    zoom: 1.3
+  trecho: O povo que vivia nas trevas viu uma grande luz; e para os que viviam na região escura da morte brilhou uma luz.
+  trecho_ref: Mt 4,16
+  pergunta: Que canto escuro da minha vida ainda espera a luz de Jesus?
+
+- data: 2027-01-05
+  celebracao: Terça-feira depois da Epifania
+  cor: ouro
+  referencia: Mc 6,34-44
+  titulo: Cinco pães para cinco mil homens
+  obra:
+    arquivo: obras/2027-01-05.jpg
+    credito: Jacopo Tintoretto · O milagre dos pães e dos peixes · Metropolitan Museum of Art
+    pagina: https://commons.wikimedia.org/wiki/File:The_Miracle_of_the_Loaves_and_Fishes_MET_DT5476.jpg
+    foco: 62% 45%
+    zoom: 1.3
+  trecho: Dai-lhes vós mesmos de comer.
+  trecho_ref: Mc 6,37
+  pergunta: O que eu tenho nas mãos, mesmo pouco, que Jesus pode multiplicar?
+
+- data: 2027-01-06
+  celebracao: Quarta-feira depois da Epifania
+  cor: ouro
+  referencia: Mc 6,45-52
+  titulo: Jesus caminha sobre o mar
+  obra:
+    arquivo: obras/2027-01-06.jpg
+    credito: Ivan Aivazovsky · Caminhando sobre as águas, 1888
+    pagina: https://commons.wikimedia.org/wiki/File:Po_vodam_1888.jpg
+    foco: 52% 30%
+    zoom: 1
+  trecho: Coragem, sou eu! Não tenhais medo!
+  trecho_ref: Mc 6,50
+  pergunta: Em que tempestade eu preciso ouvir Jesus dizer que é ele?
+
+- data: 2027-01-07
+  celebracao: Quinta-feira depois da Epifania
+  cor: ouro
+  referencia: Lc 4,14-22a
+  titulo: Hoje se cumpriu a Escritura
+  obra:
+    # Obra temática: Jesus devolve a vista a um cego, uma das promessas de Isaías que ele lê na sinagoga (Lc 4,18).
+    arquivo: obras/2027-01-07.jpg
+    credito: Carl Bloch · A cura do cego, 1871
+    pagina: https://commons.wikimedia.org/wiki/File:Healing_of_the_Blind_Man_by_Jesus_Christ.jpg
+    foco: 55% 50%
+    zoom: 1
+  trecho: Hoje se cumpriu esta passagem da Escritura que acabastes de ouvir.
+  trecho_ref: Lc 4,21
+  pergunta: Que promessa de Deus eu ainda trato como coisa para um dia, e não para hoje?
+
+- data: 2027-01-08
+  celebracao: Sexta-feira depois da Epifania
+  cor: ouro
+  referencia: Lc 5,12-16
+  titulo: Senhor, se queres
+  obra:
+    arquivo: obras/2027-01-08.jpg
+    credito: Niels Larsen Stevns · A cura do leproso · Museu Skovgaard, Viborg
+    pagina: https://commons.wikimedia.org/wiki/File:Niels_Larsen_Stevns-_Spedalske.jpg
+    foco: 36% 55%
+    zoom: 1
+  trecho: Senhor, se queres, tu tens o poder de me purificar.
+  trecho_ref: Lc 5,12
+  pergunta: Que ferida eu ainda escondo, em vez de mostrar a Jesus?
+
+- data: 2027-01-09
+  celebracao: Sábado depois da Epifania
+  cor: ouro
+  referencia: Jo 3,22-30
+  titulo: Ele precisa crescer
+  obra:
+    arquivo: obras/2027-01-09.jpg
+    credito: Leonardo da Vinci · São João Batista · Museu do Louvre
+    pagina: https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg
+    foco: 42% 40%
+    zoom: 1.1
+  trecho: É necessário que ele cresça e eu diminua.
+  trecho_ref: Jo 3,30
+  pergunta: Em que eu preciso diminuir para que Jesus cresça em mim?
+
+- data: 2027-01-10
+  celebracao: Batismo do Senhor (Festa)
+  cor: ouro
+  referencia: Mc 1,7-11
+  titulo: Tu és o meu Filho amado
+  obra:
+    arquivo: obras/2027-01-10.jpg
+    credito: Piero della Francesca · O Batismo de Cristo · National Gallery, Londres
+    pagina: https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Battesimo_di_Cristo_(National_Gallery,_London).jpg
+    foco: 50% 58%
+    zoom: 1.35
+  trecho: Tu és o meu Filho amado, em ti ponho meu bem-querer.
+  trecho_ref: Mc 1,11
+  reflexao:
+    titulo: O Natal termina no Jordão
+    texto: >-
+      Com o Batismo do Senhor, termina o tempo do Natal. Jesus entra na água
+      junto com os pecadores para ser batizado por João, e o Pai revela quem
+      ele é. Amanhã começa o Tempo Comum.
+  pergunta: Eu vivo como quem sabe que é filho amado de Deus?

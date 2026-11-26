@@ -26,8 +26,9 @@ class PrayerContentTests(unittest.TestCase):
         return load_prayers(self.file)
 
     def test_supplied_content_preserves_fields_and_folded_parts_in_order(self):
-        self.assertEqual([day["data"] for day in self.days], ["2026-10-20", "2026-12-15", "2026-12-29", "2026-12-31"])
-        self.assertEqual([len(day["partes"]) for day in self.days], [1, 2, 2, 3])
+        self.assertEqual([day["data"] for day in self.days], ["2026-10-20", "2026-12-15", "2026-12-29", "2026-12-31",
+                                                         "2027-01-05"])
+        self.assertEqual([len(day["partes"]) for day in self.days], [1, 2, 2, 3, 1])
         for day in self.days:
             self.assertEqual(set(day), PRAYER_FIELDS)
             self.assertTrue(all("\n" not in part for part in day["partes"]))

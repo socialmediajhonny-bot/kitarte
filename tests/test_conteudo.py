@@ -31,7 +31,8 @@ class ContentTests(unittest.TestCase):
         self.assertEqual(
             [day["data"] for day in self.days],
             ["2026-11-29", "2026-11-30"]
-            + [f"2026-12-{number:02d}" for number in range(1, 32)],
+            + [f"2026-12-{number:02d}" for number in range(1, 32)]
+            + [f"2027-01-{number:02d}" for number in range(1, 11)],
         )
         by_date = {day["data"]: day for day in self.days}
         self.assertEqual(by_date["2026-11-29"]["titulo"], "O Senhor vem.\nFique acordado.")

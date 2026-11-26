@@ -74,3 +74,9 @@ saida/coragem/
   prancha.png
   verificacao.json
 ```
+
+### Janeiro de 2027: 1º a 10/1
+
+Gerado em 23/11/2026 com `python gerar.py coragem --data 2027-01-04`: feed e status de 4/1, com a frase “Chegou a tua luz, apareceu sobre ti a glória do Senhor.” (Is 60,1). As datas de 14 e 28/12 não mudaram.
+
+- **4/1:** A viagem dos Magos (Sassetta), foco 68% 45%, zoom 1.12 nos dois formatos: os Magos a cavalo subindo a colina, a cidade murada no alto, a estrela dourada na encosta e as garças à direita ficam dentro do arco. O primeiro render, sem zoom, deixava a margem da foto visível; o zoom 1.12 eliminou o aviso. Feed e status conferidos.

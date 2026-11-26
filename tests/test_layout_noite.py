@@ -146,28 +146,43 @@ class NightLayoutTests(unittest.TestCase):
             ('toda-bela', 2): ({'rotulo': 1, 'versiculo': 2, 'referencia': 1, 'texto': 4, 'fonte': 1}, 'selo_texto_px', 210.5),
             ('toda-bela', 3): ({'rotulo': 1, 'frase': 2, 'convite': 1}, 'selo_texto_px', 333.5),
         }
+        # Janeiro de 2027: medidas registradas onde o texto difere do modelo de 30/12. O Olhe de Novo
+        # de 6/1 tem texto de 5 linhas no card 3 (como em 9/12) e de 4 no card 4; a invocação
+        # longa do Toda Bela de 2/1 usa o estilo de título menor que o gerador prevê para ela.
+        by_date = {
+            ('olhe-de-novo', '2027-01-06', 3): ({'rotulo': 1, 'titulo': 1, 'texto': 5, 'fonte': 1}, 'selo_texto_px', 251.5),
+            ('olhe-de-novo', '2027-01-06', 4): ({'rotulo': 1, 'credito_1': 2, 'credito_2': 2, 'texto': 4, 'fonte': 1}, 'selo_texto_px', 91),
+            ('toda-bela', '2027-01-02', 1): ({'credito': 1, 'invocacao': 1}, 'invocacao_assinatura_px', 118),
+        }
+        fallback = {('toda-bela', '2027-01-02')}
         checked = 0
         for series in ('olhe-de-novo', 'toda-bela'):
             for day in self.all_days[series][1:]:
                 artworks = prepare_artworks(series, day, self.folder/'later'/series/day['data'])
                 for card in expand_cards(series, [day]):
                     with self.subTest(series=series, date=day['data'], number=card['numero']):
-                        measured = self.render(card, artworks)
+                        style = 'titulo-capa'
+                        if (series, day['data']) in fallback and card['numero'] == 1:
+                            first = self.render(card, artworks)
+                            self.assertGreater(self.field(first, 'invocacao')['quantidade_linhas'], 1)
+                            style = 'titulo'
+                        measured = self.render(card, artworks, invocation_style=style)
                         layout = _validate_layout(card, measured)
                         self.assertTrue(layout['ok'])
-                        counts, gap_name, gap = expected[(series, card['numero'])]
+                        counts, gap_name, gap = by_date.get((series, day['data'], card['numero']),
+                                                            expected[(series, card['numero'])])
                         for field, count in counts.items():
                             self.assertEqual(self.field(measured, field)['quantidade_linhas'], count)
                         self.assertAlmostEqual(layout['distancias'][gap_name], gap, delta=.01)
                         if card['tipo'] in {'obra', 'detalhe', 'capa'}:
                             self.assertAlmostEqual(layout['distancias']['selo_nicho_px'], 32, delta=.01)
                         if series == 'toda-bela' and card['numero'] == 1:
-                            self.assertEqual(self.field(measured, 'invocacao')['estilo'], 'titulo-capa')
+                            self.assertEqual(self.field(measured, 'invocacao')['estilo'], style)
                         path = self.folder/'later-valid.png'
                         self.page.screenshot(path=str(path), clip=self.page.locator('.aqr-post').bounding_box())
                         self.assertTrue(_pixels(path, card, measured)['ok'])
                         checked += 1
-        self.assertEqual(checked, 7)
+        self.assertEqual(checked, 17)
 
     def test_16_pixel_label_title_gap_is_rejected(self):
         for series, number in (("olhe-de-novo", 3), ("por-dentro-da-missa", 2)):

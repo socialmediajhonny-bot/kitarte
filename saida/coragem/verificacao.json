@@ -1739,11 +1739,875 @@
           "recomendacao_margem": null
         }
       }
+    },
+    "2027-01-04": {
+      "formatos": {
+        "feed": {
+          "layout": {
+            "ok": true,
+            "limites": {
+              "frase": 2,
+              "referencia": 1
+            },
+            "frase_referencia_px": 32,
+            "parapeito_frase_px": 58,
+            "referencia_assinatura_px": 61,
+            "respiro_bloco_superior_px": 61,
+            "respiro_bloco_inferior_px": 61,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#f2eadb",
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  103
+                ],
+                "esperado": "#866420",
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/coragem/2027-01-04/feed.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 300.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        256,
+                        184
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        169
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        241,
+                        488
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        220,
+                        849
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        328,
+                        256
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        325,
+                        253
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        169
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        164
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        751,
+                        256
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        754,
+                        253
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "pdf": {
+            "ok": true,
+            "paginas": [
+              {
+                "largura_pt": 810.0,
+                "altura_pt": 1012.5
+              }
+            ],
+            "fontes": [
+              {
+                "nome": "Lato-Bold",
+                "tipo": "Type0",
+                "formato": "ttf",
+                "embutida": true,
+                "bytes": 12064
+              },
+              {
+                "nome": "Lato-Regular",
+                "tipo": "Type0",
+                "formato": "ttf",
+                "embutida": true,
+                "bytes": 8544
+              },
+              {
+                "nome": "CormorantGaramond-MediumItalic",
+                "tipo": "Type0",
+                "formato": "ttf",
+                "embutida": true,
+                "bytes": 8800
+              }
+            ],
+            "textos": [
+              {
+                "campo": "selo",
+                "extraivel": true
+              },
+              {
+                "campo": "data",
+                "extraivel": true
+              },
+              {
+                "campo": "frase",
+                "extraivel": true
+              },
+              {
+                "campo": "referencia",
+                "extraivel": true
+              },
+              {
+                "campo": "arroba",
+                "extraivel": true
+              }
+            ],
+            "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     21  0\n",
+            "pdftotext": "Coragem · seg, 4 jan\n\n\n\n\n  Chegou a tua luz, apareceu\n  sobre ti a glória do Senhor.\n                       Is 60,1\n\n\n                             @artequereza.oficial\n\f",
+            "nicho_vetorial": {
+              "ok": true,
+              "arquivo": "/workspace/kitarte/work/coragem/2027-01-04/feed.pdf",
+              "escala_px_para_pt": 0.75,
+              "tolerancia_caixa_pt": 0.5,
+              "nichos": [
+                {
+                  "indice": 1,
+                  "filete_vetorial": true,
+                  "borda_antiga_ausente": true,
+                  "parapeito_vetorial": true,
+                  "pagina": 1,
+                  "hex": "#866420",
+                  "caixa_nicho_pt": [
+                    180.0,
+                    126.0,
+                    630.0,
+                    636.0
+                  ],
+                  "caixa_parapeito_pt": [
+                    144.0,
+                    636.0,
+                    666.0,
+                    638.25
+                  ],
+                  "preenchimentos_curvos": 1,
+                  "assinaturas_antigas_re": 0,
+                  "parapeitos_re": 1
+                }
+              ],
+              "errors": []
+            },
+            "igualdade_texto_integral": {
+              "pymupdf": true,
+              "pdftotext": true,
+              "esperado_sem_espacos": "Coragem·seg,4janChegouatualuz,apareceusobretiaglóriadoSenhor.Is60,1@artequereza.oficial",
+              "pymupdf_sem_espacos": "Coragem·seg,4janChegouatualuz,apareceusobretiaglóriadoSenhor.Is60,1@artequereza.oficial",
+              "pdftotext_sem_espacos": "Coragem·seg,4janChegouatualuz,apareceusobretiaglóriadoSenhor.Is60,1@artequereza.oficial"
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ],
+          "enquadramento": {
+            "foco": "68% 45%",
+            "zoom": 1.12,
+            "imagem_original": {
+              "largura": 3811,
+              "altura": 2864
+            },
+            "nicho": {
+              "largura": 600,
+              "altura": 680
+            },
+            "area_interna": {
+              "largura": 568,
+              "altura": 664
+            },
+            "escala_cover": 0.23184357541899442,
+            "escala_com_zoom": 0.25966480446927376,
+            "janela_original": {
+              "x": 1104.0238898450948,
+              "y": 138.0857142857144,
+              "largura": 2187.435456110155,
+              "altura": 2557.142857142857
+            },
+            "margens_detectadas": {
+              "topo": 19,
+              "base": 17,
+              "esquerda": 25,
+              "direita": 18
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": [],
+            "avisos": []
+          },
+          "recomendacao_margem": null
+        },
+        "status": {
+          "layout": {
+            "ok": true,
+            "limites": {
+              "frase": 2,
+              "referencia": 1
+            },
+            "frase_referencia_px": 32,
+            "parapeito_frase_px": 73,
+            "referencia_assinatura_px": 76,
+            "respiro_bloco_superior_px": 76,
+            "respiro_bloco_inferior_px": 76,
+            "errors": []
+          },
+          "pixels": {
+            "ok": true,
+            "amostras": [
+              {
+                "elemento": "fundo",
+                "pixel": [
+                  8,
+                  8
+                ],
+                "esperado": "#f2eadb",
+                "rgb": [
+                  242,
+                  234,
+                  219
+                ],
+                "ok": true
+              },
+              {
+                "elemento": "cruz do selo",
+                "pixel": [
+                  89,
+                  263
+                ],
+                "esperado": "#866420",
+                "rgb": [
+                  134,
+                  100,
+                  32
+                ],
+                "ok": true
+              }
+            ],
+            "nicho": {
+              "ok": true,
+              "file": "/workspace/kitarte/work/coragem/2027-01-04/status.png",
+              "count": 1,
+              "niches": [
+                {
+                  "name": "nicho",
+                  "ok": true,
+                  "outer_radius": 360.0,
+                  "samples": [
+                    {
+                      "name": "canto da obra fora do arco",
+                      "xy": [
+                        196,
+                        344
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "topo do filete",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "lateral do filete",
+                      "xy": [
+                        181,
+                        708
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "parapeito",
+                      "xy": [
+                        160,
+                        1229
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -135 graus",
+                      "xy": [
+                        286,
+                        434
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -135 graus",
+                      "xy": [
+                        282,
+                        430
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -90 graus",
+                      "xy": [
+                        540,
+                        329
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -90 graus",
+                      "xy": [
+                        540,
+                        324
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "arco externo W/2: -45 graus",
+                      "xy": [
+                        793,
+                        434
+                      ],
+                      "expected_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "actual_rgb": [
+                        134,
+                        100,
+                        32
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    },
+                    {
+                      "name": "fora do arco W/2: -45 graus",
+                      "xy": [
+                        797,
+                        430
+                      ],
+                      "expected_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "actual_rgb": [
+                        242,
+                        234,
+                        219
+                      ],
+                      "max_channel_delta": 0,
+                      "ok": true
+                    }
+                  ],
+                  "errors": []
+                }
+              ],
+              "tolerance_rgb": 3,
+              "errors": []
+            },
+            "errors": []
+          },
+          "pdf": {
+            "ok": true,
+            "paginas": [
+              {
+                "largura_pt": 810.0,
+                "altura_pt": 1440.0
+              }
+            ],
+            "fontes": [
+              {
+                "nome": "Lato-Bold",
+                "tipo": "Type0",
+                "formato": "ttf",
+                "embutida": true,
+                "bytes": 12064
+              },
+              {
+                "nome": "Lato-Regular",
+                "tipo": "Type0",
+                "formato": "ttf",
+                "embutida": true,
+                "bytes": 8544
+              },
+              {
+                "nome": "CormorantGaramond-MediumItalic",
+                "tipo": "Type0",
+                "formato": "ttf",
+                "embutida": true,
+                "bytes": 8800
+              }
+            ],
+            "textos": [
+              {
+                "campo": "selo",
+                "extraivel": true
+              },
+              {
+                "campo": "data",
+                "extraivel": true
+              },
+              {
+                "campo": "frase",
+                "extraivel": true
+              },
+              {
+                "campo": "referencia",
+                "extraivel": true
+              },
+              {
+                "campo": "arroba",
+                "extraivel": true
+              }
+            ],
+            "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     21  0\n",
+            "pdftotext": "Coragem · seg, 4 jan\n\n\n\n\n  Chegou a tua luz, apareceu\n  sobre ti a glória do Senhor.\n                       Is 60,1\n\n\n                             @artequereza.oficial\n\f",
+            "nicho_vetorial": {
+              "ok": true,
+              "arquivo": "/workspace/kitarte/work/coragem/2027-01-04/status.pdf",
+              "escala_px_para_pt": 0.75,
+              "tolerancia_caixa_pt": 0.5,
+              "nichos": [
+                {
+                  "indice": 1,
+                  "filete_vetorial": true,
+                  "borda_antiga_ausente": true,
+                  "parapeito_vetorial": true,
+                  "pagina": 1,
+                  "hex": "#866420",
+                  "caixa_nicho_pt": [
+                    135.0,
+                    246.0,
+                    675.0,
+                    921.0
+                  ],
+                  "caixa_parapeito_pt": [
+                    99.0,
+                    921.0,
+                    711.0,
+                    923.25
+                  ],
+                  "preenchimentos_curvos": 1,
+                  "assinaturas_antigas_re": 0,
+                  "parapeitos_re": 1
+                }
+              ],
+              "errors": []
+            },
+            "igualdade_texto_integral": {
+              "pymupdf": true,
+              "pdftotext": true,
+              "esperado_sem_espacos": "Coragem·seg,4janChegouatualuz,apareceusobretiaglóriadoSenhor.Is60,1@artequereza.oficial",
+              "pymupdf_sem_espacos": "Coragem·seg,4janChegouatualuz,apareceusobretiaglóriadoSenhor.Is60,1@artequereza.oficial",
+              "pdftotext_sem_espacos": "Coragem·seg,4janChegouatualuz,apareceusobretiaglóriadoSenhor.Is60,1@artequereza.oficial"
+            },
+            "errors": []
+          },
+          "fontes_render": [
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "500",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "600",
+              "style": "italic",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "400",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            },
+            {
+              "family": "Lato",
+              "weight": "700",
+              "style": "normal",
+              "checked": true,
+              "loaded": true
+            }
+          ],
+          "enquadramento": {
+            "foco": "68% 45%",
+            "zoom": 1.12,
+            "imagem_original": {
+              "largura": 3811,
+              "altura": 2864
+            },
+            "nicho": {
+              "largura": 720,
+              "altura": 900
+            },
+            "area_interna": {
+              "largura": 688,
+              "altura": 884
+            },
+            "escala_cover": 0.308659217877095,
+            "escala_com_zoom": 0.3456983240223464,
+            "janela_original": {
+              "x": 1238.161318681319,
+              "y": 138.0857142857144,
+              "largura": 1990.1745313510016,
+              "altura": 2557.142857142857
+            },
+            "margens_detectadas": {
+              "topo": 19,
+              "base": 17,
+              "esquerda": 25,
+              "direita": 18
+            },
+            "faixas_descartadas": [],
+            "margens_visiveis": [],
+            "avisos": []
+          },
+          "recomendacao_margem": null
+        }
+      }
     }
   },
   "pngs": {
     "ok": true,
-    "count": 9,
+    "count": 13,
     "files": [
       {
         "file": "/workspace/kitarte/saida/coragem/2026-12-14/feed.png",
@@ -1853,12 +2717,64 @@
         "file": "/workspace/kitarte/saida/coragem/prancha.png",
         "expected": [
           808,
-          1492
+          2222
         ],
         "ok": true,
         "actual": [
           808,
-          1492
+          2222
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/coragem/2027-01-04/feed.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/coragem/2027-01-04/recorte-feed.png",
+        "expected": [
+          1080,
+          812
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          812
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/coragem/2027-01-04/status.png",
+        "expected": [
+          1080,
+          1920
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1920
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/coragem/2027-01-04/recorte-status.png",
+        "expected": [
+          1080,
+          812
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          812
         ],
         "format": "PNG"
       }
@@ -1886,5 +2802,13 @@
   "obras_pendentes": [],
   "avisos": [],
   "ok": true,
-  "comando": "python gerar.py coragem"
+  "comando": "python gerar.py coragem",
+  "janeiro_2027": {
+    "ok": true,
+    "gerado_em": "2026-11-23",
+    "comandos": [
+      "python gerar.py coragem --data 2027-01-04"
+    ],
+    "nota": "As datas de 1º a 10/1/2027 foram geradas uma a uma com --data e mescladas aqui; as demais entradas são as da main, sem alteração."
+  }
 }

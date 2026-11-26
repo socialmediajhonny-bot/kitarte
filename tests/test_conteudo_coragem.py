@@ -24,12 +24,15 @@ class CourageContentTests(unittest.TestCase):
         return load_courage(self.file)
 
     def test_supplied_content_preserves_manual_breaks_and_has_no_added_defaults(self):
-        self.assertEqual([day["data"] for day in self.days], ["2026-12-14", "2026-12-28"])
+        self.assertEqual([day["data"] for day in self.days], ["2026-12-14", "2026-12-28", "2027-01-04"])
         self.assertEqual(self.days[0]["frase"], "Criai ânimo, não tenhais medo!\nVede, é vosso Deus.")
         for day in self.days:
             self.assertEqual(set(day), COURAGE_FIELDS)
+        for day in self.days[:2]:
             self.assertNotIn("zoom", day["obra"])
         self.assertEqual(self.days[1]["referencia"], "Lc 2,10")
+        # 4/1/2027: zoom escolhido para tirar a margem da foto, não um valor padrão.
+        self.assertEqual(self.days[2]["obra"]["zoom"], 1.12)
 
     def test_all_required_fields_and_unknown_fields_at_each_level(self):
         for nested, fields in ((False, COURAGE_FIELDS), (True, {"arquivo", "credito", "pagina", "foco"})):

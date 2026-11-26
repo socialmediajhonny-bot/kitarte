@@ -1454,3 +1454,33 @@ Por decisão do Jhonny, as sugestões de enquadramento registradas acima foram a
 24/12 com foco **0% 45%** e zoom **1.04** (Zacarias inteiro), 25/12 com foco **50% 20%** e zoom **1.3** (Maria, o Menino e a manjedoura inteiros)
 e 30/12 com foco **50% 100%** e zoom **1** (mais do livro e das mãos de Ana). Só o card 1, o recorte, a ficha e o PDF dessas datas mudaram;
 os cards 2 e 3 foram mantidos byte a byte. As demais datas seguem com o enquadramento aprovado.
+
+### Janeiro de 2027: 1º a 10/1
+
+Gerado em 23/11/2026, data por data, com `python3 gerar.py evangelho --data AAAA-MM-DD`. As datas anteriores e o restante deste relatório não mudaram. A verificação nativa das dez datas passou (42 PNGs, 10 PDFs, recortes e fichas), sem obra pendente e sem aviso de margem; os registros estão em `verificacao.json`, na chave `janeiro_2027` e nos dias novos.
+
+| Data | Leitura | Título | Cards | Obra | Foco · zoom |
+| --- | --- | --- | --- | --- | --- |
+| 2027-01-01 | Lc 2,16-21 | Maria guardava tudo no coração | 3 | Bartolomé Esteban Murillo · A Adoração dos pastores · Museu do Prado | 28% 50% · 1.15 |
+| 2027-01-02 | Jo 1,19-28 | João aponta para quem vem depois dele | 3 | Pieter Bruegel · O sermão de São João Batista · Budapeste | 47% 22% · 2 |
+| 2027-01-03 | Mt 2,1-12 | Os magos seguem a estrela até o menino | 4 | Diego Velázquez · A Adoração dos Magos · Museu do Prado | 55% 30% · 1 |
+| 2027-01-04 | Mt 4,12-17.23-25 | Jesus começa a pregar na Galileia | 3 | Carl Bloch · O Sermão da Montanha · Museu de História Nacional, Frederiksborg | 55% 35% · 1.3 |
+| 2027-01-05 | Mc 6,34-44 | Cinco pães para cinco mil homens | 3 | Jacopo Tintoretto · O milagre dos pães e dos peixes · Metropolitan Museum of Art | 62% 45% · 1.3 |
+| 2027-01-06 | Mc 6,45-52 | Jesus caminha sobre o mar | 3 | Ivan Aivazovsky · Caminhando sobre as águas, 1888 | 52% 30% · 1 |
+| 2027-01-07 | Lc 4,14-22a | Hoje se cumpriu a Escritura | 3 | Carl Bloch · A cura do cego, 1871 | 55% 50% · 1 |
+| 2027-01-08 | Lc 5,12-16 | Senhor, se queres | 3 | Niels Larsen Stevns · A cura do leproso · Museu Skovgaard, Viborg | 36% 55% · 1 |
+| 2027-01-09 | Jo 3,22-30 | Ele precisa crescer | 3 | Leonardo da Vinci · São João Batista · Museu do Louvre | 42% 40% · 1.1 |
+| 2027-01-10 | Mc 1,7-11 | Tu és o meu Filho amado | 4 | Piero della Francesca · O Batismo de Cristo · National Gallery, Londres | 50% 58% · 1.35 |
+
+Capas e `recorte.png` finais conferidos individualmente:
+
+- **1º/1:** Maria, inclinada sobre o Menino deitado no pano branco, José ao fundo e os pastores ajoelhados ficam dentro do arco; a velha à direita e os animais da base aparecem em parte.
+- **2/1:** Com foco 47% 22% e zoom 2, o arco mostra João no alto, apontando, e Cristo de manto claro no meio da multidão; o resto do povo ocupa a parte de baixo. O enquadramento anterior não mostrava os dois.
+- **3/1:** Maria com o Menino no colo, o rei ajoelhado em primeiro plano e as figuras ao redor, entre elas o rei negro ao fundo, ficam dentro do arco.
+- **4/1:** Jesus sentado na pedra, com a mão erguida, e o povo que o escuta ao redor ficam dentro do arco; a paisagem do fundo aparece em parte.
+- **5/1:** Cristo, de túnica vermelha e manto azul, estendendo as mãos para o cesto de pães que um menino lhe traz, e a multidão sentada na encosta ficam dentro do arco; as figuras das bordas aparecem em parte.
+- **6/1:** Cristo luminoso sobre as ondas e o barco escuro dos apóstolos, à esquerda, ficam dentro do arco.
+- **7/1:** Obra temática (Lc 4,18: dar vista aos cegos). Cristo, o cego ajoelhado que ele toca e os apóstolos atrás ficam dentro do arco.
+- **8/1:** Cristo, de manto vermelho, com a mão sobre a cabeça do leproso ajoelhado à esquerda, e os discípulos atrás ficam dentro do arco.
+- **9/1:** O rosto sorridente de João e a mão erguida, apontando para o alto, ficam dentro do arco, sobre o fundo escuro.
+- **10/1:** Cristo de mãos juntas no Jordão, João derramando a água, a pomba no alto e a árvore à esquerda ficam dentro do arco; os anjos à esquerda aparecem em parte.

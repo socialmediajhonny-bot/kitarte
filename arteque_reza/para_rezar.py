@@ -25,7 +25,7 @@ from .validacao import validate_kit, validate_pngs
 
 EXTRA_CSS = '@page{margin:0;}'
 REQUIRED_FONTS = {'CormorantGaramond-SemiBold', 'CormorantGaramond-Medium', 'Lato-Bold', 'Lato-Regular'}
-APPROVAL_DATES = {'2026-12-29': '2026-11-19', '2026-12-31': '2026-11-19'}
+APPROVAL_DATES = {'2026-12-29': '2026-11-19', '2026-12-31': '2026-11-19', '2027-01-05': '2026-11-23'}
 HISTORICAL_DATES = {'2026-10-20', '2026-12-15'}
 
 
@@ -271,7 +271,7 @@ def _report(target: Path, records: list[dict], checks: dict, command: str) -> Pa
         '- Quebras manuais são preservadas; os demais textos seguem o balanceamento do bundle. Espaços após a, à, e, é e o são inseparáveis. Linhas vazias forçadas também entram na contagem.',
         '- A ficha mantém o formato das séries anteriores, com linhas recuperadas por Range. A prancha usa miniaturas de 360 × 450 px e indexa todas as datas já geradas; --data preserva as demais.',
         '- São Miguel de 20/10 é uma prova do design system e não é publicação. Não há obras nesta série.',
-        '- As palavras hifenizadas permanecem inteiras pelo helper da Igreja Doméstica, importado sem modificações. Os textos de 29 e 31/12 foram aprovados em 19/11/2026.',
+        '- As palavras hifenizadas permanecem inteiras pelo helper da Igreja Doméstica, importado sem modificações. Os textos de 29 e 31/12 foram aprovados em 19/11/2026; o de 5/1/2027, em 23/11/2026.',
         '', '## Linhas medidas no render', '', '| Data | Card | Campo | Linhas | Limite |', '| --- | --- | --- | --- | --- |']
     for record in records:
         for card in record['cards']:

@@ -427,3 +427,39 @@
     pagina: https://collections.louvre.fr/ark:/53355/cl010065555
     foco: 15% 50%
     zoom: 1
+
+- id: terco-2027-01-02
+  grupo: terco-2027-01-02
+  cor: ouro
+  serie: Rezo por Você
+  apoio: sáb, 2 jan
+  titulo: Terço pelas intenções
+  subtitulo: Hoje, os mistérios gozosos, por tudo o que vocês pediram
+  invocacao: |-
+    Santa Maria, Mãe de Deus,
+    rogai por nós, pecadores,
+    agora e na hora de nossa morte. Amém.
+  obra:
+    arquivo: obras/stories/terco.jpg
+    credito: Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg
+    foco: 50% 35%
+    zoom: 1.15
+
+- id: terco-2027-01-09
+  grupo: terco-2027-01-09
+  cor: ouro
+  serie: Rezo por Você
+  apoio: sáb, 9 jan
+  titulo: Terço pelas intenções
+  subtitulo: Hoje, os mistérios gozosos, por tudo o que vocês pediram
+  invocacao: |-
+    Santa Maria, Mãe de Deus,
+    rogai por nós, pecadores,
+    agora e na hora de nossa morte. Amém.
+  obra:
+    arquivo: obras/stories/terco.jpg
+    credito: Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado
+    pagina: https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg
+    foco: 50% 35%
+    zoom: 1.15

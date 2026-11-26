@@ -13267,11 +13267,4093 @@
           "loaded": true
         }
       ]
+    },
+    "2027-01-01": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 2,
+          "credito": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1105.572766
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "credito",
+            "logo_px": 322.0
+          },
+          {
+            "campo": "nome",
+            "logo_px": 82.0
+          }
+        ],
+        "selo_grau_px": null,
+        "cartao": null,
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-01/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 300.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    256,
+                    168
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    241,
+                    472
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    220,
+                    833
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    328,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    325,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    148
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    751,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    754,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 125
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 9032
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 15052
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 10992
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Solenidade",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· sex, 1 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "credito",
+            "conteudo": "Giovanni Bellini · Madona degli Alberetti · Gallerie dell'Accademia, Veneza",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "Santa Maria, Mãe de Deus",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-01/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
+    },
+    "2027-01-02": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 1,
+          "titulo": 1,
+          "frase": 3,
+          "fonte": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1103.046051
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "grau",
+            "logo_px": 1113.68968
+          },
+          {
+            "campo": "nome",
+            "logo_px": 432.5
+          },
+          {
+            "campo": "titulo",
+            "logo_px": 374.5
+          },
+          {
+            "campo": "frase",
+            "logo_px": 153.5
+          },
+          {
+            "campo": "fonte",
+            "logo_px": 105.5
+          }
+        ],
+        "selo_grau_px": 412.203125,
+        "cartao": {
+          "area_interna": {
+            "x": 131,
+            "y": 203,
+            "largura": 818,
+            "altura": 948
+          },
+          "padding_px": {
+            "top": 48,
+            "right": 48,
+            "bottom": 32,
+            "left": 48
+          },
+          "elementos": [
+            {
+              "elemento": "nicho",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 76.5,
+                "direita": 277,
+                "base": 511.5
+              }
+            },
+            {
+              "elemento": "nicho-filete",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 76.5,
+                "direita": 277,
+                "base": 511.5
+              }
+            },
+            {
+              "elemento": "nicho-recorte",
+              "distancias_filete_interno_px": {
+                "esquerda": 293,
+                "topo": 92.5,
+                "direita": 293,
+                "base": 511.5
+              }
+            },
+            {
+              "elemento": "nicho-obra",
+              "distancias_filete_interno_px": {
+                "esquerda": 293,
+                "topo": 92.5,
+                "direita": 293,
+                "base": 511.5
+              }
+            },
+            {
+              "elemento": "nome",
+              "distancias_filete_interno_px": {
+                "esquerda": 94.75,
+                "topo": 544.5,
+                "direita": 94.765625,
+                "base": 387.5
+              }
+            },
+            {
+              "elemento": "titulo",
+              "distancias_filete_interno_px": {
+                "esquerda": 246.6875,
+                "topo": 628.5,
+                "direita": 246.703125,
+                "base": 329.5
+              }
+            },
+            {
+              "elemento": "ornamento",
+              "distancias_filete_interno_px": {
+                "esquerda": 352,
+                "topo": 710.5,
+                "direita": 352,
+                "base": 276.5
+              }
+            },
+            {
+              "elemento": "frase",
+              "distancias_filete_interno_px": {
+                "esquerda": 97,
+                "topo": 763.5,
+                "direita": 97,
+                "base": 108.5
+              }
+            },
+            {
+              "elemento": "fonte",
+              "distancias_filete_interno_px": {
+                "esquerda": 161.359375,
+                "topo": 915.5,
+                "direita": 161.375,
+                "base": 60.5
+              }
+            }
+          ],
+          "parapeito_na_area_interna": true,
+          "sem_transbordamento": true
+        },
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa topo",
+            "pixel": [
+              540,
+              153
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa base",
+            "pixel": [
+              540,
+              1184
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa esquerda",
+            "pixel": [
+              81,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa direita",
+            "pixel": [
+              998,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno topo",
+            "pixel": [
+              540,
+              165
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno base",
+            "pixel": [
+              540,
+              1172
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno esquerda",
+            "pixel": [
+              93,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno direita",
+            "pixel": [
+              986,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "papel do cartão",
+            "pixel": [
+              104,
+              176
+            ],
+            "esperado": "#faf6ee",
+            "rgb": [
+              250,
+              246,
+              238
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-02/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 170.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    386,
+                    258
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    242
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    371,
+                    431
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    350,
+                    662
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    420,
+                    292
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    416,
+                    288
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    243
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    237
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    659,
+                    292
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    663,
+                    288
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 193
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7192
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 15276
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 11000
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 9160
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Santo do Dia",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· sáb, 2 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "grau",
+            "conteudo": "Memória",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "São Basílio e São Gregório",
+            "extraivel": true
+          },
+          {
+            "campo": "titulo",
+            "conteudo": "Bispos e doutores da Igreja",
+            "extraivel": true
+          },
+          {
+            "campo": "frase",
+            "conteudo": "“Parecia que tínhamos uma só alma em dois corpos.”",
+            "extraivel": true
+          },
+          {
+            "campo": "fonte",
+            "conteudo": "São Gregório Nazianzeno, sobre a amizade com Basílio",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     13  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     18  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     23  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     28  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-02/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                277.5,
+                181.125,
+                532.5,
+                496.125
+              ],
+              "caixa_parapeito_pt": [
+                241.5,
+                496.125,
+                568.5,
+                498.375
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
+    },
+    "2027-01-04": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 2,
+          "credito": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1103.046051
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "credito",
+            "logo_px": 322.0
+          },
+          {
+            "campo": "nome",
+            "logo_px": 178.0
+          }
+        ],
+        "selo_grau_px": null,
+        "cartao": null,
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-04/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 300.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    256,
+                    168
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    241,
+                    472
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    220,
+                    833
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    328,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    325,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    148
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    751,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    754,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 115
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7192
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 15484
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 10220
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Santo do Dia",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· seg, 4 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "credito",
+            "conteudo": "Saint-Mémin · Elizabeth Ann Seton, 1797 · National Gallery of Art",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "Santa Isabel Ana Seton",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-04/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
+    },
+    "2027-01-05": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 2,
+          "credito": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1103.046051
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "credito",
+            "logo_px": 322.0
+          },
+          {
+            "campo": "nome",
+            "logo_px": 82.0
+          }
+        ],
+        "selo_grau_px": null,
+        "cartao": null,
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-05/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 300.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    256,
+                    168
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    241,
+                    472
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    220,
+                    833
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    328,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    325,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    148
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    751,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    754,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 120
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7192
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 15212
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 10676
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Santo do Dia",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· ter, 5 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "credito",
+            "conteudo": "Samuel Hollyer · São João Neumann, 1892 · Biblioteca do Congresso",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "São João Nepomuceno Neumann",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-05/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
+    },
+    "2027-01-06": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 1,
+          "titulo": 1,
+          "frase": 3,
+          "fonte": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1103.046051
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "grau",
+            "logo_px": 1106.556508
+          },
+          {
+            "campo": "nome",
+            "logo_px": 466.5
+          },
+          {
+            "campo": "titulo",
+            "logo_px": 408.5
+          },
+          {
+            "campo": "frase",
+            "logo_px": 119.5
+          },
+          {
+            "campo": "fonte",
+            "logo_px": 71.5
+          }
+        ],
+        "selo_grau_px": 359.28125,
+        "cartao": {
+          "area_interna": {
+            "x": 131,
+            "y": 203,
+            "largura": 818,
+            "altura": 948
+          },
+          "padding_px": {
+            "top": 48,
+            "right": 48,
+            "bottom": 32,
+            "left": 48
+          },
+          "elementos": [
+            {
+              "elemento": "nicho",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 42.5,
+                "direita": 277,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nicho-filete",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 42.5,
+                "direita": 277,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nicho-recorte",
+              "distancias_filete_interno_px": {
+                "esquerda": 293,
+                "topo": 58.5,
+                "direita": 293,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nicho-obra",
+              "distancias_filete_interno_px": {
+                "esquerda": 293,
+                "topo": 58.5,
+                "direita": 293,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nome",
+              "distancias_filete_interno_px": {
+                "esquerda": 160.4375,
+                "topo": 510.5,
+                "direita": 160.453125,
+                "base": 421.5
+              }
+            },
+            {
+              "elemento": "titulo",
+              "distancias_filete_interno_px": {
+                "esquerda": 221.015625,
+                "topo": 594.5,
+                "direita": 221.015625,
+                "base": 363.5
+              }
+            },
+            {
+              "elemento": "ornamento",
+              "distancias_filete_interno_px": {
+                "esquerda": 352,
+                "topo": 676.5,
+                "direita": 352,
+                "base": 310.5
+              }
+            },
+            {
+              "elemento": "frase",
+              "distancias_filete_interno_px": {
+                "esquerda": 97,
+                "topo": 729.5,
+                "direita": 97,
+                "base": 74.5
+              }
+            },
+            {
+              "elemento": "fonte",
+              "distancias_filete_interno_px": {
+                "esquerda": 217.984375,
+                "topo": 949.5,
+                "direita": 217.984375,
+                "base": 26.5
+              }
+            }
+          ],
+          "parapeito_na_area_interna": true,
+          "sem_transbordamento": true
+        },
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa topo",
+            "pixel": [
+              540,
+              153
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa base",
+            "pixel": [
+              540,
+              1184
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa esquerda",
+            "pixel": [
+              81,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa direita",
+            "pixel": [
+              998,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno topo",
+            "pixel": [
+              540,
+              165
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno base",
+            "pixel": [
+              540,
+              1172
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno esquerda",
+            "pixel": [
+              93,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno direita",
+            "pixel": [
+              986,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "papel do cartão",
+            "pixel": [
+              104,
+              176
+            ],
+            "esperado": "#faf6ee",
+            "rgb": [
+              250,
+              246,
+              238
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-06/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 170.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    386,
+                    224
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    208
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    371,
+                    397
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    350,
+                    628
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    420,
+                    258
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    416,
+                    254
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    209
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    203
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    659,
+                    258
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    663,
+                    254
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 226
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7192
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 15644
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 10540
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 9756
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Santo do Dia",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· qua, 6 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "grau",
+            "conteudo": "Martirológio",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "Santo André Bessette",
+            "extraivel": true
+          },
+          {
+            "campo": "titulo",
+            "conteudo": "Religioso, porteiro de São José",
+            "extraivel": true
+          },
+          {
+            "campo": "frase",
+            "conteudo": "“Não procureis libertar-vos das provações, mas sobretudo pedi a graça de as suportar bem.”",
+            "extraivel": true
+          },
+          {
+            "campo": "fonte",
+            "conteudo": "Santo André Bessette, citado por Bento XVI",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     13  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     18  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     23  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     28  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-06/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                277.5,
+                155.625,
+                532.5,
+                470.625
+              ],
+              "caixa_parapeito_pt": [
+                241.5,
+                470.625,
+                568.5,
+                472.875
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
+    },
+    "2027-01-07": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 2,
+          "credito": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "credito",
+            "logo_px": 322.0
+          },
+          {
+            "campo": "nome",
+            "logo_px": 82.0
+          }
+        ],
+        "selo_grau_px": null,
+        "cartao": null,
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-07/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 300.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    256,
+                    168
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    241,
+                    472
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    220,
+                    833
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    328,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    325,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    148
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    751,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    754,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 137
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 12152
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 14680
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 11428
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Memória facultativa",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· qui, 7 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "credito",
+            "conteudo": "Francesco Rustici · São Raimundo de Penhaforte ressuscita uma menina · Siena",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "São Raimundo de Penhaforte",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-07/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
+    },
+    "2027-01-08": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 1,
+          "titulo": 1,
+          "frase": 3,
+          "fonte": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1103.046051
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "grau",
+            "logo_px": 1106.556508
+          },
+          {
+            "campo": "nome",
+            "logo_px": 466.5
+          },
+          {
+            "campo": "titulo",
+            "logo_px": 408.5
+          },
+          {
+            "campo": "frase",
+            "logo_px": 119.5
+          },
+          {
+            "campo": "fonte",
+            "logo_px": 71.5
+          }
+        ],
+        "selo_grau_px": 364.46875,
+        "cartao": {
+          "area_interna": {
+            "x": 131,
+            "y": 203,
+            "largura": 818,
+            "altura": 948
+          },
+          "padding_px": {
+            "top": 48,
+            "right": 48,
+            "bottom": 32,
+            "left": 48
+          },
+          "elementos": [
+            {
+              "elemento": "nicho",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 42.5,
+                "direita": 277,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nicho-filete",
+              "distancias_filete_interno_px": {
+                "esquerda": 277,
+                "topo": 42.5,
+                "direita": 277,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nicho-recorte",
+              "distancias_filete_interno_px": {
+                "esquerda": 293,
+                "topo": 58.5,
+                "direita": 293,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nicho-obra",
+              "distancias_filete_interno_px": {
+                "esquerda": 293,
+                "topo": 58.5,
+                "direita": 293,
+                "base": 545.5
+              }
+            },
+            {
+              "elemento": "nome",
+              "distancias_filete_interno_px": {
+                "esquerda": 120.59375,
+                "topo": 510.5,
+                "direita": 120.59375,
+                "base": 421.5
+              }
+            },
+            {
+              "elemento": "titulo",
+              "distancias_filete_interno_px": {
+                "esquerda": 234.328125,
+                "topo": 594.5,
+                "direita": 234.34375,
+                "base": 363.5
+              }
+            },
+            {
+              "elemento": "ornamento",
+              "distancias_filete_interno_px": {
+                "esquerda": 352,
+                "topo": 676.5,
+                "direita": 352,
+                "base": 310.5
+              }
+            },
+            {
+              "elemento": "frase",
+              "distancias_filete_interno_px": {
+                "esquerda": 97,
+                "topo": 729.5,
+                "direita": 97,
+                "base": 74.5
+              }
+            },
+            {
+              "elemento": "fonte",
+              "distancias_filete_interno_px": {
+                "esquerda": 152.375,
+                "topo": 949.5,
+                "direita": 152.375,
+                "base": 26.5
+              }
+            }
+          ],
+          "parapeito_na_area_interna": true,
+          "sem_transbordamento": true
+        },
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa topo",
+            "pixel": [
+              540,
+              153
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa base",
+            "pixel": [
+              540,
+              1184
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa esquerda",
+            "pixel": [
+              81,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "moldura externa direita",
+            "pixel": [
+              998,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno topo",
+            "pixel": [
+              540,
+              165
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno base",
+            "pixel": [
+              540,
+              1172
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno esquerda",
+            "pixel": [
+              93,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "filete interno direita",
+            "pixel": [
+              986,
+              669
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "papel do cartão",
+            "pixel": [
+              104,
+              176
+            ],
+            "esperado": "#faf6ee",
+            "rgb": [
+              250,
+              246,
+              238
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-08/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 170.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    386,
+                    224
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    208
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    371,
+                    397
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    350,
+                    628
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    420,
+                    258
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    416,
+                    254
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    209
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    203
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    659,
+                    258
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    663,
+                    254
+                  ],
+                  "expected_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "actual_rgb": [
+                    250,
+                    246,
+                    238
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 247
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7192
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 16356
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 10884
+          },
+          {
+            "nome": "CormorantGaramond-MediumItalic",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 9704
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-MediumItalic",
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Santo do Dia",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· sex, 8 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "grau",
+            "conteudo": "Martirológio",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "São Lourenço Justiniano",
+            "extraivel": true
+          },
+          {
+            "campo": "titulo",
+            "conteudo": "Primeiro patriarca de Veneza",
+            "extraivel": true
+          },
+          {
+            "campo": "frase",
+            "conteudo": "“Maria refletia consigo mesma em tudo quanto tinha conhecido, através do que lia, escutava e via.”",
+            "extraivel": true
+          },
+          {
+            "campo": "fonte",
+            "conteudo": "Sermões de São Lourenço Justiniano, Ofício das Leituras",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     13  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     18  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     23  0\nDAAAAA+CormorantGaramond-MediumItalic CID TrueType      Identity-H       yes yes yes     28  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-08/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                277.5,
+                155.625,
+                532.5,
+                470.625
+              ],
+              "caixa_parapeito_pt": [
+                241.5,
+                470.625,
+                568.5,
+                472.875
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
+    },
+    "2027-01-09": {
+      "layout": {
+        "ok": true,
+        "limites": {
+          "nome": 2,
+          "credito": 1
+        },
+        "distancias_ao_logo": [
+          {
+            "campo": "selo",
+            "logo_px": 1103.046051
+          },
+          {
+            "campo": "data",
+            "logo_px": 1099.0
+          },
+          {
+            "campo": "credito",
+            "logo_px": 322.0
+          },
+          {
+            "campo": "nome",
+            "logo_px": 178.0
+          }
+        ],
+        "selo_grau_px": null,
+        "cartao": null,
+        "errors": []
+      },
+      "pixels": {
+        "ok": true,
+        "amostras": [
+          {
+            "elemento": "cruz do selo",
+            "pixel": [
+              89,
+              103
+            ],
+            "esperado": "#866420",
+            "rgb": [
+              134,
+              100,
+              32
+            ],
+            "ok": true
+          },
+          {
+            "elemento": "fundo da arte",
+            "pixel": [
+              8,
+              8
+            ],
+            "esperado": "#f2eadb",
+            "rgb": [
+              242,
+              234,
+              219
+            ],
+            "ok": true
+          }
+        ],
+        "nicho": {
+          "ok": true,
+          "file": "/workspace/kitarte/work/santo-do-dia/2027-01-09/card.png",
+          "count": 1,
+          "niches": [
+            {
+              "name": "nicho",
+              "ok": true,
+              "outer_radius": 300.0,
+              "samples": [
+                {
+                  "name": "canto da obra fora do arco",
+                  "xy": [
+                    256,
+                    168
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "topo do filete",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "lateral do filete",
+                  "xy": [
+                    241,
+                    472
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "parapeito",
+                  "xy": [
+                    220,
+                    833
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -135 graus",
+                  "xy": [
+                    328,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -135 graus",
+                  "xy": [
+                    325,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -90 graus",
+                  "xy": [
+                    540,
+                    153
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -90 graus",
+                  "xy": [
+                    540,
+                    148
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "arco externo W/2: -45 graus",
+                  "xy": [
+                    751,
+                    240
+                  ],
+                  "expected_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "actual_rgb": [
+                    134,
+                    100,
+                    32
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                },
+                {
+                  "name": "fora do arco W/2: -45 graus",
+                  "xy": [
+                    754,
+                    237
+                  ],
+                  "expected_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "actual_rgb": [
+                    242,
+                    234,
+                    219
+                  ],
+                  "max_channel_delta": 0,
+                  "ok": true
+                }
+              ],
+              "errors": []
+            }
+          ],
+          "tolerance_rgb": 3,
+          "errors": []
+        },
+        "errors": []
+      },
+      "pdf": {
+        "ok": true,
+        "paginas": [
+          {
+            "largura_pt": 810.0,
+            "altura_pt": 1012.5,
+            "caracteres_extraidos": 112
+          }
+        ],
+        "fontes": [
+          {
+            "nome": "Lato-Bold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 7192
+          },
+          {
+            "nome": "Lato-Regular",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 14260
+          },
+          {
+            "nome": "CormorantGaramond-SemiBold",
+            "tipo": "Type0",
+            "formato": "ttf",
+            "embutida": true,
+            "truetype": true,
+            "bytes": 10496
+          }
+        ],
+        "fontes_exigidas": [
+          "CormorantGaramond-SemiBold",
+          "Lato-Bold",
+          "Lato-Regular"
+        ],
+        "textos": [
+          {
+            "campo": "selo",
+            "conteudo": "Santo do Dia",
+            "extraivel": true
+          },
+          {
+            "campo": "data",
+            "conteudo": "· sáb, 9 jan",
+            "extraivel": true
+          },
+          {
+            "campo": "credito",
+            "conteudo": "Guido Reni · Santo André Corsini · Pinacoteca Nacional de Bolonha",
+            "extraivel": true
+          },
+          {
+            "campo": "nome",
+            "conteudo": "Santo André Corsini",
+            "extraivel": true
+          }
+        ],
+        "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes     11  0\nBAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes     16  0\nCAAAAA+CormorantGaramond-SemiBold    CID TrueType      Identity-H       yes yes yes     21  0\n",
+        "nicho_vetorial": {
+          "ok": true,
+          "arquivo": "/workspace/kitarte/work/santo-do-dia/2027-01-09/card.pdf",
+          "escala_px_para_pt": 0.75,
+          "tolerancia_caixa_pt": 0.5,
+          "nichos": [
+            {
+              "indice": 1,
+              "filete_vetorial": true,
+              "borda_antiga_ausente": true,
+              "parapeito_vetorial": true,
+              "pagina": 1,
+              "hex": "#866420",
+              "caixa_nicho_pt": [
+                180.0,
+                114.0,
+                630.0,
+                624.0
+              ],
+              "caixa_parapeito_pt": [
+                144.0,
+                624.0,
+                666.0,
+                626.25
+              ],
+              "preenchimentos_curvos": 1,
+              "assinaturas_antigas_re": 0,
+              "parapeitos_re": 1
+            }
+          ],
+          "errors": []
+        },
+        "errors": []
+      },
+      "fontes_render": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "400",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        },
+        {
+          "family": "Lato",
+          "weight": "700",
+          "style": "normal",
+          "checked": true,
+          "loaded": true
+        }
+      ]
     }
   },
   "pngs": {
     "ok": true,
-    "count": 45,
+    "count": 61,
     "files": [
       {
         "file": "/workspace/kitarte/saida/santo-do-dia/2026-11-30/card.png",
@@ -13848,13 +17930,221 @@
       {
         "file": "/workspace/kitarte/saida/santo-do-dia/prancha.png",
         "expected": [
-          8488,
+          11560,
           550
         ],
         "ok": true,
         "actual": [
-          8488,
+          11560,
           550
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-01/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-01/recorte.png",
+        "expected": [
+          1080,
+          1349
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1349
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-02/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-02/recorte.png",
+        "expected": [
+          1080,
+          1915
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1915
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-04/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-04/recorte.png",
+        "expected": [
+          1080,
+          1365
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1365
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-05/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-05/recorte.png",
+        "expected": [
+          1080,
+          1443
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1443
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-06/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-06/recorte.png",
+        "expected": [
+          1080,
+          1461
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1461
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-07/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-07/recorte.png",
+        "expected": [
+          1080,
+          1080
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1080
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-08/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-08/recorte.png",
+        "expected": [
+          1080,
+          1548
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1548
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-09/card.png",
+        "expected": [
+          1080,
+          1350
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1350
+        ],
+        "format": "PNG"
+      },
+      {
+        "file": "/workspace/kitarte/saida/santo-do-dia/2027-01-09/recorte.png",
+        "expected": [
+          1080,
+          1833
+        ],
+        "ok": true,
+        "actual": [
+          1080,
+          1833
         ],
         "format": "PNG"
       }
@@ -15090,5 +19380,20 @@
     }
   },
   "ok": true,
-  "comando": "python gerar.py santo"
+  "comando": "python gerar.py santo",
+  "janeiro_2027": {
+    "ok": true,
+    "gerado_em": "2026-11-23",
+    "comandos": [
+      "python gerar.py santo --data 2027-01-01",
+      "python gerar.py santo --data 2027-01-02",
+      "python gerar.py santo --data 2027-01-04",
+      "python gerar.py santo --data 2027-01-05",
+      "python gerar.py santo --data 2027-01-06",
+      "python gerar.py santo --data 2027-01-07",
+      "python gerar.py santo --data 2027-01-08",
+      "python gerar.py santo --data 2027-01-09"
+    ],
+    "nota": "As datas de 1º a 10/1/2027 foram geradas uma a uma com --data e mescladas aqui; as demais entradas são as da main, sem alteração."
+  }
 }

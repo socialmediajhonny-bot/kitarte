@@ -53,3 +53,55 @@
       Santa Mãe de Deus,
       rogai por nós.
     convite: Dia 1º, solenidade da Mãe de Deus. Reze com a gente.
+
+- data: 2027-01-02
+  cor: ouro
+  info: Ladainha 3
+  invocacao: Santa Virgem das virgens
+  obra:
+    arquivo: obras/toda-bela/2027-01-02.jpg
+    credito: Antonello da Messina · A Virgem da Anunciação · Palazzo Abatellis, Palermo
+    pagina: https://commons.wikimedia.org/wiki/File:Antonello_da_Messina,_Annunciata_di_Palermo,_circa_1475-77_-FG2.jpg
+    foco: 50% 32%
+    zoom: 1.1
+  raiz:
+    rotulo: De onde vem
+    versiculo: Eis que a virgem conceberá e dará à luz um filho.
+    referencia: Mt 1,23
+    texto: >-
+      A Igreja crê que Maria concebeu Jesus pelo poder do Espírito Santo e
+      permaneceu virgem a vida inteira. Por isso a liturgia a chama de sempre
+      Virgem.
+    fonte: Catecismo da Igreja Católica, 496 e 499
+  oracao:
+    rotulo: Para rezar hoje
+    frase: |-
+      Santa Virgem das virgens,
+      rogai por nós.
+    convite: Amanhã, Epifania do Senhor. Reze com a gente.
+
+- data: 2027-01-09
+  cor: ouro
+  info: Ladainha 4
+  invocacao: Mãe de Cristo
+  obra:
+    arquivo: obras/toda-bela/2027-01-09.jpg
+    credito: Rafael · Madona della Seggiola · Palazzo Pitti, Florença
+    pagina: https://commons.wikimedia.org/wiki/File:Raphael_Madonna_della_seggiola.jpg
+    foco: 45% 40%
+    zoom: 1.3
+  raiz:
+    rotulo: De onde vem
+    versiculo: Hoje, na cidade de Davi, nasceu para vós um Salvador, que é o Cristo Senhor.
+    referencia: Lc 2,11
+    texto: >-
+      Cristo quer dizer Ungido: o Messias que Israel esperava. O anjo anunciou
+      aos pastores que o menino nascido de Maria é o Cristo. Ela é a mãe do
+      Ungido de Deus.
+    fonte: Catecismo da Igreja Católica, 436 e 437
+  oracao:
+    rotulo: Para rezar hoje
+    frase: |-
+      Mãe de Cristo,
+      rogai por nós.
+    convite: Amanhã, Batismo do Senhor. Reze com a gente.

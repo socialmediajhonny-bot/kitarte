@@ -85,8 +85,8 @@ class DomesticChurchLayoutTests(unittest.TestCase):
     def assert_gap(self, first, second, expected):
         self.assertAlmostEqual(second["y"]-first["y"]-first["h"], expected, delta=.01)
 
-    def test_all_twenty_two_cards_have_required_gaps_limits_and_centering(self):
-        self.assertEqual(len(self.cards), 22)
+    def test_all_thirty_cards_have_required_gaps_limits_and_centering(self):
+        self.assertEqual(len(self.cards), 30)
         for card in self.cards:
             with self.subTest(date=card["data"], card=card["numero"], kind=card["tipo"]):
                 measured = self.render(card)

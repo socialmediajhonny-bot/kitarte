@@ -39,6 +39,8 @@ def approval_date(series: str, day: str) -> str:
     if series == 'antifonas' or (series, day) in {
             ('toda-bela', '2026-12-26'), ('olhe-de-novo', '2026-12-30')}:
         return '2026-11-19'
+    if '2027-01-01' <= day <= '2027-01-10':
+        return '2026-11-23'
     return APPROVAL_DATE
 
 

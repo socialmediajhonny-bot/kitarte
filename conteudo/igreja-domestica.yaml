@@ -212,3 +212,77 @@
       rotulo: Para conversar em família
       pergunta: Pelo que a nossa família quer agradecer a Deus neste ano?
       convite: Envie para quem vai abençoar os filhos com você.
+
+- data: 2027-01-03
+  cor: ouro
+  cards:
+    - tipo: capa
+      titulo: A bênção da casa
+      apoio: Na Epifania, marquem a porta com giz
+      obra:
+        arquivo: obras/igreja-domestica/2027-01-03.jpg
+        credito: Burne-Jones e Morris & Co. · A Adoração dos Magos · Museu d'Orsay
+        pagina: https://commons.wikimedia.org/wiki/File:Edward_Burne-Jones_-_The_Adoration_of_the_Magi_-_Google_Art_Project.jpg
+        foco: 42% 55%
+        zoom: 1.4
+    - tipo: passos
+      rotulo: Por que abençoar
+      titulo: Os magos entraram na casa
+      itens:
+        - Os magos entraram na casa e viram o menino com Maria, sua mãe.
+        - Na Epifania, muitas famílias pedem a bênção de Deus para o lar.
+        - Acima da porta, escreve-se com giz a cruz, o ano e as letras C, M e B.
+        - As letras lembram os nomes dos magos e as palavras Christus mansionem benedicat, Cristo abençoe esta casa.
+      fonte: Mt 2,11 · Diretório sobre Piedade Popular e Liturgia, 118
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: Cristo abençoe esta casa
+      falas:
+        - rubrica: |-
+            Leiam o Evangelho do dia, Mt 2,1-12.
+            Com giz, escrevam na porta 20+C+M+B+27:
+        - oracao: Cristo abençoe esta casa e todos os que nela moram.
+        - rubrica: "E todos respondem:"
+        - aclamacao: Amém.
+      origem: Christus mansionem benedicat
+    - tipo: conversa
+      rotulo: Para conversar em família
+      pergunta: Quem a nossa família quer receber em casa neste ano?
+      convite: Envie para quem vai marcar a porta com você.
+
+- data: 2027-01-10
+  cor: ouro
+  cards:
+    - tipo: capa
+      titulo: As promessas do Batismo
+      apoio: Lembrem juntos o batismo de cada um
+      obra:
+        arquivo: obras/igreja-domestica/2027-01-10.jpg
+        credito: Verrocchio e Leonardo · O Batismo de Cristo · Galeria Uffizi, Florença
+        pagina: https://commons.wikimedia.org/wiki/File:Andrea_del_Verrocchio,_Leonardo_da_Vinci_-_Baptism_of_Christ_-_Uffizi.jpg
+        foco: 50% 40%
+        zoom: 1.1
+    - tipo: passos
+      rotulo: Por que lembrar
+      titulo: Filhos amados do Pai
+      itens:
+        - No Jordão, o Pai chamou Jesus de Filho amado.
+        - No Batismo, cada um de nós se tornou filho de Deus.
+        - Quem foi batizado criança teve as promessas feitas pelos pais e padrinhos.
+        - Saber a data do batismo é lembrar o dia em que nascemos para Deus.
+      fonte: Mc 1,11 · Catecismo, 1213 e 1265
+    - tipo: oracao
+      rotulo: Para rezar em família
+      titulo: A oração dos filhos
+      falas:
+        - rubrica: |-
+            Leiam o Evangelho do dia, Mc 1,7-11.
+            Com água benta, façam o sinal da cruz e rezem:
+        - oracao: Pai nosso, que estais nos céus, santificado seja o vosso nome…
+        - rubrica: "Rezem a oração inteira e terminem juntos:"
+        - aclamacao: Amém.
+      origem: Mt 6,9-13 · Catecismo, 2769
+    - tipo: conversa
+      rotulo: Para conversar em família
+      pergunta: Vocês sabem a data do batismo de cada um da família?
+      convite: Envie para os seus padrinhos ou afilhados.

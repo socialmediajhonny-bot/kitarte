@@ -157,7 +157,7 @@ def _board(target: Path, records: list[dict]) -> tuple[int, int]:
 
 def _report(target: Path, records: list[dict], checks: dict, command: str) -> Path:
     lines = ['# Igreja Doméstica', '', f'`{command}`', '', '## Conteúdo e composição', '',
-        '- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026, os de 13/12 em 12/11/2026 e os de 20 e 27/12 em 19/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.',
+        '- Os textos foram escritos pela página: os de 29/11 e 6/12 foram aprovados em 03/11/2026, os de 13/12 em 12/11/2026, os de 20 e 27/12 em 19/11/2026 e os de 3 e 10/1/2027 em 23/11/2026. O YAML mantém as quebras manuais e a ordem dos cards, itens e falas.',
         '- PostIgrejaDomestica aceita de dois a seis cards e usa feed 1080 × 1350 e tema pergaminho. O selo traz a série e a data; do segundo card em diante aparece a contagem à direita.',
         '- A capa segue o fluxo abaixo do selo: Nicho 600 × 680 com foco e zoom do YAML, crédito, título e apoio. A imagem entra dentro do arco; o crédito aparece na capa, e a página da obra fica somente na ficha e neste relatório.',
         '- Passos, oração e conversa mantêm o bloco centralizado entre selo e assinatura, com pelo menos 60 px de folga e diferença de centralização até 0,1 px. Na capa, o apoio fica a pelo menos 32 px da assinatura.',
@@ -330,6 +330,7 @@ def generate(output: Path, content_path: Path, date_filter: str | None = None) -
             _merge(parts, destination)
             pdf_check = _pdf_check(destination, cards, measurements)
             record = {'modelo':'PostIgrejaDomestica', 'textos_aprovados_em':(
+                          '2026-11-23' if day['data'] in {'2027-01-03', '2027-01-10'} else
                           '2026-11-19' if day['data'] in {'2026-12-20', '2026-12-27'} else
                           '2026-11-12' if day['data']=='2026-12-13' else '2026-11-03'),
                       'data':day['data'], 'cor':day['cor'], 'cards':measurements,

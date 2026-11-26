@@ -1,10 +1,10 @@
 # Olhe de Novo
 
-`python3 gerar.py olhe-de-novo --data 2026-12-30`
+`python3 gerar.py olhe-de-novo --data 2027-01-06`
 
 ## Conteúdo e composição
 
-- Os textos foram escritos pela página. Aprovação por data: 2026-12-09 → 2026-11-12; 2026-12-30 → 2026-11-19. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
+- Os textos foram escritos pela página. Aprovação por data: 2026-12-09 → 2026-11-12; 2026-12-30 → 2026-11-19; 2027-01-06 → 2026-11-23. O YAML preserva pontuação, aspas, acentos e quebras manuais; nenhum texto é gerado automaticamente.
 - Feed de 1080 × 1350. Os modelos existem apenas no gerador, sem prévia equivalente no kit v4. Nenhum módulo compartilhado ou arquivo do kit é modificado.
 - O helper igreja_text_html é importado intacto: protege palavras de uma letra, referências bíblicas inteiras, ordinais ligados à palavra seguinte e palavras com hífen. As quebras do YAML são mantidas.
 - O gap de 16 px do aqr-texto recebe margens inline em tokens: 48 px entre rótulo e texto e em volta do ornamento; 32 px entre texto e fonte/referência e entre nicho e crédito. Cada par é medido no navegador com tolerância de ±0,01 px.
@@ -30,10 +30,14 @@
 | 2026-12-30 | 2 | detalhe | credito: 1; titulo: 1 | selo_nicho_px: 32 px; nicho_credito_px: 32 px; credito_titulo_px: 48 px; titulo_assinatura_px: 38 px | credito: 1 linhas; titulo: 1 linhas; selo_nicho_px: 32 px; titulo_assinatura_px: 38 px |
 | 2026-12-30 | 3 | significado | rotulo: 1; titulo: 1; texto: 4; fonte: 1 | selo_texto_px: 276.5 px; texto_assinatura_px: 276.5 px; diferenca_centralizacao_px: 0 px; rotulo_titulo_px: 48 px; titulo_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; titulo: 1 linhas; texto: 4 linhas; fonte: 1 linhas; folga_px: 276.5 px |
 | 2026-12-30 | 4 | onde | rotulo: 1; credito_1: 2; credito_2: 2; texto: 3; fonte: 1 | selo_texto_px: 116 px; texto_assinatura_px: 116 px; diferenca_centralizacao_px: 0 px; rotulo_linha_nichos_px: 48 px; linha_nichos_texto_px: 48 px; texto_fonte_px: 32 px; nicho_1_credito_1_px: 32 px; nicho_2_credito_2_px: 32 px; distancia_entre_nichos_px: 96 px | rotulo: 1 linhas; credito_1: 2 linhas; credito_2: 2 linhas; texto: 3 linhas; fonte: 1 linhas; folga_px: 116 px |
+| 2027-01-06 | 1 | obra | credito: 1; titulo: 1 | selo_nicho_px: 32 px; nicho_credito_px: 32 px; credito_titulo_px: 48 px; titulo_assinatura_px: 38 px | credito: 1 linhas; titulo: 1 linhas; selo_nicho_px: 32 px; titulo_assinatura_px: 38 px |
+| 2027-01-06 | 2 | detalhe | credito: 1; titulo: 1 | selo_nicho_px: 32 px; nicho_credito_px: 32 px; credito_titulo_px: 48 px; titulo_assinatura_px: 38 px | credito: 1 linhas; titulo: 1 linhas; selo_nicho_px: 32 px; titulo_assinatura_px: 38 px |
+| 2027-01-06 | 3 | significado | rotulo: 1; titulo: 1; texto: 5; fonte: 1 | selo_texto_px: 251.5 px; texto_assinatura_px: 251.5 px; diferenca_centralizacao_px: 0 px; rotulo_titulo_px: 48 px; titulo_ornamento_px: 48 px; ornamento_texto_px: 48 px; texto_fonte_px: 32 px | rotulo: 1 linhas; titulo: 1 linhas; texto: 5 linhas; fonte: 1 linhas; folga_px: 251.5 px |
+| 2027-01-06 | 4 | onde | rotulo: 1; credito_1: 2; credito_2: 2; texto: 4; fonte: 1 | selo_texto_px: 91 px; texto_assinatura_px: 91 px; diferenca_centralizacao_px: 0 px; rotulo_linha_nichos_px: 48 px; linha_nichos_texto_px: 48 px; texto_fonte_px: 32 px; nicho_1_credito_1_px: 32 px; nicho_2_credito_2_px: 32 px; distancia_entre_nichos_px: 96 px | rotulo: 1 linhas; credito_1: 2 linhas; credito_2: 2 linhas; texto: 3 linhas; fonte: 1 linhas; folga_px: 116 px |
 
 ## Diferenças da tabela prevista
 
-Nenhuma diferença.
+- 2027-01-06, card 4: texto: 4 linhas; previsto 3; selo_texto_px: 91px; previsto 116px; texto_assinatura_px: 91px; previsto 116px
 
 ## Obras, janelas e recortes
 
@@ -147,10 +151,64 @@ Dimensão do JPEG recortado: 320 × 420 px.
 Margens e faixas detectadas: `{"margens_detectadas": {"topo": 0, "base": 0, "esquerda": 0, "direita": 0}, "faixas_descartadas": [], "margens_visiveis": []}`.
 
 Nicho direito do card 4 e recorte-4-2.png conferidos no Giotto. As cabeças dos dois animais, o rosto do Menino e o gesto junto da manjedoura permanecem legíveis na extensão disponível da obra. A curva corta o alto da cabeça e a auréola de Maria; José aparece parcial à direita. O animal à esquerda já encontra o limite esquerdo da própria composição. Este é um detalhe dos animais, sem margem fotográfica visível.
+### 2027-01-06 · card-1
+
+Andrea Mantegna · A Adoração dos Magos · J. Paul Getty Museum — https://commons.wikimedia.org/wiki/File:Andrea_Mantegna_-_Adoration_of_the_Magi_-_85.PA.417_-_J._Paul_Getty_MuseumFXD.jpg
+
+Original local: `obras/olhe-de-novo/2027-01-06.jpg`. Foco `50% 50%`, zoom `1`.
+
+Janela original x=1075.553398, y=0.000000, largura=2848.893204, altura=3861.000000 px; ampliação=0.213416.
+Arquivo recortado: `saida/olhe-de-novo/2027-01-06/obra-1.jpg`. Prova: `saida/olhe-de-novo/2027-01-06/recorte-1.png`.
+Dimensão do JPEG recortado: 1216 × 1648 px.
+
+Margens e faixas detectadas: `{"margens_detectadas": {"topo": 0, "base": 0, "esquerda": 0, "direita": 0}, "faixas_descartadas": [], "margens_visiveis": []}`.
+
+Capa e recorte-1.png finais conferidos. Maria, o Menino, o rei de turbante branco e o rei mais velho, ajoelhado, ficam dentro do arco, com o vaso avermelhado ao centro e a taça de porcelana na base. José, à esquerda, fica fora; o rei de turbante laranja, à direita, aparece só em parte junto da curva. Não há margem fotográfica visível. Janela aprovada mantida.
+### 2027-01-06 · card-2
+
+Andrea Mantegna · A Adoração dos Magos · J. Paul Getty Museum — https://commons.wikimedia.org/wiki/File:Andrea_Mantegna_-_Adoration_of_the_Magi_-_85.PA.417_-_J._Paul_Getty_MuseumFXD.jpg
+
+Original local: `obras/olhe-de-novo/2027-01-06.jpg`. Janela aprovada `[2100, 2250, 1000]`, tamanho original `[5000, 3861]`.
+
+Janela original x=2100.000000, y=2250.000000, largura=1000.000000, altura=1355.000000 px; ampliação=0.608000.
+Arquivo recortado: `saida/olhe-de-novo/2027-01-06/obra-2.jpg`. Prova: `saida/olhe-de-novo/2027-01-06/recorte-2.png`.
+Dimensão do JPEG recortado: 1000 × 1355 px.
+
+Margens e faixas detectadas: `{"margens_detectadas": {"topo": 0, "base": 0, "esquerda": 0, "direita": 0}, "faixas_descartadas": [], "margens_visiveis": []}`.
+
+Card 2 e recorte-2.png finais conferidos. O detalhe fecha nos presentes: o vaso avermelhado com tampa de prata e a taça de porcelana azul e branca ficam inteiros dentro do arco, com as mãos que os seguram. Rostos e figuras ficam fora deste detalhe, como previsto. Não há margem fotográfica visível. Janela aprovada mantida.
+### 2027-01-06 · card-4-1
+
+Giotto · A Adoração dos Magos
+Capela Scrovegni, Pádua — https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._18_Scenes_from_the_Life_of_Christ_-_2._Adoration_of_the_Magi_-_WGA09195.jpg
+
+Original local: `obras/olhe-de-novo/2027-01-06-giotto.jpg`. Janela aprovada `[420, 380, 400]`, tamanho original `[1000, 1008]`.
+
+Janela original x=420.000000, y=380.000000, largura=400.000000, altura=525.000000 px; ampliação=0.770000.
+Arquivo recortado: `saida/olhe-de-novo/2027-01-06/obra-4-1.jpg`. Prova: `saida/olhe-de-novo/2027-01-06/recorte-4-1.png`.
+Dimensão do JPEG recortado: 400 × 525 px.
+
+Margens e faixas detectadas: `{"margens_detectadas": {"topo": 0, "base": 0, "esquerda": 0, "direita": 0}, "faixas_descartadas": [], "margens_visiveis": []}`.
+
+Nicho 1 do card 4 e recorte-4-1.png conferidos. O rei mais velho, ajoelhado, o Menino erguido por Maria e a mão dela ficam dentro do arco; a figura à esquerda e o manto de Maria aparecem em parte, e a estrela sobre a cabana fica fora. Não há margem fotográfica visível. Janela aprovada mantida.
+### 2027-01-06 · card-4-2
+
+Gentile da Fabriano
+Adoração dos Magos · Uffizi — https://commons.wikimedia.org/wiki/File:Gentile_da_fabriano,_adorazione_dei_magi.jpg
+
+Original local: `obras/olhe-de-novo/2027-01-06-gentile.jpg`. Janela aprovada `[620, 1120, 840]`, tamanho original `[3734, 2362]`.
+
+Janela original x=620.000000, y=1120.000000, largura=840.000000, altura=1102.000000 px; ampliação=0.366667.
+Arquivo recortado: `saida/olhe-de-novo/2027-01-06/obra-4-2.jpg`. Prova: `saida/olhe-de-novo/2027-01-06/recorte-4-2.png`.
+Dimensão do JPEG recortado: 616 × 808 px.
+
+Margens e faixas detectadas: `{"margens_detectadas": {"topo": 0, "base": 0, "esquerda": 0, "direita": 0}, "faixas_descartadas": [], "margens_visiveis": []}`.
+
+Nicho 2 do card 4 e recorte-4-2.png conferidos depois do ajuste da janela para [620, 1120, 840]: agora o arco mostra o Menino abençoando o rei mais velho, que se ajoelha e beija o seu pé, como diz o texto do card. A mão e o manto de Maria, a manjedoura e o focinho do boi completam o arco; os outros dois reis e o cortejo ficam fora. Não há margem fotográfica visível.
 
 ## Avisos e pendências
 
-Nenhum aviso geométrico ou de composição. Os cortes visuais de figuras e elementos periféricos estão registrados nas notas de cada obra; o YAML aprovado foi mantido.
+- 2027-01-06, card 4: texto: 4 linhas; previsto 3; selo_texto_px: 91px; previsto 116px; texto_assinatura_px: 91px; previsto 116px
 
 ## PDF e conferências
 
@@ -200,6 +258,20 @@ saida/olhe-de-novo/
   2026-12-30/recorte-2.png
   2026-12-30/recorte-4-1.png
   2026-12-30/recorte-4-2.png
+  2027-01-06/card-1.png
+  2027-01-06/card-2.png
+  2027-01-06/card-3.png
+  2027-01-06/card-4.png
+  2027-01-06/ficha.json
+  2027-01-06/obra-1.jpg
+  2027-01-06/obra-2.jpg
+  2027-01-06/obra-4-1.jpg
+  2027-01-06/obra-4-2.jpg
+  2027-01-06/olhe-de-novo-2027-01-06.pdf
+  2027-01-06/recorte-1.png
+  2027-01-06/recorte-2.png
+  2027-01-06/recorte-4-1.png
+  2027-01-06/recorte-4-2.png
   NOTAS-DAS-OBRAS.json
   RELATORIO.md
   elementos/nicho-340x420-olhe-de-novo.svg

@@ -1,6 +1,6 @@
 # Stories avulsos
 
-`python gerar.py stories-avulsos --grupo missa-da-noite-2026-12-24`
+`python gerar.py stories-avulsos --grupo terco-2027-01-09`
 
 ## Composição
 
@@ -41,6 +41,8 @@
 | rezo-por-voce-2026-12-18 | rezo-por-voce-2026-12-18 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
 | terco-2026-12-19 | terco-2026-12-19 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
 | missa-da-noite-2026-12-24 | missa-da-noite-2026-12-24 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
+| terco-2027-01-02 | terco-2027-01-02 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
+| terco-2027-01-09 | terco-2027-01-09 | 1 / 1 / 3 / — | 48 | — | 37 | 1628 |
 
 ## Obras, janelas e notas visuais
 
@@ -280,6 +282,24 @@ Prova do recorte: `missa-da-noite-2026-12-24/recorte-missa-da-noite-2026-12-24.p
 Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[]`; margens visíveis: `[]`.
 
 Obra e recorte registrados; conferir os elementos essenciais no arco.
+### terco-2027-01-02
+
+Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado — https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg
+
+Original: `obras/stories/terco.jpg`; foco `50% 35%`, zoom `1.15`. Janela x=118.826087, y=283.180863, largura=1584.347826, altura=1907.911819 px; ampliação=0.358507.
+Prova do recorte: `terco-2027-01-02/recorte-terco-2027-01-02.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[{"lado": "base", "largura": 10, "diferenca_cinza": 0.49814077936333945}]`; margens visíveis: `[]`.
+
+Story final e recorte-terco-2027-01-02.png conferidos. Mesma obra, foco 50% 35% e zoom 1.15 do terço de 12/12: os rostos de Maria e do Menino, os braços, as mãos e o terço ficam dentro do arco, e a base recorta a parte inferior do manto e do assento, como naquele story. Muda só a data (2/1) e a cor ouro do Natal. Não há margem fotográfica visível.
+### terco-2027-01-09
+
+Bartolomé Esteban Murillo · A Virgem do Rosário · Museu do Prado — https://commons.wikimedia.org/wiki/File:Virgen_del_Rosario_(Murillo).jpg
+
+Original: `obras/stories/terco.jpg`; foco `50% 35%`, zoom `1.15`. Janela x=118.826087, y=283.180863, largura=1584.347826, altura=1907.911819 px; ampliação=0.358507.
+Prova do recorte: `terco-2027-01-09/recorte-terco-2027-01-09.png`.
+Margens: `{"topo": 0, "base": 0, "esquerda": 0, "direita": 0}`; faixas descartadas: `[{"lado": "base", "largura": 10, "diferenca_cinza": 0.49814077936333945}]`; margens visíveis: `[]`.
+
+Story final e recorte-terco-2027-01-09.png conferidos. Mesma obra, foco 50% 35% e zoom 1.15 do terço de 12/12: os rostos de Maria e do Menino, os braços, as mãos e o terço ficam dentro do arco, e a base recorta a parte inferior do manto e do assento, como naquele story. Muda só a data (9/1) e a cor ouro do Natal. Não há margem fotográfica visível.
 
 ## Avisos e pendências
 
@@ -289,6 +309,8 @@ Obra e recorte registrados; conferir os elementos essenciais no arco.
 - rezo-por-voce-2026-12-18: obra com 10499376 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
 - terco-2026-12-19: obra com 4250021 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
 - missa-da-noite-2026-12-24: obra com 4217159 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
+- terco-2027-01-02: obra com 4250021 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
+- terco-2027-01-09: obra com 4250021 bytes, acima de 4 MB; o PDF incorpora a imagem inteira.
 Obras pendentes: nenhuma.
 Inspeção visual pendente: novena-imaculada-1, novena-imaculada-2, novena-imaculada-3, novena-imaculada-4, novena-imaculada-5, novena-imaculada-6, novena-imaculada-7, novena-imaculada-8, novena-imaculada-9, novena-natal-1, novena-natal-2, novena-natal-3, novena-natal-4, novena-natal-5, novena-natal-6, novena-natal-7, novena-natal-8, rezo-por-voce-2026-12-18, terco-2026-12-19, missa-da-noite-2026-12-24.
 
@@ -372,5 +394,13 @@ saida/stories-avulsos/
   terco-2026-12-19/recorte-terco-2026-12-19.png
   terco-2026-12-19/terco-2026-12-19.pdf
   terco-2026-12-19/terco-2026-12-19.png
+  terco-2027-01-02/ficha.json
+  terco-2027-01-02/recorte-terco-2027-01-02.png
+  terco-2027-01-02/terco-2027-01-02.pdf
+  terco-2027-01-02/terco-2027-01-02.png
+  terco-2027-01-09/ficha.json
+  terco-2027-01-09/recorte-terco-2027-01-09.png
+  terco-2027-01-09/terco-2027-01-09.pdf
+  terco-2027-01-09/terco-2027-01-09.png
   verificacao.json
 ```

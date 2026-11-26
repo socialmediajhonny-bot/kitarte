@@ -23,3 +23,14 @@
     credito: Jacopo Bassano · A Anunciação aos pastores · National Gallery of Art
     pagina: https://www.nga.gov/artworks/267-annunciation-shepherds
     foco: 50% 50%
+
+- data: 2027-01-04
+  cor: ouro
+  frase: Chegou a tua luz, apareceu sobre ti a glória do Senhor.
+  referencia: Is 60,1
+  obra:
+    arquivo: obras/coragem/2027-01-04.jpg
+    credito: Sassetta · A viagem dos Magos · Metropolitan Museum of Art
+    pagina: https://commons.wikimedia.org/wiki/File:The_Journey_of_the_Magi_MET_DT2597.jpg
+    foco: 68% 45%
+    zoom: 1.12

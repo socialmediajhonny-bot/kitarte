@@ -22,5 +22,15 @@
     "rostos_maria_jose_menino_preservados": true,
     "menino_e_berco_preservados": true,
     "nota": "Capa e recorte finais conferidos individualmente com foco 50% 75% e zoom 1.1. Maria, o Menino no berço e José ao fundo mantêm seus rostos e os gestos essenciais dentro do arco; o Menino, o berço e o livro de Maria ficam preservados. José permanece na área escura da pintura, como no original. Um anjo sobre a família continua visível, enquanto o grupo de anjos do canto superior esquerdo e partes periféricas do ambiente ficam fora do arco. Não há margem fotográfica detectada ou visível. O foco e o zoom aprovados foram mantidos; não é necessário ajuste para preservar a Sagrada Família."
+  },
+  "2027-01-03": {
+    "inspecionada": true,
+    "maria_e_menino_preservados": true,
+    "nota": "Capa e recorte finais conferidos com foco 42% 55% e zoom 1.4. Maria com o Menino no colo e o anjo que segura a estrela ficam dentro do arco; o primeiro rei, de manto vermelho, aparece à direita só em parte. José, à esquerda, e os outros dois reis ficam fora, porque a tapeçaria é muito mais larga que o arco. A borda tecida não entra no arco, e não há margem fotográfica visível. O foco e o zoom do YAML foram mantidos."
+  },
+  "2027-01-10": {
+    "inspecionada": true,
+    "cristo_joao_e_pomba_preservados": true,
+    "nota": "Capa e recorte finais conferidos com foco 50% 40% e zoom 1.1. Cristo, São João Batista derramando a água, a pomba no alto e os dois anjos ajoelhados à esquerda ficam dentro do arco; a palmeira e a paisagem laterais aparecem em parte. Não há margem fotográfica detectada ou visível. O foco e o zoom do YAML foram mantidos."
   }
 }
